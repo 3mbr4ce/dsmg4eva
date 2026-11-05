@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1793900334725,
+ "generatedAt": 1793901251237,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -2594,11 +2594,11 @@
    "name": "Damp",
    "surname": "Fat",
    "fullName": "Damp Fat",
-   "level": 12,
-   "experience": 3046,
-   "xpToLevel": 10100,
-   "xpPct": 30.16,
-   "levelProgress": 12.3,
+   "level": 13,
+   "experience": 1722,
+   "xpToLevel": 11400,
+   "xpPct": 15.11,
+   "levelProgress": 13.15,
    "className": "Shaman",
    "classId": 7,
    "race": "Dwarf",
@@ -2607,31 +2607,31 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1793895311000,
-   "apiItemLevel": 3,
+   "lastLogin": 1793900960000,
+   "apiItemLevel": 4,
    "gear": [
     {
      "slot": "BACK",
      "slotName": "Back",
-     "itemId": 4662,
-     "name": "Journeyman's Cloak",
+     "itemId": 2165,
+     "name": "Old Blanchy's Blanket",
      "quality": "COMMON",
-     "ilvl": 8,
+     "ilvl": 10,
      "inventoryType": "CLOAK",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133767.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133762.jpg",
      "tt": {
-      "bind": "",
+      "bind": "Binds when picked up",
       "unique": "",
       "inv": "Back",
       "sub": "Cloth",
-      "armor": "7 Armor",
+      "armor": "9 Armor",
       "stats": [],
       "spells": [],
-      "req": "Requires Level 3",
+      "req": "",
       "reqClass": "",
       "dur": "",
-      "sell": 24,
+      "sell": 45,
       "desc": ""
      }
     },
@@ -2655,7 +2655,7 @@
       "spells": [],
       "req": "Requires Level 4",
       "reqClass": "",
-      "dur": "Durability 35 / 55",
+      "dur": "Durability 55 / 55",
       "sell": 37,
       "desc": ""
      }
@@ -2705,7 +2705,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 8 / 16",
+      "dur": "Durability 16 / 16",
       "sell": 2,
       "desc": ""
      }
@@ -2730,7 +2730,7 @@
       "spells": [],
       "req": "Requires Level 6",
       "reqClass": "",
-      "dur": "Durability 13 / 20",
+      "dur": "Durability 20 / 20",
       "sell": 47,
       "desc": ""
      }
@@ -2755,7 +2755,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 11 / 16",
+      "dur": "Durability 16 / 16",
       "sell": 4,
       "desc": ""
      }
@@ -2763,25 +2763,36 @@
     {
      "slot": "LEGS",
      "slotName": "Legs",
-     "itemId": 61,
-     "name": "Dwarven Leather Pants",
-     "quality": "COMMON",
-     "ilvl": 5,
+     "itemId": 3578,
+     "name": "Harvester's Pants",
+     "quality": "UNCOMMON",
+     "ilvl": 15,
      "inventoryType": "LEGS",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134706.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134585.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Legs",
       "sub": "Leather",
-      "armor": "29 Armor",
-      "stats": [],
+      "armor": "61 Armor",
+      "stats": [
+       {
+        "s": "+2 Agility",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+3 Spirit",
+        "neg": false,
+        "eq": true
+       }
+      ],
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 24 / 35",
-      "sell": 12,
+      "dur": "Durability 45 / 45",
+      "sell": 339,
       "desc": ""
      }
     },
@@ -2816,7 +2827,7 @@
       "spells": [],
       "req": "Requires Level 12",
       "reqClass": "",
-      "dur": "Durability 24 / 25",
+      "dur": "Durability 25 / 25",
       "sell": 280,
       "desc": ""
      }
@@ -2854,7 +2865,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 32 / 50",
+      "dur": "Durability 50 / 50",
       "sell": 601,
       "desc": "",
       "weapon": {
@@ -2865,7 +2876,7 @@
      }
     }
    ],
-   "itemLevel": 9.44,
+   "itemLevel": 10.78,
    "pvp": {
     "hk": 0,
     "rank": 0,
@@ -2875,17 +2886,17 @@
     "trees": [
      {
       "name": "Enhancement",
-      "points": 3
+      "points": 4
      }
     ],
-    "split": "3",
+    "split": "4",
     "main": "Enhancement"
    },
    "professions": {
     "primaries": [
      {
       "name": "Herbalism",
-      "skill": 78,
+      "skill": 79,
       "max": 150,
       "recipes": 3
      }
@@ -2907,8 +2918,8 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/damp-fat",
    "weekly": {
-    "levels": 1.01,
-    "ilvl": 2.22,
+    "levels": 1.86,
+    "ilvl": 3.56,
     "hk": 0,
     "rank": 0
    },
