@@ -65,6 +65,8 @@ section{margin-top:18px}
 .who{min-width:0;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
 .who .n{font-weight:600}
 .who small{color:var(--muted);font-size:.72rem;margin-left:5px}
+.aka{display:inline-block;max-width:9.5em;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;vertical-align:middle;margin-left:5px;padding:0 6px;border-radius:9px;font-size:.6rem;line-height:1.45;letter-spacing:.5px;font-weight:600;font-style:normal;text-transform:none;color:#ffe08a;background:linear-gradient(180deg,rgba(140,22,22,.55),rgba(60,10,10,.55));border:1px solid rgba(224,165,38,.55)}
+.friend-h .aka{font-size:.68rem;letter-spacing:1px;max-width:12em}
 .val{font-weight:700;color:#fff;white-space:nowrap;text-align:right;font-size:.95rem}
 .val.up{color:#7be37b}.val.zero{color:#777}
 .crown{display:inline-block;animation:bob 2s ease-in-out infinite}
@@ -288,7 +290,10 @@ const signed=(n,d)=>{n=Number(n)||0;return (n>0?'+':'')+(d?n.toFixed(d):Math.rou
 const chars=()=>(DATA&&DATA.characters)||[];
 const ok=()=>chars().filter(c=>!c.error);
 const topBy=(l,f,n)=>l.slice().sort((a,b)=>f(b)-f(a)).slice(0,n||3);
-const nameHtml=c=>'<span class="n" style="color:'+cc(c)+'">'+esc(c.name)+'</span><small>'+esc(c.surname||'')+' • '+esc(c.friend)+'</small>';
+const akaOf=f=>{const x=DATA&&(DATA.friends||[]).find(y=>y.friend===f);return x&&x.aka?String(x.aka):'';};
+const akaHtml=f=>{const a=akaOf(f);return a?'<span class="aka" title="'+esc(f)+' aka '+esc(a)+'">AKA “'+esc(a)+'”</span>':'';};
+const friendHtml=f=>esc(f)+akaHtml(f);
+const nameHtml=c=>'<span class="n" style="color:'+cc(c)+'">'+esc(c.name)+'</span><small>'+esc(c.surname||'')+' • '+friendHtml(c.friend)+'</small>';
 const ico=c=>'<img class="ico" src="'+clsIcon(c)+'" alt="" loading="lazy">';
 const barHtml=(pct,label,cls)=>'<div class="bar '+(cls||'')+'"><i data-w="'+Math.max(0,Math.min(100,pct)).toFixed(1)+'"></i>'+(label?'<b>'+label+'</b>':'')+'</div>';
 const berlin=ms=>ms?new Date(ms).toLocaleString('de-DE',{timeZone:'Europe/Berlin',dateStyle:'short',timeStyle:'short'})+' (Berlin)':'–';
@@ -311,7 +316,7 @@ function detail(c,ctx){
     '<div class="kvs">'+(max?'':kv('XP current',num(cur))+kv('XP needed',num(need))+kv('XP remaining',num(Math.max(0,need-cur))))+
     kv('Levels this week',signed(w.levels,2))+kv('Ding '+cap,c.ding60At?berlin(c.ding60At):'not yet')+'</div>';
   return '<div class="xd"><div><div class="xdb">'+f+'<div class="kvs">'+
-    kv('Class',esc(c.className)+(c.spec?' • '+esc(c.spec.main):''))+kv('Race',esc(c.race))+kv('Faction',esc(title(c.faction)))+kv('Ruleset',esc(c.ruleset))+
+    kv('Player',friendHtml(c.friend))+kv('Class',esc(c.className)+(c.spec?' • '+esc(c.spec.main):''))+kv('Race',esc(c.race))+kv('Faction',esc(title(c.faction)))+kv('Ruleset',esc(c.ruleset))+
     kv('Guild',c.guild?'&lt;'+esc(c.guild)+'&gt;':'none')+kv('Item level',fmt(c.itemLevel,1))+kv('Last login',berlin(c.lastLogin))+
     kv('This week',signed(w.levels,2)+' lvl • '+signed(w.ilvl,1)+' iLvl • '+signed(w.hk)+' HK')+'</div>'+
     '<div class="btns"><button class="btn" type="button" data-gear="'+esc(c.slug)+'">Gear</button><a class="btn ghost" href="'+esc(c.armoryUrl)+'" target="_blank" rel="noopener">Armory ↗</a></div>'+
@@ -400,7 +405,7 @@ function card(c){
    '<button class="card-sum" type="button" aria-expanded="false">'+
     '<div class="ctop"><div class="avatar"><img class="cls" src="'+clsIcon(c)+'" alt="">'+(ri?'<img class="race" src="'+ri+'" alt="" onerror="this.remove()">':'')+'</div>'+
     '<div style="min-width:0;flex:1"><div class="cname">'+esc(c.name)+' <span>'+esc(c.surname)+'</span>'+(c.isMain?'<span class="badge">MAIN</span>':'')+'</div>'+
-    '<div class="csub">'+esc(c.race)+' '+esc(c.className)+(sp?' • '+esc(sp.main)+' '+esc(sp.split):'')+'</div>'+
+    '<div class="csub">'+(akaOf(c.friend)?esc(c.friend)+akaHtml(c.friend)+' • ':'')+esc(c.race)+' '+esc(c.className)+(sp?' • '+esc(sp.main)+' '+esc(sp.split):'')+'</div>'+
     '<div class="csub">'+(c.guild?'&lt;'+esc(c.guild)+'&gt;':'no guild')+' • '+esc(c.ruleset)+'</div></div><span class="chev">▼</span></div>'+
     '<div style="margin-top:9px">'+barHtml(c.level>=cap?100:c.xpPct,c.level>=cap?'MAX LEVEL':fmt(c.xpPct)+'% to '+(c.level+1),'xp')+'</div>'+
     '<div class="stats"><div class="stat"><b data-count="'+c.level+'">'+c.level+'</b><span>Level</span></div><div class="stat"><b data-count="'+c.itemLevel+'" data-dec="1">'+fmt(c.itemLevel,1)+'</b><span>iLvl</span></div><div class="stat"><b data-count="'+c.pvp.hk+'">'+c.pvp.hk+'</b><span>'+(c.pvp.rank?'R'+c.pvp.rank:'HKs')+'</span></div></div>'+
@@ -419,7 +424,7 @@ function renderFriends(){
   const openAlts=new Set([...document.querySelectorAll('.alts.open')].map(e=>e.dataset.friend));
   $('friends').innerHTML=DATA.friends.map(f=>{
     const mine=chars().filter(c=>c.friend===f.friend), main=mine.filter(c=>c.isMain), alts=mine.filter(c=>!c.isMain);
-    return '<div class="friend panel reveal"><div class="friend-h"><span>'+esc(f.friend)+'</span>'+(alts.length?'<button type="button" data-alts="'+esc(f.friend)+'" aria-expanded="false">+'+alts.length+' ALT'+(alts.length>1?'S':'')+'</button>':'')+'</div>'+
+    return '<div class="friend panel reveal"><div class="friend-h"><span>'+friendHtml(f.friend)+'</span>'+(alts.length?'<button type="button" data-alts="'+esc(f.friend)+'" aria-expanded="false">+'+alts.length+' ALT'+(alts.length>1?'S':'')+'</button>':'')+'</div>'+
       '<div class="stack">'+main.map(card).join('')+(alts.length?'<div class="alts'+(openAlts.has(f.friend)?' open':'')+'" data-friend="'+esc(f.friend)+'"><div>'+alts.map(card).join('')+'</div></div>':'')+'</div></div>';
   }).join('');
   open.forEach(s=>{const el=document.querySelector('.card[data-slug="'+CSS.escape(s)+'"]');if(el)toggleCard(el,true);});
@@ -538,7 +543,7 @@ if(canHover){
 addEventListener('scroll',()=>{if(TT.on&&!$('tt').classList.contains('sheet'))hideTT(true);},{passive:true});
 function openSheet(slug){
   const c=chars().find(x=>x.slug===slug);if(!c)return;
-  $('sheetTitle').innerHTML='<span style="color:'+cc(c)+'">'+esc(c.fullName)+'</span>';
+  $('sheetTitle').innerHTML='<span style="color:'+cc(c)+'">'+esc(c.fullName)+'</span> <small style="font-weight:400;color:var(--muted);font-size:.8rem">'+friendHtml(c.friend)+'</small>';
   $('sheetMeta').textContent='iLvl '+fmt(c.itemLevel,1)+' (avg of equipped slots, shirt/tabard excluded) • '+c.gear.length+' items • tap an item for its tooltip';
   $('sheetList').innerHTML=c.gear.map((g,i)=>'<div class="gear-row" role="button" tabindex="0" data-item="'+esc(c.slug)+':'+i+'" style="animation-delay:'+(i*35)+'ms">'+
     '<img class="q-'+esc(g.quality)+'" src="'+esc(g.icon||ICON+'inv_misc_questionmark.jpg')+'" alt="" onerror="this.src=\''+ICON+'inv_misc_questionmark.jpg\'">'+
@@ -589,7 +594,7 @@ function maybeIntro(force){
   $('podium').innerHTML=order.map(i=>{const c=top[i];if(!c)return '<div></div>';const ri=raceIcon(c);
     return '<div class="pod r'+(i+1)+'" style="--cc:'+cc(c)+'"><div class="who2" style="animation-delay:'+delay[i]+'s">'+
       '<div><img class="c" src="'+clsIcon(c)+'" alt="">'+(ri?'<img class="r" src="'+ri+'" alt="" onerror="this.remove()">':'')+'</div>'+
-      '<div class="nm">'+esc(c.name)+'</div><div class="sn">'+esc(c.surname)+' • '+esc(c.friend)+'</div>'+
+      '<div class="nm">'+esc(c.name)+'</div><div class="sn">'+esc(c.surname)+' • '+friendHtml(c.friend)+'</div>'+
       '<div class="lv">Lvl '+c.level+(c.level<DATA.levelCap?' <small style="color:var(--muted);font-weight:400">'+fmt(c.xpPct)+'%</small>':' 👑')+'</div>'+
       '<div class="xpb">'+barHtml(c.level>=DATA.levelCap?100:c.xpPct,'','xp')+'</div></div>'+
       '<div class="blk">'+(i+1)+'</div></div>';}).join('');

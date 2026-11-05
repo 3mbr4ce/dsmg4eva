@@ -91,7 +91,7 @@ async function main() {
   const bundle = {
     app: APP_NAME, generatedAt: Date.now(), region: REGION, levelCap: LEVEL_CAP, weekId,
     weekStartedAt: snap.takenAt, nextResetAt: nextResetMs(), weeklyReset: WEEKLY_RESET, raidNights: RAID_NIGHTS,
-    friends: FRIENDS.map(f => ({ friend: f.friend })),
+    friends: FRIENDS.map(f => (f.aka ? { friend: f.friend, aka: String(f.aka) } : { friend: f.friend })),
     guild: GUILD_SLUG ? await fetchGuild(GUILD_SLUG, token) : null,
     characters: chars
   };
