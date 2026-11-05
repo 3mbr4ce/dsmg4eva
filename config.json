@@ -10,7 +10,7 @@
   "friends": [
     {
       "friend": "Billy",
-      "main": "Pip-Jaeger",
+      "main": [],
       "alts": []
     },
     {
@@ -26,7 +26,7 @@
     {
       "friend": "Dala",
       "aka": "Schwitzer",
-      "main": "Garethos-Blackwood",
+      "main": "Dala-Hoon",
       "alts": []
     },
     {
@@ -36,7 +36,7 @@
     },
     {
       "friend": "Dom",
-      "main": "Mo-Rx",
+      "main": [],
       "alts": []
     }
   ]
