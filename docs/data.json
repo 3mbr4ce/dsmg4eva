@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1793893207408,
+ "generatedAt": 1793895517520,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -836,10 +836,10 @@
    "surname": "Kai",
    "fullName": "Ash Kai",
    "level": 24,
-   "experience": 17413,
+   "experience": 24863,
    "xpToLevel": 31700,
-   "xpPct": 54.93,
-   "levelProgress": 24.55,
+   "xpPct": 78.43,
+   "levelProgress": 24.78,
    "className": "Rogue",
    "classId": 4,
    "race": "Human",
@@ -848,7 +848,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1793892779000,
+   "lastLogin": 1793894338000,
    "apiItemLevel": 15,
    "gear": [
     {
@@ -1142,13 +1142,13 @@
     {
      "slot": "FINGER_1",
      "slotName": "Ring 1",
-     "itemId": 279867,
-     "name": "Slain Baron's Signet",
-     "quality": "UNCOMMON",
-     "ilvl": 23,
+     "itemId": 277210,
+     "name": "Pyrewood Signet Ring",
+     "quality": "RARE",
+     "ilvl": 25,
      "inventoryType": "FINGER",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133361.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133344.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
@@ -1157,21 +1157,26 @@
       "armor": "",
       "stats": [
        {
-        "s": "+3 Stamina",
+        "s": "+4 Agility",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+1 Defense",
+        "s": "+4 Stamina",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+4 Hit",
         "neg": false,
         "eq": true
        }
       ],
       "spells": [],
       "req": "",
-      "reqClass": "",
+      "reqClass": "Classes: Rogue",
       "dur": "",
-      "sell": 815,
+      "sell": 1355,
       "desc": ""
      }
     },
@@ -1339,7 +1344,7 @@
      }
     }
    ],
-   "itemLevel": 21.23,
+   "itemLevel": 21.38,
    "pvp": {
     "hk": 0,
     "rank": 0,
@@ -1391,8 +1396,8 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/ash-kai",
    "weekly": {
-    "levels": 11.11,
-    "ilvl": 10.98,
+    "levels": 11.34,
+    "ilvl": 11.13,
     "hk": 0,
     "rank": 0
    },
@@ -2589,11 +2594,11 @@
    "name": "Damp",
    "surname": "Fat",
    "fullName": "Damp Fat",
-   "level": 11,
-   "experience": 8537,
-   "xpToLevel": 8800,
-   "xpPct": 97.01,
-   "levelProgress": 11.97,
+   "level": 12,
+   "experience": 3046,
+   "xpToLevel": 10100,
+   "xpPct": 30.16,
+   "levelProgress": 12.3,
    "className": "Shaman",
    "classId": 7,
    "race": "Dwarf",
@@ -2602,8 +2607,8 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1793887731000,
-   "apiItemLevel": 1,
+   "lastLogin": 1793895311000,
+   "apiItemLevel": 3,
    "gear": [
     {
      "slot": "BACK",
@@ -2650,7 +2655,7 @@
       "spells": [],
       "req": "Requires Level 4",
       "reqClass": "",
-      "dur": "Durability 11 / 55",
+      "dur": "Durability 35 / 55",
       "sell": 37,
       "desc": ""
      }
@@ -2700,7 +2705,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 3 / 16",
+      "dur": "Durability 8 / 16",
       "sell": 2,
       "desc": ""
      }
@@ -2725,7 +2730,7 @@
       "spells": [],
       "req": "Requires Level 6",
       "reqClass": "",
-      "dur": "Durability 1 / 20",
+      "dur": "Durability 13 / 20",
       "sell": 47,
       "desc": ""
      }
@@ -2750,7 +2755,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 2 / 16",
+      "dur": "Durability 11 / 16",
       "sell": 4,
       "desc": ""
      }
@@ -2775,7 +2780,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 9 / 35",
+      "dur": "Durability 24 / 35",
       "sell": 12,
       "desc": ""
      }
@@ -2783,25 +2788,36 @@
     {
      "slot": "FEET",
      "slotName": "Feet",
-     "itemId": 1367,
-     "name": "Ragged Leather Boots",
-     "quality": "POOR",
-     "ilvl": 3,
+     "itemId": 2983,
+     "name": "Seer's Boots",
+     "quality": "UNCOMMON",
+     "ilvl": 17,
      "inventoryType": "FEET",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132540.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132539.jpg",
      "tt": {
-      "bind": "",
+      "bind": "Binds when equipped",
       "unique": "",
       "inv": "Feet",
-      "sub": "Leather",
-      "armor": "16 Armor",
-      "stats": [],
+      "sub": "Cloth",
+      "armor": "21 Armor",
+      "stats": [
+       {
+        "s": "+1 Intellect",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+3 Stamina",
+        "neg": false,
+        "eq": false
+       }
+      ],
       "spells": [],
-      "req": "",
+      "req": "Requires Level 12",
       "reqClass": "",
-      "dur": "Durability 0 / 20",
-      "sell": 2,
+      "dur": "Durability 24 / 25",
+      "sell": 280,
       "desc": ""
      }
     },
@@ -2838,7 +2854,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 46 / 50",
+      "dur": "Durability 32 / 50",
       "sell": 601,
       "desc": "",
       "weapon": {
@@ -2849,7 +2865,7 @@
      }
     }
    ],
-   "itemLevel": 7.89,
+   "itemLevel": 9.44,
    "pvp": {
     "hk": 0,
     "rank": 0,
@@ -2859,10 +2875,10 @@
     "trees": [
      {
       "name": "Enhancement",
-      "points": 2
+      "points": 3
      }
     ],
-    "split": "2",
+    "split": "3",
     "main": "Enhancement"
    },
    "professions": {
@@ -2891,8 +2907,8 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/damp-fat",
    "weekly": {
-    "levels": 0.68,
-    "ilvl": 0.67,
+    "levels": 1.01,
+    "ilvl": 2.22,
     "hk": 0,
     "rank": 0
    },
@@ -2907,11 +2923,11 @@
    "name": "Garethos",
    "surname": "Blackwood",
    "fullName": "Garethos Blackwood",
-   "level": 17,
-   "experience": 15703,
-   "xpToLevel": 17700,
-   "xpPct": 88.72,
-   "levelProgress": 17.89,
+   "level": 18,
+   "experience": 12808,
+   "xpToLevel": 19400,
+   "xpPct": 66.02,
+   "levelProgress": 18.66,
    "className": "Warrior",
    "classId": 1,
    "race": "Human",
@@ -2920,9 +2936,40 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1793890951000,
-   "apiItemLevel": 7,
+   "lastLogin": 1793894513000,
+   "apiItemLevel": 10,
    "gear": [
+    {
+     "slot": "SHOULDER",
+     "slotName": "Shoulders",
+     "itemId": 6189,
+     "name": "Durable Chain Shoulders",
+     "quality": "UNCOMMON",
+     "ilvl": 24,
+     "inventoryType": "SHOULDER",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135036.jpg",
+     "tt": {
+      "bind": "Binds when picked up",
+      "unique": "",
+      "inv": "Shoulder",
+      "sub": "Mail",
+      "armor": "135 Armor",
+      "stats": [
+       {
+        "s": "+6 Stamina",
+        "neg": false,
+        "eq": false
+       }
+      ],
+      "spells": [],
+      "req": "",
+      "reqClass": "",
+      "dur": "Durability 55 / 55",
+      "sell": 624,
+      "desc": ""
+     }
+    },
     {
      "slot": "BACK",
      "slotName": "Back",
@@ -2990,7 +3037,7 @@
       "spells": [],
       "req": "Requires Level 6",
       "reqClass": "",
-      "dur": "Durability 37 / 65",
+      "dur": "Durability 60 / 65",
       "sell": 189,
       "desc": ""
      }
@@ -3051,7 +3098,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 14 / 25",
+      "dur": "Durability 25 / 25",
       "sell": 271,
       "desc": ""
      }
@@ -3076,7 +3123,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 10 / 20",
+      "dur": "Durability 19 / 20",
       "sell": 42,
       "desc": ""
      }
@@ -3112,7 +3159,7 @@
       "spells": [],
       "req": "Requires Level 11",
       "reqClass": "",
-      "dur": "Durability 16 / 25",
+      "dur": "Durability 24 / 25",
       "sell": 233,
       "desc": ""
      }
@@ -3148,7 +3195,7 @@
       "spells": [],
       "req": "Requires Level 10",
       "reqClass": "",
-      "dur": "Durability 28 / 55",
+      "dur": "Durability 54 / 55",
       "sell": 415,
       "desc": ""
      }
@@ -3173,30 +3220,66 @@
       "spells": [],
       "req": "Requires Level 8",
       "reqClass": "",
-      "dur": "Durability 21 / 35",
+      "dur": "Durability 34 / 35",
       "sell": 138,
+      "desc": ""
+     }
+    },
+    {
+     "slot": "FINGER_1",
+     "slotName": "Ring 1",
+     "itemId": 1449,
+     "name": "Minor Channeling Ring",
+     "quality": "UNCOMMON",
+     "ilvl": 24,
+     "inventoryType": "FINGER",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133355.jpg",
+     "tt": {
+      "bind": "Binds when picked up",
+      "unique": "",
+      "inv": "Finger",
+      "sub": "Miscellaneous",
+      "armor": "",
+      "stats": [
+       {
+        "s": "+2 Intellect",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+5 Spell Power",
+        "neg": false,
+        "eq": true
+       }
+      ],
+      "spells": [],
+      "req": "",
+      "reqClass": "",
+      "dur": "",
+      "sell": 1875,
       "desc": ""
      }
     },
     {
      "slot": "MAIN_HAND",
      "slotName": "Main Hand",
-     "itemId": 3154,
-     "name": "Thelsamar Axe",
+     "itemId": 2908,
+     "name": "Thornblade",
      "quality": "UNCOMMON",
-     "ilvl": 18,
-     "inventoryType": "WEAPONMAINHAND",
+     "ilvl": 20,
+     "inventoryType": "WEAPON",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132402.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135651.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
-      "inv": "Main Hand",
-      "sub": "Axe",
+      "inv": "One-Hand",
+      "sub": "Dagger",
       "armor": "",
       "stats": [
        {
-        "s": "+2 Agility",
+        "s": "+3 Agility",
         "neg": false,
         "eq": false
        }
@@ -3204,13 +3287,13 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 31 / 55",
-      "sell": 1094,
+      "dur": "Durability 40 / 40",
+      "sell": 1409,
       "desc": "",
       "weapon": {
-       "dmg": "13 - 25 Damage",
-       "speed": "Speed 2.10",
-       "dps": "(9.0 damage per second)"
+       "dmg": "11 - 21 Damage",
+       "speed": "Speed 1.60",
+       "dps": "(10 damage per second)"
       }
      }
     },
@@ -3240,7 +3323,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 30 / 60",
+      "dur": "Durability 50 / 60",
       "sell": 613,
       "desc": ""
      }
@@ -3271,7 +3354,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 112 / 200",
+      "dur": "Durability 169 / 200",
       "sell": 181,
       "desc": "",
       "weapon": {
@@ -3282,9 +3365,9 @@
      }
     }
    ],
-   "itemLevel": 14.4,
+   "itemLevel": 16.17,
    "pvp": {
-    "hk": 0,
+    "hk": 3,
     "rank": 0,
     "rankName": "Unranked"
    },
@@ -3292,10 +3375,10 @@
     "trees": [
      {
       "name": "Protection",
-      "points": 8
+      "points": 9
      }
     ],
-    "split": "8",
+    "split": "9",
     "main": "Protection"
    },
    "professions": {
@@ -3330,9 +3413,9 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/garethos-blackwood",
    "weekly": {
-    "levels": 7.49,
-    "ilvl": 7.2,
-    "hk": 0,
+    "levels": 8.26,
+    "ilvl": 8.97,
+    "hk": 3,
     "rank": 0
    },
    "ding60At": null
