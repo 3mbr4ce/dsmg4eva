@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1793884497307,
+ "generatedAt": 1793886882200,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -382,11 +382,11 @@
    "name": "Steppenwolf",
    "surname": "One",
    "fullName": "Steppenwolf One",
-   "level": 16,
-   "experience": 12897,
-   "xpToLevel": 16000,
-   "xpPct": 80.61,
-   "levelProgress": 16.81,
+   "level": 17,
+   "experience": 7783,
+   "xpToLevel": 17700,
+   "xpPct": 43.97,
+   "levelProgress": 17.44,
    "className": "Warrior",
    "classId": 1,
    "race": "Night Elf",
@@ -395,8 +395,8 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1793883835000,
-   "apiItemLevel": 9,
+   "lastLogin": 1793886797000,
+   "apiItemLevel": 8,
    "gear": [
     {
      "slot": "BACK",
@@ -465,7 +465,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 73 / 75",
+      "dur": "Durability 67 / 75",
       "sell": 407,
       "desc": ""
      }
@@ -526,7 +526,7 @@
       "spells": [],
       "req": "Requires Level 14",
       "reqClass": "",
-      "dur": "Durability 30 / 30",
+      "dur": "Durability 27 / 30",
       "sell": 225,
       "desc": ""
      }
@@ -551,7 +551,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 20 / 20",
+      "dur": "Durability 18 / 20",
       "sell": 41,
       "desc": ""
      }
@@ -587,7 +587,7 @@
       "spells": [],
       "req": "Requires Level 13",
       "reqClass": "",
-      "dur": "Durability 25 / 25",
+      "dur": "Durability 23 / 25",
       "sell": 198,
       "desc": ""
      }
@@ -623,7 +623,7 @@
       "spells": [],
       "req": "Requires Level 16",
       "reqClass": "",
-      "dur": "Durability 65 / 65",
+      "dur": "Durability 62 / 65",
       "sell": 577,
       "desc": ""
      }
@@ -654,7 +654,7 @@
       "spells": [],
       "req": "Requires Level 4",
       "reqClass": "",
-      "dur": "Durability 30 / 30",
+      "dur": "Durability 26 / 30",
       "sell": 49,
       "desc": ""
      }
@@ -662,35 +662,70 @@
     {
      "slot": "MAIN_HAND",
      "slotName": "Main Hand",
-     "itemId": 279895,
-     "name": "Ironforge Greathammer",
-     "quality": "RARE",
-     "ilvl": 18,
-     "inventoryType": "TWOHWEAPON",
+     "itemId": 6969,
+     "name": "Elunite Dagger",
+     "quality": "UNCOMMON",
+     "ilvl": 15,
+     "inventoryType": "WEAPON",
      "enchants": [
-      "Weighted +2"
+      "Sharpened +2"
      ],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133058.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135641.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
-      "inv": "Two-Hand",
-      "sub": "Mace",
+      "inv": "One-Hand",
+      "sub": "Dagger",
       "armor": "",
-      "stats": [],
-      "spells": [
-       "Chance on hit: Blasts a target for 42 Fire damage."
+      "stats": [
+       {
+        "s": "+1 Stamina",
+        "neg": false,
+        "eq": false
+       }
       ],
+      "spells": [],
       "req": "",
-      "reqClass": "",
-      "dur": "Durability 70 / 70",
-      "sell": 1637,
+      "reqClass": "Classes: Warrior",
+      "dur": "Durability 32 / 35",
+      "sell": 701,
       "desc": "",
       "weapon": {
-       "dmg": "39 - 60 Damage",
-       "speed": "Speed 3.10",
-       "dps": "(16.0 damage per second)"
+       "dmg": "9 - 17 Damage",
+       "speed": "Speed 1.70",
+       "dps": "(7.6 damage per second)"
       }
+     }
+    },
+    {
+     "slot": "OFF_HAND",
+     "slotName": "Off Hand",
+     "itemId": 3651,
+     "name": "Veteran Shield",
+     "quality": "UNCOMMON",
+     "ilvl": 15,
+     "inventoryType": "SHIELD",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134955.jpg",
+     "tt": {
+      "bind": "Binds when equipped",
+      "unique": "",
+      "inv": "Off Hand",
+      "sub": "Shield",
+      "armor": "328 Armor",
+      "stats": [
+       {
+        "s": "+2 Strength",
+        "neg": false,
+        "eq": false
+       }
+      ],
+      "spells": [],
+      "req": "Requires Level 10",
+      "reqClass": "",
+      "dur": "Durability 48 / 55",
+      "sell": 435,
+      "desc": ""
      }
     },
     {
@@ -719,7 +754,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 200 / 200",
+      "dur": "Durability 199 / 200",
       "sell": 442,
       "desc": "",
       "weapon": {
@@ -730,7 +765,7 @@
      }
     }
    ],
-   "itemLevel": 16,
+   "itemLevel": 15.4,
    "pvp": {
     "hk": 0,
     "rank": 0,
@@ -740,17 +775,17 @@
     "trees": [
      {
       "name": "Protection",
-      "points": 7
+      "points": 8
      }
     ],
-    "split": "7",
+    "split": "8",
     "main": "Protection"
    },
    "professions": {
     "primaries": [
      {
       "name": "Skinning",
-      "skill": 65,
+      "skill": 76,
       "max": 150,
       "recipes": 2
      },
@@ -784,8 +819,8 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/steppenwolf-one",
    "weekly": {
-    "levels": 2.56,
-    "ilvl": 4.3,
+    "levels": 3.19,
+    "ilvl": 3.7,
     "hk": 0,
     "rank": 0
    },
