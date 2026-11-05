@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1793886882200,
+ "generatedAt": 1793888149039,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -835,11 +835,11 @@
    "name": "Ash",
    "surname": "Kai",
    "fullName": "Ash Kai",
-   "level": 21,
-   "experience": 15287,
-   "xpToLevel": 25200,
-   "xpPct": 60.66,
-   "levelProgress": 21.61,
+   "level": 23,
+   "experience": 24108,
+   "xpToLevel": 29400,
+   "xpPct": 82,
+   "levelProgress": 23.82,
    "className": "Rogue",
    "classId": 4,
    "race": "Human",
@@ -848,8 +848,8 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1793876069000,
-   "apiItemLevel": 12,
+   "lastLogin": 1793887398000,
+   "apiItemLevel": 13,
    "gear": [
     {
      "slot": "AMMO",
@@ -950,7 +950,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 90 / 90",
+      "dur": "Durability 38 / 90",
       "sell": 1441,
       "desc": ""
      }
@@ -986,7 +986,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 25 / 25",
+      "dur": "Durability 14 / 25",
       "sell": 462,
       "desc": ""
      }
@@ -994,10 +994,10 @@
     {
      "slot": "HANDS",
      "slotName": "Hands",
-     "itemId": 2036,
-     "name": "Dusty Mining Gloves",
+     "itemId": 5629,
+     "name": "Hammerfist Gloves",
      "quality": "UNCOMMON",
-     "ilvl": 18,
+     "ilvl": 20,
      "inventoryType": "HAND",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132939.jpg",
@@ -1006,10 +1006,10 @@
       "unique": "",
       "inv": "Hands",
       "sub": "Leather",
-      "armor": "46 Armor",
+      "armor": "48 Armor",
       "stats": [
        {
-        "s": "+2 Agility",
+        "s": "+3 Agility",
         "neg": false,
         "eq": false
        },
@@ -1022,8 +1022,8 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 20 / 20",
-      "sell": 258,
+      "dur": "Durability 21 / 25",
+      "sell": 347,
       "desc": ""
      }
     },
@@ -1058,7 +1058,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 20 / 20",
+      "dur": "Durability 4 / 20",
       "sell": 240,
       "desc": ""
      }
@@ -1096,7 +1096,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 60 / 60",
+      "dur": "Durability 28 / 60",
       "sell": 1156,
       "desc": ""
      }
@@ -1134,7 +1134,7 @@
       "spells": [],
       "req": "Requires Level 10",
       "reqClass": "",
-      "dur": "Durability 35 / 35",
+      "dur": "Durability 18 / 35",
       "sell": 307,
       "desc": ""
      }
@@ -1183,7 +1183,9 @@
      "quality": "RARE",
      "ilvl": 23,
      "inventoryType": "WEAPON",
-     "enchants": [],
+     "enchants": [
+      "Instant Poison (52 |4Charge:Charges;)"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135325.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -1206,7 +1208,7 @@
       "spells": [],
       "req": "Requires Level 18",
       "reqClass": "",
-      "dur": "Durability 75 / 75",
+      "dur": "Durability 34 / 75",
       "sell": 2551,
       "desc": "",
       "weapon": {
@@ -1224,7 +1226,9 @@
      "quality": "RARE",
      "ilvl": 21,
      "inventoryType": "WEAPON",
-     "enchants": [],
+     "enchants": [
+      "Instant Poison (56 |4Charge:Charges;)"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132416.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -1247,7 +1251,7 @@
       "spells": [],
       "req": "Requires Level 17",
       "reqClass": "",
-      "dur": "Durability 70 / 70",
+      "dur": "Durability 31 / 70",
       "sell": 1963,
       "desc": "",
       "weapon": {
@@ -1283,7 +1287,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 50 / 50",
+      "dur": "Durability 28 / 50",
       "sell": 979,
       "desc": "",
       "weapon": {
@@ -1294,7 +1298,7 @@
      }
     }
    ],
-   "itemLevel": 20,
+   "itemLevel": 20.17,
    "pvp": {
     "hk": 0,
     "rank": 0,
@@ -1308,10 +1312,10 @@
      },
      {
       "name": "Combat",
-      "points": 10
+      "points": 12
      }
     ],
-    "split": "2/10",
+    "split": "2/12",
     "main": "Combat"
    },
    "professions": {
@@ -1324,7 +1328,7 @@
      },
      {
       "name": "Skinning",
-      "skill": 102,
+      "skill": 120,
       "max": 150,
       "recipes": 2
      }
@@ -1332,9 +1336,9 @@
     "secondaries": [
      {
       "name": "Cooking",
-      "skill": 45,
+      "skill": 50,
       "max": 75,
-      "recipes": 4
+      "recipes": 5
      },
      {
       "name": "First Aid",
@@ -1346,8 +1350,8 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/ash-kai",
    "weekly": {
-    "levels": 8.17,
-    "ilvl": 9.75,
+    "levels": 10.38,
+    "ilvl": 9.92,
     "hk": 0,
     "rank": 0
    },
@@ -2545,10 +2549,10 @@
    "surname": "Fat",
    "fullName": "Damp Fat",
    "level": 11,
-   "experience": 2563,
+   "experience": 8537,
    "xpToLevel": 8800,
-   "xpPct": 29.13,
-   "levelProgress": 11.29,
+   "xpPct": 97.01,
+   "levelProgress": 11.97,
    "className": "Shaman",
    "classId": 7,
    "race": "Dwarf",
@@ -2557,7 +2561,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1793846498000,
+   "lastLogin": 1793887731000,
    "apiItemLevel": 1,
    "gear": [
     {
@@ -2605,7 +2609,7 @@
       "spells": [],
       "req": "Requires Level 4",
       "reqClass": "",
-      "dur": "Durability 15 / 55",
+      "dur": "Durability 11 / 55",
       "sell": 37,
       "desc": ""
      }
@@ -2655,7 +2659,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 4 / 16",
+      "dur": "Durability 3 / 16",
       "sell": 2,
       "desc": ""
      }
@@ -2680,7 +2684,7 @@
       "spells": [],
       "req": "Requires Level 6",
       "reqClass": "",
-      "dur": "Durability 2 / 20",
+      "dur": "Durability 1 / 20",
       "sell": 47,
       "desc": ""
      }
@@ -2705,7 +2709,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 3 / 16",
+      "dur": "Durability 2 / 16",
       "sell": 4,
       "desc": ""
      }
@@ -2730,7 +2734,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 10 / 35",
+      "dur": "Durability 9 / 35",
       "sell": 12,
       "desc": ""
      }
@@ -2755,7 +2759,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 2 / 20",
+      "dur": "Durability 0 / 20",
       "sell": 2,
       "desc": ""
      }
@@ -2763,37 +2767,48 @@
     {
      "slot": "MAIN_HAND",
      "slotName": "Main Hand",
-     "itemId": 2067,
-     "name": "Frostbit Staff",
-     "quality": "COMMON",
-     "ilvl": 10,
+     "itemId": 6215,
+     "name": "Balanced Fighting Stick",
+     "quality": "UNCOMMON",
+     "ilvl": 13,
      "inventoryType": "TWOHWEAPON",
      "enchants": [
       "Rockbiter 2"
      ],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135152.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135145.jpg",
      "tt": {
-      "bind": "",
+      "bind": "Binds when picked up",
       "unique": "",
       "inv": "Two-Hand",
       "sub": "Staff",
       "armor": "",
-      "stats": [],
+      "stats": [
+       {
+        "s": "+2 Agility",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+2 Stamina",
+        "neg": false,
+        "eq": false
+       }
+      ],
       "spells": [],
-      "req": "Requires Level 5",
+      "req": "",
       "reqClass": "",
-      "dur": "Durability 10 / 45",
-      "sell": 186,
+      "dur": "Durability 46 / 50",
+      "sell": 601,
       "desc": "",
       "weapon": {
-       "dmg": "12 - 19 Damage",
-       "speed": "Speed 2.70",
-       "dps": "(5.7 damage per second)"
+       "dmg": "15 - 24 Damage",
+       "speed": "Speed 2.20",
+       "dps": "(8.9 damage per second)"
       }
      }
     }
    ],
-   "itemLevel": 7.22,
+   "itemLevel": 7.89,
    "pvp": {
     "hk": 0,
     "rank": 0,
@@ -2813,17 +2828,30 @@
     "primaries": [
      {
       "name": "Herbalism",
-      "skill": 17,
-      "max": 75,
-      "recipes": 2
+      "skill": 78,
+      "max": 150,
+      "recipes": 3
      }
     ],
-    "secondaries": []
+    "secondaries": [
+     {
+      "name": "Cooking",
+      "skill": 15,
+      "max": 75,
+      "recipes": 6
+     },
+     {
+      "name": "Fishing",
+      "skill": 75,
+      "max": 150,
+      "recipes": 2
+     }
+    ]
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/damp-fat",
    "weekly": {
-    "levels": 0,
-    "ilvl": 0,
+    "levels": 0.68,
+    "ilvl": 0.67,
     "hk": 0,
     "rank": 0
    },
