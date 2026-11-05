@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1793895517520,
+ "generatedAt": 1793897715458,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -54,7 +54,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1793858352000,
+   "lastLogin": 1793897331000,
    "apiItemLevel": 1,
    "gear": [
     {
@@ -835,11 +835,11 @@
    "name": "Ash",
    "surname": "Kai",
    "fullName": "Ash Kai",
-   "level": 24,
-   "experience": 24863,
-   "xpToLevel": 31700,
-   "xpPct": 78.43,
-   "levelProgress": 24.78,
+   "level": 25,
+   "experience": 5128,
+   "xpToLevel": 34000,
+   "xpPct": 15.08,
+   "levelProgress": 25.15,
    "className": "Rogue",
    "classId": 4,
    "race": "Human",
@@ -848,7 +848,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1793894338000,
+   "lastLogin": 1793897304000,
    "apiItemLevel": 15,
    "gear": [
     {
@@ -950,7 +950,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 90 / 90",
+      "dur": "Durability 86 / 90",
       "sell": 1441,
       "desc": ""
      }
@@ -986,7 +986,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 25 / 25",
+      "dur": "Durability 24 / 25",
       "sell": 462,
       "desc": ""
      }
@@ -1022,7 +1022,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 25 / 25",
+      "dur": "Durability 23 / 25",
       "sell": 347,
       "desc": ""
      }
@@ -1058,7 +1058,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 20 / 20",
+      "dur": "Durability 19 / 20",
       "sell": 240,
       "desc": ""
      }
@@ -1096,7 +1096,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 60 / 60",
+      "dur": "Durability 59 / 60",
       "sell": 1156,
       "desc": ""
      }
@@ -1134,7 +1134,7 @@
       "spells": [],
       "req": "Requires Level 10",
       "reqClass": "",
-      "dur": "Durability 35 / 35",
+      "dur": "Durability 32 / 35",
       "sell": 307,
       "desc": ""
      }
@@ -1230,7 +1230,7 @@
      "ilvl": 23,
      "inventoryType": "WEAPON",
      "enchants": [
-      "Instant Poison (60 |4Charge:Charges;)"
+      "Instant Poison (31 |4Charge:Charges;)"
      ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135325.jpg",
      "tt": {
@@ -1254,7 +1254,7 @@
       "spells": [],
       "req": "Requires Level 18",
       "reqClass": "",
-      "dur": "Durability 75 / 75",
+      "dur": "Durability 72 / 75",
       "sell": 2551,
       "desc": "",
       "weapon": {
@@ -1273,7 +1273,7 @@
      "ilvl": 21,
      "inventoryType": "WEAPON",
      "enchants": [
-      "Instant Poison (60 |4Charge:Charges;)"
+      "Instant Poison (49 |4Charge:Charges;)"
      ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132416.jpg",
      "tt": {
@@ -1297,7 +1297,7 @@
       "spells": [],
       "req": "Requires Level 17",
       "reqClass": "",
-      "dur": "Durability 70 / 70",
+      "dur": "Durability 66 / 70",
       "sell": 1963,
       "desc": "",
       "weapon": {
@@ -1358,10 +1358,10 @@
      },
      {
       "name": "Combat",
-      "points": 13
+      "points": 14
      }
     ],
-    "split": "2/13",
+    "split": "2/14",
     "main": "Combat"
    },
    "professions": {
@@ -1374,7 +1374,7 @@
      },
      {
       "name": "Skinning",
-      "skill": 131,
+      "skill": 149,
       "max": 225,
       "recipes": 2
      }
@@ -1396,7 +1396,7 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/ash-kai",
    "weekly": {
-    "levels": 11.34,
+    "levels": 11.71,
     "ilvl": 11.13,
     "hk": 0,
     "rank": 0
