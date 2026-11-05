@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1793854074140,
+ "generatedAt": 1793856293755,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -1958,11 +1958,11 @@
    "name": "Zewazi",
    "surname": "Softis",
    "fullName": "Zewazi Softis",
-   "level": 10,
-   "experience": 1231,
-   "xpToLevel": 7600,
-   "xpPct": 16.2,
-   "levelProgress": 10.16,
+   "level": 12,
+   "experience": 9175,
+   "xpToLevel": 10100,
+   "xpPct": 90.84,
+   "levelProgress": 12.91,
    "className": "Hunter",
    "classId": 3,
    "race": "Night Elf",
@@ -1972,16 +1972,16 @@
    "guild": "Hüljatud",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1793847830000,
-   "apiItemLevel": 3,
+   "lastLogin": 1793856174000,
+   "apiItemLevel": 4,
    "gear": [
     {
      "slot": "AMMO",
      "slotName": "Ammo",
-     "itemId": 2512,
-     "name": "Rough Arrow",
+     "itemId": 2515,
+     "name": "Sharp Arrow",
      "quality": "COMMON",
-     "ilvl": 5,
+     "ilvl": 15,
      "inventoryType": "AMMO",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132382.jpg"
@@ -1989,13 +1989,13 @@
     {
      "slot": "BACK",
      "slotName": "Back",
-     "itemId": 5591,
-     "name": "Rain-spotted Cape",
-     "quality": "COMMON",
+     "itemId": 281250,
+     "name": "Forest Oracle's Cloak",
+     "quality": "UNCOMMON",
      "ilvl": 11,
      "inventoryType": "CLOAK",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133764.jpg"
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133769.jpg"
     },
     {
      "slot": "CHEST",
@@ -2085,27 +2085,27 @@
     {
      "slot": "MAIN_HAND",
      "slotName": "Main Hand",
-     "itemId": 5392,
-     "name": "Thistlewood Dagger",
-     "quality": "COMMON",
-     "ilvl": 5,
+     "itemId": 282284,
+     "name": "Webwood Slicer",
+     "quality": "UNCOMMON",
+     "ilvl": 10,
      "inventoryType": "WEAPON",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135641.jpg"
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135302.jpg"
     },
     {
      "slot": "RANGED",
      "slotName": "Ranged",
-     "itemId": 2506,
-     "name": "Hornwood Recurve Bow",
+     "itemId": 5596,
+     "name": "Ashwood Bow",
      "quality": "COMMON",
-     "ilvl": 8,
+     "ilvl": 11,
      "inventoryType": "RANGED",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135499.jpg"
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135489.jpg"
     }
    ],
-   "itemLevel": 6.9,
+   "itemLevel": 8.7,
    "pvp": {
     "hk": 0,
     "rank": 0,
@@ -2115,23 +2115,23 @@
     "trees": [
      {
       "name": "Beast Mastery",
-      "points": 1
+      "points": 3
      }
     ],
-    "split": "1",
+    "split": "3",
     "main": "Beast Mastery"
    },
    "professions": {
     "primaries": [
      {
       "name": "Leatherworking",
-      "skill": 27,
+      "skill": 28,
       "max": 75,
-      "recipes": 9
+      "recipes": 11
      },
      {
       "name": "Skinning",
-      "skill": 52,
+      "skill": 53,
       "max": 150,
       "recipes": 2
      }
@@ -2139,22 +2139,22 @@
     "secondaries": [
      {
       "name": "Cooking",
-      "skill": 6,
+      "skill": 44,
       "max": 75,
-      "recipes": 4
+      "recipes": 5
      },
      {
       "name": "First Aid",
-      "skill": 26,
-      "max": 75,
-      "recipes": 2
+      "skill": 56,
+      "max": 150,
+      "recipes": 3
      }
     ]
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/zewazi-softis",
    "weekly": {
-    "levels": 0,
-    "ilvl": 0,
+    "levels": 2.75,
+    "ilvl": 1.8,
     "hk": 0,
     "rank": 0
    },
