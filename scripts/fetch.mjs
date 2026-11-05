@@ -220,11 +220,38 @@ function normalizeGear(json) {
       ilvl: it.level && it.level.value || 0,
       inventoryType: it.inventory_type && it.inventory_type.type || '',
       enchants: (it.enchantments || []).map(function (e) { return e.display_string || ''; }).filter(String),
-      icon: null
+      icon: null,
+      tt: tooltipOf(it)
     };
   });
   items.sort(function (a, b) { return SLOT_ORDER.indexOf(a.slot) - SLOT_ORDER.indexOf(b.slot); });
   return items;
+}
+
+// Compact WoW-style tooltip data from the equipment payload (fields are optional).
+function tooltipOf(it) {
+  const ds = function (x) { return x && x.display_string || ''; };
+  const t = {
+    bind: it.binding && it.binding.name || '',
+    unique: ds(it.unique_equipped),
+    inv: it.inventory_type && it.inventory_type.name || '',
+    sub: it.item_subclass && it.item_subclass.name || '',
+    armor: it.armor && ds(it.armor.display) || '',
+    stats: (it.stats || []).map(function (x) { return { s: ds(x.display), neg: !!x.is_negated, eq: !!x.is_equip_bonus }; }).filter(function (x) { return x.s; }),
+    spells: (it.spells || []).map(function (x) { return x.description || ''; }).filter(String),
+    req: it.requirements && it.requirements.level && it.requirements.level.display_string || '',
+    reqClass: it.requirements && it.requirements.playable_classes && it.requirements.playable_classes.display_string || '',
+    dur: ds(it.durability),
+    sell: it.sell_price && it.sell_price.value || 0,
+    desc: it.description || ''
+  };
+  if (it.weapon) t.weapon = { dmg: ds(it.weapon.damage), speed: ds(it.weapon.attack_speed), dps: ds(it.weapon.dps) };
+  if (it.set) t.set = {
+    name: ds(it.set),
+    items: (it.set.items || []).map(function (x) { return { n: x.item && x.item.name || '', eq: !!x.is_equipped }; }),
+    effects: (it.set.effects || []).map(function (x) { return { s: x.display_string || '', on: !!x.is_active }; })
+  };
+  return t;
 }
 
 function normalizeSpecs(json) {
