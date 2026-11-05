@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1793882420102,
+ "generatedAt": 1793883249666,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -3179,11 +3179,11 @@
    "name": "Chasida",
    "surname": "Shieldsworn",
    "fullName": "Chasida Shieldsworn",
-   "level": 12,
-   "experience": 6395,
-   "xpToLevel": 10100,
-   "xpPct": 63.32,
-   "levelProgress": 12.63,
+   "level": 14,
+   "experience": 4645,
+   "xpToLevel": 12900,
+   "xpPct": 36.01,
+   "levelProgress": 14.36,
    "className": "Paladin",
    "classId": 2,
    "race": "Dwarf",
@@ -3192,16 +3192,16 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1793877671000,
-   "apiItemLevel": 7,
+   "lastLogin": 1793883056000,
+   "apiItemLevel": 9,
    "gear": [
     {
      "slot": "BACK",
      "slotName": "Back",
-     "itemId": 2905,
-     "name": "Goat Fur Cloak",
-     "quality": "COMMON",
-     "ilvl": 10,
+     "itemId": 279899,
+     "name": "Catacomb Cloak",
+     "quality": "UNCOMMON",
+     "ilvl": 17,
      "inventoryType": "CLOAK",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133763.jpg",
@@ -3210,44 +3210,65 @@
       "unique": "",
       "inv": "Back",
       "sub": "Cloth",
-      "armor": "9 Armor",
-      "stats": [],
+      "armor": "15 Armor",
+      "stats": [
+       {
+        "s": "+2 Stamina",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+3 Attack Power",
+        "neg": false,
+        "eq": true
+       },
+       {
+        "s": "+4 Attack Power Vs Humanoids",
+        "neg": false,
+        "eq": true
+       }
+      ],
       "spells": [],
       "req": "",
       "reqClass": "",
       "dur": "",
-      "sell": 53,
+      "sell": 288,
       "desc": ""
      }
     },
     {
      "slot": "CHEST",
      "slotName": "Chest",
-     "itemId": 10421,
-     "name": "Rough Copper Vest",
+     "itemId": 2864,
+     "name": "Runed Copper Breastplate",
      "quality": "UNCOMMON",
-     "ilvl": 10,
+     "ilvl": 18,
      "inventoryType": "CHEST",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132624.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132738.jpg",
      "tt": {
       "bind": "Binds when equipped",
       "unique": "",
       "inv": "Chest",
       "sub": "Mail",
-      "armor": "108 Armor",
+      "armor": "162 Armor",
       "stats": [
        {
-        "s": "+1 Stamina",
+        "s": "+4 Strength",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+3 Stamina",
         "neg": false,
         "eq": false
        }
       ],
       "spells": [],
-      "req": "Requires Level 2",
+      "req": "Requires Level 13",
       "reqClass": "",
-      "dur": "Durability 52 / 65",
-      "sell": 32,
+      "dur": "Durability 80 / 80",
+      "sell": 630,
       "desc": ""
      }
     },
@@ -3279,10 +3300,10 @@
     {
      "slot": "WRIST",
      "slotName": "Wrist",
-     "itemId": 6177,
-     "name": "Ironwrought Bracers",
-     "quality": "COMMON",
-     "ilvl": 12,
+     "itemId": 280095,
+     "name": "Cryptwalker Bracers",
+     "quality": "UNCOMMON",
+     "ilvl": 17,
      "inventoryType": "WRIST",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132602.jpg",
@@ -3291,13 +3312,24 @@
       "unique": "",
       "inv": "Wrist",
       "sub": "Mail",
-      "armor": "51 Armor",
-      "stats": [],
+      "armor": "69 Armor",
+      "stats": [
+       {
+        "s": "+2 Strength",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+2 Spirit",
+        "neg": false,
+        "eq": true
+       }
+      ],
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 17 / 20",
-      "sell": 69,
+      "dur": "Durability 25 / 25",
+      "sell": 271,
       "desc": ""
      }
     },
@@ -3332,7 +3364,7 @@
       "spells": [],
       "req": "Requires Level 7",
       "reqClass": "",
-      "dur": "Durability 16 / 20",
+      "dur": "Durability 15 / 20",
       "sell": 71,
       "desc": ""
      }
@@ -3340,31 +3372,36 @@
     {
      "slot": "WAIST",
      "slotName": "Waist",
-     "itemId": 2851,
-     "name": "Copper Chain Belt",
+     "itemId": 2857,
+     "name": "Runed Copper Belt",
      "quality": "UNCOMMON",
-     "ilvl": 11,
+     "ilvl": 18,
      "inventoryType": "WAIST",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132491.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132492.jpg",
      "tt": {
       "bind": "Binds when equipped",
       "unique": "",
       "inv": "Waist",
       "sub": "Mail",
-      "armor": "65 Armor",
+      "armor": "91 Armor",
       "stats": [
        {
-        "s": "+1 Stamina",
+        "s": "+3 Strength",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+2 Stamina",
         "neg": false,
         "eq": false
        }
       ],
       "spells": [],
-      "req": "Requires Level 6",
+      "req": "Requires Level 13",
       "reqClass": "",
-      "dur": "Durability 18 / 20",
-      "sell": 56,
+      "dur": "Durability 25 / 25",
+      "sell": 198,
       "desc": ""
      }
     },
@@ -3399,7 +3436,7 @@
       "spells": [],
       "req": "Requires Level 8",
       "reqClass": "",
-      "dur": "Durability 42 / 50",
+      "dur": "Durability 38 / 50",
       "sell": 299,
       "desc": ""
      }
@@ -3430,7 +3467,7 @@
       "spells": [],
       "req": "Requires Level 4",
       "reqClass": "",
-      "dur": "Durability 22 / 30",
+      "dur": "Durability 21 / 30",
       "sell": 49,
       "desc": ""
      }
@@ -3492,7 +3529,7 @@
       "spells": [],
       "req": "Requires Level 11",
       "reqClass": "",
-      "dur": "Durability 48 / 55",
+      "dur": "Durability 46 / 55",
       "sell": 466,
       "desc": "",
       "weapon": {
@@ -3503,7 +3540,7 @@
      }
     }
    ],
-   "itemLevel": 11.8,
+   "itemLevel": 14.5,
    "pvp": {
     "hk": 0,
     "rank": 0,
@@ -3524,14 +3561,14 @@
      {
       "name": "Mining",
       "skill": 71,
-      "max": 75,
-      "recipes": 3
+      "max": 150,
+      "recipes": 5
      },
      {
       "name": "Blacksmithing",
-      "skill": 56,
+      "skill": 58,
       "max": 75,
-      "recipes": 14
+      "recipes": 16
      }
     ],
     "secondaries": [
@@ -3557,8 +3594,8 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/chasida-shieldsworn",
    "weekly": {
-    "levels": 1.52,
-    "ilvl": 0,
+    "levels": 3.25,
+    "ilvl": 2.7,
     "hk": 0,
     "rank": 0
    },
@@ -3939,11 +3976,11 @@
    "name": "Zewazi",
    "surname": "Softis",
    "fullName": "Zewazi Softis",
-   "level": 17,
-   "experience": 8310,
-   "xpToLevel": 17700,
-   "xpPct": 46.95,
-   "levelProgress": 17.47,
+   "level": 19,
+   "experience": 5347,
+   "xpToLevel": 21300,
+   "xpPct": 25.1,
+   "levelProgress": 19.25,
    "className": "Hunter",
    "classId": 3,
    "race": "Night Elf",
@@ -3952,7 +3989,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1793875291000,
+   "lastLogin": 1793882790000,
    "apiItemLevel": 8,
    "gear": [
     {
@@ -4054,7 +4091,7 @@
       "spells": [],
       "req": "Requires Level 3",
       "reqClass": "",
-      "dur": "Durability 31 / 55",
+      "dur": "Durability 55 / 55",
       "sell": 40,
       "desc": ""
      }
@@ -4115,7 +4152,7 @@
       "spells": [],
       "req": "Requires Level 12",
       "reqClass": "",
-      "dur": "Durability 11 / 20",
+      "dur": "Durability 20 / 20",
       "sell": 245,
       "desc": ""
      }
@@ -4146,7 +4183,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 13 / 20",
+      "dur": "Durability 20 / 20",
       "sell": 229,
       "desc": ""
      }
@@ -4182,7 +4219,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 12 / 20",
+      "dur": "Durability 20 / 20",
       "sell": 240,
       "desc": ""
      }
@@ -4218,7 +4255,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 31 / 45",
+      "dur": "Durability 45 / 45",
       "sell": 247,
       "desc": ""
      }
@@ -4254,7 +4291,7 @@
       "spells": [],
       "req": "Requires Level 10",
       "reqClass": "",
-      "dur": "Durability 21 / 35",
+      "dur": "Durability 35 / 35",
       "sell": 307,
       "desc": ""
      }
@@ -4285,7 +4322,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 12 / 25",
+      "dur": "Durability 25 / 25",
       "sell": 241,
       "desc": "",
       "weapon": {
@@ -4321,7 +4358,7 @@
       "spells": [],
       "req": "Requires Level 10",
       "reqClass": "",
-      "dur": "Durability 24 / 40",
+      "dur": "Durability 40 / 40",
       "sell": 515,
       "desc": "",
       "weapon": {
@@ -4342,23 +4379,23 @@
     "trees": [
      {
       "name": "Beast Mastery",
-      "points": 8
+      "points": 10
      }
     ],
-    "split": "8",
+    "split": "10",
     "main": "Beast Mastery"
    },
    "professions": {
     "primaries": [
      {
       "name": "Leatherworking",
-      "skill": 36,
+      "skill": 38,
       "max": 75,
       "recipes": 13
      },
      {
       "name": "Skinning",
-      "skill": 93,
+      "skill": 110,
       "max": 150,
       "recipes": 2
      }
@@ -4366,13 +4403,13 @@
     "secondaries": [
      {
       "name": "Cooking",
-      "skill": 59,
+      "skill": 70,
       "max": 150,
       "recipes": 9
      },
      {
       "name": "First Aid",
-      "skill": 60,
+      "skill": 74,
       "max": 150,
       "recipes": 3
      }
@@ -4380,7 +4417,7 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/zewazi-softis",
    "weekly": {
-    "levels": 7.31,
+    "levels": 9.09,
     "ilvl": 7.4,
     "hk": 0,
     "rank": 0
