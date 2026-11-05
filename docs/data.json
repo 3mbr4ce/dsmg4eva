@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1793863939367,
+ "generatedAt": 1793865250759,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -54,7 +54,7 @@
  "guild": {
   "slug": "hüljatud",
   "name": "Hüljatud",
-  "members": 58,
+  "members": 94,
   "achievementPoints": 0,
   "faction": "ALLIANCE",
   "ruleset": "PvP",
