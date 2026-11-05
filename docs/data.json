@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1793921915779,
+ "generatedAt": 1793922061393,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -2143,218 +2143,88 @@
   {
    "friend": "Dom",
    "isMain": true,
-   "slug": "mo-rx",
-   "input": "Mo-Rx",
-   "id": 558134,
-   "name": "Mo",
-   "surname": "Rx",
-   "fullName": "Mo Rx",
-   "level": 23,
-   "experience": 16368,
-   "xpToLevel": 29400,
-   "xpPct": 55.67,
-   "levelProgress": 23.56,
+   "slug": "da-blet",
+   "input": "Da-Blet",
+   "id": 6351024,
+   "name": "Da",
+   "surname": "Blet",
+   "fullName": "Da Blet",
+   "level": 10,
+   "experience": 7222,
+   "xpToLevel": 7600,
+   "xpPct": 95.03,
+   "levelProgress": 10.95,
    "className": "Paladin",
    "classId": 2,
-   "race": "Human",
-   "raceId": 1,
-   "gender": "FEMALE",
-   "faction": "ALLIANCE",
+   "race": "Undead",
+   "raceId": 5,
+   "gender": "MALE",
+   "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1793910137000,
-   "apiItemLevel": 17,
+   "lastLogin": 1793919517000,
+   "apiItemLevel": 3,
    "gear": [
     {
-     "slot": "HEAD",
-     "slotName": "Head",
-     "itemId": 250532,
-     "name": "Crusader's Silvered Chain Helm",
-     "quality": "RARE",
-     "ilvl": 25,
-     "inventoryType": "HEAD",
+     "slot": "BACK",
+     "slotName": "Back",
+     "itemId": 1376,
+     "name": "Frayed Cloak",
+     "quality": "POOR",
+     "ilvl": 5,
+     "inventoryType": "CLOAK",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133139.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133762.jpg",
      "tt": {
-      "bind": "Binds when picked up",
+      "bind": "",
       "unique": "",
-      "inv": "Head",
-      "sub": "Mail",
-      "armor": "163 Armor",
-      "stats": [
-       {
-        "s": "+9 Stamina",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+11 Spell Power",
-        "neg": false,
-        "eq": true
-       }
-      ],
-      "spells": [],
-      "req": "Requires Level 20",
-      "reqClass": "",
-      "dur": "Durability 47 / 65",
-      "sell": 1460,
-      "desc": ""
-     }
-    },
-    {
-     "slot": "NECK",
-     "slotName": "Neck",
-     "itemId": 279870,
-     "name": "Tarnished Locket",
-     "quality": "UNCOMMON",
-     "ilvl": 24,
-     "inventoryType": "NECK",
-     "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133295.jpg",
-     "tt": {
-      "bind": "Binds when picked up",
-      "unique": "",
-      "inv": "Neck",
-      "sub": "Miscellaneous",
-      "armor": "",
-      "stats": [
-       {
-        "s": "-3 Strength",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+6 Stamina",
-        "neg": false,
-        "eq": false
-       }
-      ],
+      "inv": "Back",
+      "sub": "Cloth",
+      "armor": "5 Armor",
+      "stats": [],
       "spells": [],
       "req": "",
       "reqClass": "",
       "dur": "",
-      "sell": 932,
-      "desc": "Some memories are best forgotten."
-     }
-    },
-    {
-     "slot": "SHOULDER",
-     "slotName": "Shoulders",
-     "itemId": 3480,
-     "name": "Rough Bronze Shoulders",
-     "quality": "UNCOMMON",
-     "ilvl": 22,
-     "inventoryType": "SHOULDER",
-     "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135036.jpg",
-     "tt": {
-      "bind": "Binds when equipped",
-      "unique": "",
-      "inv": "Shoulder",
-      "sub": "Mail",
-      "armor": "130 Armor",
-      "stats": [
-       {
-        "s": "+3 Strength",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+4 Stamina",
-        "neg": false,
-        "eq": false
-       }
-      ],
-      "spells": [],
-      "req": "Requires Level 17",
-      "reqClass": "",
-      "dur": "Durability 35 / 50",
-      "sell": 532,
-      "desc": ""
-     }
-    },
-    {
-     "slot": "BACK",
-     "slotName": "Back",
-     "itemId": 6632,
-     "name": "Feyscale Cloak",
-     "quality": "RARE",
-     "ilvl": 21,
-     "inventoryType": "CLOAK",
-     "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133754.jpg",
-     "tt": {
-      "bind": "Binds when picked up",
-      "unique": "",
-      "inv": "Back",
-      "sub": "Cloth",
-      "armor": "19 Armor",
-      "stats": [
-       {
-        "s": "+5 Stamina",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+3 Spell Power",
-        "neg": false,
-        "eq": true
-       }
-      ],
-      "spells": [],
-      "req": "Requires Level 16",
-      "reqClass": "",
-      "dur": "",
-      "sell": 589,
+      "sell": 4,
       "desc": ""
      }
     },
     {
      "slot": "CHEST",
      "slotName": "Chest",
-     "itemId": 6627,
-     "name": "Mutant Scale Breastplate",
-     "quality": "RARE",
-     "ilvl": 23,
+     "itemId": 3273,
+     "name": "Rugged Mail Vest",
+     "quality": "COMMON",
+     "ilvl": 5,
      "inventoryType": "CHEST",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132743.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132624.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Chest",
       "sub": "Mail",
-      "armor": "194 Armor",
-      "stats": [
-       {
-        "s": "+10 Strength",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+4 Stamina",
-        "neg": false,
-        "eq": false
-       }
-      ],
+      "armor": "67 Armor",
+      "stats": [],
       "spells": [],
-      "req": "Requires Level 18",
+      "req": "",
       "reqClass": "",
-      "dur": "Durability 105 / 105",
-      "sell": 1530,
+      "dur": "Durability 0 / 55",
+      "sell": 15,
       "desc": ""
      }
     },
     {
      "slot": "SHIRT",
      "slotName": "Shirt",
-     "itemId": 2575,
-     "name": "Red Linen Shirt",
+     "itemId": 6125,
+     "name": "Brawler's Harness",
      "quality": "COMMON",
-     "ilvl": 10,
+     "ilvl": 1,
      "inventoryType": "BODY",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135029.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132719.jpg",
      "tt": {
       "bind": "",
       "unique": "",
@@ -2366,32 +2236,152 @@
       "req": "",
       "reqClass": "",
       "dur": "",
-      "sell": 25,
+      "sell": 1,
       "desc": ""
      }
     },
     {
      "slot": "WRIST",
      "slotName": "Wrist",
-     "itemId": 2854,
-     "name": "Runed Copper Bracers",
-     "quality": "UNCOMMON",
-     "ilvl": 19,
+     "itemId": 2643,
+     "name": "Loose Chain Bracers",
+     "quality": "POOR",
+     "ilvl": 10,
      "inventoryType": "WRIST",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132602.jpg",
      "tt": {
-      "bind": "Binds when equipped",
+      "bind": "",
       "unique": "",
       "inv": "Wrist",
       "sub": "Mail",
-      "armor": "72 Armor",
+      "armor": "42 Armor",
+      "stats": [],
+      "spells": [],
+      "req": "Requires Level 5",
+      "reqClass": "",
+      "dur": "Durability 9 / 20",
+      "sell": 28,
+      "desc": ""
+     }
+    },
+    {
+     "slot": "HANDS",
+     "slotName": "Hands",
+     "itemId": 6063,
+     "name": "Cold Steel Gauntlets",
+     "quality": "COMMON",
+     "ilvl": 8,
+     "inventoryType": "HAND",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132938.jpg",
+     "tt": {
+      "bind": "Binds when picked up",
+      "unique": "",
+      "inv": "Hands",
+      "sub": "Mail",
+      "armor": "55 Armor",
+      "stats": [],
+      "spells": [],
+      "req": "",
+      "reqClass": "",
+      "dur": "Durability 13 / 20",
+      "sell": 23,
+      "desc": ""
+     }
+    },
+    {
+     "slot": "WAIST",
+     "slotName": "Waist",
+     "itemId": 2649,
+     "name": "Flimsy Chain Belt",
+     "quality": "POOR",
+     "ilvl": 2,
+     "inventoryType": "WAIST",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132495.jpg",
+     "tt": {
+      "bind": "",
+      "unique": "",
+      "inv": "Waist",
+      "sub": "Mail",
+      "armor": "24 Armor",
+      "stats": [],
+      "spells": [],
+      "req": "",
+      "reqClass": "",
+      "dur": "Durability 0 / 16",
+      "sell": 1,
+      "desc": ""
+     }
+    },
+    {
+     "slot": "LEGS",
+     "slotName": "Legs",
+     "itemId": 5941,
+     "name": "Brass Scale Pants",
+     "quality": "COMMON",
+     "ilvl": 11,
+     "inventoryType": "LEGS",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134583.jpg",
+     "tt": {
+      "bind": "Binds when picked up",
+      "unique": "",
+      "inv": "Legs",
+      "sub": "Mail",
+      "armor": "96 Armor",
+      "stats": [],
+      "spells": [],
+      "req": "",
+      "reqClass": "",
+      "dur": "Durability 28 / 50",
+      "sell": 115,
+      "desc": ""
+     }
+    },
+    {
+     "slot": "FEET",
+     "slotName": "Feet",
+     "itemId": 2650,
+     "name": "Flimsy Chain Boots",
+     "quality": "POOR",
+     "ilvl": 3,
+     "inventoryType": "FEET",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132535.jpg",
+     "tt": {
+      "bind": "",
+      "unique": "",
+      "inv": "Feet",
+      "sub": "Mail",
+      "armor": "34 Armor",
+      "stats": [],
+      "spells": [],
+      "req": "",
+      "reqClass": "",
+      "dur": "Durability 0 / 25",
+      "sell": 3,
+      "desc": ""
+     }
+    },
+    {
+     "slot": "MAIN_HAND",
+     "slotName": "Main Hand",
+     "itemId": 246165,
+     "name": "Driftwood Smasher",
+     "quality": "UNCOMMON",
+     "ilvl": 13,
+     "inventoryType": "TWOHWEAPON",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133052.jpg",
+     "tt": {
+      "bind": "Binds when picked up",
+      "unique": "",
+      "inv": "Two-Hand",
+      "sub": "Mace",
+      "armor": "",
       "stats": [
-       {
-        "s": "+2 Strength",
-        "neg": false,
-        "eq": false
-       },
        {
         "s": "+2 Stamina",
         "neg": false,
@@ -2399,293 +2389,70 @@
        }
       ],
       "spells": [],
-      "req": "Requires Level 14",
-      "reqClass": "",
-      "dur": "Durability 18 / 30",
-      "sell": 225,
-      "desc": ""
-     }
-    },
-    {
-     "slot": "HANDS",
-     "slotName": "Hands",
-     "itemId": 6481,
-     "name": "Dagmire Gauntlets",
-     "quality": "UNCOMMON",
-     "ilvl": 23,
-     "inventoryType": "HAND",
-     "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132939.jpg",
-     "tt": {
-      "bind": "Binds when picked up",
-      "unique": "",
-      "inv": "Hands",
-      "sub": "Mail",
-      "armor": "110 Armor",
-      "stats": [
-       {
-        "s": "+2 Agility",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+5 Strength",
-        "neg": false,
-        "eq": false
-       }
-      ],
-      "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 30 / 30",
-      "sell": 637,
-      "desc": ""
-     }
-    },
-    {
-     "slot": "WAIST",
-     "slotName": "Waist",
-     "itemId": 270230,
-     "name": "Kindlegem Girdle",
-     "quality": "RARE",
-     "ilvl": 18,
-     "inventoryType": "WAIST",
-     "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132509.jpg",
-     "tt": {
-      "bind": "Binds when picked up",
-      "unique": "",
-      "inv": "Waist",
-      "sub": "Mail",
-      "armor": "100 Armor",
-      "stats": [
-       {
-        "s": "+7 Stamina",
-        "neg": false,
-        "eq": false
-       }
-      ],
-      "spells": [],
-      "req": "Requires Level 13",
-      "reqClass": "",
-      "dur": "Durability 15 / 30",
-      "sell": 390,
-      "desc": ""
-     }
-    },
-    {
-     "slot": "LEGS",
-     "slotName": "Legs",
-     "itemId": 6087,
-     "name": "Chausses of Westfall",
-     "quality": "RARE",
-     "ilvl": 24,
-     "inventoryType": "LEGS",
-     "enchants": [
-      "Enchanted: Stamina +2 and Armor +16"
-     ],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134583.jpg",
-     "tt": {
-      "bind": "Binds when picked up",
-      "unique": "",
-      "inv": "Legs",
-      "sub": "Mail",
-      "armor": "173 Armor",
-      "stats": [
-       {
-        "s": "+11 Strength",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+5 Stamina",
-        "neg": false,
-        "eq": false
-       }
-      ],
-      "spells": [],
-      "req": "",
-      "reqClass": "",
-      "dur": "Durability 71 / 75",
-      "sell": 1730,
-      "desc": ""
-     }
-    },
-    {
-     "slot": "FEET",
-     "slotName": "Feet",
-     "itemId": 250621,
-     "name": "Strange Copper Boots",
-     "quality": "RARE",
-     "ilvl": 15,
-     "inventoryType": "FEET",
-     "enchants": [
-      "Enchanted: Stamina +2 and Armor +16"
-     ],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132582.jpg",
-     "tt": {
-      "bind": "Binds when picked up",
-      "unique": "",
-      "inv": "Feet",
-      "sub": "Mail",
-      "armor": "109 Armor",
-      "stats": [
-       {
-        "s": "+4 Stamina",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+5 Spell Power",
-        "neg": false,
-        "eq": true
-       }
-      ],
-      "spells": [],
-      "req": "Requires Level 10",
-      "reqClass": "",
-      "dur": "Durability 27 / 40",
-      "sell": 243,
-      "desc": ""
-     }
-    },
-    {
-     "slot": "FINGER_1",
-     "slotName": "Ring 1",
-     "itemId": 279867,
-     "name": "Slain Baron's Signet",
-     "quality": "UNCOMMON",
-     "ilvl": 23,
-     "inventoryType": "FINGER",
-     "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133361.jpg",
-     "tt": {
-      "bind": "Binds when picked up",
-      "unique": "",
-      "inv": "Finger",
-      "sub": "Miscellaneous",
-      "armor": "",
-      "stats": [
-       {
-        "s": "+3 Stamina",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+1 Defense",
-        "neg": false,
-        "eq": true
-       }
-      ],
-      "spells": [],
-      "req": "",
-      "reqClass": "",
-      "dur": "",
-      "sell": 815,
-      "desc": ""
-     }
-    },
-    {
-     "slot": "MAIN_HAND",
-     "slotName": "Main Hand",
-     "itemId": 872,
-     "name": "Rockslicer",
-     "quality": "RARE",
-     "ilvl": 23,
-     "inventoryType": "TWOHWEAPON",
-     "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135419.jpg",
-     "tt": {
-      "bind": "Binds when picked up",
-      "unique": "",
-      "inv": "Two-Hand",
-      "sub": "Axe",
-      "armor": "",
-      "stats": [
-       {
-        "s": "+7 Strength",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+7 Nature Resistance",
-        "neg": false,
-        "eq": false
-       }
-      ],
-      "spells": [
-       "Use: Slice open and gather from a target Copper, Tin, Silver, or Iron Vein (does not require Mining)."
-      ],
-      "req": "Requires Level 18",
-      "reqClass": "",
-      "dur": "Durability 80 / 80",
-      "sell": 3189,
+      "dur": "Durability 40 / 50",
+      "sell": 592,
       "desc": "",
       "weapon": {
-       "dmg": "52 - 78 Damage",
+       "dmg": "23 - 36 Damage",
        "speed": "Speed 3.30",
-       "dps": "(19.7 damage per second)"
+       "dps": "(8.9 damage per second)"
       }
      }
     }
    ],
-   "itemLevel": 21.77,
+   "itemLevel": 7.78,
    "pvp": {
-    "hk": 2,
+    "hk": 0,
     "rank": 0,
     "rankName": "Unranked"
    },
    "spec": {
     "trees": [
      {
-      "name": "Retribution",
-      "points": 14
+      "name": "Protection",
+      "points": 1
      }
     ],
-    "split": "14",
-    "main": "Retribution"
+    "split": "1",
+    "main": "Protection"
    },
    "professions": {
     "primaries": [
      {
-      "name": "Mining",
-      "skill": 101,
-      "max": 150,
-      "recipes": 6
+      "name": "Alchemy",
+      "skill": 30,
+      "max": 75,
+      "recipes": 7
      },
      {
-      "name": "Blacksmithing",
-      "skill": 96,
-      "max": 150,
-      "recipes": 34
+      "name": "Herbalism",
+      "skill": 45,
+      "max": 75,
+      "recipes": 3
      }
     ],
     "secondaries": [
      {
       "name": "Cooking",
-      "skill": 1,
+      "skill": 16,
       "max": 75,
       "recipes": 5
      },
      {
-      "name": "Fishing",
-      "skill": 105,
-      "max": 150,
-      "recipes": 2
-     },
-     {
       "name": "First Aid",
-      "skill": 1,
-      "max": 75,
-      "recipes": 1
+      "skill": 52,
+      "max": 150,
+      "recipes": 4
      }
     ]
    },
-   "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/mo-rx",
+   "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/da-blet",
    "weekly": {
-    "levels": 8.03,
-    "ilvl": 5.55,
-    "hk": 2,
+    "levels": 0,
+    "ilvl": 0,
+    "hk": 0,
     "rank": 0
    },
    "ding60At": null
