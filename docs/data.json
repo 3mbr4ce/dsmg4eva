@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1793917725698,
+ "generatedAt": 1793917961361,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -826,10 +826,471 @@
   {
    "friend": "Ruler",
    "isMain": true,
-   "slug": "rule-shiroune",
-   "input": "Rule-Shiroune",
-   "error": "not_found",
-   "name": "Rule Shiroune"
+   "slug": "ruler-shiroune",
+   "input": "Ruler-Shiroune",
+   "id": 10305070,
+   "name": "Ruler",
+   "surname": "Shiroune",
+   "fullName": "Ruler Shiroune",
+   "level": 15,
+   "experience": 2075,
+   "xpToLevel": 14400,
+   "xpPct": 14.41,
+   "levelProgress": 15.14,
+   "className": "Warrior",
+   "classId": 1,
+   "race": "Orc",
+   "raceId": 2,
+   "gender": "MALE",
+   "faction": "HORDE",
+   "ruleset": "PvP",
+   "achievementPoints": 0,
+   "lastLogin": 1793904960000,
+   "apiItemLevel": 8,
+   "gear": [
+    {
+     "slot": "BACK",
+     "slotName": "Back",
+     "itemId": 6542,
+     "name": "Willow Cape of Arcane Protection",
+     "quality": "UNCOMMON",
+     "ilvl": 15,
+     "inventoryType": "CLOAK",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133769.jpg",
+     "tt": {
+      "bind": "Binds when equipped",
+      "unique": "",
+      "inv": "Back",
+      "sub": "Cloth",
+      "armor": "14 Armor",
+      "stats": [
+       {
+        "s": "+1 Stamina",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+1 Arcane Resistance",
+        "neg": false,
+        "eq": false
+       }
+      ],
+      "spells": [],
+      "req": "Requires Level 10",
+      "reqClass": "",
+      "dur": "",
+      "sell": 219,
+      "desc": ""
+     }
+    },
+    {
+     "slot": "CHEST",
+     "slotName": "Chest",
+     "itemId": 15487,
+     "name": "War Torn Tunic of the Wolf",
+     "quality": "UNCOMMON",
+     "ilvl": 16,
+     "inventoryType": "CHEST",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132629.jpg",
+     "tt": {
+      "bind": "Binds when equipped",
+      "unique": "",
+      "inv": "Chest",
+      "sub": "Mail",
+      "armor": "151 Armor",
+      "stats": [
+       {
+        "s": "+3 Agility",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+3 Spirit",
+        "neg": false,
+        "eq": true
+       }
+      ],
+      "spells": [],
+      "req": "Requires Level 11",
+      "reqClass": "",
+      "dur": "Durability 75 / 75",
+      "sell": 479,
+      "desc": ""
+     }
+    },
+    {
+     "slot": "SHIRT",
+     "slotName": "Shirt",
+     "itemId": 6125,
+     "name": "Brawler's Harness",
+     "quality": "COMMON",
+     "ilvl": 1,
+     "inventoryType": "BODY",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132719.jpg",
+     "tt": {
+      "bind": "",
+      "unique": "",
+      "inv": "Shirt",
+      "sub": "Miscellaneous",
+      "armor": "",
+      "stats": [],
+      "spells": [],
+      "req": "",
+      "reqClass": "",
+      "dur": "",
+      "sell": 1,
+      "desc": ""
+     }
+    },
+    {
+     "slot": "WRIST",
+     "slotName": "Wrist",
+     "itemId": 281272,
+     "name": "Brog's Friendship Bracelet",
+     "quality": "UNCOMMON",
+     "ilvl": 10,
+     "inventoryType": "WRIST",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132602.jpg",
+     "tt": {
+      "bind": "Binds when picked up",
+      "unique": "",
+      "inv": "Wrist",
+      "sub": "Mail",
+      "armor": "47 Armor",
+      "stats": [
+       {
+        "s": "+1 Strength",
+        "neg": false,
+        "eq": false
+       }
+      ],
+      "spells": [],
+      "req": "",
+      "reqClass": "",
+      "dur": "Durability 20 / 20",
+      "sell": 73,
+      "desc": ""
+     }
+    },
+    {
+     "slot": "HANDS",
+     "slotName": "Hands",
+     "itemId": 15491,
+     "name": "Bloodspattered Gloves of the Falcon",
+     "quality": "UNCOMMON",
+     "ilvl": 15,
+     "inventoryType": "HAND",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132949.jpg",
+     "tt": {
+      "bind": "Binds when equipped",
+      "unique": "",
+      "inv": "Hands",
+      "sub": "Mail",
+      "armor": "90 Armor",
+      "stats": [
+       {
+        "s": "+2 Intellect",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+2 Agility",
+        "neg": false,
+        "eq": false
+       }
+      ],
+      "spells": [],
+      "req": "Requires Level 10",
+      "reqClass": "",
+      "dur": "Durability 25 / 25",
+      "sell": 211,
+      "desc": ""
+     }
+    },
+    {
+     "slot": "WAIST",
+     "slotName": "Waist",
+     "itemId": 2857,
+     "name": "Runed Copper Belt",
+     "quality": "UNCOMMON",
+     "ilvl": 18,
+     "inventoryType": "WAIST",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132492.jpg",
+     "tt": {
+      "bind": "Binds when equipped",
+      "unique": "",
+      "inv": "Waist",
+      "sub": "Mail",
+      "armor": "91 Armor",
+      "stats": [
+       {
+        "s": "+3 Strength",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+2 Stamina",
+        "neg": false,
+        "eq": false
+       }
+      ],
+      "spells": [],
+      "req": "Requires Level 13",
+      "reqClass": "",
+      "dur": "Durability 25 / 25",
+      "sell": 198,
+      "desc": ""
+     }
+    },
+    {
+     "slot": "LEGS",
+     "slotName": "Legs",
+     "itemId": 3473,
+     "name": "Runed Copper Pants",
+     "quality": "UNCOMMON",
+     "ilvl": 13,
+     "inventoryType": "LEGS",
+     "enchants": [
+      "Enchanted: Stamina +1 and Armor +8"
+     ],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134583.jpg",
+     "tt": {
+      "bind": "Binds when equipped",
+      "unique": "",
+      "inv": "Legs",
+      "sub": "Mail",
+      "armor": "113 Armor",
+      "stats": [
+       {
+        "s": "+2 Strength",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+2 Stamina",
+        "neg": false,
+        "eq": false
+       }
+      ],
+      "spells": [],
+      "req": "Requires Level 8",
+      "reqClass": "",
+      "dur": "Durability 50 / 50",
+      "sell": 299,
+      "desc": ""
+     }
+    },
+    {
+     "slot": "FEET",
+     "slotName": "Feet",
+     "itemId": 250620,
+     "name": "Gemmed Copper Boots",
+     "quality": "RARE",
+     "ilvl": 15,
+     "inventoryType": "FEET",
+     "enchants": [
+      "Enchanted: Stamina +1 and Armor +8"
+     ],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132554.jpg",
+     "tt": {
+      "bind": "Binds when picked up",
+      "unique": "",
+      "inv": "Feet",
+      "sub": "Mail",
+      "armor": "109 Armor",
+      "stats": [
+       {
+        "s": "+4 Strength",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+4 Stamina",
+        "neg": false,
+        "eq": false
+       }
+      ],
+      "spells": [],
+      "req": "Requires Level 10",
+      "reqClass": "",
+      "dur": "Durability 40 / 40",
+      "sell": 401,
+      "desc": ""
+     }
+    },
+    {
+     "slot": "FINGER_1",
+     "slotName": "Ring 1",
+     "itemId": 281268,
+     "name": "Depleted Ritual Band",
+     "quality": "COMMON",
+     "ilvl": 9,
+     "inventoryType": "FINGER",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133348.jpg",
+     "tt": {
+      "bind": "Binds when picked up",
+      "unique": "",
+      "inv": "Finger",
+      "sub": "Miscellaneous",
+      "armor": "",
+      "stats": [
+       {
+        "s": "+1 Bonus Armor",
+        "neg": false,
+        "eq": true
+       }
+      ],
+      "spells": [],
+      "req": "",
+      "reqClass": "",
+      "dur": "",
+      "sell": 44,
+      "desc": ""
+     }
+    },
+    {
+     "slot": "MAIN_HAND",
+     "slotName": "Main Hand",
+     "itemId": 4562,
+     "name": "Severing Axe of the Boar",
+     "quality": "UNCOMMON",
+     "ilvl": 10,
+     "inventoryType": "TWOHWEAPON",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135420.jpg",
+     "tt": {
+      "bind": "Binds when equipped",
+      "unique": "",
+      "inv": "Two-Hand",
+      "sub": "Axe",
+      "armor": "",
+      "stats": [
+       {
+        "s": "+1 Strength",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+1 Spirit",
+        "neg": false,
+        "eq": true
+       }
+      ],
+      "spells": [],
+      "req": "Requires Level 5",
+      "reqClass": "",
+      "dur": "Durability 45 / 45",
+      "sell": 298,
+      "desc": "",
+      "weapon": {
+       "dmg": "18 - 27 Damage",
+       "speed": "Speed 3.20",
+       "dps": "(7.0 damage per second)"
+      }
+     }
+    },
+    {
+     "slot": "RANGED",
+     "slotName": "Ranged",
+     "itemId": 3036,
+     "name": "Heavy Shortbow",
+     "quality": "UNCOMMON",
+     "ilvl": 15,
+     "inventoryType": "RANGED",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135500.jpg",
+     "tt": {
+      "bind": "Binds when equipped",
+      "unique": "",
+      "inv": "Ranged",
+      "sub": "Bow",
+      "armor": "",
+      "stats": [
+       {
+        "s": "+1 Strength",
+        "neg": false,
+        "eq": false
+       }
+      ],
+      "spells": [],
+      "req": "Requires Level 10",
+      "reqClass": "",
+      "dur": "Durability 40 / 40",
+      "sell": 515,
+      "desc": "",
+      "weapon": {
+       "dmg": "10 - 20 Damage",
+       "speed": "Speed 2.50",
+       "dps": "(6 damage per second)"
+      }
+     }
+    }
+   ],
+   "itemLevel": 13.27,
+   "pvp": {
+    "hk": 5,
+    "rank": 0,
+    "rankName": "Unranked"
+   },
+   "spec": {
+    "trees": [
+     {
+      "name": "Arms",
+      "points": 3
+     },
+     {
+      "name": "Fury",
+      "points": 3
+     }
+    ],
+    "split": "3/3",
+    "main": "Arms"
+   },
+   "professions": {
+    "primaries": [
+     {
+      "name": "Mining",
+      "skill": 61,
+      "max": 150,
+      "recipes": 3
+     },
+     {
+      "name": "Blacksmithing",
+      "skill": 52,
+      "max": 75,
+      "recipes": 18
+     }
+    ],
+    "secondaries": [
+     {
+      "name": "Cooking",
+      "skill": 13,
+      "max": 75,
+      "recipes": 4
+     },
+     {
+      "name": "First Aid",
+      "skill": 52,
+      "max": 75,
+      "recipes": 1
+     }
+    ]
+   },
+   "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/ruler-shiroune",
+   "weekly": {
+    "levels": 0,
+    "ilvl": 0,
+    "hk": 0,
+    "rank": 0
+   },
+   "ding60At": null
   },
   {
    "friend": "Dala",
