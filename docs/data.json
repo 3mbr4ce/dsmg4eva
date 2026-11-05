@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1793865250759,
+ "generatedAt": 1793866834670,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -3019,10 +3019,10 @@
    "surname": "Shieldsworn",
    "fullName": "Chasida Shieldsworn",
    "level": 11,
-   "experience": 957,
+   "experience": 2813,
    "xpToLevel": 8800,
-   "xpPct": 10.88,
-   "levelProgress": 11.11,
+   "xpPct": 31.97,
+   "levelProgress": 11.32,
    "className": "Paladin",
    "classId": 2,
    "race": "Dwarf",
@@ -3032,7 +3032,7 @@
    "guild": "Hüljatud",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1793849283000,
+   "lastLogin": 1793865888000,
    "apiItemLevel": 7,
    "gear": [
     {
@@ -3239,7 +3239,7 @@
       "spells": [],
       "req": "Requires Level 8",
       "reqClass": "",
-      "dur": "Durability 49 / 50",
+      "dur": "Durability 50 / 50",
       "sell": 299,
       "desc": ""
      }
@@ -3360,12 +3360,44 @@
     "main": "Retribution"
    },
    "professions": {
-    "primaries": [],
-    "secondaries": []
+    "primaries": [
+     {
+      "name": "Mining",
+      "skill": 66,
+      "max": 75,
+      "recipes": 3
+     },
+     {
+      "name": "Blacksmithing",
+      "skill": 50,
+      "max": 75,
+      "recipes": 14
+     }
+    ],
+    "secondaries": [
+     {
+      "name": "Cooking",
+      "skill": 16,
+      "max": 75,
+      "recipes": 4
+     },
+     {
+      "name": "Fishing",
+      "skill": 1,
+      "max": 75,
+      "recipes": 1
+     },
+     {
+      "name": "First Aid",
+      "skill": 44,
+      "max": 75,
+      "recipes": 3
+     }
+    ]
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/chasida-shieldsworn",
    "weekly": {
-    "levels": 0,
+    "levels": 0.21,
     "ilvl": 0,
     "hk": 0,
     "rank": 0
@@ -3743,11 +3775,11 @@
    "name": "Zewazi",
    "surname": "Softis",
    "fullName": "Zewazi Softis",
-   "level": 13,
-   "experience": 2611,
-   "xpToLevel": 11400,
-   "xpPct": 22.9,
-   "levelProgress": 13.23,
+   "level": 15,
+   "experience": 10339,
+   "xpToLevel": 14400,
+   "xpPct": 71.8,
+   "levelProgress": 15.72,
    "className": "Hunter",
    "classId": 3,
    "race": "Night Elf",
@@ -3757,8 +3789,8 @@
    "guild": "Hüljatud",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1793859198000,
-   "apiItemLevel": 4,
+   "lastLogin": 1793865740000,
+   "apiItemLevel": 6,
    "gear": [
     {
      "slot": "AMMO",
@@ -3849,7 +3881,7 @@
       "spells": [],
       "req": "Requires Level 3",
       "reqClass": "",
-      "dur": "Durability 55 / 55",
+      "dur": "Durability 50 / 55",
       "sell": 40,
       "desc": ""
      }
@@ -3882,77 +3914,98 @@
     {
      "slot": "WRIST",
      "slotName": "Wrist",
-     "itemId": 5419,
-     "name": "Feral Bracers",
-     "quality": "COMMON",
-     "ilvl": 7,
+     "itemId": 14561,
+     "name": "Prospector's Cuffs",
+     "quality": "UNCOMMON",
+     "ilvl": 17,
      "inventoryType": "WRIST",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132601.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132606.jpg",
      "tt": {
-      "bind": "Binds when picked up",
+      "bind": "Binds when equipped",
       "unique": "",
       "inv": "Wrist",
       "sub": "Leather",
-      "armor": "18 Armor",
-      "stats": [],
+      "armor": "32 Armor",
+      "stats": [
+       {
+        "s": "+2 Agility",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+1 Stamina",
+        "neg": false,
+        "eq": false
+       }
+      ],
       "spells": [],
-      "req": "",
+      "req": "Requires Level 12",
       "reqClass": "",
-      "dur": "Durability 17 / 18",
-      "sell": 13,
+      "dur": "Durability 20 / 20",
+      "sell": 245,
       "desc": ""
      }
     },
     {
      "slot": "HANDS",
      "slotName": "Hands",
-     "itemId": 5394,
-     "name": "Archery Training Gloves",
-     "quality": "COMMON",
-     "ilvl": 5,
+     "itemId": 270004,
+     "name": "Murloc-hide Gloves",
+     "quality": "UNCOMMON",
+     "ilvl": 14,
      "inventoryType": "HAND",
-     "enchants": [
-      "Enchanted: Stamina +1 and Armor +8"
-     ],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132939.jpg",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132949.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Hands",
       "sub": "Leather",
-      "armor": "21 Armor",
-      "stats": [],
+      "armor": "43 Armor",
+      "stats": [
+       {
+        "s": "+2 Agility",
+        "neg": false,
+        "eq": false
+       }
+      ],
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 16 / 16",
-      "sell": 6,
+      "dur": "Durability 19 / 20",
+      "sell": 229,
       "desc": ""
      }
     },
     {
      "slot": "WAIST",
      "slotName": "Waist",
-     "itemId": 6058,
-     "name": "Blackened Leather Belt",
-     "quality": "COMMON",
-     "ilvl": 5,
+     "itemId": 15399,
+     "name": "Dryweed Belt",
+     "quality": "UNCOMMON",
+     "ilvl": 14,
      "inventoryType": "WAIST",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132492.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132495.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Waist",
       "sub": "Leather",
-      "armor": "19 Armor",
-      "stats": [],
+      "armor": "38 Armor",
+      "stats": [
+       {
+        "s": "+2 Intellect",
+        "neg": false,
+        "eq": false
+       }
+      ],
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 16 / 16",
-      "sell": 6,
+      "dur": "Durability 18 / 20",
+      "sell": 151,
       "desc": ""
      }
     },
@@ -3984,7 +4037,7 @@
       "spells": [],
       "req": "Requires Level 5",
       "reqClass": "",
-      "dur": "Durability 40 / 40",
+      "dur": "Durability 35 / 40",
       "sell": 71,
       "desc": ""
      }
@@ -4009,7 +4062,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 30 / 30",
+      "dur": "Durability 28 / 30",
       "sell": 87,
       "desc": ""
      }
@@ -4040,7 +4093,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 25 / 25",
+      "dur": "Durability 23 / 25",
       "sell": 241,
       "desc": "",
       "weapon": {
@@ -4070,7 +4123,7 @@
       "spells": [],
       "req": "Requires Level 11",
       "reqClass": "",
-      "dur": "Durability 40 / 40",
+      "dur": "Durability 38 / 40",
       "sell": 350,
       "desc": "",
       "weapon": {
@@ -4081,7 +4134,7 @@
      }
     }
    ],
-   "itemLevel": 10.1,
+   "itemLevel": 12.9,
    "pvp": {
     "hk": 0,
     "rank": 0,
@@ -4091,10 +4144,10 @@
     "trees": [
      {
       "name": "Beast Mastery",
-      "points": 4
+      "points": 6
      }
     ],
-    "split": "4",
+    "split": "6",
     "main": "Beast Mastery"
    },
    "professions": {
@@ -4107,7 +4160,7 @@
      },
      {
       "name": "Skinning",
-      "skill": 53,
+      "skill": 84,
       "max": 150,
       "recipes": 2
      }
@@ -4115,13 +4168,13 @@
     "secondaries": [
      {
       "name": "Cooking",
-      "skill": 44,
+      "skill": 57,
       "max": 75,
-      "recipes": 5
+      "recipes": 6
      },
      {
       "name": "First Aid",
-      "skill": 56,
+      "skill": 60,
       "max": 150,
       "recipes": 3
      }
@@ -4129,8 +4182,8 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/zewazi-softis",
    "weekly": {
-    "levels": 3.07,
-    "ilvl": 3.2,
+    "levels": 5.56,
+    "ilvl": 6,
     "hk": 0,
     "rank": 0
    },
