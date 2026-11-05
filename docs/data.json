@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1793919232757,
+ "generatedAt": 1793920396257,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -1876,11 +1876,11 @@
    "name": "Sire",
    "surname": "Khingen",
    "fullName": "Sire Khingen",
-   "level": 16,
-   "experience": 15138,
-   "xpToLevel": 16000,
-   "xpPct": 94.61,
-   "levelProgress": 16.95,
+   "level": 18,
+   "experience": 8396,
+   "xpToLevel": 19400,
+   "xpPct": 43.28,
+   "levelProgress": 18.43,
    "className": "Paladin",
    "classId": 2,
    "race": "Undead",
@@ -1889,83 +1889,104 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1793913060000,
-   "apiItemLevel": 9,
+   "lastLogin": 1793919936000,
+   "apiItemLevel": 12,
    "gear": [
     {
-     "slot": "BACK",
-     "slotName": "Back",
-     "itemId": 14365,
-     "name": "Mystic's Cape",
+     "slot": "SHOULDER",
+     "slotName": "Shoulders",
+     "itemId": 3480,
+     "name": "Rough Bronze Shoulders",
      "quality": "UNCOMMON",
-     "ilvl": 15,
-     "inventoryType": "CLOAK",
+     "ilvl": 22,
+     "inventoryType": "SHOULDER",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133768.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135036.jpg",
      "tt": {
       "bind": "Binds when equipped",
       "unique": "",
-      "inv": "Back",
-      "sub": "Cloth",
-      "armor": "14 Armor",
+      "inv": "Shoulder",
+      "sub": "Mail",
+      "armor": "130 Armor",
       "stats": [
        {
-        "s": "+1 Agility",
+        "s": "+3 Strength",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+1 Spirit",
+        "s": "+4 Stamina",
         "neg": false,
-        "eq": true
+        "eq": false
        }
       ],
       "spells": [],
-      "req": "Requires Level 10",
+      "req": "Requires Level 17",
+      "reqClass": "",
+      "dur": "Durability 50 / 50",
+      "sell": 532,
+      "desc": ""
+     }
+    },
+    {
+     "slot": "BACK",
+     "slotName": "Back",
+     "itemId": 5343,
+     "name": "Barkeeper's Cloak",
+     "quality": "UNCOMMON",
+     "ilvl": 18,
+     "inventoryType": "CLOAK",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133755.jpg",
+     "tt": {
+      "bind": "Binds when picked up",
+      "unique": "",
+      "inv": "Back",
+      "sub": "Cloth",
+      "armor": "16 Armor",
+      "stats": [
+       {
+        "s": "+3 Stamina",
+        "neg": false,
+        "eq": false
+       }
+      ],
+      "spells": [],
+      "req": "",
       "reqClass": "",
       "dur": "",
-      "sell": 214,
+      "sell": 462,
       "desc": ""
      }
     },
     {
      "slot": "CHEST",
      "slotName": "Chest",
-     "itemId": 14150,
-     "name": "Robe of Evocation",
-     "quality": "RARE",
-     "ilvl": 18,
-     "inventoryType": "ROBE",
+     "itemId": 2866,
+     "name": "Rough Bronze Cuirass",
+     "quality": "UNCOMMON",
+     "ilvl": 23,
+     "inventoryType": "CHEST",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132665.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132630.jpg",
      "tt": {
-      "bind": "Binds when picked up",
+      "bind": "Binds when equipped",
       "unique": "",
       "inv": "Chest",
-      "sub": "Cloth",
-      "armor": "35 Armor",
+      "sub": "Mail",
+      "armor": "177 Armor",
       "stats": [
        {
-        "s": "+4 Intellect",
+        "s": "+8 Stamina",
         "neg": false,
         "eq": false
-       },
-       {
-        "s": "+6 Stamina",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+4 Spirit",
-        "neg": false,
-        "eq": true
        }
       ],
       "spells": [],
-      "req": "Requires Level 13",
+      "req": "Requires Level 18",
       "reqClass": "",
-      "dur": "Durability 29 / 65",
-      "sell": 516,
+      "dur": "Durability 84 / 90",
+      "sell": 601,
       "desc": ""
      }
     },
@@ -2025,7 +2046,7 @@
       "spells": [],
       "req": "Requires Level 14",
       "reqClass": "",
-      "dur": "Durability 17 / 30",
+      "dur": "Durability 13 / 30",
       "sell": 225,
       "desc": ""
      }
@@ -2061,7 +2082,7 @@
       "spells": [],
       "req": "Requires Level 7",
       "reqClass": "",
-      "dur": "Durability 18 / 20",
+      "dur": "Durability 15 / 20",
       "sell": 71,
       "desc": ""
      }
@@ -2069,19 +2090,19 @@
     {
      "slot": "WAIST",
      "slotName": "Waist",
-     "itemId": 2857,
-     "name": "Runed Copper Belt",
-     "quality": "UNCOMMON",
-     "ilvl": 18,
+     "itemId": 285339,
+     "name": "Centaur War Chain",
+     "quality": "RARE",
+     "ilvl": 19,
      "inventoryType": "WAIST",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132492.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132511.jpg",
      "tt": {
-      "bind": "Binds when equipped",
+      "bind": "Binds when picked up",
       "unique": "",
       "inv": "Waist",
       "sub": "Mail",
-      "armor": "91 Armor",
+      "armor": "102 Armor",
       "stats": [
        {
         "s": "+3 Strength",
@@ -2089,16 +2110,16 @@
         "eq": false
        },
        {
-        "s": "+2 Stamina",
+        "s": "+6 Stamina",
         "neg": false,
         "eq": false
        }
       ],
       "spells": [],
-      "req": "Requires Level 13",
+      "req": "Requires Level 14",
       "reqClass": "",
-      "dur": "Durability 5 / 25",
-      "sell": 198,
+      "dur": "Durability 32 / 35",
+      "sell": 431,
       "desc": ""
      }
     },
@@ -2133,7 +2154,7 @@
       "spells": [],
       "req": "Requires Level 16",
       "reqClass": "",
-      "dur": "Durability 63 / 65",
+      "dur": "Durability 53 / 65",
       "sell": 577,
       "desc": ""
      }
@@ -2171,7 +2192,7 @@
       "spells": [],
       "req": "Requires Level 10",
       "reqClass": "",
-      "dur": "Durability 14 / 40",
+      "dur": "Durability 12 / 40",
       "sell": 401,
       "desc": ""
      }
@@ -2179,15 +2200,17 @@
     {
      "slot": "MAIN_HAND",
      "slotName": "Main Hand",
-     "itemId": 6214,
-     "name": "Heavy Copper Maul",
+     "itemId": 276887,
+     "name": "Big Bad Basher",
      "quality": "UNCOMMON",
-     "ilvl": 16,
+     "ilvl": 24,
      "inventoryType": "TWOHWEAPON",
-     "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133055.jpg",
+     "enchants": [
+      "Weighted +3"
+     ],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133045.jpg",
      "tt": {
-      "bind": "Binds when equipped",
+      "bind": "Binds when picked up",
       "unique": "",
       "inv": "Two-Hand",
       "sub": "Mace",
@@ -2197,23 +2220,28 @@
         "s": "+4 Strength",
         "neg": false,
         "eq": false
+       },
+       {
+        "s": "+6 Stamina",
+        "neg": false,
+        "eq": false
        }
       ],
       "spells": [],
-      "req": "Requires Level 11",
+      "req": "",
       "reqClass": "",
-      "dur": "Durability 25 / 55",
-      "sell": 466,
+      "dur": "Durability 75 / 75",
+      "sell": 3080,
       "desc": "",
       "weapon": {
-       "dmg": "28 - 43 Damage",
-       "speed": "Speed 3.30",
-       "dps": "(10.8 damage per second)"
+       "dmg": "39 - 60 Damage",
+       "speed": "Speed 3.10",
+       "dps": "(16.0 damage per second)"
       }
      }
     }
    ],
-   "itemLevel": 16.67,
+   "itemLevel": 19.7,
    "pvp": {
     "hk": 2,
     "rank": 0,
@@ -2223,25 +2251,25 @@
     "trees": [
      {
       "name": "Retribution",
-      "points": 7
+      "points": 9
      }
     ],
-    "split": "7",
+    "split": "9",
     "main": "Retribution"
    },
    "professions": {
     "primaries": [
      {
       "name": "Mining",
-      "skill": 83,
+      "skill": 92,
       "max": 150,
       "recipes": 6
      },
      {
       "name": "Blacksmithing",
-      "skill": 83,
+      "skill": 90,
       "max": 150,
-      "recipes": 36
+      "recipes": 39
      }
     ],
     "secondaries": [
@@ -2267,8 +2295,8 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/sire-khingen",
    "weekly": {
-    "levels": 6.71,
-    "ilvl": 9.45,
+    "levels": 8.19,
+    "ilvl": 12.48,
     "hk": 2,
     "rank": 0
    },
