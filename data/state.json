@@ -1,0 +1,81 @@
+{
+ "weeklySnapshot": {
+  "weekId": "2026-11-04T07",
+  "takenAt": 1793854074139,
+  "baseline": {
+   "pip-jaeger": {
+    "levelProgress": 14.13,
+    "ilvl": 6.33,
+    "hk": 0,
+    "rank": 0
+   },
+   "steppenwolf-one": {
+    "levelProgress": 14.25,
+    "ilvl": 11.7,
+    "hk": 0,
+    "rank": 0
+   },
+   "ash-kai": {
+    "levelProgress": 13.44,
+    "ilvl": 10.25,
+    "hk": 0,
+    "rank": 0
+   },
+   "xerxes-crownrend": {
+    "levelProgress": 13.06,
+    "ilvl": 11.7,
+    "hk": 0,
+    "rank": 0
+   },
+   "peep-jõks": {
+    "levelProgress": 11.29,
+    "ilvl": 8.27,
+    "hk": 0,
+    "rank": 0
+   },
+   "panzer-error": {
+    "levelProgress": 12.62,
+    "ilvl": 7.8,
+    "hk": 0,
+    "rank": 0
+   },
+   "damp-fat": {
+    "levelProgress": 11.29,
+    "ilvl": 7.22,
+    "hk": 0,
+    "rank": 0
+   },
+   "garethos-blackwood": {
+    "levelProgress": 10.4,
+    "ilvl": 7.2,
+    "hk": 0,
+    "rank": 0
+   },
+   "chasida-shieldsworn": {
+    "levelProgress": 11.11,
+    "ilvl": 11.8,
+    "hk": 0,
+    "rank": 0
+   },
+   "ryan-angelos": {
+    "levelProgress": 10.13,
+    "ilvl": 8.1,
+    "hk": 0,
+    "rank": 0
+   },
+   "zewazi-softis": {
+    "levelProgress": 10.16,
+    "ilvl": 6.9,
+    "hk": 0,
+    "rank": 0
+   },
+   "leon-lionhart": {
+    "levelProgress": 10.53,
+    "ilvl": 7.71,
+    "hk": 0,
+    "rank": 0
+   }
+  }
+ },
+ "ding60": {}
+}
