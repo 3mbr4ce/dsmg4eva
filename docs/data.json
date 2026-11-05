@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1793863275580,
+ "generatedAt": 1793863939367,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -41,7 +41,8 @@
    "friend": "Ruler"
   },
   {
-   "friend": "Dala"
+   "friend": "Dala",
+   "aka": "Schwitzer"
   },
   {
    "friend": "Lungen"
