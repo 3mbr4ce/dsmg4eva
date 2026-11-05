@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1793891692102,
+ "generatedAt": 1793892297326,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -3305,11 +3305,11 @@
    "name": "Chasida",
    "surname": "Shieldsworn",
    "fullName": "Chasida Shieldsworn",
-   "level": 14,
-   "experience": 4645,
-   "xpToLevel": 12900,
-   "xpPct": 36.01,
-   "levelProgress": 14.36,
+   "level": 15,
+   "experience": 4318,
+   "xpToLevel": 14400,
+   "xpPct": 29.99,
+   "levelProgress": 15.3,
    "className": "Paladin",
    "classId": 2,
    "race": "Dwarf",
@@ -3318,7 +3318,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1793883056000,
+   "lastLogin": 1793892117000,
    "apiItemLevel": 9,
    "gear": [
     {
@@ -3393,7 +3393,7 @@
       "spells": [],
       "req": "Requires Level 13",
       "reqClass": "",
-      "dur": "Durability 80 / 80",
+      "dur": "Durability 66 / 80",
       "sell": 630,
       "desc": ""
      }
@@ -3454,7 +3454,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 25 / 25",
+      "dur": "Durability 21 / 25",
       "sell": 271,
       "desc": ""
      }
@@ -3490,7 +3490,7 @@
       "spells": [],
       "req": "Requires Level 7",
       "reqClass": "",
-      "dur": "Durability 15 / 20",
+      "dur": "Durability 10 / 20",
       "sell": 71,
       "desc": ""
      }
@@ -3526,7 +3526,7 @@
       "spells": [],
       "req": "Requires Level 13",
       "reqClass": "",
-      "dur": "Durability 25 / 25",
+      "dur": "Durability 20 / 25",
       "sell": 198,
       "desc": ""
      }
@@ -3562,7 +3562,7 @@
       "spells": [],
       "req": "Requires Level 8",
       "reqClass": "",
-      "dur": "Durability 38 / 50",
+      "dur": "Durability 32 / 50",
       "sell": 299,
       "desc": ""
      }
@@ -3593,7 +3593,7 @@
       "spells": [],
       "req": "Requires Level 4",
       "reqClass": "",
-      "dur": "Durability 21 / 30",
+      "dur": "Durability 15 / 30",
       "sell": 49,
       "desc": ""
      }
@@ -3632,41 +3632,37 @@
     {
      "slot": "MAIN_HAND",
      "slotName": "Main Hand",
-     "itemId": 6214,
-     "name": "Heavy Copper Maul",
-     "quality": "UNCOMMON",
-     "ilvl": 16,
+     "itemId": 279895,
+     "name": "Ironforge Greathammer",
+     "quality": "RARE",
+     "ilvl": 18,
      "inventoryType": "TWOHWEAPON",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133055.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133058.jpg",
      "tt": {
-      "bind": "Binds when equipped",
+      "bind": "Binds when picked up",
       "unique": "",
       "inv": "Two-Hand",
       "sub": "Mace",
       "armor": "",
-      "stats": [
-       {
-        "s": "+4 Strength",
-        "neg": false,
-        "eq": false
-       }
+      "stats": [],
+      "spells": [
+       "Chance on hit: Blasts a target for 42 Fire damage."
       ],
-      "spells": [],
-      "req": "Requires Level 11",
+      "req": "",
       "reqClass": "",
-      "dur": "Durability 46 / 55",
-      "sell": 466,
+      "dur": "Durability 68 / 70",
+      "sell": 1637,
       "desc": "",
       "weapon": {
-       "dmg": "28 - 43 Damage",
-       "speed": "Speed 3.30",
-       "dps": "(10.8 damage per second)"
+       "dmg": "39 - 60 Damage",
+       "speed": "Speed 3.10",
+       "dps": "(16.0 damage per second)"
       }
      }
     }
    ],
-   "itemLevel": 14.5,
+   "itemLevel": 14.9,
    "pvp": {
     "hk": 0,
     "rank": 0,
@@ -3676,24 +3672,24 @@
     "trees": [
      {
       "name": "Retribution",
-      "points": 3
+      "points": 6
      }
     ],
-    "split": "3",
+    "split": "6",
     "main": "Retribution"
    },
    "professions": {
     "primaries": [
      {
       "name": "Mining",
-      "skill": 71,
+      "skill": 72,
       "max": 150,
       "recipes": 5
      },
      {
       "name": "Blacksmithing",
-      "skill": 58,
-      "max": 75,
+      "skill": 62,
+      "max": 150,
       "recipes": 16
      }
     ],
@@ -3720,8 +3716,8 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/chasida-shieldsworn",
    "weekly": {
-    "levels": 3.25,
-    "ilvl": 2.7,
+    "levels": 4.19,
+    "ilvl": 3.1,
     "hk": 0,
     "rank": 0
    },
