@@ -317,7 +317,7 @@ function detail(c,ctx){
     kv('Levels this week',signed(w.levels,2))+kv('Ding '+cap,c.ding60At?berlin(c.ding60At):'not yet')+'</div>';
   return '<div class="xd"><div><div class="xdb">'+f+'<div class="kvs">'+
     kv('Player',friendHtml(c.friend))+kv('Class',esc(c.className)+(c.spec?' • '+esc(c.spec.main):''))+kv('Race',esc(c.race))+kv('Faction',esc(title(c.faction)))+kv('Ruleset',esc(c.ruleset))+
-    kv('Guild',c.guild?'&lt;'+esc(c.guild)+'&gt;':'none')+kv('Item level',fmt(c.itemLevel,1))+kv('Last login',berlin(c.lastLogin))+
+    kv('Item level',fmt(c.itemLevel,1))+kv('Last login',berlin(c.lastLogin))+
     kv('This week',signed(w.levels,2)+' lvl • '+signed(w.ilvl,1)+' iLvl • '+signed(w.hk)+' HK')+'</div>'+
     '<div class="btns"><button class="btn" type="button" data-gear="'+esc(c.slug)+'">Gear</button><a class="btn ghost" href="'+esc(c.armoryUrl)+'" target="_blank" rel="noopener">Armory ↗</a></div>'+
     '</div></div></div>';
@@ -406,7 +406,7 @@ function card(c){
     '<div class="ctop"><div class="avatar"><img class="cls" src="'+clsIcon(c)+'" alt="">'+(ri?'<img class="race" src="'+ri+'" alt="" onerror="this.remove()">':'')+'</div>'+
     '<div style="min-width:0;flex:1"><div class="cname">'+esc(c.name)+' <span>'+esc(c.surname)+'</span>'+(c.isMain?'<span class="badge">MAIN</span>':'')+'</div>'+
     '<div class="csub">'+(akaOf(c.friend)?esc(c.friend)+akaHtml(c.friend)+' • ':'')+esc(c.race)+' '+esc(c.className)+(sp?' • '+esc(sp.main)+' '+esc(sp.split):'')+'</div>'+
-    '<div class="csub">'+(c.guild?'&lt;'+esc(c.guild)+'&gt;':'no guild')+' • '+esc(c.ruleset)+'</div></div><span class="chev">▼</span></div>'+
+    '<div class="csub">'+esc(c.ruleset)+'</div></div><span class="chev">▼</span></div>'+
     '<div style="margin-top:9px">'+barHtml(c.level>=cap?100:c.xpPct,c.level>=cap?'MAX LEVEL':fmt(c.xpPct)+'% to '+(c.level+1),'xp')+'</div>'+
     '<div class="stats"><div class="stat"><b data-count="'+c.level+'">'+c.level+'</b><span>Level</span></div><div class="stat"><b data-count="'+c.itemLevel+'" data-dec="1">'+fmt(c.itemLevel,1)+'</b><span>iLvl</span></div><div class="stat"><b data-count="'+c.pvp.hk+'">'+c.pvp.hk+'</b><span>'+(c.pvp.rank?'R'+c.pvp.rank:'HKs')+'</span></div></div>'+
     '<div class="wk"><span>week '+signed(w.levels,2)+' lvl</span><span>'+signed(w.ilvl,1)+' ilvl</span><span>'+signed(w.hk)+' HK</span></div>'+

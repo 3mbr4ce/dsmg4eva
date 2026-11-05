@@ -77,7 +77,7 @@ git push -u origin main
 2. Click **Create Client**.
    - Name: `DSMG4EVA`
    - Redirect URL: leave empty, or use `https://localhost`
-   - Intended use: "Personal guild dashboard"
+   - Intended use: "Personal friends dashboard"
 3. Save. You now see a **Client ID** and a **Client Secret**. Keep this tab open for Step 5.
 
 > 🔐 **Please create a NEW client** for this, and **delete or rotate the old key** that is written inside the old Apps Script `code.gs`. Anyone who ever saw that file could use it. The same applies to the old Raider.IO and Warcraft Logs keys in that file.
@@ -159,8 +159,6 @@ You can also find it in **Settings → Pages** ("Your site is live at …"). The
 ```
 
 3. Optional changes:
-   - `"guild"`: your guild name in lowercase (e.g. `"my guild"`), or `""` to hide the guild tile
-   - `"raidNights"`: your raid days (weekday 0 = Sunday … 6 = Saturday, Berlin time)
    - `"weeklyReset"`: change it if Blizzard confirms a different reset time
 4. Click **Commit changes…** → **Commit changes**. The workflow runs automatically and the site updates in about 1–2 minutes.
 

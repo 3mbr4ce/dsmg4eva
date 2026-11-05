@@ -7,7 +7,7 @@ Full setup guide for beginners: **[GUIDE.md](GUIDE.md)**
 ## Layout
 | Path | What it is |
 |---|---|
-| `config.json` | **The only file you normally edit**: friends, characters, guild, reset time, raid nights |
+| `config.json` | **The only file you normally edit**: friends, characters, reset time |
 | `scripts/fetch.mjs` | Calls the Blizzard API (read-only) and writes `docs/data.json` (Node 20+, no dependencies) |
 | `docs/index.html` | The website. Loads `data.json` and refreshes itself every 5 minutes |
 | `docs/data.json` | Generated data (public!) |

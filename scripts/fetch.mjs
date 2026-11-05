@@ -21,8 +21,6 @@ const LOCALE = CONFIG.locale || 'en_GB';
 const API_HOST = 'https://' + REGION + '.api.blizzard.com';
 const LEVEL_CAP = CONFIG.levelCap || 60;
 const WEEKLY_RESET = { weekday: CONFIG.weeklyReset.weekday, hourUtc: CONFIG.weeklyReset.hourUtc };
-const RAID_NIGHTS = CONFIG.raidNights || [];
-const GUILD_SLUG = CONFIG.guild || '';
 const FRIENDS = CONFIG.friends || [];
 const CONCURRENCY = 8;
 
@@ -90,9 +88,8 @@ async function main() {
 
   const bundle = {
     app: APP_NAME, generatedAt: Date.now(), region: REGION, levelCap: LEVEL_CAP, weekId,
-    weekStartedAt: snap.takenAt, nextResetAt: nextResetMs(), weeklyReset: WEEKLY_RESET, raidNights: RAID_NIGHTS,
+    weekStartedAt: snap.takenAt, nextResetAt: nextResetMs(), weeklyReset: WEEKLY_RESET,
     friends: FRIENDS.map(f => (f.aka ? { friend: f.friend, aka: String(f.aka) } : { friend: f.friend })),
-    guild: GUILD_SLUG ? await fetchGuild(GUILD_SLUG, token) : null,
     characters: chars
   };
   // Only rewrite data.json when content (ignoring generatedAt) changed -> fewer commits.
@@ -133,16 +130,6 @@ async function fetchAllCharacters(token) {
   return out;
 }
 
-async function fetchGuild(slug, token) {
-  const r = await apiGet('/data/wow/guild/' + encodeURIComponent(slug.toLowerCase()), token);
-  if (!r.ok) return { slug, error: 'not_found' };
-  return {
-    slug, name: r.json.name, members: r.json.member_count || 0, achievementPoints: r.json.achievement_points || 0,
-    faction: r.json.faction && r.json.faction.type || '', ruleset: r.json.ruleset && r.json.ruleset.name || '',
-    armoryUrl: 'https://worldofwarcraft.blizzard.com/en-gb/forever/' + REGION + '/armory/guild/' + encodeURIComponent(slug.toLowerCase())
-  };
-}
-
 /* ---------- shared logic (identical to the Apps Script version) ---------- */
 function normalizeCharacter(c, profile, equip, pvp, specs, profs) {
   const base = { friend: c.friend, isMain: c.isMain, slug: c.slug, input: c.input };
@@ -170,7 +157,6 @@ function normalizeCharacter(c, profile, equip, pvp, specs, profs) {
   base.raceId = p.race && p.race.id || 0;
   base.gender = p.gender && p.gender.type || '';
   base.faction = p.faction && p.faction.type || '';
-  base.guild = p.guild ? p.guild.name : null;
   base.ruleset = p.ruleset ? p.ruleset.name : '';
   base.achievementPoints = p.achievement_points || 0;
   base.lastLogin = p.last_login_timestamp || null;
