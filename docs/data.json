@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1793892297326,
+ "generatedAt": 1793893207408,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -835,11 +835,11 @@
    "name": "Ash",
    "surname": "Kai",
    "fullName": "Ash Kai",
-   "level": 23,
-   "experience": 24108,
-   "xpToLevel": 29400,
-   "xpPct": 82,
-   "levelProgress": 23.82,
+   "level": 24,
+   "experience": 17413,
+   "xpToLevel": 31700,
+   "xpPct": 54.93,
+   "levelProgress": 24.55,
    "className": "Rogue",
    "classId": 4,
    "race": "Human",
@@ -848,8 +848,8 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1793887398000,
-   "apiItemLevel": 13,
+   "lastLogin": 1793892779000,
+   "apiItemLevel": 15,
    "gear": [
     {
      "slot": "AMMO",
@@ -950,7 +950,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 38 / 90",
+      "dur": "Durability 90 / 90",
       "sell": 1441,
       "desc": ""
      }
@@ -986,7 +986,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 14 / 25",
+      "dur": "Durability 25 / 25",
       "sell": 462,
       "desc": ""
      }
@@ -1022,7 +1022,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 21 / 25",
+      "dur": "Durability 25 / 25",
       "sell": 347,
       "desc": ""
      }
@@ -1058,7 +1058,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 4 / 20",
+      "dur": "Durability 20 / 20",
       "sell": 240,
       "desc": ""
      }
@@ -1096,7 +1096,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 28 / 60",
+      "dur": "Durability 60 / 60",
       "sell": 1156,
       "desc": ""
      }
@@ -1134,7 +1134,7 @@
       "spells": [],
       "req": "Requires Level 10",
       "reqClass": "",
-      "dur": "Durability 18 / 35",
+      "dur": "Durability 35 / 35",
       "sell": 307,
       "desc": ""
      }
@@ -1176,6 +1176,47 @@
      }
     },
     {
+     "slot": "FINGER_2",
+     "slotName": "Ring 2",
+     "itemId": 282283,
+     "name": "Malignant Root",
+     "quality": "RARE",
+     "ilvl": 32,
+     "inventoryType": "FINGER",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/1769008.jpg",
+     "tt": {
+      "bind": "Binds when picked up",
+      "unique": "",
+      "inv": "Finger",
+      "sub": "Miscellaneous",
+      "armor": "",
+      "stats": [
+       {
+        "s": "+7 Stamina",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+8 Attack Power",
+        "neg": false,
+        "eq": true
+       },
+       {
+        "s": "+4 Spell Power",
+        "neg": false,
+        "eq": true
+       }
+      ],
+      "spells": [],
+      "req": "",
+      "reqClass": "",
+      "dur": "",
+      "sell": 2599,
+      "desc": ""
+     }
+    },
+    {
      "slot": "MAIN_HAND",
      "slotName": "Main Hand",
      "itemId": 1937,
@@ -1184,7 +1225,7 @@
      "ilvl": 23,
      "inventoryType": "WEAPON",
      "enchants": [
-      "Instant Poison (52 |4Charge:Charges;)"
+      "Instant Poison (60 |4Charge:Charges;)"
      ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135325.jpg",
      "tt": {
@@ -1208,7 +1249,7 @@
       "spells": [],
       "req": "Requires Level 18",
       "reqClass": "",
-      "dur": "Durability 34 / 75",
+      "dur": "Durability 75 / 75",
       "sell": 2551,
       "desc": "",
       "weapon": {
@@ -1227,7 +1268,7 @@
      "ilvl": 21,
      "inventoryType": "WEAPON",
      "enchants": [
-      "Instant Poison (56 |4Charge:Charges;)"
+      "Instant Poison (60 |4Charge:Charges;)"
      ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132416.jpg",
      "tt": {
@@ -1251,7 +1292,7 @@
       "spells": [],
       "req": "Requires Level 17",
       "reqClass": "",
-      "dur": "Durability 31 / 70",
+      "dur": "Durability 70 / 70",
       "sell": 1963,
       "desc": "",
       "weapon": {
@@ -1264,13 +1305,13 @@
     {
      "slot": "RANGED",
      "slotName": "Ranged",
-     "itemId": 279894,
-     "name": "Calibrated Blunderbuss",
-     "quality": "RARE",
-     "ilvl": 18,
+     "itemId": 15205,
+     "name": "Owlsight Rifle",
+     "quality": "UNCOMMON",
+     "ilvl": 20,
      "inventoryType": "RANGEDRIGHT",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135610.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135613.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
@@ -1279,7 +1320,7 @@
       "armor": "",
       "stats": [
        {
-        "s": "+3 Stamina",
+        "s": "+2 Agility",
         "neg": false,
         "eq": false
        }
@@ -1287,18 +1328,18 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 28 / 50",
-      "sell": 979,
+      "dur": "Durability 50 / 50",
+      "sell": 1063,
       "desc": "",
       "weapon": {
-       "dmg": "15 - 29 Damage",
-       "speed": "Speed 2.30",
-       "dps": "(9.6 damage per second)"
+       "dmg": "14 - 27 Damage",
+       "speed": "Speed 2.60",
+       "dps": "(7.9 damage per second)"
       }
      }
     }
    ],
-   "itemLevel": 20.17,
+   "itemLevel": 21.23,
    "pvp": {
     "hk": 0,
     "rank": 0,
@@ -1312,10 +1353,10 @@
      },
      {
       "name": "Combat",
-      "points": 12
+      "points": 13
      }
     ],
-    "split": "2/12",
+    "split": "2/13",
     "main": "Combat"
    },
    "professions": {
@@ -1328,8 +1369,8 @@
      },
      {
       "name": "Skinning",
-      "skill": 120,
-      "max": 150,
+      "skill": 131,
+      "max": 225,
       "recipes": 2
      }
     ],
@@ -1350,8 +1391,8 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/ash-kai",
    "weekly": {
-    "levels": 10.38,
-    "ilvl": 9.92,
+    "levels": 11.11,
+    "ilvl": 10.98,
     "hk": 0,
     "rank": 0
    },
