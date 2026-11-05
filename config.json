@@ -31,47 +31,34 @@
   "friends": [
     {
       "friend": "Billy",
-      "main": "Pip-Jaeger",
-      "alts": [
-        "Steppenwolf-One"
-      ]
+      "main": "Sir-Billythecrit",
+      "alts": []
     },
     {
       "friend": "Embrace",
-      "main": "Ash-Kai",
-      "alts": [
-        "Xerxes-Crownrend",
-        "Peep-Jõks"
-      ]
+      "main": "Blue-Embrace",
+      "alts": []
     },
     {
       "friend": "Ruler",
-      "main": "Panzer-Error",
-      "alts": [
-        "Damp-Fat"
-      ]
+      "main": "Ruler-Shiroune",
+      "alts": []
     },
     {
       "friend": "Dala",
       "aka": "Schwitzer",
       "main": "Garethos-Blackwood",
-      "alts": [
-        "Chasida-Shieldsworn",
-        "Ryan-Angelos"
-      ]
+      "alts": []
     },
     {
       "friend": "Lungen",
-      "main": "Zewazi-Softis",
-      "alts": [
-        "Leon-Lionhart"
-      ]
+      "main": "Sire-Khingen",
+      "alts": []
     },
     {
       "friend": "Dom",
       "main": "Mo-Rx",
-      "alts": [],
-      "_note": "PLACEHOLDER: random public EU character from guild Hüljatud - replace with Dom's real chars"
+      "alts": []
     }
   ]
 }
