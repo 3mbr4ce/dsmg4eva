@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1793856293755,
+ "generatedAt": 1793859521406,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -45,6 +45,9 @@
   },
   {
    "friend": "Lungen"
+  },
+  {
+   "friend": "Dom"
   }
  ],
  "guild": {
@@ -80,7 +83,7 @@
    "guild": null,
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1793852440000,
+   "lastLogin": 1793858352000,
    "apiItemLevel": 1,
    "gear": [
     {
@@ -1958,11 +1961,11 @@
    "name": "Zewazi",
    "surname": "Softis",
    "fullName": "Zewazi Softis",
-   "level": 12,
-   "experience": 9175,
-   "xpToLevel": 10100,
-   "xpPct": 90.84,
-   "levelProgress": 12.91,
+   "level": 13,
+   "experience": 2611,
+   "xpToLevel": 11400,
+   "xpPct": 22.9,
+   "levelProgress": 13.23,
    "className": "Hunter",
    "classId": 3,
    "race": "Night Elf",
@@ -1972,7 +1975,7 @@
    "guild": "Hüljatud",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1793856174000,
+   "lastLogin": 1793859198000,
    "apiItemLevel": 4,
    "gear": [
     {
@@ -2072,15 +2075,13 @@
     {
      "slot": "FEET",
      "slotName": "Feet",
-     "itemId": 1367,
-     "name": "Ragged Leather Boots",
-     "quality": "POOR",
-     "ilvl": 3,
+     "itemId": 9601,
+     "name": "Cushioned Boots",
+     "quality": "COMMON",
+     "ilvl": 12,
      "inventoryType": "FEET",
-     "enchants": [
-      "Enchanted: Stamina +1 and Armor +8"
-     ],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132540.jpg"
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132539.jpg"
     },
     {
      "slot": "MAIN_HAND",
@@ -2096,16 +2097,16 @@
     {
      "slot": "RANGED",
      "slotName": "Ranged",
-     "itemId": 5596,
-     "name": "Ashwood Bow",
+     "itemId": 2507,
+     "name": "Laminated Recurve Bow",
      "quality": "COMMON",
-     "ilvl": 11,
+     "ilvl": 16,
      "inventoryType": "RANGED",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135489.jpg"
     }
    ],
-   "itemLevel": 8.7,
+   "itemLevel": 10.1,
    "pvp": {
     "hk": 0,
     "rank": 0,
@@ -2115,10 +2116,10 @@
     "trees": [
      {
       "name": "Beast Mastery",
-      "points": 3
+      "points": 4
      }
     ],
-    "split": "3",
+    "split": "4",
     "main": "Beast Mastery"
    },
    "professions": {
@@ -2153,8 +2154,8 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/zewazi-softis",
    "weekly": {
-    "levels": 2.75,
-    "ilvl": 1.8,
+    "levels": 3.07,
+    "ilvl": 3.2,
     "hk": 0,
     "rank": 0
    },
@@ -2313,6 +2314,193 @@
     ]
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/leon-lionhart",
+   "weekly": {
+    "levels": 0,
+    "ilvl": 0,
+    "hk": 0,
+    "rank": 0
+   },
+   "ding60At": null
+  },
+  {
+   "friend": "Dom",
+   "isMain": true,
+   "slug": "mo-rx",
+   "input": "Mo-Rx",
+   "id": 558134,
+   "name": "Mo",
+   "surname": "Rx",
+   "fullName": "Mo Rx",
+   "level": 15,
+   "experience": 7649,
+   "xpToLevel": 14400,
+   "xpPct": 53.12,
+   "levelProgress": 15.53,
+   "className": "Paladin",
+   "classId": 2,
+   "race": "Human",
+   "raceId": 1,
+   "gender": "FEMALE",
+   "faction": "ALLIANCE",
+   "guild": "Hüljatud",
+   "ruleset": "PvP",
+   "achievementPoints": 0,
+   "lastLogin": 1793856168000,
+   "apiItemLevel": 8,
+   "gear": [
+    {
+     "slot": "BACK",
+     "slotName": "Back",
+     "itemId": 279899,
+     "name": "Catacomb Cloak",
+     "quality": "UNCOMMON",
+     "ilvl": 17,
+     "inventoryType": "CLOAK",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133763.jpg"
+    },
+    {
+     "slot": "CHEST",
+     "slotName": "Chest",
+     "itemId": 3166,
+     "name": "Ironheart Chain",
+     "quality": "UNCOMMON",
+     "ilvl": 15,
+     "inventoryType": "CHEST",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132624.jpg"
+    },
+    {
+     "slot": "SHIRT",
+     "slotName": "Shirt",
+     "itemId": 45,
+     "name": "Squire's Shirt",
+     "quality": "COMMON",
+     "ilvl": 1,
+     "inventoryType": "BODY",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135005.jpg"
+    },
+    {
+     "slot": "WRIST",
+     "slotName": "Wrist",
+     "itemId": 280095,
+     "name": "Cryptwalker Bracers",
+     "quality": "UNCOMMON",
+     "ilvl": 17,
+     "inventoryType": "WRIST",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132602.jpg"
+    },
+    {
+     "slot": "HANDS",
+     "slotName": "Hands",
+     "itemId": 280096,
+     "name": "Tomb Robber's Gloves",
+     "quality": "UNCOMMON",
+     "ilvl": 17,
+     "inventoryType": "HAND",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132952.jpg"
+    },
+    {
+     "slot": "WAIST",
+     "slotName": "Waist",
+     "itemId": 270230,
+     "name": "Kindlegem Girdle",
+     "quality": "RARE",
+     "ilvl": 18,
+     "inventoryType": "WAIST",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132509.jpg"
+    },
+    {
+     "slot": "LEGS",
+     "slotName": "Legs",
+     "itemId": 2646,
+     "name": "Loose Chain Pants",
+     "quality": "POOR",
+     "ilvl": 8,
+     "inventoryType": "LEGS",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134583.jpg"
+    },
+    {
+     "slot": "FEET",
+     "slotName": "Feet",
+     "itemId": 270229,
+     "name": "Treads of the Protector Golem",
+     "quality": "RARE",
+     "ilvl": 18,
+     "inventoryType": "FEET",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132535.jpg"
+    },
+    {
+     "slot": "MAIN_HAND",
+     "slotName": "Main Hand",
+     "itemId": 279895,
+     "name": "Ironforge Greathammer",
+     "quality": "RARE",
+     "ilvl": 18,
+     "inventoryType": "TWOHWEAPON",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133058.jpg"
+    }
+   ],
+   "itemLevel": 16.22,
+   "pvp": {
+    "hk": 0,
+    "rank": 0,
+    "rankName": "Unranked"
+   },
+   "spec": {
+    "trees": [
+     {
+      "name": "Retribution",
+      "points": 5
+     }
+    ],
+    "split": "5",
+    "main": "Retribution"
+   },
+   "professions": {
+    "primaries": [
+     {
+      "name": "Mining",
+      "skill": 63,
+      "max": 75,
+      "recipes": 3
+     },
+     {
+      "name": "Blacksmithing",
+      "skill": 1,
+      "max": 75,
+      "recipes": 5
+     }
+    ],
+    "secondaries": [
+     {
+      "name": "Cooking",
+      "skill": 1,
+      "max": 75,
+      "recipes": 4
+     },
+     {
+      "name": "Fishing",
+      "skill": 1,
+      "max": 75,
+      "recipes": 1
+     },
+     {
+      "name": "First Aid",
+      "skill": 1,
+      "max": 75,
+      "recipes": 1
+     }
+    ]
+   },
+   "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/mo-rx",
    "weekly": {
     "levels": 0,
     "ilvl": 0,
