@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1793909641121,
+ "generatedAt": 1793910317108,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -5138,10 +5138,10 @@
    "surname": "Rx",
    "fullName": "Mo Rx",
    "level": 23,
-   "experience": 6954,
+   "experience": 16368,
    "xpToLevel": 29400,
-   "xpPct": 23.65,
-   "levelProgress": 23.24,
+   "xpPct": 55.67,
+   "levelProgress": 23.56,
    "className": "Paladin",
    "classId": 2,
    "race": "Human",
@@ -5150,8 +5150,8 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1793906916000,
-   "apiItemLevel": 15,
+   "lastLogin": 1793910137000,
+   "apiItemLevel": 17,
    "gear": [
     {
      "slot": "HEAD",
@@ -5187,6 +5187,42 @@
       "dur": "Durability 47 / 65",
       "sell": 1460,
       "desc": ""
+     }
+    },
+    {
+     "slot": "NECK",
+     "slotName": "Neck",
+     "itemId": 279870,
+     "name": "Tarnished Locket",
+     "quality": "UNCOMMON",
+     "ilvl": 24,
+     "inventoryType": "NECK",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133295.jpg",
+     "tt": {
+      "bind": "Binds when picked up",
+      "unique": "",
+      "inv": "Neck",
+      "sub": "Miscellaneous",
+      "armor": "",
+      "stats": [
+       {
+        "s": "-3 Strength",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+6 Stamina",
+        "neg": false,
+        "eq": false
+       }
+      ],
+      "spells": [],
+      "req": "",
+      "reqClass": "",
+      "dur": "",
+      "sell": 932,
+      "desc": "Some memories are best forgotten."
      }
     },
     {
@@ -5540,37 +5576,48 @@
     {
      "slot": "MAIN_HAND",
      "slotName": "Main Hand",
-     "itemId": 279895,
-     "name": "Ironforge Greathammer",
+     "itemId": 872,
+     "name": "Rockslicer",
      "quality": "RARE",
-     "ilvl": 18,
+     "ilvl": 23,
      "inventoryType": "TWOHWEAPON",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133058.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135419.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Two-Hand",
-      "sub": "Mace",
+      "sub": "Axe",
       "armor": "",
-      "stats": [],
-      "spells": [
-       "Chance on hit: Blasts a target for 42 Fire damage."
+      "stats": [
+       {
+        "s": "+7 Strength",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+7 Nature Resistance",
+        "neg": false,
+        "eq": false
+       }
       ],
-      "req": "",
+      "spells": [
+       "Use: Slice open and gather from a target Copper, Tin, Silver, or Iron Vein (does not require Mining)."
+      ],
+      "req": "Requires Level 18",
       "reqClass": "",
-      "dur": "Durability 50 / 70",
-      "sell": 1637,
+      "dur": "Durability 80 / 80",
+      "sell": 3189,
       "desc": "",
       "weapon": {
-       "dmg": "39 - 60 Damage",
-       "speed": "Speed 3.10",
-       "dps": "(16.0 damage per second)"
+       "dmg": "52 - 78 Damage",
+       "speed": "Speed 3.30",
+       "dps": "(19.7 damage per second)"
       }
      }
     }
    ],
-   "itemLevel": 20.75,
+   "itemLevel": 21.77,
    "pvp": {
     "hk": 2,
     "rank": 0,
@@ -5624,8 +5671,8 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/mo-rx",
    "weekly": {
-    "levels": 7.71,
-    "ilvl": 4.53,
+    "levels": 8.03,
+    "ilvl": 5.55,
     "hk": 2,
     "rank": 0
    },
