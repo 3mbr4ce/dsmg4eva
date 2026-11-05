@@ -10,33 +10,37 @@
   "friends": [
     {
       "friend": "Billy",
-      "main": [],
+      "aka": "Thelootluck",
+      "main": "Pip-Jaeger",
       "alts": []
     },
     {
       "friend": "Embrace",
+      "aka": "Classic Embrazze",
       "main": "Blue-Embrace",
       "alts": []
     },
     {
       "friend": "Ruler",
+      "aka": "Overall Andy",
       "main": "Ruler-Shiroune",
       "alts": []
     },
     {
       "friend": "Dala",
-      "aka": "Schwitzer",
+      "aka": "Weakaura Andy",
       "main": "Dala-Hoon",
       "alts": []
     },
     {
       "friend": "Lungen",
+      "aka": "Schwitzer",
       "main": "Sire-Khingen",
       "alts": []
     },
     {
       "friend": "Dom",
-      "main": [],
+      "main": "Mo-Rx",
       "alts": []
     }
   ]
