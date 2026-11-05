@@ -1,0 +1,19 @@
+{
+  "region": "eu",
+  "locale": "en_GB",
+  "levelCap": 60,
+  "weeklyReset": { "weekday": 3, "hourUtc": 7, "_note": "weekday 0=Sun..6=Sat, hour in UTC. EU Forever reset NOT officially confirmed (Wed 07:00 UTC assumed)" },
+  "raidNights": [
+    { "weekday": 1, "hour": 19, "minute": 30, "label": "Mon 19:30" },
+    { "weekday": 3, "hour": 19, "minute": 30, "label": "Wed 19:30" },
+    { "weekday": 4, "hour": 19, "minute": 30, "label": "Thu 19:30" }
+  ],
+  "guild": "hüljatud",
+  "friends": [
+    { "friend": "Billy",   "main": "Pip-Jaeger",         "alts": ["Steppenwolf-One"] },
+    { "friend": "Embrace", "main": "Ash-Kai",            "alts": ["Xerxes-Crownrend", "Peep-Jõks"] },
+    { "friend": "Ruler",   "main": "Panzer-Error",       "alts": ["Damp-Fat"] },
+    { "friend": "Dala",    "main": "Garethos-Blackwood", "alts": ["Chasida-Shieldsworn", "Ryan-Angelos"] },
+    { "friend": "Lungen",  "main": "Zewazi-Softis",      "alts": ["Leon-Lionhart"] }
+  ]
+}
