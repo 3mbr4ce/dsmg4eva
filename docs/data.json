@@ -1,0 +1,2325 @@
+{
+ "app": "DSMG4EVA",
+ "generatedAt": 1793854074140,
+ "region": "eu",
+ "levelCap": 60,
+ "weekId": "2026-11-04T07",
+ "weekStartedAt": 1793854074139,
+ "nextResetAt": 1794380400000,
+ "weeklyReset": {
+  "weekday": 3,
+  "hourUtc": 7
+ },
+ "raidNights": [
+  {
+   "weekday": 1,
+   "hour": 19,
+   "minute": 30,
+   "label": "Mon 19:30"
+  },
+  {
+   "weekday": 3,
+   "hour": 19,
+   "minute": 30,
+   "label": "Wed 19:30"
+  },
+  {
+   "weekday": 4,
+   "hour": 19,
+   "minute": 30,
+   "label": "Thu 19:30"
+  }
+ ],
+ "friends": [
+  {
+   "friend": "Billy"
+  },
+  {
+   "friend": "Embrace"
+  },
+  {
+   "friend": "Ruler"
+  },
+  {
+   "friend": "Dala"
+  },
+  {
+   "friend": "Lungen"
+  }
+ ],
+ "guild": {
+  "slug": "hüljatud",
+  "name": "Hüljatud",
+  "members": 58,
+  "achievementPoints": 0,
+  "faction": "ALLIANCE",
+  "ruleset": "PvP",
+  "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/guild/h%C3%BCljatud"
+ },
+ "characters": [
+  {
+   "friend": "Billy",
+   "isMain": true,
+   "slug": "pip-jaeger",
+   "input": "Pip-Jaeger",
+   "id": 6665634,
+   "name": "Pip",
+   "surname": "Jaeger",
+   "fullName": "Pip Jaeger",
+   "level": 14,
+   "experience": 1718,
+   "xpToLevel": 12900,
+   "xpPct": 13.32,
+   "levelProgress": 14.13,
+   "className": "Hunter",
+   "classId": 3,
+   "race": "Human",
+   "raceId": 1,
+   "gender": "FEMALE",
+   "faction": "ALLIANCE",
+   "guild": null,
+   "ruleset": "PvP",
+   "achievementPoints": 0,
+   "lastLogin": 1793852440000,
+   "apiItemLevel": 1,
+   "gear": [
+    {
+     "slot": "AMMO",
+     "slotName": "Ammo",
+     "itemId": 2512,
+     "name": "Rough Arrow",
+     "quality": "COMMON",
+     "ilvl": 5,
+     "inventoryType": "AMMO",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132382.jpg"
+    },
+    {
+     "slot": "CHEST",
+     "slotName": "Chest",
+     "itemId": 6085,
+     "name": "Footman Tunic",
+     "quality": "UNCOMMON",
+     "ilvl": 13,
+     "inventoryType": "CHEST",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132724.jpg"
+    },
+    {
+     "slot": "SHIRT",
+     "slotName": "Shirt",
+     "itemId": 148,
+     "name": "Rugged Trapper's Shirt",
+     "quality": "COMMON",
+     "ilvl": 1,
+     "inventoryType": "BODY",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135005.jpg"
+    },
+    {
+     "slot": "WRIST",
+     "slotName": "Wrist",
+     "itemId": 1370,
+     "name": "Ragged Leather Bracers",
+     "quality": "POOR",
+     "ilvl": 4,
+     "inventoryType": "WRIST",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132609.jpg"
+    },
+    {
+     "slot": "HANDS",
+     "slotName": "Hands",
+     "itemId": 1422,
+     "name": "Worn Leather Gloves",
+     "quality": "POOR",
+     "ilvl": 6,
+     "inventoryType": "HAND",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132952.jpg"
+    },
+    {
+     "slot": "WAIST",
+     "slotName": "Waist",
+     "itemId": 4663,
+     "name": "Journeyman's Belt",
+     "quality": "COMMON",
+     "ilvl": 9,
+     "inventoryType": "WAIST",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132493.jpg"
+    },
+    {
+     "slot": "LEGS",
+     "slotName": "Legs",
+     "itemId": 1366,
+     "name": "Ragged Leather Pants",
+     "quality": "POOR",
+     "ilvl": 2,
+     "inventoryType": "LEGS",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134586.jpg"
+    },
+    {
+     "slot": "FEET",
+     "slotName": "Feet",
+     "itemId": 281993,
+     "name": "Gnoll Hide Boots",
+     "quality": "UNCOMMON",
+     "ilvl": 14,
+     "inventoryType": "FEET",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132539.jpg"
+    },
+    {
+     "slot": "MAIN_HAND",
+     "slotName": "Main Hand",
+     "itemId": 2092,
+     "name": "Worn Dagger",
+     "quality": "COMMON",
+     "ilvl": 2,
+     "inventoryType": "WEAPON",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135641.jpg"
+    },
+    {
+     "slot": "RANGED",
+     "slotName": "Ranged",
+     "itemId": 2504,
+     "name": "Worn Shortbow",
+     "quality": "COMMON",
+     "ilvl": 2,
+     "inventoryType": "RANGED",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135493.jpg"
+    }
+   ],
+   "itemLevel": 6.33,
+   "pvp": {
+    "hk": 0,
+    "rank": 0,
+    "rankName": "Unranked"
+   },
+   "spec": {
+    "trees": [
+     {
+      "name": "Beast Mastery",
+      "points": 1
+     },
+     {
+      "name": "Marksmanship",
+      "points": 3
+     }
+    ],
+    "split": "1/3",
+    "main": "Marksmanship"
+   },
+   "professions": {
+    "primaries": [],
+    "secondaries": []
+   },
+   "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/pip-jaeger",
+   "weekly": {
+    "levels": 0,
+    "ilvl": 0,
+    "hk": 0,
+    "rank": 0
+   },
+   "ding60At": null
+  },
+  {
+   "friend": "Billy",
+   "isMain": false,
+   "slug": "steppenwolf-one",
+   "input": "Steppenwolf-One",
+   "id": 585326,
+   "name": "Steppenwolf",
+   "surname": "One",
+   "fullName": "Steppenwolf One",
+   "level": 14,
+   "experience": 3186,
+   "xpToLevel": 12900,
+   "xpPct": 24.7,
+   "levelProgress": 14.25,
+   "className": "Warrior",
+   "classId": 1,
+   "race": "Night Elf",
+   "raceId": 4,
+   "gender": "FEMALE",
+   "faction": "ALLIANCE",
+   "guild": "Hüljatud",
+   "ruleset": "PvP",
+   "achievementPoints": 0,
+   "lastLogin": 1793852532000,
+   "apiItemLevel": 6,
+   "gear": [
+    {
+     "slot": "BACK",
+     "slotName": "Back",
+     "itemId": 281250,
+     "name": "Forest Oracle's Cloak",
+     "quality": "UNCOMMON",
+     "ilvl": 11,
+     "inventoryType": "CLOAK",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133769.jpg"
+    },
+    {
+     "slot": "CHEST",
+     "slotName": "Chest",
+     "itemId": 10421,
+     "name": "Rough Copper Vest",
+     "quality": "UNCOMMON",
+     "ilvl": 10,
+     "inventoryType": "CHEST",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132624.jpg"
+    },
+    {
+     "slot": "SHIRT",
+     "slotName": "Shirt",
+     "itemId": 6120,
+     "name": "Recruit's Shirt",
+     "quality": "COMMON",
+     "ilvl": 1,
+     "inventoryType": "BODY",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135009.jpg"
+    },
+    {
+     "slot": "WRIST",
+     "slotName": "Wrist",
+     "itemId": 15400,
+     "name": "Clamshell Bracers",
+     "quality": "COMMON",
+     "ilvl": 14,
+     "inventoryType": "WRIST",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132602.jpg"
+    },
+    {
+     "slot": "HANDS",
+     "slotName": "Hands",
+     "itemId": 5589,
+     "name": "Moss-covered Gauntlets",
+     "quality": "COMMON",
+     "ilvl": 10,
+     "inventoryType": "HAND",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132938.jpg"
+    },
+    {
+     "slot": "WAIST",
+     "slotName": "Waist",
+     "itemId": 5592,
+     "name": "Shackled Girdle",
+     "quality": "COMMON",
+     "ilvl": 11,
+     "inventoryType": "WAIST",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132499.jpg"
+    },
+    {
+     "slot": "LEGS",
+     "slotName": "Legs",
+     "itemId": 2852,
+     "name": "Copper Chain Pants",
+     "quality": "UNCOMMON",
+     "ilvl": 10,
+     "inventoryType": "LEGS",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134583.jpg"
+    },
+    {
+     "slot": "FEET",
+     "slotName": "Feet",
+     "itemId": 3469,
+     "name": "Copper Chain Boots",
+     "quality": "UNCOMMON",
+     "ilvl": 10,
+     "inventoryType": "FEET",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132535.jpg"
+    },
+    {
+     "slot": "MAIN_HAND",
+     "slotName": "Main Hand",
+     "itemId": 6969,
+     "name": "Elunite Dagger",
+     "quality": "UNCOMMON",
+     "ilvl": 15,
+     "inventoryType": "WEAPON",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135641.jpg"
+    },
+    {
+     "slot": "OFF_HAND",
+     "slotName": "Off Hand",
+     "itemId": 15486,
+     "name": "War Torn Shield of Intellect",
+     "quality": "UNCOMMON",
+     "ilvl": 12,
+     "inventoryType": "SHIELD",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134954.jpg"
+    },
+    {
+     "slot": "RANGED",
+     "slotName": "Ranged",
+     "itemId": 287062,
+     "name": "Darnassian Knife",
+     "quality": "UNCOMMON",
+     "ilvl": 14,
+     "inventoryType": "THROWN",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135425.jpg"
+    }
+   ],
+   "itemLevel": 11.7,
+   "pvp": {
+    "hk": 0,
+    "rank": 0,
+    "rankName": "Unranked"
+   },
+   "spec": {
+    "trees": [
+     {
+      "name": "Protection",
+      "points": 5
+     }
+    ],
+    "split": "5",
+    "main": "Protection"
+   },
+   "professions": {
+    "primaries": [
+     {
+      "name": "Skinning",
+      "skill": 60,
+      "max": 75,
+      "recipes": 2
+     },
+     {
+      "name": "Mining",
+      "skill": 45,
+      "max": 75,
+      "recipes": 3
+     }
+    ],
+    "secondaries": [
+     {
+      "name": "Cooking",
+      "skill": 23,
+      "max": 75,
+      "recipes": 6
+     },
+     {
+      "name": "Fishing",
+      "skill": 1,
+      "max": 75,
+      "recipes": 1
+     },
+     {
+      "name": "First Aid",
+      "skill": 20,
+      "max": 75,
+      "recipes": 2
+     }
+    ]
+   },
+   "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/steppenwolf-one",
+   "weekly": {
+    "levels": 0,
+    "ilvl": 0,
+    "hk": 0,
+    "rank": 0
+   },
+   "ding60At": null
+  },
+  {
+   "friend": "Embrace",
+   "isMain": true,
+   "slug": "ash-kai",
+   "input": "Ash-Kai",
+   "id": 5732489,
+   "name": "Ash",
+   "surname": "Kai",
+   "fullName": "Ash Kai",
+   "level": 13,
+   "experience": 5021,
+   "xpToLevel": 11400,
+   "xpPct": 44.04,
+   "levelProgress": 13.44,
+   "className": "Rogue",
+   "classId": 4,
+   "race": "Human",
+   "raceId": 1,
+   "gender": "FEMALE",
+   "faction": "ALLIANCE",
+   "guild": "Hüljatud",
+   "ruleset": "PvP",
+   "achievementPoints": 0,
+   "lastLogin": 1793845847000,
+   "apiItemLevel": 3,
+   "gear": [
+    {
+     "slot": "CHEST",
+     "slotName": "Chest",
+     "itemId": 2817,
+     "name": "Soft Leather Tunic",
+     "quality": "UNCOMMON",
+     "ilvl": 12,
+     "inventoryType": "CHEST",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135014.jpg"
+    },
+    {
+     "slot": "SHIRT",
+     "slotName": "Shirt",
+     "itemId": 49,
+     "name": "Footpad's Shirt",
+     "quality": "COMMON",
+     "ilvl": 1,
+     "inventoryType": "BODY",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135009.jpg"
+    },
+    {
+     "slot": "WRIST",
+     "slotName": "Wrist",
+     "itemId": 6519,
+     "name": "Pioneer Bracers",
+     "quality": "COMMON",
+     "ilvl": 10,
+     "inventoryType": "WRIST",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132611.jpg"
+    },
+    {
+     "slot": "HANDS",
+     "slotName": "Hands",
+     "itemId": 1359,
+     "name": "Lion-stamped Gloves",
+     "quality": "COMMON",
+     "ilvl": 8,
+     "inventoryType": "HAND",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132939.jpg"
+    },
+    {
+     "slot": "LEGS",
+     "slotName": "Legs",
+     "itemId": 48,
+     "name": "Footpad's Pants",
+     "quality": "POOR",
+     "ilvl": 1,
+     "inventoryType": "LEGS",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134582.jpg"
+    },
+    {
+     "slot": "FEET",
+     "slotName": "Feet",
+     "itemId": 1173,
+     "name": "Weather-worn Boots",
+     "quality": "COMMON",
+     "ilvl": 10,
+     "inventoryType": "FEET",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132537.jpg"
+    },
+    {
+     "slot": "MAIN_HAND",
+     "slotName": "Main Hand",
+     "itemId": 248007,
+     "name": "Militia Shortblade",
+     "quality": "UNCOMMON",
+     "ilvl": 12,
+     "inventoryType": "WEAPON",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135651.jpg"
+    },
+    {
+     "slot": "OFF_HAND",
+     "slotName": "Off Hand",
+     "itemId": 2218,
+     "name": "Craftsman's Dagger",
+     "quality": "UNCOMMON",
+     "ilvl": 13,
+     "inventoryType": "WEAPON",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135641.jpg"
+    },
+    {
+     "slot": "RANGED",
+     "slotName": "Ranged",
+     "itemId": 3107,
+     "name": "Keen Throwing Knife",
+     "quality": "COMMON",
+     "ilvl": 16,
+     "inventoryType": "THROWN",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135425.jpg"
+    }
+   ],
+   "itemLevel": 10.25,
+   "pvp": {
+    "hk": 0,
+    "rank": 0,
+    "rankName": "Unranked"
+   },
+   "spec": {
+    "trees": [
+     {
+      "name": "Assassination",
+      "points": 2
+     },
+     {
+      "name": "Combat",
+      "points": 2
+     }
+    ],
+    "split": "2/2",
+    "main": "Assassination"
+   },
+   "professions": {
+    "primaries": [
+     {
+      "name": "Skinning",
+      "skill": 69,
+      "max": 75,
+      "recipes": 2
+     },
+     {
+      "name": "Herbalism",
+      "skill": 20,
+      "max": 75,
+      "recipes": 2
+     }
+    ],
+    "secondaries": [
+     {
+      "name": "Cooking",
+      "skill": 6,
+      "max": 75,
+      "recipes": 4
+     },
+     {
+      "name": "First Aid",
+      "skill": 25,
+      "max": 75,
+      "recipes": 1
+     }
+    ]
+   },
+   "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/ash-kai",
+   "weekly": {
+    "levels": 0,
+    "ilvl": 0,
+    "hk": 0,
+    "rank": 0
+   },
+   "ding60At": null
+  },
+  {
+   "friend": "Embrace",
+   "isMain": false,
+   "slug": "xerxes-crownrend",
+   "input": "Xerxes-Crownrend",
+   "id": 5287769,
+   "name": "Xerxes",
+   "surname": "Crownrend",
+   "fullName": "Xerxes Crownrend",
+   "level": 13,
+   "experience": 641,
+   "xpToLevel": 11400,
+   "xpPct": 5.62,
+   "levelProgress": 13.06,
+   "className": "Warrior",
+   "classId": 1,
+   "race": "Night Elf",
+   "raceId": 4,
+   "gender": "FEMALE",
+   "faction": "ALLIANCE",
+   "guild": "Hüljatud",
+   "ruleset": "PvP",
+   "achievementPoints": 0,
+   "lastLogin": 1793851809000,
+   "apiItemLevel": 5,
+   "gear": [
+    {
+     "slot": "BACK",
+     "slotName": "Back",
+     "itemId": 281250,
+     "name": "Forest Oracle's Cloak",
+     "quality": "UNCOMMON",
+     "ilvl": 11,
+     "inventoryType": "CLOAK",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133769.jpg"
+    },
+    {
+     "slot": "CHEST",
+     "slotName": "Chest",
+     "itemId": 10421,
+     "name": "Rough Copper Vest",
+     "quality": "UNCOMMON",
+     "ilvl": 10,
+     "inventoryType": "CHEST",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132624.jpg"
+    },
+    {
+     "slot": "SHIRT",
+     "slotName": "Shirt",
+     "itemId": 6120,
+     "name": "Recruit's Shirt",
+     "quality": "COMMON",
+     "ilvl": 1,
+     "inventoryType": "BODY",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135009.jpg"
+    },
+    {
+     "slot": "WRIST",
+     "slotName": "Wrist",
+     "itemId": 15400,
+     "name": "Clamshell Bracers",
+     "quality": "COMMON",
+     "ilvl": 14,
+     "inventoryType": "WRIST",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132602.jpg"
+    },
+    {
+     "slot": "HANDS",
+     "slotName": "Hands",
+     "itemId": 1506,
+     "name": "Warped Leather Gloves",
+     "quality": "POOR",
+     "ilvl": 13,
+     "inventoryType": "HAND",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132952.jpg"
+    },
+    {
+     "slot": "WAIST",
+     "slotName": "Waist",
+     "itemId": 5592,
+     "name": "Shackled Girdle",
+     "quality": "COMMON",
+     "ilvl": 11,
+     "inventoryType": "WAIST",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132499.jpg"
+    },
+    {
+     "slot": "LEGS",
+     "slotName": "Legs",
+     "itemId": 3282,
+     "name": "Battle Chain Pants",
+     "quality": "UNCOMMON",
+     "ilvl": 12,
+     "inventoryType": "LEGS",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134583.jpg"
+    },
+    {
+     "slot": "FEET",
+     "slotName": "Feet",
+     "itemId": 9601,
+     "name": "Cushioned Boots",
+     "quality": "COMMON",
+     "ilvl": 12,
+     "inventoryType": "FEET",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132539.jpg"
+    },
+    {
+     "slot": "MAIN_HAND",
+     "slotName": "Main Hand",
+     "itemId": 2847,
+     "name": "Copper Shortsword",
+     "quality": "UNCOMMON",
+     "ilvl": 10,
+     "inventoryType": "WEAPON",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135327.jpg"
+    },
+    {
+     "slot": "OFF_HAND",
+     "slotName": "Off Hand",
+     "itemId": 5593,
+     "name": "Crag Buckler",
+     "quality": "COMMON",
+     "ilvl": 11,
+     "inventoryType": "SHIELD",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134955.jpg"
+    },
+    {
+     "slot": "RANGED",
+     "slotName": "Ranged",
+     "itemId": 2777,
+     "name": "Feeble Shortbow",
+     "quality": "POOR",
+     "ilvl": 13,
+     "inventoryType": "RANGED",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135493.jpg"
+    }
+   ],
+   "itemLevel": 11.7,
+   "pvp": {
+    "hk": 0,
+    "rank": 0,
+    "rankName": "Unranked"
+   },
+   "spec": {
+    "trees": [
+     {
+      "name": "Fury",
+      "points": 1
+     },
+     {
+      "name": "Protection",
+      "points": 3
+     }
+    ],
+    "split": "1/3",
+    "main": "Protection"
+   },
+   "professions": {
+    "primaries": [
+     {
+      "name": "Mining",
+      "skill": 31,
+      "max": 75,
+      "recipes": 3
+     },
+     {
+      "name": "Blacksmithing",
+      "skill": 26,
+      "max": 75,
+      "recipes": 11
+     }
+    ],
+    "secondaries": [
+     {
+      "name": "Cooking",
+      "skill": 5,
+      "max": 75,
+      "recipes": 4
+     },
+     {
+      "name": "First Aid",
+      "skill": 13,
+      "max": 75,
+      "recipes": 2
+     }
+    ]
+   },
+   "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/xerxes-crownrend",
+   "weekly": {
+    "levels": 0,
+    "ilvl": 0,
+    "hk": 0,
+    "rank": 0
+   },
+   "ding60At": null
+  },
+  {
+   "friend": "Embrace",
+   "isMain": false,
+   "slug": "peep-jõks",
+   "input": "Peep-Jõks",
+   "id": 6591841,
+   "name": "Peep",
+   "surname": "Jõks",
+   "fullName": "Peep Jõks",
+   "level": 11,
+   "experience": 2578,
+   "xpToLevel": 8800,
+   "xpPct": 29.3,
+   "levelProgress": 11.29,
+   "className": "Rogue",
+   "classId": 4,
+   "race": "Gnome",
+   "raceId": 7,
+   "gender": "MALE",
+   "faction": "ALLIANCE",
+   "guild": "Hüljatud",
+   "ruleset": "PvP",
+   "achievementPoints": 0,
+   "lastLogin": 1793849209000,
+   "apiItemLevel": 3,
+   "gear": [
+    {
+     "slot": "BACK",
+     "slotName": "Back",
+     "itemId": 6514,
+     "name": "Disciple's Cloak",
+     "quality": "COMMON",
+     "ilvl": 10,
+     "inventoryType": "CLOAK",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133762.jpg"
+    },
+    {
+     "slot": "CHEST",
+     "slotName": "Chest",
+     "itemId": 5957,
+     "name": "Handstitched Leather Vest",
+     "quality": "UNCOMMON",
+     "ilvl": 10,
+     "inventoryType": "CHEST",
+     "enchants": [
+      "Enchanted: Stamina +1 and Armor +8"
+     ],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132760.jpg"
+    },
+    {
+     "slot": "SHIRT",
+     "slotName": "Shirt",
+     "itemId": 49,
+     "name": "Footpad's Shirt",
+     "quality": "COMMON",
+     "ilvl": 1,
+     "inventoryType": "BODY",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135009.jpg"
+    },
+    {
+     "slot": "WRIST",
+     "slotName": "Wrist",
+     "itemId": 3365,
+     "name": "Frayed Bracers",
+     "quality": "POOR",
+     "ilvl": 5,
+     "inventoryType": "WRIST",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132609.jpg"
+    },
+    {
+     "slot": "HANDS",
+     "slotName": "Hands",
+     "itemId": 6171,
+     "name": "Wolf Handler Gloves",
+     "quality": "COMMON",
+     "ilvl": 5,
+     "inventoryType": "HAND",
+     "enchants": [
+      "Enchanted: Stamina +1 and Armor +8"
+     ],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132939.jpg"
+    },
+    {
+     "slot": "WAIST",
+     "slotName": "Waist",
+     "itemId": 4237,
+     "name": "Handstitched Leather Belt",
+     "quality": "UNCOMMON",
+     "ilvl": 10,
+     "inventoryType": "WAIST",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132493.jpg"
+    },
+    {
+     "slot": "LEGS",
+     "slotName": "Legs",
+     "itemId": 2303,
+     "name": "Handstitched Leather Pants",
+     "quality": "UNCOMMON",
+     "ilvl": 10,
+     "inventoryType": "LEGS",
+     "enchants": [
+      "Enchanted: Stamina +1 and Armor +8"
+     ],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134706.jpg"
+    },
+    {
+     "slot": "FEET",
+     "slotName": "Feet",
+     "itemId": 2302,
+     "name": "Handstitched Leather Boots",
+     "quality": "COMMON",
+     "ilvl": 8,
+     "inventoryType": "FEET",
+     "enchants": [
+      "Enchanted: Stamina +1 and Armor +8"
+     ],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132538.jpg"
+    },
+    {
+     "slot": "FINGER_1",
+     "slotName": "Ring 1",
+     "itemId": 286737,
+     "name": "Avala's Binding",
+     "quality": "COMMON",
+     "ilvl": 8,
+     "inventoryType": "FINGER",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133349.jpg"
+    },
+    {
+     "slot": "MAIN_HAND",
+     "slotName": "Main Hand",
+     "itemId": 2260,
+     "name": "Frostmane Hand Axe",
+     "quality": "COMMON",
+     "ilvl": 9,
+     "inventoryType": "WEAPONMAINHAND",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132408.jpg"
+    },
+    {
+     "slot": "OFF_HAND",
+     "slotName": "Off Hand",
+     "itemId": 10547,
+     "name": "Camping Knife",
+     "quality": "COMMON",
+     "ilvl": 8,
+     "inventoryType": "WEAPON",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135637.jpg"
+    },
+    {
+     "slot": "RANGED",
+     "slotName": "Ranged",
+     "itemId": 2946,
+     "name": "Balanced Throwing Dagger",
+     "quality": "COMMON",
+     "ilvl": 8,
+     "inventoryType": "THROWN",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135641.jpg"
+    }
+   ],
+   "itemLevel": 8.27,
+   "pvp": {
+    "hk": 0,
+    "rank": 0,
+    "rankName": "Unranked"
+   },
+   "spec": {
+    "trees": [
+     {
+      "name": "Combat",
+      "points": 2
+     }
+    ],
+    "split": "2",
+    "main": "Combat"
+   },
+   "professions": {
+    "primaries": [],
+    "secondaries": []
+   },
+   "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/peep-j%C3%B5ks",
+   "weekly": {
+    "levels": 0,
+    "ilvl": 0,
+    "hk": 0,
+    "rank": 0
+   },
+   "ding60At": null
+  },
+  {
+   "friend": "Ruler",
+   "isMain": true,
+   "slug": "panzer-error",
+   "input": "Panzer-Error",
+   "id": 6684642,
+   "name": "Panzer",
+   "surname": "Error",
+   "fullName": "Panzer Error",
+   "level": 12,
+   "experience": 6279,
+   "xpToLevel": 10100,
+   "xpPct": 62.17,
+   "levelProgress": 12.62,
+   "className": "Shaman",
+   "classId": 7,
+   "race": "Dwarf",
+   "raceId": 3,
+   "gender": "MALE",
+   "faction": "ALLIANCE",
+   "guild": "Hüljatud",
+   "ruleset": "PvP",
+   "achievementPoints": 0,
+   "lastLogin": 1793846567000,
+   "apiItemLevel": 3,
+   "gear": [
+    {
+     "slot": "BACK",
+     "slotName": "Back",
+     "itemId": 2905,
+     "name": "Goat Fur Cloak",
+     "quality": "COMMON",
+     "ilvl": 10,
+     "inventoryType": "CLOAK",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133763.jpg"
+    },
+    {
+     "slot": "CHEST",
+     "slotName": "Chest",
+     "itemId": 2817,
+     "name": "Soft Leather Tunic",
+     "quality": "UNCOMMON",
+     "ilvl": 12,
+     "inventoryType": "CHEST",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135014.jpg"
+    },
+    {
+     "slot": "SHIRT",
+     "slotName": "Shirt",
+     "itemId": 154,
+     "name": "Primitive Mantle",
+     "quality": "COMMON",
+     "ilvl": 1,
+     "inventoryType": "BODY",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133766.jpg"
+    },
+    {
+     "slot": "WRIST",
+     "slotName": "Wrist",
+     "itemId": 1370,
+     "name": "Ragged Leather Bracers",
+     "quality": "POOR",
+     "ilvl": 4,
+     "inventoryType": "WRIST",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132609.jpg"
+    },
+    {
+     "slot": "HANDS",
+     "slotName": "Hands",
+     "itemId": 6171,
+     "name": "Wolf Handler Gloves",
+     "quality": "COMMON",
+     "ilvl": 5,
+     "inventoryType": "HAND",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132939.jpg"
+    },
+    {
+     "slot": "WAIST",
+     "slotName": "Waist",
+     "itemId": 3363,
+     "name": "Frayed Belt",
+     "quality": "POOR",
+     "ilvl": 3,
+     "inventoryType": "WAIST",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132493.jpg"
+    },
+    {
+     "slot": "LEGS",
+     "slotName": "Legs",
+     "itemId": 61,
+     "name": "Dwarven Leather Pants",
+     "quality": "COMMON",
+     "ilvl": 5,
+     "inventoryType": "LEGS",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134706.jpg"
+    },
+    {
+     "slot": "FEET",
+     "slotName": "Feet",
+     "itemId": 1419,
+     "name": "Worn Leather Boots",
+     "quality": "POOR",
+     "ilvl": 8,
+     "inventoryType": "FEET",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132540.jpg"
+    },
+    {
+     "slot": "FINGER_1",
+     "slotName": "Ring 1",
+     "itemId": 286737,
+     "name": "Avala's Binding",
+     "quality": "COMMON",
+     "ilvl": 8,
+     "inventoryType": "FINGER",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133349.jpg"
+    },
+    {
+     "slot": "MAIN_HAND",
+     "slotName": "Main Hand",
+     "itemId": 1009,
+     "name": "Compact Hammer",
+     "quality": "UNCOMMON",
+     "ilvl": 13,
+     "inventoryType": "WEAPONMAINHAND",
+     "enchants": [
+      "Rockbiter 2"
+     ],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133045.jpg"
+    },
+    {
+     "slot": "OFF_HAND",
+     "slotName": "Off Hand",
+     "itemId": 2900,
+     "name": "Stone Buckler",
+     "quality": "COMMON",
+     "ilvl": 10,
+     "inventoryType": "SHIELD",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134955.jpg"
+    }
+   ],
+   "itemLevel": 7.8,
+   "pvp": {
+    "hk": 0,
+    "rank": 0,
+    "rankName": "Unranked"
+   },
+   "spec": {
+    "trees": [
+     {
+      "name": "Enhancement",
+      "points": 3
+     }
+    ],
+    "split": "3",
+    "main": "Enhancement"
+   },
+   "professions": {
+    "primaries": [
+     {
+      "name": "Herbalism",
+      "skill": 39,
+      "max": 75,
+      "recipes": 3
+     }
+    ],
+    "secondaries": [
+     {
+      "name": "Cooking",
+      "skill": 1,
+      "max": 75,
+      "recipes": 5
+     },
+     {
+      "name": "Fishing",
+      "skill": 1,
+      "max": 75,
+      "recipes": 1
+     },
+     {
+      "name": "First Aid",
+      "skill": 21,
+      "max": 75,
+      "recipes": 2
+     }
+    ]
+   },
+   "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/panzer-error",
+   "weekly": {
+    "levels": 0,
+    "ilvl": 0,
+    "hk": 0,
+    "rank": 0
+   },
+   "ding60At": null
+  },
+  {
+   "friend": "Ruler",
+   "isMain": false,
+   "slug": "damp-fat",
+   "input": "Damp-Fat",
+   "id": 6695812,
+   "name": "Damp",
+   "surname": "Fat",
+   "fullName": "Damp Fat",
+   "level": 11,
+   "experience": 2563,
+   "xpToLevel": 8800,
+   "xpPct": 29.13,
+   "levelProgress": 11.29,
+   "className": "Shaman",
+   "classId": 7,
+   "race": "Dwarf",
+   "raceId": 3,
+   "gender": "MALE",
+   "faction": "ALLIANCE",
+   "guild": "Hüljatud",
+   "ruleset": "PvP",
+   "achievementPoints": 0,
+   "lastLogin": 1793846498000,
+   "apiItemLevel": 1,
+   "gear": [
+    {
+     "slot": "BACK",
+     "slotName": "Back",
+     "itemId": 4662,
+     "name": "Journeyman's Cloak",
+     "quality": "COMMON",
+     "ilvl": 8,
+     "inventoryType": "CLOAK",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133767.jpg"
+    },
+    {
+     "slot": "CHEST",
+     "slotName": "Chest",
+     "itemId": 1425,
+     "name": "Worn Leather Vest",
+     "quality": "POOR",
+     "ilvl": 9,
+     "inventoryType": "CHEST",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135009.jpg"
+    },
+    {
+     "slot": "SHIRT",
+     "slotName": "Shirt",
+     "itemId": 154,
+     "name": "Primitive Mantle",
+     "quality": "COMMON",
+     "ilvl": 1,
+     "inventoryType": "BODY",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133766.jpg"
+    },
+    {
+     "slot": "WRIST",
+     "slotName": "Wrist",
+     "itemId": 1370,
+     "name": "Ragged Leather Bracers",
+     "quality": "POOR",
+     "ilvl": 4,
+     "inventoryType": "WRIST",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132609.jpg"
+    },
+    {
+     "slot": "HANDS",
+     "slotName": "Hands",
+     "itemId": 6521,
+     "name": "Pioneer Gloves",
+     "quality": "COMMON",
+     "ilvl": 11,
+     "inventoryType": "HAND",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132939.jpg"
+    },
+    {
+     "slot": "WAIST",
+     "slotName": "Waist",
+     "itemId": 1369,
+     "name": "Ragged Leather Belt",
+     "quality": "POOR",
+     "ilvl": 5,
+     "inventoryType": "WAIST",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132513.jpg"
+    },
+    {
+     "slot": "LEGS",
+     "slotName": "Legs",
+     "itemId": 61,
+     "name": "Dwarven Leather Pants",
+     "quality": "COMMON",
+     "ilvl": 5,
+     "inventoryType": "LEGS",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134706.jpg"
+    },
+    {
+     "slot": "FEET",
+     "slotName": "Feet",
+     "itemId": 1367,
+     "name": "Ragged Leather Boots",
+     "quality": "POOR",
+     "ilvl": 3,
+     "inventoryType": "FEET",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132540.jpg"
+    },
+    {
+     "slot": "MAIN_HAND",
+     "slotName": "Main Hand",
+     "itemId": 2067,
+     "name": "Frostbit Staff",
+     "quality": "COMMON",
+     "ilvl": 10,
+     "inventoryType": "TWOHWEAPON",
+     "enchants": [
+      "Rockbiter 2"
+     ],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135152.jpg"
+    }
+   ],
+   "itemLevel": 7.22,
+   "pvp": {
+    "hk": 0,
+    "rank": 0,
+    "rankName": "Unranked"
+   },
+   "spec": {
+    "trees": [
+     {
+      "name": "Enhancement",
+      "points": 2
+     }
+    ],
+    "split": "2",
+    "main": "Enhancement"
+   },
+   "professions": {
+    "primaries": [
+     {
+      "name": "Herbalism",
+      "skill": 17,
+      "max": 75,
+      "recipes": 2
+     }
+    ],
+    "secondaries": []
+   },
+   "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/damp-fat",
+   "weekly": {
+    "levels": 0,
+    "ilvl": 0,
+    "hk": 0,
+    "rank": 0
+   },
+   "ding60At": null
+  },
+  {
+   "friend": "Dala",
+   "isMain": true,
+   "slug": "garethos-blackwood",
+   "input": "Garethos-Blackwood",
+   "id": 1470351,
+   "name": "Garethos",
+   "surname": "Blackwood",
+   "fullName": "Garethos Blackwood",
+   "level": 10,
+   "experience": 3049,
+   "xpToLevel": 7600,
+   "xpPct": 40.12,
+   "levelProgress": 10.4,
+   "className": "Warrior",
+   "classId": 1,
+   "race": "Human",
+   "raceId": 1,
+   "gender": "MALE",
+   "faction": "ALLIANCE",
+   "guild": "Hüljatud",
+   "ruleset": "PvP",
+   "achievementPoints": 0,
+   "lastLogin": 1793846089000,
+   "apiItemLevel": 0,
+   "gear": [
+    {
+     "slot": "BACK",
+     "slotName": "Back",
+     "itemId": 1376,
+     "name": "Frayed Cloak",
+     "quality": "POOR",
+     "ilvl": 5,
+     "inventoryType": "CLOAK",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133762.jpg"
+    },
+    {
+     "slot": "CHEST",
+     "slotName": "Chest",
+     "itemId": 2648,
+     "name": "Loose Chain Vest",
+     "quality": "POOR",
+     "ilvl": 10,
+     "inventoryType": "CHEST",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132624.jpg"
+    },
+    {
+     "slot": "SHIRT",
+     "slotName": "Shirt",
+     "itemId": 38,
+     "name": "Recruit's Shirt",
+     "quality": "COMMON",
+     "ilvl": 1,
+     "inventoryType": "BODY",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135009.jpg"
+    },
+    {
+     "slot": "WRIST",
+     "slotName": "Wrist",
+     "itemId": 2643,
+     "name": "Loose Chain Bracers",
+     "quality": "POOR",
+     "ilvl": 10,
+     "inventoryType": "WRIST",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132602.jpg"
+    },
+    {
+     "slot": "HANDS",
+     "slotName": "Hands",
+     "itemId": 2653,
+     "name": "Flimsy Chain Gloves",
+     "quality": "POOR",
+     "ilvl": 4,
+     "inventoryType": "HAND",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132938.jpg"
+    },
+    {
+     "slot": "WAIST",
+     "slotName": "Waist",
+     "itemId": 2635,
+     "name": "Loose Chain Belt",
+     "quality": "POOR",
+     "ilvl": 8,
+     "inventoryType": "WAIST",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132495.jpg"
+    },
+    {
+     "slot": "LEGS",
+     "slotName": "Legs",
+     "itemId": 2646,
+     "name": "Loose Chain Pants",
+     "quality": "POOR",
+     "ilvl": 8,
+     "inventoryType": "LEGS",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134583.jpg"
+    },
+    {
+     "slot": "FEET",
+     "slotName": "Feet",
+     "itemId": 2691,
+     "name": "Outfitter Boots",
+     "quality": "COMMON",
+     "ilvl": 5,
+     "inventoryType": "FEET",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132535.jpg"
+    },
+    {
+     "slot": "MAIN_HAND",
+     "slotName": "Main Hand",
+     "itemId": 1416,
+     "name": "Rusty Hatchet",
+     "quality": "POOR",
+     "ilvl": 9,
+     "inventoryType": "WEAPONMAINHAND",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135421.jpg"
+    },
+    {
+     "slot": "OFF_HAND",
+     "slotName": "Off Hand",
+     "itemId": 6078,
+     "name": "Pikeman Shield",
+     "quality": "COMMON",
+     "ilvl": 5,
+     "inventoryType": "SHIELD",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134949.jpg"
+    },
+    {
+     "slot": "RANGED",
+     "slotName": "Ranged",
+     "itemId": 3131,
+     "name": "Weighted Throwing Axe",
+     "quality": "COMMON",
+     "ilvl": 8,
+     "inventoryType": "THROWN",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135421.jpg"
+    }
+   ],
+   "itemLevel": 7.2,
+   "pvp": {
+    "hk": 0,
+    "rank": 0,
+    "rankName": "Unranked"
+   },
+   "spec": {
+    "trees": [
+     {
+      "name": "Protection",
+      "points": 1
+     }
+    ],
+    "split": "1",
+    "main": "Protection"
+   },
+   "professions": {
+    "primaries": [
+     {
+      "name": "Skinning",
+      "skill": 75,
+      "max": 75,
+      "recipes": 2
+     },
+     {
+      "name": "Mining",
+      "skill": 18,
+      "max": 75,
+      "recipes": 2
+     }
+    ],
+    "secondaries": [
+     {
+      "name": "Cooking",
+      "skill": 20,
+      "max": 75,
+      "recipes": 4
+     },
+     {
+      "name": "First Aid",
+      "skill": 25,
+      "max": 75,
+      "recipes": 3
+     }
+    ]
+   },
+   "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/garethos-blackwood",
+   "weekly": {
+    "levels": 0,
+    "ilvl": 0,
+    "hk": 0,
+    "rank": 0
+   },
+   "ding60At": null
+  },
+  {
+   "friend": "Dala",
+   "isMain": false,
+   "slug": "chasida-shieldsworn",
+   "input": "Chasida-Shieldsworn",
+   "id": 5598390,
+   "name": "Chasida",
+   "surname": "Shieldsworn",
+   "fullName": "Chasida Shieldsworn",
+   "level": 11,
+   "experience": 957,
+   "xpToLevel": 8800,
+   "xpPct": 10.88,
+   "levelProgress": 11.11,
+   "className": "Paladin",
+   "classId": 2,
+   "race": "Dwarf",
+   "raceId": 3,
+   "gender": "FEMALE",
+   "faction": "ALLIANCE",
+   "guild": "Hüljatud",
+   "ruleset": "PvP",
+   "achievementPoints": 0,
+   "lastLogin": 1793849283000,
+   "apiItemLevel": 7,
+   "gear": [
+    {
+     "slot": "BACK",
+     "slotName": "Back",
+     "itemId": 2905,
+     "name": "Goat Fur Cloak",
+     "quality": "COMMON",
+     "ilvl": 10,
+     "inventoryType": "CLOAK",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133763.jpg"
+    },
+    {
+     "slot": "CHEST",
+     "slotName": "Chest",
+     "itemId": 10421,
+     "name": "Rough Copper Vest",
+     "quality": "UNCOMMON",
+     "ilvl": 10,
+     "inventoryType": "CHEST",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132624.jpg"
+    },
+    {
+     "slot": "SHIRT",
+     "slotName": "Shirt",
+     "itemId": 6117,
+     "name": "Squire's Shirt",
+     "quality": "COMMON",
+     "ilvl": 1,
+     "inventoryType": "BODY",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135005.jpg"
+    },
+    {
+     "slot": "WRIST",
+     "slotName": "Wrist",
+     "itemId": 6177,
+     "name": "Ironwrought Bracers",
+     "quality": "COMMON",
+     "ilvl": 12,
+     "inventoryType": "WRIST",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132602.jpg"
+    },
+    {
+     "slot": "HANDS",
+     "slotName": "Hands",
+     "itemId": 3472,
+     "name": "Runed Copper Gauntlets",
+     "quality": "UNCOMMON",
+     "ilvl": 12,
+     "inventoryType": "HAND",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132938.jpg"
+    },
+    {
+     "slot": "WAIST",
+     "slotName": "Waist",
+     "itemId": 2851,
+     "name": "Copper Chain Belt",
+     "quality": "UNCOMMON",
+     "ilvl": 11,
+     "inventoryType": "WAIST",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132491.jpg"
+    },
+    {
+     "slot": "LEGS",
+     "slotName": "Legs",
+     "itemId": 3473,
+     "name": "Runed Copper Pants",
+     "quality": "UNCOMMON",
+     "ilvl": 13,
+     "inventoryType": "LEGS",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134583.jpg"
+    },
+    {
+     "slot": "FEET",
+     "slotName": "Feet",
+     "itemId": 3469,
+     "name": "Copper Chain Boots",
+     "quality": "UNCOMMON",
+     "ilvl": 10,
+     "inventoryType": "FEET",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132535.jpg"
+    },
+    {
+     "slot": "FINGER_1",
+     "slotName": "Ring 1",
+     "itemId": 286737,
+     "name": "Avala's Binding",
+     "quality": "COMMON",
+     "ilvl": 8,
+     "inventoryType": "FINGER",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133349.jpg"
+    },
+    {
+     "slot": "MAIN_HAND",
+     "slotName": "Main Hand",
+     "itemId": 6214,
+     "name": "Heavy Copper Maul",
+     "quality": "UNCOMMON",
+     "ilvl": 16,
+     "inventoryType": "TWOHWEAPON",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133055.jpg"
+    }
+   ],
+   "itemLevel": 11.8,
+   "pvp": {
+    "hk": 0,
+    "rank": 0,
+    "rankName": "Unranked"
+   },
+   "spec": {
+    "trees": [
+     {
+      "name": "Retribution",
+      "points": 2
+     }
+    ],
+    "split": "2",
+    "main": "Retribution"
+   },
+   "professions": {
+    "primaries": [],
+    "secondaries": []
+   },
+   "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/chasida-shieldsworn",
+   "weekly": {
+    "levels": 0,
+    "ilvl": 0,
+    "hk": 0,
+    "rank": 0
+   },
+   "ding60At": null
+  },
+  {
+   "friend": "Dala",
+   "isMain": false,
+   "slug": "ryan-angelos",
+   "input": "Ryan-Angelos",
+   "id": 6727317,
+   "name": "Ryan",
+   "surname": "Angelos",
+   "fullName": "Ryan Angelos",
+   "level": 10,
+   "experience": 955,
+   "xpToLevel": 7600,
+   "xpPct": 12.57,
+   "levelProgress": 10.13,
+   "className": "Paladin",
+   "classId": 2,
+   "race": "Dwarf",
+   "raceId": 3,
+   "gender": "MALE",
+   "faction": "ALLIANCE",
+   "guild": "Hüljatud",
+   "ruleset": "PvP",
+   "achievementPoints": 0,
+   "lastLogin": 1793851793000,
+   "apiItemLevel": 5,
+   "gear": [
+    {
+     "slot": "BACK",
+     "slotName": "Back",
+     "itemId": 3008,
+     "name": "Wendigo Fur Cloak",
+     "quality": "UNCOMMON",
+     "ilvl": 11,
+     "inventoryType": "CLOAK",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133756.jpg"
+    },
+    {
+     "slot": "CHEST",
+     "slotName": "Chest",
+     "itemId": 10421,
+     "name": "Rough Copper Vest",
+     "quality": "UNCOMMON",
+     "ilvl": 10,
+     "inventoryType": "CHEST",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132624.jpg"
+    },
+    {
+     "slot": "SHIRT",
+     "slotName": "Shirt",
+     "itemId": 6117,
+     "name": "Squire's Shirt",
+     "quality": "COMMON",
+     "ilvl": 1,
+     "inventoryType": "BODY",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135005.jpg"
+    },
+    {
+     "slot": "WRIST",
+     "slotName": "Wrist",
+     "itemId": 6177,
+     "name": "Ironwrought Bracers",
+     "quality": "COMMON",
+     "ilvl": 12,
+     "inventoryType": "WRIST",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132602.jpg"
+    },
+    {
+     "slot": "HANDS",
+     "slotName": "Hands",
+     "itemId": 2547,
+     "name": "Boar Handler Gloves",
+     "quality": "COMMON",
+     "ilvl": 5,
+     "inventoryType": "HAND",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132938.jpg"
+    },
+    {
+     "slot": "WAIST",
+     "slotName": "Waist",
+     "itemId": 2172,
+     "name": "Rustic Belt",
+     "quality": "COMMON",
+     "ilvl": 5,
+     "inventoryType": "WAIST",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132495.jpg"
+    },
+    {
+     "slot": "LEGS",
+     "slotName": "Legs",
+     "itemId": 2852,
+     "name": "Copper Chain Pants",
+     "quality": "UNCOMMON",
+     "ilvl": 10,
+     "inventoryType": "LEGS",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134583.jpg"
+    },
+    {
+     "slot": "FEET",
+     "slotName": "Feet",
+     "itemId": 3469,
+     "name": "Copper Chain Boots",
+     "quality": "UNCOMMON",
+     "ilvl": 10,
+     "inventoryType": "FEET",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132535.jpg"
+    },
+    {
+     "slot": "FINGER_1",
+     "slotName": "Ring 1",
+     "itemId": 286737,
+     "name": "Avala's Binding",
+     "quality": "COMMON",
+     "ilvl": 8,
+     "inventoryType": "FINGER",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133349.jpg"
+    },
+    {
+     "slot": "MAIN_HAND",
+     "slotName": "Main Hand",
+     "itemId": 5761,
+     "name": "Anvilmar Sledge",
+     "quality": "COMMON",
+     "ilvl": 5,
+     "inventoryType": "TWOHWEAPON",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133052.jpg"
+    }
+   ],
+   "itemLevel": 8.1,
+   "pvp": {
+    "hk": 0,
+    "rank": 0,
+    "rankName": "Unranked"
+   },
+   "spec": {
+    "trees": [],
+    "split": "",
+    "main": "Unspecced"
+   },
+   "professions": {
+    "primaries": [
+     {
+      "name": "Mining",
+      "skill": 71,
+      "max": 75,
+      "recipes": 3
+     },
+     {
+      "name": "Blacksmithing",
+      "skill": 49,
+      "max": 75,
+      "recipes": 11
+     }
+    ],
+    "secondaries": [
+     {
+      "name": "Cooking",
+      "skill": 62,
+      "max": 150,
+      "recipes": 8
+     },
+     {
+      "name": "Fishing",
+      "skill": 75,
+      "max": 75,
+      "recipes": 2
+     }
+    ]
+   },
+   "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/ryan-angelos",
+   "weekly": {
+    "levels": 0,
+    "ilvl": 0,
+    "hk": 0,
+    "rank": 0
+   },
+   "ding60At": null
+  },
+  {
+   "friend": "Lungen",
+   "isMain": true,
+   "slug": "zewazi-softis",
+   "input": "Zewazi-Softis",
+   "id": 6732350,
+   "name": "Zewazi",
+   "surname": "Softis",
+   "fullName": "Zewazi Softis",
+   "level": 10,
+   "experience": 1231,
+   "xpToLevel": 7600,
+   "xpPct": 16.2,
+   "levelProgress": 10.16,
+   "className": "Hunter",
+   "classId": 3,
+   "race": "Night Elf",
+   "raceId": 4,
+   "gender": "FEMALE",
+   "faction": "ALLIANCE",
+   "guild": "Hüljatud",
+   "ruleset": "PvP",
+   "achievementPoints": 0,
+   "lastLogin": 1793847830000,
+   "apiItemLevel": 3,
+   "gear": [
+    {
+     "slot": "AMMO",
+     "slotName": "Ammo",
+     "itemId": 2512,
+     "name": "Rough Arrow",
+     "quality": "COMMON",
+     "ilvl": 5,
+     "inventoryType": "AMMO",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132382.jpg"
+    },
+    {
+     "slot": "BACK",
+     "slotName": "Back",
+     "itemId": 5591,
+     "name": "Rain-spotted Cape",
+     "quality": "COMMON",
+     "ilvl": 11,
+     "inventoryType": "CLOAK",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133764.jpg"
+    },
+    {
+     "slot": "CHEST",
+     "slotName": "Chest",
+     "itemId": 5957,
+     "name": "Handstitched Leather Vest",
+     "quality": "UNCOMMON",
+     "ilvl": 10,
+     "inventoryType": "CHEST",
+     "enchants": [
+      "Enchanted: Stamina +1 and Armor +8"
+     ],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132760.jpg"
+    },
+    {
+     "slot": "SHIRT",
+     "slotName": "Shirt",
+     "itemId": 148,
+     "name": "Rugged Trapper's Shirt",
+     "quality": "COMMON",
+     "ilvl": 1,
+     "inventoryType": "BODY",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135005.jpg"
+    },
+    {
+     "slot": "WRIST",
+     "slotName": "Wrist",
+     "itemId": 5419,
+     "name": "Feral Bracers",
+     "quality": "COMMON",
+     "ilvl": 7,
+     "inventoryType": "WRIST",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132601.jpg"
+    },
+    {
+     "slot": "HANDS",
+     "slotName": "Hands",
+     "itemId": 5394,
+     "name": "Archery Training Gloves",
+     "quality": "COMMON",
+     "ilvl": 5,
+     "inventoryType": "HAND",
+     "enchants": [
+      "Enchanted: Stamina +1 and Armor +8"
+     ],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132939.jpg"
+    },
+    {
+     "slot": "WAIST",
+     "slotName": "Waist",
+     "itemId": 6058,
+     "name": "Blackened Leather Belt",
+     "quality": "COMMON",
+     "ilvl": 5,
+     "inventoryType": "WAIST",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132492.jpg"
+    },
+    {
+     "slot": "LEGS",
+     "slotName": "Legs",
+     "itemId": 2303,
+     "name": "Handstitched Leather Pants",
+     "quality": "UNCOMMON",
+     "ilvl": 10,
+     "inventoryType": "LEGS",
+     "enchants": [
+      "Enchanted: Stamina +1 and Armor +8"
+     ],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134706.jpg"
+    },
+    {
+     "slot": "FEET",
+     "slotName": "Feet",
+     "itemId": 1367,
+     "name": "Ragged Leather Boots",
+     "quality": "POOR",
+     "ilvl": 3,
+     "inventoryType": "FEET",
+     "enchants": [
+      "Enchanted: Stamina +1 and Armor +8"
+     ],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132540.jpg"
+    },
+    {
+     "slot": "MAIN_HAND",
+     "slotName": "Main Hand",
+     "itemId": 5392,
+     "name": "Thistlewood Dagger",
+     "quality": "COMMON",
+     "ilvl": 5,
+     "inventoryType": "WEAPON",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135641.jpg"
+    },
+    {
+     "slot": "RANGED",
+     "slotName": "Ranged",
+     "itemId": 2506,
+     "name": "Hornwood Recurve Bow",
+     "quality": "COMMON",
+     "ilvl": 8,
+     "inventoryType": "RANGED",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135499.jpg"
+    }
+   ],
+   "itemLevel": 6.9,
+   "pvp": {
+    "hk": 0,
+    "rank": 0,
+    "rankName": "Unranked"
+   },
+   "spec": {
+    "trees": [
+     {
+      "name": "Beast Mastery",
+      "points": 1
+     }
+    ],
+    "split": "1",
+    "main": "Beast Mastery"
+   },
+   "professions": {
+    "primaries": [
+     {
+      "name": "Leatherworking",
+      "skill": 27,
+      "max": 75,
+      "recipes": 9
+     },
+     {
+      "name": "Skinning",
+      "skill": 52,
+      "max": 150,
+      "recipes": 2
+     }
+    ],
+    "secondaries": [
+     {
+      "name": "Cooking",
+      "skill": 6,
+      "max": 75,
+      "recipes": 4
+     },
+     {
+      "name": "First Aid",
+      "skill": 26,
+      "max": 75,
+      "recipes": 2
+     }
+    ]
+   },
+   "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/zewazi-softis",
+   "weekly": {
+    "levels": 0,
+    "ilvl": 0,
+    "hk": 0,
+    "rank": 0
+   },
+   "ding60At": null
+  },
+  {
+   "friend": "Lungen",
+   "isMain": false,
+   "slug": "leon-lionhart",
+   "input": "Leon-Lionhart",
+   "id": 6950861,
+   "name": "Leon",
+   "surname": "Lionhart",
+   "fullName": "Leon Lionhart",
+   "level": 10,
+   "experience": 4062,
+   "xpToLevel": 7600,
+   "xpPct": 53.45,
+   "levelProgress": 10.53,
+   "className": "Rogue",
+   "classId": 4,
+   "race": "Night Elf",
+   "raceId": 4,
+   "gender": "FEMALE",
+   "faction": "ALLIANCE",
+   "guild": "Hüljatud",
+   "ruleset": "PvP",
+   "achievementPoints": 0,
+   "lastLogin": 1793847392000,
+   "apiItemLevel": 1,
+   "gear": [
+    {
+     "slot": "BACK",
+     "slotName": "Back",
+     "itemId": 4674,
+     "name": "Tribal Cloak",
+     "quality": "COMMON",
+     "ilvl": 9,
+     "inventoryType": "CLOAK",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133150.jpg"
+    },
+    {
+     "slot": "WRIST",
+     "slotName": "Wrist",
+     "itemId": 7277,
+     "name": "Handstitched Leather Bracers",
+     "quality": "COMMON",
+     "ilvl": 9,
+     "inventoryType": "WRIST",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132607.jpg"
+    },
+    {
+     "slot": "HANDS",
+     "slotName": "Hands",
+     "itemId": 5394,
+     "name": "Archery Training Gloves",
+     "quality": "COMMON",
+     "ilvl": 5,
+     "inventoryType": "HAND",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132939.jpg"
+    },
+    {
+     "slot": "FEET",
+     "slotName": "Feet",
+     "itemId": 2302,
+     "name": "Handstitched Leather Boots",
+     "quality": "COMMON",
+     "ilvl": 8,
+     "inventoryType": "FEET",
+     "enchants": [
+      "Enchanted: Stamina +1 and Armor +8"
+     ],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132538.jpg"
+    },
+    {
+     "slot": "MAIN_HAND",
+     "slotName": "Main Hand",
+     "itemId": 18957,
+     "name": "Brushwood Blade",
+     "quality": "UNCOMMON",
+     "ilvl": 10,
+     "inventoryType": "WEAPON",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135276.jpg"
+    },
+    {
+     "slot": "OFF_HAND",
+     "slotName": "Off Hand",
+     "itemId": 282284,
+     "name": "Webwood Slicer",
+     "quality": "UNCOMMON",
+     "ilvl": 10,
+     "inventoryType": "WEAPON",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135302.jpg"
+    },
+    {
+     "slot": "RANGED",
+     "slotName": "Ranged",
+     "itemId": 2947,
+     "name": "Small Throwing Knife",
+     "quality": "COMMON",
+     "ilvl": 3,
+     "inventoryType": "THROWN",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135426.jpg"
+    }
+   ],
+   "itemLevel": 7.71,
+   "pvp": {
+    "hk": 0,
+    "rank": 0,
+    "rankName": "Unranked"
+   },
+   "spec": {
+    "trees": [
+     {
+      "name": "Combat",
+      "points": 1
+     }
+    ],
+    "split": "1",
+    "main": "Combat"
+   },
+   "professions": {
+    "primaries": [
+     {
+      "name": "Leatherworking",
+      "skill": 22,
+      "max": 75,
+      "recipes": 7
+     },
+     {
+      "name": "Skinning",
+      "skill": 31,
+      "max": 75,
+      "recipes": 2
+     }
+    ],
+    "secondaries": [
+     {
+      "name": "Cooking",
+      "skill": 25,
+      "max": 75,
+      "recipes": 5
+     },
+     {
+      "name": "First Aid",
+      "skill": 22,
+      "max": 75,
+      "recipes": 2
+     }
+    ]
+   },
+   "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/leon-lionhart",
+   "weekly": {
+    "levels": 0,
+    "ilvl": 0,
+    "hk": 0,
+    "rank": 0
+   },
+   "ding60At": null
+  }
+ ]
+}
