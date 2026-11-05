@@ -71,6 +71,7 @@ async function main() {
   if (!chars.some(c => !c.error)) throw new Error('No character could be loaded - refusing to overwrite data.json');
 
   const state = readJson(STATE_FILE, {});
+  const stateBefore = JSON.stringify(state);
   const weekId = currentWeekId();
   let snap = state.weeklySnapshot;
   // New snapshot once the weekly reset has passed since the last one.
@@ -85,7 +86,7 @@ async function main() {
     c.ding60At = dings[c.slug] || null;
   });
   const newState = { weeklySnapshot: snap, ding60: dings };
-  if (JSON.stringify(newState) !== JSON.stringify(state)) writeJson(STATE_FILE, newState);
+  if (JSON.stringify(newState) !== stateBefore) writeJson(STATE_FILE, newState);
 
   const bundle = {
     app: APP_NAME, generatedAt: Date.now(), region: REGION, levelCap: LEVEL_CAP, weekId,
