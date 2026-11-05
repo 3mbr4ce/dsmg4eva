@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1793883249666,
+ "generatedAt": 1793884497307,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -383,10 +383,10 @@
    "surname": "One",
    "fullName": "Steppenwolf One",
    "level": 16,
-   "experience": 9736,
+   "experience": 12897,
    "xpToLevel": 16000,
-   "xpPct": 60.85,
-   "levelProgress": 16.61,
+   "xpPct": 80.61,
+   "levelProgress": 16.81,
    "className": "Warrior",
    "classId": 1,
    "race": "Night Elf",
@@ -395,7 +395,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1793882321000,
+   "lastLogin": 1793883835000,
    "apiItemLevel": 9,
    "gear": [
     {
@@ -465,7 +465,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 75 / 75",
+      "dur": "Durability 73 / 75",
       "sell": 407,
       "desc": ""
      }
@@ -667,7 +667,9 @@
      "quality": "RARE",
      "ilvl": 18,
      "inventoryType": "TWOHWEAPON",
-     "enchants": [],
+     "enchants": [
+      "Weighted +2"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133058.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -748,13 +750,13 @@
     "primaries": [
      {
       "name": "Skinning",
-      "skill": 62,
+      "skill": 65,
       "max": 150,
       "recipes": 2
      },
      {
       "name": "Mining",
-      "skill": 48,
+      "skill": 51,
       "max": 75,
       "recipes": 3
      }
@@ -782,7 +784,7 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/steppenwolf-one",
    "weekly": {
-    "levels": 2.36,
+    "levels": 2.56,
     "ilvl": 4.3,
     "hk": 0,
     "rank": 0
