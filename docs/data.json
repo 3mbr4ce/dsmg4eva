@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1793902661648,
+ "generatedAt": 1793904878392,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -835,11 +835,11 @@
    "name": "Ash",
    "surname": "Kai",
    "fullName": "Ash Kai",
-   "level": 25,
-   "experience": 5128,
-   "xpToLevel": 34000,
-   "xpPct": 15.08,
-   "levelProgress": 25.15,
+   "level": 26,
+   "experience": 13421,
+   "xpToLevel": 36400,
+   "xpPct": 36.87,
+   "levelProgress": 26.37,
    "className": "Rogue",
    "classId": 4,
    "race": "Human",
@@ -848,7 +848,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1793897304000,
+   "lastLogin": 1793904003000,
    "apiItemLevel": 15,
    "gear": [
     {
@@ -1022,7 +1022,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 23 / 25",
+      "dur": "Durability 25 / 25",
       "sell": 347,
       "desc": ""
      }
@@ -1096,7 +1096,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 59 / 60",
+      "dur": "Durability 58 / 60",
       "sell": 1156,
       "desc": ""
      }
@@ -1134,7 +1134,7 @@
       "spells": [],
       "req": "Requires Level 10",
       "reqClass": "",
-      "dur": "Durability 32 / 35",
+      "dur": "Durability 31 / 35",
       "sell": 307,
       "desc": ""
      }
@@ -1230,7 +1230,7 @@
      "ilvl": 23,
      "inventoryType": "WEAPON",
      "enchants": [
-      "Instant Poison (31 |4Charge:Charges;)"
+      "Instant Poison (18 |4Charge:Charges;)"
      ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135325.jpg",
      "tt": {
@@ -1273,7 +1273,7 @@
      "ilvl": 21,
      "inventoryType": "WEAPON",
      "enchants": [
-      "Instant Poison (49 |4Charge:Charges;)"
+      "Instant Poison (37 |4Charge:Charges;)"
      ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132416.jpg",
      "tt": {
@@ -1358,10 +1358,10 @@
      },
      {
       "name": "Combat",
-      "points": 14
+      "points": 15
      }
     ],
-    "split": "2/14",
+    "split": "2/15",
     "main": "Combat"
    },
    "professions": {
@@ -1374,7 +1374,7 @@
      },
      {
       "name": "Skinning",
-      "skill": 149,
+      "skill": 150,
       "max": 225,
       "recipes": 2
      }
@@ -1388,7 +1388,7 @@
      },
      {
       "name": "First Aid",
-      "skill": 81,
+      "skill": 115,
       "max": 150,
       "recipes": 4
      }
@@ -1396,7 +1396,7 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/ash-kai",
    "weekly": {
-    "levels": 11.71,
+    "levels": 12.93,
     "ilvl": 11.13,
     "hk": 0,
     "rank": 0
