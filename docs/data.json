@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1793878454681,
+ "generatedAt": 1793882420102,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -382,11 +382,11 @@
    "name": "Steppenwolf",
    "surname": "One",
    "fullName": "Steppenwolf One",
-   "level": 14,
-   "experience": 6696,
-   "xpToLevel": 12900,
-   "xpPct": 51.91,
-   "levelProgress": 14.52,
+   "level": 16,
+   "experience": 9736,
+   "xpToLevel": 16000,
+   "xpPct": 60.85,
+   "levelProgress": 16.61,
    "className": "Warrior",
    "classId": 1,
    "race": "Night Elf",
@@ -395,28 +395,69 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1793875575000,
-   "apiItemLevel": 7,
+   "lastLogin": 1793882321000,
+   "apiItemLevel": 9,
    "gear": [
     {
      "slot": "BACK",
      "slotName": "Back",
-     "itemId": 281250,
-     "name": "Forest Oracle's Cloak",
+     "itemId": 279899,
+     "name": "Catacomb Cloak",
      "quality": "UNCOMMON",
-     "ilvl": 11,
+     "ilvl": 17,
      "inventoryType": "CLOAK",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133769.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133763.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Back",
       "sub": "Cloth",
-      "armor": "10 Armor",
+      "armor": "15 Armor",
       "stats": [
        {
-        "s": "+1 Stamina",
+        "s": "+2 Stamina",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+3 Attack Power",
+        "neg": false,
+        "eq": true
+       },
+       {
+        "s": "+4 Attack Power Vs Humanoids",
+        "neg": false,
+        "eq": true
+       }
+      ],
+      "spells": [],
+      "req": "",
+      "reqClass": "",
+      "dur": "",
+      "sell": 288,
+      "desc": ""
+     }
+    },
+    {
+     "slot": "CHEST",
+     "slotName": "Chest",
+     "itemId": 3166,
+     "name": "Ironheart Chain",
+     "quality": "UNCOMMON",
+     "ilvl": 15,
+     "inventoryType": "CHEST",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132624.jpg",
+     "tt": {
+      "bind": "Binds when picked up",
+      "unique": "",
+      "inv": "Chest",
+      "sub": "Mail",
+      "armor": "144 Armor",
+      "stats": [
+       {
+        "s": "+4 Stamina",
         "neg": false,
         "eq": false
        }
@@ -424,39 +465,8 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "",
-      "sell": 95,
-      "desc": ""
-     }
-    },
-    {
-     "slot": "CHEST",
-     "slotName": "Chest",
-     "itemId": 10421,
-     "name": "Rough Copper Vest",
-     "quality": "UNCOMMON",
-     "ilvl": 10,
-     "inventoryType": "CHEST",
-     "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132624.jpg",
-     "tt": {
-      "bind": "Binds when equipped",
-      "unique": "",
-      "inv": "Chest",
-      "sub": "Mail",
-      "armor": "108 Armor",
-      "stats": [
-       {
-        "s": "+1 Stamina",
-        "neg": false,
-        "eq": false
-       }
-      ],
-      "spells": [],
-      "req": "Requires Level 2",
-      "reqClass": "",
-      "dur": "Durability 65 / 65",
-      "sell": 32,
+      "dur": "Durability 75 / 75",
+      "sell": 407,
       "desc": ""
      }
     },
@@ -488,25 +498,36 @@
     {
      "slot": "WRIST",
      "slotName": "Wrist",
-     "itemId": 15400,
-     "name": "Clamshell Bracers",
-     "quality": "COMMON",
-     "ilvl": 14,
+     "itemId": 2854,
+     "name": "Runed Copper Bracers",
+     "quality": "UNCOMMON",
+     "ilvl": 19,
      "inventoryType": "WRIST",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132602.jpg",
      "tt": {
-      "bind": "Binds when picked up",
+      "bind": "Binds when equipped",
       "unique": "",
       "inv": "Wrist",
       "sub": "Mail",
-      "armor": "57 Armor",
-      "stats": [],
+      "armor": "72 Armor",
+      "stats": [
+       {
+        "s": "+2 Strength",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+2 Stamina",
+        "neg": false,
+        "eq": false
+       }
+      ],
       "spells": [],
-      "req": "",
+      "req": "Requires Level 14",
       "reqClass": "",
-      "dur": "Durability 20 / 20",
-      "sell": 109,
+      "dur": "Durability 30 / 30",
+      "sell": 225,
       "desc": ""
      }
     },
@@ -574,10 +595,10 @@
     {
      "slot": "LEGS",
      "slotName": "Legs",
-     "itemId": 2852,
-     "name": "Copper Chain Pants",
+     "itemId": 2865,
+     "name": "Rough Bronze Leggings",
      "quality": "UNCOMMON",
-     "ilvl": 10,
+     "ilvl": 21,
      "inventoryType": "LEGS",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134583.jpg",
@@ -586,19 +607,24 @@
       "unique": "",
       "inv": "Legs",
       "sub": "Mail",
-      "armor": "94 Armor",
+      "armor": "149 Armor",
       "stats": [
        {
-        "s": "+1 Stamina",
+        "s": "+5 Stamina",
         "neg": false,
         "eq": false
+       },
+       {
+        "s": "+4 Spirit",
+        "neg": false,
+        "eq": true
        }
       ],
       "spells": [],
-      "req": "Requires Level 4",
+      "req": "Requires Level 16",
       "reqClass": "",
-      "dur": "Durability 50 / 50",
-      "sell": 67,
+      "dur": "Durability 65 / 65",
+      "sell": 577,
       "desc": ""
      }
     },
@@ -636,68 +662,33 @@
     {
      "slot": "MAIN_HAND",
      "slotName": "Main Hand",
-     "itemId": 6969,
-     "name": "Elunite Dagger",
-     "quality": "UNCOMMON",
-     "ilvl": 15,
-     "inventoryType": "WEAPON",
+     "itemId": 279895,
+     "name": "Ironforge Greathammer",
+     "quality": "RARE",
+     "ilvl": 18,
+     "inventoryType": "TWOHWEAPON",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135641.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133058.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
-      "inv": "One-Hand",
-      "sub": "Dagger",
+      "inv": "Two-Hand",
+      "sub": "Mace",
       "armor": "",
-      "stats": [
-       {
-        "s": "+1 Stamina",
-        "neg": false,
-        "eq": false
-       }
+      "stats": [],
+      "spells": [
+       "Chance on hit: Blasts a target for 42 Fire damage."
       ],
-      "spells": [],
       "req": "",
-      "reqClass": "Classes: Warrior",
-      "dur": "Durability 35 / 35",
-      "sell": 701,
+      "reqClass": "",
+      "dur": "Durability 70 / 70",
+      "sell": 1637,
       "desc": "",
       "weapon": {
-       "dmg": "9 - 17 Damage",
-       "speed": "Speed 1.70",
-       "dps": "(7.6 damage per second)"
+       "dmg": "39 - 60 Damage",
+       "speed": "Speed 3.10",
+       "dps": "(16.0 damage per second)"
       }
-     }
-    },
-    {
-     "slot": "OFF_HAND",
-     "slotName": "Off Hand",
-     "itemId": 15486,
-     "name": "War Torn Shield of Intellect",
-     "quality": "UNCOMMON",
-     "ilvl": 12,
-     "inventoryType": "SHIELD",
-     "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134954.jpg",
-     "tt": {
-      "bind": "Binds when equipped",
-      "unique": "",
-      "inv": "Off Hand",
-      "sub": "Shield",
-      "armor": "239 Armor",
-      "stats": [
-       {
-        "s": "+1 Intellect",
-        "neg": false,
-        "eq": false
-       }
-      ],
-      "spells": [],
-      "req": "Requires Level 7",
-      "reqClass": "",
-      "dur": "Durability 50 / 50",
-      "sell": 245,
-      "desc": ""
      }
     },
     {
@@ -737,7 +728,7 @@
      }
     }
    ],
-   "itemLevel": 12.4,
+   "itemLevel": 16,
    "pvp": {
     "hk": 0,
     "rank": 0,
@@ -747,23 +738,23 @@
     "trees": [
      {
       "name": "Protection",
-      "points": 5
+      "points": 7
      }
     ],
-    "split": "5",
+    "split": "7",
     "main": "Protection"
    },
    "professions": {
     "primaries": [
      {
       "name": "Skinning",
-      "skill": 60,
+      "skill": 62,
       "max": 150,
       "recipes": 2
      },
      {
       "name": "Mining",
-      "skill": 45,
+      "skill": 48,
       "max": 75,
       "recipes": 3
      }
@@ -771,9 +762,9 @@
     "secondaries": [
      {
       "name": "Cooking",
-      "skill": 23,
+      "skill": 43,
       "max": 75,
-      "recipes": 6
+      "recipes": 7
      },
      {
       "name": "Fishing",
@@ -791,8 +782,8 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/steppenwolf-one",
    "weekly": {
-    "levels": 0.27,
-    "ilvl": 0.7,
+    "levels": 2.36,
+    "ilvl": 4.3,
     "hk": 0,
     "rank": 0
    },
