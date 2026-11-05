@@ -10,33 +10,45 @@
   "friends": [
     {
       "friend": "Billy",
-      "main": "Sir-Billythecrit",
-      "alts": []
+      "main": "Pip-Jaeger",
+      "alts": [
+        "Steppenwolf-One"
+      ]
     },
     {
       "friend": "Embrace",
-      "main": "Blue-Embrace",
-      "alts": []
+      "main": "Ash-Kai",
+      "alts": [
+        "Xerxes-Crownrend",
+        "Peep-Jõks"
+      ]
     },
     {
       "friend": "Ruler",
-      "main": "Ruler-Shiroune",
-      "alts": []
+      "main": "Panzer-Error",
+      "alts": [
+        "Damp-Fat"
+      ]
     },
     {
       "friend": "Dala",
       "aka": "Schwitzer",
-      "main": "Dala-Hoon",
-      "alts": []
+      "main": "Garethos-Blackwood",
+      "alts": [
+        "Chasida-Shieldsworn",
+        "Ryan-Angelos"
+      ]
     },
     {
       "friend": "Lungen",
-      "main": "Sire-Khingen",
-      "alts": []
+      "main": "Zewazi-Softis",
+      "alts": [
+        "Leon-Lionhart"
+      ]
     },
     {
       "friend": "Dom",
-      "main": "Dom-Vonhemmer",
+      "main": "Mo-Rx",
       "alts": []
     }
   ]
