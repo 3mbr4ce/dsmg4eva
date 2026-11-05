@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1793904878392,
+ "generatedAt": 1793905875209,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -3867,11 +3867,11 @@
    "name": "Ryan",
    "surname": "Angelos",
    "fullName": "Ryan Angelos",
-   "level": 15,
-   "experience": 164,
-   "xpToLevel": 14400,
-   "xpPct": 1.14,
-   "levelProgress": 15.01,
+   "level": 16,
+   "experience": 401,
+   "xpToLevel": 16000,
+   "xpPct": 2.51,
+   "levelProgress": 16.03,
    "className": "Paladin",
    "classId": 2,
    "race": "Dwarf",
@@ -3880,8 +3880,8 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1793890528000,
-   "apiItemLevel": 8,
+   "lastLogin": 1793904878000,
+   "apiItemLevel": 9,
    "gear": [
     {
      "slot": "BACK",
@@ -3955,7 +3955,7 @@
       "spells": [],
       "req": "Requires Level 13",
       "reqClass": "",
-      "dur": "Durability 94 / 95",
+      "dur": "Durability 95 / 95",
       "sell": 793,
       "desc": ""
      }
@@ -3988,19 +3988,19 @@
     {
      "slot": "WRIST",
      "slotName": "Wrist",
-     "itemId": 280095,
-     "name": "Cryptwalker Bracers",
+     "itemId": 2854,
+     "name": "Runed Copper Bracers",
      "quality": "UNCOMMON",
-     "ilvl": 17,
+     "ilvl": 19,
      "inventoryType": "WRIST",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132602.jpg",
      "tt": {
-      "bind": "Binds when picked up",
+      "bind": "Binds when equipped",
       "unique": "",
       "inv": "Wrist",
       "sub": "Mail",
-      "armor": "69 Armor",
+      "armor": "72 Armor",
       "stats": [
        {
         "s": "+2 Strength",
@@ -4008,16 +4008,16 @@
         "eq": false
        },
        {
-        "s": "+2 Spirit",
+        "s": "+2 Stamina",
         "neg": false,
-        "eq": true
+        "eq": false
        }
       ],
       "spells": [],
-      "req": "",
+      "req": "Requires Level 14",
       "reqClass": "",
-      "dur": "Durability 25 / 25",
-      "sell": 271,
+      "dur": "Durability 30 / 30",
+      "sell": 225,
       "desc": ""
      }
     },
@@ -4052,7 +4052,7 @@
       "spells": [],
       "req": "Requires Level 12",
       "reqClass": "",
-      "dur": "Durability 20 / 25",
+      "dur": "Durability 25 / 25",
       "sell": 267,
       "desc": ""
      }
@@ -4060,25 +4060,36 @@
     {
      "slot": "WAIST",
      "slotName": "Waist",
-     "itemId": 2172,
-     "name": "Rustic Belt",
-     "quality": "COMMON",
-     "ilvl": 5,
+     "itemId": 2857,
+     "name": "Runed Copper Belt",
+     "quality": "UNCOMMON",
+     "ilvl": 18,
      "inventoryType": "WAIST",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132495.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132492.jpg",
      "tt": {
-      "bind": "Binds when picked up",
+      "bind": "Binds when equipped",
       "unique": "",
       "inv": "Waist",
       "sub": "Mail",
-      "armor": "38 Armor",
-      "stats": [],
+      "armor": "91 Armor",
+      "stats": [
+       {
+        "s": "+3 Strength",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+2 Stamina",
+        "neg": false,
+        "eq": false
+       }
+      ],
       "spells": [],
-      "req": "",
+      "req": "Requires Level 13",
       "reqClass": "",
-      "dur": "Durability 14 / 18",
-      "sell": 7,
+      "dur": "Durability 25 / 25",
+      "sell": 198,
       "desc": ""
      }
     },
@@ -4108,7 +4119,7 @@
       "spells": [],
       "req": "Requires Level 4",
       "reqClass": "",
-      "dur": "Durability 30 / 50",
+      "dur": "Durability 50 / 50",
       "sell": 67,
       "desc": ""
      }
@@ -4139,7 +4150,7 @@
       "spells": [],
       "req": "Requires Level 4",
       "reqClass": "",
-      "dur": "Durability 19 / 30",
+      "dur": "Durability 30 / 30",
       "sell": 49,
       "desc": ""
      }
@@ -4178,77 +4189,37 @@
     {
      "slot": "MAIN_HAND",
      "slotName": "Main Hand",
-     "itemId": 281254,
-     "name": "Invader's Mace",
-     "quality": "UNCOMMON",
-     "ilvl": 17,
-     "inventoryType": "WEAPON",
+     "itemId": 279895,
+     "name": "Ironforge Greathammer",
+     "quality": "RARE",
+     "ilvl": 18,
+     "inventoryType": "TWOHWEAPON",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133040.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133058.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
-      "inv": "One-Hand",
+      "inv": "Two-Hand",
       "sub": "Mace",
       "armor": "",
-      "stats": [
-       {
-        "s": "+2 Strength",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+1 Spirit",
-        "neg": false,
-        "eq": true
-       }
+      "stats": [],
+      "spells": [
+       "Chance on hit: Blasts a target for 42 Fire damage."
       ],
-      "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 37 / 50",
-      "sell": 959,
+      "dur": "Durability 69 / 70",
+      "sell": 1637,
       "desc": "",
       "weapon": {
-       "dmg": "14 - 27 Damage",
-       "speed": "Speed 2.40",
-       "dps": "(8.5 damage per second)"
+       "dmg": "39 - 60 Damage",
+       "speed": "Speed 3.10",
+       "dps": "(16.0 damage per second)"
       }
-     }
-    },
-    {
-     "slot": "OFF_HAND",
-     "slotName": "Off Hand",
-     "itemId": 3651,
-     "name": "Veteran Shield",
-     "quality": "UNCOMMON",
-     "ilvl": 15,
-     "inventoryType": "SHIELD",
-     "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134955.jpg",
-     "tt": {
-      "bind": "Binds when equipped",
-      "unique": "",
-      "inv": "Off Hand",
-      "sub": "Shield",
-      "armor": "328 Armor",
-      "stats": [
-       {
-        "s": "+2 Strength",
-        "neg": false,
-        "eq": false
-       }
-      ],
-      "spells": [],
-      "req": "Requires Level 10",
-      "reqClass": "",
-      "dur": "Durability 45 / 55",
-      "sell": 435,
-      "desc": ""
      }
     }
    ],
-   "itemLevel": 13.4,
+   "itemLevel": 15.3,
    "pvp": {
     "hk": 0,
     "rank": 0,
@@ -4258,25 +4229,25 @@
     "trees": [
      {
       "name": "Retribution",
-      "points": 6
+      "points": 7
      }
     ],
-    "split": "6",
+    "split": "7",
     "main": "Retribution"
    },
    "professions": {
     "primaries": [
      {
       "name": "Mining",
-      "skill": 79,
+      "skill": 90,
       "max": 150,
       "recipes": 6
      },
      {
       "name": "Blacksmithing",
-      "skill": 75,
+      "skill": 86,
       "max": 150,
-      "recipes": 29
+      "recipes": 40
      }
     ],
     "secondaries": [
@@ -4296,8 +4267,8 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/ryan-angelos",
    "weekly": {
-    "levels": 4.88,
-    "ilvl": 5.3,
+    "levels": 5.9,
+    "ilvl": 7.2,
     "hk": 0,
     "rank": 0
    },
