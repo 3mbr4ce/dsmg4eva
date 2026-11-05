@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1793888149039,
+ "generatedAt": 1793891692102,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -2866,11 +2866,11 @@
    "name": "Garethos",
    "surname": "Blackwood",
    "fullName": "Garethos Blackwood",
-   "level": 12,
-   "experience": 2587,
-   "xpToLevel": 10100,
-   "xpPct": 25.61,
-   "levelProgress": 12.26,
+   "level": 17,
+   "experience": 15703,
+   "xpToLevel": 17700,
+   "xpPct": 88.72,
+   "levelProgress": 17.89,
    "className": "Warrior",
    "classId": 1,
    "race": "Human",
@@ -2879,31 +2879,47 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1793870275000,
-   "apiItemLevel": 2,
+   "lastLogin": 1793890951000,
+   "apiItemLevel": 7,
    "gear": [
     {
      "slot": "BACK",
      "slotName": "Back",
-     "itemId": 4665,
-     "name": "Burnt Cloak",
-     "quality": "COMMON",
-     "ilvl": 8,
+     "itemId": 279899,
+     "name": "Catacomb Cloak",
+     "quality": "UNCOMMON",
+     "ilvl": 17,
      "inventoryType": "CLOAK",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133763.jpg",
      "tt": {
-      "bind": "",
+      "bind": "Binds when picked up",
       "unique": "",
       "inv": "Back",
       "sub": "Cloth",
-      "armor": "7 Armor",
-      "stats": [],
+      "armor": "15 Armor",
+      "stats": [
+       {
+        "s": "+2 Stamina",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+3 Attack Power",
+        "neg": false,
+        "eq": true
+       },
+       {
+        "s": "+4 Attack Power Vs Humanoids",
+        "neg": false,
+        "eq": true
+       }
+      ],
       "spells": [],
-      "req": "Requires Level 3",
+      "req": "",
       "reqClass": "",
       "dur": "",
-      "sell": 22,
+      "sell": 288,
       "desc": ""
      }
     },
@@ -2933,7 +2949,7 @@
       "spells": [],
       "req": "Requires Level 6",
       "reqClass": "",
-      "dur": "Durability 64 / 65",
+      "dur": "Durability 37 / 65",
       "sell": 189,
       "desc": ""
      }
@@ -2966,221 +2982,266 @@
     {
      "slot": "WRIST",
      "slotName": "Wrist",
-     "itemId": 1182,
-     "name": "Brass-studded Bracers",
-     "quality": "COMMON",
-     "ilvl": 10,
+     "itemId": 280095,
+     "name": "Cryptwalker Bracers",
+     "quality": "UNCOMMON",
+     "ilvl": 17,
      "inventoryType": "WRIST",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132606.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132602.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Wrist",
       "sub": "Mail",
-      "armor": "45 Armor",
-      "stats": [],
+      "armor": "69 Armor",
+      "stats": [
+       {
+        "s": "+2 Strength",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+2 Spirit",
+        "neg": false,
+        "eq": true
+       }
+      ],
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 20 / 20",
-      "sell": 44,
+      "dur": "Durability 14 / 25",
+      "sell": 271,
       "desc": ""
      }
     },
     {
      "slot": "HANDS",
      "slotName": "Hands",
-     "itemId": 2653,
-     "name": "Flimsy Chain Gloves",
-     "quality": "POOR",
-     "ilvl": 4,
+     "itemId": 1360,
+     "name": "Stormwind Chain Gloves",
+     "quality": "COMMON",
+     "ilvl": 10,
      "inventoryType": "HAND",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132938.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132939.jpg",
      "tt": {
-      "bind": "",
+      "bind": "Binds when picked up",
       "unique": "",
       "inv": "Hands",
       "sub": "Mail",
-      "armor": "35 Armor",
+      "armor": "64 Armor",
       "stats": [],
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 15 / 18",
-      "sell": 3,
+      "dur": "Durability 10 / 20",
+      "sell": 42,
       "desc": ""
      }
     },
     {
      "slot": "WAIST",
      "slotName": "Waist",
-     "itemId": 1730,
-     "name": "Worn Mail Belt",
-     "quality": "POOR",
-     "ilvl": 12,
+     "itemId": 6548,
+     "name": "Soldier's Girdle of the Whale",
+     "quality": "UNCOMMON",
+     "ilvl": 16,
      "inventoryType": "WAIST",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132495.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132514.jpg",
      "tt": {
-      "bind": "",
+      "bind": "Binds when equipped",
       "unique": "",
       "inv": "Waist",
       "sub": "Mail",
-      "armor": "62 Armor",
-      "stats": [],
+      "armor": "85 Armor",
+      "stats": [
+       {
+        "s": "+2 Stamina",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+2 Spirit",
+        "neg": false,
+        "eq": true
+       }
+      ],
       "spells": [],
-      "req": "Requires Level 7",
+      "req": "Requires Level 11",
       "reqClass": "",
-      "dur": "Durability 20 / 20",
-      "sell": 48,
+      "dur": "Durability 16 / 25",
+      "sell": 233,
       "desc": ""
      }
     },
     {
      "slot": "LEGS",
      "slotName": "Legs",
-     "itemId": 2646,
-     "name": "Loose Chain Pants",
-     "quality": "POOR",
-     "ilvl": 8,
+     "itemId": 2978,
+     "name": "Veteran Leggings",
+     "quality": "UNCOMMON",
+     "ilvl": 15,
      "inventoryType": "LEGS",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134583.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134589.jpg",
      "tt": {
-      "bind": "",
+      "bind": "Binds when equipped",
       "unique": "",
       "inv": "Legs",
       "sub": "Mail",
-      "armor": "73 Armor",
-      "stats": [],
+      "armor": "126 Armor",
+      "stats": [
+       {
+        "s": "+2 Agility",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+2 Strength",
+        "neg": false,
+        "eq": false
+       }
+      ],
       "spells": [],
-      "req": "Requires Level 3",
+      "req": "Requires Level 10",
       "reqClass": "",
-      "dur": "Durability 35 / 45",
-      "sell": 31,
+      "dur": "Durability 28 / 55",
+      "sell": 415,
       "desc": ""
      }
     },
     {
      "slot": "FEET",
      "slotName": "Feet",
-     "itemId": 2967,
-     "name": "Warrior's Boots",
+     "itemId": 9759,
+     "name": "Cadet Boots",
      "quality": "COMMON",
-     "ilvl": 10,
+     "ilvl": 13,
      "inventoryType": "FEET",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132589.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132582.jpg",
      "tt": {
       "bind": "",
       "unique": "",
       "inv": "Feet",
       "sub": "Mail",
-      "armor": "70 Armor",
+      "armor": "84 Armor",
       "stats": [],
       "spells": [],
-      "req": "Requires Level 5",
+      "req": "Requires Level 8",
       "reqClass": "",
-      "dur": "Durability 29 / 30",
-      "sell": 66,
+      "dur": "Durability 21 / 35",
+      "sell": 138,
       "desc": ""
      }
     },
     {
      "slot": "MAIN_HAND",
      "slotName": "Main Hand",
-     "itemId": 6985,
-     "name": "Haggard's Sword",
+     "itemId": 3154,
+     "name": "Thelsamar Axe",
      "quality": "UNCOMMON",
-     "ilvl": 15,
+     "ilvl": 18,
      "inventoryType": "WEAPONMAINHAND",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135274.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132402.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Main Hand",
-      "sub": "Sword",
+      "sub": "Axe",
       "armor": "",
       "stats": [
        {
-        "s": "+1 Stamina",
+        "s": "+2 Agility",
         "neg": false,
         "eq": false
        }
       ],
       "spells": [],
       "req": "",
-      "reqClass": "Classes: Warrior",
-      "dur": "Durability 47 / 50",
-      "sell": 690,
+      "reqClass": "",
+      "dur": "Durability 31 / 55",
+      "sell": 1094,
       "desc": "",
       "weapon": {
-       "dmg": "11 - 21 Damage",
+       "dmg": "13 - 25 Damage",
        "speed": "Speed 2.10",
-       "dps": "(7.6 damage per second)"
+       "dps": "(9.0 damage per second)"
       }
      }
     },
     {
      "slot": "OFF_HAND",
      "slotName": "Off Hand",
-     "itemId": 6078,
-     "name": "Pikeman Shield",
-     "quality": "COMMON",
-     "ilvl": 5,
+     "itemId": 6187,
+     "name": "Dwarven Defender",
+     "quality": "UNCOMMON",
+     "ilvl": 17,
      "inventoryType": "SHIELD",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134949.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134951.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Off Hand",
       "sub": "Shield",
-      "armor": "55 Armor",
-      "stats": [],
+      "armor": "361 Armor",
+      "stats": [
+       {
+        "s": "+3 Stamina",
+        "neg": false,
+        "eq": false
+       }
+      ],
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 28 / 35",
-      "sell": 15,
+      "dur": "Durability 30 / 60",
+      "sell": 613,
       "desc": ""
      }
     },
     {
      "slot": "RANGED",
      "slotName": "Ranged",
-     "itemId": 3131,
-     "name": "Weighted Throwing Axe",
-     "quality": "COMMON",
-     "ilvl": 8,
+     "itemId": 287059,
+     "name": "Footman's Pocketknife",
+     "quality": "UNCOMMON",
+     "ilvl": 10,
      "inventoryType": "THROWN",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135421.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135653.jpg",
      "tt": {
-      "bind": "",
+      "bind": "Binds when picked up",
       "unique": "",
       "inv": "Thrown",
       "sub": "Thrown",
       "armor": "",
-      "stats": [],
+      "stats": [
+       {
+        "s": "+1 Strength",
+        "neg": false,
+        "eq": false
+       }
+      ],
       "spells": [],
-      "req": "Requires Level 3",
+      "req": "",
       "reqClass": "",
-      "dur": "Durability 152 / 200",
-      "sell": 59,
+      "dur": "Durability 112 / 200",
+      "sell": 181,
       "desc": "",
       "weapon": {
-       "dmg": "4 - 9 Damage",
-       "speed": "Speed 2.20",
-       "dps": "(3.0 damage per second)"
+       "dmg": "6 - 13 Damage",
+       "speed": "Speed 2.00",
+       "dps": "(4.8 damage per second)"
       }
      }
     }
    ],
-   "itemLevel": 9.1,
+   "itemLevel": 14.4,
    "pvp": {
     "hk": 0,
     "rank": 0,
@@ -3190,10 +3251,10 @@
     "trees": [
      {
       "name": "Protection",
-      "points": 3
+      "points": 8
      }
     ],
-    "split": "3",
+    "split": "8",
     "main": "Protection"
    },
    "professions": {
@@ -3206,9 +3267,9 @@
      },
      {
       "name": "Mining",
-      "skill": 33,
+      "skill": 50,
       "max": 75,
-      "recipes": 2
+      "recipes": 3
      }
     ],
     "secondaries": [
@@ -3220,16 +3281,16 @@
      },
      {
       "name": "First Aid",
-      "skill": 38,
+      "skill": 68,
       "max": 75,
-      "recipes": 3
+      "recipes": 4
      }
     ]
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/garethos-blackwood",
    "weekly": {
-    "levels": 1.86,
-    "ilvl": 1.9,
+    "levels": 7.49,
+    "ilvl": 7.2,
     "hk": 0,
     "rank": 0
    },
@@ -3675,11 +3736,11 @@
    "name": "Ryan",
    "surname": "Angelos",
    "fullName": "Ryan Angelos",
-   "level": 11,
-   "experience": 4349,
-   "xpToLevel": 8800,
-   "xpPct": 49.42,
-   "levelProgress": 11.49,
+   "level": 15,
+   "experience": 164,
+   "xpToLevel": 14400,
+   "xpPct": 1.14,
+   "levelProgress": 15.01,
    "className": "Paladin",
    "classId": 2,
    "race": "Dwarf",
@@ -3688,68 +3749,83 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1793877583000,
-   "apiItemLevel": 5,
+   "lastLogin": 1793890528000,
+   "apiItemLevel": 8,
    "gear": [
     {
      "slot": "BACK",
      "slotName": "Back",
-     "itemId": 3008,
-     "name": "Wendigo Fur Cloak",
+     "itemId": 279899,
+     "name": "Catacomb Cloak",
      "quality": "UNCOMMON",
-     "ilvl": 11,
+     "ilvl": 17,
      "inventoryType": "CLOAK",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133756.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133763.jpg",
      "tt": {
-      "bind": "Binds when equipped",
+      "bind": "Binds when picked up",
       "unique": "",
       "inv": "Back",
       "sub": "Cloth",
-      "armor": "10 Armor",
+      "armor": "15 Armor",
       "stats": [
        {
-        "s": "+1 Strength",
+        "s": "+2 Stamina",
         "neg": false,
         "eq": false
+       },
+       {
+        "s": "+3 Attack Power",
+        "neg": false,
+        "eq": true
+       },
+       {
+        "s": "+4 Attack Power Vs Humanoids",
+        "neg": false,
+        "eq": true
        }
       ],
       "spells": [],
-      "req": "Requires Level 6",
+      "req": "",
       "reqClass": "",
       "dur": "",
-      "sell": 94,
+      "sell": 288,
       "desc": ""
      }
     },
     {
      "slot": "CHEST",
      "slotName": "Chest",
-     "itemId": 10421,
-     "name": "Rough Copper Vest",
-     "quality": "UNCOMMON",
-     "ilvl": 10,
+     "itemId": 271098,
+     "name": "Golemguard Chest",
+     "quality": "RARE",
+     "ilvl": 18,
      "inventoryType": "CHEST",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132624.jpg",
      "tt": {
-      "bind": "Binds when equipped",
+      "bind": "Binds when picked up",
       "unique": "",
       "inv": "Chest",
       "sub": "Mail",
-      "armor": "108 Armor",
+      "armor": "178 Armor",
       "stats": [
        {
-        "s": "+1 Stamina",
+        "s": "+6 Stamina",
         "neg": false,
         "eq": false
+       },
+       {
+        "s": "+60 Bonus Armor",
+        "neg": false,
+        "eq": true
        }
       ],
       "spells": [],
-      "req": "Requires Level 2",
+      "req": "Requires Level 13",
       "reqClass": "",
-      "dur": "Durability 65 / 65",
-      "sell": 32,
+      "dur": "Durability 94 / 95",
+      "sell": 793,
       "desc": ""
      }
     },
@@ -3781,10 +3857,10 @@
     {
      "slot": "WRIST",
      "slotName": "Wrist",
-     "itemId": 6177,
-     "name": "Ironwrought Bracers",
-     "quality": "COMMON",
-     "ilvl": 12,
+     "itemId": 280095,
+     "name": "Cryptwalker Bracers",
+     "quality": "UNCOMMON",
+     "ilvl": 17,
      "inventoryType": "WRIST",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132602.jpg",
@@ -3793,38 +3869,60 @@
       "unique": "",
       "inv": "Wrist",
       "sub": "Mail",
-      "armor": "51 Armor",
-      "stats": [],
+      "armor": "69 Armor",
+      "stats": [
+       {
+        "s": "+2 Strength",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+2 Spirit",
+        "neg": false,
+        "eq": true
+       }
+      ],
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 20 / 20",
-      "sell": 69,
+      "dur": "Durability 25 / 25",
+      "sell": 271,
       "desc": ""
      }
     },
     {
      "slot": "HANDS",
      "slotName": "Hands",
-     "itemId": 2547,
-     "name": "Boar Handler Gloves",
-     "quality": "COMMON",
-     "ilvl": 5,
+     "itemId": 6547,
+     "name": "Soldier's Gauntlets of the Eagle",
+     "quality": "UNCOMMON",
+     "ilvl": 17,
      "inventoryType": "HAND",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132938.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132946.jpg",
      "tt": {
-      "bind": "Binds when picked up",
+      "bind": "Binds when equipped",
       "unique": "",
       "inv": "Hands",
       "sub": "Mail",
-      "armor": "42 Armor",
-      "stats": [],
+      "armor": "99 Armor",
+      "stats": [
+       {
+        "s": "+2 Intellect",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+2 Stamina",
+        "neg": false,
+        "eq": false
+       }
+      ],
       "spells": [],
-      "req": "",
+      "req": "Requires Level 12",
       "reqClass": "",
-      "dur": "Durability 18 / 18",
-      "sell": 7,
+      "dur": "Durability 20 / 25",
+      "sell": 267,
       "desc": ""
      }
     },
@@ -3848,7 +3946,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 18 / 18",
+      "dur": "Durability 14 / 18",
       "sell": 7,
       "desc": ""
      }
@@ -3879,7 +3977,7 @@
       "spells": [],
       "req": "Requires Level 4",
       "reqClass": "",
-      "dur": "Durability 50 / 50",
+      "dur": "Durability 30 / 50",
       "sell": 67,
       "desc": ""
      }
@@ -3910,7 +4008,7 @@
       "spells": [],
       "req": "Requires Level 4",
       "reqClass": "",
-      "dur": "Durability 30 / 30",
+      "dur": "Durability 19 / 30",
       "sell": 49,
       "desc": ""
      }
@@ -3949,35 +4047,77 @@
     {
      "slot": "MAIN_HAND",
      "slotName": "Main Hand",
-     "itemId": 5761,
-     "name": "Anvilmar Sledge",
-     "quality": "COMMON",
-     "ilvl": 5,
-     "inventoryType": "TWOHWEAPON",
+     "itemId": 281254,
+     "name": "Invader's Mace",
+     "quality": "UNCOMMON",
+     "ilvl": 17,
+     "inventoryType": "WEAPON",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133052.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133040.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
-      "inv": "Two-Hand",
+      "inv": "One-Hand",
       "sub": "Mace",
       "armor": "",
-      "stats": [],
+      "stats": [
+       {
+        "s": "+2 Strength",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+1 Spirit",
+        "neg": false,
+        "eq": true
+       }
+      ],
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 35 / 35",
-      "sell": 30,
+      "dur": "Durability 37 / 50",
+      "sell": 959,
       "desc": "",
       "weapon": {
-       "dmg": "6 - 10 Damage",
-       "speed": "Speed 3.10",
-       "dps": "(2.6 damage per second)"
+       "dmg": "14 - 27 Damage",
+       "speed": "Speed 2.40",
+       "dps": "(8.5 damage per second)"
       }
+     }
+    },
+    {
+     "slot": "OFF_HAND",
+     "slotName": "Off Hand",
+     "itemId": 3651,
+     "name": "Veteran Shield",
+     "quality": "UNCOMMON",
+     "ilvl": 15,
+     "inventoryType": "SHIELD",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134955.jpg",
+     "tt": {
+      "bind": "Binds when equipped",
+      "unique": "",
+      "inv": "Off Hand",
+      "sub": "Shield",
+      "armor": "328 Armor",
+      "stats": [
+       {
+        "s": "+2 Strength",
+        "neg": false,
+        "eq": false
+       }
+      ],
+      "spells": [],
+      "req": "Requires Level 10",
+      "reqClass": "",
+      "dur": "Durability 45 / 55",
+      "sell": 435,
+      "desc": ""
      }
     }
    ],
-   "itemLevel": 8.1,
+   "itemLevel": 13.4,
    "pvp": {
     "hk": 0,
     "rank": 0,
@@ -3987,31 +4127,31 @@
     "trees": [
      {
       "name": "Retribution",
-      "points": 2
+      "points": 6
      }
     ],
-    "split": "2",
+    "split": "6",
     "main": "Retribution"
    },
    "professions": {
     "primaries": [
      {
       "name": "Mining",
-      "skill": 75,
-      "max": 75,
-      "recipes": 3
+      "skill": 79,
+      "max": 150,
+      "recipes": 6
      },
      {
       "name": "Blacksmithing",
-      "skill": 67,
-      "max": 75,
-      "recipes": 23
+      "skill": 75,
+      "max": 150,
+      "recipes": 29
      }
     ],
     "secondaries": [
      {
       "name": "Cooking",
-      "skill": 70,
+      "skill": 73,
       "max": 150,
       "recipes": 9
      },
@@ -4025,8 +4165,8 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/ryan-angelos",
    "weekly": {
-    "levels": 1.36,
-    "ilvl": 0,
+    "levels": 4.88,
+    "ilvl": 5.3,
     "hk": 0,
     "rank": 0
    },
