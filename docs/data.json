@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1793866834670,
+ "generatedAt": 1793867361067,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -3019,10 +3019,10 @@
    "surname": "Shieldsworn",
    "fullName": "Chasida Shieldsworn",
    "level": 11,
-   "experience": 2813,
+   "experience": 6526,
    "xpToLevel": 8800,
-   "xpPct": 31.97,
-   "levelProgress": 11.32,
+   "xpPct": 74.16,
+   "levelProgress": 11.74,
    "className": "Paladin",
    "classId": 2,
    "race": "Dwarf",
@@ -3032,7 +3032,7 @@
    "guild": "Hüljatud",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1793865888000,
+   "lastLogin": 1793867349000,
    "apiItemLevel": 7,
    "gear": [
     {
@@ -3086,7 +3086,7 @@
       "spells": [],
       "req": "Requires Level 2",
       "reqClass": "",
-      "dur": "Durability 65 / 65",
+      "dur": "Durability 63 / 65",
       "sell": 32,
       "desc": ""
      }
@@ -3136,7 +3136,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 20 / 20",
+      "dur": "Durability 19 / 20",
       "sell": 69,
       "desc": ""
      }
@@ -3172,7 +3172,7 @@
       "spells": [],
       "req": "Requires Level 7",
       "reqClass": "",
-      "dur": "Durability 20 / 20",
+      "dur": "Durability 19 / 20",
       "sell": 71,
       "desc": ""
      }
@@ -3332,7 +3332,7 @@
       "spells": [],
       "req": "Requires Level 11",
       "reqClass": "",
-      "dur": "Durability 55 / 55",
+      "dur": "Durability 54 / 55",
       "sell": 466,
       "desc": "",
       "weapon": {
@@ -3363,7 +3363,7 @@
     "primaries": [
      {
       "name": "Mining",
-      "skill": 66,
+      "skill": 70,
       "max": 75,
       "recipes": 3
      },
@@ -3377,9 +3377,9 @@
     "secondaries": [
      {
       "name": "Cooking",
-      "skill": 16,
+      "skill": 25,
       "max": 75,
-      "recipes": 4
+      "recipes": 6
      },
      {
       "name": "Fishing",
@@ -3397,7 +3397,7 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/chasida-shieldsworn",
    "weekly": {
-    "levels": 0.21,
+    "levels": 0.63,
     "ilvl": 0,
     "hk": 0,
     "rank": 0
