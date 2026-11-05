@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1793915645360,
+ "generatedAt": 1793916813319,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -4030,11 +4030,11 @@
    "name": "Ryan",
    "surname": "Angelos",
    "fullName": "Ryan Angelos",
-   "level": 16,
-   "experience": 401,
-   "xpToLevel": 16000,
-   "xpPct": 2.51,
-   "levelProgress": 16.03,
+   "level": 18,
+   "experience": 6804,
+   "xpToLevel": 19400,
+   "xpPct": 35.07,
+   "levelProgress": 18.35,
    "className": "Paladin",
    "classId": 2,
    "race": "Dwarf",
@@ -4043,8 +4043,8 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1793904878000,
-   "apiItemLevel": 9,
+   "lastLogin": 1793916418000,
+   "apiItemLevel": 11,
    "gear": [
     {
      "slot": "BACK",
@@ -4090,10 +4090,10 @@
     {
      "slot": "CHEST",
      "slotName": "Chest",
-     "itemId": 271098,
-     "name": "Golemguard Chest",
-     "quality": "RARE",
-     "ilvl": 18,
+     "itemId": 279869,
+     "name": "Remembrance Armor",
+     "quality": "UNCOMMON",
+     "ilvl": 24,
      "inventoryType": "CHEST",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132624.jpg",
@@ -4102,24 +4102,29 @@
       "unique": "",
       "inv": "Chest",
       "sub": "Mail",
-      "armor": "178 Armor",
+      "armor": "180 Armor",
       "stats": [
        {
-        "s": "+6 Stamina",
+        "s": "+3 Intellect",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+60 Bonus Armor",
+        "s": "+3 Strength",
         "neg": false,
-        "eq": true
+        "eq": false
+       },
+       {
+        "s": "+5 Stamina",
+        "neg": false,
+        "eq": false
        }
       ],
       "spells": [],
-      "req": "Requires Level 13",
+      "req": "",
       "reqClass": "",
-      "dur": "Durability 95 / 95",
-      "sell": 793,
+      "dur": "Durability 90 / 90",
+      "sell": 1393,
       "desc": ""
      }
     },
@@ -4179,7 +4184,7 @@
       "spells": [],
       "req": "Requires Level 14",
       "reqClass": "",
-      "dur": "Durability 30 / 30",
+      "dur": "Durability 23 / 30",
       "sell": 225,
       "desc": ""
      }
@@ -4187,36 +4192,36 @@
     {
      "slot": "HANDS",
      "slotName": "Hands",
-     "itemId": 6547,
-     "name": "Soldier's Gauntlets of the Eagle",
-     "quality": "UNCOMMON",
-     "ilvl": 17,
+     "itemId": 271208,
+     "name": "Grip of Fear",
+     "quality": "RARE",
+     "ilvl": 22,
      "inventoryType": "HAND",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132946.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132938.jpg",
      "tt": {
-      "bind": "Binds when equipped",
+      "bind": "Binds when picked up",
       "unique": "",
       "inv": "Hands",
       "sub": "Mail",
-      "armor": "99 Armor",
+      "armor": "119 Armor",
       "stats": [
        {
-        "s": "+2 Intellect",
+        "s": "+6 Intellect",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+2 Stamina",
+        "s": "+6 Strength",
         "neg": false,
         "eq": false
        }
       ],
       "spells": [],
-      "req": "Requires Level 12",
+      "req": "Requires Level 17",
       "reqClass": "",
-      "dur": "Durability 25 / 25",
-      "sell": 267,
+      "dur": "Durability 32 / 35",
+      "sell": 686,
       "desc": ""
      }
     },
@@ -4251,7 +4256,7 @@
       "spells": [],
       "req": "Requires Level 13",
       "reqClass": "",
-      "dur": "Durability 25 / 25",
+      "dur": "Durability 18 / 25",
       "sell": 198,
       "desc": ""
      }
@@ -4282,7 +4287,7 @@
       "spells": [],
       "req": "Requires Level 4",
       "reqClass": "",
-      "dur": "Durability 50 / 50",
+      "dur": "Durability 38 / 50",
       "sell": 67,
       "desc": ""
      }
@@ -4313,7 +4318,7 @@
       "spells": [],
       "req": "Requires Level 4",
       "reqClass": "",
-      "dur": "Durability 30 / 30",
+      "dur": "Durability 20 / 30",
       "sell": 49,
       "desc": ""
      }
@@ -4350,6 +4355,42 @@
      }
     },
     {
+     "slot": "FINGER_2",
+     "slotName": "Ring 2",
+     "itemId": 279867,
+     "name": "Slain Baron's Signet",
+     "quality": "UNCOMMON",
+     "ilvl": 23,
+     "inventoryType": "FINGER",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133361.jpg",
+     "tt": {
+      "bind": "Binds when picked up",
+      "unique": "",
+      "inv": "Finger",
+      "sub": "Miscellaneous",
+      "armor": "",
+      "stats": [
+       {
+        "s": "+3 Stamina",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+1 Defense",
+        "neg": false,
+        "eq": true
+       }
+      ],
+      "spells": [],
+      "req": "",
+      "reqClass": "",
+      "dur": "",
+      "sell": 815,
+      "desc": ""
+     }
+    },
+    {
      "slot": "MAIN_HAND",
      "slotName": "Main Hand",
      "itemId": 279895,
@@ -4371,7 +4412,7 @@
       ],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 69 / 70",
+      "dur": "Durability 52 / 70",
       "sell": 1637,
       "desc": "",
       "weapon": {
@@ -4382,7 +4423,7 @@
      }
     }
    ],
-   "itemLevel": 15.3,
+   "itemLevel": 17,
    "pvp": {
     "hk": 0,
     "rank": 0,
@@ -4391,18 +4432,22 @@
    "spec": {
     "trees": [
      {
+      "name": "Protection",
+      "points": 2
+     },
+     {
       "name": "Retribution",
       "points": 7
      }
     ],
-    "split": "7",
+    "split": "2/7",
     "main": "Retribution"
    },
    "professions": {
     "primaries": [
      {
       "name": "Mining",
-      "skill": 90,
+      "skill": 106,
       "max": 150,
       "recipes": 6
      },
@@ -4416,9 +4461,9 @@
     "secondaries": [
      {
       "name": "Cooking",
-      "skill": 73,
+      "skill": 94,
       "max": 150,
-      "recipes": 9
+      "recipes": 11
      },
      {
       "name": "Fishing",
@@ -4430,8 +4475,8 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/ryan-angelos",
    "weekly": {
-    "levels": 5.9,
-    "ilvl": 7.2,
+    "levels": 8.22,
+    "ilvl": 8.9,
     "hk": 0,
     "rank": 0
    },
@@ -4853,11 +4898,11 @@
    "name": "Leon",
    "surname": "Lionhart",
    "fullName": "Leon Lionhart",
-   "level": 18,
-   "experience": 18471,
-   "xpToLevel": 19400,
-   "xpPct": 95.21,
-   "levelProgress": 18.95,
+   "level": 21,
+   "experience": 20046,
+   "xpToLevel": 25200,
+   "xpPct": 79.55,
+   "levelProgress": 21.8,
    "className": "Rogue",
    "classId": 4,
    "race": "Night Elf",
@@ -4866,9 +4911,59 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1793901449000,
-   "apiItemLevel": 10,
+   "lastLogin": 1793916531000,
+   "apiItemLevel": 13,
    "gear": [
+    {
+     "slot": "HEAD",
+     "slotName": "Head",
+     "itemId": 7997,
+     "name": "Red Defias Mask",
+     "quality": "POOR",
+     "ilvl": 15,
+     "inventoryType": "HEAD",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133694.jpg",
+     "tt": {
+      "bind": "Binds when picked up",
+      "unique": "",
+      "inv": "Head",
+      "sub": "Leather",
+      "armor": "51 Armor",
+      "stats": [],
+      "spells": [],
+      "req": "",
+      "reqClass": "Classes: Rogue",
+      "dur": "Durability 40 / 40",
+      "sell": 81,
+      "desc": ""
+     }
+    },
+    {
+     "slot": "SHOULDER",
+     "slotName": "Shoulders",
+     "itemId": 10405,
+     "name": "Bandit Shoulders",
+     "quality": "COMMON",
+     "ilvl": 22,
+     "inventoryType": "SHOULDER",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135058.jpg",
+     "tt": {
+      "bind": "",
+      "unique": "",
+      "inv": "Shoulder",
+      "sub": "Leather",
+      "armor": "58 Armor",
+      "stats": [],
+      "spells": [],
+      "req": "Requires Level 17",
+      "reqClass": "",
+      "dur": "Durability 40 / 45",
+      "sell": 409,
+      "desc": ""
+     }
+    },
     {
      "slot": "BACK",
      "slotName": "Back",
@@ -4913,33 +5008,38 @@
     {
      "slot": "CHEST",
      "slotName": "Chest",
-     "itemId": 2317,
-     "name": "Dark Leather Tunic",
-     "quality": "UNCOMMON",
-     "ilvl": 20,
+     "itemId": 2041,
+     "name": "Tunic of Westfall",
+     "quality": "RARE",
+     "ilvl": 24,
      "inventoryType": "CHEST",
      "enchants": [
       "Enchanted: Stamina +1 and Armor +8"
      ],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132718.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132722.jpg",
      "tt": {
-      "bind": "Binds when equipped",
+      "bind": "Binds when picked up",
       "unique": "",
       "inv": "Chest",
       "sub": "Leather",
-      "armor": "78 Armor",
+      "armor": "92 Armor",
       "stats": [
        {
-        "s": "+6 Agility",
+        "s": "+11 Agility",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+5 Stamina",
         "neg": false,
         "eq": false
        }
       ],
       "spells": [],
-      "req": "Requires Level 15",
+      "req": "",
       "reqClass": "",
-      "dur": "Durability 50 / 70",
-      "sell": 689,
+      "dur": "Durability 90 / 90",
+      "sell": 1441,
       "desc": ""
      }
     },
@@ -4971,36 +5071,36 @@
     {
      "slot": "WRIST",
      "slotName": "Wrist",
-     "itemId": 7281,
-     "name": "Light Leather Bracers",
+     "itemId": 270015,
+     "name": "Bravo's Armbands",
      "quality": "UNCOMMON",
-     "ilvl": 14,
+     "ilvl": 22,
      "inventoryType": "WRIST",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132603.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132606.jpg",
      "tt": {
-      "bind": "Binds when equipped",
+      "bind": "Binds when picked up",
       "unique": "",
       "inv": "Wrist",
       "sub": "Leather",
-      "armor": "30 Armor",
+      "armor": "35 Armor",
       "stats": [
        {
-        "s": "+1 Agility",
+        "s": "+3 Agility",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+1 Strength",
+        "s": "+3 Strength",
         "neg": false,
         "eq": false
        }
       ],
       "spells": [],
-      "req": "Requires Level 9",
+      "req": "",
       "reqClass": "",
-      "dur": "Durability 13 / 20",
-      "sell": 84,
+      "dur": "Durability 25 / 25",
+      "sell": 462,
       "desc": ""
      }
     },
@@ -5037,7 +5137,7 @@
       "spells": [],
       "req": "Requires Level 13",
       "reqClass": "",
-      "dur": "Durability 15 / 25",
+      "dur": "Durability 21 / 25",
       "sell": 338,
       "desc": ""
      }
@@ -5073,7 +5173,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 13 / 20",
+      "dur": "Durability 15 / 20",
       "sell": 240,
       "desc": ""
      }
@@ -5081,43 +5181,38 @@
     {
      "slot": "LEGS",
      "slotName": "Legs",
-     "itemId": 15202,
-     "name": "Wildkeeper Leggings",
+     "itemId": 279868,
+     "name": "Duty Bound Leggings",
      "quality": "UNCOMMON",
-     "ilvl": 18,
+     "ilvl": 24,
      "inventoryType": "LEGS",
      "enchants": [
       "Enchanted: Stamina +1 and Armor +8"
      ],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134582.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134586.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Legs",
       "sub": "Leather",
-      "armor": "65 Armor",
+      "armor": "73 Armor",
       "stats": [
        {
-        "s": "+4 Agility",
+        "s": "+4 Intellect",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+1 Stamina",
+        "s": "+6 Agility",
         "neg": false,
         "eq": false
-       },
-       {
-        "s": "+2 Spirit",
-        "neg": false,
-        "eq": true
        }
       ],
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 30 / 50",
-      "sell": 515,
+      "dur": "Durability 48 / 60",
+      "sell": 1156,
       "desc": ""
      }
     },
@@ -5154,7 +5249,7 @@
       "spells": [],
       "req": "Requires Level 10",
       "reqClass": "",
-      "dur": "Durability 21 / 35",
+      "dur": "Durability 24 / 35",
       "sell": 307,
       "desc": ""
      }
@@ -5198,13 +5293,13 @@
     {
      "slot": "MAIN_HAND",
      "slotName": "Main Hand",
-     "itemId": 15335,
-     "name": "Briarsteel Shortsword",
+     "itemId": 2074,
+     "name": "Solid Shortblade",
      "quality": "UNCOMMON",
-     "ilvl": 14,
+     "ilvl": 19,
      "inventoryType": "WEAPON",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135321.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135324.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
@@ -5212,6 +5307,11 @@
       "sub": "Sword",
       "armor": "",
       "stats": [
+       {
+        "s": "+1 Strength",
+        "neg": false,
+        "eq": false
+       },
        {
         "s": "+1 Stamina",
         "neg": false,
@@ -5221,49 +5321,51 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 21 / 45",
-      "sell": 580,
+      "dur": "Durability 55 / 55",
+      "sell": 1237,
       "desc": "",
       "weapon": {
-       "dmg": "12 - 24 Damage",
+       "dmg": "16 - 31 Damage",
        "speed": "Speed 2.50",
-       "dps": "(7.2 damage per second)"
+       "dps": "(9.4 damage per second)"
       }
      }
     },
     {
      "slot": "OFF_HAND",
      "slotName": "Off Hand",
-     "itemId": 7298,
-     "name": "Blade of Cunning",
-     "quality": "UNCOMMON",
-     "ilvl": 13,
+     "itemId": 5192,
+     "name": "Thief's Blade",
+     "quality": "RARE",
+     "ilvl": 22,
      "inventoryType": "WEAPON",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135662.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135325.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "One-Hand",
-      "sub": "Dagger",
+      "sub": "Sword",
       "armor": "",
       "stats": [
        {
-        "s": "+2 Agility",
+        "s": "+4 Agility",
         "neg": false,
         "eq": false
        }
       ],
-      "spells": [],
-      "req": "",
-      "reqClass": "Classes: Rogue",
-      "dur": "Durability 3 / 30",
-      "sell": 468,
+      "spells": [
+       "Equip: Increases the chance your Pick Pocket and Distract abilities are successful by 1%"
+      ],
+      "req": "Requires Level 17",
+      "reqClass": "",
+      "dur": "Durability 62 / 70",
+      "sell": 2258,
       "desc": "",
       "weapon": {
-       "dmg": "9 - 18 Damage",
-       "speed": "Speed 2.00",
-       "dps": "(6.8 damage per second)"
+       "dmg": "17 - 32 Damage",
+       "speed": "Speed 1.70",
+       "dps": "(14.4 damage per second)"
       }
      }
     },
@@ -5293,7 +5395,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 131 / 200",
+      "dur": "Durability 161 / 200",
       "sell": 442,
       "desc": "",
       "weapon": {
@@ -5304,7 +5406,7 @@
      }
     }
    ],
-   "itemLevel": 16.64,
+   "itemLevel": 19.38,
    "pvp": {
     "hk": 0,
     "rank": 0,
@@ -5314,10 +5416,10 @@
     "trees": [
      {
       "name": "Combat",
-      "points": 8
+      "points": 12
      }
     ],
-    "split": "8",
+    "split": "12",
     "main": "Combat"
    },
    "professions": {
@@ -5330,7 +5432,7 @@
      },
      {
       "name": "Skinning",
-      "skill": 80,
+      "skill": 81,
       "max": 150,
       "recipes": 2
      }
@@ -5350,7 +5452,7 @@
      },
      {
       "name": "First Aid",
-      "skill": 68,
+      "skill": 75,
       "max": 150,
       "recipes": 5
      }
@@ -5358,8 +5460,8 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/leon-lionhart",
    "weekly": {
-    "levels": 8.42,
-    "ilvl": 8.93,
+    "levels": 11.27,
+    "ilvl": 11.67,
     "hk": 0,
     "rank": 0
    },
