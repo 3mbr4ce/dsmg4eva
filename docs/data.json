@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1793964283678,
+ "generatedAt": 1793981737915,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -1955,11 +1955,11 @@
    "name": "Sire",
    "surname": "Khingen",
    "fullName": "Sire Khingen",
-   "level": 19,
-   "experience": 7548,
-   "xpToLevel": 21300,
-   "xpPct": 35.44,
-   "levelProgress": 19.35,
+   "level": 20,
+   "experience": 14997,
+   "xpToLevel": 23200,
+   "xpPct": 64.64,
+   "levelProgress": 20.65,
    "className": "Paladin",
    "classId": 2,
    "race": "Undead",
@@ -1968,8 +1968,8 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1793963873000,
-   "apiItemLevel": 13,
+   "lastLogin": 1793980487000,
+   "apiItemLevel": 15,
    "gear": [
     {
      "slot": "SHOULDER",
@@ -2002,7 +2002,7 @@
       "spells": [],
       "req": "Requires Level 17",
       "reqClass": "",
-      "dur": "Durability 50 / 50",
+      "dur": "Durability 26 / 50",
       "sell": 532,
       "desc": ""
      }
@@ -2010,20 +2010,25 @@
     {
      "slot": "BACK",
      "slotName": "Back",
-     "itemId": 5343,
-     "name": "Barkeeper's Cloak",
+     "itemId": 279865,
+     "name": "Grave Shroud",
      "quality": "UNCOMMON",
-     "ilvl": 18,
+     "ilvl": 23,
      "inventoryType": "CLOAK",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133755.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133762.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Back",
       "sub": "Cloth",
-      "armor": "16 Armor",
+      "armor": "18 Armor",
       "stats": [
+       {
+        "s": "+3 Strength",
+        "neg": false,
+        "eq": false
+       },
        {
         "s": "+3 Stamina",
         "neg": false,
@@ -2034,7 +2039,7 @@
       "req": "",
       "reqClass": "",
       "dur": "",
-      "sell": 462,
+      "sell": 607,
       "desc": ""
      }
     },
@@ -2046,7 +2051,9 @@
      "quality": "UNCOMMON",
      "ilvl": 23,
      "inventoryType": "CHEST",
-     "enchants": [],
+     "enchants": [
+      "Enchanted: Stamina +1 and Armor +8"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132630.jpg",
      "tt": {
       "bind": "Binds when equipped",
@@ -2064,7 +2071,7 @@
       "spells": [],
       "req": "Requires Level 18",
       "reqClass": "",
-      "dur": "Durability 90 / 90",
+      "dur": "Durability 51 / 90",
       "sell": 601,
       "desc": ""
      }
@@ -2097,91 +2104,91 @@
     {
      "slot": "WRIST",
      "slotName": "Wrist",
-     "itemId": 2854,
-     "name": "Runed Copper Bracers",
-     "quality": "UNCOMMON",
-     "ilvl": 19,
+     "itemId": 286981,
+     "name": "Death Bindings",
+     "quality": "RARE",
+     "ilvl": 21,
      "inventoryType": "WRIST",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132602.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132605.jpg",
      "tt": {
       "bind": "Binds when equipped",
       "unique": "",
       "inv": "Wrist",
       "sub": "Mail",
-      "armor": "72 Armor",
+      "armor": "82 Armor",
       "stats": [
        {
-        "s": "+2 Strength",
+        "s": "+5 Strength",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+2 Stamina",
+        "s": "+2 Spirit",
         "neg": false,
-        "eq": false
+        "eq": true
        }
       ],
       "spells": [],
-      "req": "Requires Level 14",
+      "req": "Requires Level 16",
       "reqClass": "",
-      "dur": "Durability 30 / 30",
-      "sell": 225,
+      "dur": "Durability 23 / 35",
+      "sell": 585,
       "desc": ""
      }
     },
     {
      "slot": "HANDS",
      "slotName": "Hands",
-     "itemId": 3472,
-     "name": "Runed Copper Gauntlets",
-     "quality": "UNCOMMON",
-     "ilvl": 12,
+     "itemId": 271208,
+     "name": "Grip of Fear",
+     "quality": "RARE",
+     "ilvl": 22,
      "inventoryType": "HAND",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132938.jpg",
      "tt": {
-      "bind": "Binds when equipped",
+      "bind": "Binds when picked up",
       "unique": "",
       "inv": "Hands",
       "sub": "Mail",
-      "armor": "77 Armor",
+      "armor": "119 Armor",
       "stats": [
        {
-        "s": "+1 Strength",
+        "s": "+6 Intellect",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+1 Stamina",
+        "s": "+6 Strength",
         "neg": false,
         "eq": false
        }
       ],
       "spells": [],
-      "req": "Requires Level 7",
+      "req": "Requires Level 17",
       "reqClass": "",
-      "dur": "Durability 20 / 20",
-      "sell": 71,
+      "dur": "Durability 24 / 35",
+      "sell": 686,
       "desc": ""
      }
     },
     {
      "slot": "WAIST",
      "slotName": "Waist",
-     "itemId": 285339,
-     "name": "Centaur War Chain",
+     "itemId": 271201,
+     "name": "Atrophic Girdle",
      "quality": "RARE",
-     "ilvl": 19,
+     "ilvl": 20,
      "inventoryType": "WAIST",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132511.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132510.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Waist",
       "sub": "Mail",
-      "armor": "102 Armor",
+      "armor": "104 Armor",
       "stats": [
        {
         "s": "+3 Strength",
@@ -2189,16 +2196,16 @@
         "eq": false
        },
        {
-        "s": "+6 Stamina",
+        "s": "+7 Stamina",
         "neg": false,
         "eq": false
        }
       ],
       "spells": [],
-      "req": "Requires Level 14",
+      "req": "Requires Level 15",
       "reqClass": "",
-      "dur": "Durability 35 / 35",
-      "sell": 431,
+      "dur": "Durability 29 / 35",
+      "sell": 505,
       "desc": ""
      }
     },
@@ -2210,7 +2217,9 @@
      "quality": "UNCOMMON",
      "ilvl": 21,
      "inventoryType": "LEGS",
-     "enchants": [],
+     "enchants": [
+      "Enchanted: Stamina +1 and Armor +8"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134583.jpg",
      "tt": {
       "bind": "Binds when equipped",
@@ -2233,7 +2242,7 @@
       "spells": [],
       "req": "Requires Level 16",
       "reqClass": "",
-      "dur": "Durability 65 / 65",
+      "dur": "Durability 44 / 65",
       "sell": 577,
       "desc": ""
      }
@@ -2241,38 +2250,36 @@
     {
      "slot": "FEET",
      "slotName": "Feet",
-     "itemId": 250620,
-     "name": "Gemmed Copper Boots",
+     "itemId": 271211,
+     "name": "Vilewalkers",
      "quality": "RARE",
-     "ilvl": 15,
+     "ilvl": 22,
      "inventoryType": "FEET",
-     "enchants": [
-      "Enchanted: Stamina +1 and Armor +8"
-     ],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132554.jpg",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132551.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Feet",
       "sub": "Mail",
-      "armor": "109 Armor",
+      "armor": "131 Armor",
       "stats": [
        {
-        "s": "+4 Strength",
+        "s": "+7 Strength",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+4 Stamina",
+        "s": "+5 Stamina",
         "neg": false,
         "eq": false
        }
       ],
       "spells": [],
-      "req": "Requires Level 10",
+      "req": "Requires Level 17",
       "reqClass": "",
-      "dur": "Durability 40 / 40",
-      "sell": 401,
+      "dur": "Durability 45 / 50",
+      "sell": 970,
       "desc": ""
      }
     },
@@ -2315,46 +2322,48 @@
     {
      "slot": "MAIN_HAND",
      "slotName": "Main Hand",
-     "itemId": 286977,
-     "name": "Sword of the Fallen",
+     "itemId": 251533,
+     "name": "Forsaken Greataxe",
      "quality": "RARE",
-     "ilvl": 23,
+     "ilvl": 24,
      "inventoryType": "TWOHWEAPON",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135312.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132409.jpg",
      "tt": {
-      "bind": "Binds when equipped",
+      "bind": "Binds when picked up",
       "unique": "",
       "inv": "Two-Hand",
-      "sub": "Sword",
+      "sub": "Axe",
       "armor": "",
       "stats": [
        {
-        "s": "+9 Intellect",
+        "s": "+8 Strength",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+6 Strength",
+        "s": "+4 Stamina",
         "neg": false,
         "eq": false
        }
       ],
-      "spells": [],
-      "req": "Requires Level 18",
+      "spells": [
+       "Equip: Increases movement speed by 2% in Silverpine Forest and Hillsbrad Foothills."
+      ],
+      "req": "",
       "reqClass": "",
-      "dur": "Durability 80 / 80",
-      "sell": 3037,
+      "dur": "Durability 80 / 90",
+      "sell": 3629,
       "desc": "",
       "weapon": {
-       "dmg": "55 - 83 Damage",
-       "speed": "Speed 3.50",
-       "dps": "(19.7 damage per second)"
+       "dmg": "49 - 74 Damage",
+       "speed": "Speed 3.00",
+       "dps": "(20.5 damage per second)"
       }
      }
     }
    ],
-   "itemLevel": 19.55,
+   "itemLevel": 22,
    "pvp": {
     "hk": 2,
     "rank": 0,
@@ -2364,25 +2373,25 @@
     "trees": [
      {
       "name": "Retribution",
-      "points": 10
+      "points": 11
      }
     ],
-    "split": "10",
+    "split": "11",
     "main": "Retribution"
    },
    "professions": {
     "primaries": [
      {
       "name": "Mining",
-      "skill": 98,
+      "skill": 101,
       "max": 150,
       "recipes": 6
      },
      {
       "name": "Blacksmithing",
-      "skill": 100,
+      "skill": 118,
       "max": 150,
-      "recipes": 46
+      "recipes": 51
      }
     ],
     "secondaries": [
@@ -2408,8 +2417,8 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/sire-khingen",
    "weekly": {
-    "levels": 9.11,
-    "ilvl": 12.33,
+    "levels": 10.41,
+    "ilvl": 14.78,
     "hk": 2,
     "rank": 0
    },
