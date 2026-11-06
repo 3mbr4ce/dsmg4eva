@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1793985165445,
+ "generatedAt": 1793986753353,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -541,11 +541,11 @@
    "name": "Blue",
    "surname": "Embrace",
    "fullName": "Blue Embrace",
-   "level": 18,
-   "experience": 2887,
-   "xpToLevel": 19400,
-   "xpPct": 14.88,
-   "levelProgress": 18.15,
+   "level": 20,
+   "experience": 104,
+   "xpToLevel": 23200,
+   "xpPct": 0.45,
+   "levelProgress": 20,
    "className": "Rogue",
    "classId": 4,
    "race": "Undead",
@@ -554,28 +554,28 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1793964027000,
-   "apiItemLevel": 9,
+   "lastLogin": 1793986627000,
+   "apiItemLevel": 10,
    "gear": [
     {
      "slot": "BACK",
      "slotName": "Back",
-     "itemId": 5343,
-     "name": "Barkeeper's Cloak",
+     "itemId": 5314,
+     "name": "Boar Hunter's Cape",
      "quality": "UNCOMMON",
-     "ilvl": 18,
+     "ilvl": 20,
      "inventoryType": "CLOAK",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133755.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133762.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Back",
       "sub": "Cloth",
-      "armor": "16 Armor",
+      "armor": "17 Armor",
       "stats": [
        {
-        "s": "+3 Stamina",
+        "s": "+3 Agility",
         "neg": false,
         "eq": false
        }
@@ -584,7 +584,7 @@
       "req": "",
       "reqClass": "",
       "dur": "",
-      "sell": 462,
+      "sell": 528,
       "desc": ""
      }
     },
@@ -621,7 +621,7 @@
       "spells": [],
       "req": "Requires Level 12",
       "reqClass": "",
-      "dur": "Durability 54 / 65",
+      "dur": "Durability 31 / 65",
       "sell": 461,
       "desc": ""
      }
@@ -654,36 +654,36 @@
     {
      "slot": "WRIST",
      "slotName": "Wrist",
-     "itemId": 7281,
-     "name": "Light Leather Bracers",
+     "itemId": 279875,
+     "name": "Spare Part Bindings",
      "quality": "UNCOMMON",
-     "ilvl": 14,
+     "ilvl": 24,
      "inventoryType": "WRIST",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132603.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132606.jpg",
      "tt": {
-      "bind": "Binds when equipped",
+      "bind": "Binds when picked up",
       "unique": "",
       "inv": "Wrist",
       "sub": "Leather",
-      "armor": "30 Armor",
+      "armor": "37 Armor",
       "stats": [
        {
-        "s": "+1 Agility",
+        "s": "+3 Agility",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+1 Strength",
+        "s": "+3 Stamina",
         "neg": false,
         "eq": false
        }
       ],
       "spells": [],
-      "req": "Requires Level 9",
+      "req": "",
       "reqClass": "",
-      "dur": "Durability 8 / 20",
-      "sell": 84,
+      "dur": "Durability 13 / 25",
+      "sell": 614,
       "desc": ""
      }
     },
@@ -718,7 +718,7 @@
       "spells": [],
       "req": "Requires Level 8",
       "reqClass": "",
-      "dur": "Durability 14 / 20",
+      "dur": "Durability 10 / 20",
       "sell": 71,
       "desc": ""
      }
@@ -726,36 +726,36 @@
     {
      "slot": "WAIST",
      "slotName": "Waist",
-     "itemId": 4246,
-     "name": "Fine Leather Belt",
+     "itemId": 14559,
+     "name": "Prospector's Sash",
      "quality": "UNCOMMON",
-     "ilvl": 16,
+     "ilvl": 18,
      "inventoryType": "WAIST",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132493.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132515.jpg",
      "tt": {
       "bind": "Binds when equipped",
       "unique": "",
       "inv": "Waist",
       "sub": "Leather",
-      "armor": "40 Armor",
+      "armor": "42 Armor",
       "stats": [
        {
-        "s": "+2 Agility",
+        "s": "+3 Stamina",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+2 Stamina",
+        "s": "+2 Spirit",
         "neg": false,
-        "eq": false
+        "eq": true
        }
       ],
       "spells": [],
-      "req": "Requires Level 11",
+      "req": "Requires Level 13",
       "reqClass": "",
-      "dur": "Durability 18 / 20",
-      "sell": 125,
+      "dur": "Durability 6 / 20",
+      "sell": 279,
       "desc": ""
      }
     },
@@ -790,7 +790,7 @@
       "spells": [],
       "req": "Requires Level 14",
       "reqClass": "",
-      "dur": "Durability 39 / 50",
+      "dur": "Durability 20 / 50",
       "sell": 611,
       "desc": ""
      }
@@ -804,7 +804,7 @@
      "ilvl": 15,
      "inventoryType": "FEET",
      "enchants": [
-      "Enchanted: Stamina +1 and Armor +8"
+      "Enchanted: Stamina +2 and Armor +16"
      ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132539.jpg",
      "tt": {
@@ -828,7 +828,7 @@
       "spells": [],
       "req": "Requires Level 10",
       "reqClass": "",
-      "dur": "Durability 17 / 35",
+      "dur": "Durability 16 / 35",
       "sell": 307,
       "desc": ""
      }
@@ -859,7 +859,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 24 / 40",
+      "dur": "Durability 14 / 40",
       "sell": 1436,
       "desc": "",
       "weapon": {
@@ -895,7 +895,7 @@
       "spells": [],
       "req": "Requires Level 9",
       "reqClass": "",
-      "dur": "Durability 11 / 35",
+      "dur": "Durability 19 / 35",
       "sell": 605,
       "desc": "",
       "weapon": {
@@ -925,7 +925,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 71 / 200",
+      "dur": "Durability 98 / 200",
       "sell": 8,
       "desc": "",
       "weapon": {
@@ -936,9 +936,9 @@
      }
     }
    ],
-   "itemLevel": 14.9,
+   "itemLevel": 16.3,
    "pvp": {
-    "hk": 3,
+    "hk": 99,
     "rank": 0,
     "rankName": "Unranked"
    },
@@ -946,19 +946,19 @@
     "trees": [
      {
       "name": "Subtlety",
-      "points": 8
+      "points": 11
      }
     ],
-    "split": "8",
+    "split": "11",
     "main": "Subtlety"
    },
    "professions": {
     "primaries": [
      {
       "name": "Leatherworking",
-      "skill": 79,
+      "skill": 82,
       "max": 150,
-      "recipes": 29
+      "recipes": 34
      },
      {
       "name": "Skinning",
@@ -983,16 +983,16 @@
      {
       "name": "First Aid",
       "skill": 75,
-      "max": 75,
-      "recipes": 4
+      "max": 150,
+      "recipes": 5
      }
     ]
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/blue-embrace",
    "weekly": {
-    "levels": 1.99,
-    "ilvl": 2.1,
-    "hk": 0,
+    "levels": 3.84,
+    "ilvl": 3.5,
+    "hk": 96,
     "rank": 0
    },
    "ding60At": null
