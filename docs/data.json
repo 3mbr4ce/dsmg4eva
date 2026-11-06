@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1794007428958,
+ "generatedAt": 1794008368675,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -1995,22 +1995,47 @@
    "name": "Sire",
    "surname": "Khingen",
    "fullName": "Sire Khingen",
-   "level": 20,
-   "experience": 14997,
-   "xpToLevel": 23200,
-   "xpPct": 64.64,
-   "levelProgress": 20.65,
+   "level": 22,
+   "experience": 1111,
+   "xpToLevel": 27300,
+   "xpPct": 4.07,
+   "levelProgress": 22.04,
    "className": "Paladin",
    "classId": 2,
    "race": "Undead",
    "raceId": 5,
-   "gender": "MALE",
+   "gender": "FEMALE",
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1793980487000,
-   "apiItemLevel": 15,
+   "lastLogin": 1794008196000,
+   "apiItemLevel": 18,
    "gear": [
+    {
+     "slot": "HEAD",
+     "slotName": "Head",
+     "itemId": 279391,
+     "name": "Taurajo Headband",
+     "quality": "COMMON",
+     "ilvl": 23,
+     "inventoryType": "HEAD",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133693.jpg",
+     "tt": {
+      "bind": "Binds when picked up",
+      "unique": "",
+      "inv": "Head",
+      "sub": "Cloth",
+      "armor": "28 Armor",
+      "stats": [],
+      "spells": [],
+      "req": "",
+      "reqClass": "",
+      "dur": "Durability 40 / 40",
+      "sell": 999,
+      "desc": ""
+     }
+    },
     {
      "slot": "SHOULDER",
      "slotName": "Shoulders",
@@ -2042,7 +2067,7 @@
       "spells": [],
       "req": "Requires Level 17",
       "reqClass": "",
-      "dur": "Durability 26 / 50",
+      "dur": "Durability 16 / 50",
       "sell": 532,
       "desc": ""
      }
@@ -2111,7 +2136,7 @@
       "spells": [],
       "req": "Requires Level 18",
       "reqClass": "",
-      "dur": "Durability 51 / 90",
+      "dur": "Durability 28 / 90",
       "sell": 601,
       "desc": ""
      }
@@ -2172,7 +2197,7 @@
       "spells": [],
       "req": "Requires Level 16",
       "reqClass": "",
-      "dur": "Durability 23 / 35",
+      "dur": "Durability 18 / 35",
       "sell": 585,
       "desc": ""
      }
@@ -2208,7 +2233,7 @@
       "spells": [],
       "req": "Requires Level 17",
       "reqClass": "",
-      "dur": "Durability 24 / 35",
+      "dur": "Durability 21 / 35",
       "sell": 686,
       "desc": ""
      }
@@ -2244,7 +2269,7 @@
       "spells": [],
       "req": "Requires Level 15",
       "reqClass": "",
-      "dur": "Durability 29 / 35",
+      "dur": "Durability 21 / 35",
       "sell": 505,
       "desc": ""
      }
@@ -2282,7 +2307,7 @@
       "spells": [],
       "req": "Requires Level 16",
       "reqClass": "",
-      "dur": "Durability 44 / 65",
+      "dur": "Durability 34 / 65",
       "sell": 577,
       "desc": ""
      }
@@ -2318,7 +2343,7 @@
       "spells": [],
       "req": "Requires Level 17",
       "reqClass": "",
-      "dur": "Durability 45 / 50",
+      "dur": "Durability 34 / 50",
       "sell": 970,
       "desc": ""
      }
@@ -2326,36 +2351,62 @@
     {
      "slot": "FINGER_1",
      "slotName": "Ring 1",
-     "itemId": 5351,
-     "name": "Bounty Hunter's Ring",
+     "itemId": 5001,
+     "name": "Heart Ring",
      "quality": "UNCOMMON",
-     "ilvl": 20,
+     "ilvl": 27,
      "inventoryType": "FINGER",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133343.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133346.jpg",
      "tt": {
-      "bind": "Binds when picked up",
+      "bind": "Binds when equipped",
       "unique": "",
       "inv": "Finger",
       "sub": "Miscellaneous",
       "armor": "",
       "stats": [
        {
-        "s": "+3 Agility",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+1 Stamina",
+        "s": "+5 Stamina",
         "neg": false,
         "eq": false
        }
       ],
       "spells": [],
-      "req": "",
+      "req": "Requires Level 22",
       "reqClass": "",
       "dur": "",
-      "sell": 403,
+      "sell": 1038,
+      "desc": ""
+     }
+    },
+    {
+     "slot": "FINGER_2",
+     "slotName": "Ring 2",
+     "itemId": 11983,
+     "name": "Chrome Ring of Stamina",
+     "quality": "UNCOMMON",
+     "ilvl": 26,
+     "inventoryType": "FINGER",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133347.jpg",
+     "tt": {
+      "bind": "Binds when equipped",
+      "unique": "",
+      "inv": "Finger",
+      "sub": "Miscellaneous",
+      "armor": "",
+      "stats": [
+       {
+        "s": "+5 Stamina",
+        "neg": false,
+        "eq": false
+       }
+      ],
+      "spells": [],
+      "req": "Requires Level 21",
+      "reqClass": "",
+      "dur": "",
+      "sell": 1130,
       "desc": ""
      }
     },
@@ -2392,7 +2443,7 @@
       ],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 80 / 90",
+      "dur": "Durability 69 / 90",
       "sell": 3629,
       "desc": "",
       "weapon": {
@@ -2403,9 +2454,9 @@
      }
     }
    ],
-   "itemLevel": 22,
+   "itemLevel": 22.92,
    "pvp": {
-    "hk": 2,
+    "hk": 6,
     "rank": 0,
     "rankName": "Unranked"
    },
@@ -2413,25 +2464,25 @@
     "trees": [
      {
       "name": "Retribution",
-      "points": 11
+      "points": 13
      }
     ],
-    "split": "11",
+    "split": "13",
     "main": "Retribution"
    },
    "professions": {
     "primaries": [
      {
       "name": "Mining",
-      "skill": 101,
+      "skill": 116,
       "max": 150,
       "recipes": 6
      },
      {
       "name": "Blacksmithing",
-      "skill": 118,
+      "skill": 130,
       "max": 150,
-      "recipes": 51
+      "recipes": 55
      }
     ],
     "secondaries": [
@@ -2449,17 +2500,17 @@
      },
      {
       "name": "First Aid",
-      "skill": 75,
+      "skill": 134,
       "max": 150,
-      "recipes": 5
+      "recipes": 8
      }
     ]
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/sire-khingen",
    "weekly": {
-    "levels": 10.41,
-    "ilvl": 14.78,
-    "hk": 2,
+    "levels": 11.8,
+    "ilvl": 15.7,
+    "hk": 6,
     "rank": 0
    },
    "ding60At": null
