@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1793996671742,
+ "generatedAt": 1794007428958,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -1561,11 +1561,11 @@
    "name": "Dala",
    "surname": "Hoon",
    "fullName": "Dala Hoon",
-   "level": 15,
-   "experience": 3074,
-   "xpToLevel": 14400,
-   "xpPct": 21.35,
-   "levelProgress": 15.21,
+   "level": 18,
+   "experience": 301,
+   "xpToLevel": 19400,
+   "xpPct": 1.55,
+   "levelProgress": 18.02,
    "className": "Shaman",
    "classId": 7,
    "race": "Orc",
@@ -1574,56 +1574,78 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1793984538000,
-   "apiItemLevel": 6,
+   "lastLogin": 1794007192000,
+   "apiItemLevel": 8,
    "gear": [
     {
      "slot": "BACK",
      "slotName": "Back",
-     "itemId": 14116,
-     "name": "Aboriginal Cape",
-     "quality": "COMMON",
-     "ilvl": 14,
+     "itemId": 15309,
+     "name": "Feral Cloak of the Eagle",
+     "quality": "UNCOMMON",
+     "ilvl": 15,
      "inventoryType": "CLOAK",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133770.jpg",
      "tt": {
-      "bind": "",
+      "bind": "Binds when equipped",
       "unique": "",
       "inv": "Back",
       "sub": "Cloth",
-      "armor": "12 Armor",
-      "stats": [],
+      "armor": "14 Armor",
+      "stats": [
+       {
+        "s": "+1 Intellect",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+1 Stamina",
+        "neg": false,
+        "eq": false
+       }
+      ],
       "spells": [],
-      "req": "Requires Level 9",
+      "req": "Requires Level 10",
       "reqClass": "",
       "dur": "",
-      "sell": 106,
+      "sell": 220,
       "desc": ""
      }
     },
     {
      "slot": "CHEST",
      "slotName": "Chest",
-     "itemId": 4929,
-     "name": "Light Scorpid Armor",
-     "quality": "COMMON",
-     "ilvl": 9,
+     "itemId": 3288,
+     "name": "Tribal Vest",
+     "quality": "UNCOMMON",
+     "ilvl": 13,
      "inventoryType": "CHEST",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132716.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132657.jpg",
      "tt": {
-      "bind": "Binds when picked up",
+      "bind": "Binds when equipped",
       "unique": "",
       "inv": "Chest",
       "sub": "Leather",
-      "armor": "49 Armor",
-      "stats": [],
+      "armor": "65 Armor",
+      "stats": [
+       {
+        "s": "+2 Agility",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+1 Stamina",
+        "neg": false,
+        "eq": false
+       }
+      ],
       "spells": [],
-      "req": "",
+      "req": "Requires Level 8",
       "reqClass": "",
-      "dur": "Durability 55 / 55",
-      "sell": 58,
+      "dur": "Durability 56 / 60",
+      "sell": 250,
       "desc": ""
      }
     },
@@ -1661,50 +1683,67 @@
     {
      "slot": "HANDS",
      "slotName": "Hands",
-     "itemId": 4940,
-     "name": "Veiled Grips",
-     "quality": "COMMON",
-     "ilvl": 10,
+     "itemId": 4239,
+     "name": "Embossed Leather Gloves",
+     "quality": "UNCOMMON",
+     "ilvl": 13,
      "inventoryType": "HAND",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132939.jpg",
      "tt": {
-      "bind": "Binds when picked up",
+      "bind": "Binds when equipped",
       "unique": "",
       "inv": "Hands",
       "sub": "Leather",
-      "armor": "33 Armor",
-      "stats": [],
+      "armor": "41 Armor",
+      "stats": [
+       {
+        "s": "+1 Agility",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+1 Stamina",
+        "neg": false,
+        "eq": false
+       }
+      ],
       "spells": [],
-      "req": "",
+      "req": "Requires Level 8",
       "reqClass": "",
       "dur": "Durability 20 / 20",
-      "sell": 36,
+      "sell": 71,
       "desc": ""
      }
     },
     {
      "slot": "WAIST",
      "slotName": "Waist",
-     "itemId": 4693,
-     "name": "Ceremonial Leather Belt",
-     "quality": "COMMON",
-     "ilvl": 14,
+     "itemId": 5275,
+     "name": "Binding Girdle",
+     "quality": "UNCOMMON",
+     "ilvl": 15,
      "inventoryType": "WAIST",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132505.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132490.jpg",
      "tt": {
-      "bind": "",
+      "bind": "Binds when picked up",
       "unique": "",
       "inv": "Waist",
       "sub": "Leather",
-      "armor": "37 Armor",
-      "stats": [],
+      "armor": "39 Armor",
+      "stats": [
+       {
+        "s": "+3 Intellect",
+        "neg": false,
+        "eq": false
+       }
+      ],
       "spells": [],
-      "req": "Requires Level 9",
+      "req": "",
       "reqClass": "",
       "dur": "Durability 20 / 20",
-      "sell": 86,
+      "sell": 175,
       "desc": ""
      }
     },
@@ -1716,7 +1755,9 @@
      "quality": "UNCOMMON",
      "ilvl": 11,
      "inventoryType": "LEGS",
-     "enchants": [],
+     "enchants": [
+      "Enchanted: Stamina +1 and Armor +8"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134585.jpg",
      "tt": {
       "bind": "Binds when equipped",
@@ -1739,7 +1780,7 @@
       "spells": [],
       "req": "Requires Level 6",
       "reqClass": "",
-      "dur": "Durability 40 / 40",
+      "dur": "Durability 36 / 40",
       "sell": 162,
       "desc": ""
      }
@@ -1747,25 +1788,36 @@
     {
      "slot": "FEET",
      "slotName": "Feet",
-     "itemId": 4942,
-     "name": "Tiger Hide Boots",
-     "quality": "COMMON",
-     "ilvl": 12,
+     "itemId": 2309,
+     "name": "Embossed Leather Boots",
+     "quality": "UNCOMMON",
+     "ilvl": 15,
      "inventoryType": "FEET",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132542.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132539.jpg",
      "tt": {
-      "bind": "Binds when picked up",
+      "bind": "Binds when equipped",
       "unique": "",
       "inv": "Feet",
       "sub": "Leather",
-      "armor": "40 Armor",
-      "stats": [],
+      "armor": "48 Armor",
+      "stats": [
+       {
+        "s": "+2 Stamina",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+2 Spell Power",
+        "neg": false,
+        "eq": true
+       }
+      ],
       "spells": [],
-      "req": "",
+      "req": "Requires Level 10",
       "reqClass": "",
-      "dur": "Durability 30 / 30",
-      "sell": 89,
+      "dur": "Durability 28 / 30",
+      "sell": 217,
       "desc": ""
      }
     },
@@ -1803,32 +1855,41 @@
     {
      "slot": "MAIN_HAND",
      "slotName": "Main Hand",
-     "itemId": 2030,
-     "name": "Gnarled Staff",
-     "quality": "COMMON",
-     "ilvl": 20,
+     "itemId": 15424,
+     "name": "Axe of Orgrimmar",
+     "quality": "RARE",
+     "ilvl": 18,
      "inventoryType": "TWOHWEAPON",
-     "enchants": [
-      "Rockbiter 2"
-     ],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135147.jpg",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132395.jpg",
      "tt": {
-      "bind": "",
+      "bind": "Binds when picked up",
       "unique": "",
       "inv": "Two-Hand",
-      "sub": "Staff",
+      "sub": "Axe",
       "armor": "",
-      "stats": [],
+      "stats": [
+       {
+        "s": "+6 Stamina",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+6 Spirit",
+        "neg": false,
+        "eq": true
+       }
+      ],
       "spells": [],
-      "req": "Requires Level 15",
+      "req": "",
       "reqClass": "",
-      "dur": "Durability 65 / 65",
-      "sell": 1108,
+      "dur": "Durability 67 / 70",
+      "sell": 1614,
       "desc": "",
       "weapon": {
-       "dmg": "27 - 42 Damage",
-       "speed": "Speed 2.90",
-       "dps": "(11.9 damage per second)"
+       "dmg": "42 - 64 Damage",
+       "speed": "Speed 3.30",
+       "dps": "(16.1 damage per second)"
       }
      }
     },
@@ -1860,7 +1921,7 @@
      }
     }
    ],
-   "itemLevel": 12.64,
+   "itemLevel": 13.36,
    "pvp": {
     "hk": 0,
     "rank": 0,
@@ -1870,24 +1931,28 @@
     "trees": [
      {
       "name": "Enhancement",
-      "points": 5
+      "points": 8
+     },
+     {
+      "name": "Restoration",
+      "points": 1
      }
     ],
-    "split": "5",
+    "split": "8/1",
     "main": "Enhancement"
    },
    "professions": {
     "primaries": [
      {
       "name": "Leatherworking",
-      "skill": 33,
-      "max": 75,
-      "recipes": 6
+      "skill": 76,
+      "max": 150,
+      "recipes": 31
      },
      {
       "name": "Skinning",
-      "skill": 75,
-      "max": 75,
+      "skill": 88,
+      "max": 150,
       "recipes": 2
      }
     ],
@@ -1907,15 +1972,15 @@
      {
       "name": "First Aid",
       "skill": 75,
-      "max": 75,
-      "recipes": 4
+      "max": 150,
+      "recipes": 5
      }
     ]
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/dala-hoon",
    "weekly": {
-    "levels": 0.41,
-    "ilvl": 2.64,
+    "levels": 3.22,
+    "ilvl": 3.36,
     "hk": 0,
     "rank": 0
    },
