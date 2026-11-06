@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1793925293433,
+ "generatedAt": 1793942084307,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -851,11 +851,11 @@
    "name": "Ruler",
    "surname": "Shiroune",
    "fullName": "Ruler Shiroune",
-   "level": 15,
-   "experience": 2075,
-   "xpToLevel": 14400,
-   "xpPct": 14.41,
-   "levelProgress": 15.14,
+   "level": 18,
+   "experience": 12178,
+   "xpToLevel": 19400,
+   "xpPct": 62.77,
+   "levelProgress": 18.63,
    "className": "Warrior",
    "classId": 1,
    "race": "Orc",
@@ -864,78 +864,139 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1793904960000,
-   "apiItemLevel": 8,
+   "lastLogin": 1793941729000,
+   "apiItemLevel": 12,
    "gear": [
     {
-     "slot": "BACK",
-     "slotName": "Back",
-     "itemId": 6542,
-     "name": "Willow Cape of Arcane Protection",
-     "quality": "UNCOMMON",
+     "slot": "AMMO",
+     "slotName": "Ammo",
+     "itemId": 2515,
+     "name": "Sharp Arrow",
+     "quality": "COMMON",
      "ilvl": 15,
-     "inventoryType": "CLOAK",
+     "inventoryType": "AMMO",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133769.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132382.jpg",
+     "tt": {
+      "bind": "",
+      "unique": "",
+      "inv": "Ammo",
+      "sub": "Arrow",
+      "armor": "",
+      "stats": [],
+      "spells": [],
+      "req": "Requires Level 10",
+      "reqClass": "",
+      "dur": "",
+      "sell": 0,
+      "desc": "",
+      "weapon": {
+       "dmg": "Adds 3.5 damage per second",
+       "speed": "",
+       "dps": ""
+      }
+     }
+    },
+    {
+     "slot": "SHOULDER",
+     "slotName": "Shoulders",
+     "itemId": 3480,
+     "name": "Rough Bronze Shoulders",
+     "quality": "UNCOMMON",
+     "ilvl": 22,
+     "inventoryType": "SHOULDER",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135036.jpg",
      "tt": {
       "bind": "Binds when equipped",
       "unique": "",
-      "inv": "Back",
-      "sub": "Cloth",
-      "armor": "14 Armor",
+      "inv": "Shoulder",
+      "sub": "Mail",
+      "armor": "130 Armor",
       "stats": [
        {
-        "s": "+1 Stamina",
+        "s": "+3 Strength",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+1 Arcane Resistance",
+        "s": "+4 Stamina",
         "neg": false,
         "eq": false
        }
       ],
       "spells": [],
-      "req": "Requires Level 10",
+      "req": "Requires Level 17",
+      "reqClass": "",
+      "dur": "Durability 47 / 50",
+      "sell": 532,
+      "desc": ""
+     }
+    },
+    {
+     "slot": "BACK",
+     "slotName": "Back",
+     "itemId": 5343,
+     "name": "Barkeeper's Cloak",
+     "quality": "UNCOMMON",
+     "ilvl": 18,
+     "inventoryType": "CLOAK",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133755.jpg",
+     "tt": {
+      "bind": "Binds when picked up",
+      "unique": "",
+      "inv": "Back",
+      "sub": "Cloth",
+      "armor": "16 Armor",
+      "stats": [
+       {
+        "s": "+3 Stamina",
+        "neg": false,
+        "eq": false
+       }
+      ],
+      "spells": [],
+      "req": "",
       "reqClass": "",
       "dur": "",
-      "sell": 219,
+      "sell": 462,
       "desc": ""
      }
     },
     {
      "slot": "CHEST",
      "slotName": "Chest",
-     "itemId": 15487,
-     "name": "War Torn Tunic of the Wolf",
+     "itemId": 2864,
+     "name": "Runed Copper Breastplate",
      "quality": "UNCOMMON",
-     "ilvl": 16,
+     "ilvl": 18,
      "inventoryType": "CHEST",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132629.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132738.jpg",
      "tt": {
       "bind": "Binds when equipped",
       "unique": "",
       "inv": "Chest",
       "sub": "Mail",
-      "armor": "151 Armor",
+      "armor": "162 Armor",
       "stats": [
        {
-        "s": "+3 Agility",
+        "s": "+4 Strength",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+3 Spirit",
+        "s": "+3 Stamina",
         "neg": false,
-        "eq": true
+        "eq": false
        }
       ],
       "spells": [],
-      "req": "Requires Level 11",
+      "req": "Requires Level 13",
       "reqClass": "",
-      "dur": "Durability 75 / 75",
-      "sell": 479,
+      "dur": "Durability 76 / 80",
+      "sell": 630,
       "desc": ""
      }
     },
@@ -967,67 +1028,72 @@
     {
      "slot": "WRIST",
      "slotName": "Wrist",
-     "itemId": 281272,
-     "name": "Brog's Friendship Bracelet",
+     "itemId": 2854,
+     "name": "Runed Copper Bracers",
      "quality": "UNCOMMON",
-     "ilvl": 10,
+     "ilvl": 19,
      "inventoryType": "WRIST",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132602.jpg",
      "tt": {
-      "bind": "Binds when picked up",
+      "bind": "Binds when equipped",
       "unique": "",
       "inv": "Wrist",
       "sub": "Mail",
-      "armor": "47 Armor",
+      "armor": "72 Armor",
       "stats": [
        {
-        "s": "+1 Strength",
+        "s": "+2 Strength",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+2 Stamina",
         "neg": false,
         "eq": false
        }
       ],
       "spells": [],
-      "req": "",
+      "req": "Requires Level 14",
       "reqClass": "",
-      "dur": "Durability 20 / 20",
-      "sell": 73,
+      "dur": "Durability 29 / 30",
+      "sell": 225,
       "desc": ""
      }
     },
     {
      "slot": "HANDS",
      "slotName": "Hands",
-     "itemId": 15491,
-     "name": "Bloodspattered Gloves of the Falcon",
+     "itemId": 14726,
+     "name": "War Paint Gloves",
      "quality": "UNCOMMON",
-     "ilvl": 15,
+     "ilvl": 18,
      "inventoryType": "HAND",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132949.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132946.jpg",
      "tt": {
       "bind": "Binds when equipped",
       "unique": "",
       "inv": "Hands",
       "sub": "Mail",
-      "armor": "90 Armor",
+      "armor": "101 Armor",
       "stats": [
        {
-        "s": "+2 Intellect",
+        "s": "+3 Strength",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+2 Agility",
+        "s": "+1 Stamina",
         "neg": false,
         "eq": false
        }
       ],
       "spells": [],
-      "req": "Requires Level 10",
+      "req": "Requires Level 13",
       "reqClass": "",
-      "dur": "Durability 25 / 25",
-      "sell": 211,
+      "dur": "Durability 23 / 25",
+      "sell": 337,
       "desc": ""
      }
     },
@@ -1062,7 +1128,7 @@
       "spells": [],
       "req": "Requires Level 13",
       "reqClass": "",
-      "dur": "Durability 25 / 25",
+      "dur": "Durability 23 / 25",
       "sell": 198,
       "desc": ""
      }
@@ -1070,38 +1136,36 @@
     {
      "slot": "LEGS",
      "slotName": "Legs",
-     "itemId": 3473,
-     "name": "Runed Copper Pants",
+     "itemId": 15451,
+     "name": "Gargoyle Leggings",
      "quality": "UNCOMMON",
-     "ilvl": 13,
+     "ilvl": 18,
      "inventoryType": "LEGS",
-     "enchants": [
-      "Enchanted: Stamina +1 and Armor +8"
-     ],
+     "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134583.jpg",
      "tt": {
-      "bind": "Binds when equipped",
+      "bind": "Binds when picked up",
       "unique": "",
       "inv": "Legs",
       "sub": "Mail",
-      "armor": "113 Armor",
+      "armor": "141 Armor",
       "stats": [
        {
-        "s": "+2 Strength",
+        "s": "+3 Strength",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+2 Stamina",
+        "s": "+3 Spirit",
         "neg": false,
-        "eq": false
+        "eq": true
        }
       ],
       "spells": [],
-      "req": "Requires Level 8",
+      "req": "",
       "reqClass": "",
-      "dur": "Durability 50 / 50",
-      "sell": 299,
+      "dur": "Durability 59 / 60",
+      "sell": 645,
       "desc": ""
      }
     },
@@ -1138,7 +1202,7 @@
       "spells": [],
       "req": "Requires Level 10",
       "reqClass": "",
-      "dur": "Durability 40 / 40",
+      "dur": "Durability 38 / 40",
       "sell": 401,
       "desc": ""
      }
@@ -1177,42 +1241,68 @@
     {
      "slot": "MAIN_HAND",
      "slotName": "Main Hand",
-     "itemId": 4562,
-     "name": "Severing Axe of the Boar",
+     "itemId": 2849,
+     "name": "Bronze Axe",
      "quality": "UNCOMMON",
-     "ilvl": 10,
-     "inventoryType": "TWOHWEAPON",
+     "ilvl": 23,
+     "inventoryType": "WEAPON",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135420.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132408.jpg",
      "tt": {
       "bind": "Binds when equipped",
       "unique": "",
-      "inv": "Two-Hand",
+      "inv": "One-Hand",
       "sub": "Axe",
       "armor": "",
       "stats": [
        {
-        "s": "+1 Strength",
+        "s": "+3 Strength",
         "neg": false,
         "eq": false
-       },
+       }
+      ],
+      "spells": [],
+      "req": "Requires Level 18",
+      "reqClass": "",
+      "dur": "Durability 59 / 65",
+      "sell": 917,
+      "desc": "",
+      "weapon": {
+       "dmg": "20 - 38 Damage",
+       "speed": "Speed 2.50",
+       "dps": "(11.6 damage per second)"
+      }
+     }
+    },
+    {
+     "slot": "OFF_HAND",
+     "slotName": "Off Hand",
+     "itemId": 15307,
+     "name": "Feral Buckler of Spirit",
+     "quality": "UNCOMMON",
+     "ilvl": 19,
+     "inventoryType": "SHIELD",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134955.jpg",
+     "tt": {
+      "bind": "Binds when equipped",
+      "unique": "",
+      "inv": "Off Hand",
+      "sub": "Shield",
+      "armor": "395 Armor",
+      "stats": [
        {
-        "s": "+1 Spirit",
+        "s": "+3 Spirit",
         "neg": false,
         "eq": true
        }
       ],
       "spells": [],
-      "req": "Requires Level 5",
+      "req": "Requires Level 14",
       "reqClass": "",
-      "dur": "Durability 45 / 45",
-      "sell": 298,
-      "desc": "",
-      "weapon": {
-       "dmg": "18 - 27 Damage",
-       "speed": "Speed 3.20",
-       "dps": "(7.0 damage per second)"
-      }
+      "dur": "Durability 62 / 65",
+      "sell": 815,
+      "desc": ""
      }
     },
     {
@@ -1252,7 +1342,7 @@
      }
     }
    ],
-   "itemLevel": 13.27,
+   "itemLevel": 17.46,
    "pvp": {
     "hk": 5,
     "rank": 0,
@@ -1261,30 +1351,26 @@
    "spec": {
     "trees": [
      {
-      "name": "Arms",
-      "points": 3
-     },
-     {
-      "name": "Fury",
-      "points": 3
+      "name": "Protection",
+      "points": 9
      }
     ],
-    "split": "3/3",
-    "main": "Arms"
+    "split": "9",
+    "main": "Protection"
    },
    "professions": {
     "primaries": [
      {
       "name": "Mining",
-      "skill": 61,
+      "skill": 105,
       "max": 150,
-      "recipes": 3
+      "recipes": 6
      },
      {
       "name": "Blacksmithing",
-      "skill": 52,
-      "max": 75,
-      "recipes": 18
+      "skill": 91,
+      "max": 150,
+      "recipes": 23
      }
     ],
     "secondaries": [
@@ -1296,16 +1382,16 @@
      },
      {
       "name": "First Aid",
-      "skill": 52,
+      "skill": 64,
       "max": 75,
-      "recipes": 1
+      "recipes": 5
      }
     ]
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/ruler-shiroune",
    "weekly": {
-    "levels": 0,
-    "ilvl": 0,
+    "levels": 3.49,
+    "ilvl": 4.19,
     "hk": 0,
     "rank": 0
    },
