@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1793986753353,
+ "generatedAt": 1793996671742,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -542,10 +542,10 @@
    "surname": "Embrace",
    "fullName": "Blue Embrace",
    "level": 20,
-   "experience": 104,
+   "experience": 11245,
    "xpToLevel": 23200,
-   "xpPct": 0.45,
-   "levelProgress": 20,
+   "xpPct": 48.47,
+   "levelProgress": 20.48,
    "className": "Rogue",
    "classId": 4,
    "race": "Undead",
@@ -554,8 +554,8 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1793986627000,
-   "apiItemLevel": 10,
+   "lastLogin": 1793996612000,
+   "apiItemLevel": 9,
    "gear": [
     {
      "slot": "BACK",
@@ -621,7 +621,7 @@
       "spells": [],
       "req": "Requires Level 12",
       "reqClass": "",
-      "dur": "Durability 31 / 65",
+      "dur": "Durability 64 / 65",
       "sell": 461,
       "desc": ""
      }
@@ -682,7 +682,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 13 / 25",
+      "dur": "Durability 25 / 25",
       "sell": 614,
       "desc": ""
      }
@@ -718,7 +718,7 @@
       "spells": [],
       "req": "Requires Level 8",
       "reqClass": "",
-      "dur": "Durability 10 / 20",
+      "dur": "Durability 20 / 20",
       "sell": 71,
       "desc": ""
      }
@@ -726,49 +726,49 @@
     {
      "slot": "WAIST",
      "slotName": "Waist",
-     "itemId": 14559,
-     "name": "Prospector's Sash",
+     "itemId": 4246,
+     "name": "Fine Leather Belt",
      "quality": "UNCOMMON",
-     "ilvl": 18,
+     "ilvl": 16,
      "inventoryType": "WAIST",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132515.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132493.jpg",
      "tt": {
       "bind": "Binds when equipped",
       "unique": "",
       "inv": "Waist",
       "sub": "Leather",
-      "armor": "42 Armor",
+      "armor": "40 Armor",
       "stats": [
        {
-        "s": "+3 Stamina",
+        "s": "+2 Agility",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+2 Spirit",
+        "s": "+2 Stamina",
         "neg": false,
-        "eq": true
+        "eq": false
        }
       ],
       "spells": [],
-      "req": "Requires Level 13",
+      "req": "Requires Level 11",
       "reqClass": "",
-      "dur": "Durability 6 / 20",
-      "sell": 279,
+      "dur": "Durability 20 / 20",
+      "sell": 125,
       "desc": ""
      }
     },
     {
      "slot": "LEGS",
      "slotName": "Legs",
-     "itemId": 15017,
-     "name": "Lupine Leggings of the Bear",
+     "itemId": 7282,
+     "name": "Light Leather Pants",
      "quality": "UNCOMMON",
      "ilvl": 19,
      "inventoryType": "LEGS",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134586.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134582.jpg",
      "tt": {
       "bind": "Binds when equipped",
       "unique": "",
@@ -777,12 +777,12 @@
       "armor": "66 Armor",
       "stats": [
        {
-        "s": "+4 Strength",
+        "s": "+5 Agility",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+4 Stamina",
+        "s": "+3 Stamina",
         "neg": false,
         "eq": false
        }
@@ -790,8 +790,8 @@
       "spells": [],
       "req": "Requires Level 14",
       "reqClass": "",
-      "dur": "Durability 20 / 50",
-      "sell": 611,
+      "dur": "Durability 50 / 50",
+      "sell": 599,
       "desc": ""
      }
     },
@@ -828,7 +828,7 @@
       "spells": [],
       "req": "Requires Level 10",
       "reqClass": "",
-      "dur": "Durability 16 / 35",
+      "dur": "Durability 35 / 35",
       "sell": 307,
       "desc": ""
      }
@@ -859,7 +859,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 14 / 40",
+      "dur": "Durability 39 / 40",
       "sell": 1436,
       "desc": "",
       "weapon": {
@@ -895,7 +895,7 @@
       "spells": [],
       "req": "Requires Level 9",
       "reqClass": "",
-      "dur": "Durability 19 / 35",
+      "dur": "Durability 35 / 35",
       "sell": 605,
       "desc": "",
       "weapon": {
@@ -925,7 +925,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 98 / 200",
+      "dur": "Durability 197 / 200",
       "sell": 8,
       "desc": "",
       "weapon": {
@@ -936,9 +936,9 @@
      }
     }
    ],
-   "itemLevel": 16.3,
+   "itemLevel": 16.1,
    "pvp": {
-    "hk": 99,
+    "hk": 103,
     "rank": 0,
     "rankName": "Unranked"
    },
@@ -956,13 +956,13 @@
     "primaries": [
      {
       "name": "Leatherworking",
-      "skill": 82,
+      "skill": 87,
       "max": 150,
-      "recipes": 34
+      "recipes": 35
      },
      {
       "name": "Skinning",
-      "skill": 134,
+      "skill": 151,
       "max": 225,
       "recipes": 2
      }
@@ -982,17 +982,17 @@
      },
      {
       "name": "First Aid",
-      "skill": 75,
+      "skill": 100,
       "max": 150,
-      "recipes": 5
+      "recipes": 7
      }
     ]
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/blue-embrace",
    "weekly": {
-    "levels": 3.84,
-    "ilvl": 3.5,
-    "hk": 96,
+    "levels": 4.32,
+    "ilvl": 3.3,
+    "hk": 100,
     "rank": 0
    },
    "ding60At": null
