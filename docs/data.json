@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1793959506350,
+ "generatedAt": 1793964283678,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -43,10 +43,10 @@
    "surname": "Billythecrit",
    "fullName": "Sir Billythecrit",
    "level": 18,
-   "experience": 50,
+   "experience": 775,
    "xpToLevel": 19400,
-   "xpPct": 0.26,
-   "levelProgress": 18,
+   "xpPct": 3.99,
+   "levelProgress": 18.04,
    "className": "Rogue",
    "classId": 4,
    "race": "Undead",
@@ -55,9 +55,45 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1793922341000,
-   "apiItemLevel": 9,
+   "lastLogin": 1793963758000,
+   "apiItemLevel": 10,
    "gear": [
+    {
+     "slot": "HEAD",
+     "slotName": "Head",
+     "itemId": 4368,
+     "name": "Flying Tiger Goggles",
+     "quality": "UNCOMMON",
+     "ilvl": 20,
+     "inventoryType": "HEAD",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133149.jpg",
+     "tt": {
+      "bind": "Binds when equipped",
+      "unique": "",
+      "inv": "Head",
+      "sub": "Cloth",
+      "armor": "27 Armor",
+      "stats": [
+       {
+        "s": "+4 Stamina",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+4 Spirit",
+        "neg": false,
+        "eq": true
+       }
+      ],
+      "spells": [],
+      "req": "",
+      "reqClass": "",
+      "dur": "Durability 34 / 35",
+      "sell": 408,
+      "desc": ""
+     }
+    },
     {
      "slot": "BACK",
      "slotName": "Back",
@@ -435,9 +471,9 @@
      }
     }
    ],
-   "itemLevel": 15.7,
+   "itemLevel": 16.09,
    "pvp": {
-    "hk": 4,
+    "hk": 39,
     "rank": 0,
     "rankName": "Unranked"
    },
@@ -455,13 +491,13 @@
     "primaries": [
      {
       "name": "Mining",
-      "skill": 77,
+      "skill": 83,
       "max": 150,
       "recipes": 6
      },
      {
       "name": "Engineering",
-      "skill": 100,
+      "skill": 113,
       "max": 150,
       "recipes": 19
      }
@@ -475,23 +511,23 @@
      },
      {
       "name": "Fishing",
-      "skill": 100,
+      "skill": 117,
       "max": 150,
       "recipes": 2
      },
      {
       "name": "First Aid",
-      "skill": 84,
+      "skill": 108,
       "max": 150,
-      "recipes": 5
+      "recipes": 6
      }
     ]
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/sir-billythecrit",
    "weekly": {
-    "levels": 0,
-    "ilvl": 0,
-    "hk": 0,
+    "levels": 0.04,
+    "ilvl": 0.39,
+    "hk": 35,
     "rank": 0
    },
    "ding60At": null
@@ -505,11 +541,11 @@
    "name": "Blue",
    "surname": "Embrace",
    "fullName": "Blue Embrace",
-   "level": 17,
-   "experience": 10075,
-   "xpToLevel": 17700,
-   "xpPct": 56.92,
-   "levelProgress": 17.57,
+   "level": 18,
+   "experience": 2887,
+   "xpToLevel": 19400,
+   "xpPct": 14.88,
+   "levelProgress": 18.15,
    "className": "Rogue",
    "classId": 4,
    "race": "Undead",
@@ -518,7 +554,7 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1793921510000,
+   "lastLogin": 1793964027000,
    "apiItemLevel": 9,
    "gear": [
     {
@@ -585,7 +621,7 @@
       "spells": [],
       "req": "Requires Level 12",
       "reqClass": "",
-      "dur": "Durability 65 / 65",
+      "dur": "Durability 54 / 65",
       "sell": 461,
       "desc": ""
      }
@@ -646,7 +682,7 @@
       "spells": [],
       "req": "Requires Level 9",
       "reqClass": "",
-      "dur": "Durability 12 / 20",
+      "dur": "Durability 8 / 20",
       "sell": 84,
       "desc": ""
      }
@@ -682,7 +718,7 @@
       "spells": [],
       "req": "Requires Level 8",
       "reqClass": "",
-      "dur": "Durability 18 / 20",
+      "dur": "Durability 14 / 20",
       "sell": 71,
       "desc": ""
      }
@@ -718,7 +754,7 @@
       "spells": [],
       "req": "Requires Level 11",
       "reqClass": "",
-      "dur": "Durability 20 / 20",
+      "dur": "Durability 18 / 20",
       "sell": 125,
       "desc": ""
      }
@@ -754,7 +790,7 @@
       "spells": [],
       "req": "Requires Level 14",
       "reqClass": "",
-      "dur": "Durability 48 / 50",
+      "dur": "Durability 39 / 50",
       "sell": 611,
       "desc": ""
      }
@@ -792,7 +828,7 @@
       "spells": [],
       "req": "Requires Level 10",
       "reqClass": "",
-      "dur": "Durability 20 / 35",
+      "dur": "Durability 17 / 35",
       "sell": 307,
       "desc": ""
      }
@@ -823,7 +859,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 34 / 40",
+      "dur": "Durability 24 / 40",
       "sell": 1436,
       "desc": "",
       "weapon": {
@@ -859,7 +895,7 @@
       "spells": [],
       "req": "Requires Level 9",
       "reqClass": "",
-      "dur": "Durability 17 / 35",
+      "dur": "Durability 11 / 35",
       "sell": 605,
       "desc": "",
       "weapon": {
@@ -889,7 +925,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 99 / 200",
+      "dur": "Durability 71 / 200",
       "sell": 8,
       "desc": "",
       "weapon": {
@@ -922,12 +958,12 @@
       "name": "Leatherworking",
       "skill": 79,
       "max": 150,
-      "recipes": 26
+      "recipes": 29
      },
      {
       "name": "Skinning",
-      "skill": 129,
-      "max": 150,
+      "skill": 134,
+      "max": 225,
       "recipes": 2
      }
     ],
@@ -954,7 +990,7 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/blue-embrace",
    "weekly": {
-    "levels": 1.41,
+    "levels": 1.99,
     "ilvl": 2.1,
     "hk": 0,
     "rank": 0
@@ -1919,11 +1955,11 @@
    "name": "Sire",
    "surname": "Khingen",
    "fullName": "Sire Khingen",
-   "level": 18,
-   "experience": 15954,
-   "xpToLevel": 19400,
-   "xpPct": 82.24,
-   "levelProgress": 18.82,
+   "level": 19,
+   "experience": 7548,
+   "xpToLevel": 21300,
+   "xpPct": 35.44,
+   "levelProgress": 19.35,
    "className": "Paladin",
    "classId": 2,
    "race": "Undead",
@@ -1932,8 +1968,8 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1793954358000,
-   "apiItemLevel": 12,
+   "lastLogin": 1793963873000,
+   "apiItemLevel": 13,
    "gear": [
     {
      "slot": "SHOULDER",
@@ -1966,7 +2002,7 @@
       "spells": [],
       "req": "Requires Level 17",
       "reqClass": "",
-      "dur": "Durability 43 / 50",
+      "dur": "Durability 50 / 50",
       "sell": 532,
       "desc": ""
      }
@@ -2028,7 +2064,7 @@
       "spells": [],
       "req": "Requires Level 18",
       "reqClass": "",
-      "dur": "Durability 72 / 90",
+      "dur": "Durability 90 / 90",
       "sell": 601,
       "desc": ""
      }
@@ -2089,7 +2125,7 @@
       "spells": [],
       "req": "Requires Level 14",
       "reqClass": "",
-      "dur": "Durability 10 / 30",
+      "dur": "Durability 30 / 30",
       "sell": 225,
       "desc": ""
      }
@@ -2125,7 +2161,7 @@
       "spells": [],
       "req": "Requires Level 7",
       "reqClass": "",
-      "dur": "Durability 12 / 20",
+      "dur": "Durability 20 / 20",
       "sell": 71,
       "desc": ""
      }
@@ -2161,7 +2197,7 @@
       "spells": [],
       "req": "Requires Level 14",
       "reqClass": "",
-      "dur": "Durability 27 / 35",
+      "dur": "Durability 35 / 35",
       "sell": 431,
       "desc": ""
      }
@@ -2197,7 +2233,7 @@
       "spells": [],
       "req": "Requires Level 16",
       "reqClass": "",
-      "dur": "Durability 47 / 65",
+      "dur": "Durability 65 / 65",
       "sell": 577,
       "desc": ""
      }
@@ -2235,35 +2271,35 @@
       "spells": [],
       "req": "Requires Level 10",
       "reqClass": "",
-      "dur": "Durability 6 / 40",
+      "dur": "Durability 40 / 40",
       "sell": 401,
       "desc": ""
      }
     },
     {
-     "slot": "MAIN_HAND",
-     "slotName": "Main Hand",
-     "itemId": 276887,
-     "name": "Big Bad Basher",
+     "slot": "FINGER_1",
+     "slotName": "Ring 1",
+     "itemId": 5351,
+     "name": "Bounty Hunter's Ring",
      "quality": "UNCOMMON",
-     "ilvl": 24,
-     "inventoryType": "TWOHWEAPON",
+     "ilvl": 20,
+     "inventoryType": "FINGER",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133045.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133343.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
-      "inv": "Two-Hand",
-      "sub": "Mace",
+      "inv": "Finger",
+      "sub": "Miscellaneous",
       "armor": "",
       "stats": [
        {
-        "s": "+4 Strength",
+        "s": "+3 Agility",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+6 Stamina",
+        "s": "+1 Stamina",
         "neg": false,
         "eq": false
        }
@@ -2271,18 +2307,54 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 65 / 75",
-      "sell": 3080,
+      "dur": "",
+      "sell": 403,
+      "desc": ""
+     }
+    },
+    {
+     "slot": "MAIN_HAND",
+     "slotName": "Main Hand",
+     "itemId": 286977,
+     "name": "Sword of the Fallen",
+     "quality": "RARE",
+     "ilvl": 23,
+     "inventoryType": "TWOHWEAPON",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135312.jpg",
+     "tt": {
+      "bind": "Binds when equipped",
+      "unique": "",
+      "inv": "Two-Hand",
+      "sub": "Sword",
+      "armor": "",
+      "stats": [
+       {
+        "s": "+9 Intellect",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+6 Strength",
+        "neg": false,
+        "eq": false
+       }
+      ],
+      "spells": [],
+      "req": "Requires Level 18",
+      "reqClass": "",
+      "dur": "Durability 80 / 80",
+      "sell": 3037,
       "desc": "",
       "weapon": {
-       "dmg": "39 - 60 Damage",
-       "speed": "Speed 3.10",
-       "dps": "(16.0 damage per second)"
+       "dmg": "55 - 83 Damage",
+       "speed": "Speed 3.50",
+       "dps": "(19.7 damage per second)"
       }
      }
     }
    ],
-   "itemLevel": 19.7,
+   "itemLevel": 19.55,
    "pvp": {
     "hk": 2,
     "rank": 0,
@@ -2292,25 +2364,25 @@
     "trees": [
      {
       "name": "Retribution",
-      "points": 9
+      "points": 10
      }
     ],
-    "split": "9",
+    "split": "10",
     "main": "Retribution"
    },
    "professions": {
     "primaries": [
      {
       "name": "Mining",
-      "skill": 93,
+      "skill": 98,
       "max": 150,
       "recipes": 6
      },
      {
       "name": "Blacksmithing",
-      "skill": 90,
+      "skill": 100,
       "max": 150,
-      "recipes": 39
+      "recipes": 46
      }
     ],
     "secondaries": [
@@ -2329,15 +2401,15 @@
      {
       "name": "First Aid",
       "skill": 75,
-      "max": 75,
+      "max": 150,
       "recipes": 5
      }
     ]
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/sire-khingen",
    "weekly": {
-    "levels": 8.58,
-    "ilvl": 12.48,
+    "levels": 9.11,
+    "ilvl": 12.33,
     "hk": 2,
     "rank": 0
    },
