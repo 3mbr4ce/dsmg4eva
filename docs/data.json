@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1793981737915,
+ "generatedAt": 1793985165445,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -1561,11 +1561,11 @@
    "name": "Dala",
    "surname": "Hoon",
    "fullName": "Dala Hoon",
-   "level": 14,
-   "experience": 10332,
-   "xpToLevel": 12900,
-   "xpPct": 80.09,
-   "levelProgress": 14.8,
+   "level": 15,
+   "experience": 3074,
+   "xpToLevel": 14400,
+   "xpPct": 21.35,
+   "levelProgress": 15.21,
    "className": "Shaman",
    "classId": 7,
    "race": "Orc",
@@ -1574,31 +1574,31 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1793918406000,
+   "lastLogin": 1793984538000,
    "apiItemLevel": 6,
    "gear": [
     {
      "slot": "BACK",
      "slotName": "Back",
-     "itemId": 4944,
-     "name": "Handsewn Cloak",
+     "itemId": 14116,
+     "name": "Aboriginal Cape",
      "quality": "COMMON",
-     "ilvl": 12,
+     "ilvl": 14,
      "inventoryType": "CLOAK",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133763.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133770.jpg",
      "tt": {
-      "bind": "Binds when picked up",
+      "bind": "",
       "unique": "",
       "inv": "Back",
       "sub": "Cloth",
-      "armor": "11 Armor",
+      "armor": "12 Armor",
       "stats": [],
       "spells": [],
-      "req": "",
+      "req": "Requires Level 9",
       "reqClass": "",
       "dur": "",
-      "sell": 72,
+      "sell": 106,
       "desc": ""
      }
     },
@@ -1622,33 +1622,8 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 52 / 55",
+      "dur": "Durability 55 / 55",
       "sell": 58,
-      "desc": ""
-     }
-    },
-    {
-     "slot": "SHIRT",
-     "slotName": "Shirt",
-     "itemId": 154,
-     "name": "Primitive Mantle",
-     "quality": "COMMON",
-     "ilvl": 1,
-     "inventoryType": "BODY",
-     "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133766.jpg",
-     "tt": {
-      "bind": "",
-      "unique": "",
-      "inv": "Shirt",
-      "sub": "Miscellaneous",
-      "armor": "",
-      "stats": [],
-      "spells": [],
-      "req": "",
-      "reqClass": "",
-      "dur": "",
-      "sell": 1,
       "desc": ""
      }
     },
@@ -1678,7 +1653,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 19 / 20",
+      "dur": "Durability 20 / 20",
       "sell": 61,
       "desc": ""
      }
@@ -1711,25 +1686,25 @@
     {
      "slot": "WAIST",
      "slotName": "Waist",
-     "itemId": 4919,
-     "name": "Soft Wool Belt",
+     "itemId": 4693,
+     "name": "Ceremonial Leather Belt",
      "quality": "COMMON",
-     "ilvl": 5,
+     "ilvl": 14,
      "inventoryType": "WAIST",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132492.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132505.jpg",
      "tt": {
-      "bind": "Binds when picked up",
+      "bind": "",
       "unique": "",
       "inv": "Waist",
-      "sub": "Cloth",
-      "armor": "6 Armor",
+      "sub": "Leather",
+      "armor": "37 Armor",
       "stats": [],
       "spells": [],
-      "req": "",
+      "req": "Requires Level 9",
       "reqClass": "",
-      "dur": "Durability 14 / 14",
-      "sell": 5,
+      "dur": "Durability 20 / 20",
+      "sell": 86,
       "desc": ""
      }
     },
@@ -1764,7 +1739,7 @@
       "spells": [],
       "req": "Requires Level 6",
       "reqClass": "",
-      "dur": "Durability 39 / 40",
+      "dur": "Durability 40 / 40",
       "sell": 162,
       "desc": ""
      }
@@ -1789,7 +1764,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 29 / 30",
+      "dur": "Durability 30 / 30",
       "sell": 89,
       "desc": ""
      }
@@ -1828,32 +1803,32 @@
     {
      "slot": "MAIN_HAND",
      "slotName": "Main Hand",
-     "itemId": 4938,
-     "name": "Blemished Wooden Staff",
+     "itemId": 2030,
+     "name": "Gnarled Staff",
      "quality": "COMMON",
-     "ilvl": 11,
+     "ilvl": 20,
      "inventoryType": "TWOHWEAPON",
      "enchants": [
       "Rockbiter 2"
      ],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135158.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135147.jpg",
      "tt": {
-      "bind": "Binds when picked up",
+      "bind": "",
       "unique": "",
       "inv": "Two-Hand",
       "sub": "Staff",
       "armor": "",
       "stats": [],
       "spells": [],
-      "req": "",
+      "req": "Requires Level 15",
       "reqClass": "",
-      "dur": "Durability 45 / 45",
-      "sell": 236,
+      "dur": "Durability 65 / 65",
+      "sell": 1108,
       "desc": "",
       "weapon": {
-       "dmg": "16 - 25 Damage",
-       "speed": "Speed 3.20",
-       "dps": "(6.4 damage per second)"
+       "dmg": "27 - 42 Damage",
+       "speed": "Speed 2.90",
+       "dps": "(11.9 damage per second)"
       }
      }
     },
@@ -1885,7 +1860,7 @@
      }
     }
    ],
-   "itemLevel": 10,
+   "itemLevel": 12.64,
    "pvp": {
     "hk": 0,
     "rank": 0,
@@ -1925,13 +1900,13 @@
      },
      {
       "name": "Fishing",
-      "skill": 1,
+      "skill": 4,
       "max": 75,
       "recipes": 1
      },
      {
       "name": "First Aid",
-      "skill": 62,
+      "skill": 75,
       "max": 75,
       "recipes": 4
      }
@@ -1939,8 +1914,8 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/dala-hoon",
    "weekly": {
-    "levels": 0,
-    "ilvl": 0,
+    "levels": 0.41,
+    "ilvl": 2.64,
     "hk": 0,
     "rank": 0
    },
