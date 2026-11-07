@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1794064301259,
+ "generatedAt": 1794068643241,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -2185,11 +2185,11 @@
    "name": "Sire",
    "surname": "Khingen",
    "fullName": "Sire Khingen",
-   "level": 22,
-   "experience": 3111,
-   "xpToLevel": 27300,
-   "xpPct": 11.4,
-   "levelProgress": 22.11,
+   "level": 24,
+   "experience": 25479,
+   "xpToLevel": 31700,
+   "xpPct": 80.38,
+   "levelProgress": 24.8,
    "className": "Paladin",
    "classId": 2,
    "race": "Undead",
@@ -2198,31 +2198,42 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1794044234000,
-   "apiItemLevel": 18,
+   "lastLogin": 1794068410000,
+   "apiItemLevel": 19,
    "gear": [
     {
      "slot": "HEAD",
      "slotName": "Head",
-     "itemId": 279391,
-     "name": "Taurajo Headband",
-     "quality": "COMMON",
-     "ilvl": 23,
+     "itemId": 250528,
+     "name": "Veteran's Silvered Chain Helm",
+     "quality": "RARE",
+     "ilvl": 25,
      "inventoryType": "HEAD",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133693.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133141.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Head",
-      "sub": "Cloth",
-      "armor": "28 Armor",
-      "stats": [],
+      "sub": "Mail",
+      "armor": "163 Armor",
+      "stats": [
+       {
+        "s": "+10 Strength",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+9 Stamina",
+        "neg": false,
+        "eq": false
+       }
+      ],
       "spells": [],
-      "req": "",
+      "req": "Requires Level 20",
       "reqClass": "",
-      "dur": "Durability 39 / 40",
-      "sell": 999,
+      "dur": "Durability 65 / 65",
+      "sell": 1439,
       "desc": ""
      }
     },
@@ -2257,7 +2268,7 @@
       "spells": [],
       "req": "Requires Level 17",
       "reqClass": "",
-      "dur": "Durability 15 / 50",
+      "dur": "Durability 50 / 50",
       "sell": 532,
       "desc": ""
      }
@@ -2301,33 +2312,36 @@
     {
      "slot": "CHEST",
      "slotName": "Chest",
-     "itemId": 2866,
-     "name": "Rough Bronze Cuirass",
-     "quality": "UNCOMMON",
-     "ilvl": 23,
+     "itemId": 2870,
+     "name": "Shining Silver Breastplate",
+     "quality": "RARE",
+     "ilvl": 29,
      "inventoryType": "CHEST",
-     "enchants": [
-      "Enchanted: Stamina +1 and Armor +8"
-     ],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132630.jpg",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132750.jpg",
      "tt": {
       "bind": "Binds when equipped",
       "unique": "",
       "inv": "Chest",
       "sub": "Mail",
-      "armor": "177 Armor",
+      "armor": "214 Armor",
       "stats": [
        {
-        "s": "+8 Stamina",
+        "s": "+14 Strength",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+6 Stamina",
         "neg": false,
         "eq": false
        }
       ],
       "spells": [],
-      "req": "Requires Level 18",
+      "req": "Requires Level 24",
       "reqClass": "",
-      "dur": "Durability 28 / 90",
-      "sell": 601,
+      "dur": "Durability 120 / 120",
+      "sell": 2935,
       "desc": ""
      }
     },
@@ -2387,7 +2401,7 @@
       "spells": [],
       "req": "Requires Level 16",
       "reqClass": "",
-      "dur": "Durability 18 / 35",
+      "dur": "Durability 35 / 35",
       "sell": 585,
       "desc": ""
      }
@@ -2423,7 +2437,7 @@
       "spells": [],
       "req": "Requires Level 17",
       "reqClass": "",
-      "dur": "Durability 21 / 35",
+      "dur": "Durability 35 / 35",
       "sell": 686,
       "desc": ""
      }
@@ -2459,7 +2473,7 @@
       "spells": [],
       "req": "Requires Level 15",
       "reqClass": "",
-      "dur": "Durability 21 / 35",
+      "dur": "Durability 35 / 35",
       "sell": 505,
       "desc": ""
      }
@@ -2497,7 +2511,7 @@
       "spells": [],
       "req": "Requires Level 16",
       "reqClass": "",
-      "dur": "Durability 34 / 65",
+      "dur": "Durability 65 / 65",
       "sell": 577,
       "desc": ""
      }
@@ -2533,7 +2547,7 @@
       "spells": [],
       "req": "Requires Level 17",
       "reqClass": "",
-      "dur": "Durability 34 / 50",
+      "dur": "Durability 50 / 50",
       "sell": 970,
       "desc": ""
      }
@@ -2541,62 +2555,72 @@
     {
      "slot": "FINGER_1",
      "slotName": "Ring 1",
-     "itemId": 5001,
-     "name": "Heart Ring",
+     "itemId": 3739,
+     "name": "Skull Ring",
      "quality": "UNCOMMON",
-     "ilvl": 27,
+     "ilvl": 25,
      "inventoryType": "FINGER",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133346.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132501.jpg",
      "tt": {
-      "bind": "Binds when equipped",
+      "bind": "Binds when picked up",
       "unique": "",
       "inv": "Finger",
       "sub": "Miscellaneous",
       "armor": "",
       "stats": [
        {
-        "s": "+5 Stamina",
+        "s": "+3 Intellect",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+3 Stamina",
         "neg": false,
         "eq": false
        }
       ],
       "spells": [],
-      "req": "Requires Level 22",
+      "req": "",
       "reqClass": "",
       "dur": "",
-      "sell": 1038,
+      "sell": 1250,
       "desc": ""
      }
     },
     {
      "slot": "FINGER_2",
      "slotName": "Ring 2",
-     "itemId": 11983,
-     "name": "Chrome Ring of Stamina",
+     "itemId": 281673,
+     "name": "Loop of Sacrifice",
      "quality": "UNCOMMON",
-     "ilvl": 26,
+     "ilvl": 28,
      "inventoryType": "FINGER",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133347.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133368.jpg",
      "tt": {
-      "bind": "Binds when equipped",
+      "bind": "Binds when picked up",
       "unique": "",
       "inv": "Finger",
       "sub": "Miscellaneous",
       "armor": "",
       "stats": [
        {
-        "s": "+5 Stamina",
+        "s": "+5 Intellect",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+3 Strength",
         "neg": false,
         "eq": false
        }
       ],
       "spells": [],
-      "req": "Requires Level 21",
+      "req": "",
       "reqClass": "",
       "dur": "",
-      "sell": 1130,
+      "sell": 1413,
       "desc": ""
      }
     },
@@ -2633,7 +2657,7 @@
       ],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 69 / 90",
+      "dur": "Durability 90 / 90",
       "sell": 3629,
       "desc": "",
       "weapon": {
@@ -2644,9 +2668,9 @@
      }
     }
    ],
-   "itemLevel": 22.92,
+   "itemLevel": 23.54,
    "pvp": {
-    "hk": 6,
+    "hk": 10,
     "rank": 0,
     "rankName": "Unranked"
    },
@@ -2654,25 +2678,25 @@
     "trees": [
      {
       "name": "Retribution",
-      "points": 13
+      "points": 15
      }
     ],
-    "split": "13",
+    "split": "15",
     "main": "Retribution"
    },
    "professions": {
     "primaries": [
      {
       "name": "Mining",
-      "skill": 116,
+      "skill": 122,
       "max": 150,
       "recipes": 6
      },
      {
       "name": "Blacksmithing",
-      "skill": 130,
+      "skill": 140,
       "max": 150,
-      "recipes": 55
+      "recipes": 57
      }
     ],
     "secondaries": [
@@ -2690,7 +2714,7 @@
      },
      {
       "name": "First Aid",
-      "skill": 134,
+      "skill": 149,
       "max": 150,
       "recipes": 8
      }
@@ -2698,9 +2722,9 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/sire-khingen",
    "weekly": {
-    "levels": 11.87,
-    "ilvl": 15.7,
-    "hk": 6,
+    "levels": 14.56,
+    "ilvl": 16.32,
+    "hk": 10,
     "rank": 0
    },
    "ding60At": null
