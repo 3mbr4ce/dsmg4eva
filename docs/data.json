@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1794050629221,
+ "generatedAt": 1794064301259,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -42,11 +42,11 @@
    "name": "Sir",
    "surname": "Billythecrit",
    "fullName": "Sir Billythecrit",
-   "level": 22,
-   "experience": 11701,
-   "xpToLevel": 27300,
-   "xpPct": 42.86,
-   "levelProgress": 22.43,
+   "level": 24,
+   "experience": 26099,
+   "xpToLevel": 31700,
+   "xpPct": 82.33,
+   "levelProgress": 24.82,
    "className": "Rogue",
    "classId": 4,
    "race": "Undead",
@@ -55,8 +55,8 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1794011068000,
-   "apiItemLevel": 12,
+   "lastLogin": 1794063481000,
+   "apiItemLevel": 13,
    "gear": [
     {
      "slot": "HEAD",
@@ -89,8 +89,33 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 35 / 35",
+      "dur": "Durability 24 / 35",
       "sell": 408,
+      "desc": ""
+     }
+    },
+    {
+     "slot": "SHOULDER",
+     "slotName": "Shoulders",
+     "itemId": 1769,
+     "name": "Canvas Shoulderpads",
+     "quality": "POOR",
+     "ilvl": 20,
+     "inventoryType": "SHOULDER",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135040.jpg",
+     "tt": {
+      "bind": "",
+      "unique": "",
+      "inv": "Shoulder",
+      "sub": "Cloth",
+      "armor": "23 Armor",
+      "stats": [],
+      "spells": [],
+      "req": "Requires Level 15",
+      "reqClass": "",
+      "dur": "Durability 21 / 35",
+      "sell": 163,
       "desc": ""
      }
     },
@@ -156,7 +181,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 80 / 80",
+      "dur": "Durability 65 / 80",
       "sell": 1360,
       "desc": ""
      }
@@ -217,7 +242,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 25 / 25",
+      "dur": "Durability 23 / 25",
       "sell": 614,
       "desc": ""
      }
@@ -253,7 +278,7 @@
       "spells": [],
       "req": "Requires Level 18",
       "reqClass": "",
-      "dur": "Durability 20 / 20",
+      "dur": "Durability 16 / 20",
       "sell": 510,
       "desc": ""
      }
@@ -289,7 +314,7 @@
       "spells": [],
       "req": "Requires Level 11",
       "reqClass": "",
-      "dur": "Durability 20 / 20",
+      "dur": "Durability 17 / 20",
       "sell": 125,
       "desc": ""
      }
@@ -325,7 +350,7 @@
       "spells": [],
       "req": "Requires Level 14",
       "reqClass": "",
-      "dur": "Durability 50 / 50",
+      "dur": "Durability 35 / 50",
       "sell": 599,
       "desc": ""
      }
@@ -333,58 +358,58 @@
     {
      "slot": "FEET",
      "slotName": "Feet",
-     "itemId": 11853,
-     "name": "Rambling Boots",
+     "itemId": 14568,
+     "name": "Bristlebark Boots",
      "quality": "UNCOMMON",
-     "ilvl": 18,
+     "ilvl": 23,
      "inventoryType": "FEET",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132537.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132542.jpg",
      "tt": {
-      "bind": "Binds when picked up",
+      "bind": "Binds when equipped",
       "unique": "",
       "inv": "Feet",
       "sub": "Leather",
-      "armor": "51 Armor",
+      "armor": "57 Armor",
       "stats": [
        {
-        "s": "+3 Agility",
+        "s": "+5 Agility",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+1 Stamina",
+        "s": "+3 Stamina",
         "neg": false,
         "eq": false
        }
       ],
       "spells": [],
-      "req": "",
+      "req": "Requires Level 18",
       "reqClass": "",
-      "dur": "Durability 35 / 35",
-      "sell": 388,
+      "dur": "Durability 34 / 40",
+      "sell": 797,
       "desc": ""
      }
     },
     {
-     "slot": "MAIN_HAND",
-     "slotName": "Main Hand",
-     "itemId": 6448,
-     "name": "Tail Spike",
-     "quality": "RARE",
-     "ilvl": 21,
-     "inventoryType": "WEAPON",
+     "slot": "FINGER_1",
+     "slotName": "Ring 1",
+     "itemId": 281673,
+     "name": "Loop of Sacrifice",
+     "quality": "UNCOMMON",
+     "ilvl": 28,
+     "inventoryType": "FINGER",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135646.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133368.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
-      "inv": "One-Hand",
-      "sub": "Dagger",
+      "inv": "Finger",
+      "sub": "Miscellaneous",
       "armor": "",
       "stats": [
        {
-        "s": "+3 Agility",
+        "s": "+5 Intellect",
         "neg": false,
         "eq": false
        },
@@ -395,51 +420,46 @@
        }
       ],
       "spells": [],
-      "req": "Requires Level 16",
+      "req": "",
       "reqClass": "",
-      "dur": "Durability 45 / 45",
-      "sell": 1963,
-      "desc": "",
-      "weapon": {
-       "dmg": "17 - 33 Damage",
-       "speed": "Speed 1.80",
-       "dps": "(13.9 damage per second)"
-      }
+      "dur": "",
+      "sell": 1413,
+      "desc": ""
      }
     },
     {
-     "slot": "OFF_HAND",
-     "slotName": "Off Hand",
-     "itemId": 5279,
-     "name": "Harpy Skinner",
-     "quality": "UNCOMMON",
-     "ilvl": 20,
-     "inventoryType": "WEAPON",
+     "slot": "MAIN_HAND",
+     "slotName": "Main Hand",
+     "itemId": 6365,
+     "name": "Strong Fishing Pole",
+     "quality": "COMMON",
+     "ilvl": 10,
+     "inventoryType": "TWOHWEAPON",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135650.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132932.jpg",
      "tt": {
-      "bind": "Binds when picked up",
+      "bind": "",
       "unique": "",
-      "inv": "One-Hand",
-      "sub": "Dagger",
+      "inv": "Two-Hand",
+      "sub": "Fishing Pole",
       "armor": "",
       "stats": [
        {
-        "s": "+3 Agility",
+        "s": "+5 Fishing Skill",
         "neg": false,
-        "eq": false
+        "eq": true
        }
       ],
       "spells": [],
-      "req": "",
+      "req": "Requires Level 5",
       "reqClass": "",
-      "dur": "Durability 40 / 40",
-      "sell": 1436,
+      "dur": "Durability 25 / 25",
+      "sell": 180,
       "desc": "",
       "weapon": {
-       "dmg": "9 - 18 Damage",
-       "speed": "Speed 1.40",
-       "dps": "(9.6 damage per second)"
+       "dmg": "13 - 21 Damage",
+       "speed": "Speed 3.00",
+       "dps": "(5.7 damage per second)"
       }
      }
     },
@@ -474,7 +494,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 200 / 200",
+      "dur": "Durability 119 / 200",
       "sell": 1594,
       "desc": "",
       "weapon": {
@@ -485,7 +505,7 @@
      }
     }
    ],
-   "itemLevel": 20.64,
+   "itemLevel": 19.92,
    "pvp": {
     "hk": 168,
     "rank": 0,
@@ -495,17 +515,17 @@
     "trees": [
      {
       "name": "Subtlety",
-      "points": 13
+      "points": 15
      }
     ],
-    "split": "13",
+    "split": "15",
     "main": "Subtlety"
    },
    "professions": {
     "primaries": [
      {
       "name": "Mining",
-      "skill": 101,
+      "skill": 105,
       "max": 150,
       "recipes": 6
      },
@@ -521,11 +541,11 @@
       "name": "Cooking",
       "skill": 150,
       "max": 150,
-      "recipes": 17
+      "recipes": 18
      },
      {
       "name": "Fishing",
-      "skill": 119,
+      "skill": 122,
       "max": 150,
       "recipes": 2
      },
@@ -539,8 +559,8 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/sir-billythecrit",
    "weekly": {
-    "levels": 4.43,
-    "ilvl": 4.94,
+    "levels": 6.82,
+    "ilvl": 4.22,
     "hk": 164,
     "rank": 0
    },
@@ -555,11 +575,11 @@
    "name": "Blue",
    "surname": "Embrace",
    "fullName": "Blue Embrace",
-   "level": 22,
-   "experience": 2106,
-   "xpToLevel": 27300,
-   "xpPct": 7.71,
-   "levelProgress": 22.08,
+   "level": 24,
+   "experience": 15,
+   "xpToLevel": 31700,
+   "xpPct": 0.05,
+   "levelProgress": 24,
    "className": "Rogue",
    "classId": 4,
    "race": "Undead",
@@ -568,9 +588,34 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1794011609000,
-   "apiItemLevel": 11,
+   "lastLogin": 1794063492000,
+   "apiItemLevel": 16,
    "gear": [
+    {
+     "slot": "HEAD",
+     "slotName": "Head",
+     "itemId": 3732,
+     "name": "Hooded Cowl",
+     "quality": "COMMON",
+     "ilvl": 30,
+     "inventoryType": "HEAD",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133136.jpg",
+     "tt": {
+      "bind": "Binds when picked up",
+      "unique": "",
+      "inv": "Head",
+      "sub": "Cloth",
+      "armor": "33 Armor",
+      "stats": [],
+      "spells": [],
+      "req": "",
+      "reqClass": "",
+      "dur": "Durability 36 / 45",
+      "sell": 801,
+      "desc": ""
+     }
+    },
     {
      "slot": "BACK",
      "slotName": "Back",
@@ -633,7 +678,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 80 / 80",
+      "dur": "Durability 58 / 80",
       "sell": 1360,
       "desc": ""
      }
@@ -694,7 +739,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 16 / 25",
+      "dur": "Durability 21 / 25",
       "sell": 614,
       "desc": ""
      }
@@ -766,7 +811,7 @@
       "spells": [],
       "req": "Requires Level 19",
       "reqClass": "",
-      "dur": "Durability 18 / 25",
+      "dur": "Durability 20 / 25",
       "sell": 622,
       "desc": ""
      }
@@ -802,7 +847,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 55 / 55",
+      "dur": "Durability 42 / 55",
       "sell": 713,
       "desc": ""
      }
@@ -846,6 +891,78 @@
      }
     },
     {
+     "slot": "FINGER_1",
+     "slotName": "Ring 1",
+     "itemId": 11981,
+     "name": "Lead Band of the Bear",
+     "quality": "UNCOMMON",
+     "ilvl": 20,
+     "inventoryType": "FINGER",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133343.jpg",
+     "tt": {
+      "bind": "Binds when equipped",
+      "unique": "",
+      "inv": "Finger",
+      "sub": "Miscellaneous",
+      "armor": "",
+      "stats": [
+       {
+        "s": "+2 Strength",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+2 Stamina",
+        "neg": false,
+        "eq": false
+       }
+      ],
+      "spells": [],
+      "req": "Requires Level 15",
+      "reqClass": "",
+      "dur": "",
+      "sell": 496,
+      "desc": ""
+     }
+    },
+    {
+     "slot": "FINGER_2",
+     "slotName": "Ring 2",
+     "itemId": 3739,
+     "name": "Skull Ring",
+     "quality": "UNCOMMON",
+     "ilvl": 25,
+     "inventoryType": "FINGER",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132501.jpg",
+     "tt": {
+      "bind": "Binds when picked up",
+      "unique": "",
+      "inv": "Finger",
+      "sub": "Miscellaneous",
+      "armor": "",
+      "stats": [
+       {
+        "s": "+3 Intellect",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+3 Stamina",
+        "neg": false,
+        "eq": false
+       }
+      ],
+      "spells": [],
+      "req": "",
+      "reqClass": "",
+      "dur": "",
+      "sell": 1250,
+      "desc": ""
+     }
+    },
+    {
      "slot": "MAIN_HAND",
      "slotName": "Main Hand",
      "itemId": 5279,
@@ -871,7 +988,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 25 / 40",
+      "dur": "Durability 30 / 40",
       "sell": 1436,
       "desc": "",
       "weapon": {
@@ -901,7 +1018,7 @@
       "spells": [],
       "req": "Requires Level 16",
       "reqClass": "",
-      "dur": "Durability 23 / 40",
+      "dur": "Durability 33 / 40",
       "sell": 247,
       "desc": "",
       "weapon": {
@@ -953,7 +1070,7 @@
      }
     }
    ],
-   "itemLevel": 20.5,
+   "itemLevel": 21.54,
    "pvp": {
     "hk": 105,
     "rank": 0,
@@ -963,10 +1080,10 @@
     "trees": [
      {
       "name": "Subtlety",
-      "points": 12
+      "points": 15
      }
     ],
-    "split": "12",
+    "split": "15",
     "main": "Subtlety"
    },
    "professions": {
@@ -979,7 +1096,7 @@
      },
      {
       "name": "Skinning",
-      "skill": 163,
+      "skill": 172,
       "max": 225,
       "recipes": 2
      }
@@ -1007,8 +1124,8 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/blue-embrace",
    "weekly": {
-    "levels": 5.92,
-    "ilvl": 7.7,
+    "levels": 7.84,
+    "ilvl": 8.74,
     "hk": 102,
     "rank": 0
    },
