@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1794015627114,
+ "generatedAt": 1794019134942,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -1036,8 +1036,8 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1794015089000,
-   "apiItemLevel": 15,
+   "lastLogin": 1794018811000,
+   "apiItemLevel": 16,
    "gear": [
     {
      "slot": "AMMO",
@@ -1089,7 +1089,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 39 / 40",
+      "dur": "Durability 40 / 40",
       "sell": 999,
       "desc": ""
      }
@@ -1125,7 +1125,7 @@
       "spells": [],
       "req": "Requires Level 17",
       "reqClass": "",
-      "dur": "Durability 49 / 50",
+      "dur": "Durability 50 / 50",
       "sell": 532,
       "desc": ""
      }
@@ -1169,38 +1169,41 @@
     {
      "slot": "CHEST",
      "slotName": "Chest",
-     "itemId": 2864,
-     "name": "Runed Copper Breastplate",
+     "itemId": 2869,
+     "name": "Silvered Bronze Breastplate",
      "quality": "UNCOMMON",
-     "ilvl": 18,
+     "ilvl": 26,
      "inventoryType": "CHEST",
-     "enchants": [
-      "Enchanted: Stamina +1 and Armor +8"
-     ],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132738.jpg",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132631.jpg",
      "tt": {
       "bind": "Binds when equipped",
       "unique": "",
       "inv": "Chest",
       "sub": "Mail",
-      "armor": "162 Armor",
+      "armor": "186 Armor",
       "stats": [
        {
-        "s": "+4 Strength",
+        "s": "+5 Strength",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+3 Stamina",
+        "s": "+5 Stamina",
         "neg": false,
         "eq": false
+       },
+       {
+        "s": "+4 Spirit",
+        "neg": false,
+        "eq": true
        }
       ],
       "spells": [],
-      "req": "Requires Level 13",
+      "req": "Requires Level 21",
       "reqClass": "",
-      "dur": "Durability 79 / 80",
-      "sell": 630,
+      "dur": "Durability 95 / 95",
+      "sell": 1831,
       "desc": ""
      }
     },
@@ -1561,7 +1564,7 @@
      }
     }
    ],
-   "itemLevel": 20.07,
+   "itemLevel": 20.64,
    "pvp": {
     "hk": 160,
     "rank": 0,
@@ -1587,7 +1590,7 @@
      },
      {
       "name": "Blacksmithing",
-      "skill": 116,
+      "skill": 117,
       "max": 150,
       "recipes": 31
      }
@@ -1616,7 +1619,7 @@
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/ruler-shiroune",
    "weekly": {
     "levels": 7.86,
-    "ilvl": 6.8,
+    "ilvl": 7.37,
     "hk": 155,
     "rank": 0
    },
