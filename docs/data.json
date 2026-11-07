@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1794019134942,
+ "generatedAt": 1794040734182,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -1635,10 +1635,10 @@
    "surname": "Hoon",
    "fullName": "Dala Hoon",
    "level": 18,
-   "experience": 301,
+   "experience": 1024,
    "xpToLevel": 19400,
-   "xpPct": 1.55,
-   "levelProgress": 18.02,
+   "xpPct": 5.28,
+   "levelProgress": 18.05,
    "className": "Shaman",
    "classId": 7,
    "race": "Orc",
@@ -1647,8 +1647,8 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1794007192000,
-   "apiItemLevel": 8,
+   "lastLogin": 1794040234000,
+   "apiItemLevel": 6,
    "gear": [
     {
      "slot": "BACK",
@@ -1717,7 +1717,7 @@
       "spells": [],
       "req": "Requires Level 8",
       "reqClass": "",
-      "dur": "Durability 56 / 60",
+      "dur": "Durability 53 / 60",
       "sell": 250,
       "desc": ""
      }
@@ -1748,7 +1748,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 20 / 20",
+      "dur": "Durability 19 / 20",
       "sell": 61,
       "desc": ""
      }
@@ -1815,7 +1815,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 20 / 20",
+      "dur": "Durability 19 / 20",
       "sell": 175,
       "desc": ""
      }
@@ -1853,7 +1853,7 @@
       "spells": [],
       "req": "Requires Level 6",
       "reqClass": "",
-      "dur": "Durability 36 / 40",
+      "dur": "Durability 34 / 40",
       "sell": 162,
       "desc": ""
      }
@@ -1928,41 +1928,30 @@
     {
      "slot": "MAIN_HAND",
      "slotName": "Main Hand",
-     "itemId": 15424,
-     "name": "Axe of Orgrimmar",
-     "quality": "RARE",
-     "ilvl": 18,
+     "itemId": 6256,
+     "name": "Fishing Pole",
+     "quality": "COMMON",
+     "ilvl": 1,
      "inventoryType": "TWOHWEAPON",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132395.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132932.jpg",
      "tt": {
-      "bind": "Binds when picked up",
+      "bind": "",
       "unique": "",
       "inv": "Two-Hand",
-      "sub": "Axe",
+      "sub": "Fishing Pole",
       "armor": "",
-      "stats": [
-       {
-        "s": "+6 Stamina",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+6 Spirit",
-        "neg": false,
-        "eq": true
-       }
-      ],
+      "stats": [],
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 67 / 70",
-      "sell": 1614,
+      "dur": "Durability 16 / 16",
+      "sell": 4,
       "desc": "",
       "weapon": {
-       "dmg": "42 - 64 Damage",
-       "speed": "Speed 3.30",
-       "dps": "(16.1 damage per second)"
+       "dmg": "2 - 4 Damage",
+       "speed": "Speed 3.00",
+       "dps": "(1.0 damage per second)"
       }
      }
     },
@@ -1994,7 +1983,7 @@
      }
     }
    ],
-   "itemLevel": 13.36,
+   "itemLevel": 10.27,
    "pvp": {
     "hk": 0,
     "rank": 0,
@@ -2024,7 +2013,7 @@
      },
      {
       "name": "Skinning",
-      "skill": 88,
+      "skill": 92,
       "max": 150,
       "recipes": 2
      }
@@ -2038,7 +2027,7 @@
      },
      {
       "name": "Fishing",
-      "skill": 4,
+      "skill": 62,
       "max": 75,
       "recipes": 1
      },
@@ -2052,8 +2041,8 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/dala-hoon",
    "weekly": {
-    "levels": 3.22,
-    "ilvl": 3.36,
+    "levels": 3.25,
+    "ilvl": 0.27,
     "hk": 0,
     "rank": 0
    },
