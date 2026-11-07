@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1794090238027,
+ "generatedAt": 1794091133163,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -644,10 +644,10 @@
    "surname": "Embrace",
    "fullName": "Blue Embrace",
    "level": 24,
-   "experience": 15,
+   "experience": 11253,
    "xpToLevel": 31700,
-   "xpPct": 0.05,
-   "levelProgress": 24,
+   "xpPct": 35.5,
+   "levelProgress": 24.35,
    "className": "Rogue",
    "classId": 4,
    "race": "Undead",
@@ -656,31 +656,78 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1794063492000,
-   "apiItemLevel": 16,
+   "lastLogin": 1794090359000,
+   "apiItemLevel": 19,
    "gear": [
     {
      "slot": "HEAD",
      "slotName": "Head",
-     "itemId": 3732,
-     "name": "Hooded Cowl",
-     "quality": "COMMON",
-     "ilvl": 30,
+     "itemId": 252504,
+     "name": "Brawler's Leather Hood",
+     "quality": "RARE",
+     "ilvl": 25,
      "inventoryType": "HEAD",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133136.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133133.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Head",
-      "sub": "Cloth",
-      "armor": "33 Armor",
-      "stats": [],
+      "sub": "Leather",
+      "armor": "76 Armor",
+      "stats": [
+       {
+        "s": "+8 Agility",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+10 Stamina",
+        "neg": false,
+        "eq": false
+       }
+      ],
       "spells": [],
-      "req": "",
+      "req": "Requires Level 20",
       "reqClass": "",
-      "dur": "Durability 36 / 45",
-      "sell": 801,
+      "dur": "Durability 49 / 50",
+      "sell": 1206,
+      "desc": ""
+     }
+    },
+    {
+     "slot": "SHOULDER",
+     "slotName": "Shoulders",
+     "itemId": 4251,
+     "name": "Hillman's Shoulders",
+     "quality": "UNCOMMON",
+     "ilvl": 26,
+     "inventoryType": "SHOULDER",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135039.jpg",
+     "tt": {
+      "bind": "Binds when equipped",
+      "unique": "",
+      "inv": "Shoulder",
+      "sub": "Leather",
+      "armor": "65 Armor",
+      "stats": [
+       {
+        "s": "+5 Stamina",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+3 Spirit",
+        "neg": false,
+        "eq": true
+       }
+      ],
+      "spells": [],
+      "req": "Requires Level 21",
+      "reqClass": "",
+      "dur": "Durability 49 / 50",
+      "sell": 659,
       "desc": ""
      }
     },
@@ -723,7 +770,9 @@
      "quality": "UNCOMMON",
      "ilvl": 25,
      "inventoryType": "CHEST",
-     "enchants": [],
+     "enchants": [
+      "Enchanted: Stamina +2 and Armor +16"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135010.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -746,7 +795,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 58 / 80",
+      "dur": "Durability 79 / 80",
       "sell": 1360,
       "desc": ""
      }
@@ -807,7 +856,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 21 / 25",
+      "dur": "Durability 25 / 25",
       "sell": 614,
       "desc": ""
      }
@@ -815,55 +864,21 @@
     {
      "slot": "HANDS",
      "slotName": "Hands",
-     "itemId": 4239,
-     "name": "Embossed Leather Gloves",
+     "itemId": 7285,
+     "name": "Nimble Leather Gloves",
      "quality": "UNCOMMON",
-     "ilvl": 13,
+     "ilvl": 24,
      "inventoryType": "HAND",
-     "enchants": [],
+     "enchants": [
+      "Enchanted: Stamina +2 and Armor +16"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132939.jpg",
      "tt": {
       "bind": "Binds when equipped",
       "unique": "",
       "inv": "Hands",
       "sub": "Leather",
-      "armor": "41 Armor",
-      "stats": [
-       {
-        "s": "+1 Agility",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+1 Stamina",
-        "neg": false,
-        "eq": false
-       }
-      ],
-      "spells": [],
-      "req": "Requires Level 8",
-      "reqClass": "",
-      "dur": "Durability 14 / 20",
-      "sell": 71,
-      "desc": ""
-     }
-    },
-    {
-     "slot": "WAIST",
-     "slotName": "Waist",
-     "itemId": 15329,
-     "name": "Wrangler's Belt of the Tiger",
-     "quality": "UNCOMMON",
-     "ilvl": 24,
-     "inventoryType": "WAIST",
-     "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132505.jpg",
-     "tt": {
-      "bind": "Binds when equipped",
-      "unique": "",
-      "inv": "Waist",
-      "sub": "Leather",
-      "armor": "47 Armor",
+      "armor": "52 Armor",
       "stats": [
        {
         "s": "+4 Agility",
@@ -871,7 +886,7 @@
         "eq": false
        },
        {
-        "s": "+4 Strength",
+        "s": "+4 Stamina",
         "neg": false,
         "eq": false
        }
@@ -879,109 +894,101 @@
       "spells": [],
       "req": "Requires Level 19",
       "reqClass": "",
-      "dur": "Durability 20 / 25",
-      "sell": 622,
+      "dur": "Durability 24 / 25",
+      "sell": 588,
+      "desc": ""
+     }
+    },
+    {
+     "slot": "WAIST",
+     "slotName": "Waist",
+     "itemId": 4249,
+     "name": "Dark Leather Belt",
+     "quality": "UNCOMMON",
+     "ilvl": 25,
+     "inventoryType": "WAIST",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132492.jpg",
+     "tt": {
+      "bind": "Binds when equipped",
+      "unique": "",
+      "inv": "Waist",
+      "sub": "Leather",
+      "armor": "48 Armor",
+      "stats": [
+       {
+        "s": "+4 Agility",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+4 Stamina",
+        "neg": false,
+        "eq": false
+       }
+      ],
+      "spells": [],
+      "req": "Requires Level 20",
+      "reqClass": "",
+      "dur": "Durability 29 / 30",
+      "sell": 703,
       "desc": ""
      }
     },
     {
      "slot": "LEGS",
      "slotName": "Legs",
-     "itemId": 6480,
-     "name": "Slick Deviate Leggings",
+     "itemId": 5961,
+     "name": "Dark Leather Pants",
      "quality": "UNCOMMON",
-     "ilvl": 20,
+     "ilvl": 23,
      "inventoryType": "LEGS",
-     "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134582.jpg",
+     "enchants": [
+      "Enchanted: Stamina +2 and Armor +16"
+     ],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134589.jpg",
      "tt": {
-      "bind": "Binds when picked up",
+      "bind": "Binds when equipped",
       "unique": "",
       "inv": "Legs",
       "sub": "Leather",
-      "armor": "68 Armor",
+      "armor": "72 Armor",
       "stats": [
        {
-        "s": "+4 Agility",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+4 Stamina",
+        "s": "+8 Agility",
         "neg": false,
         "eq": false
        }
       ],
       "spells": [],
-      "req": "",
+      "req": "Requires Level 18",
       "reqClass": "",
-      "dur": "Durability 42 / 55",
-      "sell": 713,
+      "dur": "Durability 53 / 55",
+      "sell": 1089,
       "desc": ""
      }
     },
     {
      "slot": "FEET",
      "slotName": "Feet",
-     "itemId": 252425,
-     "name": "Dark Leather Boots",
-     "quality": "RARE",
-     "ilvl": 15,
+     "itemId": 2315,
+     "name": "Gray Leather Boots",
+     "quality": "UNCOMMON",
+     "ilvl": 20,
      "inventoryType": "FEET",
      "enchants": [
       "Enchanted: Stamina +2 and Armor +16"
      ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132539.jpg",
      "tt": {
-      "bind": "Binds when picked up",
+      "bind": "Binds when equipped",
       "unique": "",
       "inv": "Feet",
       "sub": "Leather",
       "armor": "53 Armor",
       "stats": [
        {
-        "s": "+4 Agility",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+4 Stamina",
-        "neg": false,
-        "eq": false
-       }
-      ],
-      "spells": [],
-      "req": "Requires Level 10",
-      "reqClass": "",
-      "dur": "Durability 23 / 35",
-      "sell": 307,
-      "desc": ""
-     }
-    },
-    {
-     "slot": "FINGER_1",
-     "slotName": "Ring 1",
-     "itemId": 11981,
-     "name": "Lead Band of the Bear",
-     "quality": "UNCOMMON",
-     "ilvl": 20,
-     "inventoryType": "FINGER",
-     "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133343.jpg",
-     "tt": {
-      "bind": "Binds when equipped",
-      "unique": "",
-      "inv": "Finger",
-      "sub": "Miscellaneous",
-      "armor": "",
-      "stats": [
-       {
-        "s": "+2 Strength",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+2 Stamina",
+        "s": "+5 Agility",
         "neg": false,
         "eq": false
        }
@@ -989,8 +996,44 @@
       "spells": [],
       "req": "Requires Level 15",
       "reqClass": "",
+      "dur": "Durability 34 / 35",
+      "sell": 307,
+      "desc": ""
+     }
+    },
+    {
+     "slot": "FINGER_1",
+     "slotName": "Ring 1",
+     "itemId": 281673,
+     "name": "Loop of Sacrifice",
+     "quality": "UNCOMMON",
+     "ilvl": 28,
+     "inventoryType": "FINGER",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133368.jpg",
+     "tt": {
+      "bind": "Binds when picked up",
+      "unique": "",
+      "inv": "Finger",
+      "sub": "Miscellaneous",
+      "armor": "",
+      "stats": [
+       {
+        "s": "+5 Intellect",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+3 Strength",
+        "neg": false,
+        "eq": false
+       }
+      ],
+      "spells": [],
+      "req": "",
+      "reqClass": "",
       "dur": "",
-      "sell": 496,
+      "sell": 1413,
       "desc": ""
      }
     },
@@ -1056,7 +1099,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 30 / 40",
+      "dur": "Durability 39 / 40",
       "sell": 1436,
       "desc": "",
       "weapon": {
@@ -1086,7 +1129,7 @@
       "spells": [],
       "req": "Requires Level 16",
       "reqClass": "",
-      "dur": "Durability 33 / 40",
+      "dur": "Durability 40 / 40",
       "sell": 247,
       "desc": "",
       "weapon": {
@@ -1099,13 +1142,13 @@
     {
      "slot": "RANGED",
      "slotName": "Ranged",
-     "itemId": 287064,
-     "name": "Beastculler's Knife",
+     "itemId": 281660,
+     "name": "Iron Star",
      "quality": "UNCOMMON",
-     "ilvl": 23,
+     "ilvl": 27,
      "inventoryType": "THROWN",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135646.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132330.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
@@ -1114,33 +1157,28 @@
       "armor": "",
       "stats": [
        {
-        "s": "+1 Agility",
+        "s": "+3 Agility",
         "neg": false,
         "eq": false
-       },
-       {
-        "s": "+4 Attack Power Vs Beasts",
-        "neg": false,
-        "eq": true
        }
       ],
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 139 / 200",
-      "sell": 1594,
+      "dur": "Durability 200 / 200",
+      "sell": 2531,
       "desc": "",
       "weapon": {
-       "dmg": "11 - 22 Damage",
-       "speed": "Speed 1.60",
-       "dps": "(10.3 damage per second)"
+       "dmg": "17 - 33 Damage",
+       "speed": "Speed 2.00",
+       "dps": "(12.5 damage per second)"
       }
      }
     }
    ],
-   "itemLevel": 21.54,
+   "itemLevel": 23.79,
    "pvp": {
-    "hk": 105,
+    "hk": 113,
     "rank": 0,
     "rankName": "Unranked"
    },
@@ -1158,9 +1196,9 @@
     "primaries": [
      {
       "name": "Leatherworking",
-      "skill": 87,
+      "skill": 109,
       "max": 150,
-      "recipes": 35
+      "recipes": 42
      },
      {
       "name": "Skinning",
@@ -1184,17 +1222,17 @@
      },
      {
       "name": "First Aid",
-      "skill": 117,
+      "skill": 141,
       "max": 150,
-      "recipes": 7
+      "recipes": 9
      }
     ]
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/blue-embrace",
    "weekly": {
-    "levels": 7.84,
-    "ilvl": 8.74,
-    "hk": 102,
+    "levels": 8.19,
+    "ilvl": 10.99,
+    "hk": 110,
     "rank": 0
    },
    "ding60At": null
