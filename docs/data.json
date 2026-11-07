@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1794008368675,
+ "generatedAt": 1794011572311,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -42,11 +42,11 @@
    "name": "Sir",
    "surname": "Billythecrit",
    "fullName": "Sir Billythecrit",
-   "level": 18,
-   "experience": 775,
-   "xpToLevel": 19400,
-   "xpPct": 3.99,
-   "levelProgress": 18.04,
+   "level": 22,
+   "experience": 11701,
+   "xpToLevel": 27300,
+   "xpPct": 42.86,
+   "levelProgress": 22.43,
    "className": "Rogue",
    "classId": 4,
    "race": "Undead",
@@ -55,8 +55,8 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1793963758000,
-   "apiItemLevel": 10,
+   "lastLogin": 1794011068000,
+   "apiItemLevel": 12,
    "gear": [
     {
      "slot": "HEAD",
@@ -89,7 +89,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 34 / 35",
+      "dur": "Durability 35 / 35",
       "sell": 408,
       "desc": ""
      }
@@ -128,36 +128,36 @@
     {
      "slot": "CHEST",
      "slotName": "Chest",
-     "itemId": 4243,
-     "name": "Fine Leather Tunic",
+     "itemId": 5317,
+     "name": "Dry Moss Tunic",
      "quality": "UNCOMMON",
-     "ilvl": 17,
+     "ilvl": 25,
      "inventoryType": "CHEST",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132724.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135010.jpg",
      "tt": {
-      "bind": "Binds when equipped",
+      "bind": "Binds when picked up",
       "unique": "",
       "inv": "Chest",
       "sub": "Leather",
-      "armor": "73 Armor",
+      "armor": "86 Armor",
       "stats": [
        {
-        "s": "+4 Agility",
+        "s": "+2 Agility",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+3 Stamina",
+        "s": "+8 Stamina",
         "neg": false,
         "eq": false
        }
       ],
       "spells": [],
-      "req": "Requires Level 12",
+      "req": "",
       "reqClass": "",
-      "dur": "Durability 65 / 65",
-      "sell": 461,
+      "dur": "Durability 80 / 80",
+      "sell": 1360,
       "desc": ""
      }
     },
@@ -189,72 +189,72 @@
     {
      "slot": "WRIST",
      "slotName": "Wrist",
-     "itemId": 14561,
-     "name": "Prospector's Cuffs",
+     "itemId": 279875,
+     "name": "Spare Part Bindings",
      "quality": "UNCOMMON",
-     "ilvl": 17,
+     "ilvl": 24,
      "inventoryType": "WRIST",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132606.jpg",
      "tt": {
-      "bind": "Binds when equipped",
+      "bind": "Binds when picked up",
       "unique": "",
       "inv": "Wrist",
       "sub": "Leather",
-      "armor": "32 Armor",
+      "armor": "37 Armor",
       "stats": [
        {
-        "s": "+2 Agility",
+        "s": "+3 Agility",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+1 Stamina",
+        "s": "+3 Stamina",
         "neg": false,
         "eq": false
        }
       ],
       "spells": [],
-      "req": "Requires Level 12",
+      "req": "",
       "reqClass": "",
-      "dur": "Durability 20 / 20",
-      "sell": 245,
+      "dur": "Durability 25 / 25",
+      "sell": 614,
       "desc": ""
      }
     },
     {
      "slot": "HANDS",
      "slotName": "Hands",
-     "itemId": 4239,
-     "name": "Embossed Leather Gloves",
-     "quality": "UNCOMMON",
-     "ilvl": 13,
+     "itemId": 5970,
+     "name": "Serpent Gloves",
+     "quality": "RARE",
+     "ilvl": 23,
      "inventoryType": "HAND",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132939.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132953.jpg",
      "tt": {
-      "bind": "Binds when equipped",
+      "bind": "Binds when picked up",
       "unique": "",
       "inv": "Hands",
-      "sub": "Leather",
-      "armor": "41 Armor",
+      "sub": "Cloth",
+      "armor": "25 Armor",
       "stats": [
        {
-        "s": "+1 Agility",
+        "s": "+6 Agility",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+1 Stamina",
+        "s": "+7 Spell Power",
         "neg": false,
-        "eq": false
+        "eq": true
        }
       ],
       "spells": [],
-      "req": "Requires Level 8",
+      "req": "Requires Level 18",
       "reqClass": "",
       "dur": "Durability 20 / 20",
-      "sell": 71,
+      "sell": 510,
       "desc": ""
      }
     },
@@ -297,36 +297,36 @@
     {
      "slot": "LEGS",
      "slotName": "Legs",
-     "itemId": 3315,
-     "name": "Ceremonial Leather Loincloth",
+     "itemId": 7282,
+     "name": "Light Leather Pants",
      "quality": "UNCOMMON",
-     "ilvl": 17,
+     "ilvl": 19,
      "inventoryType": "LEGS",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134706.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134582.jpg",
      "tt": {
       "bind": "Binds when equipped",
       "unique": "",
       "inv": "Legs",
       "sub": "Leather",
-      "armor": "64 Armor",
+      "armor": "66 Armor",
       "stats": [
        {
-        "s": "+3 Strength",
+        "s": "+5 Agility",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+3 Spirit",
+        "s": "+3 Stamina",
         "neg": false,
-        "eq": true
+        "eq": false
        }
       ],
       "spells": [],
-      "req": "Requires Level 12",
+      "req": "Requires Level 14",
       "reqClass": "",
       "dur": "Durability 50 / 50",
-      "sell": 454,
+      "sell": 599,
       "desc": ""
      }
     },
@@ -369,38 +369,41 @@
     {
      "slot": "MAIN_HAND",
      "slotName": "Main Hand",
-     "itemId": 273003,
-     "name": "Searing Dagger",
+     "itemId": 6448,
+     "name": "Tail Spike",
      "quality": "RARE",
-     "ilvl": 18,
-     "inventoryType": "WEAPONMAINHAND",
+     "ilvl": 21,
+     "inventoryType": "WEAPON",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135639.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135646.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
-      "inv": "Main Hand",
+      "inv": "One-Hand",
       "sub": "Dagger",
       "armor": "",
       "stats": [
        {
-        "s": "+4 Spirit",
+        "s": "+3 Agility",
         "neg": false,
-        "eq": true
+        "eq": false
+       },
+       {
+        "s": "+3 Strength",
+        "neg": false,
+        "eq": false
        }
       ],
-      "spells": [
-       "Equip: Harmful spell casts sear the target for 7 Fire damage."
-      ],
-      "req": "Requires Level 13",
+      "spells": [],
+      "req": "Requires Level 16",
       "reqClass": "",
       "dur": "Durability 45 / 45",
-      "sell": 1246,
+      "sell": 1963,
       "desc": "",
       "weapon": {
-       "dmg": "9 - 17 Damage",
-       "speed": "Speed 1.60",
-       "dps": "(8.1 damage per second)"
+       "dmg": "17 - 33 Damage",
+       "speed": "Speed 1.80",
+       "dps": "(13.9 damage per second)"
       }
      }
     },
@@ -443,37 +446,48 @@
     {
      "slot": "RANGED",
      "slotName": "Ranged",
-     "itemId": 2947,
-     "name": "Small Throwing Knife",
-     "quality": "COMMON",
-     "ilvl": 3,
+     "itemId": 287064,
+     "name": "Beastculler's Knife",
+     "quality": "UNCOMMON",
+     "ilvl": 23,
      "inventoryType": "THROWN",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135426.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135646.jpg",
      "tt": {
-      "bind": "",
+      "bind": "Binds when picked up",
       "unique": "",
       "inv": "Thrown",
       "sub": "Thrown",
       "armor": "",
-      "stats": [],
+      "stats": [
+       {
+        "s": "+1 Agility",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+4 Attack Power Vs Beasts",
+        "neg": false,
+        "eq": true
+       }
+      ],
       "spells": [],
       "req": "",
       "reqClass": "",
       "dur": "Durability 200 / 200",
-      "sell": 8,
+      "sell": 1594,
       "desc": "",
       "weapon": {
-       "dmg": "1 - 3 Damage",
-       "speed": "Speed 2.00",
-       "dps": "(1 damage per second)"
+       "dmg": "11 - 22 Damage",
+       "speed": "Speed 1.60",
+       "dps": "(10.3 damage per second)"
       }
      }
     }
    ],
-   "itemLevel": 16.09,
+   "itemLevel": 20.64,
    "pvp": {
-    "hk": 39,
+    "hk": 168,
     "rank": 0,
     "rankName": "Unranked"
    },
@@ -481,53 +495,53 @@
     "trees": [
      {
       "name": "Subtlety",
-      "points": 9
+      "points": 13
      }
     ],
-    "split": "9",
+    "split": "13",
     "main": "Subtlety"
    },
    "professions": {
     "primaries": [
      {
       "name": "Mining",
-      "skill": 83,
+      "skill": 101,
       "max": 150,
       "recipes": 6
      },
      {
       "name": "Engineering",
-      "skill": 113,
+      "skill": 150,
       "max": 150,
-      "recipes": 19
+      "recipes": 25
      }
     ],
     "secondaries": [
      {
       "name": "Cooking",
-      "skill": 113,
+      "skill": 150,
       "max": 150,
-      "recipes": 16
+      "recipes": 17
      },
      {
       "name": "Fishing",
-      "skill": 117,
+      "skill": 119,
       "max": 150,
       "recipes": 2
      },
      {
       "name": "First Aid",
-      "skill": 108,
+      "skill": 150,
       "max": 150,
-      "recipes": 6
+      "recipes": 8
      }
     ]
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/sir-billythecrit",
    "weekly": {
-    "levels": 0.04,
-    "ilvl": 0.39,
-    "hk": 35,
+    "levels": 4.43,
+    "ilvl": 4.94,
+    "hk": 164,
     "rank": 0
    },
    "ding60At": null
