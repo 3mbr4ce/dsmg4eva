@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1794068643241,
+ "generatedAt": 1794070424886,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -42,11 +42,11 @@
    "name": "Sir",
    "surname": "Billythecrit",
    "fullName": "Sir Billythecrit",
-   "level": 24,
-   "experience": 26099,
-   "xpToLevel": 31700,
-   "xpPct": 82.33,
-   "levelProgress": 24.82,
+   "level": 25,
+   "experience": 1515,
+   "xpToLevel": 34000,
+   "xpPct": 4.46,
+   "levelProgress": 25.04,
    "className": "Rogue",
    "classId": 4,
    "race": "Undead",
@@ -55,8 +55,8 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1794063481000,
-   "apiItemLevel": 13,
+   "lastLogin": 1794069807000,
+   "apiItemLevel": 15,
    "gear": [
     {
      "slot": "HEAD",
@@ -89,7 +89,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 24 / 35",
+      "dur": "Durability 35 / 35",
       "sell": 408,
       "desc": ""
      }
@@ -114,7 +114,7 @@
       "spells": [],
       "req": "Requires Level 15",
       "reqClass": "",
-      "dur": "Durability 21 / 35",
+      "dur": "Durability 35 / 35",
       "sell": 163,
       "desc": ""
      }
@@ -181,7 +181,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 65 / 80",
+      "dur": "Durability 80 / 80",
       "sell": 1360,
       "desc": ""
      }
@@ -242,7 +242,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 23 / 25",
+      "dur": "Durability 25 / 25",
       "sell": 614,
       "desc": ""
      }
@@ -278,7 +278,7 @@
       "spells": [],
       "req": "Requires Level 18",
       "reqClass": "",
-      "dur": "Durability 16 / 20",
+      "dur": "Durability 20 / 20",
       "sell": 510,
       "desc": ""
      }
@@ -314,7 +314,7 @@
       "spells": [],
       "req": "Requires Level 11",
       "reqClass": "",
-      "dur": "Durability 17 / 20",
+      "dur": "Durability 20 / 20",
       "sell": 125,
       "desc": ""
      }
@@ -350,7 +350,7 @@
       "spells": [],
       "req": "Requires Level 14",
       "reqClass": "",
-      "dur": "Durability 35 / 50",
+      "dur": "Durability 50 / 50",
       "sell": 599,
       "desc": ""
      }
@@ -386,7 +386,7 @@
       "spells": [],
       "req": "Requires Level 18",
       "reqClass": "",
-      "dur": "Durability 34 / 40",
+      "dur": "Durability 40 / 40",
       "sell": 797,
       "desc": ""
      }
@@ -430,36 +430,77 @@
     {
      "slot": "MAIN_HAND",
      "slotName": "Main Hand",
-     "itemId": 6365,
-     "name": "Strong Fishing Pole",
-     "quality": "COMMON",
-     "ilvl": 10,
-     "inventoryType": "TWOHWEAPON",
+     "itemId": 6448,
+     "name": "Tail Spike",
+     "quality": "RARE",
+     "ilvl": 21,
+     "inventoryType": "WEAPON",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132932.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135646.jpg",
      "tt": {
-      "bind": "",
+      "bind": "Binds when picked up",
       "unique": "",
-      "inv": "Two-Hand",
-      "sub": "Fishing Pole",
+      "inv": "One-Hand",
+      "sub": "Dagger",
       "armor": "",
       "stats": [
        {
-        "s": "+5 Fishing Skill",
+        "s": "+3 Agility",
         "neg": false,
-        "eq": true
+        "eq": false
+       },
+       {
+        "s": "+3 Strength",
+        "neg": false,
+        "eq": false
        }
       ],
       "spells": [],
-      "req": "Requires Level 5",
+      "req": "Requires Level 16",
       "reqClass": "",
-      "dur": "Durability 25 / 25",
-      "sell": 180,
+      "dur": "Durability 45 / 45",
+      "sell": 1963,
       "desc": "",
       "weapon": {
-       "dmg": "13 - 21 Damage",
-       "speed": "Speed 3.00",
-       "dps": "(5.7 damage per second)"
+       "dmg": "17 - 33 Damage",
+       "speed": "Speed 1.80",
+       "dps": "(13.9 damage per second)"
+      }
+     }
+    },
+    {
+     "slot": "OFF_HAND",
+     "slotName": "Off Hand",
+     "itemId": 5279,
+     "name": "Harpy Skinner",
+     "quality": "UNCOMMON",
+     "ilvl": 20,
+     "inventoryType": "WEAPON",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135650.jpg",
+     "tt": {
+      "bind": "Binds when picked up",
+      "unique": "",
+      "inv": "One-Hand",
+      "sub": "Dagger",
+      "armor": "",
+      "stats": [
+       {
+        "s": "+3 Agility",
+        "neg": false,
+        "eq": false
+       }
+      ],
+      "spells": [],
+      "req": "",
+      "reqClass": "",
+      "dur": "Durability 40 / 40",
+      "sell": 1436,
+      "desc": "",
+      "weapon": {
+       "dmg": "9 - 18 Damage",
+       "speed": "Speed 1.40",
+       "dps": "(9.6 damage per second)"
       }
      }
     },
@@ -494,7 +535,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 119 / 200",
+      "dur": "Durability 200 / 200",
       "sell": 1594,
       "desc": "",
       "weapon": {
@@ -505,7 +546,7 @@
      }
     }
    ],
-   "itemLevel": 19.92,
+   "itemLevel": 21.54,
    "pvp": {
     "hk": 168,
     "rank": 0,
@@ -515,25 +556,25 @@
     "trees": [
      {
       "name": "Subtlety",
-      "points": 15
+      "points": 16
      }
     ],
-    "split": "15",
+    "split": "16",
     "main": "Subtlety"
    },
    "professions": {
     "primaries": [
      {
       "name": "Mining",
-      "skill": 105,
+      "skill": 106,
       "max": 150,
       "recipes": 6
      },
      {
       "name": "Engineering",
       "skill": 150,
-      "max": 150,
-      "recipes": 25
+      "max": 225,
+      "recipes": 33
      }
     ],
     "secondaries": [
@@ -559,8 +600,8 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/sir-billythecrit",
    "weekly": {
-    "levels": 6.82,
-    "ilvl": 4.22,
+    "levels": 7.04,
+    "ilvl": 5.84,
     "hk": 164,
     "rank": 0
    },
