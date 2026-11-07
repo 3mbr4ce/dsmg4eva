@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1794042826939,
+ "generatedAt": 1794044319944,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -2058,10 +2058,10 @@
    "surname": "Khingen",
    "fullName": "Sire Khingen",
    "level": 22,
-   "experience": 1111,
+   "experience": 3111,
    "xpToLevel": 27300,
-   "xpPct": 4.07,
-   "levelProgress": 22.04,
+   "xpPct": 11.4,
+   "levelProgress": 22.11,
    "className": "Paladin",
    "classId": 2,
    "race": "Undead",
@@ -2070,7 +2070,7 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1794008196000,
+   "lastLogin": 1794044234000,
    "apiItemLevel": 18,
    "gear": [
     {
@@ -2093,7 +2093,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 40 / 40",
+      "dur": "Durability 39 / 40",
       "sell": 999,
       "desc": ""
      }
@@ -2129,7 +2129,7 @@
       "spells": [],
       "req": "Requires Level 17",
       "reqClass": "",
-      "dur": "Durability 16 / 50",
+      "dur": "Durability 15 / 50",
       "sell": 532,
       "desc": ""
      }
@@ -2570,7 +2570,7 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/sire-khingen",
    "weekly": {
-    "levels": 11.8,
+    "levels": 11.87,
     "ilvl": 15.7,
     "hk": 6,
     "rank": 0
