@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1794093105374,
+ "generatedAt": 1794094754605,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -2502,11 +2502,11 @@
    "name": "Sire",
    "surname": "Khingen",
    "fullName": "Sire Khingen",
-   "level": 24,
-   "experience": 25479,
-   "xpToLevel": 31700,
-   "xpPct": 80.38,
-   "levelProgress": 24.8,
+   "level": 25,
+   "experience": 21145,
+   "xpToLevel": 34000,
+   "xpPct": 62.19,
+   "levelProgress": 25.62,
    "className": "Paladin",
    "classId": 2,
    "race": "Undead",
@@ -2515,8 +2515,8 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1794068410000,
-   "apiItemLevel": 19,
+   "lastLogin": 1794093965000,
+   "apiItemLevel": 20,
    "gear": [
     {
      "slot": "HEAD",
@@ -2549,7 +2549,7 @@
       "spells": [],
       "req": "Requires Level 20",
       "reqClass": "",
-      "dur": "Durability 65 / 65",
+      "dur": "Durability 53 / 65",
       "sell": 1439,
       "desc": ""
      }
@@ -2585,7 +2585,7 @@
       "spells": [],
       "req": "Requires Level 17",
       "reqClass": "",
-      "dur": "Durability 50 / 50",
+      "dur": "Durability 43 / 50",
       "sell": 532,
       "desc": ""
      }
@@ -2593,10 +2593,10 @@
     {
      "slot": "BACK",
      "slotName": "Back",
-     "itemId": 279865,
-     "name": "Grave Shroud",
-     "quality": "UNCOMMON",
-     "ilvl": 23,
+     "itemId": 6314,
+     "name": "Wolfmaster Cape",
+     "quality": "RARE",
+     "ilvl": 27,
      "inventoryType": "CLOAK",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133762.jpg",
@@ -2605,24 +2605,29 @@
       "unique": "",
       "inv": "Back",
       "sub": "Cloth",
-      "armor": "18 Armor",
+      "armor": "22 Armor",
       "stats": [
-       {
-        "s": "+3 Strength",
-        "neg": false,
-        "eq": false
-       },
        {
         "s": "+3 Stamina",
         "neg": false,
         "eq": false
+       },
+       {
+        "s": "+10 Attack Power",
+        "neg": false,
+        "eq": true
+       },
+       {
+        "s": "+9 Attack Power Vs Beasts",
+        "neg": false,
+        "eq": true
        }
       ],
       "spells": [],
-      "req": "",
+      "req": "Requires Level 22",
       "reqClass": "",
       "dur": "",
-      "sell": 607,
+      "sell": 1215,
       "desc": ""
      }
     },
@@ -2657,7 +2662,7 @@
       "spells": [],
       "req": "Requires Level 24",
       "reqClass": "",
-      "dur": "Durability 120 / 120",
+      "dur": "Durability 105 / 120",
       "sell": 2935,
       "desc": ""
      }
@@ -2718,7 +2723,7 @@
       "spells": [],
       "req": "Requires Level 16",
       "reqClass": "",
-      "dur": "Durability 35 / 35",
+      "dur": "Durability 30 / 35",
       "sell": 585,
       "desc": ""
      }
@@ -2754,7 +2759,7 @@
       "spells": [],
       "req": "Requires Level 17",
       "reqClass": "",
-      "dur": "Durability 35 / 35",
+      "dur": "Durability 32 / 35",
       "sell": 686,
       "desc": ""
      }
@@ -2790,7 +2795,7 @@
       "spells": [],
       "req": "Requires Level 15",
       "reqClass": "",
-      "dur": "Durability 35 / 35",
+      "dur": "Durability 29 / 35",
       "sell": 505,
       "desc": ""
      }
@@ -2798,38 +2803,41 @@
     {
      "slot": "LEGS",
      "slotName": "Legs",
-     "itemId": 2865,
-     "name": "Rough Bronze Leggings",
-     "quality": "UNCOMMON",
-     "ilvl": 21,
+     "itemId": 250527,
+     "name": "Crusader's Silvered Chain Leggings",
+     "quality": "RARE",
+     "ilvl": 30,
      "inventoryType": "LEGS",
-     "enchants": [
-      "Enchanted: Stamina +1 and Armor +8"
-     ],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134583.jpg",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134665.jpg",
      "tt": {
-      "bind": "Binds when equipped",
+      "bind": "Binds when picked up",
       "unique": "",
       "inv": "Legs",
       "sub": "Mail",
-      "armor": "149 Armor",
+      "armor": "191 Armor",
       "stats": [
        {
-        "s": "+5 Stamina",
+        "s": "+7 Strength",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+4 Spirit",
+        "s": "+8 Stamina",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+13 Spell Power",
         "neg": false,
         "eq": true
        }
       ],
       "spells": [],
-      "req": "Requires Level 16",
+      "req": "Requires Level 25",
       "reqClass": "",
-      "dur": "Durability 65 / 65",
-      "sell": 577,
+      "dur": "Durability 80 / 90",
+      "sell": 3149,
       "desc": ""
      }
     },
@@ -2864,7 +2872,7 @@
       "spells": [],
       "req": "Requires Level 17",
       "reqClass": "",
-      "dur": "Durability 50 / 50",
+      "dur": "Durability 40 / 50",
       "sell": 970,
       "desc": ""
      }
@@ -2872,13 +2880,13 @@
     {
      "slot": "FINGER_1",
      "slotName": "Ring 1",
-     "itemId": 3739,
-     "name": "Skull Ring",
-     "quality": "UNCOMMON",
-     "ilvl": 25,
+     "itemId": 6414,
+     "name": "Seal of Sylvanas",
+     "quality": "RARE",
+     "ilvl": 29,
      "inventoryType": "FINGER",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132501.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133357.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
@@ -2887,21 +2895,21 @@
       "armor": "",
       "stats": [
        {
-        "s": "+3 Intellect",
+        "s": "+8 Stamina",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+3 Stamina",
+        "s": "+6 Attack Power",
         "neg": false,
-        "eq": false
+        "eq": true
        }
       ],
       "spells": [],
       "req": "",
       "reqClass": "",
       "dur": "",
-      "sell": 1250,
+      "sell": 1960,
       "desc": ""
      }
     },
@@ -2974,7 +2982,7 @@
       ],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 90 / 90",
+      "dur": "Durability 86 / 90",
       "sell": 3629,
       "desc": "",
       "weapon": {
@@ -2985,9 +2993,9 @@
      }
     }
    ],
-   "itemLevel": 23.54,
+   "itemLevel": 24.85,
    "pvp": {
-    "hk": 10,
+    "hk": 11,
     "rank": 0,
     "rankName": "Unranked"
    },
@@ -2995,10 +3003,10 @@
     "trees": [
      {
       "name": "Retribution",
-      "points": 15
+      "points": 16
      }
     ],
-    "split": "15",
+    "split": "16",
     "main": "Retribution"
    },
    "professions": {
@@ -3031,7 +3039,7 @@
      },
      {
       "name": "First Aid",
-      "skill": 149,
+      "skill": 150,
       "max": 150,
       "recipes": 8
      }
@@ -3039,9 +3047,9 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/sire-khingen",
    "weekly": {
-    "levels": 14.56,
-    "ilvl": 16.32,
-    "hk": 10,
+    "levels": 15.38,
+    "ilvl": 17.63,
+    "hk": 11,
     "rank": 0
    },
    "ding60At": null
