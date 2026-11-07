@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1794083960882,
+ "generatedAt": 1794090238027,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -43,10 +43,10 @@
    "surname": "Billythecrit",
    "fullName": "Sir Billythecrit",
    "level": 25,
-   "experience": 1515,
+   "experience": 13383,
    "xpToLevel": 34000,
-   "xpPct": 4.46,
-   "levelProgress": 25.04,
+   "xpPct": 39.36,
+   "levelProgress": 25.39,
    "className": "Rogue",
    "classId": 4,
    "race": "Undead",
@@ -55,8 +55,8 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1794069807000,
-   "apiItemLevel": 15,
+   "lastLogin": 1794090012000,
+   "apiItemLevel": 16,
    "gear": [
     {
      "slot": "HEAD",
@@ -89,7 +89,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 35 / 35",
+      "dur": "Durability 19 / 35",
       "sell": 408,
       "desc": ""
      }
@@ -114,7 +114,7 @@
       "spells": [],
       "req": "Requires Level 15",
       "reqClass": "",
-      "dur": "Durability 35 / 35",
+      "dur": "Durability 20 / 35",
       "sell": 163,
       "desc": ""
      }
@@ -181,7 +181,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 80 / 80",
+      "dur": "Durability 42 / 80",
       "sell": 1360,
       "desc": ""
      }
@@ -242,7 +242,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 25 / 25",
+      "dur": "Durability 13 / 25",
       "sell": 614,
       "desc": ""
      }
@@ -278,7 +278,7 @@
       "spells": [],
       "req": "Requires Level 18",
       "reqClass": "",
-      "dur": "Durability 20 / 20",
+      "dur": "Durability 11 / 20",
       "sell": 510,
       "desc": ""
      }
@@ -314,7 +314,7 @@
       "spells": [],
       "req": "Requires Level 11",
       "reqClass": "",
-      "dur": "Durability 20 / 20",
+      "dur": "Durability 10 / 20",
       "sell": 125,
       "desc": ""
      }
@@ -350,7 +350,7 @@
       "spells": [],
       "req": "Requires Level 14",
       "reqClass": "",
-      "dur": "Durability 50 / 50",
+      "dur": "Durability 28 / 50",
       "sell": 599,
       "desc": ""
      }
@@ -386,7 +386,7 @@
       "spells": [],
       "req": "Requires Level 18",
       "reqClass": "",
-      "dur": "Durability 40 / 40",
+      "dur": "Durability 22 / 40",
       "sell": 797,
       "desc": ""
      }
@@ -428,6 +428,37 @@
      }
     },
     {
+     "slot": "FINGER_2",
+     "slotName": "Ring 2",
+     "itemId": 4998,
+     "name": "Blood Ring",
+     "quality": "UNCOMMON",
+     "ilvl": 24,
+     "inventoryType": "FINGER",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133346.jpg",
+     "tt": {
+      "bind": "Binds when equipped",
+      "unique": "",
+      "inv": "Finger",
+      "sub": "Miscellaneous",
+      "armor": "",
+      "stats": [
+       {
+        "s": "+5 Stamina",
+        "neg": false,
+        "eq": false
+       }
+      ],
+      "spells": [],
+      "req": "Requires Level 19",
+      "reqClass": "",
+      "dur": "",
+      "sell": 837,
+      "desc": ""
+     }
+    },
+    {
      "slot": "MAIN_HAND",
      "slotName": "Main Hand",
      "itemId": 6448,
@@ -458,7 +489,7 @@
       "spells": [],
       "req": "Requires Level 16",
       "reqClass": "",
-      "dur": "Durability 45 / 45",
+      "dur": "Durability 26 / 45",
       "sell": 1963,
       "desc": "",
       "weapon": {
@@ -471,36 +502,32 @@
     {
      "slot": "OFF_HAND",
      "slotName": "Off Hand",
-     "itemId": 5279,
-     "name": "Harpy Skinner",
+     "itemId": 5752,
+     "name": "Wyvern Tailspike",
      "quality": "UNCOMMON",
-     "ilvl": 20,
+     "ilvl": 27,
      "inventoryType": "WEAPON",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135650.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135652.jpg",
      "tt": {
-      "bind": "Binds when picked up",
+      "bind": "Binds when equipped",
       "unique": "",
       "inv": "One-Hand",
       "sub": "Dagger",
       "armor": "",
-      "stats": [
-       {
-        "s": "+3 Agility",
-        "neg": false,
-        "eq": false
-       }
+      "stats": [],
+      "spells": [
+       "Chance on hit: Poisons target for 6 Nature damage every 3 sec for 15 sec."
       ],
-      "spells": [],
-      "req": "",
+      "req": "Requires Level 22",
       "reqClass": "",
-      "dur": "Durability 40 / 40",
-      "sell": 1436,
+      "dur": "Durability 33 / 50",
+      "sell": 3109,
       "desc": "",
       "weapon": {
-       "dmg": "9 - 18 Damage",
-       "speed": "Speed 1.40",
-       "dps": "(9.6 damage per second)"
+       "dmg": "17 - 33 Damage",
+       "speed": "Speed 1.80",
+       "dps": "(13.9 damage per second)"
       }
      }
     },
@@ -535,7 +562,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 200 / 200",
+      "dur": "Durability 107 / 200",
       "sell": 1594,
       "desc": "",
       "weapon": {
@@ -546,9 +573,9 @@
      }
     }
    ],
-   "itemLevel": 21.54,
+   "itemLevel": 22.21,
    "pvp": {
-    "hk": 168,
+    "hk": 170,
     "rank": 0,
     "rankName": "Unranked"
    },
@@ -566,7 +593,7 @@
     "primaries": [
      {
       "name": "Mining",
-      "skill": 106,
+      "skill": 112,
       "max": 150,
       "recipes": 6
      },
@@ -581,12 +608,12 @@
      {
       "name": "Cooking",
       "skill": 150,
-      "max": 150,
+      "max": 225,
       "recipes": 18
      },
      {
       "name": "Fishing",
-      "skill": 122,
+      "skill": 130,
       "max": 150,
       "recipes": 2
      },
@@ -600,9 +627,9 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/sir-billythecrit",
    "weekly": {
-    "levels": 7.04,
-    "ilvl": 5.84,
-    "hk": 164,
+    "levels": 7.39,
+    "ilvl": 6.51,
+    "hk": 166,
     "rank": 0
    },
    "ding60At": null
