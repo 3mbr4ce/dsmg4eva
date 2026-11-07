@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1794070424886,
+ "generatedAt": 1794083960882,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -1792,11 +1792,11 @@
    "name": "Dala",
    "surname": "Hoon",
    "fullName": "Dala Hoon",
-   "level": 18,
-   "experience": 14111,
-   "xpToLevel": 19400,
-   "xpPct": 72.74,
-   "levelProgress": 18.73,
+   "level": 23,
+   "experience": 3304,
+   "xpToLevel": 29400,
+   "xpPct": 11.24,
+   "levelProgress": 23.11,
    "className": "Shaman",
    "classId": 7,
    "race": "Orc",
@@ -1805,167 +1805,141 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1794049948000,
-   "apiItemLevel": 9,
+   "lastLogin": 1794083084000,
+   "apiItemLevel": 12,
    "gear": [
     {
      "slot": "BACK",
      "slotName": "Back",
-     "itemId": 15309,
-     "name": "Feral Cloak of the Eagle",
+     "itemId": 14123,
+     "name": "Ritual Cape of the Eagle",
      "quality": "UNCOMMON",
-     "ilvl": 15,
+     "ilvl": 17,
      "inventoryType": "CLOAK",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133770.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133766.jpg",
      "tt": {
       "bind": "Binds when equipped",
       "unique": "",
       "inv": "Back",
       "sub": "Cloth",
-      "armor": "14 Armor",
+      "armor": "15 Armor",
       "stats": [
        {
-        "s": "+1 Intellect",
+        "s": "+2 Intellect",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+1 Stamina",
+        "s": "+2 Stamina",
         "neg": false,
         "eq": false
        }
       ],
       "spells": [],
-      "req": "Requires Level 10",
+      "req": "Requires Level 12",
       "reqClass": "",
       "dur": "",
-      "sell": 220,
+      "sell": 287,
       "desc": ""
      }
     },
     {
      "slot": "CHEST",
      "slotName": "Chest",
-     "itemId": 3288,
-     "name": "Tribal Vest",
-     "quality": "UNCOMMON",
-     "ilvl": 13,
+     "itemId": 271212,
+     "name": "Bloodied Chestwraps",
+     "quality": "RARE",
+     "ilvl": 22,
      "inventoryType": "CHEST",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132657.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133684.jpg",
      "tt": {
-      "bind": "Binds when equipped",
+      "bind": "Binds when picked up",
       "unique": "",
       "inv": "Chest",
       "sub": "Leather",
-      "armor": "65 Armor",
+      "armor": "89 Armor",
       "stats": [
        {
-        "s": "+2 Agility",
+        "s": "+7 Agility",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+1 Stamina",
+        "s": "+9 Spirit",
         "neg": false,
-        "eq": false
+        "eq": true
        }
       ],
       "spells": [],
-      "req": "Requires Level 8",
+      "req": "Requires Level 17",
       "reqClass": "",
-      "dur": "Durability 51 / 60",
-      "sell": 250,
+      "dur": "Durability 70 / 90",
+      "sell": 1077,
       "desc": ""
      }
     },
     {
      "slot": "WRIST",
      "slotName": "Wrist",
-     "itemId": 281270,
-     "name": "Thra's Friendship Bracelet",
+     "itemId": 14122,
+     "name": "Ritual Bands of the Owl",
      "quality": "UNCOMMON",
-     "ilvl": 10,
+     "ilvl": 18,
      "inventoryType": "WRIST",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132609.jpg",
      "tt": {
-      "bind": "Binds when picked up",
+      "bind": "Binds when equipped",
       "unique": "",
       "inv": "Wrist",
-      "sub": "Leather",
-      "armor": "24 Armor",
+      "sub": "Cloth",
+      "armor": "14 Armor",
       "stats": [
        {
-        "s": "+1 Intellect",
+        "s": "+2 Intellect",
         "neg": false,
         "eq": false
+       },
+       {
+        "s": "+2 Spirit",
+        "neg": false,
+        "eq": true
        }
       ],
       "spells": [],
-      "req": "",
+      "req": "Requires Level 13",
       "reqClass": "",
-      "dur": "Durability 17 / 20",
-      "sell": 61,
+      "dur": "Durability 16 / 20",
+      "sell": 219,
       "desc": ""
      }
     },
     {
      "slot": "HANDS",
      "slotName": "Hands",
-     "itemId": 4239,
-     "name": "Embossed Leather Gloves",
+     "itemId": 5299,
+     "name": "Gloves of the Moon",
      "quality": "UNCOMMON",
-     "ilvl": 13,
+     "ilvl": 20,
      "inventoryType": "HAND",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132939.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132952.jpg",
      "tt": {
-      "bind": "Binds when equipped",
+      "bind": "Binds when picked up",
       "unique": "",
       "inv": "Hands",
       "sub": "Leather",
-      "armor": "41 Armor",
+      "armor": "48 Armor",
       "stats": [
        {
-        "s": "+1 Agility",
+        "s": "+3 Agility",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+1 Stamina",
-        "neg": false,
-        "eq": false
-       }
-      ],
-      "spells": [],
-      "req": "Requires Level 8",
-      "reqClass": "",
-      "dur": "Durability 16 / 20",
-      "sell": 71,
-      "desc": ""
-     }
-    },
-    {
-     "slot": "WAIST",
-     "slotName": "Waist",
-     "itemId": 5275,
-     "name": "Binding Girdle",
-     "quality": "UNCOMMON",
-     "ilvl": 15,
-     "inventoryType": "WAIST",
-     "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132490.jpg",
-     "tt": {
-      "bind": "Binds when picked up",
-      "unique": "",
-      "inv": "Waist",
-      "sub": "Leather",
-      "armor": "39 Armor",
-      "stats": [
-       {
-        "s": "+3 Intellect",
+        "s": "+3 Stamina",
         "neg": false,
         "eq": false
        }
@@ -1973,8 +1947,44 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 16 / 20",
-      "sell": 175,
+      "dur": "Durability 21 / 25",
+      "sell": 359,
+      "desc": ""
+     }
+    },
+    {
+     "slot": "WAIST",
+     "slotName": "Waist",
+     "itemId": 271210,
+     "name": "Tuskwrap Belt",
+     "quality": "RARE",
+     "ilvl": 21,
+     "inventoryType": "WAIST",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132515.jpg",
+     "tt": {
+      "bind": "Binds when picked up",
+      "unique": "",
+      "inv": "Waist",
+      "sub": "Cloth",
+      "armor": "22 Armor",
+      "stats": [
+       {
+        "s": "+6 Spell Power",
+        "neg": false,
+        "eq": true
+       },
+       {
+        "s": "+5 Spirit",
+        "neg": false,
+        "eq": true
+       }
+      ],
+      "spells": [],
+      "req": "Requires Level 16",
+      "reqClass": "",
+      "dur": "Durability 13 / 20",
+      "sell": 400,
       "desc": ""
      }
     },
@@ -2009,7 +2019,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 45 / 50",
+      "dur": "Durability 38 / 50",
       "sell": 537,
       "desc": ""
      }
@@ -2045,7 +2055,7 @@
       "spells": [],
       "req": "Requires Level 10",
       "reqClass": "",
-      "dur": "Durability 21 / 30",
+      "dur": "Durability 26 / 30",
       "sell": 217,
       "desc": ""
      }
@@ -2082,46 +2092,120 @@
      }
     },
     {
-     "slot": "MAIN_HAND",
-     "slotName": "Main Hand",
-     "itemId": 15424,
-     "name": "Axe of Orgrimmar",
+     "slot": "FINGER_2",
+     "slotName": "Ring 2",
+     "itemId": 6463,
+     "name": "Deep Fathom Ring",
      "quality": "RARE",
-     "ilvl": 18,
-     "inventoryType": "TWOHWEAPON",
-     "enchants": [
-      "Rockbiter 3"
-     ],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132395.jpg",
+     "ilvl": 24,
+     "inventoryType": "FINGER",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133357.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
-      "inv": "Two-Hand",
-      "sub": "Axe",
+      "inv": "Finger",
+      "sub": "Miscellaneous",
       "armor": "",
       "stats": [
        {
-        "s": "+6 Stamina",
+        "s": "+3 Stamina",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+6 Spirit",
+        "s": "+2 Spell Piercing",
         "neg": false,
         "eq": true
        }
       ],
       "spells": [],
-      "req": "",
+      "req": "Requires Level 19",
       "reqClass": "",
-      "dur": "Durability 61 / 70",
-      "sell": 1614,
+      "dur": "",
+      "sell": 1153,
+      "desc": ""
+     }
+    },
+    {
+     "slot": "MAIN_HAND",
+     "slotName": "Main Hand",
+     "itemId": 272996,
+     "name": "Trogg Scepter",
+     "quality": "RARE",
+     "ilvl": 18,
+     "inventoryType": "WEAPONMAINHAND",
+     "enchants": [
+      "Flametongue 2"
+     ],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133727.jpg",
+     "tt": {
+      "bind": "Binds when picked up",
+      "unique": "",
+      "inv": "Main Hand",
+      "sub": "Mace",
+      "armor": "",
+      "stats": [
+       {
+        "s": "+4 Spirit",
+        "neg": false,
+        "eq": true
+       }
+      ],
+      "spells": [],
+      "req": "Requires Level 13",
+      "reqClass": "",
+      "dur": "Durability 55 / 65",
+      "sell": 1342,
       "desc": "",
       "weapon": {
-       "dmg": "42 - 64 Damage",
-       "speed": "Speed 3.30",
-       "dps": "(16.1 damage per second)"
+       "dmg": "13 - 26 Damage",
+       "speed": "Speed 2.40",
+       "dps": "(8.1 damage per second)"
       }
+     }
+    },
+    {
+     "slot": "OFF_HAND",
+     "slotName": "Off Hand",
+     "itemId": 273137,
+     "name": "Skum's Bucket",
+     "quality": "RARE",
+     "ilvl": 22,
+     "inventoryType": "HOLDABLE",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/1063033.jpg",
+     "tt": {
+      "bind": "Binds when picked up",
+      "unique": "",
+      "inv": "Held In Off-hand",
+      "sub": "Miscellaneous",
+      "armor": "",
+      "stats": [
+       {
+        "s": "+3 Stamina",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+3 Spell Damage",
+        "neg": false,
+        "eq": true
+       },
+       {
+        "s": "+10 Spell Healing",
+        "neg": false,
+        "eq": true
+       }
+      ],
+      "spells": [
+       "Use: Restores 835 mana over 24 sec. Must remain seated while drinking. (10 Min Cooldown)"
+      ],
+      "req": "Requires Level 17",
+      "reqClass": "",
+      "dur": "",
+      "sell": 875,
+      "desc": ""
      }
     },
     {
@@ -2152,7 +2236,7 @@
      }
     }
    ],
-   "itemLevel": 14,
+   "itemLevel": 17.83,
    "pvp": {
     "hk": 0,
     "rank": 0,
@@ -2162,14 +2246,14 @@
     "trees": [
      {
       "name": "Enhancement",
-      "points": 8
+      "points": 12
      },
      {
       "name": "Restoration",
       "points": 1
      }
     ],
-    "split": "8/1",
+    "split": "12/1",
     "main": "Enhancement"
    },
    "professions": {
@@ -2178,12 +2262,12 @@
       "name": "Leatherworking",
       "skill": 76,
       "max": 150,
-      "recipes": 31
+      "recipes": 32
      },
      {
       "name": "Skinning",
-      "skill": 94,
-      "max": 150,
+      "skill": 156,
+      "max": 225,
       "recipes": 2
      }
     ],
@@ -2192,26 +2276,26 @@
       "name": "Cooking",
       "skill": 18,
       "max": 75,
-      "recipes": 5
+      "recipes": 7
      },
      {
       "name": "Fishing",
-      "skill": 64,
+      "skill": 75,
       "max": 75,
       "recipes": 1
      },
      {
       "name": "First Aid",
-      "skill": 75,
+      "skill": 102,
       "max": 150,
-      "recipes": 5
+      "recipes": 8
      }
     ]
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/dala-hoon",
    "weekly": {
-    "levels": 3.93,
-    "ilvl": 4,
+    "levels": 8.31,
+    "ilvl": 7.83,
     "hk": 0,
     "rank": 0
    },
