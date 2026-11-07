@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1794044319944,
+ "generatedAt": 1794050629221,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -1635,10 +1635,10 @@
    "surname": "Hoon",
    "fullName": "Dala Hoon",
    "level": 18,
-   "experience": 1024,
+   "experience": 14111,
    "xpToLevel": 19400,
-   "xpPct": 5.28,
-   "levelProgress": 18.05,
+   "xpPct": 72.74,
+   "levelProgress": 18.73,
    "className": "Shaman",
    "classId": 7,
    "race": "Orc",
@@ -1647,8 +1647,8 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1794040234000,
-   "apiItemLevel": 6,
+   "lastLogin": 1794049948000,
+   "apiItemLevel": 9,
    "gear": [
     {
      "slot": "BACK",
@@ -1717,7 +1717,7 @@
       "spells": [],
       "req": "Requires Level 8",
       "reqClass": "",
-      "dur": "Durability 53 / 60",
+      "dur": "Durability 51 / 60",
       "sell": 250,
       "desc": ""
      }
@@ -1748,7 +1748,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 19 / 20",
+      "dur": "Durability 17 / 20",
       "sell": 61,
       "desc": ""
      }
@@ -1784,7 +1784,7 @@
       "spells": [],
       "req": "Requires Level 8",
       "reqClass": "",
-      "dur": "Durability 20 / 20",
+      "dur": "Durability 16 / 20",
       "sell": 71,
       "desc": ""
      }
@@ -1815,7 +1815,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 19 / 20",
+      "dur": "Durability 16 / 20",
       "sell": 175,
       "desc": ""
      }
@@ -1823,38 +1823,36 @@
     {
      "slot": "LEGS",
      "slotName": "Legs",
-     "itemId": 15009,
-     "name": "Primal Leggings of Shadow Protection",
+     "itemId": 15450,
+     "name": "Dredgemire Leggings",
      "quality": "UNCOMMON",
-     "ilvl": 11,
+     "ilvl": 18,
      "inventoryType": "LEGS",
-     "enchants": [
-      "Enchanted: Stamina +1 and Armor +8"
-     ],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134585.jpg",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134587.jpg",
      "tt": {
-      "bind": "Binds when equipped",
+      "bind": "Binds when picked up",
       "unique": "",
       "inv": "Legs",
       "sub": "Leather",
-      "armor": "51 Armor",
+      "armor": "65 Armor",
       "stats": [
        {
-        "s": "+1 Stamina",
+        "s": "+3 Stamina",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+1 Shadow Resistance",
+        "s": "+3 Spirit",
         "neg": false,
-        "eq": false
+        "eq": true
        }
       ],
       "spells": [],
-      "req": "Requires Level 6",
+      "req": "",
       "reqClass": "",
-      "dur": "Durability 34 / 40",
-      "sell": 162,
+      "dur": "Durability 45 / 50",
+      "sell": 537,
       "desc": ""
      }
     },
@@ -1889,7 +1887,7 @@
       "spells": [],
       "req": "Requires Level 10",
       "reqClass": "",
-      "dur": "Durability 28 / 30",
+      "dur": "Durability 21 / 30",
       "sell": 217,
       "desc": ""
      }
@@ -1928,30 +1926,43 @@
     {
      "slot": "MAIN_HAND",
      "slotName": "Main Hand",
-     "itemId": 6256,
-     "name": "Fishing Pole",
-     "quality": "COMMON",
-     "ilvl": 1,
+     "itemId": 15424,
+     "name": "Axe of Orgrimmar",
+     "quality": "RARE",
+     "ilvl": 18,
      "inventoryType": "TWOHWEAPON",
-     "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132932.jpg",
+     "enchants": [
+      "Rockbiter 3"
+     ],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132395.jpg",
      "tt": {
-      "bind": "",
+      "bind": "Binds when picked up",
       "unique": "",
       "inv": "Two-Hand",
-      "sub": "Fishing Pole",
+      "sub": "Axe",
       "armor": "",
-      "stats": [],
+      "stats": [
+       {
+        "s": "+6 Stamina",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+6 Spirit",
+        "neg": false,
+        "eq": true
+       }
+      ],
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 16 / 16",
-      "sell": 4,
+      "dur": "Durability 61 / 70",
+      "sell": 1614,
       "desc": "",
       "weapon": {
-       "dmg": "2 - 4 Damage",
-       "speed": "Speed 3.00",
-       "dps": "(1.0 damage per second)"
+       "dmg": "42 - 64 Damage",
+       "speed": "Speed 3.30",
+       "dps": "(16.1 damage per second)"
       }
      }
     },
@@ -1983,7 +1994,7 @@
      }
     }
    ],
-   "itemLevel": 10.27,
+   "itemLevel": 14,
    "pvp": {
     "hk": 0,
     "rank": 0,
@@ -2013,7 +2024,7 @@
      },
      {
       "name": "Skinning",
-      "skill": 92,
+      "skill": 94,
       "max": 150,
       "recipes": 2
      }
@@ -2027,7 +2038,7 @@
      },
      {
       "name": "Fishing",
-      "skill": 62,
+      "skill": 64,
       "max": 75,
       "recipes": 1
      },
@@ -2041,8 +2052,8 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/dala-hoon",
    "weekly": {
-    "levels": 3.25,
-    "ilvl": 0.27,
+    "levels": 3.93,
+    "ilvl": 4,
     "hk": 0,
     "rank": 0
    },
