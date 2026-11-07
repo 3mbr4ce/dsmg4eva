@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1794040734182,
+ "generatedAt": 1794042826939,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -1036,7 +1036,7 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1794018811000,
+   "lastLogin": 1794041802000,
    "apiItemLevel": 16,
    "gear": [
     {
@@ -1592,7 +1592,7 @@
       "name": "Blacksmithing",
       "skill": 117,
       "max": 150,
-      "recipes": 31
+      "recipes": 32
      }
     ],
     "secondaries": [
