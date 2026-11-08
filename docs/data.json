@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1794138828128,
+ "generatedAt": 1794142430950,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -43,10 +43,10 @@
    "surname": "Billythecrit",
    "fullName": "Sir Billythecrit",
    "level": 25,
-   "experience": 13383,
+   "experience": 26264,
    "xpToLevel": 34000,
-   "xpPct": 39.36,
-   "levelProgress": 25.39,
+   "xpPct": 77.25,
+   "levelProgress": 25.77,
    "className": "Rogue",
    "classId": 4,
    "race": "Undead",
@@ -55,16 +55,16 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1794090012000,
-   "apiItemLevel": 16,
+   "lastLogin": 1794142202000,
+   "apiItemLevel": 17,
    "gear": [
     {
      "slot": "HEAD",
      "slotName": "Head",
-     "itemId": 4368,
-     "name": "Flying Tiger Goggles",
+     "itemId": 4385,
+     "name": "Green Tinted Goggles",
      "quality": "UNCOMMON",
-     "ilvl": 20,
+     "ilvl": 30,
      "inventoryType": "HEAD",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133149.jpg",
@@ -73,15 +73,15 @@
       "unique": "",
       "inv": "Head",
       "sub": "Cloth",
-      "armor": "27 Armor",
+      "armor": "35 Armor",
       "stats": [
        {
-        "s": "+4 Stamina",
+        "s": "+8 Stamina",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+4 Spirit",
+        "s": "+7 Spirit",
         "neg": false,
         "eq": true
        }
@@ -89,8 +89,8 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 19 / 35",
-      "sell": 408,
+      "dur": "Durability 44 / 45",
+      "sell": 1410,
       "desc": ""
      }
     },
@@ -114,7 +114,7 @@
       "spells": [],
       "req": "Requires Level 15",
       "reqClass": "",
-      "dur": "Durability 20 / 35",
+      "dur": "Durability 34 / 35",
       "sell": 163,
       "desc": ""
      }
@@ -181,7 +181,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 42 / 80",
+      "dur": "Durability 78 / 80",
       "sell": 1360,
       "desc": ""
      }
@@ -242,7 +242,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 13 / 25",
+      "dur": "Durability 25 / 25",
       "sell": 614,
       "desc": ""
      }
@@ -278,7 +278,7 @@
       "spells": [],
       "req": "Requires Level 18",
       "reqClass": "",
-      "dur": "Durability 11 / 20",
+      "dur": "Durability 19 / 20",
       "sell": 510,
       "desc": ""
      }
@@ -314,7 +314,7 @@
       "spells": [],
       "req": "Requires Level 11",
       "reqClass": "",
-      "dur": "Durability 10 / 20",
+      "dur": "Durability 20 / 20",
       "sell": 125,
       "desc": ""
      }
@@ -350,7 +350,7 @@
       "spells": [],
       "req": "Requires Level 14",
       "reqClass": "",
-      "dur": "Durability 28 / 50",
+      "dur": "Durability 49 / 50",
       "sell": 599,
       "desc": ""
      }
@@ -386,7 +386,7 @@
       "spells": [],
       "req": "Requires Level 18",
       "reqClass": "",
-      "dur": "Durability 22 / 40",
+      "dur": "Durability 38 / 40",
       "sell": 797,
       "desc": ""
      }
@@ -489,7 +489,7 @@
       "spells": [],
       "req": "Requires Level 16",
       "reqClass": "",
-      "dur": "Durability 26 / 45",
+      "dur": "Durability 45 / 45",
       "sell": 1963,
       "desc": "",
       "weapon": {
@@ -521,7 +521,7 @@
       ],
       "req": "Requires Level 22",
       "reqClass": "",
-      "dur": "Durability 33 / 50",
+      "dur": "Durability 50 / 50",
       "sell": 3109,
       "desc": "",
       "weapon": {
@@ -534,13 +534,13 @@
     {
      "slot": "RANGED",
      "slotName": "Ranged",
-     "itemId": 287064,
-     "name": "Beastculler's Knife",
+     "itemId": 281660,
+     "name": "Iron Star",
      "quality": "UNCOMMON",
-     "ilvl": 23,
+     "ilvl": 27,
      "inventoryType": "THROWN",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135646.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132330.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
@@ -549,33 +549,28 @@
       "armor": "",
       "stats": [
        {
-        "s": "+1 Agility",
+        "s": "+3 Agility",
         "neg": false,
         "eq": false
-       },
-       {
-        "s": "+4 Attack Power Vs Beasts",
-        "neg": false,
-        "eq": true
        }
       ],
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 107 / 200",
-      "sell": 1594,
+      "dur": "Durability 198 / 200",
+      "sell": 2531,
       "desc": "",
       "weapon": {
-       "dmg": "11 - 22 Damage",
-       "speed": "Speed 1.60",
-       "dps": "(10.3 damage per second)"
+       "dmg": "17 - 33 Damage",
+       "speed": "Speed 2.00",
+       "dps": "(12.5 damage per second)"
       }
      }
     }
    ],
-   "itemLevel": 22.21,
+   "itemLevel": 23.21,
    "pvp": {
-    "hk": 170,
+    "hk": 172,
     "rank": 0,
     "rankName": "Unranked"
    },
@@ -593,13 +588,13 @@
     "primaries": [
      {
       "name": "Mining",
-      "skill": 112,
+      "skill": 121,
       "max": 150,
       "recipes": 6
      },
      {
       "name": "Engineering",
-      "skill": 150,
+      "skill": 173,
       "max": 225,
       "recipes": 33
      }
@@ -607,7 +602,7 @@
     "secondaries": [
      {
       "name": "Cooking",
-      "skill": 150,
+      "skill": 173,
       "max": 225,
       "recipes": 18
      },
@@ -627,9 +622,9 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/sir-billythecrit",
    "weekly": {
-    "levels": 7.39,
-    "ilvl": 6.51,
-    "hk": 166,
+    "levels": 7.77,
+    "ilvl": 7.51,
+    "hk": 168,
     "rank": 0
    },
    "ding60At": null
