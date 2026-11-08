@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1794175953362,
+ "generatedAt": 1794179522202,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -655,11 +655,11 @@
    "name": "Blue",
    "surname": "Embrace",
    "fullName": "Blue Embrace",
-   "level": 24,
-   "experience": 28039,
-   "xpToLevel": 31700,
-   "xpPct": 88.45,
-   "levelProgress": 24.88,
+   "level": 26,
+   "experience": 31649,
+   "xpToLevel": 36400,
+   "xpPct": 86.95,
+   "levelProgress": 26.87,
    "className": "Rogue",
    "classId": 4,
    "race": "Undead",
@@ -668,8 +668,8 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1794156362000,
-   "apiItemLevel": 19,
+   "lastLogin": 1794179357000,
+   "apiItemLevel": 20,
    "gear": [
     {
      "slot": "AMMO",
@@ -732,7 +732,7 @@
       "spells": [],
       "req": "Requires Level 20",
       "reqClass": "",
-      "dur": "Durability 43 / 50",
+      "dur": "Durability 31 / 50",
       "sell": 1206,
       "desc": ""
      }
@@ -768,7 +768,7 @@
       "spells": [],
       "req": "Requires Level 21",
       "reqClass": "",
-      "dur": "Durability 44 / 50",
+      "dur": "Durability 28 / 50",
       "sell": 659,
       "desc": ""
      }
@@ -776,10 +776,10 @@
     {
      "slot": "BACK",
      "slotName": "Back",
-     "itemId": 5314,
-     "name": "Boar Hunter's Cape",
-     "quality": "UNCOMMON",
-     "ilvl": 20,
+     "itemId": 6314,
+     "name": "Wolfmaster Cape",
+     "quality": "RARE",
+     "ilvl": 27,
      "inventoryType": "CLOAK",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133762.jpg",
@@ -788,19 +788,29 @@
       "unique": "",
       "inv": "Back",
       "sub": "Cloth",
-      "armor": "17 Armor",
+      "armor": "22 Armor",
       "stats": [
        {
-        "s": "+3 Agility",
+        "s": "+3 Stamina",
         "neg": false,
         "eq": false
+       },
+       {
+        "s": "+10 Attack Power",
+        "neg": false,
+        "eq": true
+       },
+       {
+        "s": "+9 Attack Power Vs Beasts",
+        "neg": false,
+        "eq": true
        }
       ],
       "spells": [],
-      "req": "",
+      "req": "Requires Level 22",
       "reqClass": "",
       "dur": "",
-      "sell": 528,
+      "sell": 1215,
       "desc": ""
      }
     },
@@ -837,7 +847,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 75 / 80",
+      "dur": "Durability 49 / 80",
       "sell": 1360,
       "desc": ""
      }
@@ -870,36 +880,36 @@
     {
      "slot": "WRIST",
      "slotName": "Wrist",
-     "itemId": 279875,
-     "name": "Spare Part Bindings",
-     "quality": "UNCOMMON",
-     "ilvl": 24,
+     "itemId": 270032,
+     "name": "Cultist's Armguards",
+     "quality": "RARE",
+     "ilvl": 29,
      "inventoryType": "WRIST",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132606.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132611.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Wrist",
       "sub": "Leather",
-      "armor": "37 Armor",
+      "armor": "44 Armor",
       "stats": [
        {
-        "s": "+3 Agility",
+        "s": "+7 Stamina",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+3 Stamina",
+        "s": "+10 Attack Power",
         "neg": false,
-        "eq": false
+        "eq": true
        }
       ],
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 25 / 25",
-      "sell": 614,
+      "dur": "Durability 35 / 35",
+      "sell": 1191,
       "desc": ""
      }
     },
@@ -936,7 +946,7 @@
       "spells": [],
       "req": "Requires Level 19",
       "reqClass": "",
-      "dur": "Durability 22 / 25",
+      "dur": "Durability 14 / 25",
       "sell": 588,
       "desc": ""
      }
@@ -972,7 +982,7 @@
       "spells": [],
       "req": "Requires Level 20",
       "reqClass": "",
-      "dur": "Durability 29 / 30",
+      "dur": "Durability 19 / 30",
       "sell": 703,
       "desc": ""
      }
@@ -1005,7 +1015,7 @@
       "spells": [],
       "req": "Requires Level 18",
       "reqClass": "",
-      "dur": "Durability 51 / 55",
+      "dur": "Durability 31 / 55",
       "sell": 1089,
       "desc": ""
      }
@@ -1038,7 +1048,7 @@
       "spells": [],
       "req": "Requires Level 15",
       "reqClass": "",
-      "dur": "Durability 29 / 35",
+      "dur": "Durability 18 / 35",
       "sell": 307,
       "desc": ""
      }
@@ -1046,13 +1056,13 @@
     {
      "slot": "FINGER_1",
      "slotName": "Ring 1",
-     "itemId": 281673,
-     "name": "Loop of Sacrifice",
-     "quality": "UNCOMMON",
-     "ilvl": 28,
+     "itemId": 6414,
+     "name": "Seal of Sylvanas",
+     "quality": "RARE",
+     "ilvl": 29,
      "inventoryType": "FINGER",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133368.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133357.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
@@ -1061,34 +1071,34 @@
       "armor": "",
       "stats": [
        {
-        "s": "+5 Intellect",
+        "s": "+8 Stamina",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+3 Strength",
+        "s": "+6 Attack Power",
         "neg": false,
-        "eq": false
+        "eq": true
        }
       ],
       "spells": [],
       "req": "",
       "reqClass": "",
       "dur": "",
-      "sell": 1413,
+      "sell": 1960,
       "desc": ""
      }
     },
     {
      "slot": "FINGER_2",
      "slotName": "Ring 2",
-     "itemId": 3739,
-     "name": "Skull Ring",
-     "quality": "UNCOMMON",
-     "ilvl": 25,
+     "itemId": 273839,
+     "name": "Spiked Shell Band",
+     "quality": "RARE",
+     "ilvl": 27,
      "inventoryType": "FINGER",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132501.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133344.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
@@ -1097,27 +1107,62 @@
       "armor": "",
       "stats": [
        {
-        "s": "+3 Intellect",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+3 Stamina",
+        "s": "+5 Stamina",
         "neg": false,
         "eq": false
        }
       ],
-      "spells": [],
-      "req": "",
+      "spells": [
+       "Equip: When struck in combat, inflicts 2 Nature damage to the attacker."
+      ],
+      "req": "Requires Level 22",
       "reqClass": "",
       "dur": "",
-      "sell": 1250,
+      "sell": 1636,
       "desc": ""
      }
     },
     {
      "slot": "MAIN_HAND",
      "slotName": "Main Hand",
+     "itemId": 6220,
+     "name": "Meteor Shard",
+     "quality": "RARE",
+     "ilvl": 28,
+     "inventoryType": "WEAPON",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135661.jpg",
+     "tt": {
+      "bind": "Binds when picked up",
+      "unique": "",
+      "inv": "One-Hand",
+      "sub": "Dagger",
+      "armor": "",
+      "stats": [
+       {
+        "s": "+3 Fire Resistance",
+        "neg": false,
+        "eq": false
+       }
+      ],
+      "spells": [
+       "Chance on hit: Blasts a target for 42 Fire damage."
+      ],
+      "req": "Requires Level 23",
+      "reqClass": "",
+      "dur": "Durability 29 / 60",
+      "sell": 4455,
+      "desc": "",
+      "weapon": {
+       "dmg": "22 - 42 Damage",
+       "speed": "Speed 1.80",
+       "dps": "(17.8 damage per second)"
+      }
+     }
+    },
+    {
+     "slot": "OFF_HAND",
+     "slotName": "Off Hand",
      "itemId": 5279,
      "name": "Harpy Skinner",
      "quality": "UNCOMMON",
@@ -1141,43 +1186,13 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 37 / 40",
+      "dur": "Durability 17 / 40",
       "sell": 1436,
       "desc": "",
       "weapon": {
        "dmg": "9 - 18 Damage",
        "speed": "Speed 1.40",
        "dps": "(9.6 damage per second)"
-      }
-     }
-    },
-    {
-     "slot": "OFF_HAND",
-     "slotName": "Off Hand",
-     "itemId": 5093,
-     "name": "Razormane Backstabber",
-     "quality": "COMMON",
-     "ilvl": 21,
-     "inventoryType": "WEAPON",
-     "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135640.jpg",
-     "tt": {
-      "bind": "Binds when picked up",
-      "unique": "",
-      "inv": "One-Hand",
-      "sub": "Dagger",
-      "armor": "",
-      "stats": [],
-      "spells": [],
-      "req": "Requires Level 16",
-      "reqClass": "",
-      "dur": "Durability 38 / 40",
-      "sell": 247,
-      "desc": "",
-      "weapon": {
-       "dmg": "11 - 21 Damage",
-       "speed": "Speed 1.70",
-       "dps": "(9.4 damage per second)"
       }
      }
     },
@@ -1207,7 +1222,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 197 / 200",
+      "dur": "Durability 130 / 200",
       "sell": 2531,
       "desc": "",
       "weapon": {
@@ -1218,9 +1233,9 @@
      }
     }
    ],
-   "itemLevel": 24.6,
+   "itemLevel": 26.07,
    "pvp": {
-    "hk": 126,
+    "hk": 135,
     "rank": 0,
     "rankName": "Unranked"
    },
@@ -1228,10 +1243,10 @@
     "trees": [
      {
       "name": "Subtlety",
-      "points": 15
+      "points": 16
      }
     ],
-    "split": "15",
+    "split": "16",
     "main": "Subtlety"
    },
    "professions": {
@@ -1240,11 +1255,11 @@
       "name": "Leatherworking",
       "skill": 109,
       "max": 150,
-      "recipes": 42
+      "recipes": 44
      },
      {
       "name": "Skinning",
-      "skill": 175,
+      "skill": 185,
       "max": 225,
       "recipes": 2
      }
@@ -1264,17 +1279,17 @@
      },
      {
       "name": "First Aid",
-      "skill": 141,
+      "skill": 142,
       "max": 150,
-      "recipes": 9
+      "recipes": 11
      }
     ]
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/blue-embrace",
    "weekly": {
-    "levels": 8.72,
-    "ilvl": 11.8,
-    "hk": 123,
+    "levels": 10.71,
+    "ilvl": 13.27,
+    "hk": 132,
     "rank": 0
    },
    "ding60At": null
