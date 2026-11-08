@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1794094754605,
+ "generatedAt": 1794117228998,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -1246,11 +1246,11 @@
    "name": "Ruler",
    "surname": "Shiroune",
    "fullName": "Ruler Shiroune",
-   "level": 23,
-   "experience": 117,
-   "xpToLevel": 29400,
-   "xpPct": 0.4,
-   "levelProgress": 23,
+   "level": 27,
+   "experience": 682,
+   "xpToLevel": 38900,
+   "xpPct": 1.75,
+   "levelProgress": 27.02,
    "className": "Warrior",
    "classId": 1,
    "race": "Orc",
@@ -1259,8 +1259,8 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1794041802000,
-   "apiItemLevel": 16,
+   "lastLogin": 1794116683000,
+   "apiItemLevel": 20,
    "gear": [
     {
      "slot": "AMMO",
@@ -1295,25 +1295,36 @@
     {
      "slot": "HEAD",
      "slotName": "Head",
-     "itemId": 279391,
-     "name": "Taurajo Headband",
-     "quality": "COMMON",
-     "ilvl": 23,
+     "itemId": 250528,
+     "name": "Veteran's Silvered Chain Helm",
+     "quality": "RARE",
+     "ilvl": 25,
      "inventoryType": "HEAD",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133693.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133141.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Head",
-      "sub": "Cloth",
-      "armor": "28 Armor",
-      "stats": [],
+      "sub": "Mail",
+      "armor": "163 Armor",
+      "stats": [
+       {
+        "s": "+10 Strength",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+9 Stamina",
+        "neg": false,
+        "eq": false
+       }
+      ],
       "spells": [],
-      "req": "",
+      "req": "Requires Level 20",
       "reqClass": "",
-      "dur": "Durability 40 / 40",
-      "sell": 999,
+      "dur": "Durability 65 / 65",
+      "sell": 1439,
       "desc": ""
      }
     },
@@ -1397,7 +1408,9 @@
      "quality": "UNCOMMON",
      "ilvl": 26,
      "inventoryType": "CHEST",
-     "enchants": [],
+     "enchants": [
+      "Enchanted: Attack Power +4 and Armor +16"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132631.jpg",
      "tt": {
       "bind": "Binds when equipped",
@@ -1494,36 +1507,41 @@
     {
      "slot": "HANDS",
      "slotName": "Hands",
-     "itemId": 6481,
-     "name": "Dagmire Gauntlets",
-     "quality": "UNCOMMON",
-     "ilvl": 23,
+     "itemId": 6906,
+     "name": "Algae Fists",
+     "quality": "RARE",
+     "ilvl": 28,
      "inventoryType": "HAND",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132939.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132944.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Hands",
       "sub": "Mail",
-      "armor": "110 Armor",
+      "armor": "132 Armor",
       "stats": [
        {
-        "s": "+2 Agility",
+        "s": "+8 Strength",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+5 Strength",
+        "s": "+5 Stamina",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+5 Nature Resistance",
         "neg": false,
         "eq": false
        }
       ],
       "spells": [],
-      "req": "",
+      "req": "Requires Level 23",
       "reqClass": "",
-      "dur": "Durability 30 / 30",
-      "sell": 637,
+      "dur": "Durability 40 / 40",
+      "sell": 1336,
       "desc": ""
      }
     },
@@ -1566,38 +1584,43 @@
     {
      "slot": "LEGS",
      "slotName": "Legs",
-     "itemId": 15451,
-     "name": "Gargoyle Leggings",
-     "quality": "UNCOMMON",
-     "ilvl": 18,
+     "itemId": 250523,
+     "name": "Veteran's Silvered Chain Leggings",
+     "quality": "RARE",
+     "ilvl": 30,
      "inventoryType": "LEGS",
      "enchants": [
-      "Enchanted: Stamina +1 and Armor +8"
+      "Enchanted: Attack Power +4 and Armor +16"
      ],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134583.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134657.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Legs",
       "sub": "Mail",
-      "armor": "141 Armor",
+      "armor": "191 Armor",
       "stats": [
        {
-        "s": "+3 Strength",
+        "s": "+7 Agility",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+3 Spirit",
+        "s": "+11 Strength",
         "neg": false,
-        "eq": true
+        "eq": false
+       },
+       {
+        "s": "+8 Stamina",
+        "neg": false,
+        "eq": false
        }
       ],
       "spells": [],
-      "req": "",
+      "req": "Requires Level 25",
       "reqClass": "",
-      "dur": "Durability 60 / 60",
-      "sell": 645,
+      "dur": "Durability 90 / 90",
+      "sell": 3340,
       "desc": ""
      }
     },
@@ -1609,7 +1632,9 @@
      "quality": "RARE",
      "ilvl": 22,
      "inventoryType": "FEET",
-     "enchants": [],
+     "enchants": [
+      "Enchanted: Attack Power +4 and Armor +16"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132551.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -1640,13 +1665,13 @@
     {
      "slot": "FINGER_1",
      "slotName": "Ring 1",
-     "itemId": 281268,
-     "name": "Depleted Ritual Band",
-     "quality": "COMMON",
-     "ilvl": 9,
+     "itemId": 17694,
+     "name": "Band of the Fist",
+     "quality": "UNCOMMON",
+     "ilvl": 28,
      "inventoryType": "FINGER",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133348.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133344.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
@@ -1655,7 +1680,76 @@
       "armor": "",
       "stats": [
        {
-        "s": "+1 Bonus Armor",
+        "s": "+4 Agility",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+4 Strength",
+        "neg": false,
+        "eq": false
+       }
+      ],
+      "spells": [],
+      "req": "",
+      "reqClass": "",
+      "dur": "",
+      "sell": 1485,
+      "desc": ""
+     }
+    },
+    {
+     "slot": "FINGER_2",
+     "slotName": "Ring 2",
+     "itemId": 273839,
+     "name": "Spiked Shell Band",
+     "quality": "RARE",
+     "ilvl": 27,
+     "inventoryType": "FINGER",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133344.jpg",
+     "tt": {
+      "bind": "Binds when picked up",
+      "unique": "",
+      "inv": "Finger",
+      "sub": "Miscellaneous",
+      "armor": "",
+      "stats": [
+       {
+        "s": "+5 Stamina",
+        "neg": false,
+        "eq": false
+       }
+      ],
+      "spells": [
+       "Equip: When struck in combat, inflicts 2 Nature damage to the attacker."
+      ],
+      "req": "Requires Level 22",
+      "reqClass": "",
+      "dur": "",
+      "sell": 1636,
+      "desc": ""
+     }
+    },
+    {
+     "slot": "MAIN_HAND",
+     "slotName": "Main Hand",
+     "itemId": 16886,
+     "name": "Outlaw Sabre",
+     "quality": "RARE",
+     "ilvl": 32,
+     "inventoryType": "WEAPON",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135343.jpg",
+     "tt": {
+      "bind": "Binds when picked up",
+      "unique": "",
+      "inv": "One-Hand",
+      "sub": "Sword",
+      "armor": "",
+      "stats": [
+       {
+        "s": "+16 Attack Power",
         "neg": false,
         "eq": true
        }
@@ -1663,49 +1757,13 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "",
-      "sell": 44,
-      "desc": ""
-     }
-    },
-    {
-     "slot": "MAIN_HAND",
-     "slotName": "Main Hand",
-     "itemId": 6504,
-     "name": "Wingblade",
-     "quality": "RARE",
-     "ilvl": 24,
-     "inventoryType": "WEAPONMAINHAND",
-     "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135314.jpg",
-     "tt": {
-      "bind": "Binds when picked up",
-      "unique": "",
-      "inv": "Main Hand",
-      "sub": "Sword",
-      "armor": "",
-      "stats": [
-       {
-        "s": "+5 Agility",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+2 Stamina",
-        "neg": false,
-        "eq": false
-       }
-      ],
-      "spells": [],
-      "req": "",
-      "reqClass": "",
-      "dur": "Durability 75 / 75",
-      "sell": 2883,
+      "dur": "Durability 90 / 90",
+      "sell": 6522,
       "desc": "",
       "weapon": {
-       "dmg": "24 - 45 Damage",
-       "speed": "Speed 2.20",
-       "dps": "(15.7 damage per second)"
+       "dmg": "38 - 72 Damage",
+       "speed": "Speed 2.70",
+       "dps": "(20.4 damage per second)"
       }
      }
     },
@@ -1717,7 +1775,9 @@
      "quality": "RARE",
      "ilvl": 24,
      "inventoryType": "SHIELD",
-     "enchants": [],
+     "enchants": [
+      "Enchanted: Iron Spike (8-12)"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134948.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -1787,9 +1847,9 @@
      }
     }
    ],
-   "itemLevel": 20.64,
+   "itemLevel": 24.13,
    "pvp": {
-    "hk": 160,
+    "hk": 167,
     "rank": 0,
     "rankName": "Unranked"
    },
@@ -1797,25 +1857,25 @@
     "trees": [
      {
       "name": "Protection",
-      "points": 14
+      "points": 18
      }
     ],
-    "split": "14",
+    "split": "18",
     "main": "Protection"
    },
    "professions": {
     "primaries": [
      {
       "name": "Mining",
-      "skill": 114,
+      "skill": 122,
       "max": 150,
       "recipes": 6
      },
      {
       "name": "Blacksmithing",
-      "skill": 117,
-      "max": 150,
-      "recipes": 32
+      "skill": 150,
+      "max": 225,
+      "recipes": 61
      }
     ],
     "secondaries": [
@@ -1823,27 +1883,27 @@
       "name": "Cooking",
       "skill": 13,
       "max": 75,
-      "recipes": 4
+      "recipes": 5
      },
      {
       "name": "Fishing",
-      "skill": 11,
+      "skill": 18,
       "max": 75,
       "recipes": 1
      },
      {
       "name": "First Aid",
-      "skill": 150,
-      "max": 150,
-      "recipes": 8
+      "skill": 165,
+      "max": 225,
+      "recipes": 10
      }
     ]
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/ruler-shiroune",
    "weekly": {
-    "levels": 7.86,
-    "ilvl": 7.37,
-    "hk": 155,
+    "levels": 11.88,
+    "ilvl": 10.86,
+    "hk": 162,
     "rank": 0
    },
    "ding60At": null
