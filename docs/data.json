@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1794133465002,
+ "generatedAt": 1794136302529,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -2570,11 +2570,11 @@
    "name": "Sire",
    "surname": "Khingen",
    "fullName": "Sire Khingen",
-   "level": 25,
-   "experience": 21145,
-   "xpToLevel": 34000,
-   "xpPct": 62.19,
-   "levelProgress": 25.62,
+   "level": 26,
+   "experience": 8656,
+   "xpToLevel": 36400,
+   "xpPct": 23.78,
+   "levelProgress": 26.24,
    "className": "Paladin",
    "classId": 2,
    "race": "Undead",
@@ -2583,8 +2583,8 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1794093965000,
-   "apiItemLevel": 20,
+   "lastLogin": 1794136080000,
+   "apiItemLevel": 21,
    "gear": [
     {
      "slot": "HEAD",
@@ -2617,7 +2617,7 @@
       "spells": [],
       "req": "Requires Level 20",
       "reqClass": "",
-      "dur": "Durability 53 / 65",
+      "dur": "Durability 49 / 65",
       "sell": 1439,
       "desc": ""
      }
@@ -2653,7 +2653,7 @@
       "spells": [],
       "req": "Requires Level 17",
       "reqClass": "",
-      "dur": "Durability 43 / 50",
+      "dur": "Durability 38 / 50",
       "sell": 532,
       "desc": ""
      }
@@ -2730,7 +2730,7 @@
       "spells": [],
       "req": "Requires Level 24",
       "reqClass": "",
-      "dur": "Durability 105 / 120",
+      "dur": "Durability 100 / 120",
       "sell": 2935,
       "desc": ""
      }
@@ -2791,7 +2791,7 @@
       "spells": [],
       "req": "Requires Level 16",
       "reqClass": "",
-      "dur": "Durability 30 / 35",
+      "dur": "Durability 28 / 35",
       "sell": 585,
       "desc": ""
      }
@@ -2827,7 +2827,7 @@
       "spells": [],
       "req": "Requires Level 17",
       "reqClass": "",
-      "dur": "Durability 32 / 35",
+      "dur": "Durability 26 / 35",
       "sell": 686,
       "desc": ""
      }
@@ -2863,7 +2863,7 @@
       "spells": [],
       "req": "Requires Level 15",
       "reqClass": "",
-      "dur": "Durability 29 / 35",
+      "dur": "Durability 27 / 35",
       "sell": 505,
       "desc": ""
      }
@@ -2904,7 +2904,7 @@
       "spells": [],
       "req": "Requires Level 25",
       "reqClass": "",
-      "dur": "Durability 80 / 90",
+      "dur": "Durability 74 / 90",
       "sell": 3149,
       "desc": ""
      }
@@ -2940,7 +2940,7 @@
       "spells": [],
       "req": "Requires Level 17",
       "reqClass": "",
-      "dur": "Durability 40 / 50",
+      "dur": "Durability 30 / 50",
       "sell": 970,
       "desc": ""
      }
@@ -3020,50 +3020,52 @@
     {
      "slot": "MAIN_HAND",
      "slotName": "Main Hand",
-     "itemId": 251533,
-     "name": "Forsaken Greataxe",
+     "itemId": 267369,
+     "name": "Wolfsbane",
      "quality": "RARE",
-     "ilvl": 24,
+     "ilvl": 31,
      "inventoryType": "TWOHWEAPON",
-     "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132409.jpg",
+     "enchants": [
+      "Sharpened +3"
+     ],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135326.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Two-Hand",
-      "sub": "Axe",
+      "sub": "Sword",
       "armor": "",
       "stats": [
        {
-        "s": "+8 Strength",
+        "s": "+10 Intellect",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+4 Stamina",
+        "s": "+9 Stamina",
         "neg": false,
         "eq": false
        }
       ],
       "spells": [
-       "Equip: Increases movement speed by 2% in Silverpine Forest and Hillsbrad Foothills."
+       "Chance on hit: Sear the target with a vortex of blazing wind, dealing 39 to 59 Holystorm damage. Deals 3 times as much damage to Wolves and Worgen."
       ],
       "req": "",
-      "reqClass": "",
-      "dur": "Durability 86 / 90",
-      "sell": 3629,
+      "reqClass": "Classes: Paladin",
+      "dur": "Durability 98 / 100",
+      "sell": 7459,
       "desc": "",
       "weapon": {
-       "dmg": "49 - 74 Damage",
-       "speed": "Speed 3.00",
-       "dps": "(20.5 damage per second)"
+       "dmg": "69 - 105 Damage",
+       "speed": "Speed 3.40",
+       "dps": "(25.6 damage per second)"
       }
      }
     }
    ],
-   "itemLevel": 24.85,
+   "itemLevel": 25.92,
    "pvp": {
-    "hk": 11,
+    "hk": 13,
     "rank": 0,
     "rankName": "Unranked"
    },
@@ -3071,17 +3073,17 @@
     "trees": [
      {
       "name": "Retribution",
-      "points": 16
+      "points": 17
      }
     ],
-    "split": "16",
+    "split": "17",
     "main": "Retribution"
    },
    "professions": {
     "primaries": [
      {
       "name": "Mining",
-      "skill": 122,
+      "skill": 123,
       "max": 150,
       "recipes": 6
      },
@@ -3115,9 +3117,9 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/sire-khingen",
    "weekly": {
-    "levels": 15.38,
-    "ilvl": 17.63,
-    "hk": 11,
+    "levels": 16,
+    "ilvl": 18.7,
+    "hk": 13,
     "rank": 0
    },
    "ding60At": null
