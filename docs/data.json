@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1794156826126,
+ "generatedAt": 1794159531247,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -1945,11 +1945,11 @@
    "name": "Dala",
    "surname": "Hoon",
    "fullName": "Dala Hoon",
-   "level": 24,
-   "experience": 8159,
-   "xpToLevel": 31700,
-   "xpPct": 25.74,
-   "levelProgress": 24.26,
+   "level": 26,
+   "experience": 25635,
+   "xpToLevel": 36400,
+   "xpPct": 70.43,
+   "levelProgress": 26.7,
    "className": "Shaman",
    "classId": 7,
    "race": "Orc",
@@ -1958,47 +1958,80 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1794130542000,
-   "apiItemLevel": 15,
+   "lastLogin": 1794159084000,
+   "apiItemLevel": 20,
    "gear": [
+    {
+     "slot": "NECK",
+     "slotName": "Neck",
+     "itemId": 273457,
+     "name": "Sorcerer Collar",
+     "quality": "RARE",
+     "ilvl": 22,
+     "inventoryType": "NECK",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133294.jpg",
+     "tt": {
+      "bind": "Binds when picked up",
+      "unique": "",
+      "inv": "Neck",
+      "sub": "Miscellaneous",
+      "armor": "",
+      "stats": [
+       {
+        "s": "+2 Intellect",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+2 Spirit",
+        "neg": false,
+        "eq": true
+       }
+      ],
+      "spells": [
+       "Equip: Reduces the hit chance of Silence effects against you by 4%."
+      ],
+      "req": "Requires Level 17",
+      "reqClass": "",
+      "dur": "",
+      "sell": 878,
+      "desc": ""
+     }
+    },
     {
      "slot": "SHOULDER",
      "slotName": "Shoulders",
-     "itemId": 10657,
-     "name": "Talbar Mantle",
+     "itemId": 270023,
+     "name": "Tanned Shoulderpads",
      "quality": "UNCOMMON",
-     "ilvl": 26,
+     "ilvl": 27,
      "inventoryType": "SHOULDER",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135040.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135058.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Shoulder",
-      "sub": "Cloth",
-      "armor": "30 Armor",
+      "sub": "Leather",
+      "armor": "67 Armor",
       "stats": [
        {
-        "s": "+4 Intellect",
+        "s": "+6 Intellect",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+2 Stamina",
+        "s": "+3 Strength",
         "neg": false,
         "eq": false
-       },
-       {
-        "s": "+1 Mana Regeneration per 5 sec",
-        "neg": false,
-        "eq": true
        }
       ],
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 39 / 40",
-      "sell": 920,
+      "dur": "Durability 50 / 50",
+      "sell": 1309,
       "desc": ""
      }
     },
@@ -2066,7 +2099,7 @@
       "spells": [],
       "req": "Requires Level 17",
       "reqClass": "",
-      "dur": "Durability 74 / 90",
+      "dur": "Durability 90 / 90",
       "sell": 1077,
       "desc": ""
      }
@@ -2102,7 +2135,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 21 / 25",
+      "dur": "Durability 25 / 25",
       "sell": 614,
       "desc": ""
      }
@@ -2140,7 +2173,7 @@
       "spells": [],
       "req": "Requires Level 14",
       "reqClass": "",
-      "dur": "Durability 25 / 30",
+      "dur": "Durability 30 / 30",
       "sell": 374,
       "desc": "",
       "set": {
@@ -2219,7 +2252,7 @@
       "spells": [],
       "req": "Requires Level 16",
       "reqClass": "",
-      "dur": "Durability 26 / 30",
+      "dur": "Durability 30 / 30",
       "sell": 494,
       "desc": "",
       "set": {
@@ -2300,7 +2333,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 44 / 50",
+      "dur": "Durability 50 / 50",
       "sell": 519,
       "desc": ""
      }
@@ -2338,7 +2371,7 @@
       "spells": [],
       "req": "Requires Level 17",
       "reqClass": "",
-      "dur": "Durability 34 / 40",
+      "dur": "Durability 40 / 40",
       "sell": 849,
       "desc": "",
       "set": {
@@ -2389,41 +2422,10 @@
     {
      "slot": "FINGER_1",
      "slotName": "Ring 1",
-     "itemId": 281268,
-     "name": "Depleted Ritual Band",
-     "quality": "COMMON",
-     "ilvl": 9,
-     "inventoryType": "FINGER",
-     "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133348.jpg",
-     "tt": {
-      "bind": "Binds when picked up",
-      "unique": "",
-      "inv": "Finger",
-      "sub": "Miscellaneous",
-      "armor": "",
-      "stats": [
-       {
-        "s": "+1 Bonus Armor",
-        "neg": false,
-        "eq": true
-       }
-      ],
-      "spells": [],
-      "req": "",
-      "reqClass": "",
-      "dur": "",
-      "sell": 44,
-      "desc": ""
-     }
-    },
-    {
-     "slot": "FINGER_2",
-     "slotName": "Ring 2",
-     "itemId": 6463,
-     "name": "Deep Fathom Ring",
+     "itemId": 6414,
+     "name": "Seal of Sylvanas",
      "quality": "RARE",
-     "ilvl": 24,
+     "ilvl": 29,
      "inventoryType": "FINGER",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133357.jpg",
@@ -2435,21 +2437,90 @@
       "armor": "",
       "stats": [
        {
-        "s": "+3 Stamina",
+        "s": "+8 Stamina",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+2 Spell Piercing",
+        "s": "+6 Attack Power",
         "neg": false,
         "eq": true
        }
       ],
       "spells": [],
-      "req": "Requires Level 19",
+      "req": "",
       "reqClass": "",
       "dur": "",
-      "sell": 1153,
+      "sell": 1960,
+      "desc": ""
+     }
+    },
+    {
+     "slot": "FINGER_2",
+     "slotName": "Ring 2",
+     "itemId": 281673,
+     "name": "Loop of Sacrifice",
+     "quality": "UNCOMMON",
+     "ilvl": 28,
+     "inventoryType": "FINGER",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133368.jpg",
+     "tt": {
+      "bind": "Binds when picked up",
+      "unique": "",
+      "inv": "Finger",
+      "sub": "Miscellaneous",
+      "armor": "",
+      "stats": [
+       {
+        "s": "+5 Intellect",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+3 Strength",
+        "neg": false,
+        "eq": false
+       }
+      ],
+      "spells": [],
+      "req": "",
+      "reqClass": "",
+      "dur": "",
+      "sell": 1413,
+      "desc": ""
+     }
+    },
+    {
+     "slot": "TRINKET_1",
+     "slotName": "Trinket 1",
+     "itemId": 273643,
+     "name": "Worgenbane Talisman",
+     "quality": "RARE",
+     "ilvl": 26,
+     "inventoryType": "TRINKET",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133439.jpg",
+     "tt": {
+      "bind": "Binds when picked up",
+      "unique": "",
+      "inv": "Trinket",
+      "sub": "Miscellaneous",
+      "armor": "",
+      "stats": [
+       {
+        "s": "+2 Mana Regeneration per 5 sec",
+        "neg": false,
+        "eq": true
+       }
+      ],
+      "spells": [
+       "Use: Stuns target Worgen for 4 sec. (5 Min Cooldown)"
+      ],
+      "req": "Requires Level 21",
+      "reqClass": "",
+      "dur": "",
+      "sell": 1433,
       "desc": ""
      }
     },
@@ -2486,7 +2557,7 @@
       ],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 80 / 90",
+      "dur": "Durability 90 / 90",
       "sell": 3629,
       "desc": "",
       "weapon": {
@@ -2524,7 +2595,7 @@
      }
     }
    ],
-   "itemLevel": 20.23,
+   "itemLevel": 22.4,
    "pvp": {
     "hk": 3,
     "rank": 0,
@@ -2534,27 +2605,27 @@
     "trees": [
      {
       "name": "Enhancement",
-      "points": 14
+      "points": 16
      },
      {
       "name": "Restoration",
       "points": 1
      }
     ],
-    "split": "14/1",
+    "split": "16/1",
     "main": "Enhancement"
    },
    "professions": {
     "primaries": [
      {
       "name": "Leatherworking",
-      "skill": 96,
+      "skill": 104,
       "max": 150,
-      "recipes": 38
+      "recipes": 44
      },
      {
       "name": "Skinning",
-      "skill": 162,
+      "skill": 188,
       "max": 225,
       "recipes": 2
      }
@@ -2582,8 +2653,8 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/dala-hoon",
    "weekly": {
-    "levels": 9.46,
-    "ilvl": 10.23,
+    "levels": 11.9,
+    "ilvl": 12.4,
     "hk": 3,
     "rank": 0
    },
