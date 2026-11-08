@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1794159531247,
+ "generatedAt": 1794163156256,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -1946,10 +1946,10 @@
    "surname": "Hoon",
    "fullName": "Dala Hoon",
    "level": 26,
-   "experience": 25635,
+   "experience": 34148,
    "xpToLevel": 36400,
-   "xpPct": 70.43,
-   "levelProgress": 26.7,
+   "xpPct": 93.81,
+   "levelProgress": 26.94,
    "className": "Shaman",
    "classId": 7,
    "race": "Orc",
@@ -1958,7 +1958,7 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1794159084000,
+   "lastLogin": 1794162295000,
    "apiItemLevel": 20,
    "gear": [
     {
@@ -2030,7 +2030,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 50 / 50",
+      "dur": "Durability 49 / 50",
       "sell": 1309,
       "desc": ""
      }
@@ -2099,7 +2099,7 @@
       "spells": [],
       "req": "Requires Level 17",
       "reqClass": "",
-      "dur": "Durability 90 / 90",
+      "dur": "Durability 86 / 90",
       "sell": 1077,
       "desc": ""
      }
@@ -2135,7 +2135,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 25 / 25",
+      "dur": "Durability 23 / 25",
       "sell": 614,
       "desc": ""
      }
@@ -2173,7 +2173,7 @@
       "spells": [],
       "req": "Requires Level 14",
       "reqClass": "",
-      "dur": "Durability 30 / 30",
+      "dur": "Durability 29 / 30",
       "sell": 374,
       "desc": "",
       "set": {
@@ -2252,7 +2252,7 @@
       "spells": [],
       "req": "Requires Level 16",
       "reqClass": "",
-      "dur": "Durability 30 / 30",
+      "dur": "Durability 28 / 30",
       "sell": 494,
       "desc": "",
       "set": {
@@ -2333,7 +2333,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 50 / 50",
+      "dur": "Durability 48 / 50",
       "sell": 519,
       "desc": ""
      }
@@ -2371,7 +2371,7 @@
       "spells": [],
       "req": "Requires Level 17",
       "reqClass": "",
-      "dur": "Durability 40 / 40",
+      "dur": "Durability 38 / 40",
       "sell": 849,
       "desc": "",
       "set": {
@@ -2532,7 +2532,9 @@
      "quality": "RARE",
      "ilvl": 24,
      "inventoryType": "TWOHWEAPON",
-     "enchants": [],
+     "enchants": [
+      "Rockbiter 3"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132409.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -2625,7 +2627,7 @@
      },
      {
       "name": "Skinning",
-      "skill": 188,
+      "skill": 191,
       "max": 225,
       "recipes": 2
      }
@@ -2645,15 +2647,15 @@
      },
      {
       "name": "First Aid",
-      "skill": 102,
+      "skill": 126,
       "max": 150,
-      "recipes": 8
+      "recipes": 11
      }
     ]
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/dala-hoon",
    "weekly": {
-    "levels": 11.9,
+    "levels": 12.14,
     "ilvl": 12.4,
     "hk": 3,
     "rank": 0
@@ -2670,10 +2672,10 @@
    "surname": "Khingen",
    "fullName": "Sire Khingen",
    "level": 26,
-   "experience": 21866,
+   "experience": 30368,
    "xpToLevel": 36400,
-   "xpPct": 60.07,
-   "levelProgress": 26.6,
+   "xpPct": 83.43,
+   "levelProgress": 26.83,
    "className": "Paladin",
    "classId": 2,
    "race": "Undead",
@@ -2682,8 +2684,8 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1794152183000,
-   "apiItemLevel": 17,
+   "lastLogin": 1794162736000,
+   "apiItemLevel": 21,
    "gear": [
     {
      "slot": "HEAD",
@@ -2716,7 +2718,7 @@
       "spells": [],
       "req": "Requires Level 20",
       "reqClass": "",
-      "dur": "Durability 65 / 65",
+      "dur": "Durability 64 / 65",
       "sell": 1439,
       "desc": ""
      }
@@ -2829,7 +2831,7 @@
       "spells": [],
       "req": "Requires Level 24",
       "reqClass": "",
-      "dur": "Durability 120 / 120",
+      "dur": "Durability 115 / 120",
       "sell": 2935,
       "desc": ""
      }
@@ -2890,7 +2892,7 @@
       "spells": [],
       "req": "Requires Level 16",
       "reqClass": "",
-      "dur": "Durability 35 / 35",
+      "dur": "Durability 34 / 35",
       "sell": 585,
       "desc": ""
      }
@@ -2926,7 +2928,7 @@
       "spells": [],
       "req": "Requires Level 17",
       "reqClass": "",
-      "dur": "Durability 35 / 35",
+      "dur": "Durability 32 / 35",
       "sell": 686,
       "desc": ""
      }
@@ -2962,7 +2964,7 @@
       "spells": [],
       "req": "Requires Level 15",
       "reqClass": "",
-      "dur": "Durability 35 / 35",
+      "dur": "Durability 33 / 35",
       "sell": 505,
       "desc": ""
      }
@@ -3003,7 +3005,7 @@
       "spells": [],
       "req": "Requires Level 25",
       "reqClass": "",
-      "dur": "Durability 90 / 90",
+      "dur": "Durability 86 / 90",
       "sell": 3149,
       "desc": ""
      }
@@ -3039,7 +3041,7 @@
       "spells": [],
       "req": "Requires Level 17",
       "reqClass": "",
-      "dur": "Durability 50 / 50",
+      "dur": "Durability 49 / 50",
       "sell": 970,
       "desc": ""
      }
@@ -3119,37 +3121,48 @@
     {
      "slot": "MAIN_HAND",
      "slotName": "Main Hand",
-     "itemId": 6256,
-     "name": "Fishing Pole",
-     "quality": "COMMON",
-     "ilvl": 1,
+     "itemId": 267369,
+     "name": "Wolfsbane",
+     "quality": "RARE",
+     "ilvl": 31,
      "inventoryType": "TWOHWEAPON",
-     "enchants": [
-      "Fishing Lure +25"
-     ],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132932.jpg",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135326.jpg",
      "tt": {
-      "bind": "",
+      "bind": "Binds when picked up",
       "unique": "",
       "inv": "Two-Hand",
-      "sub": "Fishing Pole",
+      "sub": "Sword",
       "armor": "",
-      "stats": [],
-      "spells": [],
+      "stats": [
+       {
+        "s": "+10 Intellect",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+9 Stamina",
+        "neg": false,
+        "eq": false
+       }
+      ],
+      "spells": [
+       "Chance on hit: Sear the target with a vortex of blazing wind, dealing 39 to 59 Holystorm damage. Deals 3 times as much damage to Wolves and Worgen."
+      ],
       "req": "",
-      "reqClass": "",
-      "dur": "Durability 16 / 16",
-      "sell": 4,
+      "reqClass": "Classes: Paladin",
+      "dur": "Durability 98 / 100",
+      "sell": 7459,
       "desc": "",
       "weapon": {
-       "dmg": "2 - 4 Damage",
-       "speed": "Speed 3.00",
-       "dps": "(1.0 damage per second)"
+       "dmg": "69 - 105 Damage",
+       "speed": "Speed 3.40",
+       "dps": "(25.6 damage per second)"
       }
      }
     }
    ],
-   "itemLevel": 21.31,
+   "itemLevel": 25.92,
    "pvp": {
     "hk": 13,
     "rank": 0,
@@ -3169,9 +3182,9 @@
     "primaries": [
      {
       "name": "Mining",
-      "skill": 133,
+      "skill": 142,
       "max": 150,
-      "recipes": 6
+      "recipes": 7
      },
      {
       "name": "Blacksmithing",
@@ -3183,13 +3196,13 @@
     "secondaries": [
      {
       "name": "Cooking",
-      "skill": 75,
+      "skill": 84,
       "max": 150,
       "recipes": 11
      },
      {
       "name": "Fishing",
-      "skill": 33,
+      "skill": 75,
       "max": 75,
       "recipes": 2
      },
@@ -3203,8 +3216,8 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/sire-khingen",
    "weekly": {
-    "levels": 16.36,
-    "ilvl": 14.09,
+    "levels": 16.59,
+    "ilvl": 18.7,
     "hk": 13,
     "rank": 0
    },
