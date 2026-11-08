@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1794117228998,
+ "generatedAt": 1794130751166,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -1930,7 +1930,7 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1794093032000,
+   "lastLogin": 1794130542000,
    "apiItemLevel": 15,
    "gear": [
     {
@@ -2013,7 +2013,9 @@
      "quality": "RARE",
      "ilvl": 22,
      "inventoryType": "CHEST",
-     "enchants": [],
+     "enchants": [
+      "Enchanted: Stamina +2 and Armor +16"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133684.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -2085,7 +2087,9 @@
      "quality": "RARE",
      "ilvl": 19,
      "inventoryType": "HAND",
-     "enchants": [],
+     "enchants": [
+      "Enchanted: Stamina +2 and Armor +16"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132952.jpg",
      "tt": {
       "bind": "Binds when equipped",
@@ -2243,7 +2247,9 @@
      "quality": "UNCOMMON",
      "ilvl": 18,
      "inventoryType": "LEGS",
-     "enchants": [],
+     "enchants": [
+      "Enchanted: Stamina +2 and Armor +16"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134582.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -2279,7 +2285,9 @@
      "quality": "RARE",
      "ilvl": 22,
      "inventoryType": "FEET",
-     "enchants": [],
+     "enchants": [
+      "Enchanted: Stamina +2 and Armor +16"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132538.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -2514,7 +2522,7 @@
       "name": "Leatherworking",
       "skill": 96,
       "max": 150,
-      "recipes": 36
+      "recipes": 38
      },
      {
       "name": "Skinning",
