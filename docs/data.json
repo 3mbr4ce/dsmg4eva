@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1794137948774,
+ "generatedAt": 1794138828128,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -1247,10 +1247,10 @@
    "surname": "Shiroune",
    "fullName": "Ruler Shiroune",
    "level": 27,
-   "experience": 682,
+   "experience": 8532,
    "xpToLevel": 38900,
-   "xpPct": 1.75,
-   "levelProgress": 27.02,
+   "xpPct": 21.93,
+   "levelProgress": 27.22,
    "className": "Warrior",
    "classId": 1,
    "race": "Orc",
@@ -1259,7 +1259,7 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1794137204000,
+   "lastLogin": 1794138605000,
    "apiItemLevel": 20,
    "gear": [
     {
@@ -1770,38 +1770,41 @@
     {
      "slot": "OFF_HAND",
      "slotName": "Off Hand",
-     "itemId": 271213,
-     "name": "Mirror of Rath'mael",
+     "itemId": 7002,
+     "name": "Arctic Buckler",
      "quality": "RARE",
-     "ilvl": 24,
+     "ilvl": 29,
      "inventoryType": "SHIELD",
-     "enchants": [
-      "Enchanted: Iron Spike (8-12)"
-     ],
+     "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134948.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Off Hand",
       "sub": "Shield",
-      "armor": "547 Armor",
+      "armor": "642 Armor",
       "stats": [
        {
-        "s": "+5 Strength",
+        "s": "+8 Stamina",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+5 Block",
+        "s": "+5 Frost Resistance",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+3 Spirit",
         "neg": false,
         "eq": true
        }
       ],
       "spells": [],
-      "req": "Requires Level 19",
+      "req": "",
       "reqClass": "",
-      "dur": "Durability 90 / 90",
-      "sell": 1768,
+      "dur": "Durability 100 / 100",
+      "sell": 3136,
       "desc": ""
      }
     },
@@ -1847,7 +1850,7 @@
      }
     }
    ],
-   "itemLevel": 24.13,
+   "itemLevel": 24.47,
    "pvp": {
     "hk": 167,
     "rank": 0,
@@ -1901,8 +1904,8 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/ruler-shiroune",
    "weekly": {
-    "levels": 11.88,
-    "ilvl": 10.86,
+    "levels": 12.08,
+    "ilvl": 11.2,
     "hk": 162,
     "rank": 0
    },
