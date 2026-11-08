@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1794163156256,
+ "generatedAt": 1794168770869,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -42,11 +42,11 @@
    "name": "Sir",
    "surname": "Billythecrit",
    "fullName": "Sir Billythecrit",
-   "level": 25,
-   "experience": 26264,
-   "xpToLevel": 34000,
-   "xpPct": 77.25,
-   "levelProgress": 25.77,
+   "level": 26,
+   "experience": 12460,
+   "xpToLevel": 36400,
+   "xpPct": 34.23,
+   "levelProgress": 26.34,
    "className": "Rogue",
    "classId": 4,
    "race": "Undead",
@@ -55,8 +55,8 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1794142202000,
-   "apiItemLevel": 17,
+   "lastLogin": 1794168745000,
+   "apiItemLevel": 19,
    "gear": [
     {
      "slot": "HEAD",
@@ -89,7 +89,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 44 / 45",
+      "dur": "Durability 39 / 45",
       "sell": 1410,
       "desc": ""
      }
@@ -97,25 +97,36 @@
     {
      "slot": "SHOULDER",
      "slotName": "Shoulders",
-     "itemId": 1769,
-     "name": "Canvas Shoulderpads",
-     "quality": "POOR",
-     "ilvl": 20,
+     "itemId": 270023,
+     "name": "Tanned Shoulderpads",
+     "quality": "UNCOMMON",
+     "ilvl": 27,
      "inventoryType": "SHOULDER",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135040.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135058.jpg",
      "tt": {
-      "bind": "",
+      "bind": "Binds when picked up",
       "unique": "",
       "inv": "Shoulder",
-      "sub": "Cloth",
-      "armor": "23 Armor",
-      "stats": [],
+      "sub": "Leather",
+      "armor": "67 Armor",
+      "stats": [
+       {
+        "s": "+6 Intellect",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+3 Strength",
+        "neg": false,
+        "eq": false
+       }
+      ],
       "spells": [],
-      "req": "Requires Level 15",
+      "req": "",
       "reqClass": "",
-      "dur": "Durability 34 / 35",
-      "sell": 163,
+      "dur": "Durability 50 / 50",
+      "sell": 1309,
       "desc": ""
      }
     },
@@ -181,7 +192,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 78 / 80",
+      "dur": "Durability 74 / 80",
       "sell": 1360,
       "desc": ""
      }
@@ -242,7 +253,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 25 / 25",
+      "dur": "Durability 21 / 25",
       "sell": 614,
       "desc": ""
      }
@@ -278,7 +289,7 @@
       "spells": [],
       "req": "Requires Level 18",
       "reqClass": "",
-      "dur": "Durability 19 / 20",
+      "dur": "Durability 18 / 20",
       "sell": 510,
       "desc": ""
      }
@@ -314,7 +325,7 @@
       "spells": [],
       "req": "Requires Level 11",
       "reqClass": "",
-      "dur": "Durability 20 / 20",
+      "dur": "Durability 19 / 20",
       "sell": 125,
       "desc": ""
      }
@@ -350,7 +361,7 @@
       "spells": [],
       "req": "Requires Level 14",
       "reqClass": "",
-      "dur": "Durability 49 / 50",
+      "dur": "Durability 48 / 50",
       "sell": 599,
       "desc": ""
      }
@@ -489,7 +500,7 @@
       "spells": [],
       "req": "Requires Level 16",
       "reqClass": "",
-      "dur": "Durability 45 / 45",
+      "dur": "Durability 41 / 45",
       "sell": 1963,
       "desc": "",
       "weapon": {
@@ -521,7 +532,7 @@
       ],
       "req": "Requires Level 22",
       "reqClass": "",
-      "dur": "Durability 50 / 50",
+      "dur": "Durability 49 / 50",
       "sell": 3109,
       "desc": "",
       "weapon": {
@@ -568,7 +579,7 @@
      }
     }
    ],
-   "itemLevel": 23.21,
+   "itemLevel": 23.71,
    "pvp": {
     "hk": 172,
     "rank": 0,
@@ -578,25 +589,25 @@
     "trees": [
      {
       "name": "Subtlety",
-      "points": 16
+      "points": 17
      }
     ],
-    "split": "16",
+    "split": "17",
     "main": "Subtlety"
    },
    "professions": {
     "primaries": [
      {
       "name": "Mining",
-      "skill": 121,
+      "skill": 124,
       "max": 150,
       "recipes": 6
      },
      {
       "name": "Engineering",
-      "skill": 173,
+      "skill": 192,
       "max": 225,
-      "recipes": 33
+      "recipes": 41
      }
     ],
     "secondaries": [
@@ -622,8 +633,8 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/sir-billythecrit",
    "weekly": {
-    "levels": 7.77,
-    "ilvl": 7.51,
+    "levels": 8.34,
+    "ilvl": 8.01,
     "hk": 168,
     "rank": 0
    },
