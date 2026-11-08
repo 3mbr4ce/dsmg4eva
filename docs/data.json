@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1794152378039,
+ "generatedAt": 1794156826126,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -639,10 +639,10 @@
    "surname": "Embrace",
    "fullName": "Blue Embrace",
    "level": 24,
-   "experience": 11253,
+   "experience": 28039,
    "xpToLevel": 31700,
-   "xpPct": 35.5,
-   "levelProgress": 24.35,
+   "xpPct": 88.45,
+   "levelProgress": 24.88,
    "className": "Rogue",
    "classId": 4,
    "race": "Undead",
@@ -651,9 +651,39 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1794090359000,
+   "lastLogin": 1794156362000,
    "apiItemLevel": 19,
    "gear": [
+    {
+     "slot": "AMMO",
+     "slotName": "Ammo",
+     "itemId": 3465,
+     "name": "Exploding Shot",
+     "quality": "UNCOMMON",
+     "ilvl": 36,
+     "inventoryType": "AMMO",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132384.jpg",
+     "tt": {
+      "bind": "",
+      "unique": "",
+      "inv": "Ammo",
+      "sub": "Bullet",
+      "armor": "",
+      "stats": [],
+      "spells": [],
+      "req": "",
+      "reqClass": "",
+      "dur": "",
+      "sell": 9,
+      "desc": "",
+      "weapon": {
+       "dmg": "Adds 9.5 damage per second",
+       "speed": "",
+       "dps": ""
+      }
+     }
+    },
     {
      "slot": "HEAD",
      "slotName": "Head",
@@ -685,7 +715,7 @@
       "spells": [],
       "req": "Requires Level 20",
       "reqClass": "",
-      "dur": "Durability 49 / 50",
+      "dur": "Durability 43 / 50",
       "sell": 1206,
       "desc": ""
      }
@@ -721,7 +751,7 @@
       "spells": [],
       "req": "Requires Level 21",
       "reqClass": "",
-      "dur": "Durability 49 / 50",
+      "dur": "Durability 44 / 50",
       "sell": 659,
       "desc": ""
      }
@@ -790,7 +820,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 79 / 80",
+      "dur": "Durability 75 / 80",
       "sell": 1360,
       "desc": ""
      }
@@ -889,7 +919,7 @@
       "spells": [],
       "req": "Requires Level 19",
       "reqClass": "",
-      "dur": "Durability 24 / 25",
+      "dur": "Durability 22 / 25",
       "sell": 588,
       "desc": ""
      }
@@ -958,7 +988,7 @@
       "spells": [],
       "req": "Requires Level 18",
       "reqClass": "",
-      "dur": "Durability 53 / 55",
+      "dur": "Durability 51 / 55",
       "sell": 1089,
       "desc": ""
      }
@@ -991,7 +1021,7 @@
       "spells": [],
       "req": "Requires Level 15",
       "reqClass": "",
-      "dur": "Durability 34 / 35",
+      "dur": "Durability 29 / 35",
       "sell": 307,
       "desc": ""
      }
@@ -1094,7 +1124,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 39 / 40",
+      "dur": "Durability 37 / 40",
       "sell": 1436,
       "desc": "",
       "weapon": {
@@ -1124,7 +1154,7 @@
       "spells": [],
       "req": "Requires Level 16",
       "reqClass": "",
-      "dur": "Durability 40 / 40",
+      "dur": "Durability 38 / 40",
       "sell": 247,
       "desc": "",
       "weapon": {
@@ -1160,7 +1190,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 200 / 200",
+      "dur": "Durability 197 / 200",
       "sell": 2531,
       "desc": "",
       "weapon": {
@@ -1171,9 +1201,9 @@
      }
     }
    ],
-   "itemLevel": 23.79,
+   "itemLevel": 24.6,
    "pvp": {
-    "hk": 113,
+    "hk": 126,
     "rank": 0,
     "rankName": "Unranked"
    },
@@ -1197,7 +1227,7 @@
      },
      {
       "name": "Skinning",
-      "skill": 172,
+      "skill": 175,
       "max": 225,
       "recipes": 2
      }
@@ -1225,9 +1255,9 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/blue-embrace",
    "weekly": {
-    "levels": 8.19,
-    "ilvl": 10.99,
-    "hk": 110,
+    "levels": 8.72,
+    "ilvl": 11.8,
+    "hk": 123,
     "rank": 0
    },
    "ding60At": null
