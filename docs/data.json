@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1794174854679,
+ "generatedAt": 1794175953362,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -42,11 +42,11 @@
    "name": "Sir",
    "surname": "Billythecrit",
    "fullName": "Sir Billythecrit",
-   "level": 26,
-   "experience": 12460,
-   "xpToLevel": 36400,
-   "xpPct": 34.23,
-   "levelProgress": 26.34,
+   "level": 27,
+   "experience": 3004,
+   "xpToLevel": 38900,
+   "xpPct": 7.72,
+   "levelProgress": 27.08,
    "className": "Rogue",
    "classId": 4,
    "race": "Undead",
@@ -55,7 +55,7 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1794168745000,
+   "lastLogin": 1794175822000,
    "apiItemLevel": 19,
    "gear": [
     {
@@ -89,7 +89,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 39 / 45",
+      "dur": "Durability 35 / 45",
       "sell": 1410,
       "desc": ""
      }
@@ -125,7 +125,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 50 / 50",
+      "dur": "Durability 49 / 50",
       "sell": 1309,
       "desc": ""
      }
@@ -192,7 +192,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 74 / 80",
+      "dur": "Durability 70 / 80",
       "sell": 1360,
       "desc": ""
      }
@@ -253,7 +253,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 21 / 25",
+      "dur": "Durability 19 / 25",
       "sell": 614,
       "desc": ""
      }
@@ -289,7 +289,7 @@
       "spells": [],
       "req": "Requires Level 18",
       "reqClass": "",
-      "dur": "Durability 18 / 20",
+      "dur": "Durability 15 / 20",
       "sell": 510,
       "desc": ""
      }
@@ -325,7 +325,7 @@
       "spells": [],
       "req": "Requires Level 11",
       "reqClass": "",
-      "dur": "Durability 19 / 20",
+      "dur": "Durability 17 / 20",
       "sell": 125,
       "desc": ""
      }
@@ -361,7 +361,7 @@
       "spells": [],
       "req": "Requires Level 14",
       "reqClass": "",
-      "dur": "Durability 48 / 50",
+      "dur": "Durability 43 / 50",
       "sell": 599,
       "desc": ""
      }
@@ -397,7 +397,7 @@
       "spells": [],
       "req": "Requires Level 18",
       "reqClass": "",
-      "dur": "Durability 38 / 40",
+      "dur": "Durability 37 / 40",
       "sell": 797,
       "desc": ""
      }
@@ -405,42 +405,6 @@
     {
      "slot": "FINGER_1",
      "slotName": "Ring 1",
-     "itemId": 281673,
-     "name": "Loop of Sacrifice",
-     "quality": "UNCOMMON",
-     "ilvl": 28,
-     "inventoryType": "FINGER",
-     "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133368.jpg",
-     "tt": {
-      "bind": "Binds when picked up",
-      "unique": "",
-      "inv": "Finger",
-      "sub": "Miscellaneous",
-      "armor": "",
-      "stats": [
-       {
-        "s": "+5 Intellect",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+3 Strength",
-        "neg": false,
-        "eq": false
-       }
-      ],
-      "spells": [],
-      "req": "",
-      "reqClass": "",
-      "dur": "",
-      "sell": 1413,
-      "desc": ""
-     }
-    },
-    {
-     "slot": "FINGER_2",
-     "slotName": "Ring 2",
      "itemId": 4998,
      "name": "Blood Ring",
      "quality": "UNCOMMON",
@@ -470,8 +434,82 @@
      }
     },
     {
+     "slot": "FINGER_2",
+     "slotName": "Ring 2",
+     "itemId": 6414,
+     "name": "Seal of Sylvanas",
+     "quality": "RARE",
+     "ilvl": 29,
+     "inventoryType": "FINGER",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133357.jpg",
+     "tt": {
+      "bind": "Binds when picked up",
+      "unique": "",
+      "inv": "Finger",
+      "sub": "Miscellaneous",
+      "armor": "",
+      "stats": [
+       {
+        "s": "+8 Stamina",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+6 Attack Power",
+        "neg": false,
+        "eq": true
+       }
+      ],
+      "spells": [],
+      "req": "",
+      "reqClass": "",
+      "dur": "",
+      "sell": 1960,
+      "desc": ""
+     }
+    },
+    {
      "slot": "MAIN_HAND",
      "slotName": "Main Hand",
+     "itemId": 6904,
+     "name": "Bite of Serra'kis",
+     "quality": "RARE",
+     "ilvl": 28,
+     "inventoryType": "WEAPON",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134298.jpg",
+     "tt": {
+      "bind": "Binds when picked up",
+      "unique": "",
+      "inv": "One-Hand",
+      "sub": "Dagger",
+      "armor": "",
+      "stats": [
+       {
+        "s": "+2 Nature Resistance",
+        "neg": false,
+        "eq": false
+       }
+      ],
+      "spells": [
+       "Chance on hit: Poisons target for 14 Nature damage every 3 sec for 9 sec."
+      ],
+      "req": "Requires Level 23",
+      "reqClass": "",
+      "dur": "Durability 57 / 60",
+      "sell": 4455,
+      "desc": "",
+      "weapon": {
+       "dmg": "16 - 30 Damage",
+       "speed": "Speed 1.30",
+       "dps": "(17.7 damage per second)"
+      }
+     }
+    },
+    {
+     "slot": "OFF_HAND",
+     "slotName": "Off Hand",
      "itemId": 6448,
      "name": "Tail Spike",
      "quality": "RARE",
@@ -500,40 +538,8 @@
       "spells": [],
       "req": "Requires Level 16",
       "reqClass": "",
-      "dur": "Durability 41 / 45",
+      "dur": "Durability 30 / 45",
       "sell": 1963,
-      "desc": "",
-      "weapon": {
-       "dmg": "17 - 33 Damage",
-       "speed": "Speed 1.80",
-       "dps": "(13.9 damage per second)"
-      }
-     }
-    },
-    {
-     "slot": "OFF_HAND",
-     "slotName": "Off Hand",
-     "itemId": 5752,
-     "name": "Wyvern Tailspike",
-     "quality": "UNCOMMON",
-     "ilvl": 27,
-     "inventoryType": "WEAPON",
-     "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135652.jpg",
-     "tt": {
-      "bind": "Binds when equipped",
-      "unique": "",
-      "inv": "One-Hand",
-      "sub": "Dagger",
-      "armor": "",
-      "stats": [],
-      "spells": [
-       "Chance on hit: Poisons target for 6 Nature damage every 3 sec for 15 sec."
-      ],
-      "req": "Requires Level 22",
-      "reqClass": "",
-      "dur": "Durability 49 / 50",
-      "sell": 3109,
       "desc": "",
       "weapon": {
        "dmg": "17 - 33 Damage",
@@ -568,7 +574,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 198 / 200",
+      "dur": "Durability 195 / 200",
       "sell": 2531,
       "desc": "",
       "weapon": {
@@ -579,9 +585,9 @@
      }
     }
    ],
-   "itemLevel": 23.71,
+   "itemLevel": 23.86,
    "pvp": {
-    "hk": 172,
+    "hk": 177,
     "rank": 0,
     "rankName": "Unranked"
    },
@@ -589,10 +595,10 @@
     "trees": [
      {
       "name": "Subtlety",
-      "points": 17
+      "points": 18
      }
     ],
-    "split": "17",
+    "split": "18",
     "main": "Subtlety"
    },
    "professions": {
@@ -605,9 +611,9 @@
      },
      {
       "name": "Engineering",
-      "skill": 192,
+      "skill": 198,
       "max": 225,
-      "recipes": 41
+      "recipes": 42
      }
     ],
     "secondaries": [
@@ -633,9 +639,9 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/sir-billythecrit",
    "weekly": {
-    "levels": 8.34,
-    "ilvl": 8.01,
-    "hk": 168,
+    "levels": 9.08,
+    "ilvl": 8.16,
+    "hk": 173,
     "rank": 0
    },
    "ding60At": null
@@ -1282,11 +1288,11 @@
    "name": "Ruler",
    "surname": "Shiroune",
    "fullName": "Ruler Shiroune",
-   "level": 27,
-   "experience": 8532,
-   "xpToLevel": 38900,
-   "xpPct": 21.93,
-   "levelProgress": 27.22,
+   "level": 28,
+   "experience": 20785,
+   "xpToLevel": 41400,
+   "xpPct": 50.21,
+   "levelProgress": 28.5,
    "className": "Warrior",
    "classId": 1,
    "race": "Orc",
@@ -1295,8 +1301,8 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1794138605000,
-   "apiItemLevel": 20,
+   "lastLogin": 1794175798000,
+   "apiItemLevel": 22,
    "gear": [
     {
      "slot": "AMMO",
@@ -1359,7 +1365,7 @@
       "spells": [],
       "req": "Requires Level 20",
       "reqClass": "",
-      "dur": "Durability 65 / 65",
+      "dur": "Durability 48 / 65",
       "sell": 1439,
       "desc": ""
      }
@@ -1367,115 +1373,105 @@
     {
      "slot": "SHOULDER",
      "slotName": "Shoulders",
-     "itemId": 3480,
-     "name": "Rough Bronze Shoulders",
+     "itemId": 3840,
+     "name": "Green Iron Shoulders",
      "quality": "UNCOMMON",
-     "ilvl": 22,
+     "ilvl": 32,
      "inventoryType": "SHOULDER",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135036.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135040.jpg",
      "tt": {
       "bind": "Binds when equipped",
       "unique": "",
       "inv": "Shoulder",
       "sub": "Mail",
-      "armor": "130 Armor",
+      "armor": "153 Armor",
       "stats": [
        {
-        "s": "+3 Strength",
+        "s": "+4 Strength",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+4 Stamina",
+        "s": "+7 Stamina",
         "neg": false,
         "eq": false
        }
       ],
       "spells": [],
-      "req": "Requires Level 17",
+      "req": "Requires Level 27",
       "reqClass": "",
-      "dur": "Durability 50 / 50",
-      "sell": 532,
+      "dur": "Durability 45 / 60",
+      "sell": 2571,
       "desc": ""
      }
     },
     {
      "slot": "BACK",
      "slotName": "Back",
-     "itemId": 2316,
-     "name": "Dark Leather Cloak",
+     "itemId": 9867,
+     "name": "Renegade Cloak of Strength",
      "quality": "UNCOMMON",
-     "ilvl": 22,
+     "ilvl": 33,
      "inventoryType": "CLOAK",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133762.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133757.jpg",
      "tt": {
       "bind": "Binds when equipped",
       "unique": "",
       "inv": "Back",
       "sub": "Cloth",
-      "armor": "18 Armor",
+      "armor": "23 Armor",
       "stats": [
        {
-        "s": "+3 Agility",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+2 Strength",
+        "s": "+7 Strength",
         "neg": false,
         "eq": false
        }
       ],
       "spells": [],
-      "req": "Requires Level 17",
+      "req": "Requires Level 28",
       "reqClass": "",
       "dur": "",
-      "sell": 408,
+      "sell": 1778,
       "desc": ""
      }
     },
     {
      "slot": "CHEST",
      "slotName": "Chest",
-     "itemId": 2869,
-     "name": "Silvered Bronze Breastplate",
-     "quality": "UNCOMMON",
-     "ilvl": 26,
+     "itemId": 2870,
+     "name": "Shining Silver Breastplate",
+     "quality": "RARE",
+     "ilvl": 29,
      "inventoryType": "CHEST",
      "enchants": [
       "Enchanted: Attack Power +4 and Armor +16"
      ],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132631.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132750.jpg",
      "tt": {
       "bind": "Binds when equipped",
       "unique": "",
       "inv": "Chest",
       "sub": "Mail",
-      "armor": "186 Armor",
+      "armor": "214 Armor",
       "stats": [
        {
-        "s": "+5 Strength",
+        "s": "+14 Strength",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+5 Stamina",
+        "s": "+6 Stamina",
         "neg": false,
         "eq": false
-       },
-       {
-        "s": "+4 Spirit",
-        "neg": false,
-        "eq": true
        }
       ],
       "spells": [],
-      "req": "Requires Level 21",
+      "req": "Requires Level 24",
       "reqClass": "",
-      "dur": "Durability 95 / 95",
-      "sell": 1831,
+      "dur": "Durability 98 / 120",
+      "sell": 2935,
       "desc": ""
      }
     },
@@ -1535,7 +1531,7 @@
       "spells": [],
       "req": "Requires Level 16",
       "reqClass": "",
-      "dur": "Durability 35 / 35",
+      "dur": "Durability 30 / 35",
       "sell": 585,
       "desc": ""
      }
@@ -1548,7 +1544,9 @@
      "quality": "RARE",
      "ilvl": 28,
      "inventoryType": "HAND",
-     "enchants": [],
+     "enchants": [
+      "Enchanted: Stamina +2 and Armor +16"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132944.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -1576,7 +1574,7 @@
       "spells": [],
       "req": "Requires Level 23",
       "reqClass": "",
-      "dur": "Durability 40 / 40",
+      "dur": "Durability 35 / 40",
       "sell": 1336,
       "desc": ""
      }
@@ -1612,7 +1610,7 @@
       "spells": [],
       "req": "Requires Level 17",
       "reqClass": "",
-      "dur": "Durability 35 / 35",
+      "dur": "Durability 28 / 35",
       "sell": 677,
       "desc": ""
      }
@@ -1655,7 +1653,7 @@
       "spells": [],
       "req": "Requires Level 25",
       "reqClass": "",
-      "dur": "Durability 90 / 90",
+      "dur": "Durability 73 / 90",
       "sell": 3340,
       "desc": ""
      }
@@ -1693,7 +1691,7 @@
       "spells": [],
       "req": "Requires Level 17",
       "reqClass": "",
-      "dur": "Durability 50 / 50",
+      "dur": "Durability 39 / 50",
       "sell": 970,
       "desc": ""
      }
@@ -1701,6 +1699,42 @@
     {
      "slot": "FINGER_1",
      "slotName": "Ring 1",
+     "itemId": 6414,
+     "name": "Seal of Sylvanas",
+     "quality": "RARE",
+     "ilvl": 29,
+     "inventoryType": "FINGER",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133357.jpg",
+     "tt": {
+      "bind": "Binds when picked up",
+      "unique": "",
+      "inv": "Finger",
+      "sub": "Miscellaneous",
+      "armor": "",
+      "stats": [
+       {
+        "s": "+8 Stamina",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+6 Attack Power",
+        "neg": false,
+        "eq": true
+       }
+      ],
+      "spells": [],
+      "req": "",
+      "reqClass": "",
+      "dur": "",
+      "sell": 1960,
+      "desc": ""
+     }
+    },
+    {
+     "slot": "FINGER_2",
+     "slotName": "Ring 2",
      "itemId": 17694,
      "name": "Band of the Fist",
      "quality": "UNCOMMON",
@@ -1735,39 +1769,6 @@
      }
     },
     {
-     "slot": "FINGER_2",
-     "slotName": "Ring 2",
-     "itemId": 273839,
-     "name": "Spiked Shell Band",
-     "quality": "RARE",
-     "ilvl": 27,
-     "inventoryType": "FINGER",
-     "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133344.jpg",
-     "tt": {
-      "bind": "Binds when picked up",
-      "unique": "",
-      "inv": "Finger",
-      "sub": "Miscellaneous",
-      "armor": "",
-      "stats": [
-       {
-        "s": "+5 Stamina",
-        "neg": false,
-        "eq": false
-       }
-      ],
-      "spells": [
-       "Equip: When struck in combat, inflicts 2 Nature damage to the attacker."
-      ],
-      "req": "Requires Level 22",
-      "reqClass": "",
-      "dur": "",
-      "sell": 1636,
-      "desc": ""
-     }
-    },
-    {
      "slot": "MAIN_HAND",
      "slotName": "Main Hand",
      "itemId": 16886,
@@ -1793,7 +1794,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 90 / 90",
+      "dur": "Durability 76 / 90",
       "sell": 6522,
       "desc": "",
       "weapon": {
@@ -1811,7 +1812,9 @@
      "quality": "RARE",
      "ilvl": 29,
      "inventoryType": "SHIELD",
-     "enchants": [],
+     "enchants": [
+      "Enchanted: Iron Spike (8-12)"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134948.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -1839,7 +1842,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 100 / 100",
+      "dur": "Durability 69 / 100",
       "sell": 3136,
       "desc": ""
      }
@@ -1875,7 +1878,7 @@
       "spells": [],
       "req": "Requires Level 13",
       "reqClass": "",
-      "dur": "Durability 200 / 200",
+      "dur": "Durability 176 / 200",
       "sell": 821,
       "desc": "",
       "weapon": {
@@ -1886,9 +1889,9 @@
      }
     }
    ],
-   "itemLevel": 24.47,
+   "itemLevel": 26.2,
    "pvp": {
-    "hk": 167,
+    "hk": 168,
     "rank": 0,
     "rankName": "Unranked"
    },
@@ -1896,25 +1899,25 @@
     "trees": [
      {
       "name": "Protection",
-      "points": 18
+      "points": 19
      }
     ],
-    "split": "18",
+    "split": "19",
     "main": "Protection"
    },
    "professions": {
     "primaries": [
      {
       "name": "Mining",
-      "skill": 122,
+      "skill": 123,
       "max": 150,
       "recipes": 6
      },
      {
       "name": "Blacksmithing",
-      "skill": 150,
+      "skill": 185,
       "max": 225,
-      "recipes": 61
+      "recipes": 70
      }
     ],
     "secondaries": [
@@ -1932,7 +1935,7 @@
      },
      {
       "name": "First Aid",
-      "skill": 165,
+      "skill": 167,
       "max": 225,
       "recipes": 10
      }
@@ -1940,9 +1943,9 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/ruler-shiroune",
    "weekly": {
-    "levels": 12.08,
-    "ilvl": 11.2,
-    "hk": 162,
+    "levels": 13.36,
+    "ilvl": 12.93,
+    "hk": 163,
     "rank": 0
    },
    "ding60At": null
