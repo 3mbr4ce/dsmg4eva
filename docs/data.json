@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1794147843652,
+ "generatedAt": 1794152378039,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -2581,8 +2581,8 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1794147524000,
-   "apiItemLevel": 21,
+   "lastLogin": 1794152183000,
+   "apiItemLevel": 17,
    "gear": [
     {
      "slot": "HEAD",
@@ -3018,48 +3018,37 @@
     {
      "slot": "MAIN_HAND",
      "slotName": "Main Hand",
-     "itemId": 267369,
-     "name": "Wolfsbane",
-     "quality": "RARE",
-     "ilvl": 31,
+     "itemId": 6256,
+     "name": "Fishing Pole",
+     "quality": "COMMON",
+     "ilvl": 1,
      "inventoryType": "TWOHWEAPON",
-     "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135326.jpg",
+     "enchants": [
+      "Fishing Lure +25"
+     ],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132932.jpg",
      "tt": {
-      "bind": "Binds when picked up",
+      "bind": "",
       "unique": "",
       "inv": "Two-Hand",
-      "sub": "Sword",
+      "sub": "Fishing Pole",
       "armor": "",
-      "stats": [
-       {
-        "s": "+10 Intellect",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+9 Stamina",
-        "neg": false,
-        "eq": false
-       }
-      ],
-      "spells": [
-       "Chance on hit: Sear the target with a vortex of blazing wind, dealing 39 to 59 Holystorm damage. Deals 3 times as much damage to Wolves and Worgen."
-      ],
+      "stats": [],
+      "spells": [],
       "req": "",
-      "reqClass": "Classes: Paladin",
-      "dur": "Durability 100 / 100",
-      "sell": 7459,
+      "reqClass": "",
+      "dur": "Durability 16 / 16",
+      "sell": 4,
       "desc": "",
       "weapon": {
-       "dmg": "69 - 105 Damage",
-       "speed": "Speed 3.40",
-       "dps": "(25.6 damage per second)"
+       "dmg": "2 - 4 Damage",
+       "speed": "Speed 3.00",
+       "dps": "(1.0 damage per second)"
       }
      }
     }
    ],
-   "itemLevel": 25.92,
+   "itemLevel": 21.31,
    "pvp": {
     "hk": 13,
     "rank": 0,
@@ -3085,7 +3074,7 @@
      },
      {
       "name": "Blacksmithing",
-      "skill": 150,
+      "skill": 163,
       "max": 225,
       "recipes": 59
      }
@@ -3095,18 +3084,18 @@
       "name": "Cooking",
       "skill": 75,
       "max": 150,
-      "recipes": 10
+      "recipes": 11
      },
      {
       "name": "Fishing",
-      "skill": 26,
+      "skill": 33,
       "max": 75,
       "recipes": 2
      },
      {
       "name": "First Aid",
-      "skill": 150,
-      "max": 150,
+      "skill": 157,
+      "max": 225,
       "recipes": 10
      }
     ]
@@ -3114,7 +3103,7 @@
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/sire-khingen",
    "weekly": {
     "levels": 16.36,
-    "ilvl": 18.7,
+    "ilvl": 14.09,
     "hk": 13,
     "rank": 0
    },
