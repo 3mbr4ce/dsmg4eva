@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1794234710792,
+ "generatedAt": 1794237313824,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -43,10 +43,10 @@
    "surname": "Billythecrit",
    "fullName": "Sir Billythecrit",
    "level": 28,
-   "experience": 8776,
+   "experience": 14876,
    "xpToLevel": 41400,
-   "xpPct": 21.2,
-   "levelProgress": 28.21,
+   "xpPct": 35.93,
+   "levelProgress": 28.36,
    "className": "Rogue",
    "classId": 4,
    "race": "Undead",
@@ -55,8 +55,8 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1794234596000,
-   "apiItemLevel": 20,
+   "lastLogin": 1794236275000,
+   "apiItemLevel": 21,
    "gear": [
     {
      "slot": "HEAD",
@@ -307,36 +307,41 @@
     {
      "slot": "WAIST",
      "slotName": "Waist",
-     "itemId": 4246,
-     "name": "Fine Leather Belt",
+     "itemId": 16659,
+     "name": "Deftkin Belt",
      "quality": "UNCOMMON",
-     "ilvl": 16,
+     "ilvl": 27,
      "inventoryType": "WAIST",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132493.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132498.jpg",
      "tt": {
-      "bind": "Binds when equipped",
+      "bind": "Binds when picked up",
       "unique": "",
       "inv": "Waist",
       "sub": "Leather",
-      "armor": "40 Armor",
+      "armor": "50 Armor",
       "stats": [
        {
-        "s": "+2 Agility",
+        "s": "+4 Agility",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+2 Stamina",
+        "s": "+3 Stamina",
         "neg": false,
         "eq": false
+       },
+       {
+        "s": "+12 Attack Power",
+        "neg": false,
+        "eq": true
        }
       ],
       "spells": [],
-      "req": "Requires Level 11",
+      "req": "",
       "reqClass": "",
-      "dur": "Durability 20 / 20",
-      "sell": 125,
+      "dur": "Durability 30 / 30",
+      "sell": 856,
       "desc": ""
      }
     },
@@ -595,7 +600,7 @@
      }
     }
    ],
-   "itemLevel": 24.86,
+   "itemLevel": 25.64,
    "pvp": {
     "hk": 182,
     "rank": 0,
@@ -649,8 +654,8 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/sir-billythecrit",
    "weekly": {
-    "levels": 10.21,
-    "ilvl": 9.16,
+    "levels": 10.36,
+    "ilvl": 9.94,
     "hk": 178,
     "rank": 0
    },
