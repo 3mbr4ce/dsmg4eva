@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1794254034151,
+ "generatedAt": 1794257661972,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -2715,20 +2715,20 @@
    "name": "Sire",
    "surname": "Khingen",
    "fullName": "Sire Khingen",
-   "level": 26,
-   "experience": 30368,
-   "xpToLevel": 36400,
-   "xpPct": 83.43,
-   "levelProgress": 26.83,
+   "level": 28,
+   "experience": 377,
+   "xpToLevel": 41400,
+   "xpPct": 0.91,
+   "levelProgress": 28.01,
    "className": "Paladin",
    "classId": 2,
    "race": "Undead",
    "raceId": 5,
-   "gender": "FEMALE",
+   "gender": "MALE",
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1794162736000,
+   "lastLogin": 1794257100000,
    "apiItemLevel": 21,
    "gear": [
     {
@@ -2762,7 +2762,7 @@
       "spells": [],
       "req": "Requires Level 20",
       "reqClass": "",
-      "dur": "Durability 64 / 65",
+      "dur": "Durability 59 / 65",
       "sell": 1439,
       "desc": ""
      }
@@ -2798,7 +2798,7 @@
       "spells": [],
       "req": "Requires Level 17",
       "reqClass": "",
-      "dur": "Durability 50 / 50",
+      "dur": "Durability 38 / 50",
       "sell": 532,
       "desc": ""
      }
@@ -2852,7 +2852,9 @@
      "quality": "RARE",
      "ilvl": 29,
      "inventoryType": "CHEST",
-     "enchants": [],
+     "enchants": [
+      "Enchanted: Stamina +2 and Armor +16"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132750.jpg",
      "tt": {
       "bind": "Binds when equipped",
@@ -2875,7 +2877,7 @@
       "spells": [],
       "req": "Requires Level 24",
       "reqClass": "",
-      "dur": "Durability 115 / 120",
+      "dur": "Durability 96 / 120",
       "sell": 2935,
       "desc": ""
      }
@@ -2908,72 +2910,77 @@
     {
      "slot": "WRIST",
      "slotName": "Wrist",
-     "itemId": 286981,
-     "name": "Death Bindings",
+     "itemId": 270032,
+     "name": "Cultist's Armguards",
      "quality": "RARE",
-     "ilvl": 21,
+     "ilvl": 29,
      "inventoryType": "WRIST",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132605.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132611.jpg",
      "tt": {
-      "bind": "Binds when equipped",
+      "bind": "Binds when picked up",
       "unique": "",
       "inv": "Wrist",
-      "sub": "Mail",
-      "armor": "82 Armor",
+      "sub": "Leather",
+      "armor": "44 Armor",
       "stats": [
        {
-        "s": "+5 Strength",
+        "s": "+7 Stamina",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+2 Spirit",
+        "s": "+10 Attack Power",
         "neg": false,
         "eq": true
        }
       ],
       "spells": [],
-      "req": "Requires Level 16",
+      "req": "",
       "reqClass": "",
       "dur": "Durability 34 / 35",
-      "sell": 585,
+      "sell": 1191,
       "desc": ""
      }
     },
     {
      "slot": "HANDS",
      "slotName": "Hands",
-     "itemId": 271208,
-     "name": "Grip of Fear",
+     "itemId": 6906,
+     "name": "Algae Fists",
      "quality": "RARE",
-     "ilvl": 22,
+     "ilvl": 28,
      "inventoryType": "HAND",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132938.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132944.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Hands",
       "sub": "Mail",
-      "armor": "119 Armor",
+      "armor": "132 Armor",
       "stats": [
        {
-        "s": "+6 Intellect",
+        "s": "+8 Strength",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+6 Strength",
+        "s": "+5 Stamina",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+5 Nature Resistance",
         "neg": false,
         "eq": false
        }
       ],
       "spells": [],
-      "req": "Requires Level 17",
+      "req": "Requires Level 23",
       "reqClass": "",
-      "dur": "Durability 32 / 35",
-      "sell": 686,
+      "dur": "Durability 39 / 40",
+      "sell": 1336,
       "desc": ""
      }
     },
@@ -3008,7 +3015,7 @@
       "spells": [],
       "req": "Requires Level 15",
       "reqClass": "",
-      "dur": "Durability 33 / 35",
+      "dur": "Durability 27 / 35",
       "sell": 505,
       "desc": ""
      }
@@ -3021,7 +3028,9 @@
      "quality": "RARE",
      "ilvl": 30,
      "inventoryType": "LEGS",
-     "enchants": [],
+     "enchants": [
+      "Enchanted: Stamina +2 and Armor +16"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134665.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -3049,7 +3058,7 @@
       "spells": [],
       "req": "Requires Level 25",
       "reqClass": "",
-      "dur": "Durability 86 / 90",
+      "dur": "Durability 75 / 90",
       "sell": 3149,
       "desc": ""
      }
@@ -3062,7 +3071,9 @@
      "quality": "RARE",
      "ilvl": 22,
      "inventoryType": "FEET",
-     "enchants": [],
+     "enchants": [
+      "Enchanted: Stamina +2 and Armor +16"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132551.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -3085,7 +3096,7 @@
       "spells": [],
       "req": "Requires Level 17",
       "reqClass": "",
-      "dur": "Durability 49 / 50",
+      "dur": "Durability 45 / 50",
       "sell": 970,
       "desc": ""
      }
@@ -3195,7 +3206,7 @@
       ],
       "req": "",
       "reqClass": "Classes: Paladin",
-      "dur": "Durability 98 / 100",
+      "dur": "Durability 83 / 100",
       "sell": 7459,
       "desc": "",
       "weapon": {
@@ -3206,9 +3217,9 @@
      }
     }
    ],
-   "itemLevel": 25.92,
+   "itemLevel": 27,
    "pvp": {
-    "hk": 13,
+    "hk": 26,
     "rank": 0,
     "rankName": "Unranked"
    },
@@ -3216,43 +3227,43 @@
     "trees": [
      {
       "name": "Retribution",
-      "points": 17
+      "points": 19
      }
     ],
-    "split": "17",
+    "split": "19",
     "main": "Retribution"
    },
    "professions": {
     "primaries": [
      {
       "name": "Mining",
-      "skill": 142,
-      "max": 150,
-      "recipes": 7
+      "skill": 148,
+      "max": 225,
+      "recipes": 8
      },
      {
       "name": "Blacksmithing",
-      "skill": 163,
+      "skill": 167,
       "max": 225,
-      "recipes": 59
+      "recipes": 60
      }
     ],
     "secondaries": [
      {
       "name": "Cooking",
-      "skill": 84,
+      "skill": 131,
       "max": 150,
-      "recipes": 11
+      "recipes": 14
      },
      {
       "name": "Fishing",
       "skill": 75,
-      "max": 75,
+      "max": 150,
       "recipes": 2
      },
      {
       "name": "First Aid",
-      "skill": 157,
+      "skill": 174,
       "max": 225,
       "recipes": 10
      }
@@ -3260,9 +3271,9 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/sire-khingen",
    "weekly": {
-    "levels": 16.59,
-    "ilvl": 18.7,
-    "hk": 13,
+    "levels": 17.77,
+    "ilvl": 19.78,
+    "hk": 26,
     "rank": 0
    },
    "ding60At": null
