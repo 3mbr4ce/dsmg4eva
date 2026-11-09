@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1794237313824,
+ "generatedAt": 1794239639895,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -43,10 +43,10 @@
    "surname": "Billythecrit",
    "fullName": "Sir Billythecrit",
    "level": 28,
-   "experience": 14876,
+   "experience": 25821,
    "xpToLevel": 41400,
-   "xpPct": 35.93,
-   "levelProgress": 28.36,
+   "xpPct": 62.37,
+   "levelProgress": 28.62,
    "className": "Rogue",
    "classId": 4,
    "race": "Undead",
@@ -55,7 +55,7 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1794236275000,
+   "lastLogin": 1794239355000,
    "apiItemLevel": 21,
    "gear": [
     {
@@ -235,36 +235,36 @@
     {
      "slot": "WRIST",
      "slotName": "Wrist",
-     "itemId": 279875,
-     "name": "Spare Part Bindings",
-     "quality": "UNCOMMON",
-     "ilvl": 24,
+     "itemId": 270032,
+     "name": "Cultist's Armguards",
+     "quality": "RARE",
+     "ilvl": 29,
      "inventoryType": "WRIST",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132606.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132611.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Wrist",
       "sub": "Leather",
-      "armor": "37 Armor",
+      "armor": "44 Armor",
       "stats": [
        {
-        "s": "+3 Agility",
+        "s": "+7 Stamina",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+3 Stamina",
+        "s": "+10 Attack Power",
         "neg": false,
-        "eq": false
+        "eq": true
        }
       ],
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 25 / 25",
-      "sell": 614,
+      "dur": "Durability 35 / 35",
+      "sell": 1191,
       "desc": ""
      }
     },
@@ -600,7 +600,7 @@
      }
     }
    ],
-   "itemLevel": 25.64,
+   "itemLevel": 26,
    "pvp": {
     "hk": 182,
     "rank": 0,
@@ -646,16 +646,16 @@
      },
      {
       "name": "First Aid",
-      "skill": 150,
-      "max": 150,
-      "recipes": 8
+      "skill": 155,
+      "max": 225,
+      "recipes": 10
      }
     ]
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/sir-billythecrit",
    "weekly": {
-    "levels": 10.36,
-    "ilvl": 9.94,
+    "levels": 10.62,
+    "ilvl": 10.3,
     "hk": 178,
     "rank": 0
    },
