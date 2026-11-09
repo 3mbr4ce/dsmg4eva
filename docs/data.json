@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1794188504914,
+ "generatedAt": 1794190808326,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -668,7 +668,7 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1794187493000,
+   "lastLogin": 1794190384000,
    "apiItemLevel": 20,
    "gear": [
     {
@@ -1253,9 +1253,9 @@
     "primaries": [
      {
       "name": "Leatherworking",
-      "skill": 109,
+      "skill": 125,
       "max": 150,
-      "recipes": 44
+      "recipes": 48
      },
      {
       "name": "Skinning",
