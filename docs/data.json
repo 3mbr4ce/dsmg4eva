@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1794246872987,
+ "generatedAt": 1794254034151,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -1318,11 +1318,11 @@
    "name": "Ruler",
    "surname": "Shiroune",
    "fullName": "Ruler Shiroune",
-   "level": 28,
-   "experience": 24804,
-   "xpToLevel": 41400,
-   "xpPct": 59.91,
-   "levelProgress": 28.6,
+   "level": 29,
+   "experience": 12540,
+   "xpToLevel": 44300,
+   "xpPct": 28.31,
+   "levelProgress": 29.28,
    "className": "Warrior",
    "classId": 1,
    "race": "Orc",
@@ -1331,7 +1331,7 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1794246082000,
+   "lastLogin": 1794253863000,
    "apiItemLevel": 22,
    "gear": [
     {
@@ -1500,7 +1500,7 @@
       "spells": [],
       "req": "Requires Level 24",
       "reqClass": "",
-      "dur": "Durability 117 / 120",
+      "dur": "Durability 120 / 120",
       "sell": 2935,
       "desc": ""
      }
@@ -1721,7 +1721,7 @@
       "spells": [],
       "req": "Requires Level 17",
       "reqClass": "",
-      "dur": "Durability 49 / 50",
+      "dur": "Durability 50 / 50",
       "sell": 970,
       "desc": ""
      }
@@ -1929,10 +1929,10 @@
     "trees": [
      {
       "name": "Protection",
-      "points": 19
+      "points": 20
      }
     ],
-    "split": "19",
+    "split": "20",
     "main": "Protection"
    },
    "professions": {
@@ -1973,7 +1973,7 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/ruler-shiroune",
    "weekly": {
-    "levels": 13.46,
+    "levels": 14.14,
     "ilvl": 12.93,
     "hk": 163,
     "rank": 0
