@@ -291,7 +291,7 @@ const chars=()=>(DATA&&DATA.characters)||[];
 const ok=()=>chars().filter(c=>!c.error);
 const topBy=(l,f,n)=>l.slice().sort((a,b)=>f(b)-f(a)).slice(0,n||3);
 const akaOf=f=>{const x=DATA&&(DATA.friends||[]).find(y=>y.friend===f);return x&&x.aka?String(x.aka):'';};
-const akaHtml=f=>{const a=akaOf(f);return a?'<span class="aka" title="'+esc(f)+' aka '+esc(a)+'">AKA “'+esc(a)+'”</span>':'';};
+const akaHtml=f=>{const a=akaOf(f);return a?'<span class="aka" title="'+esc(f)+' aka '+esc(a)+'">“'+esc(a)+'”</span>':'';};
 const friendHtml=f=>esc(f)+akaHtml(f);
 const nameHtml=c=>'<span class="n" style="color:'+cc(c)+'">'+esc(c.name)+'</span><small>'+esc(c.surname||'')+' • '+friendHtml(c.friend)+'</small>';
 const ico=c=>'<img class="ico" src="'+clsIcon(c)+'" alt="" loading="lazy">';
