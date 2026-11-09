@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1794228004065,
+ "generatedAt": 1794234710792,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -13,23 +13,23 @@
  "friends": [
   {
    "friend": "Billy",
-   "aka": "Thelootluck"
+   "aka": "Dome"
   },
   {
    "friend": "Embrace",
-   "aka": "Classic Embrazze"
+   "aka": "Timo"
   },
   {
    "friend": "Ruler",
-   "aka": "Overall Schwitzer"
+   "aka": "Flo"
   },
   {
    "friend": "Dala",
-   "aka": "Weakaura Andy"
+   "aka": "Mahmud"
   },
   {
    "friend": "Lungen",
-   "aka": "Schwitzer"
+   "aka": "Fabio"
   }
  ],
  "characters": [
@@ -42,11 +42,11 @@
    "name": "Sir",
    "surname": "Billythecrit",
    "fullName": "Sir Billythecrit",
-   "level": 27,
-   "experience": 25192,
-   "xpToLevel": 38900,
-   "xpPct": 64.76,
-   "levelProgress": 27.65,
+   "level": 28,
+   "experience": 8776,
+   "xpToLevel": 41400,
+   "xpPct": 21.2,
+   "levelProgress": 28.21,
    "className": "Rogue",
    "classId": 4,
    "race": "Undead",
@@ -55,8 +55,8 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1794227570000,
-   "apiItemLevel": 19,
+   "lastLogin": 1794234596000,
+   "apiItemLevel": 20,
    "gear": [
     {
      "slot": "HEAD",
@@ -89,7 +89,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 30 / 45",
+      "dur": "Durability 45 / 45",
       "sell": 1410,
       "desc": ""
      }
@@ -125,7 +125,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 46 / 50",
+      "dur": "Durability 50 / 50",
       "sell": 1309,
       "desc": ""
      }
@@ -133,31 +133,41 @@
     {
      "slot": "BACK",
      "slotName": "Back",
-     "itemId": 5343,
-     "name": "Barkeeper's Cloak",
+     "itemId": 16658,
+     "name": "Wildhunter Cloak",
      "quality": "UNCOMMON",
-     "ilvl": 18,
+     "ilvl": 32,
      "inventoryType": "CLOAK",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133755.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133762.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Back",
       "sub": "Cloth",
-      "armor": "16 Armor",
+      "armor": "22 Armor",
       "stats": [
        {
-        "s": "+3 Stamina",
+        "s": "+2 Stamina",
         "neg": false,
         "eq": false
+       },
+       {
+        "s": "+10 Attack Power",
+        "neg": false,
+        "eq": true
+       },
+       {
+        "s": "+9 Attack Power Vs Beasts",
+        "neg": false,
+        "eq": true
        }
       ],
       "spells": [],
       "req": "",
       "reqClass": "",
       "dur": "",
-      "sell": 462,
+      "sell": 1649,
       "desc": ""
      }
     },
@@ -192,7 +202,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 63 / 80",
+      "dur": "Durability 80 / 80",
       "sell": 1360,
       "desc": ""
      }
@@ -253,7 +263,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 16 / 25",
+      "dur": "Durability 25 / 25",
       "sell": 614,
       "desc": ""
      }
@@ -289,7 +299,7 @@
       "spells": [],
       "req": "Requires Level 18",
       "reqClass": "",
-      "dur": "Durability 14 / 20",
+      "dur": "Durability 20 / 20",
       "sell": 510,
       "desc": ""
      }
@@ -325,7 +335,7 @@
       "spells": [],
       "req": "Requires Level 11",
       "reqClass": "",
-      "dur": "Durability 16 / 20",
+      "dur": "Durability 20 / 20",
       "sell": 125,
       "desc": ""
      }
@@ -361,7 +371,7 @@
       "spells": [],
       "req": "Requires Level 14",
       "reqClass": "",
-      "dur": "Durability 41 / 50",
+      "dur": "Durability 50 / 50",
       "sell": 599,
       "desc": ""
      }
@@ -397,7 +407,7 @@
       "spells": [],
       "req": "Requires Level 18",
       "reqClass": "",
-      "dur": "Durability 37 / 40",
+      "dur": "Durability 40 / 40",
       "sell": 797,
       "desc": ""
      }
@@ -497,7 +507,7 @@
       ],
       "req": "Requires Level 23",
       "reqClass": "",
-      "dur": "Durability 56 / 60",
+      "dur": "Durability 60 / 60",
       "sell": 4455,
       "desc": "",
       "weapon": {
@@ -538,7 +548,7 @@
       "spells": [],
       "req": "Requires Level 16",
       "reqClass": "",
-      "dur": "Durability 29 / 45",
+      "dur": "Durability 45 / 45",
       "sell": 1963,
       "desc": "",
       "weapon": {
@@ -574,7 +584,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 194 / 200",
+      "dur": "Durability 200 / 200",
       "sell": 2531,
       "desc": "",
       "weapon": {
@@ -585,9 +595,9 @@
      }
     }
    ],
-   "itemLevel": 23.86,
+   "itemLevel": 24.86,
    "pvp": {
-    "hk": 179,
+    "hk": 182,
     "rank": 0,
     "rankName": "Unranked"
    },
@@ -595,10 +605,10 @@
     "trees": [
      {
       "name": "Subtlety",
-      "points": 18
+      "points": 19
      }
     ],
-    "split": "18",
+    "split": "19",
     "main": "Subtlety"
    },
    "professions": {
@@ -639,9 +649,9 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/sir-billythecrit",
    "weekly": {
-    "levels": 9.65,
-    "ilvl": 8.16,
-    "hk": 175,
+    "levels": 10.21,
+    "ilvl": 9.16,
+    "hk": 178,
     "rank": 0
    },
    "ding60At": null
