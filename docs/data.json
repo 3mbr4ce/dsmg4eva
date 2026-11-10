@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1794302191008,
+ "generatedAt": 1794318878185,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -43,10 +43,10 @@
    "surname": "Billythecrit",
    "fullName": "Sir Billythecrit",
    "level": 28,
-   "experience": 25821,
+   "experience": 37322,
    "xpToLevel": 41400,
-   "xpPct": 62.37,
-   "levelProgress": 28.62,
+   "xpPct": 90.15,
+   "levelProgress": 28.9,
    "className": "Rogue",
    "classId": 4,
    "race": "Undead",
@@ -55,9 +55,39 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1794239355000,
-   "apiItemLevel": 21,
+   "lastLogin": 1794318703000,
+   "apiItemLevel": 22,
    "gear": [
+    {
+     "slot": "AMMO",
+     "slotName": "Ammo",
+     "itemId": 3030,
+     "name": "Razor Arrow",
+     "quality": "COMMON",
+     "ilvl": 30,
+     "inventoryType": "AMMO",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132382.jpg",
+     "tt": {
+      "bind": "",
+      "unique": "",
+      "inv": "Ammo",
+      "sub": "Arrow",
+      "armor": "",
+      "stats": [],
+      "spells": [],
+      "req": "Requires Level 25",
+      "reqClass": "",
+      "dur": "",
+      "sell": 0,
+      "desc": "",
+      "weapon": {
+       "dmg": "Adds 7.5 damage per second",
+       "speed": "",
+       "dps": ""
+      }
+     }
+    },
     {
      "slot": "HEAD",
      "slotName": "Head",
@@ -97,77 +127,62 @@
     {
      "slot": "SHOULDER",
      "slotName": "Shoulders",
-     "itemId": 270023,
-     "name": "Tanned Shoulderpads",
+     "itemId": 7352,
+     "name": "Earthen Leather Shoulders",
      "quality": "UNCOMMON",
      "ilvl": 27,
      "inventoryType": "SHOULDER",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135058.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135037.jpg",
      "tt": {
-      "bind": "Binds when picked up",
+      "bind": "Binds when equipped",
       "unique": "",
       "inv": "Shoulder",
       "sub": "Leather",
       "armor": "67 Armor",
       "stats": [
        {
-        "s": "+6 Intellect",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+3 Strength",
+        "s": "+7 Stamina",
         "neg": false,
         "eq": false
        }
       ],
       "spells": [],
-      "req": "",
+      "req": "Requires Level 22",
       "reqClass": "",
-      "dur": "Durability 50 / 50",
-      "sell": 1309,
+      "dur": "Durability 48 / 50",
+      "sell": 1306,
       "desc": ""
      }
     },
     {
      "slot": "BACK",
      "slotName": "Back",
-     "itemId": 16658,
-     "name": "Wildhunter Cloak",
+     "itemId": 7356,
+     "name": "Elder's Cloak of Stamina",
      "quality": "UNCOMMON",
-     "ilvl": 32,
+     "ilvl": 30,
      "inventoryType": "CLOAK",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133762.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133754.jpg",
      "tt": {
-      "bind": "Binds when picked up",
+      "bind": "Binds when equipped",
       "unique": "",
       "inv": "Back",
       "sub": "Cloth",
-      "armor": "22 Armor",
+      "armor": "21 Armor",
       "stats": [
        {
-        "s": "+2 Stamina",
+        "s": "+6 Stamina",
         "neg": false,
         "eq": false
-       },
-       {
-        "s": "+10 Attack Power",
-        "neg": false,
-        "eq": true
-       },
-       {
-        "s": "+9 Attack Power Vs Beasts",
-        "neg": false,
-        "eq": true
        }
       ],
       "spells": [],
-      "req": "",
+      "req": "Requires Level 25",
       "reqClass": "",
       "dur": "",
-      "sell": 1649,
+      "sell": 1411,
       "desc": ""
      }
     },
@@ -202,7 +217,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 80 / 80",
+      "dur": "Durability 78 / 80",
       "sell": 1360,
       "desc": ""
      }
@@ -240,7 +255,9 @@
      "quality": "RARE",
      "ilvl": 29,
      "inventoryType": "WRIST",
-     "enchants": [],
+     "enchants": [
+      "Enchanted: Stamina +2"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132611.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -263,7 +280,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 35 / 35",
+      "dur": "Durability 34 / 35",
       "sell": 1191,
       "desc": ""
      }
@@ -271,36 +288,31 @@
     {
      "slot": "HANDS",
      "slotName": "Hands",
-     "itemId": 5970,
-     "name": "Serpent Gloves",
-     "quality": "RARE",
-     "ilvl": 23,
+     "itemId": 6605,
+     "name": "Dervish Gloves of Stamina",
+     "quality": "UNCOMMON",
+     "ilvl": 28,
      "inventoryType": "HAND",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132953.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132958.jpg",
      "tt": {
-      "bind": "Binds when picked up",
+      "bind": "Binds when equipped",
       "unique": "",
       "inv": "Hands",
-      "sub": "Cloth",
-      "armor": "25 Armor",
+      "sub": "Leather",
+      "armor": "56 Armor",
       "stats": [
        {
-        "s": "+6 Agility",
+        "s": "+8 Stamina",
         "neg": false,
         "eq": false
-       },
-       {
-        "s": "+7 Spell Power",
-        "neg": false,
-        "eq": true
        }
       ],
       "spells": [],
-      "req": "Requires Level 18",
+      "req": "Requires Level 23",
       "reqClass": "",
-      "dur": "Durability 20 / 20",
-      "sell": 510,
+      "dur": "Durability 30 / 30",
+      "sell": 971,
       "desc": ""
      }
     },
@@ -340,7 +352,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 30 / 30",
+      "dur": "Durability 29 / 30",
       "sell": 856,
       "desc": ""
      }
@@ -348,36 +360,31 @@
     {
      "slot": "LEGS",
      "slotName": "Legs",
-     "itemId": 7282,
-     "name": "Light Leather Pants",
+     "itemId": 6607,
+     "name": "Dervish Leggings of Stamina",
      "quality": "UNCOMMON",
-     "ilvl": 19,
+     "ilvl": 30,
      "inventoryType": "LEGS",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134582.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134587.jpg",
      "tt": {
       "bind": "Binds when equipped",
       "unique": "",
       "inv": "Legs",
       "sub": "Leather",
-      "armor": "66 Armor",
+      "armor": "82 Armor",
       "stats": [
        {
-        "s": "+5 Agility",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+3 Stamina",
+        "s": "+11 Stamina",
         "neg": false,
         "eq": false
        }
       ],
       "spells": [],
-      "req": "Requires Level 14",
+      "req": "Requires Level 25",
       "reqClass": "",
-      "dur": "Durability 50 / 50",
-      "sell": 599,
+      "dur": "Durability 63 / 65",
+      "sell": 2202,
       "desc": ""
      }
     },
@@ -412,7 +419,7 @@
       "spells": [],
       "req": "Requires Level 18",
       "reqClass": "",
-      "dur": "Durability 40 / 40",
+      "dur": "Durability 38 / 40",
       "sell": 797,
       "desc": ""
      }
@@ -566,45 +573,50 @@
     {
      "slot": "RANGED",
      "slotName": "Ranged",
-     "itemId": 281660,
-     "name": "Iron Star",
-     "quality": "UNCOMMON",
-     "ilvl": 27,
-     "inventoryType": "THROWN",
+     "itemId": 273843,
+     "name": "Fallenroot Longbow",
+     "quality": "RARE",
+     "ilvl": 28,
+     "inventoryType": "RANGED",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132330.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135491.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
-      "inv": "Thrown",
-      "sub": "Thrown",
+      "inv": "Ranged",
+      "sub": "Bow",
       "armor": "",
       "stats": [
        {
-        "s": "+3 Agility",
+        "s": "+2 Agility",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+4 Stamina",
         "neg": false,
         "eq": false
        }
       ],
       "spells": [],
-      "req": "",
+      "req": "Requires Level 23",
       "reqClass": "",
-      "dur": "Durability 200 / 200",
-      "sell": 2531,
+      "dur": "Durability 70 / 70",
+      "sell": 3424,
       "desc": "",
       "weapon": {
-       "dmg": "17 - 33 Damage",
-       "speed": "Speed 2.00",
-       "dps": "(12.5 damage per second)"
+       "dmg": "21 - 40 Damage",
+       "speed": "Speed 2.20",
+       "dps": "(13.9 damage per second)"
       }
      }
     }
    ],
-   "itemLevel": 26,
+   "itemLevel": 27.27,
    "pvp": {
-    "hk": 182,
-    "rank": 0,
-    "rankName": "Unranked"
+    "hk": 403,
+    "rank": 1,
+    "rankName": "Scout"
    },
    "spec": {
     "trees": [
@@ -620,9 +632,9 @@
     "primaries": [
      {
       "name": "Mining",
-      "skill": 126,
+      "skill": 139,
       "max": 150,
-      "recipes": 6
+      "recipes": 7
      },
      {
       "name": "Engineering",
@@ -640,7 +652,7 @@
      },
      {
       "name": "Fishing",
-      "skill": 130,
+      "skill": 140,
       "max": 150,
       "recipes": 2
      },
@@ -654,10 +666,10 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/sir-billythecrit",
    "weekly": {
-    "levels": 10.62,
-    "ilvl": 10.3,
-    "hk": 178,
-    "rank": 0
+    "levels": 10.9,
+    "ilvl": 11.57,
+    "hk": 399,
+    "rank": 1
    },
    "ding60At": null
   },
