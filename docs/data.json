@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1794345148011,
+ "generatedAt": 1794350321754,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-04T07",
@@ -682,11 +682,11 @@
    "name": "Blue",
    "surname": "Embrace",
    "fullName": "Blue Embrace",
-   "level": 27,
-   "experience": 13672,
-   "xpToLevel": 38900,
-   "xpPct": 35.15,
-   "levelProgress": 27.35,
+   "level": 28,
+   "experience": 24111,
+   "xpToLevel": 41400,
+   "xpPct": 58.24,
+   "levelProgress": 28.58,
    "className": "Rogue",
    "classId": 4,
    "race": "Undead",
@@ -695,8 +695,8 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1794190384000,
-   "apiItemLevel": 20,
+   "lastLogin": 1794350112000,
+   "apiItemLevel": 21,
    "gear": [
     {
      "slot": "AMMO",
@@ -759,7 +759,7 @@
       "spells": [],
       "req": "Requires Level 20",
       "reqClass": "",
-      "dur": "Durability 25 / 50",
+      "dur": "Durability 48 / 50",
       "sell": 1206,
       "desc": ""
      }
@@ -795,7 +795,7 @@
       "spells": [],
       "req": "Requires Level 21",
       "reqClass": "",
-      "dur": "Durability 19 / 50",
+      "dur": "Durability 40 / 50",
       "sell": 659,
       "desc": ""
      }
@@ -844,38 +844,48 @@
     {
      "slot": "CHEST",
      "slotName": "Chest",
-     "itemId": 5317,
-     "name": "Dry Moss Tunic",
-     "quality": "UNCOMMON",
-     "ilvl": 25,
+     "itemId": 252508,
+     "name": "Brawler's Leather Tunic",
+     "quality": "RARE",
+     "ilvl": 27,
      "inventoryType": "CHEST",
      "enchants": [
       "Enchanted: Stamina +2 and Armor +16"
      ],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135010.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132717.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Chest",
       "sub": "Leather",
-      "armor": "86 Armor",
+      "armor": "98 Armor",
       "stats": [
        {
-        "s": "+2 Agility",
+        "s": "+8 Agility",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+8 Stamina",
+        "s": "+6 Strength",
         "neg": false,
         "eq": false
+       },
+       {
+        "s": "+6 Stamina",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+5 Spirit",
+        "neg": false,
+        "eq": true
        }
       ],
       "spells": [],
-      "req": "",
+      "req": "Requires Level 22",
       "reqClass": "",
-      "dur": "Durability 47 / 80",
-      "sell": 1360,
+      "dur": "Durability 91 / 95",
+      "sell": 2024,
       "desc": ""
      }
     },
@@ -935,7 +945,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 31 / 35",
+      "dur": "Durability 34 / 35",
       "sell": 1191,
       "desc": ""
      }
@@ -973,7 +983,7 @@
       "spells": [],
       "req": "Requires Level 19",
       "reqClass": "",
-      "dur": "Durability 14 / 25",
+      "dur": "Durability 21 / 25",
       "sell": 588,
       "desc": ""
      }
@@ -1009,7 +1019,7 @@
       "spells": [],
       "req": "Requires Level 20",
       "reqClass": "",
-      "dur": "Durability 18 / 30",
+      "dur": "Durability 29 / 30",
       "sell": 703,
       "desc": ""
      }
@@ -1042,7 +1052,7 @@
       "spells": [],
       "req": "Requires Level 18",
       "reqClass": "",
-      "dur": "Durability 28 / 55",
+      "dur": "Durability 54 / 55",
       "sell": 1089,
       "desc": ""
      }
@@ -1075,7 +1085,7 @@
       "spells": [],
       "req": "Requires Level 15",
       "reqClass": "",
-      "dur": "Durability 16 / 35",
+      "dur": "Durability 33 / 35",
       "sell": 307,
       "desc": ""
      }
@@ -1177,7 +1187,7 @@
       ],
       "req": "Requires Level 23",
       "reqClass": "",
-      "dur": "Durability 25 / 60",
+      "dur": "Durability 53 / 60",
       "sell": 4455,
       "desc": "",
       "weapon": {
@@ -1213,7 +1223,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 12 / 40",
+      "dur": "Durability 32 / 40",
       "sell": 1436,
       "desc": "",
       "weapon": {
@@ -1249,7 +1259,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 130 / 200",
+      "dur": "Durability 192 / 200",
       "sell": 2531,
       "desc": "",
       "weapon": {
@@ -1260,9 +1270,9 @@
      }
     }
    ],
-   "itemLevel": 26.07,
+   "itemLevel": 26.2,
    "pvp": {
-    "hk": 136,
+    "hk": 159,
     "rank": 0,
     "rankName": "Unranked"
    },
@@ -1270,23 +1280,23 @@
     "trees": [
      {
       "name": "Subtlety",
-      "points": 16
+      "points": 19
      }
     ],
-    "split": "16",
+    "split": "19",
     "main": "Subtlety"
    },
    "professions": {
     "primaries": [
      {
       "name": "Leatherworking",
-      "skill": 125,
+      "skill": 126,
       "max": 150,
-      "recipes": 48
+      "recipes": 49
      },
      {
       "name": "Skinning",
-      "skill": 191,
+      "skill": 201,
       "max": 225,
       "recipes": 2
      }
@@ -1314,9 +1324,9 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/blue-embrace",
    "weekly": {
-    "levels": 11.19,
-    "ilvl": 13.27,
-    "hk": 133,
+    "levels": 12.42,
+    "ilvl": 13.4,
+    "hk": 156,
     "rank": 0
    },
    "ding60At": null
