@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1794415128638,
+ "generatedAt": 1794417219936,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-11T07",
@@ -682,11 +682,11 @@
    "name": "Blue",
    "surname": "Embrace",
    "fullName": "Blue Embrace",
-   "level": 28,
-   "experience": 26203,
-   "xpToLevel": 41400,
-   "xpPct": 63.29,
-   "levelProgress": 28.63,
+   "level": 29,
+   "experience": 3443,
+   "xpToLevel": 44300,
+   "xpPct": 7.77,
+   "levelProgress": 29.08,
    "className": "Rogue",
    "classId": 4,
    "race": "Undead",
@@ -695,7 +695,7 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1794404866000,
+   "lastLogin": 1794416660000,
    "apiItemLevel": 21,
    "gear": [
     {
@@ -759,7 +759,7 @@
       "spells": [],
       "req": "Requires Level 20",
       "reqClass": "",
-      "dur": "Durability 43 / 50",
+      "dur": "Durability 29 / 50",
       "sell": 1206,
       "desc": ""
      }
@@ -795,7 +795,7 @@
       "spells": [],
       "req": "Requires Level 21",
       "reqClass": "",
-      "dur": "Durability 33 / 50",
+      "dur": "Durability 17 / 50",
       "sell": 659,
       "desc": ""
      }
@@ -884,7 +884,7 @@
       "spells": [],
       "req": "Requires Level 22",
       "reqClass": "",
-      "dur": "Durability 81 / 95",
+      "dur": "Durability 57 / 95",
       "sell": 2024,
       "desc": ""
      }
@@ -945,7 +945,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 31 / 35",
+      "dur": "Durability 23 / 35",
       "sell": 1191,
       "desc": ""
      }
@@ -983,7 +983,7 @@
       "spells": [],
       "req": "Requires Level 19",
       "reqClass": "",
-      "dur": "Durability 19 / 25",
+      "dur": "Durability 15 / 25",
       "sell": 588,
       "desc": ""
      }
@@ -1019,7 +1019,7 @@
       "spells": [],
       "req": "Requires Level 20",
       "reqClass": "",
-      "dur": "Durability 26 / 30",
+      "dur": "Durability 20 / 30",
       "sell": 703,
       "desc": ""
      }
@@ -1052,7 +1052,7 @@
       "spells": [],
       "req": "Requires Level 18",
       "reqClass": "",
-      "dur": "Durability 49 / 55",
+      "dur": "Durability 33 / 55",
       "sell": 1089,
       "desc": ""
      }
@@ -1085,7 +1085,7 @@
       "spells": [],
       "req": "Requires Level 15",
       "reqClass": "",
-      "dur": "Durability 30 / 35",
+      "dur": "Durability 23 / 35",
       "sell": 307,
       "desc": ""
      }
@@ -1187,7 +1187,7 @@
       ],
       "req": "Requires Level 23",
       "reqClass": "",
-      "dur": "Durability 47 / 60",
+      "dur": "Durability 29 / 60",
       "sell": 4455,
       "desc": "",
       "weapon": {
@@ -1223,7 +1223,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 25 / 40",
+      "dur": "Durability 6 / 40",
       "sell": 1436,
       "desc": "",
       "weapon": {
@@ -1259,7 +1259,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 172 / 200",
+      "dur": "Durability 131 / 200",
       "sell": 2531,
       "desc": "",
       "weapon": {
@@ -1280,10 +1280,10 @@
     "trees": [
      {
       "name": "Subtlety",
-      "points": 19
+      "points": 20
      }
     ],
-    "split": "19",
+    "split": "20",
     "main": "Subtlety"
    },
    "professions": {
@@ -1296,7 +1296,7 @@
      },
      {
       "name": "Skinning",
-      "skill": 201,
+      "skill": 203,
       "max": 225,
       "recipes": 2
      }
@@ -1316,7 +1316,7 @@
      },
      {
       "name": "First Aid",
-      "skill": 143,
+      "skill": 146,
       "max": 150,
       "recipes": 11
      }
@@ -1324,7 +1324,7 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/blue-embrace",
    "weekly": {
-    "levels": 0.05,
+    "levels": 0.5,
     "ilvl": 0,
     "hk": 4,
     "rank": 0
