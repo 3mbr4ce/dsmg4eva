@@ -1,120 +1,36 @@
 {
  "weeklySnapshot": {
-  "weekId": "2026-11-04T07",
-  "takenAt": 1793854074139,
+  "weekId": "2026-11-11T07",
+  "takenAt": 1794381341273,
   "baseline": {
-   "pip-jaeger": {
-    "levelProgress": 14.13,
-    "ilvl": 6.33,
-    "hk": 0,
-    "rank": 0
-   },
-   "steppenwolf-one": {
-    "levelProgress": 14.25,
-    "ilvl": 11.7,
-    "hk": 0,
-    "rank": 0
-   },
-   "ash-kai": {
-    "levelProgress": 13.44,
-    "ilvl": 10.25,
-    "hk": 0,
-    "rank": 0
-   },
-   "xerxes-crownrend": {
-    "levelProgress": 13.06,
-    "ilvl": 11.7,
-    "hk": 0,
-    "rank": 0
-   },
-   "peep-jõks": {
-    "levelProgress": 11.29,
-    "ilvl": 8.27,
-    "hk": 0,
-    "rank": 0
-   },
-   "panzer-error": {
-    "levelProgress": 12.62,
-    "ilvl": 7.8,
-    "hk": 0,
-    "rank": 0
-   },
-   "damp-fat": {
-    "levelProgress": 11.29,
-    "ilvl": 7.22,
-    "hk": 0,
-    "rank": 0
-   },
-   "garethos-blackwood": {
-    "levelProgress": 10.4,
-    "ilvl": 7.2,
-    "hk": 0,
-    "rank": 0
-   },
-   "chasida-shieldsworn": {
-    "levelProgress": 11.11,
-    "ilvl": 11.8,
-    "hk": 0,
-    "rank": 0
-   },
-   "ryan-angelos": {
-    "levelProgress": 10.13,
-    "ilvl": 8.1,
-    "hk": 0,
-    "rank": 0
-   },
-   "zewazi-softis": {
-    "levelProgress": 10.16,
-    "ilvl": 6.9,
-    "hk": 0,
-    "rank": 0
-   },
-   "leon-lionhart": {
-    "levelProgress": 10.53,
-    "ilvl": 7.71,
-    "hk": 0,
-    "rank": 0
-   },
-   "mo-rx": {
-    "levelProgress": 15.53,
-    "ilvl": 16.22,
-    "hk": 0,
-    "rank": 0
-   },
-   "sire-khingen": {
-    "levelProgress": 10.24,
-    "ilvl": 7.22,
-    "hk": 0,
-    "rank": 0
+   "sir-billythecrit": {
+    "levelProgress": 29.84,
+    "ilvl": 27.27,
+    "hk": 405,
+    "rank": 1
    },
    "blue-embrace": {
-    "levelProgress": 16.16,
-    "ilvl": 12.8,
-    "hk": 3,
+    "levelProgress": 28.58,
+    "ilvl": 26.2,
+    "hk": 159,
     "rank": 0
    },
    "ruler-shiroune": {
-    "levelProgress": 15.14,
-    "ilvl": 13.27,
-    "hk": 5,
+    "levelProgress": 29.28,
+    "ilvl": 26.2,
+    "hk": 168,
     "rank": 0
    },
    "dala-hoon": {
-    "levelProgress": 14.8,
-    "ilvl": 10,
-    "hk": 0,
+    "levelProgress": 29.88,
+    "ilvl": 23.4,
+    "hk": 13,
     "rank": 0
    },
-   "da-blet": {
-    "levelProgress": 10.95,
-    "ilvl": 7.78,
-    "hk": 0,
-    "rank": 0
-   },
-   "sir-billythecrit": {
-    "levelProgress": 18,
-    "ilvl": 15.7,
-    "hk": 4,
+   "sire-khingen": {
+    "levelProgress": 28.59,
+    "ilvl": 27,
+    "hk": 26,
     "rank": 0
    }
   }
