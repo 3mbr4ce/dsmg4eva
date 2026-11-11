@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1794417219936,
+ "generatedAt": 1794436761112,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-11T07",
@@ -43,10 +43,10 @@
    "surname": "Billythecrit",
    "fullName": "Sir Billythecrit",
    "level": 30,
-   "experience": 11037,
+   "experience": 35000,
    "xpToLevel": 47400,
-   "xpPct": 23.28,
-   "levelProgress": 30.23,
+   "xpPct": 73.84,
+   "levelProgress": 30.74,
    "className": "Rogue",
    "classId": 4,
    "race": "Undead",
@@ -55,7 +55,7 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1794414660000,
+   "lastLogin": 1794435905000,
    "apiItemLevel": 22,
    "gear": [
     {
@@ -119,7 +119,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 13 / 45",
+      "dur": "Durability 45 / 45",
       "sell": 1410,
       "desc": ""
      }
@@ -150,7 +150,7 @@
       "spells": [],
       "req": "Requires Level 22",
       "reqClass": "",
-      "dur": "Durability 19 / 50",
+      "dur": "Durability 50 / 50",
       "sell": 1306,
       "desc": ""
      }
@@ -217,7 +217,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 25 / 80",
+      "dur": "Durability 80 / 80",
       "sell": 1360,
       "desc": ""
      }
@@ -244,6 +244,31 @@
       "reqClass": "",
       "dur": "",
       "sell": 1,
+      "desc": ""
+     }
+    },
+    {
+     "slot": "TABARD",
+     "slotName": "Tabard",
+     "itemId": 5976,
+     "name": "Guild Tabard",
+     "quality": "COMMON",
+     "ilvl": 1,
+     "inventoryType": "TABARD",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135026.jpg",
+     "tt": {
+      "bind": "",
+      "unique": "",
+      "inv": "Tabard",
+      "sub": "Miscellaneous",
+      "armor": "",
+      "stats": [],
+      "spells": [],
+      "req": "",
+      "reqClass": "",
+      "dur": "",
+      "sell": 2500,
       "desc": ""
      }
     },
@@ -280,7 +305,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 15 / 35",
+      "dur": "Durability 35 / 35",
       "sell": 1191,
       "desc": ""
      }
@@ -311,7 +336,7 @@
       "spells": [],
       "req": "Requires Level 23",
       "reqClass": "",
-      "dur": "Durability 11 / 30",
+      "dur": "Durability 30 / 30",
       "sell": 971,
       "desc": ""
      }
@@ -352,7 +377,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 9 / 30",
+      "dur": "Durability 30 / 30",
       "sell": 856,
       "desc": ""
      }
@@ -383,7 +408,7 @@
       "spells": [],
       "req": "Requires Level 25",
       "reqClass": "",
-      "dur": "Durability 26 / 65",
+      "dur": "Durability 65 / 65",
       "sell": 2202,
       "desc": ""
      }
@@ -419,7 +444,7 @@
       "spells": [],
       "req": "Requires Level 18",
       "reqClass": "",
-      "dur": "Durability 11 / 40",
+      "dur": "Durability 40 / 40",
       "sell": 797,
       "desc": ""
      }
@@ -515,11 +540,11 @@
        }
       ],
       "spells": [
-       "Chance on hit: Poisons target for 3 Nature damage every 3 sec for 9 sec."
+       "Chance on hit: Poisons target for 14 Nature damage every 3 sec for 9 sec."
       ],
       "req": "Requires Level 23",
       "reqClass": "",
-      "dur": "Durability 17 / 60",
+      "dur": "Durability 60 / 60",
       "sell": 4455,
       "desc": "",
       "weapon": {
@@ -560,7 +585,7 @@
       "spells": [],
       "req": "Requires Level 16",
       "reqClass": "",
-      "dur": "Durability 17 / 45",
+      "dur": "Durability 45 / 45",
       "sell": 1963,
       "desc": "",
       "weapon": {
@@ -601,7 +626,7 @@
       "spells": [],
       "req": "Requires Level 23",
       "reqClass": "",
-      "dur": "Durability 32 / 70",
+      "dur": "Durability 70 / 70",
       "sell": 3424,
       "desc": "",
       "weapon": {
@@ -633,14 +658,14 @@
      {
       "name": "Mining",
       "skill": 150,
-      "max": 150,
-      "recipes": 7
+      "max": 225,
+      "recipes": 8
      },
      {
       "name": "Engineering",
-      "skill": 198,
+      "skill": 202,
       "max": 225,
-      "recipes": 42
+      "recipes": 46
      }
     ],
     "secondaries": [
@@ -652,13 +677,13 @@
      },
      {
       "name": "Fishing",
-      "skill": 150,
-      "max": 150,
+      "skill": 155,
+      "max": 225,
       "recipes": 2
      },
      {
       "name": "First Aid",
-      "skill": 162,
+      "skill": 163,
       "max": 225,
       "recipes": 10
      }
@@ -666,7 +691,7 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/sir-billythecrit",
    "weekly": {
-    "levels": 0.39,
+    "levels": 0.9,
     "ilvl": 0,
     "hk": 3,
     "rank": 0
