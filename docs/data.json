@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1794497106301,
+ "generatedAt": 1794498873068,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-11T07",
@@ -2766,10 +2766,10 @@
    "surname": "Khingen",
    "fullName": "Sire Khingen",
    "level": 29,
-   "experience": 3605,
+   "experience": 6055,
    "xpToLevel": 44300,
-   "xpPct": 8.14,
-   "levelProgress": 29.08,
+   "xpPct": 13.67,
+   "levelProgress": 29.14,
    "className": "Paladin",
    "classId": 2,
    "race": "Undead",
@@ -2778,7 +2778,7 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1794496627000,
+   "lastLogin": 1794498141000,
    "apiItemLevel": 21,
    "gear": [
     {
@@ -3001,7 +3001,9 @@
      "quality": "RARE",
      "ilvl": 28,
      "inventoryType": "HAND",
-     "enchants": [],
+     "enchants": [
+      "Enchanted: Stamina +3 and Armor +24"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132944.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -3079,7 +3081,7 @@
      "ilvl": 30,
      "inventoryType": "LEGS",
      "enchants": [
-      "Enchanted: Stamina +2 and Armor +16"
+      "Enchanted: Stamina +3 and Armor +24"
      ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134665.jpg",
      "tt": {
@@ -3321,7 +3323,7 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/sire-khingen",
    "weekly": {
-    "levels": 0.49,
+    "levels": 0.55,
     "ilvl": 0,
     "hk": 3,
     "rank": 0
