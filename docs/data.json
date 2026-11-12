@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1794484445295,
+ "generatedAt": 1794489903565,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-11T07",
@@ -43,10 +43,10 @@
    "surname": "Billythecrit",
    "fullName": "Sir Billythecrit",
    "level": 30,
-   "experience": 35000,
+   "experience": 44700,
    "xpToLevel": 47400,
-   "xpPct": 73.84,
-   "levelProgress": 30.74,
+   "xpPct": 94.3,
+   "levelProgress": 30.94,
    "className": "Rogue",
    "classId": 4,
    "race": "Undead",
@@ -55,7 +55,7 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1794484237000,
+   "lastLogin": 1794489477000,
    "apiItemLevel": 22,
    "gear": [
     {
@@ -691,7 +691,7 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/sir-billythecrit",
    "weekly": {
-    "levels": 0.9,
+    "levels": 1.1,
     "ilvl": 0,
     "hk": 3,
     "rank": 0
