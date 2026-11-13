@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1794577127621,
+ "generatedAt": 1794584321682,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-11T07",
@@ -2770,10 +2770,10 @@
    "surname": "Khingen",
    "fullName": "Sire Khingen",
    "level": 29,
-   "experience": 6055,
+   "experience": 12582,
    "xpToLevel": 44300,
-   "xpPct": 13.67,
-   "levelProgress": 29.14,
+   "xpPct": 28.4,
+   "levelProgress": 29.28,
    "className": "Paladin",
    "classId": 2,
    "race": "Undead",
@@ -2782,7 +2782,7 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1794499539000,
+   "lastLogin": 1794584057000,
    "apiItemLevel": 21,
    "gear": [
     {
@@ -2816,7 +2816,7 @@
       "spells": [],
       "req": "Requires Level 20",
       "reqClass": "",
-      "dur": "Durability 49 / 65",
+      "dur": "Durability 48 / 65",
       "sell": 1439,
       "desc": ""
      }
@@ -2852,7 +2852,7 @@
       "spells": [],
       "req": "Requires Level 17",
       "reqClass": "",
-      "dur": "Durability 26 / 50",
+      "dur": "Durability 24 / 50",
       "sell": 532,
       "desc": ""
      }
@@ -3035,7 +3035,7 @@
       "spells": [],
       "req": "Requires Level 23",
       "reqClass": "",
-      "dur": "Durability 35 / 40",
+      "dur": "Durability 34 / 40",
       "sell": 1336,
       "desc": ""
      }
@@ -3152,7 +3152,7 @@
       "spells": [],
       "req": "Requires Level 17",
       "reqClass": "",
-      "dur": "Durability 35 / 50",
+      "dur": "Durability 32 / 50",
       "sell": 970,
       "desc": ""
      }
@@ -3275,7 +3275,7 @@
    ],
    "itemLevel": 27,
    "pvp": {
-    "hk": 29,
+    "hk": 31,
     "rank": 0,
     "rankName": "Unranked"
    },
@@ -3319,17 +3319,17 @@
      },
      {
       "name": "First Aid",
-      "skill": 181,
+      "skill": 189,
       "max": 225,
-      "recipes": 10
+      "recipes": 11
      }
     ]
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/sire-khingen",
    "weekly": {
-    "levels": 0.55,
+    "levels": 0.69,
     "ilvl": 0,
-    "hk": 3,
+    "hk": 5,
     "rank": 0
    },
    "ding60At": null
