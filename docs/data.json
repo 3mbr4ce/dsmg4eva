@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1794665530124,
+ "generatedAt": 1794666232815,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-11T07",
@@ -2770,10 +2770,10 @@
    "surname": "Khingen",
    "fullName": "Sire Khingen",
    "level": 30,
-   "experience": 10404,
+   "experience": 31085,
    "xpToLevel": 47400,
-   "xpPct": 21.95,
-   "levelProgress": 30.22,
+   "xpPct": 65.58,
+   "levelProgress": 30.66,
    "className": "Paladin",
    "classId": 2,
    "race": "Undead",
@@ -2782,8 +2782,8 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1794607276000,
-   "apiItemLevel": 21,
+   "lastLogin": 1794665656000,
+   "apiItemLevel": 24,
    "gear": [
     {
      "slot": "HEAD",
@@ -2816,8 +2816,44 @@
       "spells": [],
       "req": "Requires Level 20",
       "reqClass": "",
-      "dur": "Durability 65 / 65",
+      "dur": "Durability 63 / 65",
       "sell": 1439,
+      "desc": ""
+     }
+    },
+    {
+     "slot": "NECK",
+     "slotName": "Neck",
+     "itemId": 12029,
+     "name": "Greenstone Talisman of Nature Protection",
+     "quality": "UNCOMMON",
+     "ilvl": 35,
+     "inventoryType": "NECK",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133288.jpg",
+     "tt": {
+      "bind": "Binds when equipped",
+      "unique": "",
+      "inv": "Neck",
+      "sub": "Miscellaneous",
+      "armor": "",
+      "stats": [
+       {
+        "s": "+5 Stamina",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+5 Nature Resistance",
+        "neg": false,
+        "eq": false
+       }
+      ],
+      "spells": [],
+      "req": "Requires Level 30",
+      "reqClass": "",
+      "dur": "",
+      "sell": 5395,
       "desc": ""
      }
     },
@@ -2852,7 +2888,7 @@
       "spells": [],
       "req": "Requires Level 17",
       "reqClass": "",
-      "dur": "Durability 50 / 50",
+      "dur": "Durability 44 / 50",
       "sell": 532,
       "desc": ""
      }
@@ -2931,7 +2967,7 @@
       "spells": [],
       "req": "Requires Level 24",
       "reqClass": "",
-      "dur": "Durability 120 / 120",
+      "dur": "Durability 115 / 120",
       "sell": 2935,
       "desc": ""
      }
@@ -2992,7 +3028,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 35 / 35",
+      "dur": "Durability 32 / 35",
       "sell": 1191,
       "desc": ""
      }
@@ -3035,7 +3071,7 @@
       "spells": [],
       "req": "Requires Level 23",
       "reqClass": "",
-      "dur": "Durability 40 / 40",
+      "dur": "Durability 39 / 40",
       "sell": 1336,
       "desc": ""
      }
@@ -3071,7 +3107,7 @@
       "spells": [],
       "req": "Requires Level 15",
       "reqClass": "",
-      "dur": "Durability 35 / 35",
+      "dur": "Durability 34 / 35",
       "sell": 505,
       "desc": ""
      }
@@ -3114,7 +3150,7 @@
       "spells": [],
       "req": "Requires Level 25",
       "reqClass": "",
-      "dur": "Durability 90 / 90",
+      "dur": "Durability 84 / 90",
       "sell": 3149,
       "desc": ""
      }
@@ -3152,7 +3188,7 @@
       "spells": [],
       "req": "Requires Level 17",
       "reqClass": "",
-      "dur": "Durability 50 / 50",
+      "dur": "Durability 48 / 50",
       "sell": 970,
       "desc": ""
      }
@@ -3262,7 +3298,7 @@
       ],
       "req": "",
       "reqClass": "Classes: Paladin",
-      "dur": "Durability 100 / 100",
+      "dur": "Durability 97 / 100",
       "sell": 7459,
       "desc": "",
       "weapon": {
@@ -3273,9 +3309,9 @@
      }
     }
    ],
-   "itemLevel": 27,
+   "itemLevel": 27.57,
    "pvp": {
-    "hk": 34,
+    "hk": 56,
     "rank": 0,
     "rankName": "Unranked"
    },
@@ -3319,7 +3355,7 @@
      },
      {
       "name": "First Aid",
-      "skill": 194,
+      "skill": 196,
       "max": 225,
       "recipes": 11
      }
@@ -3327,9 +3363,9 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/sire-khingen",
    "weekly": {
-    "levels": 1.63,
-    "ilvl": 0,
-    "hk": 8,
+    "levels": 2.07,
+    "ilvl": 0.57,
+    "hk": 30,
     "rank": 0
    },
    "ding60At": null
