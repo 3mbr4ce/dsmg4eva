@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1794677049499,
+ "generatedAt": 1794688730858,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-11T07",
@@ -2769,11 +2769,11 @@
    "name": "Sire",
    "surname": "Khingen",
    "fullName": "Sire Khingen",
-   "level": 30,
-   "experience": 41288,
-   "xpToLevel": 47400,
-   "xpPct": 87.11,
-   "levelProgress": 30.87,
+   "level": 31,
+   "experience": 14494,
+   "xpToLevel": 50800,
+   "xpPct": 28.53,
+   "levelProgress": 31.29,
    "className": "Paladin",
    "classId": 2,
    "race": "Undead",
@@ -2782,7 +2782,7 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1794676680000,
+   "lastLogin": 1794688141000,
    "apiItemLevel": 24,
    "gear": [
     {
@@ -2816,7 +2816,7 @@
       "spells": [],
       "req": "Requires Level 20",
       "reqClass": "",
-      "dur": "Durability 62 / 65",
+      "dur": "Durability 56 / 65",
       "sell": 1439,
       "desc": ""
      }
@@ -2888,7 +2888,7 @@
       "spells": [],
       "req": "Requires Level 17",
       "reqClass": "",
-      "dur": "Durability 43 / 50",
+      "dur": "Durability 36 / 50",
       "sell": 532,
       "desc": ""
      }
@@ -2967,7 +2967,7 @@
       "spells": [],
       "req": "Requires Level 24",
       "reqClass": "",
-      "dur": "Durability 111 / 120",
+      "dur": "Durability 103 / 120",
       "sell": 2935,
       "desc": ""
      }
@@ -3071,7 +3071,7 @@
       "spells": [],
       "req": "Requires Level 23",
       "reqClass": "",
-      "dur": "Durability 38 / 40",
+      "dur": "Durability 36 / 40",
       "sell": 1336,
       "desc": ""
      }
@@ -3107,7 +3107,7 @@
       "spells": [],
       "req": "Requires Level 15",
       "reqClass": "",
-      "dur": "Durability 34 / 35",
+      "dur": "Durability 31 / 35",
       "sell": 505,
       "desc": ""
      }
@@ -3150,7 +3150,7 @@
       "spells": [],
       "req": "Requires Level 25",
       "reqClass": "",
-      "dur": "Durability 80 / 90",
+      "dur": "Durability 74 / 90",
       "sell": 3149,
       "desc": ""
      }
@@ -3188,7 +3188,7 @@
       "spells": [],
       "req": "Requires Level 17",
       "reqClass": "",
-      "dur": "Durability 47 / 50",
+      "dur": "Durability 42 / 50",
       "sell": 970,
       "desc": ""
      }
@@ -3273,7 +3273,9 @@
      "quality": "RARE",
      "ilvl": 31,
      "inventoryType": "TWOHWEAPON",
-     "enchants": [],
+     "enchants": [
+      "Sharpened +6"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135326.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -3298,7 +3300,7 @@
       ],
       "req": "",
       "reqClass": "Classes: Paladin",
-      "dur": "Durability 97 / 100",
+      "dur": "Durability 95 / 100",
       "sell": 7459,
       "desc": "",
       "weapon": {
@@ -3319,17 +3321,17 @@
     "trees": [
      {
       "name": "Retribution",
-      "points": 21
+      "points": 22
      }
     ],
-    "split": "21",
+    "split": "22",
     "main": "Retribution"
    },
    "professions": {
     "primaries": [
      {
       "name": "Mining",
-      "skill": 179,
+      "skill": 185,
       "max": 225,
       "recipes": 11
      },
@@ -3363,7 +3365,7 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/sire-khingen",
    "weekly": {
-    "levels": 2.28,
+    "levels": 2.7,
     "ilvl": 0.57,
     "hk": 30,
     "rank": 0
