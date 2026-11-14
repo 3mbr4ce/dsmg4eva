@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1794688730858,
+ "generatedAt": 1794697915831,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-11T07",
@@ -2770,10 +2770,10 @@
    "surname": "Khingen",
    "fullName": "Sire Khingen",
    "level": 31,
-   "experience": 14494,
+   "experience": 26571,
    "xpToLevel": 50800,
-   "xpPct": 28.53,
-   "levelProgress": 31.29,
+   "xpPct": 52.31,
+   "levelProgress": 31.52,
    "className": "Paladin",
    "classId": 2,
    "race": "Undead",
@@ -2782,7 +2782,7 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1794688141000,
+   "lastLogin": 1794696954000,
    "apiItemLevel": 24,
    "gear": [
     {
@@ -2816,7 +2816,7 @@
       "spells": [],
       "req": "Requires Level 20",
       "reqClass": "",
-      "dur": "Durability 56 / 65",
+      "dur": "Durability 39 / 65",
       "sell": 1439,
       "desc": ""
      }
@@ -2888,7 +2888,7 @@
       "spells": [],
       "req": "Requires Level 17",
       "reqClass": "",
-      "dur": "Durability 36 / 50",
+      "dur": "Durability 20 / 50",
       "sell": 532,
       "desc": ""
      }
@@ -2967,7 +2967,7 @@
       "spells": [],
       "req": "Requires Level 24",
       "reqClass": "",
-      "dur": "Durability 103 / 120",
+      "dur": "Durability 69 / 120",
       "sell": 2935,
       "desc": ""
      }
@@ -3028,7 +3028,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 32 / 35",
+      "dur": "Durability 22 / 35",
       "sell": 1191,
       "desc": ""
      }
@@ -3071,7 +3071,7 @@
       "spells": [],
       "req": "Requires Level 23",
       "reqClass": "",
-      "dur": "Durability 36 / 40",
+      "dur": "Durability 26 / 40",
       "sell": 1336,
       "desc": ""
      }
@@ -3107,7 +3107,7 @@
       "spells": [],
       "req": "Requires Level 15",
       "reqClass": "",
-      "dur": "Durability 31 / 35",
+      "dur": "Durability 21 / 35",
       "sell": 505,
       "desc": ""
      }
@@ -3150,7 +3150,7 @@
       "spells": [],
       "req": "Requires Level 25",
       "reqClass": "",
-      "dur": "Durability 74 / 90",
+      "dur": "Durability 48 / 90",
       "sell": 3149,
       "desc": ""
      }
@@ -3188,7 +3188,7 @@
       "spells": [],
       "req": "Requires Level 17",
       "reqClass": "",
-      "dur": "Durability 42 / 50",
+      "dur": "Durability 25 / 50",
       "sell": 970,
       "desc": ""
      }
@@ -3296,11 +3296,11 @@
        }
       ],
       "spells": [
-       "Chance on hit: Sear the target with a vortex of blazing wind, dealing 39 to 59 Holystorm damage. Deals 3 times as much damage to Wolves and Worgen."
+       "Chance on hit: Sear the target with a vortex of blazing wind, dealing 9 to 15 Holystorm damage. Deals 3 times as much damage to Wolves and Worgen."
       ],
       "req": "",
       "reqClass": "Classes: Paladin",
-      "dur": "Durability 95 / 100",
+      "dur": "Durability 70 / 100",
       "sell": 7459,
       "desc": "",
       "weapon": {
@@ -3313,7 +3313,7 @@
    ],
    "itemLevel": 27.57,
    "pvp": {
-    "hk": 56,
+    "hk": 80,
     "rank": 0,
     "rankName": "Unranked"
    },
@@ -3345,9 +3345,9 @@
     "secondaries": [
      {
       "name": "Cooking",
-      "skill": 131,
-      "max": 150,
-      "recipes": 17
+      "skill": 225,
+      "max": 225,
+      "recipes": 18
      },
      {
       "name": "Fishing",
@@ -3357,7 +3357,7 @@
      },
      {
       "name": "First Aid",
-      "skill": 196,
+      "skill": 198,
       "max": 225,
       "recipes": 11
      }
@@ -3365,9 +3365,9 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/sire-khingen",
    "weekly": {
-    "levels": 2.7,
+    "levels": 2.93,
     "ilvl": 0.57,
-    "hk": 30,
+    "hk": 54,
     "rank": 0
    },
    "ding60At": null
