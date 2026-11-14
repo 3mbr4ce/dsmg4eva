@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1794651827395,
+ "generatedAt": 1794665530124,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-11T07",
@@ -43,10 +43,10 @@
    "surname": "Billythecrit",
    "fullName": "Sir Billythecrit",
    "level": 32,
-   "experience": 3343,
+   "experience": 15025,
    "xpToLevel": 54500,
-   "xpPct": 6.13,
-   "levelProgress": 32.06,
+   "xpPct": 27.57,
+   "levelProgress": 32.28,
    "className": "Rogue",
    "classId": 4,
    "race": "Undead",
@@ -55,7 +55,7 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1794607347000,
+   "lastLogin": 1794664696000,
    "apiItemLevel": 22,
    "gear": [
     {
@@ -119,7 +119,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 41 / 45",
+      "dur": "Durability 38 / 45",
       "sell": 1410,
       "desc": ""
      }
@@ -150,7 +150,7 @@
       "spells": [],
       "req": "Requires Level 22",
       "reqClass": "",
-      "dur": "Durability 45 / 50",
+      "dur": "Durability 42 / 50",
       "sell": 1306,
       "desc": ""
      }
@@ -189,36 +189,41 @@
     {
      "slot": "CHEST",
      "slotName": "Chest",
-     "itemId": 5317,
-     "name": "Dry Moss Tunic",
+     "itemId": 15471,
+     "name": "Brawnhide Armor",
      "quality": "UNCOMMON",
-     "ilvl": 25,
+     "ilvl": 29,
      "inventoryType": "CHEST",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135010.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132716.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Chest",
       "sub": "Leather",
-      "armor": "86 Armor",
+      "armor": "92 Armor",
       "stats": [
        {
-        "s": "+2 Agility",
+        "s": "+4 Agility",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+8 Stamina",
+        "s": "+9 Stamina",
         "neg": false,
         "eq": false
+       },
+       {
+        "s": "+3 Spirit",
+        "neg": false,
+        "eq": true
        }
       ],
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 72 / 80",
-      "sell": 1360,
+      "dur": "Durability 85 / 85",
+      "sell": 2034,
       "desc": ""
      }
     },
@@ -336,7 +341,7 @@
       "spells": [],
       "req": "Requires Level 23",
       "reqClass": "",
-      "dur": "Durability 27 / 30",
+      "dur": "Durability 25 / 30",
       "sell": 971,
       "desc": ""
      }
@@ -344,27 +349,22 @@
     {
      "slot": "WAIST",
      "slotName": "Waist",
-     "itemId": 16659,
-     "name": "Deftkin Belt",
+     "itemId": 15469,
+     "name": "Windsong Cinch",
      "quality": "UNCOMMON",
-     "ilvl": 27,
+     "ilvl": 29,
      "inventoryType": "WAIST",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132498.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132499.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Waist",
       "sub": "Leather",
-      "armor": "50 Armor",
+      "armor": "52 Armor",
       "stats": [
        {
-        "s": "+4 Agility",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+3 Stamina",
+        "s": "+5 Stamina",
         "neg": false,
         "eq": false
        },
@@ -377,8 +377,8 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 27 / 30",
-      "sell": 856,
+      "dur": "Durability 30 / 30",
+      "sell": 1009,
       "desc": ""
      }
     },
@@ -408,7 +408,7 @@
       "spells": [],
       "req": "Requires Level 25",
       "reqClass": "",
-      "dur": "Durability 59 / 65",
+      "dur": "Durability 58 / 65",
       "sell": 2202,
       "desc": ""
      }
@@ -444,7 +444,7 @@
       "spells": [],
       "req": "Requires Level 18",
       "reqClass": "",
-      "dur": "Durability 36 / 40",
+      "dur": "Durability 34 / 40",
       "sell": 797,
       "desc": ""
      }
@@ -524,7 +524,9 @@
      "quality": "RARE",
      "ilvl": 28,
      "inventoryType": "WEAPON",
-     "enchants": [],
+     "enchants": [
+      "Crippling Poison"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134298.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -544,7 +546,7 @@
       ],
       "req": "Requires Level 23",
       "reqClass": "",
-      "dur": "Durability 54 / 60",
+      "dur": "Durability 51 / 60",
       "sell": 4455,
       "desc": "",
       "weapon": {
@@ -562,7 +564,9 @@
      "quality": "RARE",
      "ilvl": 21,
      "inventoryType": "WEAPON",
-     "enchants": [],
+     "enchants": [
+      "Instant Poison II (74 |4Charge:Charges;)"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135646.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -637,9 +641,9 @@
      }
     }
    ],
-   "itemLevel": 27.27,
+   "itemLevel": 27.67,
    "pvp": {
-    "hk": 413,
+    "hk": 432,
     "rank": 1,
     "rankName": "Scout"
    },
@@ -691,9 +695,9 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/sir-billythecrit",
    "weekly": {
-    "levels": 2.22,
-    "ilvl": 0,
-    "hk": 8,
+    "levels": 2.44,
+    "ilvl": 0.4,
+    "hk": 27,
     "rank": 0
    },
    "ding60At": null
