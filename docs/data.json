@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1794742726693,
+ "generatedAt": 1794748315453,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-11T07",
@@ -55,8 +55,8 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1794697920000,
-   "apiItemLevel": 22,
+   "lastLogin": 1794748312000,
+   "apiItemLevel": 26,
    "gear": [
     {
      "slot": "AMMO",
@@ -91,27 +91,32 @@
     {
      "slot": "HEAD",
      "slotName": "Head",
-     "itemId": 4385,
-     "name": "Green Tinted Goggles",
+     "itemId": 10545,
+     "name": "Gnomish Goggles",
      "quality": "UNCOMMON",
-     "ilvl": 30,
+     "ilvl": 42,
      "inventoryType": "HEAD",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133149.jpg",
      "tt": {
-      "bind": "Binds when equipped",
+      "bind": "Binds when picked up",
       "unique": "",
       "inv": "Head",
       "sub": "Cloth",
-      "armor": "35 Armor",
+      "armor": "45 Armor",
       "stats": [
        {
-        "s": "+8 Stamina",
+        "s": "+9 Agility",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+7 Spirit",
+        "s": "+9 Stamina",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+9 Spirit",
         "neg": false,
         "eq": true
        }
@@ -119,8 +124,8 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 45 / 45",
-      "sell": 1410,
+      "dur": "Durability 40 / 45",
+      "sell": 3929,
       "desc": ""
      }
     },
@@ -150,7 +155,7 @@
       "spells": [],
       "req": "Requires Level 22",
       "reqClass": "",
-      "dur": "Durability 50 / 50",
+      "dur": "Durability 42 / 50",
       "sell": 1306,
       "desc": ""
      }
@@ -222,7 +227,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 85 / 85",
+      "dur": "Durability 72 / 85",
       "sell": 2034,
       "desc": ""
      }
@@ -310,7 +315,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 35 / 35",
+      "dur": "Durability 31 / 35",
       "sell": 1191,
       "desc": ""
      }
@@ -341,7 +346,7 @@
       "spells": [],
       "req": "Requires Level 23",
       "reqClass": "",
-      "dur": "Durability 30 / 30",
+      "dur": "Durability 27 / 30",
       "sell": 971,
       "desc": ""
      }
@@ -377,7 +382,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 30 / 30",
+      "dur": "Durability 27 / 30",
       "sell": 1009,
       "desc": ""
      }
@@ -408,7 +413,7 @@
       "spells": [],
       "req": "Requires Level 25",
       "reqClass": "",
-      "dur": "Durability 65 / 65",
+      "dur": "Durability 58 / 65",
       "sell": 2202,
       "desc": ""
      }
@@ -444,7 +449,7 @@
       "spells": [],
       "req": "Requires Level 18",
       "reqClass": "",
-      "dur": "Durability 40 / 40",
+      "dur": "Durability 36 / 40",
       "sell": 797,
       "desc": ""
      }
@@ -517,6 +522,33 @@
      }
     },
     {
+     "slot": "TRINKET_1",
+     "slotName": "Trinket 1",
+     "itemId": 10720,
+     "name": "Gnomish Net-o-Matic Projector",
+     "quality": "COMMON",
+     "ilvl": 42,
+     "inventoryType": "TRINKET",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134325.jpg",
+     "tt": {
+      "bind": "Binds when equipped",
+      "unique": "",
+      "inv": "Trinket",
+      "sub": "Miscellaneous",
+      "armor": "",
+      "stats": [],
+      "spells": [
+       "Use: Captures the target in a net for 10 sec.  The net has a lot of hooks however and sometimes gets caught in the user's clothing when fired...... (10 Min Cooldown)"
+      ],
+      "req": "",
+      "reqClass": "",
+      "dur": "",
+      "sell": 750,
+      "desc": ""
+     }
+    },
+    {
      "slot": "MAIN_HAND",
      "slotName": "Main Hand",
      "itemId": 6904,
@@ -544,7 +576,7 @@
       ],
       "req": "Requires Level 23",
       "reqClass": "",
-      "dur": "Durability 60 / 60",
+      "dur": "Durability 48 / 60",
       "sell": 4455,
       "desc": "",
       "weapon": {
@@ -585,7 +617,7 @@
       "spells": [],
       "req": "Requires Level 16",
       "reqClass": "",
-      "dur": "Durability 45 / 45",
+      "dur": "Durability 40 / 45",
       "sell": 1963,
       "desc": "",
       "weapon": {
@@ -626,7 +658,7 @@
       "spells": [],
       "req": "Requires Level 23",
       "reqClass": "",
-      "dur": "Durability 70 / 70",
+      "dur": "Durability 63 / 70",
       "sell": 3424,
       "desc": "",
       "weapon": {
@@ -637,7 +669,7 @@
      }
     }
    ],
-   "itemLevel": 27.67,
+   "itemLevel": 29.31,
    "pvp": {
     "hk": 458,
     "rank": 1,
@@ -663,9 +695,9 @@
      },
      {
       "name": "Engineering",
-      "skill": 216,
+      "skill": 220,
       "max": 225,
-      "recipes": 53
+      "recipes": 57
      }
     ],
     "secondaries": [
@@ -692,7 +724,7 @@
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/sir-billythecrit",
    "weekly": {
     "levels": 2.91,
-    "ilvl": 0.4,
+    "ilvl": 2.04,
     "hk": 53,
     "rank": 0
    },
