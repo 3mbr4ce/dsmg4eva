@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1794741836364,
+ "generatedAt": 1794742726693,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-11T07",
@@ -2766,10 +2766,10 @@
    "surname": "Khingen",
    "fullName": "Sire Khingen",
    "level": 31,
-   "experience": 26571,
+   "experience": 28671,
    "xpToLevel": 50800,
-   "xpPct": 52.31,
-   "levelProgress": 31.52,
+   "xpPct": 56.44,
+   "levelProgress": 31.56,
    "className": "Paladin",
    "classId": 2,
    "race": "Undead",
@@ -2778,7 +2778,7 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1794696954000,
+   "lastLogin": 1794742095000,
    "apiItemLevel": 24,
    "gear": [
     {
@@ -3269,9 +3269,7 @@
      "quality": "RARE",
      "ilvl": 31,
      "inventoryType": "TWOHWEAPON",
-     "enchants": [
-      "Sharpened +6"
-     ],
+     "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135326.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -3292,7 +3290,7 @@
        }
       ],
       "spells": [
-       "Chance on hit: Sear the target with a vortex of blazing wind, dealing 9 to 15 Holystorm damage. Deals 3 times as much damage to Wolves and Worgen."
+       "Chance on hit: Sear the target with a vortex of blazing wind, dealing 39 to 59 Holystorm damage. Deals 3 times as much damage to Wolves and Worgen."
       ],
       "req": "",
       "reqClass": "Classes: Paladin",
@@ -3361,7 +3359,7 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/sire-khingen",
    "weekly": {
-    "levels": 2.93,
+    "levels": 2.97,
     "ilvl": 0.57,
     "hk": 54,
     "rank": 0
