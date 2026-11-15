@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1794749037592,
+ "generatedAt": 1794764325097,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-11T07",
@@ -2810,7 +2810,7 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1794748859000,
+   "lastLogin": 1794764242000,
    "apiItemLevel": 20,
    "gear": [
     {
@@ -3364,7 +3364,7 @@
      },
      {
       "name": "Fishing",
-      "skill": 81,
+      "skill": 102,
       "max": 150,
       "recipes": 2
      },
