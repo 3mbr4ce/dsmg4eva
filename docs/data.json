@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1794866044813,
+ "generatedAt": 1794867177936,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-11T07",
@@ -42,11 +42,11 @@
    "name": "Sir",
    "surname": "Billythecrit",
    "fullName": "Sir Billythecrit",
-   "level": 32,
-   "experience": 45486,
-   "xpToLevel": 54500,
-   "xpPct": 83.46,
-   "levelProgress": 32.83,
+   "level": 33,
+   "experience": 27711,
+   "xpToLevel": 58600,
+   "xpPct": 47.29,
+   "levelProgress": 33.47,
    "className": "Rogue",
    "classId": 4,
    "race": "Undead",
@@ -55,8 +55,8 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1794857985000,
-   "apiItemLevel": 26,
+   "lastLogin": 1794866587000,
+   "apiItemLevel": 28,
    "gear": [
     {
      "slot": "AMMO",
@@ -124,7 +124,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 30 / 45",
+      "dur": "Durability 45 / 45",
       "sell": 3929,
       "desc": ""
      }
@@ -155,7 +155,7 @@
       "spells": [],
       "req": "Requires Level 22",
       "reqClass": "",
-      "dur": "Durability 32 / 50",
+      "dur": "Durability 50 / 50",
       "sell": 1306,
       "desc": ""
      }
@@ -227,7 +227,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 56 / 85",
+      "dur": "Durability 85 / 85",
       "sell": 2034,
       "desc": ""
      }
@@ -315,7 +315,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 24 / 35",
+      "dur": "Durability 35 / 35",
       "sell": 1191,
       "desc": ""
      }
@@ -346,7 +346,7 @@
       "spells": [],
       "req": "Requires Level 23",
       "reqClass": "",
-      "dur": "Durability 20 / 30",
+      "dur": "Durability 30 / 30",
       "sell": 971,
       "desc": ""
      }
@@ -382,7 +382,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 19 / 30",
+      "dur": "Durability 30 / 30",
       "sell": 1009,
       "desc": ""
      }
@@ -390,31 +390,36 @@
     {
      "slot": "LEGS",
      "slotName": "Legs",
-     "itemId": 6607,
-     "name": "Dervish Leggings of Stamina",
-     "quality": "UNCOMMON",
-     "ilvl": 30,
+     "itemId": 273022,
+     "name": "Supple Bellyskin Leggings",
+     "quality": "RARE",
+     "ilvl": 31,
      "inventoryType": "LEGS",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134587.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134591.jpg",
      "tt": {
-      "bind": "Binds when equipped",
+      "bind": "Binds when picked up",
       "unique": "",
       "inv": "Legs",
       "sub": "Leather",
-      "armor": "82 Armor",
+      "armor": "92 Armor",
       "stats": [
        {
-        "s": "+11 Stamina",
+        "s": "+6 Strength",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+14 Stamina",
         "neg": false,
         "eq": false
        }
       ],
       "spells": [],
-      "req": "Requires Level 25",
+      "req": "Requires Level 26",
       "reqClass": "",
-      "dur": "Durability 42 / 65",
-      "sell": 2202,
+      "dur": "Durability 75 / 75",
+      "sell": 2851,
       "desc": ""
      }
     },
@@ -449,7 +454,7 @@
       "spells": [],
       "req": "Requires Level 18",
       "reqClass": "",
-      "dur": "Durability 26 / 40",
+      "dur": "Durability 40 / 40",
       "sell": 797,
       "desc": ""
      }
@@ -549,6 +554,33 @@
      }
     },
     {
+     "slot": "TRINKET_2",
+     "slotName": "Trinket 2",
+     "itemId": 276895,
+     "name": "Transformative Cocoon",
+     "quality": "UNCOMMON",
+     "ilvl": 30,
+     "inventoryType": "TRINKET",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/237431.jpg",
+     "tt": {
+      "bind": "Binds when picked up",
+      "unique": "",
+      "inv": "Trinket",
+      "sub": "Miscellaneous",
+      "armor": "",
+      "stats": [],
+      "spells": [
+       "Use: Absorb up to 260 to 300 damage and Stun yourself for 5 sec. When the Stun expires, gain 60% increased movement speed for 8 sec. (5 Min Cooldown)"
+      ],
+      "req": "",
+      "reqClass": "",
+      "dur": "",
+      "sell": 1715,
+      "desc": ""
+     }
+    },
+    {
      "slot": "MAIN_HAND",
      "slotName": "Main Hand",
      "itemId": 6904,
@@ -556,9 +588,7 @@
      "quality": "RARE",
      "ilvl": 28,
      "inventoryType": "WEAPON",
-     "enchants": [
-      "Instant Poison II (85 |4Charge:Charges;)"
-     ],
+     "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134298.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -578,7 +608,7 @@
       ],
       "req": "Requires Level 23",
       "reqClass": "",
-      "dur": "Durability 38 / 60",
+      "dur": "Durability 60 / 60",
       "sell": 4455,
       "desc": "",
       "weapon": {
@@ -596,9 +626,7 @@
      "quality": "RARE",
      "ilvl": 21,
      "inventoryType": "WEAPON",
-     "enchants": [
-      "Crippling Poison"
-     ],
+     "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135646.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -621,7 +649,7 @@
       "spells": [],
       "req": "Requires Level 16",
       "reqClass": "",
-      "dur": "Durability 29 / 45",
+      "dur": "Durability 45 / 45",
       "sell": 1963,
       "desc": "",
       "weapon": {
@@ -662,7 +690,7 @@
       "spells": [],
       "req": "Requires Level 23",
       "reqClass": "",
-      "dur": "Durability 46 / 70",
+      "dur": "Durability 70 / 70",
       "sell": 3424,
       "desc": "",
       "weapon": {
@@ -673,9 +701,9 @@
      }
     }
    ],
-   "itemLevel": 29.31,
+   "itemLevel": 29.41,
    "pvp": {
-    "hk": 458,
+    "hk": 485,
     "rank": 1,
     "rankName": "Scout"
    },
@@ -683,10 +711,10 @@
     "trees": [
      {
       "name": "Subtlety",
-      "points": 23
+      "points": 24
      }
     ],
-    "split": "23",
+    "split": "24",
     "main": "Subtlety"
    },
    "professions": {
@@ -727,9 +755,9 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/sir-billythecrit",
    "weekly": {
-    "levels": 2.99,
-    "ilvl": 2.04,
-    "hk": 53,
+    "levels": 3.63,
+    "ilvl": 2.14,
+    "hk": 80,
     "rank": 0
    },
    "ding60At": null
@@ -743,11 +771,11 @@
    "name": "Blue",
    "surname": "Embrace",
    "fullName": "Blue Embrace",
-   "level": 29,
-   "experience": 24018,
-   "xpToLevel": 44300,
-   "xpPct": 54.22,
-   "levelProgress": 29.54,
+   "level": 30,
+   "experience": 21360,
+   "xpToLevel": 47400,
+   "xpPct": 45.06,
+   "levelProgress": 30.45,
    "className": "Rogue",
    "classId": 4,
    "race": "Undead",
@@ -756,7 +784,7 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1794513827000,
+   "lastLogin": 1794866534000,
    "apiItemLevel": 21,
    "gear": [
     {
@@ -856,7 +884,7 @@
       "spells": [],
       "req": "Requires Level 21",
       "reqClass": "",
-      "dur": "Durability 10 / 50",
+      "dur": "Durability 30 / 50",
       "sell": 659,
       "desc": ""
      }
@@ -945,7 +973,7 @@
       "spells": [],
       "req": "Requires Level 22",
       "reqClass": "",
-      "dur": "Durability 48 / 95",
+      "dur": "Durability 52 / 95",
       "sell": 2024,
       "desc": ""
      }
@@ -1006,7 +1034,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 18 / 35",
+      "dur": "Durability 24 / 35",
       "sell": 1191,
       "desc": ""
      }
@@ -1044,7 +1072,7 @@
       "spells": [],
       "req": "Requires Level 19",
       "reqClass": "",
-      "dur": "Durability 15 / 25",
+      "dur": "Durability 12 / 25",
       "sell": 588,
       "desc": ""
      }
@@ -1080,7 +1108,7 @@
       "spells": [],
       "req": "Requires Level 20",
       "reqClass": "",
-      "dur": "Durability 19 / 30",
+      "dur": "Durability 15 / 30",
       "sell": 703,
       "desc": ""
      }
@@ -1113,7 +1141,7 @@
       "spells": [],
       "req": "Requires Level 18",
       "reqClass": "",
-      "dur": "Durability 28 / 55",
+      "dur": "Durability 24 / 55",
       "sell": 1089,
       "desc": ""
      }
@@ -1146,7 +1174,7 @@
       "spells": [],
       "req": "Requires Level 15",
       "reqClass": "",
-      "dur": "Durability 21 / 35",
+      "dur": "Durability 18 / 35",
       "sell": 307,
       "desc": ""
      }
@@ -1211,7 +1239,7 @@
        }
       ],
       "spells": [
-       "Equip: When struck in combat, inflicts 2 Nature damage to the attacker."
+       "Equip: When struck in combat, inflicts 0 Nature damage to the attacker."
       ],
       "req": "Requires Level 22",
       "reqClass": "",
@@ -1244,11 +1272,11 @@
        }
       ],
       "spells": [
-       "Chance on hit: Blasts a target for 42 Fire damage."
+       "Chance on hit: Blasts a target for 10 Fire damage."
       ],
       "req": "Requires Level 23",
       "reqClass": "",
-      "dur": "Durability 26 / 60",
+      "dur": "Durability 29 / 60",
       "sell": 4455,
       "desc": "",
       "weapon": {
@@ -1284,7 +1312,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 1 / 40",
+      "dur": "Durability 13 / 40",
       "sell": 1436,
       "desc": "",
       "weapon": {
@@ -1297,43 +1325,43 @@
     {
      "slot": "RANGED",
      "slotName": "Ranged",
-     "itemId": 281660,
-     "name": "Iron Star",
-     "quality": "UNCOMMON",
-     "ilvl": 27,
-     "inventoryType": "THROWN",
+     "itemId": 273029,
+     "name": "Golemsight Long Gun",
+     "quality": "RARE",
+     "ilvl": 33,
+     "inventoryType": "RANGEDRIGHT",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132330.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134536.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
-      "inv": "Thrown",
-      "sub": "Thrown",
+      "inv": "Ranged",
+      "sub": "Gun",
       "armor": "",
       "stats": [
        {
-        "s": "+3 Agility",
+        "s": "+6 Agility",
         "neg": false,
         "eq": false
        }
       ],
       "spells": [],
-      "req": "",
+      "req": "Requires Level 28",
       "reqClass": "",
-      "dur": "Durability 129 / 200",
-      "sell": 2531,
+      "dur": "Durability 50 / 75",
+      "sell": 5456,
       "desc": "",
       "weapon": {
-       "dmg": "17 - 33 Damage",
-       "speed": "Speed 2.00",
-       "dps": "(12.5 damage per second)"
+       "dmg": "29 - 54 Damage",
+       "speed": "Speed 2.50",
+       "dps": "(16.6 damage per second)"
       }
      }
     }
    ],
-   "itemLevel": 26.2,
+   "itemLevel": 26.6,
    "pvp": {
-    "hk": 163,
+    "hk": 203,
     "rank": 0,
     "rankName": "Unranked"
    },
@@ -1341,10 +1369,10 @@
     "trees": [
      {
       "name": "Subtlety",
-      "points": 20
+      "points": 21
      }
     ],
-    "split": "20",
+    "split": "21",
     "main": "Subtlety"
    },
    "professions": {
@@ -1357,7 +1385,7 @@
      },
      {
       "name": "Skinning",
-      "skill": 209,
+      "skill": 211,
       "max": 225,
       "recipes": 2
      }
@@ -1385,9 +1413,9 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/blue-embrace",
    "weekly": {
-    "levels": 0.96,
-    "ilvl": 0,
-    "hk": 4,
+    "levels": 1.87,
+    "ilvl": 0.4,
+    "hk": 44,
     "rank": 0
    },
    "ding60At": null
