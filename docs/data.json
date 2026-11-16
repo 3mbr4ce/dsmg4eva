@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1794867177936,
+ "generatedAt": 1794872368462,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-11T07",
@@ -2100,11 +2100,11 @@
    "name": "Dala",
    "surname": "Huun",
    "fullName": "Dala Huun",
-   "level": 33,
-   "experience": 33968,
-   "xpToLevel": 58600,
-   "xpPct": 57.97,
-   "levelProgress": 33.58,
+   "level": 36,
+   "experience": 18355,
+   "xpToLevel": 71600,
+   "xpPct": 25.64,
+   "levelProgress": 36.26,
    "className": "Shaman",
    "classId": 7,
    "race": "Orc",
@@ -2113,7 +2113,7 @@
    "faction": "HORDE",
    "ruleset": "Normal",
    "achievementPoints": 0,
-   "lastLogin": 1794840104000,
+   "lastLogin": 1794872037000,
    "apiItemLevel": 28,
    "gear": [
     {
@@ -2152,7 +2152,7 @@
       "spells": [],
       "req": "Requires Level 29",
       "reqClass": "",
-      "dur": "Durability 60 / 60",
+      "dur": "Durability 22 / 60",
       "sell": 2967,
       "desc": ""
      }
@@ -2201,36 +2201,41 @@
     {
      "slot": "SHOULDER",
      "slotName": "Shoulders",
-     "itemId": 14573,
-     "name": "Bristlebark Amice",
-     "quality": "UNCOMMON",
-     "ilvl": 27,
+     "itemId": 273047,
+     "name": "Unstable Crystalline Shoulderpads",
+     "quality": "RARE",
+     "ilvl": 33,
      "inventoryType": "SHOULDER",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135037.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135038.jpg",
      "tt": {
-      "bind": "Binds when equipped",
+      "bind": "Binds when picked up",
       "unique": "",
       "inv": "Shoulder",
       "sub": "Leather",
-      "armor": "67 Armor",
+      "armor": "81 Armor",
       "stats": [
        {
-        "s": "+6 Agility",
+        "s": "+9 Agility",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+3 Strength",
+        "s": "+6 Stamina",
         "neg": false,
         "eq": false
+       },
+       {
+        "s": "+2 Mana Regeneration per 5 sec",
+        "neg": false,
+        "eq": true
        }
       ],
       "spells": [],
-      "req": "Requires Level 22",
+      "req": "Requires Level 28",
       "reqClass": "",
-      "dur": "Durability 50 / 50",
-      "sell": 1289,
+      "dur": "Durability 52 / 60",
+      "sell": 2715,
       "desc": ""
      }
     },
@@ -2313,7 +2318,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 100 / 100",
+      "dur": "Durability 35 / 100",
       "sell": 3365,
       "desc": ""
      }
@@ -2349,7 +2354,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 35 / 35",
+      "dur": "Durability 17 / 35",
       "sell": 1191,
       "desc": ""
      }
@@ -2382,7 +2387,7 @@
       ],
       "req": "Requires Level 27",
       "reqClass": "",
-      "dur": "Durability 35 / 35",
+      "dur": "Durability 21 / 35",
       "sell": 1833,
       "desc": ""
      }
@@ -2390,36 +2395,38 @@
     {
      "slot": "WAIST",
      "slotName": "Waist",
-     "itemId": 15469,
-     "name": "Windsong Cinch",
-     "quality": "UNCOMMON",
-     "ilvl": 29,
+     "itemId": 273041,
+     "name": "Slitherwrap Girdle",
+     "quality": "RARE",
+     "ilvl": 33,
      "inventoryType": "WAIST",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132499.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132504.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Waist",
       "sub": "Leather",
-      "armor": "52 Armor",
+      "armor": "61 Armor",
       "stats": [
        {
-        "s": "+5 Stamina",
+        "s": "+9 Agility",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+12 Attack Power",
+        "s": "+6 Stamina",
         "neg": false,
-        "eq": true
+        "eq": false
        }
       ],
-      "spells": [],
-      "req": "",
+      "spells": [
+       "Equip: When struck in combat, drain 2 mana from the attacker."
+      ],
+      "req": "Requires Level 28",
       "reqClass": "",
-      "dur": "Durability 30 / 30",
-      "sell": 1009,
+      "dur": "Durability 34 / 35",
+      "sell": 1732,
       "desc": ""
      }
     },
@@ -2459,7 +2466,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 75 / 75",
+      "dur": "Durability 42 / 75",
       "sell": 5252,
       "desc": ""
      }
@@ -2495,7 +2502,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 40 / 40",
+      "dur": "Durability 15 / 40",
       "sell": 922,
       "desc": ""
      }
@@ -2580,7 +2587,9 @@
      "quality": "RARE",
      "ilvl": 40,
      "inventoryType": "TWOHWEAPON",
-     "enchants": [],
+     "enchants": [
+      "Windfury 1"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133522.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -2605,7 +2614,7 @@
       ],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 100 / 100",
+      "dur": "Durability 75 / 100",
       "sell": 16235,
       "desc": "",
       "weapon": {
@@ -2643,7 +2652,7 @@
      }
     }
    ],
-   "itemLevel": 30.53,
+   "itemLevel": 31.2,
    "pvp": {
     "hk": 1,
     "rank": 0,
@@ -2653,10 +2662,14 @@
     "trees": [
      {
       "name": "Enhancement",
-      "points": 24
+      "points": 25
+     },
+     {
+      "name": "Restoration",
+      "points": 2
      }
     ],
-    "split": "24",
+    "split": "25/2",
     "main": "Enhancement"
    },
    "professions": {
@@ -2669,7 +2682,7 @@
      },
      {
       "name": "Skinning",
-      "skill": 211,
+      "skill": 236,
       "max": 300,
       "recipes": 2
      }
@@ -2683,7 +2696,7 @@
      },
      {
       "name": "Fishing",
-      "skill": 146,
+      "skill": 159,
       "max": 225,
       "recipes": 2
      },
@@ -2697,8 +2710,8 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/dala-huun",
    "weekly": {
-    "levels": 0,
-    "ilvl": 0,
+    "levels": 2.68,
+    "ilvl": 0.67,
     "hk": 0,
     "rank": 0
    },
