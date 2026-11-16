@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1794857950203,
+ "generatedAt": 1794858869595,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-11T07",
@@ -43,9 +43,9 @@
    "surname": "Billythecrit",
    "fullName": "Sir Billythecrit",
    "level": 32,
-   "experience": 45221,
+   "experience": 45486,
    "xpToLevel": 54500,
-   "xpPct": 82.97,
+   "xpPct": 83.46,
    "levelProgress": 32.83,
    "className": "Rogue",
    "classId": 4,
@@ -55,7 +55,7 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1794843517000,
+   "lastLogin": 1794857985000,
    "apiItemLevel": 26,
    "gear": [
     {
@@ -557,7 +557,7 @@
      "ilvl": 28,
      "inventoryType": "WEAPON",
      "enchants": [
-      "Instant Poison II (72 |4Charge:Charges;)"
+      "Instant Poison II (85 |4Charge:Charges;)"
      ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134298.jpg",
      "tt": {
