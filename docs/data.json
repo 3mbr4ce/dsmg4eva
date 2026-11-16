@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1794843866666,
+ "generatedAt": 1794857950203,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-11T07",
@@ -2066,38 +2066,79 @@
   {
    "friend": "Dala",
    "isMain": true,
-   "slug": "dala-hoon",
-   "input": "Dala-Hoon",
-   "id": 5937759,
+   "slug": "dala-huun",
+   "input": "Dala-Huun",
+   "id": 24459527,
    "name": "Dala",
-   "surname": "Hoon",
-   "fullName": "Dala Hoon",
-   "level": 29,
-   "experience": 39126,
-   "xpToLevel": 44300,
-   "xpPct": 88.32,
-   "levelProgress": 29.88,
+   "surname": "Huun",
+   "fullName": "Dala Huun",
+   "level": 33,
+   "experience": 33968,
+   "xpToLevel": 58600,
+   "xpPct": 57.97,
+   "levelProgress": 33.58,
    "className": "Shaman",
    "classId": 7,
    "race": "Orc",
    "raceId": 2,
    "gender": "MALE",
    "faction": "HORDE",
-   "ruleset": "PvP",
+   "ruleset": "Normal",
    "achievementPoints": 0,
-   "lastLogin": 1794324885000,
-   "apiItemLevel": 21,
+   "lastLogin": 1794840104000,
+   "apiItemLevel": 28,
    "gear": [
+    {
+     "slot": "HEAD",
+     "slotName": "Head",
+     "itemId": 6688,
+     "name": "Whisperwind Headdress",
+     "quality": "RARE",
+     "ilvl": 34,
+     "inventoryType": "HEAD",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133119.jpg",
+     "tt": {
+      "bind": "Binds when picked up",
+      "unique": "",
+      "inv": "Head",
+      "sub": "Leather",
+      "armor": "89 Armor",
+      "stats": [
+       {
+        "s": "+11 Stamina",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+7 Spell Power",
+        "neg": false,
+        "eq": true
+       },
+       {
+        "s": "+11 Spirit",
+        "neg": false,
+        "eq": true
+       }
+      ],
+      "spells": [],
+      "req": "Requires Level 29",
+      "reqClass": "",
+      "dur": "Durability 60 / 60",
+      "sell": 2967,
+      "desc": ""
+     }
+    },
     {
      "slot": "NECK",
      "slotName": "Neck",
-     "itemId": 273457,
-     "name": "Sorcerer Collar",
+     "itemId": 274068,
+     "name": "Thermaplugg Medal of Honor",
      "quality": "RARE",
-     "ilvl": 22,
+     "ilvl": 34,
      "inventoryType": "NECK",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133294.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133278.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
@@ -2106,45 +2147,48 @@
       "armor": "",
       "stats": [
        {
-        "s": "+2 Intellect",
+        "s": "+6 Stamina",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+2 Spirit",
+        "s": "+10 Attack Power",
+        "neg": false,
+        "eq": true
+       },
+       {
+        "s": "+6 Spirit",
         "neg": false,
         "eq": true
        }
       ],
-      "spells": [
-       "Equip: Reduces the hit chance of Silence effects against you by 4%."
-      ],
-      "req": "Requires Level 17",
+      "spells": [],
+      "req": "Requires Level 29",
       "reqClass": "",
       "dur": "",
-      "sell": 878,
-      "desc": ""
+      "sell": 3223,
+      "desc": "Azeroth's Best Pummeler"
      }
     },
     {
      "slot": "SHOULDER",
      "slotName": "Shoulders",
-     "itemId": 270023,
-     "name": "Tanned Shoulderpads",
+     "itemId": 14573,
+     "name": "Bristlebark Amice",
      "quality": "UNCOMMON",
      "ilvl": 27,
      "inventoryType": "SHOULDER",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135058.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135037.jpg",
      "tt": {
-      "bind": "Binds when picked up",
+      "bind": "Binds when equipped",
       "unique": "",
       "inv": "Shoulder",
       "sub": "Leather",
       "armor": "67 Armor",
       "stats": [
        {
-        "s": "+6 Intellect",
+        "s": "+6 Agility",
         "neg": false,
         "eq": false
        },
@@ -2155,20 +2199,20 @@
        }
       ],
       "spells": [],
-      "req": "",
+      "req": "Requires Level 22",
       "reqClass": "",
       "dur": "Durability 50 / 50",
-      "sell": 1309,
+      "sell": 1289,
       "desc": ""
      }
     },
     {
      "slot": "BACK",
      "slotName": "Back",
-     "itemId": 5314,
-     "name": "Boar Hunter's Cape",
+     "itemId": 16658,
+     "name": "Wildhunter Cloak",
      "quality": "UNCOMMON",
-     "ilvl": 20,
+     "ilvl": 32,
      "inventoryType": "CLOAK",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133762.jpg",
@@ -2177,19 +2221,29 @@
       "unique": "",
       "inv": "Back",
       "sub": "Cloth",
-      "armor": "17 Armor",
+      "armor": "22 Armor",
       "stats": [
        {
-        "s": "+3 Agility",
+        "s": "+2 Stamina",
         "neg": false,
         "eq": false
+       },
+       {
+        "s": "+10 Attack Power",
+        "neg": false,
+        "eq": true
+       },
+       {
+        "s": "+9 Attack Power Vs Beasts",
+        "neg": false,
+        "eq": true
        }
       ],
       "spells": [],
       "req": "",
       "reqClass": "",
       "dur": "",
-      "sell": 528,
+      "sell": 1649,
       "desc": ""
      }
     },
@@ -2201,7 +2255,9 @@
      "quality": "RARE",
      "ilvl": 32,
      "inventoryType": "CHEST",
-     "enchants": [],
+     "enchants": [
+      "Enchanted: Stamina +3 and Armor +24"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132716.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -2273,222 +2329,96 @@
     {
      "slot": "HANDS",
      "slotName": "Hands",
-     "itemId": 10413,
-     "name": "Gloves of the Fang",
+     "itemId": 274159,
+     "name": "Thorncursed Grips",
      "quality": "RARE",
-     "ilvl": 19,
+     "ilvl": 33,
      "inventoryType": "HAND",
-     "enchants": [
-      "Enchanted: Stamina +2 and Armor +16"
-     ],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132952.jpg",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132939.jpg",
      "tt": {
-      "bind": "Binds when equipped",
+      "bind": "Binds when picked up",
       "unique": "",
       "inv": "Hands",
       "sub": "Leather",
-      "armor": "52 Armor",
+      "armor": "68 Armor",
       "stats": [
        {
-        "s": "+6 Agility",
+        "s": "+18 Attack Power",
         "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+4 Strength",
-        "neg": false,
-        "eq": false
+        "eq": true
        }
       ],
-      "spells": [],
-      "req": "Requires Level 14",
+      "spells": [
+       "Equip: Your melee weapon attacks deal 2 Nature damage to both you and your target.\r\n"
+      ],
+      "req": "Requires Level 27",
       "reqClass": "",
-      "dur": "Durability 30 / 30",
-      "sell": 374,
-      "desc": "",
-      "set": {
-       "name": "Embrace of the Viper (3/5)",
-       "items": [
-        {
-         "n": "Belt of the Fang",
-         "eq": true
-        },
-        {
-         "n": "Footpads of the Fang",
-         "eq": true
-        },
-        {
-         "n": "Gloves of the Fang",
-         "eq": true
-        },
-        {
-         "n": "Leggings of the Fang",
-         "eq": false
-        },
-        {
-         "n": "Armor of the Fang",
-         "eq": false
-        }
-       ],
-       "effects": [
-        {
-         "s": "Set: +10 Intellect.",
-         "on": true
-        },
-        {
-         "s": "Set: +10 Attack Power.",
-         "on": true
-        },
-        {
-         "s": "(4) Set: Taking damage while at or below 25% health causes you to restore 100 health and mana over 5 sec. This effect can only trigger once every 5 min.",
-         "on": false
-        },
-        {
-         "s": "(5) Set: Grants your melee attacks a chance to inflict Dream Venom, stunning the target for 1 sec.",
-         "on": false
-        }
-       ]
-      }
+      "dur": "Durability 35 / 35",
+      "sell": 1833,
+      "desc": ""
      }
     },
     {
      "slot": "WAIST",
      "slotName": "Waist",
-     "itemId": 10412,
-     "name": "Belt of the Fang",
-     "quality": "RARE",
-     "ilvl": 21,
+     "itemId": 15469,
+     "name": "Windsong Cinch",
+     "quality": "UNCOMMON",
+     "ilvl": 29,
      "inventoryType": "WAIST",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132519.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132499.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Waist",
       "sub": "Leather",
-      "armor": "49 Armor",
+      "armor": "52 Armor",
       "stats": [
-       {
-        "s": "+3 Agility",
-        "neg": false,
-        "eq": false
-       },
        {
         "s": "+5 Stamina",
         "neg": false,
         "eq": false
-       }
-      ],
-      "spells": [],
-      "req": "Requires Level 16",
-      "reqClass": "",
-      "dur": "Durability 30 / 30",
-      "sell": 494,
-      "desc": "",
-      "set": {
-       "name": "Embrace of the Viper (3/5)",
-       "items": [
-        {
-         "n": "Belt of the Fang",
-         "eq": true
-        },
-        {
-         "n": "Footpads of the Fang",
-         "eq": true
-        },
-        {
-         "n": "Gloves of the Fang",
-         "eq": true
-        },
-        {
-         "n": "Leggings of the Fang",
-         "eq": false
-        },
-        {
-         "n": "Armor of the Fang",
-         "eq": false
-        }
-       ],
-       "effects": [
-        {
-         "s": "Set: +10 Intellect.",
-         "on": true
-        },
-        {
-         "s": "Set: +10 Attack Power.",
-         "on": true
-        },
-        {
-         "s": "(4) Set: Taking damage while at or below 25% health causes you to restore 100 health and mana over 5 sec. This effect can only trigger once every 5 min.",
-         "on": false
-        },
-        {
-         "s": "(5) Set: Grants your melee attacks a chance to inflict Dream Venom, stunning the target for 1 sec.",
-         "on": false
-        }
-       ]
-      }
-     }
-    },
-    {
-     "slot": "LEGS",
-     "slotName": "Legs",
-     "itemId": 5327,
-     "name": "Greasy Tinker's Pants",
-     "quality": "UNCOMMON",
-     "ilvl": 18,
-     "inventoryType": "LEGS",
-     "enchants": [
-      "Enchanted: Stamina +2 and Armor +16"
-     ],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134582.jpg",
-     "tt": {
-      "bind": "Binds when picked up",
-      "unique": "",
-      "inv": "Legs",
-      "sub": "Leather",
-      "armor": "65 Armor",
-      "stats": [
-       {
-        "s": "+3 Agility",
-        "neg": false,
-        "eq": false
        },
        {
-        "s": "+3 Strength",
+        "s": "+12 Attack Power",
         "neg": false,
-        "eq": false
+        "eq": true
        }
       ],
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 50 / 50",
-      "sell": 519,
+      "dur": "Durability 30 / 30",
+      "sell": 1009,
       "desc": ""
      }
     },
     {
-     "slot": "FEET",
-     "slotName": "Feet",
-     "itemId": 10411,
-     "name": "Footpads of the Fang",
+     "slot": "LEGS",
+     "slotName": "Legs",
+     "itemId": 9624,
+     "name": "Triprunner Dungarees",
      "quality": "RARE",
-     "ilvl": 22,
-     "inventoryType": "FEET",
-     "enchants": [
-      "Enchanted: Stamina +2 and Armor +16"
-     ],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132538.jpg",
+     "ilvl": 37,
+     "inventoryType": "LEGS",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134588.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
-      "inv": "Feet",
+      "inv": "Legs",
       "sub": "Leather",
-      "armor": "61 Armor",
+      "armor": "101 Armor",
       "stats": [
        {
-        "s": "+6 Agility",
+        "s": "+18 Agility",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+3 Strength",
         "neg": false,
         "eq": false
        },
@@ -2499,95 +2429,52 @@
        }
       ],
       "spells": [],
-      "req": "Requires Level 17",
+      "req": "",
       "reqClass": "",
-      "dur": "Durability 40 / 40",
-      "sell": 849,
-      "desc": "",
-      "set": {
-       "name": "Embrace of the Viper (3/5)",
-       "items": [
-        {
-         "n": "Belt of the Fang",
-         "eq": true
-        },
-        {
-         "n": "Footpads of the Fang",
-         "eq": true
-        },
-        {
-         "n": "Gloves of the Fang",
-         "eq": true
-        },
-        {
-         "n": "Leggings of the Fang",
-         "eq": false
-        },
-        {
-         "n": "Armor of the Fang",
-         "eq": false
-        }
-       ],
-       "effects": [
-        {
-         "s": "Set: +10 Intellect.",
-         "on": true
-        },
-        {
-         "s": "Set: +10 Attack Power.",
-         "on": true
-        },
-        {
-         "s": "(4) Set: Taking damage while at or below 25% health causes you to restore 100 health and mana over 5 sec. This effect can only trigger once every 5 min.",
-         "on": false
-        },
-        {
-         "s": "(5) Set: Grants your melee attacks a chance to inflict Dream Venom, stunning the target for 1 sec.",
-         "on": false
-        }
-       ]
-      }
+      "dur": "Durability 75 / 75",
+      "sell": 5252,
+      "desc": ""
      }
     },
     {
-     "slot": "FINGER_1",
-     "slotName": "Ring 1",
-     "itemId": 6414,
-     "name": "Seal of Sylvanas",
-     "quality": "RARE",
-     "ilvl": 29,
-     "inventoryType": "FINGER",
+     "slot": "FEET",
+     "slotName": "Feet",
+     "itemId": 3741,
+     "name": "Stomping Boots",
+     "quality": "UNCOMMON",
+     "ilvl": 24,
+     "inventoryType": "FEET",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133357.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132542.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
-      "inv": "Finger",
-      "sub": "Miscellaneous",
-      "armor": "",
+      "inv": "Feet",
+      "sub": "Leather",
+      "armor": "58 Armor",
       "stats": [
        {
-        "s": "+8 Stamina",
+        "s": "+4 Agility",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+6 Attack Power",
+        "s": "+4 Strength",
         "neg": false,
-        "eq": true
+        "eq": false
        }
       ],
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "",
-      "sell": 1960,
+      "dur": "Durability 40 / 40",
+      "sell": 922,
       "desc": ""
      }
     },
     {
-     "slot": "FINGER_2",
-     "slotName": "Ring 2",
+     "slot": "FINGER_1",
+     "slotName": "Ring 1",
      "itemId": 281673,
      "name": "Loop of Sacrifice",
      "quality": "UNCOMMON",
@@ -2622,80 +2509,81 @@
      }
     },
     {
-     "slot": "TRINKET_1",
-     "slotName": "Trinket 1",
-     "itemId": 273643,
-     "name": "Worgenbane Talisman",
+     "slot": "FINGER_2",
+     "slotName": "Ring 2",
+     "itemId": 6414,
+     "name": "Seal of Sylvanas",
      "quality": "RARE",
-     "ilvl": 26,
-     "inventoryType": "TRINKET",
+     "ilvl": 29,
+     "inventoryType": "FINGER",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133439.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133357.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
-      "inv": "Trinket",
+      "inv": "Finger",
       "sub": "Miscellaneous",
       "armor": "",
       "stats": [
        {
-        "s": "+2 Mana Regeneration per 5 sec",
+        "s": "+8 Stamina",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+6 Attack Power",
         "neg": false,
         "eq": true
        }
       ],
-      "spells": [
-       "Use: Stuns target Worgen for 4 sec. (5 Min Cooldown)"
-      ],
-      "req": "Requires Level 21",
+      "spells": [],
+      "req": "",
       "reqClass": "",
       "dur": "",
-      "sell": 1433,
+      "sell": 1960,
       "desc": ""
      }
     },
     {
      "slot": "MAIN_HAND",
      "slotName": "Main Hand",
-     "itemId": 251533,
-     "name": "Forsaken Greataxe",
+     "itemId": 280604,
+     "name": "Rage of the Storm",
      "quality": "RARE",
-     "ilvl": 24,
+     "ilvl": 40,
      "inventoryType": "TWOHWEAPON",
-     "enchants": [
-      "Rockbiter 3"
-     ],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132409.jpg",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133522.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Two-Hand",
-      "sub": "Axe",
+      "sub": "Mace",
       "armor": "",
       "stats": [
        {
-        "s": "+8 Strength",
+        "s": "+16 Strength",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+4 Stamina",
+        "s": "+15 Stamina",
         "neg": false,
         "eq": false
        }
       ],
       "spells": [
-       "Equip: Increases movement speed by 2% in Silverpine Forest and Hillsbrad Foothills."
+       "Equip: Increases the damage dealt by your Stormstrike ability by 10%."
       ],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 90 / 90",
-      "sell": 3629,
+      "dur": "Durability 100 / 100",
+      "sell": 16235,
       "desc": "",
       "weapon": {
-       "dmg": "49 - 74 Damage",
-       "speed": "Speed 3.00",
-       "dps": "(20.5 damage per second)"
+       "dmg": "102 - 154 Damage",
+       "speed": "Speed 3.60",
+       "dps": "(35.6 damage per second)"
       }
      }
     },
@@ -2727,9 +2615,9 @@
      }
     }
    ],
-   "itemLevel": 23.4,
+   "itemLevel": 30.53,
    "pvp": {
-    "hk": 13,
+    "hk": 1,
     "rank": 0,
     "rankName": "Unranked"
    },
@@ -2737,53 +2625,49 @@
     "trees": [
      {
       "name": "Enhancement",
-      "points": 19
-     },
-     {
-      "name": "Restoration",
-      "points": 1
+      "points": 24
      }
     ],
-    "split": "19/1",
+    "split": "24",
     "main": "Enhancement"
    },
    "professions": {
     "primaries": [
      {
       "name": "Leatherworking",
-      "skill": 104,
+      "skill": 135,
       "max": 150,
-      "recipes": 44
+      "recipes": 54
      },
      {
       "name": "Skinning",
-      "skill": 193,
-      "max": 225,
+      "skill": 211,
+      "max": 300,
       "recipes": 2
      }
     ],
     "secondaries": [
      {
       "name": "Cooking",
-      "skill": 18,
-      "max": 75,
-      "recipes": 7
+      "skill": 150,
+      "max": 150,
+      "recipes": 20
      },
      {
       "name": "Fishing",
-      "skill": 75,
-      "max": 75,
-      "recipes": 1
+      "skill": 146,
+      "max": 225,
+      "recipes": 2
      },
      {
       "name": "First Aid",
-      "skill": 126,
+      "skill": 150,
       "max": 150,
-      "recipes": 11
+      "recipes": 12
      }
     ]
    },
-   "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/dala-hoon",
+   "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/dala-huun",
    "weekly": {
     "levels": 0,
     "ilvl": 0,
