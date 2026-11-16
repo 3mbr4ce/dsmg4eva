@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1794858869595,
+ "generatedAt": 1794866044813,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-11T07",
@@ -2685,11 +2685,11 @@
    "name": "Sire",
    "surname": "Khingen",
    "fullName": "Sire Khingen",
-   "level": 31,
-   "experience": 28671,
-   "xpToLevel": 50800,
-   "xpPct": 56.44,
-   "levelProgress": 31.56,
+   "level": 32,
+   "experience": 9032,
+   "xpToLevel": 54500,
+   "xpPct": 16.57,
+   "levelProgress": 32.17,
    "className": "Paladin",
    "classId": 2,
    "race": "Undead",
@@ -2698,8 +2698,8 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1794764242000,
-   "apiItemLevel": 20,
+   "lastLogin": 1794865241000,
+   "apiItemLevel": 27,
    "gear": [
     {
      "slot": "HEAD",
@@ -2732,7 +2732,7 @@
       "spells": [],
       "req": "Requires Level 20",
       "reqClass": "",
-      "dur": "Durability 39 / 65",
+      "dur": "Durability 50 / 65",
       "sell": 1439,
       "desc": ""
      }
@@ -2804,7 +2804,7 @@
       "spells": [],
       "req": "Requires Level 17",
       "reqClass": "",
-      "dur": "Durability 20 / 50",
+      "dur": "Durability 39 / 50",
       "sell": 532,
       "desc": ""
      }
@@ -2812,41 +2812,41 @@
     {
      "slot": "BACK",
      "slotName": "Back",
-     "itemId": 6314,
-     "name": "Wolfmaster Cape",
+     "itemId": 271719,
+     "name": "Furs of the Earthen Ring",
      "quality": "RARE",
-     "ilvl": 27,
+     "ilvl": 33,
      "inventoryType": "CLOAK",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133762.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133756.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Back",
       "sub": "Cloth",
-      "armor": "22 Armor",
+      "armor": "25 Armor",
       "stats": [
        {
-        "s": "+3 Stamina",
+        "s": "+5 Intellect",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+10 Attack Power",
+        "s": "+5 Strength",
         "neg": false,
-        "eq": true
+        "eq": false
        },
        {
-        "s": "+9 Attack Power Vs Beasts",
+        "s": "+5 Spirit",
         "neg": false,
         "eq": true
        }
       ],
       "spells": [],
-      "req": "Requires Level 22",
+      "req": "",
       "reqClass": "",
       "dur": "",
-      "sell": 1215,
+      "sell": 2229,
       "desc": ""
      }
     },
@@ -2883,7 +2883,7 @@
       "spells": [],
       "req": "Requires Level 24",
       "reqClass": "",
-      "dur": "Durability 69 / 120",
+      "dur": "Durability 91 / 120",
       "sell": 2935,
       "desc": ""
      }
@@ -2944,7 +2944,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 22 / 35",
+      "dur": "Durability 25 / 35",
       "sell": 1191,
       "desc": ""
      }
@@ -2987,7 +2987,7 @@
       "spells": [],
       "req": "Requires Level 23",
       "reqClass": "",
-      "dur": "Durability 26 / 40",
+      "dur": "Durability 29 / 40",
       "sell": 1336,
       "desc": ""
      }
@@ -3023,7 +3023,7 @@
       "spells": [],
       "req": "Requires Level 15",
       "reqClass": "",
-      "dur": "Durability 21 / 35",
+      "dur": "Durability 26 / 35",
       "sell": 505,
       "desc": ""
      }
@@ -3066,7 +3066,7 @@
       "spells": [],
       "req": "Requires Level 25",
       "reqClass": "",
-      "dur": "Durability 48 / 90",
+      "dur": "Durability 68 / 90",
       "sell": 3149,
       "desc": ""
      }
@@ -3074,38 +3074,41 @@
     {
      "slot": "FEET",
      "slotName": "Feet",
-     "itemId": 271211,
-     "name": "Vilewalkers",
+     "itemId": 273025,
+     "name": "Raptorclaw Greaves",
      "quality": "RARE",
-     "ilvl": 22,
+     "ilvl": 31,
      "inventoryType": "FEET",
-     "enchants": [
-      "Enchanted: Stamina +2 and Armor +16"
-     ],
+     "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132551.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Feet",
       "sub": "Mail",
-      "armor": "131 Armor",
+      "armor": "152 Armor",
       "stats": [
+       {
+        "s": "+6 Intellect",
+        "neg": false,
+        "eq": false
+       },
        {
         "s": "+7 Strength",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+5 Stamina",
+        "s": "+7 Stamina",
         "neg": false,
         "eq": false
        }
       ],
       "spells": [],
-      "req": "Requires Level 17",
+      "req": "Requires Level 26",
       "reqClass": "",
-      "dur": "Durability 25 / 50",
-      "sell": 970,
+      "dur": "Durability 52 / 60",
+      "sell": 2606,
       "desc": ""
      }
     },
@@ -3182,39 +3185,79 @@
      }
     },
     {
-     "slot": "MAIN_HAND",
-     "slotName": "Main Hand",
-     "itemId": 6256,
-     "name": "Fishing Pole",
-     "quality": "COMMON",
-     "ilvl": 1,
-     "inventoryType": "TWOHWEAPON",
+     "slot": "TRINKET_1",
+     "slotName": "Trinket 1",
+     "itemId": 280766,
+     "name": "Satchel of Potions",
+     "quality": "UNCOMMON",
+     "ilvl": 33,
+     "inventoryType": "TRINKET",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132932.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133633.jpg",
      "tt": {
-      "bind": "",
+      "bind": "Binds when picked up",
       "unique": "",
-      "inv": "Two-Hand",
-      "sub": "Fishing Pole",
+      "inv": "Trinket",
+      "sub": "Miscellaneous",
       "armor": "",
       "stats": [],
-      "spells": [],
+      "spells": [
+       "Use: Reach into the bag and hope for the best. (10 Min Cooldown)"
+      ],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 16 / 16",
-      "sell": 4,
+      "dur": "",
+      "sell": 2489,
+      "desc": "Not every potion is meant for consumption."
+     }
+    },
+    {
+     "slot": "MAIN_HAND",
+     "slotName": "Main Hand",
+     "itemId": 267369,
+     "name": "Wolfsbane",
+     "quality": "RARE",
+     "ilvl": 31,
+     "inventoryType": "TWOHWEAPON",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135326.jpg",
+     "tt": {
+      "bind": "Binds when picked up",
+      "unique": "",
+      "inv": "Two-Hand",
+      "sub": "Sword",
+      "armor": "",
+      "stats": [
+       {
+        "s": "+10 Intellect",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+9 Stamina",
+        "neg": false,
+        "eq": false
+       }
+      ],
+      "spells": [
+       "Chance on hit: Sear the target with a vortex of blazing wind, dealing 39 to 59 Holystorm damage. Deals 3 times as much damage to Wolves and Worgen."
+      ],
+      "req": "",
+      "reqClass": "Classes: Paladin",
+      "dur": "Durability 79 / 100",
+      "sell": 7459,
       "desc": "",
       "weapon": {
-       "dmg": "2 - 4 Damage",
-       "speed": "Speed 3.00",
-       "dps": "(1.0 damage per second)"
+       "dmg": "69 - 105 Damage",
+       "speed": "Speed 3.40",
+       "dps": "(25.6 damage per second)"
       }
      }
     }
    ],
-   "itemLevel": 23.29,
+   "itemLevel": 28.93,
    "pvp": {
-    "hk": 80,
+    "hk": 99,
     "rank": 0,
     "rankName": "Unranked"
    },
@@ -3222,17 +3265,17 @@
     "trees": [
      {
       "name": "Retribution",
-      "points": 22
+      "points": 23
      }
     ],
-    "split": "22",
+    "split": "23",
     "main": "Retribution"
    },
    "professions": {
     "primaries": [
      {
       "name": "Mining",
-      "skill": 185,
+      "skill": 187,
       "max": 225,
       "recipes": 11
      },
@@ -3240,7 +3283,7 @@
       "name": "Blacksmithing",
       "skill": 185,
       "max": 225,
-      "recipes": 66
+      "recipes": 68
      }
     ],
     "secondaries": [
@@ -3248,7 +3291,7 @@
       "name": "Cooking",
       "skill": 225,
       "max": 225,
-      "recipes": 18
+      "recipes": 19
      },
      {
       "name": "Fishing",
@@ -3258,7 +3301,7 @@
      },
      {
       "name": "First Aid",
-      "skill": 198,
+      "skill": 199,
       "max": 225,
       "recipes": 11
      }
@@ -3266,9 +3309,9 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/sire-khingen",
    "weekly": {
-    "levels": 2.97,
-    "ilvl": -3.71,
-    "hk": 54,
+    "levels": 3.58,
+    "ilvl": 1.93,
+    "hk": 73,
     "rank": 0
    },
    "ding60At": null
