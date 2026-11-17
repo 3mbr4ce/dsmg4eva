@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1794949969700,
+ "generatedAt": 1794953627798,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-11T07",
@@ -2100,11 +2100,11 @@
    "name": "Dala",
    "surname": "Huun",
    "fullName": "Dala Huun",
-   "level": 36,
-   "experience": 18355,
-   "xpToLevel": 71600,
-   "xpPct": 25.64,
-   "levelProgress": 36.26,
+   "level": 37,
+   "experience": 19778,
+   "xpToLevel": 76100,
+   "xpPct": 25.99,
+   "levelProgress": 37.26,
    "className": "Shaman",
    "classId": 7,
    "race": "Orc",
@@ -2113,16 +2113,16 @@
    "faction": "HORDE",
    "ruleset": "Normal",
    "achievementPoints": 0,
-   "lastLogin": 1794934573000,
-   "apiItemLevel": 28,
+   "lastLogin": 1794953048000,
+   "apiItemLevel": 30,
    "gear": [
     {
      "slot": "HEAD",
      "slotName": "Head",
-     "itemId": 6688,
-     "name": "Whisperwind Headdress",
-     "quality": "RARE",
-     "ilvl": 34,
+     "itemId": 6720,
+     "name": "Spirit Hunter Headdress",
+     "quality": "UNCOMMON",
+     "ilvl": 37,
      "inventoryType": "HEAD",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133119.jpg",
@@ -2131,29 +2131,24 @@
       "unique": "",
       "inv": "Head",
       "sub": "Leather",
-      "armor": "89 Armor",
+      "armor": "85 Armor",
       "stats": [
        {
-        "s": "+11 Stamina",
+        "s": "+10 Agility",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+7 Spell Power",
-        "neg": false,
-        "eq": true
-       },
-       {
-        "s": "+11 Spirit",
+        "s": "+9 Spirit",
         "neg": false,
         "eq": true
        }
       ],
       "spells": [],
-      "req": "Requires Level 29",
+      "req": "",
       "reqClass": "",
-      "dur": "Durability 22 / 60",
-      "sell": 2967,
+      "dur": "Durability 50 / 50",
+      "sell": 3218,
       "desc": ""
      }
     },
@@ -2234,7 +2229,7 @@
       "spells": [],
       "req": "Requires Level 28",
       "reqClass": "",
-      "dur": "Durability 52 / 60",
+      "dur": "Durability 58 / 60",
       "sell": 2715,
       "desc": ""
      }
@@ -2318,7 +2313,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 35 / 100",
+      "dur": "Durability 98 / 100",
       "sell": 3365,
       "desc": ""
      }
@@ -2354,7 +2349,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 17 / 35",
+      "dur": "Durability 34 / 35",
       "sell": 1191,
       "desc": ""
      }
@@ -2387,7 +2382,7 @@
       ],
       "req": "Requires Level 27",
       "reqClass": "",
-      "dur": "Durability 21 / 35",
+      "dur": "Durability 35 / 35",
       "sell": 1833,
       "desc": ""
      }
@@ -2466,7 +2461,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 42 / 75",
+      "dur": "Durability 73 / 75",
       "sell": 5252,
       "desc": ""
      }
@@ -2502,7 +2497,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 15 / 40",
+      "dur": "Durability 39 / 40",
       "sell": 922,
       "desc": ""
      }
@@ -2580,6 +2575,33 @@
      }
     },
     {
+     "slot": "TRINKET_1",
+     "slotName": "Trinket 1",
+     "itemId": 280766,
+     "name": "Satchel of Potions",
+     "quality": "UNCOMMON",
+     "ilvl": 33,
+     "inventoryType": "TRINKET",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133633.jpg",
+     "tt": {
+      "bind": "Binds when picked up",
+      "unique": "",
+      "inv": "Trinket",
+      "sub": "Miscellaneous",
+      "armor": "",
+      "stats": [],
+      "spells": [
+       "Use: Reach into the bag and hope for the best. (10 Min Cooldown)"
+      ],
+      "req": "",
+      "reqClass": "",
+      "dur": "",
+      "sell": 2489,
+      "desc": "Not every potion is meant for consumption."
+     }
+    },
+    {
      "slot": "MAIN_HAND",
      "slotName": "Main Hand",
      "itemId": 280604,
@@ -2614,7 +2636,7 @@
       ],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 75 / 100",
+      "dur": "Durability 99 / 100",
       "sell": 16235,
       "desc": "",
       "weapon": {
@@ -2652,7 +2674,7 @@
      }
     }
    ],
-   "itemLevel": 31.2,
+   "itemLevel": 31.5,
    "pvp": {
     "hk": 1,
     "rank": 0,
@@ -2666,23 +2688,23 @@
      },
      {
       "name": "Restoration",
-      "points": 2
+      "points": 3
      }
     ],
-    "split": "25/2",
+    "split": "25/3",
     "main": "Enhancement"
    },
    "professions": {
     "primaries": [
      {
       "name": "Leatherworking",
-      "skill": 135,
-      "max": 150,
-      "recipes": 54
+      "skill": 182,
+      "max": 225,
+      "recipes": 77
      },
      {
       "name": "Skinning",
-      "skill": 236,
+      "skill": 244,
       "max": 300,
       "recipes": 2
      }
@@ -2692,11 +2714,11 @@
       "name": "Cooking",
       "skill": 150,
       "max": 150,
-      "recipes": 20
+      "recipes": 22
      },
      {
       "name": "Fishing",
-      "skill": 159,
+      "skill": 168,
       "max": 225,
       "recipes": 2
      },
@@ -2710,8 +2732,8 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/dala-huun",
    "weekly": {
-    "levels": 2.68,
-    "ilvl": 0.67,
+    "levels": 3.68,
+    "ilvl": 0.97,
     "hk": 0,
     "rank": 0
    },
