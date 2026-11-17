@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1794935623855,
+ "generatedAt": 1794949969700,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-11T07",
@@ -2727,10 +2727,10 @@
    "surname": "Khingen",
    "fullName": "Sire Khingen",
    "level": 32,
-   "experience": 9032,
+   "experience": 44770,
    "xpToLevel": 54500,
-   "xpPct": 16.57,
-   "levelProgress": 32.17,
+   "xpPct": 82.15,
+   "levelProgress": 32.82,
    "className": "Paladin",
    "classId": 2,
    "race": "Undead",
@@ -2739,8 +2739,8 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1794865241000,
-   "apiItemLevel": 27,
+   "lastLogin": 1794949459000,
+   "apiItemLevel": 28,
    "gear": [
     {
      "slot": "HEAD",
@@ -2773,7 +2773,7 @@
       "spells": [],
       "req": "Requires Level 20",
       "reqClass": "",
-      "dur": "Durability 50 / 65",
+      "dur": "Durability 39 / 65",
       "sell": 1439,
       "desc": ""
      }
@@ -2781,36 +2781,41 @@
     {
      "slot": "NECK",
      "slotName": "Neck",
-     "itemId": 12029,
-     "name": "Greenstone Talisman of Nature Protection",
-     "quality": "UNCOMMON",
-     "ilvl": 35,
+     "itemId": 6695,
+     "name": "Stygian Bone Amulet",
+     "quality": "RARE",
+     "ilvl": 34,
      "inventoryType": "NECK",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133288.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133291.jpg",
      "tt": {
-      "bind": "Binds when equipped",
+      "bind": "Binds when picked up",
       "unique": "",
       "inv": "Neck",
       "sub": "Miscellaneous",
       "armor": "",
       "stats": [
        {
-        "s": "+5 Stamina",
+        "s": "+4 Stamina",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+5 Nature Resistance",
+        "s": "+5 Spell Power",
         "neg": false,
-        "eq": false
+        "eq": true
+       },
+       {
+        "s": "+12 Spell Damage Vs Undead",
+        "neg": false,
+        "eq": true
        }
       ],
       "spells": [],
-      "req": "Requires Level 30",
+      "req": "Requires Level 29",
       "reqClass": "",
       "dur": "",
-      "sell": 5395,
+      "sell": 3156,
       "desc": ""
      }
     },
@@ -2845,7 +2850,7 @@
       "spells": [],
       "req": "Requires Level 17",
       "reqClass": "",
-      "dur": "Durability 39 / 50",
+      "dur": "Durability 29 / 50",
       "sell": 532,
       "desc": ""
      }
@@ -2924,7 +2929,7 @@
       "spells": [],
       "req": "Requires Level 24",
       "reqClass": "",
-      "dur": "Durability 91 / 120",
+      "dur": "Durability 76 / 120",
       "sell": 2935,
       "desc": ""
      }
@@ -2985,7 +2990,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 25 / 35",
+      "dur": "Durability 18 / 35",
       "sell": 1191,
       "desc": ""
      }
@@ -3028,7 +3033,7 @@
       "spells": [],
       "req": "Requires Level 23",
       "reqClass": "",
-      "dur": "Durability 29 / 40",
+      "dur": "Durability 26 / 40",
       "sell": 1336,
       "desc": ""
      }
@@ -3036,36 +3041,41 @@
     {
      "slot": "WAIST",
      "slotName": "Waist",
-     "itemId": 271201,
-     "name": "Atrophic Girdle",
+     "itemId": 6742,
+     "name": "Stonefist Girdle",
      "quality": "RARE",
-     "ilvl": 20,
+     "ilvl": 36,
      "inventoryType": "WAIST",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132510.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132524.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Waist",
       "sub": "Mail",
-      "armor": "104 Armor",
+      "armor": "134 Armor",
       "stats": [
        {
-        "s": "+3 Strength",
+        "s": "+6 Strength",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+7 Stamina",
+        "s": "+5 Stamina",
         "neg": false,
         "eq": false
+       },
+       {
+        "s": "+100 Bonus Armor",
+        "neg": false,
+        "eq": true
        }
       ],
       "spells": [],
-      "req": "Requires Level 15",
+      "req": "",
       "reqClass": "",
-      "dur": "Durability 26 / 35",
-      "sell": 505,
+      "dur": "Durability 40 / 40",
+      "sell": 2864,
       "desc": ""
      }
     },
@@ -3107,7 +3117,7 @@
       "spells": [],
       "req": "Requires Level 25",
       "reqClass": "",
-      "dur": "Durability 68 / 90",
+      "dur": "Durability 54 / 90",
       "sell": 3149,
       "desc": ""
      }
@@ -3148,7 +3158,7 @@
       "spells": [],
       "req": "Requires Level 26",
       "reqClass": "",
-      "dur": "Durability 52 / 60",
+      "dur": "Durability 47 / 60",
       "sell": 2606,
       "desc": ""
      }
@@ -3192,13 +3202,13 @@
     {
      "slot": "FINGER_2",
      "slotName": "Ring 2",
-     "itemId": 281673,
-     "name": "Loop of Sacrifice",
+     "itemId": 6749,
+     "name": "Tiger Band",
      "quality": "UNCOMMON",
-     "ilvl": 28,
+     "ilvl": 32,
      "inventoryType": "FINGER",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133368.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133355.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
@@ -3207,21 +3217,21 @@
       "armor": "",
       "stats": [
        {
-        "s": "+5 Intellect",
+        "s": "+5 Strength",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+3 Strength",
+        "s": "+5 Spirit",
         "neg": false,
-        "eq": false
+        "eq": true
        }
       ],
       "spells": [],
       "req": "",
       "reqClass": "",
       "dur": "",
-      "sell": 1413,
+      "sell": 2174,
       "desc": ""
      }
     },
@@ -3285,7 +3295,7 @@
       ],
       "req": "",
       "reqClass": "Classes: Paladin",
-      "dur": "Durability 79 / 100",
+      "dur": "Durability 76 / 100",
       "sell": 7459,
       "desc": "",
       "weapon": {
@@ -3296,7 +3306,7 @@
      }
     }
    ],
-   "itemLevel": 28.93,
+   "itemLevel": 30.2,
    "pvp": {
     "hk": 99,
     "rank": 0,
@@ -3342,7 +3352,7 @@
      },
      {
       "name": "First Aid",
-      "skill": 199,
+      "skill": 202,
       "max": 225,
       "recipes": 11
      }
@@ -3350,8 +3360,8 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/sire-khingen",
    "weekly": {
-    "levels": 3.58,
-    "ilvl": 1.93,
+    "levels": 4.23,
+    "ilvl": 3.2,
     "hk": 73,
     "rank": 0
    },
