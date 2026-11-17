@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1794916452017,
+ "generatedAt": 1794924898164,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-11T07",
@@ -42,11 +42,11 @@
    "name": "Sir",
    "surname": "Billythecrit",
    "fullName": "Sir Billythecrit",
-   "level": 33,
-   "experience": 27711,
-   "xpToLevel": 58600,
-   "xpPct": 47.29,
-   "levelProgress": 33.47,
+   "level": 34,
+   "experience": 4161,
+   "xpToLevel": 62800,
+   "xpPct": 6.63,
+   "levelProgress": 34.07,
    "className": "Rogue",
    "classId": 4,
    "race": "Undead",
@@ -55,7 +55,7 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1794866587000,
+   "lastLogin": 1794924334000,
    "apiItemLevel": 28,
    "gear": [
     {
@@ -124,7 +124,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 45 / 45",
+      "dur": "Durability 40 / 45",
       "sell": 3929,
       "desc": ""
      }
@@ -155,7 +155,7 @@
       "spells": [],
       "req": "Requires Level 22",
       "reqClass": "",
-      "dur": "Durability 50 / 50",
+      "dur": "Durability 43 / 50",
       "sell": 1306,
       "desc": ""
      }
@@ -227,7 +227,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 85 / 85",
+      "dur": "Durability 79 / 85",
       "sell": 2034,
       "desc": ""
      }
@@ -315,7 +315,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 35 / 35",
+      "dur": "Durability 30 / 35",
       "sell": 1191,
       "desc": ""
      }
@@ -346,7 +346,7 @@
       "spells": [],
       "req": "Requires Level 23",
       "reqClass": "",
-      "dur": "Durability 30 / 30",
+      "dur": "Durability 28 / 30",
       "sell": 971,
       "desc": ""
      }
@@ -382,7 +382,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 30 / 30",
+      "dur": "Durability 28 / 30",
       "sell": 1009,
       "desc": ""
      }
@@ -418,7 +418,7 @@
       "spells": [],
       "req": "Requires Level 26",
       "reqClass": "",
-      "dur": "Durability 75 / 75",
+      "dur": "Durability 66 / 75",
       "sell": 2851,
       "desc": ""
      }
@@ -454,7 +454,7 @@
       "spells": [],
       "req": "Requires Level 18",
       "reqClass": "",
-      "dur": "Durability 40 / 40",
+      "dur": "Durability 33 / 40",
       "sell": 797,
       "desc": ""
      }
@@ -583,6 +583,47 @@
     {
      "slot": "MAIN_HAND",
      "slotName": "Main Hand",
+     "itemId": 280805,
+     "name": "Serrated Raptor Claw",
+     "quality": "UNCOMMON",
+     "ilvl": 33,
+     "inventoryType": "WEAPON",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135652.jpg",
+     "tt": {
+      "bind": "Binds when picked up",
+      "unique": "",
+      "inv": "One-Hand",
+      "sub": "Dagger",
+      "armor": "",
+      "stats": [
+       {
+        "s": "+3 Agility",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+6 Attack Power",
+        "neg": false,
+        "eq": true
+       }
+      ],
+      "spells": [],
+      "req": "",
+      "reqClass": "",
+      "dur": "Durability 41 / 55",
+      "sell": 6199,
+      "desc": "Some claws are better for killing than cooking.",
+      "weapon": {
+       "dmg": "19 - 36 Damage",
+       "speed": "Speed 1.60",
+       "dps": "(17.2 damage per second)"
+      }
+     }
+    },
+    {
+     "slot": "OFF_HAND",
+     "slotName": "Off Hand",
      "itemId": 6904,
      "name": "Bite of Serra'kis",
      "quality": "RARE",
@@ -608,54 +649,13 @@
       ],
       "req": "Requires Level 23",
       "reqClass": "",
-      "dur": "Durability 60 / 60",
+      "dur": "Durability 50 / 60",
       "sell": 4455,
       "desc": "",
       "weapon": {
        "dmg": "16 - 30 Damage",
        "speed": "Speed 1.30",
        "dps": "(17.7 damage per second)"
-      }
-     }
-    },
-    {
-     "slot": "OFF_HAND",
-     "slotName": "Off Hand",
-     "itemId": 6448,
-     "name": "Tail Spike",
-     "quality": "RARE",
-     "ilvl": 21,
-     "inventoryType": "WEAPON",
-     "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135646.jpg",
-     "tt": {
-      "bind": "Binds when picked up",
-      "unique": "",
-      "inv": "One-Hand",
-      "sub": "Dagger",
-      "armor": "",
-      "stats": [
-       {
-        "s": "+3 Agility",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+3 Strength",
-        "neg": false,
-        "eq": false
-       }
-      ],
-      "spells": [],
-      "req": "Requires Level 16",
-      "reqClass": "",
-      "dur": "Durability 45 / 45",
-      "sell": 1963,
-      "desc": "",
-      "weapon": {
-       "dmg": "17 - 33 Damage",
-       "speed": "Speed 1.80",
-       "dps": "(13.9 damage per second)"
       }
      }
     },
@@ -701,9 +701,9 @@
      }
     }
    ],
-   "itemLevel": 29.41,
+   "itemLevel": 30.12,
    "pvp": {
-    "hk": 485,
+    "hk": 489,
     "rank": 1,
     "rankName": "Scout"
    },
@@ -711,17 +711,17 @@
     "trees": [
      {
       "name": "Subtlety",
-      "points": 24
+      "points": 25
      }
     ],
-    "split": "24",
+    "split": "25",
     "main": "Subtlety"
    },
    "professions": {
     "primaries": [
      {
       "name": "Mining",
-      "skill": 162,
+      "skill": 165,
       "max": 225,
       "recipes": 8
      },
@@ -737,7 +737,7 @@
       "name": "Cooking",
       "skill": 202,
       "max": 225,
-      "recipes": 22
+      "recipes": 23
      },
      {
       "name": "Fishing",
@@ -755,9 +755,9 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/sir-billythecrit",
    "weekly": {
-    "levels": 3.63,
-    "ilvl": 2.14,
-    "hk": 80,
+    "levels": 4.23,
+    "ilvl": 2.85,
+    "hk": 84,
     "rank": 0
    },
    "ding60At": null
