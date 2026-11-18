@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795040622991,
+ "generatedAt": 1795042223216,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-18T07",
@@ -1418,182 +1418,47 @@
   {
    "friend": "Ruler",
    "isMain": true,
-   "slug": "ruler-shiroune",
-   "input": "Ruler-Shiroune",
-   "id": 10305070,
+   "slug": "ruler-unbann",
+   "input": "Ruler-Unbann",
+   "id": 62111966,
    "name": "Ruler",
-   "surname": "Shiroune",
-   "fullName": "Ruler Shiroune",
-   "level": 29,
-   "experience": 12540,
-   "xpToLevel": 44300,
-   "xpPct": 28.31,
-   "levelProgress": 29.28,
-   "className": "Warrior",
-   "classId": 1,
-   "race": "Orc",
-   "raceId": 2,
+   "surname": "Unbann",
+   "fullName": "Ruler Unbann",
+   "level": 28,
+   "experience": 7638,
+   "xpToLevel": 41400,
+   "xpPct": 18.45,
+   "levelProgress": 28.18,
+   "className": "Druid",
+   "classId": 11,
+   "race": "Night Elf",
+   "raceId": 4,
    "gender": "MALE",
-   "faction": "HORDE",
+   "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1794326947000,
+   "lastLogin": 1795038988000,
    "apiItemLevel": 22,
    "gear": [
     {
-     "slot": "AMMO",
-     "slotName": "Ammo",
-     "itemId": 2515,
-     "name": "Sharp Arrow",
-     "quality": "COMMON",
-     "ilvl": 15,
-     "inventoryType": "AMMO",
+     "slot": "NECK",
+     "slotName": "Neck",
+     "itemId": 279870,
+     "name": "Tarnished Locket",
+     "quality": "UNCOMMON",
+     "ilvl": 24,
+     "inventoryType": "NECK",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132382.jpg",
-     "tt": {
-      "bind": "",
-      "unique": "",
-      "inv": "Ammo",
-      "sub": "Arrow",
-      "armor": "",
-      "stats": [],
-      "spells": [],
-      "req": "Requires Level 10",
-      "reqClass": "",
-      "dur": "",
-      "sell": 0,
-      "desc": "",
-      "weapon": {
-       "dmg": "Adds 3.5 damage per second",
-       "speed": "",
-       "dps": ""
-      }
-     }
-    },
-    {
-     "slot": "HEAD",
-     "slotName": "Head",
-     "itemId": 250528,
-     "name": "Veteran's Silvered Chain Helm",
-     "quality": "RARE",
-     "ilvl": 25,
-     "inventoryType": "HEAD",
-     "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133141.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133295.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
-      "inv": "Head",
-      "sub": "Mail",
-      "armor": "163 Armor",
+      "inv": "Neck",
+      "sub": "Miscellaneous",
+      "armor": "",
       "stats": [
        {
-        "s": "+10 Strength",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+9 Stamina",
-        "neg": false,
-        "eq": false
-       }
-      ],
-      "spells": [],
-      "req": "Requires Level 20",
-      "reqClass": "",
-      "dur": "Durability 65 / 65",
-      "sell": 1439,
-      "desc": ""
-     }
-    },
-    {
-     "slot": "SHOULDER",
-     "slotName": "Shoulders",
-     "itemId": 3840,
-     "name": "Green Iron Shoulders",
-     "quality": "UNCOMMON",
-     "ilvl": 32,
-     "inventoryType": "SHOULDER",
-     "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135040.jpg",
-     "tt": {
-      "bind": "Binds when equipped",
-      "unique": "",
-      "inv": "Shoulder",
-      "sub": "Mail",
-      "armor": "153 Armor",
-      "stats": [
-       {
-        "s": "+4 Strength",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+7 Stamina",
-        "neg": false,
-        "eq": false
-       }
-      ],
-      "spells": [],
-      "req": "Requires Level 27",
-      "reqClass": "",
-      "dur": "Durability 60 / 60",
-      "sell": 2571,
-      "desc": ""
-     }
-    },
-    {
-     "slot": "BACK",
-     "slotName": "Back",
-     "itemId": 9867,
-     "name": "Renegade Cloak of Strength",
-     "quality": "UNCOMMON",
-     "ilvl": 33,
-     "inventoryType": "CLOAK",
-     "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133757.jpg",
-     "tt": {
-      "bind": "Binds when equipped",
-      "unique": "",
-      "inv": "Back",
-      "sub": "Cloth",
-      "armor": "23 Armor",
-      "stats": [
-       {
-        "s": "+7 Strength",
-        "neg": false,
-        "eq": false
-       }
-      ],
-      "spells": [],
-      "req": "Requires Level 28",
-      "reqClass": "",
-      "dur": "",
-      "sell": 1778,
-      "desc": ""
-     }
-    },
-    {
-     "slot": "CHEST",
-     "slotName": "Chest",
-     "itemId": 2870,
-     "name": "Shining Silver Breastplate",
-     "quality": "RARE",
-     "ilvl": 29,
-     "inventoryType": "CHEST",
-     "enchants": [
-      "Enchanted: Attack Power +4 and Armor +16"
-     ],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132750.jpg",
-     "tt": {
-      "bind": "Binds when equipped",
-      "unique": "",
-      "inv": "Chest",
-      "sub": "Mail",
-      "armor": "214 Armor",
-      "stats": [
-       {
-        "s": "+14 Strength",
+        "s": "-3 Strength",
         "neg": false,
         "eq": false
        },
@@ -1604,25 +1469,128 @@
        }
       ],
       "spells": [],
-      "req": "Requires Level 24",
+      "req": "",
       "reqClass": "",
-      "dur": "Durability 120 / 120",
-      "sell": 2935,
+      "dur": "",
+      "sell": 932,
+      "desc": "Some memories are best forgotten."
+     }
+    },
+    {
+     "slot": "SHOULDER",
+     "slotName": "Shoulders",
+     "itemId": 7408,
+     "name": "Infiltrator Shoulders of the Bear",
+     "quality": "UNCOMMON",
+     "ilvl": 33,
+     "inventoryType": "SHOULDER",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135039.jpg",
+     "tt": {
+      "bind": "Binds when equipped",
+      "unique": "",
+      "inv": "Shoulder",
+      "sub": "Leather",
+      "armor": "74 Armor",
+      "stats": [
+       {
+        "s": "+6 Strength",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+6 Stamina",
+        "neg": false,
+        "eq": false
+       }
+      ],
+      "spells": [],
+      "req": "Requires Level 28",
+      "reqClass": "",
+      "dur": "Durability 47 / 50",
+      "sell": 2281,
+      "desc": ""
+     }
+    },
+    {
+     "slot": "BACK",
+     "slotName": "Back",
+     "itemId": 5751,
+     "name": "Webwing Cloak",
+     "quality": "UNCOMMON",
+     "ilvl": 27,
+     "inventoryType": "CLOAK",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133762.jpg",
+     "tt": {
+      "bind": "Binds when equipped",
+      "unique": "",
+      "inv": "Back",
+      "sub": "Cloth",
+      "armor": "20 Armor",
+      "stats": [
+       {
+        "s": "+5 Agility",
+        "neg": false,
+        "eq": false
+       }
+      ],
+      "spells": [],
+      "req": "Requires Level 22",
+      "reqClass": "",
+      "dur": "",
+      "sell": 1028,
+      "desc": ""
+     }
+    },
+    {
+     "slot": "CHEST",
+     "slotName": "Chest",
+     "itemId": 2041,
+     "name": "Tunic of Westfall",
+     "quality": "RARE",
+     "ilvl": 24,
+     "inventoryType": "CHEST",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132722.jpg",
+     "tt": {
+      "bind": "Binds when picked up",
+      "unique": "",
+      "inv": "Chest",
+      "sub": "Leather",
+      "armor": "92 Armor",
+      "stats": [
+       {
+        "s": "+11 Agility",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+5 Stamina",
+        "neg": false,
+        "eq": false
+       }
+      ],
+      "spells": [],
+      "req": "",
+      "reqClass": "",
+      "dur": "Durability 86 / 90",
+      "sell": 1441,
       "desc": ""
      }
     },
     {
      "slot": "SHIRT",
      "slotName": "Shirt",
-     "itemId": 6125,
-     "name": "Brawler's Harness",
+     "itemId": 859,
+     "name": "Fine Cloth Shirt",
      "quality": "COMMON",
-     "ilvl": 1,
+     "ilvl": 17,
      "inventoryType": "BODY",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132719.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135006.jpg",
      "tt": {
-      "bind": "",
+      "bind": "Binds when picked up",
       "unique": "",
       "inv": "Shirt",
       "sub": "Miscellaneous",
@@ -1632,105 +1600,26 @@
       "req": "",
       "reqClass": "",
       "dur": "",
-      "sell": 1,
+      "sell": 87,
       "desc": ""
      }
     },
     {
      "slot": "WRIST",
      "slotName": "Wrist",
-     "itemId": 286981,
-     "name": "Death Bindings",
-     "quality": "RARE",
-     "ilvl": 21,
+     "itemId": 270015,
+     "name": "Bravo's Armbands",
+     "quality": "UNCOMMON",
+     "ilvl": 22,
      "inventoryType": "WRIST",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132605.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132606.jpg",
      "tt": {
-      "bind": "Binds when equipped",
+      "bind": "Binds when picked up",
       "unique": "",
       "inv": "Wrist",
-      "sub": "Mail",
-      "armor": "82 Armor",
-      "stats": [
-       {
-        "s": "+5 Strength",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+2 Spirit",
-        "neg": false,
-        "eq": true
-       }
-      ],
-      "spells": [],
-      "req": "Requires Level 16",
-      "reqClass": "",
-      "dur": "Durability 35 / 35",
-      "sell": 585,
-      "desc": ""
-     }
-    },
-    {
-     "slot": "HANDS",
-     "slotName": "Hands",
-     "itemId": 6906,
-     "name": "Algae Fists",
-     "quality": "RARE",
-     "ilvl": 28,
-     "inventoryType": "HAND",
-     "enchants": [
-      "Enchanted: Stamina +2 and Armor +16"
-     ],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132944.jpg",
-     "tt": {
-      "bind": "Binds when picked up",
-      "unique": "",
-      "inv": "Hands",
-      "sub": "Mail",
-      "armor": "132 Armor",
-      "stats": [
-       {
-        "s": "+8 Strength",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+5 Stamina",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+5 Nature Resistance",
-        "neg": false,
-        "eq": false
-       }
-      ],
-      "spells": [],
-      "req": "Requires Level 23",
-      "reqClass": "",
-      "dur": "Durability 40 / 40",
-      "sell": 1336,
-      "desc": ""
-     }
-    },
-    {
-     "slot": "WAIST",
-     "slotName": "Waist",
-     "itemId": 6460,
-     "name": "Cobrahn's Grasp",
-     "quality": "RARE",
-     "ilvl": 22,
-     "inventoryType": "WAIST",
-     "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132492.jpg",
-     "tt": {
-      "bind": "Binds when picked up",
-      "unique": "",
-      "inv": "Waist",
-      "sub": "Mail",
-      "armor": "107 Armor",
+      "sub": "Leather",
+      "armor": "35 Armor",
       "stats": [
        {
         "s": "+3 Agility",
@@ -1738,152 +1627,35 @@
         "eq": false
        },
        {
-        "s": "+7 Strength",
+        "s": "+3 Strength",
         "neg": false,
         "eq": false
-       }
-      ],
-      "spells": [],
-      "req": "Requires Level 17",
-      "reqClass": "",
-      "dur": "Durability 35 / 35",
-      "sell": 677,
-      "desc": ""
-     }
-    },
-    {
-     "slot": "LEGS",
-     "slotName": "Legs",
-     "itemId": 250523,
-     "name": "Veteran's Silvered Chain Leggings",
-     "quality": "RARE",
-     "ilvl": 30,
-     "inventoryType": "LEGS",
-     "enchants": [
-      "Enchanted: Attack Power +4 and Armor +16"
-     ],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134657.jpg",
-     "tt": {
-      "bind": "Binds when picked up",
-      "unique": "",
-      "inv": "Legs",
-      "sub": "Mail",
-      "armor": "191 Armor",
-      "stats": [
-       {
-        "s": "+7 Agility",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+11 Strength",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+8 Stamina",
-        "neg": false,
-        "eq": false
-       }
-      ],
-      "spells": [],
-      "req": "Requires Level 25",
-      "reqClass": "",
-      "dur": "Durability 90 / 90",
-      "sell": 3340,
-      "desc": ""
-     }
-    },
-    {
-     "slot": "FEET",
-     "slotName": "Feet",
-     "itemId": 271211,
-     "name": "Vilewalkers",
-     "quality": "RARE",
-     "ilvl": 22,
-     "inventoryType": "FEET",
-     "enchants": [
-      "Enchanted: Attack Power +4 and Armor +16"
-     ],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132551.jpg",
-     "tt": {
-      "bind": "Binds when picked up",
-      "unique": "",
-      "inv": "Feet",
-      "sub": "Mail",
-      "armor": "131 Armor",
-      "stats": [
-       {
-        "s": "+7 Strength",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+5 Stamina",
-        "neg": false,
-        "eq": false
-       }
-      ],
-      "spells": [],
-      "req": "Requires Level 17",
-      "reqClass": "",
-      "dur": "Durability 50 / 50",
-      "sell": 970,
-      "desc": ""
-     }
-    },
-    {
-     "slot": "FINGER_1",
-     "slotName": "Ring 1",
-     "itemId": 6414,
-     "name": "Seal of Sylvanas",
-     "quality": "RARE",
-     "ilvl": 29,
-     "inventoryType": "FINGER",
-     "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133357.jpg",
-     "tt": {
-      "bind": "Binds when picked up",
-      "unique": "",
-      "inv": "Finger",
-      "sub": "Miscellaneous",
-      "armor": "",
-      "stats": [
-       {
-        "s": "+8 Stamina",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+6 Attack Power",
-        "neg": false,
-        "eq": true
        }
       ],
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "",
-      "sell": 1960,
+      "dur": "Durability 25 / 25",
+      "sell": 462,
       "desc": ""
      }
     },
     {
-     "slot": "FINGER_2",
-     "slotName": "Ring 2",
-     "itemId": 17694,
-     "name": "Band of the Fist",
+     "slot": "HANDS",
+     "slotName": "Hands",
+     "itemId": 4254,
+     "name": "Barbaric Gloves",
      "quality": "UNCOMMON",
-     "ilvl": 28,
-     "inventoryType": "FINGER",
+     "ilvl": 30,
+     "inventoryType": "HAND",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133344.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132939.jpg",
      "tt": {
-      "bind": "Binds when picked up",
+      "bind": "Binds when equipped",
       "unique": "",
-      "inv": "Finger",
-      "sub": "Miscellaneous",
-      "armor": "",
+      "inv": "Hands",
+      "sub": "Leather",
+      "armor": "58 Armor",
       "stats": [
        {
         "s": "+4 Agility",
@@ -1894,190 +1666,322 @@
         "s": "+4 Strength",
         "neg": false,
         "eq": false
+       },
+       {
+        "s": "+5 Stamina",
+        "neg": false,
+        "eq": false
+       }
+      ],
+      "spells": [],
+      "req": "Requires Level 25",
+      "reqClass": "",
+      "dur": "Durability 29 / 30",
+      "sell": 1071,
+      "desc": ""
+     }
+    },
+    {
+     "slot": "WAIST",
+     "slotName": "Waist",
+     "itemId": 4456,
+     "name": "Raptor Hide Belt",
+     "quality": "UNCOMMON",
+     "ilvl": 33,
+     "inventoryType": "WAIST",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132491.jpg",
+     "tt": {
+      "bind": "Binds when equipped",
+      "unique": "",
+      "inv": "Waist",
+      "sub": "Leather",
+      "armor": "55 Armor",
+      "stats": [
+       {
+        "s": "+6 Strength",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+6 Stamina",
+        "neg": false,
+        "eq": false
+       }
+      ],
+      "spells": [],
+      "req": "Requires Level 28",
+      "reqClass": "",
+      "dur": "Durability 30 / 30",
+      "sell": 1553,
+      "desc": ""
+     }
+    },
+    {
+     "slot": "LEGS",
+     "slotName": "Legs",
+     "itemId": 9833,
+     "name": "Scaled Leather Leggings of the Bandit",
+     "quality": "UNCOMMON",
+     "ilvl": 33,
+     "inventoryType": "LEGS",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134582.jpg",
+     "tt": {
+      "bind": "Binds when equipped",
+      "unique": "",
+      "inv": "Legs",
+      "sub": "Leather",
+      "armor": "86 Armor",
+      "stats": [
+       {
+        "s": "+4 Agility",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+9 Stamina",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+11 Attack Power",
+        "neg": false,
+        "eq": true
+       }
+      ],
+      "spells": [],
+      "req": "Requires Level 28",
+      "reqClass": "",
+      "dur": "Durability 60 / 65",
+      "sell": 3031,
+      "desc": ""
+     }
+    },
+    {
+     "slot": "FEET",
+     "slotName": "Feet",
+     "itemId": 277226,
+     "name": "Disjointed Shoes",
+     "quality": "UNCOMMON",
+     "ilvl": 28,
+     "inventoryType": "FEET",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132540.jpg",
+     "tt": {
+      "bind": "Binds when picked up",
+      "unique": "",
+      "inv": "Feet",
+      "sub": "Leather",
+      "armor": "62 Armor",
+      "stats": [
+       {
+        "s": "+12 Attack Power",
+        "neg": false,
+        "eq": true
+       },
+       {
+        "s": "+5 Spell Power",
+        "neg": false,
+        "eq": true
+       }
+      ],
+      "spells": [],
+      "req": "",
+      "reqClass": "",
+      "dur": "Durability 39 / 40",
+      "sell": 1431,
+      "desc": ""
+     }
+    },
+    {
+     "slot": "FINGER_1",
+     "slotName": "Ring 1",
+     "itemId": 279867,
+     "name": "Slain Baron's Signet",
+     "quality": "UNCOMMON",
+     "ilvl": 23,
+     "inventoryType": "FINGER",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133361.jpg",
+     "tt": {
+      "bind": "Binds when picked up",
+      "unique": "",
+      "inv": "Finger",
+      "sub": "Miscellaneous",
+      "armor": "",
+      "stats": [
+       {
+        "s": "+3 Stamina",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+1 Defense",
+        "neg": false,
+        "eq": true
        }
       ],
       "spells": [],
       "req": "",
       "reqClass": "",
       "dur": "",
-      "sell": 1485,
+      "sell": 815,
+      "desc": ""
+     }
+    },
+    {
+     "slot": "FINGER_2",
+     "slotName": "Ring 2",
+     "itemId": 12007,
+     "name": "Prairie Ring of the Eagle",
+     "quality": "UNCOMMON",
+     "ilvl": 25,
+     "inventoryType": "FINGER",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133344.jpg",
+     "tt": {
+      "bind": "Binds when equipped",
+      "unique": "",
+      "inv": "Finger",
+      "sub": "Miscellaneous",
+      "armor": "",
+      "stats": [
+       {
+        "s": "+3 Intellect",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+3 Stamina",
+        "neg": false,
+        "eq": false
+       }
+      ],
+      "spells": [],
+      "req": "Requires Level 20",
+      "reqClass": "",
+      "dur": "",
+      "sell": 1064,
       "desc": ""
      }
     },
     {
      "slot": "MAIN_HAND",
      "slotName": "Main Hand",
-     "itemId": 16886,
-     "name": "Outlaw Sabre",
-     "quality": "RARE",
-     "ilvl": 32,
-     "inventoryType": "WEAPON",
+     "itemId": 2058,
+     "name": "Kazon's Maul",
+     "quality": "UNCOMMON",
+     "ilvl": 29,
+     "inventoryType": "TWOHWEAPON",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135343.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133053.jpg",
      "tt": {
-      "bind": "Binds when picked up",
+      "bind": "Binds when equipped",
       "unique": "",
-      "inv": "One-Hand",
-      "sub": "Sword",
+      "inv": "Two-Hand",
+      "sub": "Mace",
       "armor": "",
       "stats": [
        {
-        "s": "+16 Attack Power",
+        "s": "+9 Strength",
         "neg": false,
-        "eq": true
+        "eq": false
+       },
+       {
+        "s": "+4 Stamina",
+        "neg": false,
+        "eq": false
        }
       ],
       "spells": [],
-      "req": "",
+      "req": "Requires Level 24",
       "reqClass": "",
-      "dur": "Durability 90 / 90",
-      "sell": 6522,
+      "dur": "Durability 81 / 85",
+      "sell": 4197,
       "desc": "",
       "weapon": {
-       "dmg": "38 - 72 Damage",
-       "speed": "Speed 2.70",
-       "dps": "(20.4 damage per second)"
+       "dmg": "55 - 83 Damage",
+       "speed": "Speed 3.50",
+       "dps": "(19.7 damage per second)"
       }
-     }
-    },
-    {
-     "slot": "OFF_HAND",
-     "slotName": "Off Hand",
-     "itemId": 7002,
-     "name": "Arctic Buckler",
-     "quality": "RARE",
-     "ilvl": 29,
-     "inventoryType": "SHIELD",
-     "enchants": [
-      "Enchanted: Iron Spike (8-12)"
-     ],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134948.jpg",
-     "tt": {
-      "bind": "Binds when picked up",
-      "unique": "",
-      "inv": "Off Hand",
-      "sub": "Shield",
-      "armor": "642 Armor",
-      "stats": [
-       {
-        "s": "+8 Stamina",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+5 Frost Resistance",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+3 Spirit",
-        "neg": false,
-        "eq": true
-       }
-      ],
-      "spells": [],
-      "req": "",
-      "reqClass": "",
-      "dur": "Durability 100 / 100",
-      "sell": 3136,
-      "desc": ""
      }
     },
     {
      "slot": "RANGED",
      "slotName": "Ranged",
-     "itemId": 285282,
-     "name": "Jagged Knives of the Bear",
+     "itemId": 263411,
+     "name": "Idol of Shifting Tides",
      "quality": "UNCOMMON",
-     "ilvl": 18,
-     "inventoryType": "THROWN",
+     "ilvl": 16,
+     "inventoryType": "RELIC",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135641.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134914.jpg",
      "tt": {
-      "bind": "Binds when equipped",
+      "bind": "Binds when picked up",
       "unique": "",
-      "inv": "Thrown",
-      "sub": "Thrown",
+      "inv": "Relic",
+      "sub": "Idol",
       "armor": "",
-      "stats": [
-       {
-        "s": "+1 Strength",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+1 Stamina",
-        "neg": false,
-        "eq": false
-       }
+      "stats": [],
+      "spells": [
+       "Equip: Reduces the mana cost of shapeshifting spells by 40."
       ],
-      "spells": [],
-      "req": "Requires Level 13",
-      "reqClass": "",
-      "dur": "Durability 200 / 200",
-      "sell": 821,
-      "desc": "",
-      "weapon": {
-       "dmg": "10 - 19 Damage",
-       "speed": "Speed 1.80",
-       "dps": "(8.1 damage per second)"
-      }
+      "req": "",
+      "reqClass": "Classes: Druid",
+      "dur": "",
+      "sell": 234,
+      "desc": ""
      }
     }
    ],
-   "itemLevel": 26.2,
+   "itemLevel": 26.86,
    "pvp": {
-    "hk": 168,
+    "hk": 0,
     "rank": 0,
     "rankName": "Unranked"
    },
    "spec": {
     "trees": [
      {
-      "name": "Protection",
-      "points": 20
+      "name": "Feral Combat",
+      "points": 19
      }
     ],
-    "split": "20",
-    "main": "Protection"
+    "split": "19",
+    "main": "Feral Combat"
    },
    "professions": {
     "primaries": [
      {
-      "name": "Mining",
-      "skill": 141,
-      "max": 225,
-      "recipes": 8
+      "name": "Alchemy",
+      "skill": 150,
+      "max": 150,
+      "recipes": 22
      },
      {
-      "name": "Blacksmithing",
-      "skill": 185,
-      "max": 225,
-      "recipes": 70
+      "name": "Herbalism",
+      "skill": 119,
+      "max": 150,
+      "recipes": 3
      }
     ],
     "secondaries": [
      {
       "name": "Cooking",
-      "skill": 13,
+      "skill": 25,
       "max": 75,
       "recipes": 5
      },
      {
-      "name": "Fishing",
-      "skill": 18,
-      "max": 75,
-      "recipes": 1
-     },
-     {
       "name": "First Aid",
-      "skill": 167,
-      "max": 225,
-      "recipes": 10
+      "skill": 68,
+      "max": 150,
+      "recipes": 5
      }
     ]
    },
-   "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/ruler-shiroune",
+   "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/ruler-unbann",
    "weekly": {
     "levels": 0,
     "ilvl": 0,
