@@ -1,18 +1,18 @@
 {
  "weeklySnapshot": {
-  "weekId": "2026-11-11T07",
-  "takenAt": 1794381341273,
+  "weekId": "2026-11-18T07",
+  "takenAt": 1794986214337,
   "baseline": {
    "sir-billythecrit": {
-    "levelProgress": 29.84,
-    "ilvl": 27.27,
-    "hk": 405,
+    "levelProgress": 34.07,
+    "ilvl": 30.12,
+    "hk": 489,
     "rank": 1
    },
    "blue-embrace": {
-    "levelProgress": 28.58,
-    "ilvl": 26.2,
-    "hk": 159,
+    "levelProgress": 30.45,
+    "ilvl": 26.6,
+    "hk": 203,
     "rank": 0
    },
    "ruler-shiroune": {
@@ -21,22 +21,16 @@
     "hk": 168,
     "rank": 0
    },
-   "dala-hoon": {
-    "levelProgress": 29.88,
-    "ilvl": 23.4,
-    "hk": 13,
+   "dala-huun": {
+    "levelProgress": 37.26,
+    "ilvl": 31.5,
+    "hk": 1,
     "rank": 0
    },
    "sire-khingen": {
-    "levelProgress": 28.59,
-    "ilvl": 27,
-    "hk": 26,
-    "rank": 0
-   },
-   "dala-huun": {
-    "levelProgress": 33.58,
-    "ilvl": 30.53,
-    "hk": 1,
+    "levelProgress": 32.82,
+    "ilvl": 30.2,
+    "hk": 99,
     "rank": 0
    }
   }

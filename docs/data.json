@@ -1,11 +1,11 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1794975363063,
+ "generatedAt": 1794986214337,
  "region": "eu",
  "levelCap": 60,
- "weekId": "2026-11-11T07",
- "weekStartedAt": 1794381341273,
- "nextResetAt": 1794985200000,
+ "weekId": "2026-11-18T07",
+ "weekStartedAt": 1794986214337,
+ "nextResetAt": 1795590000000,
  "weeklyReset": {
   "weekday": 3,
   "hourUtc": 7
@@ -755,9 +755,9 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/sir-billythecrit",
    "weekly": {
-    "levels": 4.23,
-    "ilvl": 2.85,
-    "hk": 84,
+    "levels": 0,
+    "ilvl": 0,
+    "hk": 0,
     "rank": 0
    },
    "ding60At": null
@@ -1413,9 +1413,9 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/blue-embrace",
    "weekly": {
-    "levels": 1.87,
-    "ilvl": 0.4,
-    "hk": 44,
+    "levels": 0,
+    "ilvl": 0,
+    "hk": 0,
     "rank": 0
    },
    "ding60At": null
@@ -2732,8 +2732,8 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/dala-huun",
    "weekly": {
-    "levels": 3.68,
-    "ilvl": 0.97,
+    "levels": 0,
+    "ilvl": 0,
     "hk": 0,
     "rank": 0
    },
@@ -3382,9 +3382,9 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/sire-khingen",
    "weekly": {
-    "levels": 4.23,
-    "ilvl": 3.2,
-    "hk": 73,
+    "levels": 0,
+    "ilvl": 0,
+    "hk": 0,
     "rank": 0
    },
    "ding60At": null
