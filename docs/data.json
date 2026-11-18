@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795015468009,
+ "generatedAt": 1795019967085,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-18T07",
@@ -2105,10 +2105,10 @@
    "surname": "Huun",
    "fullName": "Dala Huun",
    "level": 37,
-   "experience": 19778,
+   "experience": 53385,
    "xpToLevel": 76100,
-   "xpPct": 25.99,
-   "levelProgress": 37.26,
+   "xpPct": 70.15,
+   "levelProgress": 37.7,
    "className": "Shaman",
    "classId": 7,
    "race": "Orc",
@@ -2117,7 +2117,7 @@
    "faction": "HORDE",
    "ruleset": "Normal",
    "achievementPoints": 0,
-   "lastLogin": 1794953048000,
+   "lastLogin": 1795019080000,
    "apiItemLevel": 30,
    "gear": [
     {
@@ -2233,7 +2233,7 @@
       "spells": [],
       "req": "Requires Level 28",
       "reqClass": "",
-      "dur": "Durability 58 / 60",
+      "dur": "Durability 60 / 60",
       "sell": 2715,
       "desc": ""
      }
@@ -2317,7 +2317,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 98 / 100",
+      "dur": "Durability 100 / 100",
       "sell": 3365,
       "desc": ""
      }
@@ -2353,7 +2353,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 34 / 35",
+      "dur": "Durability 35 / 35",
       "sell": 1191,
       "desc": ""
      }
@@ -2424,7 +2424,7 @@
       ],
       "req": "Requires Level 28",
       "reqClass": "",
-      "dur": "Durability 34 / 35",
+      "dur": "Durability 35 / 35",
       "sell": 1732,
       "desc": ""
      }
@@ -2465,7 +2465,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 73 / 75",
+      "dur": "Durability 75 / 75",
       "sell": 5252,
       "desc": ""
      }
@@ -2501,7 +2501,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 39 / 40",
+      "dur": "Durability 40 / 40",
       "sell": 922,
       "desc": ""
      }
@@ -2640,7 +2640,7 @@
       ],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 99 / 100",
+      "dur": "Durability 100 / 100",
       "sell": 16235,
       "desc": "",
       "weapon": {
@@ -2708,7 +2708,7 @@
      },
      {
       "name": "Skinning",
-      "skill": 244,
+      "skill": 248,
       "max": 300,
       "recipes": 2
      }
@@ -2722,7 +2722,7 @@
      },
      {
       "name": "Fishing",
-      "skill": 168,
+      "skill": 172,
       "max": 225,
       "recipes": 2
      },
@@ -2736,7 +2736,7 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/dala-huun",
    "weekly": {
-    "levels": 0,
+    "levels": 0.44,
     "ilvl": 0,
     "hk": 0,
     "rank": 0
