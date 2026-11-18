@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795008298974,
+ "generatedAt": 1795015468009,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-18T07",
@@ -43,10 +43,10 @@
    "surname": "Billythecrit",
    "fullName": "Sir Billythecrit",
    "level": 34,
-   "experience": 4161,
+   "experience": 7330,
    "xpToLevel": 62800,
-   "xpPct": 6.63,
-   "levelProgress": 34.07,
+   "xpPct": 11.67,
+   "levelProgress": 34.12,
    "className": "Rogue",
    "classId": 4,
    "race": "Undead",
@@ -55,7 +55,7 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1794924334000,
+   "lastLogin": 1795015260000,
    "apiItemLevel": 28,
    "gear": [
     {
@@ -124,7 +124,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 40 / 45",
+      "dur": "Durability 45 / 45",
       "sell": 3929,
       "desc": ""
      }
@@ -155,7 +155,7 @@
       "spells": [],
       "req": "Requires Level 22",
       "reqClass": "",
-      "dur": "Durability 43 / 50",
+      "dur": "Durability 50 / 50",
       "sell": 1306,
       "desc": ""
      }
@@ -227,7 +227,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 79 / 85",
+      "dur": "Durability 85 / 85",
       "sell": 2034,
       "desc": ""
      }
@@ -315,7 +315,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 30 / 35",
+      "dur": "Durability 35 / 35",
       "sell": 1191,
       "desc": ""
      }
@@ -346,7 +346,7 @@
       "spells": [],
       "req": "Requires Level 23",
       "reqClass": "",
-      "dur": "Durability 28 / 30",
+      "dur": "Durability 30 / 30",
       "sell": 971,
       "desc": ""
      }
@@ -382,7 +382,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 28 / 30",
+      "dur": "Durability 30 / 30",
       "sell": 1009,
       "desc": ""
      }
@@ -418,7 +418,7 @@
       "spells": [],
       "req": "Requires Level 26",
       "reqClass": "",
-      "dur": "Durability 66 / 75",
+      "dur": "Durability 75 / 75",
       "sell": 2851,
       "desc": ""
      }
@@ -454,7 +454,7 @@
       "spells": [],
       "req": "Requires Level 18",
       "reqClass": "",
-      "dur": "Durability 33 / 40",
+      "dur": "Durability 40 / 40",
       "sell": 797,
       "desc": ""
      }
@@ -588,7 +588,9 @@
      "quality": "UNCOMMON",
      "ilvl": 33,
      "inventoryType": "WEAPON",
-     "enchants": [],
+     "enchants": [
+      "Instant Poison II (45 |4Charge:Charges;)"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135652.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -611,7 +613,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 41 / 55",
+      "dur": "Durability 55 / 55",
       "sell": 6199,
       "desc": "Some claws are better for killing than cooking.",
       "weapon": {
@@ -629,7 +631,9 @@
      "quality": "RARE",
      "ilvl": 28,
      "inventoryType": "WEAPON",
-     "enchants": [],
+     "enchants": [
+      "Crippling Poison"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134298.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -649,7 +653,7 @@
       ],
       "req": "Requires Level 23",
       "reqClass": "",
-      "dur": "Durability 50 / 60",
+      "dur": "Durability 60 / 60",
       "sell": 4455,
       "desc": "",
       "weapon": {
@@ -703,7 +707,7 @@
    ],
    "itemLevel": 30.12,
    "pvp": {
-    "hk": 489,
+    "hk": 744,
     "rank": 1,
     "rankName": "Scout"
    },
@@ -747,17 +751,17 @@
      },
      {
       "name": "First Aid",
-      "skill": 174,
+      "skill": 201,
       "max": 225,
-      "recipes": 10
+      "recipes": 11
      }
     ]
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/sir-billythecrit",
    "weekly": {
-    "levels": 0,
+    "levels": 0.05,
     "ilvl": 0,
-    "hk": 0,
+    "hk": 255,
     "rank": 0
    },
    "ding60At": null
