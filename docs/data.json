@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795121627275,
+ "generatedAt": 1795122810328,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-18T07",
@@ -2090,10 +2090,10 @@
    "surname": "Huun",
    "fullName": "Dala Huun",
    "level": 39,
-   "experience": 4728,
+   "experience": 59487,
    "xpToLevel": 85700,
-   "xpPct": 5.52,
-   "levelProgress": 39.06,
+   "xpPct": 69.41,
+   "levelProgress": 39.69,
    "className": "Shaman",
    "classId": 7,
    "race": "Orc",
@@ -2102,8 +2102,8 @@
    "faction": "HORDE",
    "ruleset": "Normal",
    "achievementPoints": 0,
-   "lastLogin": 1795113101000,
-   "apiItemLevel": 30,
+   "lastLogin": 1795122622000,
+   "apiItemLevel": 31,
    "gear": [
     {
      "slot": "HEAD",
@@ -2302,7 +2302,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 99 / 100",
+      "dur": "Durability 100 / 100",
       "sell": 3365,
       "desc": ""
      }
@@ -2346,33 +2346,31 @@
     {
      "slot": "HANDS",
      "slotName": "Hands",
-     "itemId": 274159,
-     "name": "Thorncursed Grips",
-     "quality": "RARE",
-     "ilvl": 33,
+     "itemId": 9518,
+     "name": "Mud's Crushers",
+     "quality": "UNCOMMON",
+     "ilvl": 36,
      "inventoryType": "HAND",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132939.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132959.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Hands",
       "sub": "Leather",
-      "armor": "68 Armor",
+      "armor": "64 Armor",
       "stats": [
        {
-        "s": "+18 Attack Power",
+        "s": "+11 Strength",
         "neg": false,
-        "eq": true
+        "eq": false
        }
       ],
-      "spells": [
-       "Equip: Your melee weapon attacks deal 2 Nature damage to both you and your target.\r\n"
-      ],
-      "req": "Requires Level 27",
+      "spells": [],
+      "req": "",
       "reqClass": "",
-      "dur": "Durability 34 / 35",
-      "sell": 1833,
+      "dur": "Durability 30 / 30",
+      "sell": 1899,
       "desc": ""
      }
     },
@@ -2450,7 +2448,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 74 / 75",
+      "dur": "Durability 75 / 75",
       "sell": 5252,
       "desc": ""
      }
@@ -2598,9 +2596,7 @@
      "quality": "RARE",
      "ilvl": 40,
      "inventoryType": "TWOHWEAPON",
-     "enchants": [
-      "Windfury 1"
-     ],
+     "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133522.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -2663,7 +2659,7 @@
      }
     }
    ],
-   "itemLevel": 31.5,
+   "itemLevel": 31.69,
    "pvp": {
     "hk": 1,
     "rank": 0,
@@ -2693,7 +2689,7 @@
      },
      {
       "name": "Skinning",
-      "skill": 257,
+      "skill": 259,
       "max": 300,
       "recipes": 2
      }
@@ -2707,7 +2703,7 @@
      },
      {
       "name": "Fishing",
-      "skill": 196,
+      "skill": 200,
       "max": 225,
       "recipes": 2
      },
@@ -2721,8 +2717,8 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/dala-huun",
    "weekly": {
-    "levels": 1.8,
-    "ilvl": 0,
+    "levels": 2.43,
+    "ilvl": 0.19,
     "hk": 0,
     "rank": 0
    },
