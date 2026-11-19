@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795103620751,
+ "generatedAt": 1795109961134,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-18T07",
@@ -2031,11 +2031,11 @@
    "name": "Dala",
    "surname": "Huun",
    "fullName": "Dala Huun",
-   "level": 38,
-   "experience": 79999,
-   "xpToLevel": 80900,
-   "xpPct": 98.89,
-   "levelProgress": 38.99,
+   "level": 39,
+   "experience": 1986,
+   "xpToLevel": 85700,
+   "xpPct": 2.32,
+   "levelProgress": 39.02,
    "className": "Shaman",
    "classId": 7,
    "race": "Orc",
@@ -2044,7 +2044,7 @@
    "faction": "HORDE",
    "ruleset": "Normal",
    "achievementPoints": 0,
-   "lastLogin": 1795103483000,
+   "lastLogin": 1795109422000,
    "apiItemLevel": 30,
    "gear": [
     {
@@ -2619,23 +2619,23 @@
      },
      {
       "name": "Restoration",
-      "points": 4
+      "points": 5
      }
     ],
-    "split": "25/4",
+    "split": "25/5",
     "main": "Enhancement"
    },
    "professions": {
     "primaries": [
      {
       "name": "Leatherworking",
-      "skill": 182,
+      "skill": 201,
       "max": 225,
-      "recipes": 81
+      "recipes": 86
      },
      {
       "name": "Skinning",
-      "skill": 256,
+      "skill": 257,
       "max": 300,
       "recipes": 2
      }
@@ -2644,12 +2644,12 @@
      {
       "name": "Cooking",
       "skill": 150,
-      "max": 150,
+      "max": 225,
       "recipes": 22
      },
      {
       "name": "Fishing",
-      "skill": 194,
+      "skill": 196,
       "max": 225,
       "recipes": 2
      },
@@ -2657,13 +2657,13 @@
       "name": "First Aid",
       "skill": 180,
       "max": 225,
-      "recipes": 12
+      "recipes": 13
      }
     ]
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/dala-huun",
    "weekly": {
-    "levels": 1.73,
+    "levels": 1.76,
     "ilvl": 0,
     "hk": 0,
     "rank": 0
