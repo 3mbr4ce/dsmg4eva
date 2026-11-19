@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795109961134,
+ "generatedAt": 1795112218704,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-18T07",
@@ -1456,11 +1456,11 @@
    "name": "Ruler",
    "surname": "Unbann",
    "fullName": "Ruler Unbann",
-   "level": 28,
-   "experience": 7638,
-   "xpToLevel": 41400,
-   "xpPct": 18.45,
-   "levelProgress": 28.18,
+   "level": 29,
+   "experience": 7161,
+   "xpToLevel": 44300,
+   "xpPct": 16.16,
+   "levelProgress": 29.16,
    "className": "Druid",
    "classId": 11,
    "race": "Night Elf",
@@ -1469,9 +1469,45 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795038988000,
-   "apiItemLevel": 22,
+   "lastLogin": 1795110887000,
+   "apiItemLevel": 24,
    "gear": [
+    {
+     "slot": "HEAD",
+     "slotName": "Head",
+     "itemId": 3392,
+     "name": "Ringed Helm",
+     "quality": "UNCOMMON",
+     "ilvl": 31,
+     "inventoryType": "HEAD",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133077.jpg",
+     "tt": {
+      "bind": "Binds when equipped",
+      "unique": "",
+      "inv": "Head",
+      "sub": "Leather",
+      "armor": "77 Armor",
+      "stats": [
+       {
+        "s": "+9 Stamina",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+8 Spirit",
+        "neg": false,
+        "eq": true
+       }
+      ],
+      "spells": [],
+      "req": "Requires Level 26",
+      "reqClass": "",
+      "dur": "Durability 50 / 50",
+      "sell": 1663,
+      "desc": ""
+     }
+    },
     {
      "slot": "NECK",
      "slotName": "Neck",
@@ -1539,7 +1575,7 @@
       "spells": [],
       "req": "Requires Level 28",
       "reqClass": "",
-      "dur": "Durability 47 / 50",
+      "dur": "Durability 49 / 50",
       "sell": 2281,
       "desc": ""
      }
@@ -1606,7 +1642,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 86 / 90",
+      "dur": "Durability 87 / 90",
       "sell": 1441,
       "desc": ""
      }
@@ -1708,7 +1744,7 @@
       "spells": [],
       "req": "Requires Level 25",
       "reqClass": "",
-      "dur": "Durability 29 / 30",
+      "dur": "Durability 30 / 30",
       "sell": 1071,
       "desc": ""
      }
@@ -1744,7 +1780,7 @@
       "spells": [],
       "req": "Requires Level 28",
       "reqClass": "",
-      "dur": "Durability 30 / 30",
+      "dur": "Durability 29 / 30",
       "sell": 1553,
       "desc": ""
      }
@@ -1929,7 +1965,7 @@
       "spells": [],
       "req": "Requires Level 24",
       "reqClass": "",
-      "dur": "Durability 81 / 85",
+      "dur": "Durability 79 / 85",
       "sell": 4197,
       "desc": "",
       "weapon": {
@@ -1967,7 +2003,7 @@
      }
     }
    ],
-   "itemLevel": 26.86,
+   "itemLevel": 27.13,
    "pvp": {
     "hk": 0,
     "rank": 0,
@@ -1977,10 +2013,10 @@
     "trees": [
      {
       "name": "Feral Combat",
-      "points": 19
+      "points": 20
      }
     ],
-    "split": "19",
+    "split": "20",
     "main": "Feral Combat"
    },
    "professions": {
@@ -1993,7 +2029,7 @@
      },
      {
       "name": "Herbalism",
-      "skill": 119,
+      "skill": 121,
       "max": 150,
       "recipes": 3
      }
@@ -2015,8 +2051,8 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/ruler-unbann",
    "weekly": {
-    "levels": 0,
-    "ilvl": 0,
+    "levels": 0.98,
+    "ilvl": 0.27,
     "hk": 0,
     "rank": 0
    },
