@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795102760449,
+ "generatedAt": 1795103620751,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-18T07",
@@ -2032,10 +2032,10 @@
    "surname": "Huun",
    "fullName": "Dala Huun",
    "level": 38,
-   "experience": 76969,
+   "experience": 79999,
    "xpToLevel": 80900,
-   "xpPct": 95.14,
-   "levelProgress": 38.95,
+   "xpPct": 98.89,
+   "levelProgress": 38.99,
    "className": "Shaman",
    "classId": 7,
    "race": "Orc",
@@ -2044,7 +2044,7 @@
    "faction": "HORDE",
    "ruleset": "Normal",
    "achievementPoints": 0,
-   "lastLogin": 1795043911000,
+   "lastLogin": 1795103483000,
    "apiItemLevel": 30,
    "gear": [
     {
@@ -2631,7 +2631,7 @@
       "name": "Leatherworking",
       "skill": 182,
       "max": 225,
-      "recipes": 79
+      "recipes": 81
      },
      {
       "name": "Skinning",
@@ -2655,15 +2655,15 @@
      },
      {
       "name": "First Aid",
-      "skill": 150,
-      "max": 150,
+      "skill": 180,
+      "max": 225,
       "recipes": 12
      }
     ]
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/dala-huun",
    "weekly": {
-    "levels": 1.69,
+    "levels": 1.73,
     "ilvl": 0,
     "hk": 0,
     "rank": 0
