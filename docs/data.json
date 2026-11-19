@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795112218704,
+ "generatedAt": 1795113530931,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-18T07",
@@ -2068,10 +2068,10 @@
    "surname": "Huun",
    "fullName": "Dala Huun",
    "level": 39,
-   "experience": 1986,
+   "experience": 4728,
    "xpToLevel": 85700,
-   "xpPct": 2.32,
-   "levelProgress": 39.02,
+   "xpPct": 5.52,
+   "levelProgress": 39.06,
    "className": "Shaman",
    "classId": 7,
    "race": "Orc",
@@ -2080,7 +2080,7 @@
    "faction": "HORDE",
    "ruleset": "Normal",
    "achievementPoints": 0,
-   "lastLogin": 1795109422000,
+   "lastLogin": 1795113101000,
    "apiItemLevel": 30,
    "gear": [
     {
@@ -2280,7 +2280,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 100 / 100",
+      "dur": "Durability 99 / 100",
       "sell": 3365,
       "desc": ""
      }
@@ -2349,7 +2349,7 @@
       ],
       "req": "Requires Level 27",
       "reqClass": "",
-      "dur": "Durability 35 / 35",
+      "dur": "Durability 34 / 35",
       "sell": 1833,
       "desc": ""
      }
@@ -2428,7 +2428,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 75 / 75",
+      "dur": "Durability 74 / 75",
       "sell": 5252,
       "desc": ""
      }
@@ -2666,7 +2666,7 @@
      {
       "name": "Leatherworking",
       "skill": 201,
-      "max": 225,
+      "max": 300,
       "recipes": 86
      },
      {
@@ -2699,7 +2699,7 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/dala-huun",
    "weekly": {
-    "levels": 1.76,
+    "levels": 1.8,
     "ilvl": 0,
     "hk": 0,
     "rank": 0
