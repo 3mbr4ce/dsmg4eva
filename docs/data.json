@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795122810328,
+ "generatedAt": 1795125234759,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-18T07",
@@ -2733,11 +2733,11 @@
    "name": "Sire",
    "surname": "Khingen",
    "fullName": "Sire Khingen",
-   "level": 33,
-   "experience": 25377,
-   "xpToLevel": 58600,
-   "xpPct": 43.31,
-   "levelProgress": 33.43,
+   "level": 34,
+   "experience": 10684,
+   "xpToLevel": 62800,
+   "xpPct": 17.01,
+   "levelProgress": 34.17,
    "className": "Paladin",
    "classId": 2,
    "race": "Undead",
@@ -2746,8 +2746,8 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795038635000,
-   "apiItemLevel": 28,
+   "lastLogin": 1795124652000,
+   "apiItemLevel": 30,
    "gear": [
     {
      "slot": "HEAD",
@@ -2780,7 +2780,7 @@
       "spells": [],
       "req": "Requires Level 20",
       "reqClass": "",
-      "dur": "Durability 52 / 65",
+      "dur": "Durability 44 / 65",
       "sell": 1439,
       "desc": ""
      }
@@ -2829,36 +2829,41 @@
     {
      "slot": "SHOULDER",
      "slotName": "Shoulders",
-     "itemId": 3480,
-     "name": "Rough Bronze Shoulders",
-     "quality": "UNCOMMON",
-     "ilvl": 22,
+     "itemId": 279842,
+     "name": "Battle Spaulders",
+     "quality": "RARE",
+     "ilvl": 36,
      "inventoryType": "SHOULDER",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135036.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135054.jpg",
      "tt": {
-      "bind": "Binds when equipped",
+      "bind": "Binds when picked up",
       "unique": "",
       "inv": "Shoulder",
       "sub": "Mail",
-      "armor": "130 Armor",
+      "armor": "178 Armor",
       "stats": [
        {
-        "s": "+3 Strength",
+        "s": "+4 Strength",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+4 Stamina",
+        "s": "+11 Stamina",
         "neg": false,
         "eq": false
+       },
+       {
+        "s": "+7 Spirit",
+        "neg": false,
+        "eq": true
        }
       ],
       "spells": [],
-      "req": "Requires Level 17",
+      "req": "",
       "reqClass": "",
-      "dur": "Durability 39 / 50",
-      "sell": 532,
+      "dur": "Durability 70 / 70",
+      "sell": 4378,
       "desc": ""
      }
     },
@@ -2936,7 +2941,7 @@
       "spells": [],
       "req": "Requires Level 24",
       "reqClass": "",
-      "dur": "Durability 98 / 120",
+      "dur": "Durability 85 / 120",
       "sell": 2935,
       "desc": ""
      }
@@ -2969,79 +2974,77 @@
     {
      "slot": "WRIST",
      "slotName": "Wrist",
-     "itemId": 270032,
-     "name": "Cultist's Armguards",
-     "quality": "RARE",
-     "ilvl": 29,
+     "itemId": 251965,
+     "name": "Undead Knight's Bracers",
+     "quality": "UNCOMMON",
+     "ilvl": 36,
      "inventoryType": "WRIST",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132611.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132615.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Wrist",
-      "sub": "Leather",
-      "armor": "44 Armor",
+      "sub": "Mail",
+      "armor": "95 Armor",
       "stats": [
        {
-        "s": "+7 Stamina",
+        "s": "+3 Intellect",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+10 Attack Power",
+        "s": "+3 Strength",
         "neg": false,
-        "eq": true
+        "eq": false
+       },
+       {
+        "s": "+6 Stamina",
+        "neg": false,
+        "eq": false
        }
       ],
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 29 / 35",
-      "sell": 1191,
+      "dur": "Durability 35 / 35",
+      "sell": 2404,
       "desc": ""
      }
     },
     {
      "slot": "HANDS",
      "slotName": "Hands",
-     "itemId": 6906,
-     "name": "Algae Fists",
+     "itemId": 286992,
+     "name": "Construct's Grips",
      "quality": "RARE",
-     "ilvl": 28,
+     "ilvl": 33,
      "inventoryType": "HAND",
-     "enchants": [
-      "Enchanted: Stamina +3 and Armor +24"
-     ],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132944.jpg",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132938.jpg",
      "tt": {
-      "bind": "Binds when picked up",
+      "bind": "Binds when equipped",
       "unique": "",
       "inv": "Hands",
       "sub": "Mail",
-      "armor": "132 Armor",
+      "armor": "142 Armor",
       "stats": [
        {
-        "s": "+8 Strength",
+        "s": "+12 Strength",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+5 Stamina",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+5 Nature Resistance",
+        "s": "+4 Stamina",
         "neg": false,
         "eq": false
        }
       ],
       "spells": [],
-      "req": "Requires Level 23",
+      "req": "Requires Level 28",
       "reqClass": "",
-      "dur": "Durability 32 / 40",
-      "sell": 1336,
+      "dur": "Durability 39 / 40",
+      "sell": 2225,
       "desc": ""
      }
     },
@@ -3081,7 +3084,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 30 / 40",
+      "dur": "Durability 28 / 40",
       "sell": 2864,
       "desc": ""
      }
@@ -3124,7 +3127,7 @@
       "spells": [],
       "req": "Requires Level 25",
       "reqClass": "",
-      "dur": "Durability 75 / 90",
+      "dur": "Durability 65 / 90",
       "sell": 3149,
       "desc": ""
      }
@@ -3132,10 +3135,10 @@
     {
      "slot": "FEET",
      "slotName": "Feet",
-     "itemId": 273025,
-     "name": "Raptorclaw Greaves",
+     "itemId": 273042,
+     "name": "Manascale Treads",
      "quality": "RARE",
-     "ilvl": 31,
+     "ilvl": 33,
      "inventoryType": "FEET",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132551.jpg",
@@ -3144,10 +3147,10 @@
       "unique": "",
       "inv": "Feet",
       "sub": "Mail",
-      "armor": "152 Armor",
+      "armor": "157 Armor",
       "stats": [
        {
-        "s": "+6 Intellect",
+        "s": "+7 Intellect",
         "neg": false,
         "eq": false
        },
@@ -3157,16 +3160,16 @@
         "eq": false
        },
        {
-        "s": "+7 Stamina",
+        "s": "+7 Critical Strike",
         "neg": false,
-        "eq": false
+        "eq": true
        }
       ],
       "spells": [],
-      "req": "Requires Level 26",
+      "req": "Requires Level 28",
       "reqClass": "",
-      "dur": "Durability 46 / 60",
-      "sell": 2606,
+      "dur": "Durability 60 / 60",
+      "sell": 3118,
       "desc": ""
      }
     },
@@ -3277,7 +3280,9 @@
      "quality": "RARE",
      "ilvl": 31,
      "inventoryType": "TWOHWEAPON",
-     "enchants": [],
+     "enchants": [
+      "Sharpened +6"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135326.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -3298,11 +3303,11 @@
        }
       ],
       "spells": [
-       "Chance on hit: Sear the target with a vortex of blazing wind, dealing 39 to 59 Holystorm damage. Deals 3 times as much damage to Wolves and Worgen."
+       "Chance on hit: Sear the target with a vortex of blazing wind, dealing 41 to 63 Holystorm damage. Deals 3 times as much damage to Wolves and Worgen."
       ],
       "req": "",
       "reqClass": "Classes: Paladin",
-      "dur": "Durability 100 / 100",
+      "dur": "Durability 94 / 100",
       "sell": 7459,
       "desc": "",
       "weapon": {
@@ -3313,9 +3318,9 @@
      }
     }
    ],
-   "itemLevel": 30.2,
+   "itemLevel": 32.07,
    "pvp": {
-    "hk": 99,
+    "hk": 122,
     "rank": 0,
     "rankName": "Unranked"
    },
@@ -3323,17 +3328,17 @@
     "trees": [
      {
       "name": "Retribution",
-      "points": 24
+      "points": 25
      }
     ],
-    "split": "24",
+    "split": "25",
     "main": "Retribution"
    },
    "professions": {
     "primaries": [
      {
       "name": "Mining",
-      "skill": 191,
+      "skill": 192,
       "max": 225,
       "recipes": 11
      },
@@ -3367,9 +3372,9 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/sire-khingen",
    "weekly": {
-    "levels": 0.61,
-    "ilvl": 0,
-    "hk": 0,
+    "levels": 1.35,
+    "ilvl": 1.87,
+    "hk": 23,
     "rank": 0
    },
    "ding60At": null
