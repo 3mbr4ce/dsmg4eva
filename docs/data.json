@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795113530931,
+ "generatedAt": 1795121627275,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-18T07",
@@ -1456,11 +1456,11 @@
    "name": "Ruler",
    "surname": "Unbann",
    "fullName": "Ruler Unbann",
-   "level": 29,
-   "experience": 7161,
-   "xpToLevel": 44300,
-   "xpPct": 16.16,
-   "levelProgress": 29.16,
+   "level": 30,
+   "experience": 1434,
+   "xpToLevel": 47400,
+   "xpPct": 3.03,
+   "levelProgress": 30.03,
    "className": "Druid",
    "classId": 11,
    "race": "Night Elf",
@@ -1469,8 +1469,8 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795110887000,
-   "apiItemLevel": 24,
+   "lastLogin": 1795121538000,
+   "apiItemLevel": 28,
    "gear": [
     {
      "slot": "HEAD",
@@ -1503,7 +1503,7 @@
       "spells": [],
       "req": "Requires Level 26",
       "reqClass": "",
-      "dur": "Durability 50 / 50",
+      "dur": "Durability 15 / 50",
       "sell": 1663,
       "desc": ""
      }
@@ -1547,10 +1547,10 @@
     {
      "slot": "SHOULDER",
      "slotName": "Shoulders",
-     "itemId": 7408,
-     "name": "Infiltrator Shoulders of the Bear",
+     "itemId": 5964,
+     "name": "Barbaric Shoulders",
      "quality": "UNCOMMON",
-     "ilvl": 33,
+     "ilvl": 35,
      "inventoryType": "SHOULDER",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135039.jpg",
@@ -1559,10 +1559,15 @@
       "unique": "",
       "inv": "Shoulder",
       "sub": "Leather",
-      "armor": "74 Armor",
+      "armor": "76 Armor",
       "stats": [
        {
-        "s": "+6 Strength",
+        "s": "+5 Agility",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+5 Strength",
         "neg": false,
         "eq": false
        },
@@ -1573,10 +1578,10 @@
        }
       ],
       "spells": [],
-      "req": "Requires Level 28",
+      "req": "Requires Level 30",
       "reqClass": "",
-      "dur": "Durability 49 / 50",
-      "sell": 2281,
+      "dur": "Durability 50 / 50",
+      "sell": 2609,
       "desc": ""
      }
     },
@@ -1642,7 +1647,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 87 / 90",
+      "dur": "Durability 28 / 90",
       "sell": 1441,
       "desc": ""
      }
@@ -1703,7 +1708,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 25 / 25",
+      "dur": "Durability 9 / 25",
       "sell": 462,
       "desc": ""
      }
@@ -1711,41 +1716,36 @@
     {
      "slot": "HANDS",
      "slotName": "Hands",
-     "itemId": 4254,
-     "name": "Barbaric Gloves",
+     "itemId": 6408,
+     "name": "Insignia Gloves",
      "quality": "UNCOMMON",
-     "ilvl": 30,
+     "ilvl": 34,
      "inventoryType": "HAND",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132939.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132955.jpg",
      "tt": {
       "bind": "Binds when equipped",
       "unique": "",
       "inv": "Hands",
       "sub": "Leather",
-      "armor": "58 Armor",
+      "armor": "62 Armor",
       "stats": [
        {
-        "s": "+4 Agility",
+        "s": "+6 Agility",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+4 Strength",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+5 Stamina",
+        "s": "+7 Strength",
         "neg": false,
         "eq": false
        }
       ],
       "spells": [],
-      "req": "Requires Level 25",
+      "req": "Requires Level 29",
       "reqClass": "",
       "dur": "Durability 30 / 30",
-      "sell": 1071,
+      "sell": 1654,
       "desc": ""
      }
     },
@@ -1780,7 +1780,7 @@
       "spells": [],
       "req": "Requires Level 28",
       "reqClass": "",
-      "dur": "Durability 29 / 30",
+      "dur": "Durability 10 / 30",
       "sell": 1553,
       "desc": ""
      }
@@ -1821,7 +1821,7 @@
       "spells": [],
       "req": "Requires Level 28",
       "reqClass": "",
-      "dur": "Durability 60 / 65",
+      "dur": "Durability 21 / 65",
       "sell": 3031,
       "desc": ""
      }
@@ -1857,7 +1857,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 39 / 40",
+      "dur": "Durability 12 / 40",
       "sell": 1431,
       "desc": ""
      }
@@ -1865,49 +1865,13 @@
     {
      "slot": "FINGER_1",
      "slotName": "Ring 1",
-     "itemId": 279867,
-     "name": "Slain Baron's Signet",
+     "itemId": 11985,
+     "name": "Cerulean Ring of Strength",
      "quality": "UNCOMMON",
-     "ilvl": 23,
+     "ilvl": 35,
      "inventoryType": "FINGER",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133361.jpg",
-     "tt": {
-      "bind": "Binds when picked up",
-      "unique": "",
-      "inv": "Finger",
-      "sub": "Miscellaneous",
-      "armor": "",
-      "stats": [
-       {
-        "s": "+3 Stamina",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+1 Defense",
-        "neg": false,
-        "eq": true
-       }
-      ],
-      "spells": [],
-      "req": "",
-      "reqClass": "",
-      "dur": "",
-      "sell": 815,
-      "desc": ""
-     }
-    },
-    {
-     "slot": "FINGER_2",
-     "slotName": "Ring 2",
-     "itemId": 12007,
-     "name": "Prairie Ring of the Eagle",
-     "quality": "UNCOMMON",
-     "ilvl": 25,
-     "inventoryType": "FINGER",
-     "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133344.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133350.jpg",
      "tt": {
       "bind": "Binds when equipped",
       "unique": "",
@@ -1916,22 +1880,80 @@
       "armor": "",
       "stats": [
        {
-        "s": "+3 Intellect",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+3 Stamina",
+        "s": "+8 Strength",
         "neg": false,
         "eq": false
        }
       ],
       "spells": [],
-      "req": "Requires Level 20",
+      "req": "Requires Level 30",
       "reqClass": "",
       "dur": "",
-      "sell": 1064,
+      "sell": 2144,
       "desc": ""
+     }
+    },
+    {
+     "slot": "FINGER_2",
+     "slotName": "Ring 2",
+     "itemId": 11985,
+     "name": "Cerulean Ring of the Boar",
+     "quality": "UNCOMMON",
+     "ilvl": 35,
+     "inventoryType": "FINGER",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133350.jpg",
+     "tt": {
+      "bind": "Binds when equipped",
+      "unique": "",
+      "inv": "Finger",
+      "sub": "Miscellaneous",
+      "armor": "",
+      "stats": [
+       {
+        "s": "+5 Strength",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+5 Spirit",
+        "neg": false,
+        "eq": true
+       }
+      ],
+      "spells": [],
+      "req": "Requires Level 30",
+      "reqClass": "",
+      "dur": "",
+      "sell": 2144,
+      "desc": ""
+     }
+    },
+    {
+     "slot": "TRINKET_1",
+     "slotName": "Trinket 1",
+     "itemId": 260802,
+     "name": "EZ-Thro Bronze Mortar",
+     "quality": "COMMON",
+     "ilvl": 39,
+     "inventoryType": "TRINKET",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134535.jpg",
+     "tt": {
+      "bind": "Binds when equipped",
+      "unique": "",
+      "inv": "Trinket",
+      "sub": "Miscellaneous",
+      "armor": "",
+      "stats": [],
+      "spells": [
+       "Use: Inflicts 85 to 115 Fire damage and stuns targets in a 5 yd radius for 2 sec. Any damage will break the effect. (10 Min Cooldown)"
+      ],
+      "req": "",
+      "reqClass": "",
+      "dur": "",
+      "sell": 2000,
+      "desc": "Thro mo mo tar!"
      }
     },
     {
@@ -1965,7 +1987,7 @@
       "spells": [],
       "req": "Requires Level 24",
       "reqClass": "",
-      "dur": "Durability 79 / 85",
+      "dur": "Durability 27 / 85",
       "sell": 4197,
       "desc": "",
       "weapon": {
@@ -2003,7 +2025,7 @@
      }
     }
    ],
-   "itemLevel": 27.13,
+   "itemLevel": 29.63,
    "pvp": {
     "hk": 0,
     "rank": 0,
@@ -2013,10 +2035,10 @@
     "trees": [
      {
       "name": "Feral Combat",
-      "points": 20
+      "points": 21
      }
     ],
-    "split": "20",
+    "split": "21",
     "main": "Feral Combat"
    },
    "professions": {
@@ -2029,7 +2051,7 @@
      },
      {
       "name": "Herbalism",
-      "skill": 121,
+      "skill": 124,
       "max": 150,
       "recipes": 3
      }
@@ -2051,8 +2073,8 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/ruler-unbann",
    "weekly": {
-    "levels": 0.98,
-    "ilvl": 0.27,
+    "levels": 1.85,
+    "ilvl": 2.77,
     "hk": 0,
     "rank": 0
    },
