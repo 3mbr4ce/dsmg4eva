@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795125234759,
+ "generatedAt": 1795126415916,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-18T07",
@@ -43,10 +43,10 @@
    "surname": "Billythecrit",
    "fullName": "Sir Billythecrit",
    "level": 35,
-   "experience": 17583,
+   "experience": 62103,
    "xpToLevel": 67100,
-   "xpPct": 26.2,
-   "levelProgress": 35.26,
+   "xpPct": 92.55,
+   "levelProgress": 35.93,
    "className": "Rogue",
    "classId": 4,
    "race": "Undead",
@@ -55,7 +55,7 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795102689000,
+   "lastLogin": 1795126287000,
    "apiItemLevel": 28,
    "gear": [
     {
@@ -194,41 +194,41 @@
     {
      "slot": "CHEST",
      "slotName": "Chest",
-     "itemId": 15471,
-     "name": "Brawnhide Armor",
-     "quality": "UNCOMMON",
-     "ilvl": 29,
+     "itemId": 273038,
+     "name": "Garb of Fallen Felbark",
+     "quality": "RARE",
+     "ilvl": 34,
      "inventoryType": "CHEST",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132716.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135013.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Chest",
       "sub": "Leather",
-      "armor": "92 Armor",
+      "armor": "110 Armor",
       "stats": [
        {
-        "s": "+4 Agility",
+        "s": "+13 Intellect",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+9 Stamina",
+        "s": "+9 Agility",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+3 Spirit",
+        "s": "+7 Stamina",
         "neg": false,
-        "eq": true
+        "eq": false
        }
       ],
       "spells": [],
-      "req": "",
+      "req": "Requires Level 29",
       "reqClass": "",
-      "dur": "Durability 85 / 85",
-      "sell": 2034,
+      "dur": "Durability 100 / 100",
+      "sell": 4131,
       "desc": ""
      }
     },
@@ -588,7 +588,9 @@
      "quality": "RARE",
      "ilvl": 32,
      "inventoryType": "WEAPON",
-     "enchants": [],
+     "enchants": [
+      "Instant Poison II (85 |4Charge:Charges;)"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135646.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -620,7 +622,9 @@
      "quality": "RARE",
      "ilvl": 28,
      "inventoryType": "WEAPON",
-     "enchants": [],
+     "enchants": [
+      "Crippling Poison"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134298.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -692,9 +696,9 @@
      }
     }
    ],
-   "itemLevel": 30.06,
+   "itemLevel": 30.35,
    "pvp": {
-    "hk": 769,
+    "hk": 770,
     "rank": 1,
     "rankName": "Scout"
    },
@@ -746,9 +750,9 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/sir-billythecrit",
    "weekly": {
-    "levels": 1.19,
-    "ilvl": -0.06,
-    "hk": 280,
+    "levels": 1.86,
+    "ilvl": 0.23,
+    "hk": 281,
     "rank": 0
    },
    "ding60At": null
