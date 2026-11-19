@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795046030149,
+ "generatedAt": 1795054774069,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-18T07",
@@ -767,10 +767,10 @@
    "surname": "Embrace",
    "fullName": "Blue Embrace",
    "level": 32,
-   "experience": 3994,
+   "experience": 13220,
    "xpToLevel": 54500,
-   "xpPct": 7.33,
-   "levelProgress": 32.07,
+   "xpPct": 24.26,
+   "levelProgress": 32.24,
    "className": "Rogue",
    "classId": 4,
    "race": "Undead",
@@ -779,16 +779,16 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795045584000,
-   "apiItemLevel": 23,
+   "lastLogin": 1795053330000,
+   "apiItemLevel": 25,
    "gear": [
     {
      "slot": "AMMO",
      "slotName": "Ammo",
-     "itemId": 3465,
-     "name": "Exploding Shot",
-     "quality": "UNCOMMON",
-     "ilvl": 36,
+     "itemId": 3033,
+     "name": "Solid Shot",
+     "quality": "COMMON",
+     "ilvl": 30,
      "inventoryType": "AMMO",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132384.jpg",
@@ -800,13 +800,13 @@
       "armor": "",
       "stats": [],
       "spells": [],
-      "req": "",
+      "req": "Requires Level 25",
       "reqClass": "",
       "dur": "",
-      "sell": 9,
+      "sell": 0,
       "desc": "",
       "weapon": {
-       "dmg": "Adds 9.5 damage per second",
+       "dmg": "Adds 7.5 damage per second",
        "speed": "",
        "dps": ""
       }
@@ -843,7 +843,7 @@
       "spells": [],
       "req": "Requires Level 20",
       "reqClass": "",
-      "dur": "Durability 47 / 50",
+      "dur": "Durability 44 / 50",
       "sell": 1206,
       "desc": ""
      }
@@ -851,10 +851,10 @@
     {
      "slot": "SHOULDER",
      "slotName": "Shoulders",
-     "itemId": 4251,
-     "name": "Hillman's Shoulders",
+     "itemId": 5964,
+     "name": "Barbaric Shoulders",
      "quality": "UNCOMMON",
-     "ilvl": 26,
+     "ilvl": 35,
      "inventoryType": "SHOULDER",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135039.jpg",
@@ -863,24 +863,29 @@
       "unique": "",
       "inv": "Shoulder",
       "sub": "Leather",
-      "armor": "65 Armor",
+      "armor": "76 Armor",
       "stats": [
        {
-        "s": "+5 Stamina",
+        "s": "+5 Agility",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+3 Spirit",
+        "s": "+5 Strength",
         "neg": false,
-        "eq": true
+        "eq": false
+       },
+       {
+        "s": "+6 Stamina",
+        "neg": false,
+        "eq": false
        }
       ],
       "spells": [],
-      "req": "Requires Level 21",
+      "req": "Requires Level 30",
       "reqClass": "",
-      "dur": "Durability 48 / 50",
-      "sell": 659,
+      "dur": "Durability 45 / 50",
+      "sell": 2609,
       "desc": ""
      }
     },
@@ -928,48 +933,33 @@
     {
      "slot": "CHEST",
      "slotName": "Chest",
-     "itemId": 252508,
-     "name": "Brawler's Leather Tunic",
-     "quality": "RARE",
-     "ilvl": 27,
+     "itemId": 7374,
+     "name": "Dusky Leather Armor",
+     "quality": "UNCOMMON",
+     "ilvl": 35,
      "inventoryType": "CHEST",
      "enchants": [
       "Enchanted: Stamina +3 and Armor +24"
      ],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132717.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132718.jpg",
      "tt": {
-      "bind": "Binds when picked up",
+      "bind": "Binds when equipped",
       "unique": "",
       "inv": "Chest",
       "sub": "Leather",
-      "armor": "98 Armor",
+      "armor": "102 Armor",
       "stats": [
        {
-        "s": "+8 Agility",
+        "s": "+14 Agility",
         "neg": false,
         "eq": false
-       },
-       {
-        "s": "+6 Strength",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+6 Stamina",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+5 Spirit",
-        "neg": false,
-        "eq": true
        }
       ],
       "spells": [],
-      "req": "Requires Level 22",
+      "req": "Requires Level 30",
       "reqClass": "",
-      "dur": "Durability 86 / 95",
-      "sell": 2024,
+      "dur": "Durability 75 / 85",
+      "sell": 3760,
       "desc": ""
      }
     },
@@ -1029,7 +1019,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 34 / 35",
+      "dur": "Durability 32 / 35",
       "sell": 1191,
       "desc": ""
      }
@@ -1067,7 +1057,7 @@
       "spells": [],
       "req": "Requires Level 19",
       "reqClass": "",
-      "dur": "Durability 22 / 25",
+      "dur": "Durability 21 / 25",
       "sell": 588,
       "desc": ""
      }
@@ -1075,36 +1065,46 @@
     {
      "slot": "WAIST",
      "slotName": "Waist",
-     "itemId": 4249,
-     "name": "Dark Leather Belt",
-     "quality": "UNCOMMON",
-     "ilvl": 25,
+     "itemId": 252521,
+     "name": "Stalker's Leather Belt",
+     "quality": "RARE",
+     "ilvl": 35,
      "inventoryType": "WAIST",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132492.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132514.jpg",
      "tt": {
-      "bind": "Binds when equipped",
+      "bind": "Binds when picked up",
       "unique": "",
       "inv": "Waist",
       "sub": "Leather",
-      "armor": "48 Armor",
+      "armor": "63 Armor",
       "stats": [
        {
-        "s": "+4 Agility",
+        "s": "+6 Intellect",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+4 Stamina",
+        "s": "+9 Agility",
         "neg": false,
         "eq": false
+       },
+       {
+        "s": "+6 Stamina",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+4 Spirit",
+        "neg": false,
+        "eq": true
        }
       ],
       "spells": [],
-      "req": "Requires Level 20",
+      "req": "Requires Level 30",
       "reqClass": "",
-      "dur": "Durability 29 / 30",
-      "sell": 703,
+      "dur": "Durability 32 / 35",
+      "sell": 1063,
       "desc": ""
      }
     },
@@ -1136,7 +1136,7 @@
       "spells": [],
       "req": "Requires Level 18",
       "reqClass": "",
-      "dur": "Durability 53 / 55",
+      "dur": "Durability 49 / 55",
       "sell": 1089,
       "desc": ""
      }
@@ -1169,7 +1169,7 @@
       "spells": [],
       "req": "Requires Level 15",
       "reqClass": "",
-      "dur": "Durability 34 / 35",
+      "dur": "Durability 32 / 35",
       "sell": 307,
       "desc": ""
      }
@@ -1278,7 +1278,9 @@
      "quality": "RARE",
      "ilvl": 28,
      "inventoryType": "WEAPON",
-     "enchants": [],
+     "enchants": [
+      "Instant Poison (43 |4Charge:Charges;)"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135661.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -1316,7 +1318,9 @@
      "quality": "UNCOMMON",
      "ilvl": 33,
      "inventoryType": "WEAPON",
-     "enchants": [],
+     "enchants": [
+      "Crippling Poison"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135652.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -1339,7 +1343,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 49 / 55",
+      "dur": "Durability 50 / 55",
       "sell": 6199,
       "desc": "Some claws are better for killing than cooking.",
       "weapon": {
@@ -1375,7 +1379,7 @@
       "spells": [],
       "req": "Requires Level 28",
       "reqClass": "",
-      "dur": "Durability 75 / 75",
+      "dur": "Durability 68 / 75",
       "sell": 5456,
       "desc": "",
       "weapon": {
@@ -1386,7 +1390,7 @@
      }
     }
    ],
-   "itemLevel": 27.63,
+   "itemLevel": 28.94,
    "pvp": {
     "hk": 204,
     "rank": 0,
@@ -1406,9 +1410,9 @@
     "primaries": [
      {
       "name": "Leatherworking",
-      "skill": 130,
-      "max": 150,
-      "recipes": 49
+      "skill": 153,
+      "max": 225,
+      "recipes": 55
      },
      {
       "name": "Skinning",
@@ -1440,8 +1444,8 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/blue-embrace",
    "weekly": {
-    "levels": 1.62,
-    "ilvl": 1.03,
+    "levels": 1.79,
+    "ilvl": 2.34,
     "hk": 1,
     "rank": 0
    },
