@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795101905198,
+ "generatedAt": 1795102760449,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-18T07",
@@ -55,7 +55,7 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795101414000,
+   "lastLogin": 1795102689000,
    "apiItemLevel": 28,
    "gear": [
     {
@@ -124,7 +124,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 42 / 45",
+      "dur": "Durability 45 / 45",
       "sell": 3929,
       "desc": ""
      }
@@ -155,7 +155,7 @@
       "spells": [],
       "req": "Requires Level 22",
       "reqClass": "",
-      "dur": "Durability 49 / 50",
+      "dur": "Durability 50 / 50",
       "sell": 1306,
       "desc": ""
      }
@@ -227,7 +227,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 81 / 85",
+      "dur": "Durability 85 / 85",
       "sell": 2034,
       "desc": ""
      }
@@ -315,7 +315,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 31 / 35",
+      "dur": "Durability 35 / 35",
       "sell": 1191,
       "desc": ""
      }
@@ -454,7 +454,7 @@
       "spells": [],
       "req": "Requires Level 18",
       "reqClass": "",
-      "dur": "Durability 39 / 40",
+      "dur": "Durability 40 / 40",
       "sell": 797,
       "desc": ""
      }
@@ -602,7 +602,7 @@
       ],
       "req": "Requires Level 27",
       "reqClass": "",
-      "dur": "Durability 64 / 65",
+      "dur": "Durability 65 / 65",
       "sell": 6522,
       "desc": "",
       "weapon": {
@@ -640,7 +640,7 @@
       ],
       "req": "Requires Level 23",
       "reqClass": "",
-      "dur": "Durability 58 / 60",
+      "dur": "Durability 60 / 60",
       "sell": 4455,
       "desc": "",
       "weapon": {
@@ -738,7 +738,7 @@
      },
      {
       "name": "First Aid",
-      "skill": 205,
+      "skill": 208,
       "max": 225,
       "recipes": 11
      }
