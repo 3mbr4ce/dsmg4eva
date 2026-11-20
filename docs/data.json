@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795163320278,
+ "generatedAt": 1795178456216,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-18T07",
@@ -42,11 +42,11 @@
    "name": "Sir",
    "surname": "Billythecrit",
    "fullName": "Sir Billythecrit",
-   "level": 35,
-   "experience": 62103,
-   "xpToLevel": 67100,
-   "xpPct": 92.55,
-   "levelProgress": 35.93,
+   "level": 36,
+   "experience": 942,
+   "xpToLevel": 71600,
+   "xpPct": 1.32,
+   "levelProgress": 36.01,
    "className": "Rogue",
    "classId": 4,
    "race": "Undead",
@@ -55,7 +55,7 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795126287000,
+   "lastLogin": 1795178033000,
    "apiItemLevel": 28,
    "gear": [
     {
@@ -589,7 +589,7 @@
      "ilvl": 32,
      "inventoryType": "WEAPON",
      "enchants": [
-      "Instant Poison II (85 |4Charge:Charges;)"
+      "Crippling Poison"
      ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135646.jpg",
      "tt": {
@@ -623,7 +623,7 @@
      "ilvl": 28,
      "inventoryType": "WEAPON",
      "enchants": [
-      "Crippling Poison"
+      "Instant Poison II (84 |4Charge:Charges;)"
      ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134298.jpg",
      "tt": {
@@ -698,7 +698,7 @@
    ],
    "itemLevel": 30.35,
    "pvp": {
-    "hk": 770,
+    "hk": 774,
     "rank": 1,
     "rankName": "Scout"
    },
@@ -706,18 +706,18 @@
     "trees": [
      {
       "name": "Subtlety",
-      "points": 26
+      "points": 27
      }
     ],
-    "split": "26",
+    "split": "27",
     "main": "Subtlety"
    },
    "professions": {
     "primaries": [
      {
       "name": "Mining",
-      "skill": 210,
-      "max": 225,
+      "skill": 226,
+      "max": 300,
       "recipes": 11
      },
      {
@@ -750,9 +750,9 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/sir-billythecrit",
    "weekly": {
-    "levels": 1.86,
+    "levels": 1.94,
     "ilvl": 0.23,
-    "hk": 281,
+    "hk": 285,
     "rank": 0
    },
    "ding60At": null
