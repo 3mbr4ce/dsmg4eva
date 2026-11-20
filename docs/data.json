@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795126415916,
+ "generatedAt": 1795144592404,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-18T07",
@@ -766,11 +766,11 @@
    "name": "Blue",
    "surname": "Embrace",
    "fullName": "Blue Embrace",
-   "level": 32,
-   "experience": 13220,
-   "xpToLevel": 54500,
-   "xpPct": 24.26,
-   "levelProgress": 32.24,
+   "level": 34,
+   "experience": 17309,
+   "xpToLevel": 62800,
+   "xpPct": 27.56,
+   "levelProgress": 34.28,
    "className": "Rogue",
    "classId": 4,
    "race": "Undead",
@@ -779,8 +779,8 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795053330000,
-   "apiItemLevel": 25,
+   "lastLogin": 1795143461000,
+   "apiItemLevel": 27,
    "gear": [
     {
      "slot": "AMMO",
@@ -884,7 +884,7 @@
       "spells": [],
       "req": "Requires Level 30",
       "reqClass": "",
-      "dur": "Durability 45 / 50",
+      "dur": "Durability 44 / 50",
       "sell": 2609,
       "desc": ""
      }
@@ -1057,7 +1057,7 @@
       "spells": [],
       "req": "Requires Level 19",
       "reqClass": "",
-      "dur": "Durability 21 / 25",
+      "dur": "Durability 22 / 25",
       "sell": 588,
       "desc": ""
      }
@@ -1103,7 +1103,7 @@
       "spells": [],
       "req": "Requires Level 30",
       "reqClass": "",
-      "dur": "Durability 32 / 35",
+      "dur": "Durability 30 / 35",
       "sell": 1063,
       "desc": ""
      }
@@ -1111,66 +1111,86 @@
     {
      "slot": "LEGS",
      "slotName": "Legs",
-     "itemId": 5961,
-     "name": "Dark Leather Pants",
+     "itemId": 5963,
+     "name": "Barbaric Leggings",
      "quality": "UNCOMMON",
-     "ilvl": 23,
+     "ilvl": 34,
      "inventoryType": "LEGS",
      "enchants": [
       "Enchanted: Stamina +3 and Armor +24"
      ],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134589.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134592.jpg",
      "tt": {
       "bind": "Binds when equipped",
       "unique": "",
       "inv": "Legs",
       "sub": "Leather",
-      "armor": "72 Armor",
+      "armor": "87 Armor",
       "stats": [
        {
-        "s": "+8 Agility",
+        "s": "+7 Agility",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+7 Strength",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+7 Stamina",
         "neg": false,
         "eq": false
        }
       ],
       "spells": [],
-      "req": "Requires Level 18",
+      "req": "Requires Level 29",
       "reqClass": "",
-      "dur": "Durability 49 / 55",
-      "sell": 1089,
+      "dur": "Durability 65 / 65",
+      "sell": 3151,
       "desc": ""
      }
     },
     {
      "slot": "FEET",
      "slotName": "Feet",
-     "itemId": 2315,
-     "name": "Gray Leather Boots",
+     "itemId": 251963,
+     "name": "Gravewalker Boots",
      "quality": "UNCOMMON",
-     "ilvl": 20,
+     "ilvl": 36,
      "inventoryType": "FEET",
      "enchants": [
-      "Enchanted: Stamina +2 and Armor +16"
+      "Enchanted: Stamina +3 and Armor +24"
      ],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132539.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132542.jpg",
      "tt": {
-      "bind": "Binds when equipped",
+      "bind": "Binds when picked up",
       "unique": "",
       "inv": "Feet",
       "sub": "Leather",
-      "armor": "53 Armor",
+      "armor": "71 Armor",
       "stats": [
        {
         "s": "+5 Agility",
         "neg": false,
         "eq": false
+       },
+       {
+        "s": "+7 Stamina",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+5 Spirit",
+        "neg": false,
+        "eq": true
        }
       ],
       "spells": [],
-      "req": "Requires Level 15",
+      "req": "",
       "reqClass": "",
-      "dur": "Durability 32 / 35",
-      "sell": 307,
+      "dur": "Durability 34 / 45",
+      "sell": 2991,
       "desc": ""
      }
     },
@@ -1279,7 +1299,7 @@
      "ilvl": 28,
      "inventoryType": "WEAPON",
      "enchants": [
-      "Instant Poison (43 |4Charge:Charges;)"
+      "Instant Poison II (85 |4Charge:Charges;)"
      ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135661.jpg",
      "tt": {
@@ -1300,7 +1320,7 @@
       ],
       "req": "Requires Level 23",
       "reqClass": "",
-      "dur": "Durability 53 / 60",
+      "dur": "Durability 48 / 60",
       "sell": 4455,
       "desc": "",
       "weapon": {
@@ -1319,7 +1339,7 @@
      "ilvl": 33,
      "inventoryType": "WEAPON",
      "enchants": [
-      "Crippling Poison"
+      "Deadly Poison (88 |4Charge:Charges;)"
      ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135652.jpg",
      "tt": {
@@ -1343,7 +1363,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 50 / 55",
+      "dur": "Durability 44 / 55",
       "sell": 6199,
       "desc": "Some claws are better for killing than cooking.",
       "weapon": {
@@ -1379,7 +1399,7 @@
       "spells": [],
       "req": "Requires Level 28",
       "reqClass": "",
-      "dur": "Durability 68 / 75",
+      "dur": "Durability 75 / 75",
       "sell": 5456,
       "desc": "",
       "weapon": {
@@ -1390,9 +1410,9 @@
      }
     }
    ],
-   "itemLevel": 28.94,
+   "itemLevel": 30.63,
    "pvp": {
-    "hk": 204,
+    "hk": 217,
     "rank": 0,
     "rankName": "Unranked"
    },
@@ -1400,23 +1420,23 @@
     "trees": [
      {
       "name": "Subtlety",
-      "points": 23
+      "points": 25
      }
     ],
-    "split": "23",
+    "split": "25",
     "main": "Subtlety"
    },
    "professions": {
     "primaries": [
      {
       "name": "Leatherworking",
-      "skill": 153,
+      "skill": 154,
       "max": 225,
-      "recipes": 55
+      "recipes": 56
      },
      {
       "name": "Skinning",
-      "skill": 224,
+      "skill": 225,
       "max": 225,
       "recipes": 2
      }
@@ -1444,9 +1464,9 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/blue-embrace",
    "weekly": {
-    "levels": 1.79,
-    "ilvl": 2.34,
-    "hk": 1,
+    "levels": 3.83,
+    "ilvl": 4.03,
+    "hk": 14,
     "rank": 0
    },
    "ding60At": null
