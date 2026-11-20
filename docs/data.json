@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795144592404,
+ "generatedAt": 1795163320278,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-18T07",
@@ -2126,7 +2126,7 @@
    "faction": "HORDE",
    "ruleset": "Normal",
    "achievementPoints": 0,
-   "lastLogin": 1795122622000,
+   "lastLogin": 1795163163000,
    "apiItemLevel": 31,
    "gear": [
     {
