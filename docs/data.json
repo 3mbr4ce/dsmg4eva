@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795211633076,
+ "generatedAt": 1795212734383,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-18T07",
@@ -770,11 +770,11 @@
    "name": "Blue",
    "surname": "Embrace",
    "fullName": "Blue Embrace",
-   "level": 34,
-   "experience": 17309,
-   "xpToLevel": 62800,
-   "xpPct": 27.56,
-   "levelProgress": 34.28,
+   "level": 35,
+   "experience": 4754,
+   "xpToLevel": 67100,
+   "xpPct": 7.08,
+   "levelProgress": 35.07,
    "className": "Rogue",
    "classId": 4,
    "race": "Undead",
@@ -783,7 +783,7 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795143461000,
+   "lastLogin": 1795211701000,
    "apiItemLevel": 27,
    "gear": [
     {
@@ -819,36 +819,36 @@
     {
      "slot": "HEAD",
      "slotName": "Head",
-     "itemId": 252504,
-     "name": "Brawler's Leather Hood",
-     "quality": "RARE",
-     "ilvl": 25,
+     "itemId": 6720,
+     "name": "Spirit Hunter Headdress",
+     "quality": "UNCOMMON",
+     "ilvl": 37,
      "inventoryType": "HEAD",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133133.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133119.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Head",
       "sub": "Leather",
-      "armor": "76 Armor",
+      "armor": "85 Armor",
       "stats": [
        {
-        "s": "+8 Agility",
+        "s": "+10 Agility",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+10 Stamina",
+        "s": "+9 Spirit",
         "neg": false,
-        "eq": false
+        "eq": true
        }
       ],
       "spells": [],
-      "req": "Requires Level 20",
+      "req": "",
       "reqClass": "",
-      "dur": "Durability 44 / 50",
-      "sell": 1206,
+      "dur": "Durability 41 / 50",
+      "sell": 3218,
       "desc": ""
      }
     },
@@ -962,7 +962,7 @@
       "spells": [],
       "req": "Requires Level 30",
       "reqClass": "",
-      "dur": "Durability 75 / 85",
+      "dur": "Durability 71 / 85",
       "sell": 3760,
       "desc": ""
      }
@@ -1023,7 +1023,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 32 / 35",
+      "dur": "Durability 31 / 35",
       "sell": 1191,
       "desc": ""
      }
@@ -1061,7 +1061,7 @@
       "spells": [],
       "req": "Requires Level 19",
       "reqClass": "",
-      "dur": "Durability 22 / 25",
+      "dur": "Durability 23 / 25",
       "sell": 588,
       "desc": ""
      }
@@ -1107,7 +1107,7 @@
       "spells": [],
       "req": "Requires Level 30",
       "reqClass": "",
-      "dur": "Durability 30 / 35",
+      "dur": "Durability 33 / 35",
       "sell": 1063,
       "desc": ""
      }
@@ -1150,7 +1150,7 @@
       "spells": [],
       "req": "Requires Level 29",
       "reqClass": "",
-      "dur": "Durability 65 / 65",
+      "dur": "Durability 55 / 65",
       "sell": 3151,
       "desc": ""
      }
@@ -1193,7 +1193,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 34 / 45",
+      "dur": "Durability 42 / 45",
       "sell": 2991,
       "desc": ""
      }
@@ -1297,83 +1297,73 @@
     {
      "slot": "MAIN_HAND",
      "slotName": "Main Hand",
-     "itemId": 6220,
-     "name": "Meteor Shard",
+     "itemId": 7682,
+     "name": "Torturing Poker",
      "quality": "RARE",
-     "ilvl": 28,
+     "ilvl": 34,
      "inventoryType": "WEAPON",
-     "enchants": [
-      "Instant Poison II (85 |4Charge:Charges;)"
-     ],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135661.jpg",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135124.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "One-Hand",
       "sub": "Dagger",
       "armor": "",
-      "stats": [
-       {
-        "s": "+3 Fire Resistance",
-        "neg": false,
-        "eq": false
-       }
-      ],
+      "stats": [],
       "spells": [
-       "Chance on hit: Blasts a target for 42 Fire damage."
+       "Equip: Melee attacks with this weapon torture the target, dealing 1 Fire damage and increasing your damage dealt to that target with this effect by 1, stacking up to 10 times."
       ],
-      "req": "Requires Level 23",
+      "req": "Requires Level 29",
       "reqClass": "",
-      "dur": "Durability 48 / 60",
-      "sell": 4455,
+      "dur": "Durability 63 / 65",
+      "sell": 7892,
       "desc": "",
       "weapon": {
-       "dmg": "22 - 42 Damage",
-       "speed": "Speed 1.80",
-       "dps": "(17.8 damage per second)"
+       "dmg": "21 - 45 Damage",
+       "speed": "Speed 1.70",
+       "dps": "(19.6 damage per second)"
       }
      }
     },
     {
      "slot": "OFF_HAND",
      "slotName": "Off Hand",
-     "itemId": 280805,
-     "name": "Serrated Raptor Claw",
-     "quality": "UNCOMMON",
-     "ilvl": 33,
+     "itemId": 7683,
+     "name": "Bloody Brass Knuckles",
+     "quality": "RARE",
+     "ilvl": 34,
      "inventoryType": "WEAPON",
-     "enchants": [
-      "Deadly Poison (88 |4Charge:Charges;)"
-     ],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135652.jpg",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132945.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "One-Hand",
-      "sub": "Dagger",
+      "sub": "Fist Weapon",
       "armor": "",
       "stats": [
        {
-        "s": "+3 Agility",
+        "s": "+12 Attack Power",
         "neg": false,
-        "eq": false
+        "eq": true
        },
        {
-        "s": "+6 Attack Power",
+        "s": "+15 Attack Power Vs Humanoids",
         "neg": false,
         "eq": true
        }
       ],
       "spells": [],
-      "req": "",
+      "req": "Requires Level 29",
       "reqClass": "",
-      "dur": "Durability 44 / 55",
-      "sell": 6199,
-      "desc": "Some claws are better for killing than cooking.",
+      "dur": "Durability 61 / 65",
+      "sell": 7892,
+      "desc": "",
       "weapon": {
-       "dmg": "19 - 36 Damage",
+       "dmg": "24 - 46 Damage",
        "speed": "Speed 1.60",
-       "dps": "(17.2 damage per second)"
+       "dps": "(21.9 damage per second)"
       }
      }
     },
@@ -1414,9 +1404,9 @@
      }
     }
    ],
-   "itemLevel": 30.63,
+   "itemLevel": 31.81,
    "pvp": {
-    "hk": 217,
+    "hk": 228,
     "rank": 0,
     "rankName": "Unranked"
    },
@@ -1424,10 +1414,10 @@
     "trees": [
      {
       "name": "Subtlety",
-      "points": 25
+      "points": 26
      }
     ],
-    "split": "25",
+    "split": "26",
     "main": "Subtlety"
    },
    "professions": {
@@ -1468,9 +1458,9 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/blue-embrace",
    "weekly": {
-    "levels": 3.83,
-    "ilvl": 4.03,
-    "hk": 14,
+    "levels": 4.62,
+    "ilvl": 5.21,
+    "hk": 25,
     "rank": 0
    },
    "ding60At": null
@@ -2762,10 +2752,10 @@
    "surname": "Khingen",
    "fullName": "Sire Khingen",
    "level": 34,
-   "experience": 10684,
+   "experience": 51995,
    "xpToLevel": 62800,
-   "xpPct": 17.01,
-   "levelProgress": 34.17,
+   "xpPct": 82.79,
+   "levelProgress": 34.83,
    "className": "Paladin",
    "classId": 2,
    "race": "Undead",
@@ -2774,7 +2764,7 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795124652000,
+   "lastLogin": 1795212097000,
    "apiItemLevel": 30,
    "gear": [
     {
@@ -2808,7 +2798,7 @@
       "spells": [],
       "req": "Requires Level 20",
       "reqClass": "",
-      "dur": "Durability 44 / 65",
+      "dur": "Durability 37 / 65",
       "sell": 1439,
       "desc": ""
      }
@@ -2890,7 +2880,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 70 / 70",
+      "dur": "Durability 62 / 70",
       "sell": 4378,
       "desc": ""
      }
@@ -2969,7 +2959,7 @@
       "spells": [],
       "req": "Requires Level 24",
       "reqClass": "",
-      "dur": "Durability 85 / 120",
+      "dur": "Durability 75 / 120",
       "sell": 2935,
       "desc": ""
      }
@@ -3035,7 +3025,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 35 / 35",
+      "dur": "Durability 32 / 35",
       "sell": 2404,
       "desc": ""
      }
@@ -3071,7 +3061,7 @@
       "spells": [],
       "req": "Requires Level 28",
       "reqClass": "",
-      "dur": "Durability 39 / 40",
+      "dur": "Durability 33 / 40",
       "sell": 2225,
       "desc": ""
      }
@@ -3112,7 +3102,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 28 / 40",
+      "dur": "Durability 26 / 40",
       "sell": 2864,
       "desc": ""
      }
@@ -3155,7 +3145,7 @@
       "spells": [],
       "req": "Requires Level 25",
       "reqClass": "",
-      "dur": "Durability 65 / 90",
+      "dur": "Durability 57 / 90",
       "sell": 3149,
       "desc": ""
      }
@@ -3196,7 +3186,7 @@
       "spells": [],
       "req": "Requires Level 28",
       "reqClass": "",
-      "dur": "Durability 60 / 60",
+      "dur": "Durability 51 / 60",
       "sell": 3118,
       "desc": ""
      }
@@ -3308,9 +3298,7 @@
      "quality": "RARE",
      "ilvl": 31,
      "inventoryType": "TWOHWEAPON",
-     "enchants": [
-      "Sharpened +6"
-     ],
+     "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135326.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -3335,7 +3323,7 @@
       ],
       "req": "",
       "reqClass": "Classes: Paladin",
-      "dur": "Durability 94 / 100",
+      "dur": "Durability 91 / 100",
       "sell": 7459,
       "desc": "",
       "weapon": {
@@ -3348,7 +3336,7 @@
    ],
    "itemLevel": 32.07,
    "pvp": {
-    "hk": 122,
+    "hk": 138,
     "rank": 0,
     "rankName": "Unranked"
    },
@@ -3366,7 +3354,7 @@
     "primaries": [
      {
       "name": "Mining",
-      "skill": 192,
+      "skill": 193,
       "max": 225,
       "recipes": 11
      },
@@ -3392,7 +3380,7 @@
      },
      {
       "name": "First Aid",
-      "skill": 206,
+      "skill": 213,
       "max": 225,
       "recipes": 11
      }
@@ -3400,9 +3388,9 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/sire-khingen",
    "weekly": {
-    "levels": 1.35,
+    "levels": 2.01,
     "ilvl": 1.87,
-    "hk": 23,
+    "hk": 39,
     "rank": 0
    },
    "ding60At": null
