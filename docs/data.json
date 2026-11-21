@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795273915119,
+ "generatedAt": 1795276448438,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-18T07",
@@ -1473,10 +1473,10 @@
    "surname": "Unbann",
    "fullName": "Ruler Unbann",
    "level": 33,
-   "experience": 4852,
+   "experience": 18977,
    "xpToLevel": 58600,
-   "xpPct": 8.28,
-   "levelProgress": 33.08,
+   "xpPct": 32.38,
+   "levelProgress": 33.32,
    "className": "Druid",
    "classId": 11,
    "race": "Night Elf",
@@ -1485,7 +1485,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795236055000,
+   "lastLogin": 1795276312000,
    "apiItemLevel": 30,
    "gear": [
     {
@@ -1519,7 +1519,7 @@
       "spells": [],
       "req": "Requires Level 26",
       "reqClass": "",
-      "dur": "Durability 48 / 50",
+      "dur": "Durability 47 / 50",
       "sell": 1663,
       "desc": ""
      }
@@ -1729,7 +1729,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 22 / 25",
+      "dur": "Durability 21 / 25",
       "sell": 462,
       "desc": ""
      }
@@ -1883,13 +1883,13 @@
     {
      "slot": "FINGER_1",
      "slotName": "Ring 1",
-     "itemId": 270050,
-     "name": "Fury Ring",
+     "itemId": 270053,
+     "name": "Ring of Ruin",
      "quality": "UNCOMMON",
-     "ilvl": 34,
+     "ilvl": 35,
      "inventoryType": "FINGER",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133355.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133350.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
@@ -1898,21 +1898,21 @@
       "armor": "",
       "stats": [
        {
-        "s": "+6 Strength",
+        "s": "+6 Agility",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+2 Spirit",
+        "s": "+4 Strength",
         "neg": false,
-        "eq": true
+        "eq": false
        }
       ],
       "spells": [],
       "req": "",
       "reqClass": "",
       "dur": "",
-      "sell": 2518,
+      "sell": 2144,
       "desc": ""
      }
     },
@@ -2048,7 +2048,7 @@
      }
     }
    ],
-   "itemLevel": 31.75,
+   "itemLevel": 31.81,
    "pvp": {
     "hk": 1,
     "rank": 0,
@@ -2096,8 +2096,8 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/ruler-unbann",
    "weekly": {
-    "levels": 4.9,
-    "ilvl": 4.89,
+    "levels": 5.14,
+    "ilvl": 4.95,
     "hk": 1,
     "rank": 0
    },
