@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795233266603,
+ "generatedAt": 1795236820324,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-18T07",
@@ -1474,11 +1474,11 @@
    "name": "Ruler",
    "surname": "Unbann",
    "fullName": "Ruler Unbann",
-   "level": 32,
-   "experience": 53212,
-   "xpToLevel": 54500,
-   "xpPct": 97.64,
-   "levelProgress": 32.98,
+   "level": 33,
+   "experience": 4852,
+   "xpToLevel": 58600,
+   "xpPct": 8.28,
+   "levelProgress": 33.08,
    "className": "Druid",
    "classId": 11,
    "race": "Night Elf",
@@ -1487,7 +1487,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795232367000,
+   "lastLogin": 1795236055000,
    "apiItemLevel": 30,
    "gear": [
     {
@@ -2060,10 +2060,10 @@
     "trees": [
      {
       "name": "Feral Combat",
-      "points": 23
+      "points": 24
      }
     ],
-    "split": "23",
+    "split": "24",
     "main": "Feral Combat"
    },
    "professions": {
@@ -2098,7 +2098,7 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/ruler-unbann",
    "weekly": {
-    "levels": 4.8,
+    "levels": 4.9,
     "ilvl": 4.89,
     "hk": 1,
     "rank": 0
