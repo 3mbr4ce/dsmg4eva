@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795212734383,
+ "generatedAt": 1795226023898,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-18T07",
@@ -1474,11 +1474,11 @@
    "name": "Ruler",
    "surname": "Unbann",
    "fullName": "Ruler Unbann",
-   "level": 30,
-   "experience": 1659,
-   "xpToLevel": 47400,
-   "xpPct": 3.5,
-   "levelProgress": 30.04,
+   "level": 32,
+   "experience": 18603,
+   "xpToLevel": 54500,
+   "xpPct": 34.13,
+   "levelProgress": 32.34,
    "className": "Druid",
    "classId": 11,
    "race": "Night Elf",
@@ -1487,8 +1487,8 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795187300000,
-   "apiItemLevel": 28,
+   "lastLogin": 1795225670000,
+   "apiItemLevel": 30,
    "gear": [
     {
      "slot": "HEAD",
@@ -1521,7 +1521,7 @@
       "spells": [],
       "req": "Requires Level 26",
       "reqClass": "",
-      "dur": "Durability 49 / 50",
+      "dur": "Durability 50 / 50",
       "sell": 1663,
       "desc": ""
      }
@@ -1637,36 +1637,41 @@
     {
      "slot": "CHEST",
      "slotName": "Chest",
-     "itemId": 2041,
-     "name": "Tunic of Westfall",
+     "itemId": 273038,
+     "name": "Garb of Fallen Felbark",
      "quality": "RARE",
-     "ilvl": 24,
+     "ilvl": 34,
      "inventoryType": "CHEST",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132722.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135013.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Chest",
       "sub": "Leather",
-      "armor": "92 Armor",
+      "armor": "110 Armor",
       "stats": [
        {
-        "s": "+11 Agility",
+        "s": "+13 Intellect",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+5 Stamina",
+        "s": "+9 Agility",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+7 Stamina",
         "neg": false,
         "eq": false
        }
       ],
       "spells": [],
-      "req": "",
+      "req": "Requires Level 29",
       "reqClass": "",
-      "dur": "Durability 90 / 90",
-      "sell": 1441,
+      "dur": "Durability 100 / 100",
+      "sell": 4131,
       "desc": ""
      }
     },
@@ -1770,22 +1775,22 @@
     {
      "slot": "WAIST",
      "slotName": "Waist",
-     "itemId": 4456,
-     "name": "Raptor Hide Belt",
-     "quality": "UNCOMMON",
+     "itemId": 273041,
+     "name": "Slitherwrap Girdle",
+     "quality": "RARE",
      "ilvl": 33,
      "inventoryType": "WAIST",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132491.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132504.jpg",
      "tt": {
-      "bind": "Binds when equipped",
+      "bind": "Binds when picked up",
       "unique": "",
       "inv": "Waist",
       "sub": "Leather",
-      "armor": "55 Armor",
+      "armor": "61 Armor",
       "stats": [
        {
-        "s": "+6 Strength",
+        "s": "+9 Agility",
         "neg": false,
         "eq": false
        },
@@ -1795,79 +1800,112 @@
         "eq": false
        }
       ],
-      "spells": [],
+      "spells": [
+       "Equip: When struck in combat, drain 2 mana from the attacker."
+      ],
       "req": "Requires Level 28",
       "reqClass": "",
-      "dur": "Durability 30 / 30",
-      "sell": 1553,
+      "dur": "Durability 35 / 35",
+      "sell": 1732,
       "desc": ""
      }
     },
     {
      "slot": "LEGS",
      "slotName": "Legs",
-     "itemId": 9833,
-     "name": "Scaled Leather Leggings of the Bandit",
+     "itemId": 282713,
+     "name": "Bloodstained Pants",
      "quality": "UNCOMMON",
-     "ilvl": 33,
+     "ilvl": 36,
      "inventoryType": "LEGS",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134582.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134586.jpg",
      "tt": {
       "bind": "Binds when equipped",
       "unique": "",
       "inv": "Legs",
       "sub": "Leather",
-      "armor": "86 Armor",
+      "armor": "90 Armor",
       "stats": [
        {
-        "s": "+4 Agility",
+        "s": "+12 Strength",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+9 Stamina",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+11 Attack Power",
+        "s": "+8 Health Per 5 Sec.",
         "neg": false,
         "eq": true
        }
       ],
       "spells": [],
-      "req": "Requires Level 28",
+      "req": "Requires Level 31",
       "reqClass": "",
       "dur": "Durability 65 / 65",
-      "sell": 3031,
+      "sell": 3935,
       "desc": ""
      }
     },
     {
      "slot": "FEET",
      "slotName": "Feet",
-     "itemId": 277226,
-     "name": "Disjointed Shoes",
+     "itemId": 9856,
+     "name": "Archer's Boots of the Boar",
      "quality": "UNCOMMON",
-     "ilvl": 28,
+     "ilvl": 36,
      "inventoryType": "FEET",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132540.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132542.jpg",
      "tt": {
-      "bind": "Binds when picked up",
+      "bind": "Binds when equipped",
       "unique": "",
       "inv": "Feet",
       "sub": "Leather",
-      "armor": "62 Armor",
+      "armor": "71 Armor",
       "stats": [
        {
-        "s": "+12 Attack Power",
+        "s": "+7 Strength",
         "neg": false,
-        "eq": true
+        "eq": false
        },
        {
-        "s": "+5 Spell Power",
+        "s": "+7 Spirit",
+        "neg": false,
+        "eq": true
+       }
+      ],
+      "spells": [],
+      "req": "Requires Level 31",
+      "reqClass": "",
+      "dur": "Durability 45 / 45",
+      "sell": 2839,
+      "desc": ""
+     }
+    },
+    {
+     "slot": "FINGER_1",
+     "slotName": "Ring 1",
+     "itemId": 270050,
+     "name": "Fury Ring",
+     "quality": "UNCOMMON",
+     "ilvl": 34,
+     "inventoryType": "FINGER",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133355.jpg",
+     "tt": {
+      "bind": "Binds when picked up",
+      "unique": "",
+      "inv": "Finger",
+      "sub": "Miscellaneous",
+      "armor": "",
+      "stats": [
+       {
+        "s": "+6 Strength",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+2 Spirit",
         "neg": false,
         "eq": true
        }
@@ -1875,14 +1913,14 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 40 / 40",
-      "sell": 1431,
+      "dur": "",
+      "sell": 2518,
       "desc": ""
      }
     },
     {
-     "slot": "FINGER_1",
-     "slotName": "Ring 1",
+     "slot": "FINGER_2",
+     "slotName": "Ring 2",
      "itemId": 11985,
      "name": "Cerulean Ring of Strength",
      "quality": "UNCOMMON",
@@ -1901,42 +1939,6 @@
         "s": "+8 Strength",
         "neg": false,
         "eq": false
-       }
-      ],
-      "spells": [],
-      "req": "Requires Level 30",
-      "reqClass": "",
-      "dur": "",
-      "sell": 2144,
-      "desc": ""
-     }
-    },
-    {
-     "slot": "FINGER_2",
-     "slotName": "Ring 2",
-     "itemId": 11985,
-     "name": "Cerulean Ring of the Boar",
-     "quality": "UNCOMMON",
-     "ilvl": 35,
-     "inventoryType": "FINGER",
-     "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133350.jpg",
-     "tt": {
-      "bind": "Binds when equipped",
-      "unique": "",
-      "inv": "Finger",
-      "sub": "Miscellaneous",
-      "armor": "",
-      "stats": [
-       {
-        "s": "+5 Strength",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+5 Spirit",
-        "neg": false,
-        "eq": true
        }
       ],
       "spells": [],
@@ -1977,41 +1979,46 @@
     {
      "slot": "MAIN_HAND",
      "slotName": "Main Hand",
-     "itemId": 2058,
-     "name": "Kazon's Maul",
-     "quality": "UNCOMMON",
-     "ilvl": 29,
+     "itemId": 279841,
+     "name": "Defender of Dalaran",
+     "quality": "RARE",
+     "ilvl": 36,
      "inventoryType": "TWOHWEAPON",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133053.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133041.jpg",
      "tt": {
-      "bind": "Binds when equipped",
+      "bind": "Binds when picked up",
       "unique": "",
       "inv": "Two-Hand",
       "sub": "Mace",
       "armor": "",
       "stats": [
        {
+        "s": "+9 Intellect",
+        "neg": false,
+        "eq": false
+       },
+       {
         "s": "+9 Strength",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+4 Stamina",
+        "s": "+13 Stamina",
         "neg": false,
         "eq": false
        }
       ],
       "spells": [],
-      "req": "Requires Level 24",
+      "req": "",
       "reqClass": "",
-      "dur": "Durability 85 / 85",
-      "sell": 4197,
+      "dur": "Durability 100 / 100",
+      "sell": 12065,
       "desc": "",
       "weapon": {
-       "dmg": "55 - 83 Damage",
-       "speed": "Speed 3.50",
-       "dps": "(19.7 damage per second)"
+       "dmg": "82 - 124 Damage",
+       "speed": "Speed 3.30",
+       "dps": "(31.2 damage per second)"
       }
      }
     },
@@ -2043,9 +2050,9 @@
      }
     }
    ],
-   "itemLevel": 29.63,
+   "itemLevel": 31.75,
    "pvp": {
-    "hk": 0,
+    "hk": 1,
     "rank": 0,
     "rankName": "Unranked"
    },
@@ -2053,10 +2060,10 @@
     "trees": [
      {
       "name": "Feral Combat",
-      "points": 21
+      "points": 23
      }
     ],
-    "split": "21",
+    "split": "23",
     "main": "Feral Combat"
    },
    "professions": {
@@ -2069,9 +2076,9 @@
      },
      {
       "name": "Herbalism",
-      "skill": 124,
-      "max": 150,
-      "recipes": 3
+      "skill": 136,
+      "max": 225,
+      "recipes": 4
      }
     ],
     "secondaries": [
@@ -2091,9 +2098,9 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/ruler-unbann",
    "weekly": {
-    "levels": 1.86,
-    "ilvl": 2.77,
-    "hk": 0,
+    "levels": 4.16,
+    "ilvl": 4.89,
+    "hk": 1,
     "rank": 0
    },
    "ding60At": null
