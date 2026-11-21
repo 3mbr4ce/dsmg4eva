@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795258441511,
+ "generatedAt": 1795269229470,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-18T07",
@@ -43,10 +43,10 @@
    "surname": "Billythecrit",
    "fullName": "Sir Billythecrit",
    "level": 36,
-   "experience": 33396,
+   "experience": 35324,
    "xpToLevel": 71600,
-   "xpPct": 46.64,
-   "levelProgress": 36.47,
+   "xpPct": 49.34,
+   "levelProgress": 36.49,
    "className": "Rogue",
    "classId": 4,
    "race": "Undead",
@@ -55,7 +55,7 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795211343000,
+   "lastLogin": 1795268893000,
    "apiItemLevel": 29,
    "gear": [
     {
@@ -632,9 +632,7 @@
      "quality": "RARE",
      "ilvl": 34,
      "inventoryType": "WEAPON",
-     "enchants": [
-      "Crippling Poison"
-     ],
+     "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135124.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -720,9 +718,9 @@
     "primaries": [
      {
       "name": "Mining",
-      "skill": 226,
+      "skill": 240,
       "max": 300,
-      "recipes": 11
+      "recipes": 12
      },
      {
       "name": "Engineering",
@@ -754,7 +752,7 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/sir-billythecrit",
    "weekly": {
-    "levels": 2.4,
+    "levels": 2.42,
     "ilvl": 1,
     "hk": 293,
     "rank": 0
@@ -2758,11 +2756,11 @@
    "name": "Sire",
    "surname": "Khingen",
    "fullName": "Sire Khingen",
-   "level": 34,
-   "experience": 51995,
-   "xpToLevel": 62800,
-   "xpPct": 82.79,
-   "levelProgress": 34.83,
+   "level": 35,
+   "experience": 11523,
+   "xpToLevel": 67100,
+   "xpPct": 17.17,
+   "levelProgress": 35.17,
    "className": "Paladin",
    "classId": 2,
    "race": "Undead",
@@ -2771,7 +2769,7 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795212097000,
+   "lastLogin": 1795268858000,
    "apiItemLevel": 30,
    "gear": [
     {
@@ -2805,7 +2803,7 @@
       "spells": [],
       "req": "Requires Level 20",
       "reqClass": "",
-      "dur": "Durability 37 / 65",
+      "dur": "Durability 23 / 65",
       "sell": 1439,
       "desc": ""
      }
@@ -2887,7 +2885,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 62 / 70",
+      "dur": "Durability 43 / 70",
       "sell": 4378,
       "desc": ""
      }
@@ -2895,41 +2893,36 @@
     {
      "slot": "BACK",
      "slotName": "Back",
-     "itemId": 271719,
-     "name": "Furs of the Earthen Ring",
-     "quality": "RARE",
-     "ilvl": 33,
+     "itemId": 7492,
+     "name": "Captain's Cloak of the Tiger",
+     "quality": "UNCOMMON",
+     "ilvl": 39,
      "inventoryType": "CLOAK",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133756.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133753.jpg",
      "tt": {
-      "bind": "Binds when picked up",
+      "bind": "Binds when equipped",
       "unique": "",
       "inv": "Back",
       "sub": "Cloth",
-      "armor": "25 Armor",
+      "armor": "26 Armor",
       "stats": [
        {
-        "s": "+5 Intellect",
+        "s": "+6 Agility",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+5 Strength",
+        "s": "+6 Strength",
         "neg": false,
         "eq": false
-       },
-       {
-        "s": "+5 Spirit",
-        "neg": false,
-        "eq": true
        }
       ],
       "spells": [],
-      "req": "",
+      "req": "Requires Level 34",
       "reqClass": "",
       "dur": "",
-      "sell": 2229,
+      "sell": 3015,
       "desc": ""
      }
     },
@@ -2966,7 +2959,7 @@
       "spells": [],
       "req": "Requires Level 24",
       "reqClass": "",
-      "dur": "Durability 75 / 120",
+      "dur": "Durability 50 / 120",
       "sell": 2935,
       "desc": ""
      }
@@ -3032,7 +3025,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 32 / 35",
+      "dur": "Durability 22 / 35",
       "sell": 2404,
       "desc": ""
      }
@@ -3068,7 +3061,7 @@
       "spells": [],
       "req": "Requires Level 28",
       "reqClass": "",
-      "dur": "Durability 33 / 40",
+      "dur": "Durability 27 / 40",
       "sell": 2225,
       "desc": ""
      }
@@ -3109,7 +3102,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 26 / 40",
+      "dur": "Durability 16 / 40",
       "sell": 2864,
       "desc": ""
      }
@@ -3152,7 +3145,7 @@
       "spells": [],
       "req": "Requires Level 25",
       "reqClass": "",
-      "dur": "Durability 57 / 90",
+      "dur": "Durability 39 / 90",
       "sell": 3149,
       "desc": ""
      }
@@ -3193,7 +3186,7 @@
       "spells": [],
       "req": "Requires Level 28",
       "reqClass": "",
-      "dur": "Durability 51 / 60",
+      "dur": "Durability 40 / 60",
       "sell": 3118,
       "desc": ""
      }
@@ -3330,7 +3323,7 @@
       ],
       "req": "",
       "reqClass": "Classes: Paladin",
-      "dur": "Durability 91 / 100",
+      "dur": "Durability 73 / 100",
       "sell": 7459,
       "desc": "",
       "weapon": {
@@ -3341,7 +3334,7 @@
      }
     }
    ],
-   "itemLevel": 32.07,
+   "itemLevel": 32.47,
    "pvp": {
     "hk": 138,
     "rank": 0,
@@ -3351,17 +3344,17 @@
     "trees": [
      {
       "name": "Retribution",
-      "points": 25
+      "points": 26
      }
     ],
-    "split": "25",
+    "split": "26",
     "main": "Retribution"
    },
    "professions": {
     "primaries": [
      {
       "name": "Mining",
-      "skill": 193,
+      "skill": 225,
       "max": 225,
       "recipes": 11
      },
@@ -3395,8 +3388,8 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/sire-khingen",
    "weekly": {
-    "levels": 2.01,
-    "ilvl": 1.87,
+    "levels": 2.35,
+    "ilvl": 2.27,
     "hk": 39,
     "rank": 0
    },
