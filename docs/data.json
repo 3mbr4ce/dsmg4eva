@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795348448404,
+ "generatedAt": 1795353128592,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-18T07",
@@ -2757,10 +2757,10 @@
    "surname": "Khingen",
    "fullName": "Sire Khingen",
    "level": 35,
-   "experience": 29158,
+   "experience": 33070,
    "xpToLevel": 67100,
-   "xpPct": 43.45,
-   "levelProgress": 35.43,
+   "xpPct": 49.28,
+   "levelProgress": 35.49,
    "className": "Paladin",
    "classId": 2,
    "race": "Undead",
@@ -2769,7 +2769,7 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795347849000,
+   "lastLogin": 1795352487000,
    "apiItemLevel": 30,
    "gear": [
     {
@@ -2803,7 +2803,7 @@
       "spells": [],
       "req": "Requires Level 20",
       "reqClass": "",
-      "dur": "Durability 65 / 65",
+      "dur": "Durability 62 / 65",
       "sell": 1439,
       "desc": ""
      }
@@ -2885,7 +2885,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 70 / 70",
+      "dur": "Durability 69 / 70",
       "sell": 4378,
       "desc": ""
      }
@@ -2959,7 +2959,7 @@
       "spells": [],
       "req": "Requires Level 24",
       "reqClass": "",
-      "dur": "Durability 120 / 120",
+      "dur": "Durability 119 / 120",
       "sell": 2935,
       "desc": ""
      }
@@ -3061,7 +3061,7 @@
       "spells": [],
       "req": "Requires Level 28",
       "reqClass": "",
-      "dur": "Durability 40 / 40",
+      "dur": "Durability 37 / 40",
       "sell": 2225,
       "desc": ""
      }
@@ -3298,7 +3298,9 @@
      "quality": "RARE",
      "ilvl": 31,
      "inventoryType": "TWOHWEAPON",
-     "enchants": [],
+     "enchants": [
+      "Sharpened +6"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135326.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -3336,7 +3338,7 @@
    ],
    "itemLevel": 32.47,
    "pvp": {
-    "hk": 140,
+    "hk": 141,
     "rank": 0,
     "rankName": "Unranked"
    },
@@ -3354,7 +3356,7 @@
     "primaries": [
      {
       "name": "Mining",
-      "skill": 225,
+      "skill": 227,
       "max": 300,
       "recipes": 11
      },
@@ -3362,7 +3364,7 @@
       "name": "Blacksmithing",
       "skill": 200,
       "max": 225,
-      "recipes": 70
+      "recipes": 71
      }
     ],
     "secondaries": [
@@ -3388,9 +3390,9 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/sire-khingen",
    "weekly": {
-    "levels": 2.61,
+    "levels": 2.67,
     "ilvl": 2.27,
-    "hk": 41,
+    "hk": 42,
     "rank": 0
    },
    "ding60At": null
