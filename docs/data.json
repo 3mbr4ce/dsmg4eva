@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795339475918,
+ "generatedAt": 1795341237704,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-18T07",
@@ -1473,10 +1473,10 @@
    "surname": "Unbann",
    "fullName": "Ruler Unbann",
    "level": 33,
-   "experience": 54460,
+   "experience": 58521,
    "xpToLevel": 58600,
-   "xpPct": 92.94,
-   "levelProgress": 33.93,
+   "xpPct": 99.87,
+   "levelProgress": 34,
    "className": "Druid",
    "classId": 11,
    "race": "Night Elf",
@@ -1485,7 +1485,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795338944000,
+   "lastLogin": 1795341154000,
    "apiItemLevel": 30,
    "gear": [
     {
@@ -1519,7 +1519,7 @@
       "spells": [],
       "req": "Requires Level 26",
       "reqClass": "",
-      "dur": "Durability 50 / 50",
+      "dur": "Durability 49 / 50",
       "sell": 1663,
       "desc": ""
      }
@@ -1596,7 +1596,7 @@
       "spells": [],
       "req": "Requires Level 30",
       "reqClass": "",
-      "dur": "Durability 50 / 50",
+      "dur": "Durability 49 / 50",
       "sell": 2609,
       "desc": ""
      }
@@ -1668,7 +1668,7 @@
       "spells": [],
       "req": "Requires Level 29",
       "reqClass": "",
-      "dur": "Durability 100 / 100",
+      "dur": "Durability 97 / 100",
       "sell": 4131,
       "desc": ""
      }
@@ -1765,7 +1765,7 @@
       "spells": [],
       "req": "Requires Level 29",
       "reqClass": "",
-      "dur": "Durability 30 / 30",
+      "dur": "Durability 29 / 30",
       "sell": 1654,
       "desc": ""
      }
@@ -2010,7 +2010,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 100 / 100",
+      "dur": "Durability 97 / 100",
       "sell": 12065,
       "desc": "",
       "weapon": {
@@ -2074,7 +2074,7 @@
      },
      {
       "name": "Herbalism",
-      "skill": 145,
+      "skill": 147,
       "max": 225,
       "recipes": 4
      }
@@ -2096,7 +2096,7 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/ruler-unbann",
    "weekly": {
-    "levels": 5.75,
+    "levels": 5.82,
     "ilvl": 4.95,
     "hk": 5,
     "rank": 0
