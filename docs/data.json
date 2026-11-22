@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795374690472,
+ "generatedAt": 1795386263641,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-18T07",
@@ -43,10 +43,10 @@
    "surname": "Billythecrit",
    "fullName": "Sir Billythecrit",
    "level": 36,
-   "experience": 35324,
+   "experience": 39699,
    "xpToLevel": 71600,
-   "xpPct": 49.34,
-   "levelProgress": 36.49,
+   "xpPct": 55.45,
+   "levelProgress": 36.55,
    "className": "Rogue",
    "classId": 4,
    "race": "Undead",
@@ -55,8 +55,8 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795268893000,
-   "apiItemLevel": 29,
+   "lastLogin": 1795385641000,
+   "apiItemLevel": 30,
    "gear": [
     {
      "slot": "AMMO",
@@ -124,8 +124,46 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 45 / 45",
+      "dur": "Durability 39 / 45",
       "sell": 3929,
+      "desc": ""
+     }
+    },
+    {
+     "slot": "NECK",
+     "slotName": "Neck",
+     "itemId": 273457,
+     "name": "Sorcerer Collar",
+     "quality": "RARE",
+     "ilvl": 22,
+     "inventoryType": "NECK",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133294.jpg",
+     "tt": {
+      "bind": "Binds when picked up",
+      "unique": "",
+      "inv": "Neck",
+      "sub": "Miscellaneous",
+      "armor": "",
+      "stats": [
+       {
+        "s": "+2 Intellect",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+2 Spirit",
+        "neg": false,
+        "eq": true
+       }
+      ],
+      "spells": [
+       "Equip: Reduces the hit chance of Silence effects against you by 4%."
+      ],
+      "req": "Requires Level 17",
+      "reqClass": "",
+      "dur": "",
+      "sell": 878,
       "desc": ""
      }
     },
@@ -155,7 +193,7 @@
       "spells": [],
       "req": "Requires Level 22",
       "reqClass": "",
-      "dur": "Durability 50 / 50",
+      "dur": "Durability 44 / 50",
       "sell": 1306,
       "desc": ""
      }
@@ -227,7 +265,7 @@
       "spells": [],
       "req": "Requires Level 29",
       "reqClass": "",
-      "dur": "Durability 100 / 100",
+      "dur": "Durability 87 / 100",
       "sell": 4131,
       "desc": ""
      }
@@ -315,7 +353,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 35 / 35",
+      "dur": "Durability 30 / 35",
       "sell": 1191,
       "desc": ""
      }
@@ -353,7 +391,7 @@
       "spells": [],
       "req": "Requires Level 24",
       "reqClass": "",
-      "dur": "Durability 30 / 30",
+      "dur": "Durability 27 / 30",
       "sell": 985,
       "desc": ""
      }
@@ -389,7 +427,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 30 / 30",
+      "dur": "Durability 27 / 30",
       "sell": 1009,
       "desc": ""
      }
@@ -430,7 +468,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 75 / 75",
+      "dur": "Durability 67 / 75",
       "sell": 5252,
       "desc": ""
      }
@@ -466,7 +504,7 @@
       "spells": [],
       "req": "Requires Level 18",
       "reqClass": "",
-      "dur": "Durability 40 / 40",
+      "dur": "Durability 33 / 40",
       "sell": 797,
       "desc": ""
      }
@@ -474,31 +512,41 @@
     {
      "slot": "FINGER_1",
      "slotName": "Ring 1",
-     "itemId": 4998,
-     "name": "Blood Ring",
-     "quality": "UNCOMMON",
-     "ilvl": 24,
+     "itemId": 277210,
+     "name": "Pyrewood Signet Ring",
+     "quality": "RARE",
+     "ilvl": 25,
      "inventoryType": "FINGER",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133346.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133344.jpg",
      "tt": {
-      "bind": "Binds when equipped",
+      "bind": "Binds when picked up",
       "unique": "",
       "inv": "Finger",
       "sub": "Miscellaneous",
       "armor": "",
       "stats": [
        {
-        "s": "+5 Stamina",
+        "s": "+4 Agility",
         "neg": false,
         "eq": false
+       },
+       {
+        "s": "+4 Stamina",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+4 Hit",
+        "neg": false,
+        "eq": true
        }
       ],
       "spells": [],
-      "req": "Requires Level 19",
-      "reqClass": "",
+      "req": "",
+      "reqClass": "Classes: Rogue",
       "dur": "",
-      "sell": 837,
+      "sell": 1355,
       "desc": ""
      }
     },
@@ -614,7 +662,7 @@
       ],
       "req": "Requires Level 27",
       "reqClass": "",
-      "dur": "Durability 65 / 65",
+      "dur": "Durability 58 / 65",
       "sell": 6522,
       "desc": "",
       "weapon": {
@@ -646,7 +694,7 @@
       ],
       "req": "Requires Level 29",
       "reqClass": "",
-      "dur": "Durability 65 / 65",
+      "dur": "Durability 58 / 65",
       "sell": 7892,
       "desc": "",
       "weapon": {
@@ -687,7 +735,7 @@
       "spells": [],
       "req": "Requires Level 23",
       "reqClass": "",
-      "dur": "Durability 70 / 70",
+      "dur": "Durability 63 / 70",
       "sell": 3424,
       "desc": "",
       "weapon": {
@@ -698,7 +746,7 @@
      }
     }
    ],
-   "itemLevel": 31.12,
+   "itemLevel": 30.67,
    "pvp": {
     "hk": 782,
     "rank": 1,
@@ -752,8 +800,8 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/sir-billythecrit",
    "weekly": {
-    "levels": 2.42,
-    "ilvl": 1,
+    "levels": 2.48,
+    "ilvl": 0.55,
     "hk": 293,
     "rank": 0
    },
