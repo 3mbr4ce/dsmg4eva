@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795353128592,
+ "generatedAt": 1795360324193,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-18T07",
@@ -1473,10 +1473,10 @@
    "surname": "Unbann",
    "fullName": "Ruler Unbann",
    "level": 34,
-   "experience": 9532,
+   "experience": 28950,
    "xpToLevel": 62800,
-   "xpPct": 15.18,
-   "levelProgress": 34.15,
+   "xpPct": 46.1,
+   "levelProgress": 34.46,
    "className": "Druid",
    "classId": 11,
    "race": "Night Elf",
@@ -1485,7 +1485,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795342544000,
+   "lastLogin": 1795359519000,
    "apiItemLevel": 30,
    "gear": [
     {
@@ -1519,7 +1519,7 @@
       "spells": [],
       "req": "Requires Level 26",
       "reqClass": "",
-      "dur": "Durability 47 / 50",
+      "dur": "Durability 42 / 50",
       "sell": 1663,
       "desc": ""
      }
@@ -1596,7 +1596,7 @@
       "spells": [],
       "req": "Requires Level 30",
       "reqClass": "",
-      "dur": "Durability 48 / 50",
+      "dur": "Durability 38 / 50",
       "sell": 2609,
       "desc": ""
      }
@@ -1668,7 +1668,7 @@
       "spells": [],
       "req": "Requires Level 29",
       "reqClass": "",
-      "dur": "Durability 95 / 100",
+      "dur": "Durability 87 / 100",
       "sell": 4131,
       "desc": ""
      }
@@ -1729,7 +1729,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 25 / 25",
+      "dur": "Durability 24 / 25",
       "sell": 462,
       "desc": ""
      }
@@ -1765,7 +1765,7 @@
       "spells": [],
       "req": "Requires Level 29",
       "reqClass": "",
-      "dur": "Durability 29 / 30",
+      "dur": "Durability 26 / 30",
       "sell": 1654,
       "desc": ""
      }
@@ -1803,7 +1803,7 @@
       ],
       "req": "Requires Level 28",
       "reqClass": "",
-      "dur": "Durability 31 / 35",
+      "dur": "Durability 29 / 35",
       "sell": 1732,
       "desc": ""
      }
@@ -1839,7 +1839,7 @@
       "spells": [],
       "req": "Requires Level 31",
       "reqClass": "",
-      "dur": "Durability 63 / 65",
+      "dur": "Durability 57 / 65",
       "sell": 3935,
       "desc": ""
      }
@@ -1875,7 +1875,7 @@
       "spells": [],
       "req": "Requires Level 31",
       "reqClass": "",
-      "dur": "Durability 44 / 45",
+      "dur": "Durability 42 / 45",
       "sell": 2839,
       "desc": ""
      }
@@ -2010,7 +2010,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 94 / 100",
+      "dur": "Durability 80 / 100",
       "sell": 12065,
       "desc": "",
       "weapon": {
@@ -2074,7 +2074,7 @@
      },
      {
       "name": "Herbalism",
-      "skill": 148,
+      "skill": 152,
       "max": 225,
       "recipes": 4
      }
@@ -2096,7 +2096,7 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/ruler-unbann",
    "weekly": {
-    "levels": 5.97,
+    "levels": 6.28,
     "ilvl": 4.95,
     "hk": 5,
     "rank": 0
@@ -2757,10 +2757,10 @@
    "surname": "Khingen",
    "fullName": "Sire Khingen",
    "level": 35,
-   "experience": 33070,
+   "experience": 37362,
    "xpToLevel": 67100,
-   "xpPct": 49.28,
-   "levelProgress": 35.49,
+   "xpPct": 55.68,
+   "levelProgress": 35.56,
    "className": "Paladin",
    "classId": 2,
    "race": "Undead",
@@ -2769,7 +2769,7 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795352487000,
+   "lastLogin": 1795359558000,
    "apiItemLevel": 30,
    "gear": [
     {
@@ -2885,7 +2885,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 69 / 70",
+      "dur": "Durability 68 / 70",
       "sell": 4378,
       "desc": ""
      }
@@ -2959,7 +2959,7 @@
       "spells": [],
       "req": "Requires Level 24",
       "reqClass": "",
-      "dur": "Durability 119 / 120",
+      "dur": "Durability 113 / 120",
       "sell": 2935,
       "desc": ""
      }
@@ -3025,7 +3025,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 35 / 35",
+      "dur": "Durability 34 / 35",
       "sell": 2404,
       "desc": ""
      }
@@ -3145,7 +3145,7 @@
       "spells": [],
       "req": "Requires Level 25",
       "reqClass": "",
-      "dur": "Durability 90 / 90",
+      "dur": "Durability 89 / 90",
       "sell": 3149,
       "desc": ""
      }
@@ -3356,7 +3356,7 @@
     "primaries": [
      {
       "name": "Mining",
-      "skill": 227,
+      "skill": 228,
       "max": 300,
       "recipes": 11
      },
@@ -3390,7 +3390,7 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/sire-khingen",
    "weekly": {
-    "levels": 2.67,
+    "levels": 2.74,
     "ilvl": 2.27,
     "hk": 42,
     "rank": 0
