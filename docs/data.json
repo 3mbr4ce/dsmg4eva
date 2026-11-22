@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795341237704,
+ "generatedAt": 1795343063039,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-18T07",
@@ -1472,11 +1472,11 @@
    "name": "Ruler",
    "surname": "Unbann",
    "fullName": "Ruler Unbann",
-   "level": 33,
-   "experience": 58521,
-   "xpToLevel": 58600,
-   "xpPct": 99.87,
-   "levelProgress": 34,
+   "level": 34,
+   "experience": 9532,
+   "xpToLevel": 62800,
+   "xpPct": 15.18,
+   "levelProgress": 34.15,
    "className": "Druid",
    "classId": 11,
    "race": "Night Elf",
@@ -1485,7 +1485,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795341154000,
+   "lastLogin": 1795342544000,
    "apiItemLevel": 30,
    "gear": [
     {
@@ -1519,7 +1519,7 @@
       "spells": [],
       "req": "Requires Level 26",
       "reqClass": "",
-      "dur": "Durability 49 / 50",
+      "dur": "Durability 47 / 50",
       "sell": 1663,
       "desc": ""
      }
@@ -1596,7 +1596,7 @@
       "spells": [],
       "req": "Requires Level 30",
       "reqClass": "",
-      "dur": "Durability 49 / 50",
+      "dur": "Durability 48 / 50",
       "sell": 2609,
       "desc": ""
      }
@@ -1668,7 +1668,7 @@
       "spells": [],
       "req": "Requires Level 29",
       "reqClass": "",
-      "dur": "Durability 97 / 100",
+      "dur": "Durability 95 / 100",
       "sell": 4131,
       "desc": ""
      }
@@ -1803,7 +1803,7 @@
       ],
       "req": "Requires Level 28",
       "reqClass": "",
-      "dur": "Durability 35 / 35",
+      "dur": "Durability 31 / 35",
       "sell": 1732,
       "desc": ""
      }
@@ -1839,7 +1839,7 @@
       "spells": [],
       "req": "Requires Level 31",
       "reqClass": "",
-      "dur": "Durability 65 / 65",
+      "dur": "Durability 63 / 65",
       "sell": 3935,
       "desc": ""
      }
@@ -1875,7 +1875,7 @@
       "spells": [],
       "req": "Requires Level 31",
       "reqClass": "",
-      "dur": "Durability 45 / 45",
+      "dur": "Durability 44 / 45",
       "sell": 2839,
       "desc": ""
      }
@@ -2010,7 +2010,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 97 / 100",
+      "dur": "Durability 94 / 100",
       "sell": 12065,
       "desc": "",
       "weapon": {
@@ -2058,10 +2058,10 @@
     "trees": [
      {
       "name": "Feral Combat",
-      "points": 24
+      "points": 25
      }
     ],
-    "split": "24",
+    "split": "25",
     "main": "Feral Combat"
    },
    "professions": {
@@ -2074,7 +2074,7 @@
      },
      {
       "name": "Herbalism",
-      "skill": 147,
+      "skill": 148,
       "max": 225,
       "recipes": 4
      }
@@ -2096,7 +2096,7 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/ruler-unbann",
    "weekly": {
-    "levels": 5.82,
+    "levels": 5.97,
     "ilvl": 4.95,
     "hk": 5,
     "rank": 0
