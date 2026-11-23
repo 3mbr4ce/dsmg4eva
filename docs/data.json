@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795433066770,
+ "generatedAt": 1795437241357,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-18T07",
@@ -43,10 +43,10 @@
    "surname": "Billythecrit",
    "fullName": "Sir Billythecrit",
    "level": 36,
-   "experience": 39815,
+   "experience": 50557,
    "xpToLevel": 71600,
-   "xpPct": 55.61,
-   "levelProgress": 36.56,
+   "xpPct": 70.61,
+   "levelProgress": 36.71,
    "className": "Rogue",
    "classId": 4,
    "race": "Undead",
@@ -55,8 +55,8 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795388824000,
-   "apiItemLevel": 30,
+   "lastLogin": 1795436561000,
+   "apiItemLevel": 31,
    "gear": [
     {
      "slot": "AMMO",
@@ -124,7 +124,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 23 / 45",
+      "dur": "Durability 20 / 45",
       "sell": 3929,
       "desc": ""
      }
@@ -265,7 +265,7 @@
       "spells": [],
       "req": "Requires Level 29",
       "reqClass": "",
-      "dur": "Durability 52 / 100",
+      "dur": "Durability 50 / 100",
       "sell": 4131,
       "desc": ""
      }
@@ -391,7 +391,7 @@
       "spells": [],
       "req": "Requires Level 24",
       "reqClass": "",
-      "dur": "Durability 17 / 30",
+      "dur": "Durability 16 / 30",
       "sell": 985,
       "desc": ""
      }
@@ -468,7 +468,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 41 / 75",
+      "dur": "Durability 40 / 75",
       "sell": 5252,
       "desc": ""
      }
@@ -648,7 +648,9 @@
      "quality": "RARE",
      "ilvl": 32,
      "inventoryType": "WEAPON",
-     "enchants": [],
+     "enchants": [
+      "Instant Poison II (72 |4Charge:Charges;)"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135646.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -658,7 +660,7 @@
       "armor": "",
       "stats": [],
       "spells": [
-       "Chance on hit: Hurl spikes at the target, dealing 11 Physical damage and jumping to 1 additional nearby enemy. Each jump reduces the damage by 50%."
+       "Chance on hit: Hurl spikes at the target, dealing 45 Physical damage and jumping to 1 additional nearby enemy. Each jump reduces the damage by 50%."
       ],
       "req": "Requires Level 27",
       "reqClass": "",
@@ -675,32 +677,43 @@
     {
      "slot": "OFF_HAND",
      "slotName": "Off Hand",
-     "itemId": 7682,
-     "name": "Torturing Poker",
+     "itemId": 277246,
+     "name": "Ruby-Adorned Blade",
      "quality": "RARE",
-     "ilvl": 34,
+     "ilvl": 36,
      "inventoryType": "WEAPON",
-     "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135124.jpg",
+     "enchants": [
+      "Instant Poison II (84 |4Charge:Charges;)"
+     ],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135277.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "One-Hand",
-      "sub": "Dagger",
+      "sub": "Sword",
       "armor": "",
-      "stats": [],
-      "spells": [
-       "Equip: Melee attacks with this weapon torture the target, dealing 0 Fire damage and increasing your damage dealt to that target with this effect by 0, stacking up to 10 times."
+      "stats": [
+       {
+        "s": "+3 Agility",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+8 Stamina",
+        "neg": false,
+        "eq": false
+       }
       ],
-      "req": "Requires Level 29",
-      "reqClass": "",
-      "dur": "Durability 36 / 65",
-      "sell": 7892,
+      "spells": [],
+      "req": "",
+      "reqClass": "Classes: Rogue",
+      "dur": "Durability 90 / 90",
+      "sell": 9792,
       "desc": "",
       "weapon": {
-       "dmg": "21 - 45 Damage",
-       "speed": "Speed 1.70",
-       "dps": "(19.6 damage per second)"
+       "dmg": "38 - 72 Damage",
+       "speed": "Speed 2.30",
+       "dps": "(23.9 damage per second)"
       }
      }
     },
@@ -746,9 +759,9 @@
      }
     }
    ],
-   "itemLevel": 30.67,
+   "itemLevel": 30.78,
    "pvp": {
-    "hk": 782,
+    "hk": 783,
     "rank": 1,
     "rankName": "Scout"
    },
@@ -800,9 +813,9 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/sir-billythecrit",
    "weekly": {
-    "levels": 2.49,
-    "ilvl": 0.55,
-    "hk": 293,
+    "levels": 2.64,
+    "ilvl": 0.66,
+    "hk": 294,
     "rank": 0
    },
    "ding60At": null
