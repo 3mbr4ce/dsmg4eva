@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795461091728,
+ "generatedAt": 1795465495636,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-18T07",
@@ -826,10 +826,10 @@
    "surname": "Embrace",
    "fullName": "Blue Embrace",
    "level": 35,
-   "experience": 4754,
+   "experience": 38474,
    "xpToLevel": 67100,
-   "xpPct": 7.08,
-   "levelProgress": 35.07,
+   "xpPct": 57.34,
+   "levelProgress": 35.57,
    "className": "Rogue",
    "classId": 4,
    "race": "Undead",
@@ -838,7 +838,7 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795211701000,
+   "lastLogin": 1795465217000,
    "apiItemLevel": 27,
    "gear": [
     {
@@ -943,7 +943,7 @@
       "spells": [],
       "req": "Requires Level 30",
       "reqClass": "",
-      "dur": "Durability 44 / 50",
+      "dur": "Durability 39 / 50",
       "sell": 2609,
       "desc": ""
      }
@@ -1017,7 +1017,7 @@
       "spells": [],
       "req": "Requires Level 30",
       "reqClass": "",
-      "dur": "Durability 71 / 85",
+      "dur": "Durability 65 / 85",
       "sell": 3760,
       "desc": ""
      }
@@ -1078,7 +1078,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 31 / 35",
+      "dur": "Durability 28 / 35",
       "sell": 1191,
       "desc": ""
      }
@@ -1116,7 +1116,7 @@
       "spells": [],
       "req": "Requires Level 19",
       "reqClass": "",
-      "dur": "Durability 23 / 25",
+      "dur": "Durability 21 / 25",
       "sell": 588,
       "desc": ""
      }
@@ -1162,7 +1162,7 @@
       "spells": [],
       "req": "Requires Level 30",
       "reqClass": "",
-      "dur": "Durability 33 / 35",
+      "dur": "Durability 31 / 35",
       "sell": 1063,
       "desc": ""
      }
@@ -1205,7 +1205,7 @@
       "spells": [],
       "req": "Requires Level 29",
       "reqClass": "",
-      "dur": "Durability 55 / 65",
+      "dur": "Durability 53 / 65",
       "sell": 3151,
       "desc": ""
      }
@@ -1357,7 +1357,9 @@
      "quality": "RARE",
      "ilvl": 34,
      "inventoryType": "WEAPON",
-     "enchants": [],
+     "enchants": [
+      "Instant Poison II (62 |4Charge:Charges;)"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135124.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -1371,7 +1373,7 @@
       ],
       "req": "Requires Level 29",
       "reqClass": "",
-      "dur": "Durability 63 / 65",
+      "dur": "Durability 56 / 65",
       "sell": 7892,
       "desc": "",
       "weapon": {
@@ -1389,7 +1391,9 @@
      "quality": "RARE",
      "ilvl": 34,
      "inventoryType": "WEAPON",
-     "enchants": [],
+     "enchants": [
+      "Crippling Poison"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132945.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -1412,7 +1416,7 @@
       "spells": [],
       "req": "Requires Level 29",
       "reqClass": "",
-      "dur": "Durability 61 / 65",
+      "dur": "Durability 52 / 65",
       "sell": 7892,
       "desc": "",
       "weapon": {
@@ -1461,7 +1465,7 @@
    ],
    "itemLevel": 31.81,
    "pvp": {
-    "hk": 228,
+    "hk": 232,
     "rank": 0,
     "rankName": "Unranked"
    },
@@ -1513,9 +1517,9 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/blue-embrace",
    "weekly": {
-    "levels": 4.62,
+    "levels": 5.12,
     "ilvl": 5.21,
-    "hk": 25,
+    "hk": 29,
     "rank": 0
    },
    "ding60At": null
@@ -2818,11 +2822,11 @@
    "name": "Sire",
    "surname": "Khingen",
    "fullName": "Sire Khingen",
-   "level": 35,
-   "experience": 37362,
-   "xpToLevel": 67100,
-   "xpPct": 55.68,
-   "levelProgress": 35.56,
+   "level": 36,
+   "experience": 6653,
+   "xpToLevel": 71600,
+   "xpPct": 9.29,
+   "levelProgress": 36.09,
    "className": "Paladin",
    "classId": 2,
    "race": "Undead",
@@ -2831,7 +2835,7 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795359558000,
+   "lastLogin": 1795465290000,
    "apiItemLevel": 30,
    "gear": [
     {
@@ -2865,7 +2869,7 @@
       "spells": [],
       "req": "Requires Level 20",
       "reqClass": "",
-      "dur": "Durability 62 / 65",
+      "dur": "Durability 48 / 65",
       "sell": 1439,
       "desc": ""
      }
@@ -2947,7 +2951,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 68 / 70",
+      "dur": "Durability 58 / 70",
       "sell": 4378,
       "desc": ""
      }
@@ -3021,7 +3025,7 @@
       "spells": [],
       "req": "Requires Level 24",
       "reqClass": "",
-      "dur": "Durability 113 / 120",
+      "dur": "Durability 100 / 120",
       "sell": 2935,
       "desc": ""
      }
@@ -3054,32 +3058,32 @@
     {
      "slot": "WRIST",
      "slotName": "Wrist",
-     "itemId": 251965,
-     "name": "Undead Knight's Bracers",
+     "itemId": 16794,
+     "name": "Gripsteel Wristguards",
      "quality": "UNCOMMON",
-     "ilvl": 36,
+     "ilvl": 38,
      "inventoryType": "WRIST",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132615.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132606.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Wrist",
       "sub": "Mail",
-      "armor": "95 Armor",
+      "armor": "98 Armor",
       "stats": [
        {
-        "s": "+3 Intellect",
+        "s": "+3 Agility",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+3 Strength",
+        "s": "+5 Strength",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+6 Stamina",
+        "s": "+5 Stamina",
         "neg": false,
         "eq": false
        }
@@ -3087,8 +3091,8 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 34 / 35",
-      "sell": 2404,
+      "dur": "Durability 35 / 35",
+      "sell": 2705,
       "desc": ""
      }
     },
@@ -3123,7 +3127,7 @@
       "spells": [],
       "req": "Requires Level 28",
       "reqClass": "",
-      "dur": "Durability 37 / 40",
+      "dur": "Durability 30 / 40",
       "sell": 2225,
       "desc": ""
      }
@@ -3164,7 +3168,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 40 / 40",
+      "dur": "Durability 33 / 40",
       "sell": 2864,
       "desc": ""
      }
@@ -3207,7 +3211,7 @@
       "spells": [],
       "req": "Requires Level 25",
       "reqClass": "",
-      "dur": "Durability 89 / 90",
+      "dur": "Durability 78 / 90",
       "sell": 3149,
       "desc": ""
      }
@@ -3248,7 +3252,7 @@
       "spells": [],
       "req": "Requires Level 28",
       "reqClass": "",
-      "dur": "Durability 60 / 60",
+      "dur": "Durability 53 / 60",
       "sell": 3118,
       "desc": ""
      }
@@ -3360,9 +3364,7 @@
      "quality": "RARE",
      "ilvl": 31,
      "inventoryType": "TWOHWEAPON",
-     "enchants": [
-      "Sharpened +6"
-     ],
+     "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135326.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -3387,7 +3389,7 @@
       ],
       "req": "",
       "reqClass": "Classes: Paladin",
-      "dur": "Durability 100 / 100",
+      "dur": "Durability 88 / 100",
       "sell": 7459,
       "desc": "",
       "weapon": {
@@ -3398,7 +3400,7 @@
      }
     }
    ],
-   "itemLevel": 32.47,
+   "itemLevel": 32.6,
    "pvp": {
     "hk": 141,
     "rank": 0,
@@ -3408,10 +3410,10 @@
     "trees": [
      {
       "name": "Retribution",
-      "points": 26
+      "points": 27
      }
     ],
-    "split": "26",
+    "split": "27",
     "main": "Retribution"
    },
    "professions": {
@@ -3452,8 +3454,8 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/sire-khingen",
    "weekly": {
-    "levels": 2.74,
-    "ilvl": 2.27,
+    "levels": 3.27,
+    "ilvl": 2.4,
     "hk": 42,
     "rank": 0
    },
