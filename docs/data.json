@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795450508377,
+ "generatedAt": 1795454020280,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-18T07",
@@ -1530,9 +1530,9 @@
    "surname": "Unbann",
    "fullName": "Ruler Unbann",
    "level": 34,
-   "experience": 47625,
+   "experience": 47910,
    "xpToLevel": 62800,
-   "xpPct": 75.84,
+   "xpPct": 76.29,
    "levelProgress": 34.76,
    "className": "Druid",
    "classId": 11,
@@ -1542,7 +1542,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795373996000,
+   "lastLogin": 1795453159000,
    "apiItemLevel": 31,
    "gear": [
     {
@@ -1576,7 +1576,7 @@
       "spells": [],
       "req": "Requires Level 26",
       "reqClass": "",
-      "dur": "Durability 37 / 50",
+      "dur": "Durability 50 / 50",
       "sell": 1663,
       "desc": ""
      }
@@ -1653,7 +1653,7 @@
       "spells": [],
       "req": "Requires Level 30",
       "reqClass": "",
-      "dur": "Durability 38 / 50",
+      "dur": "Durability 50 / 50",
       "sell": 2609,
       "desc": ""
      }
@@ -1730,7 +1730,7 @@
       "spells": [],
       "req": "Requires Level 29",
       "reqClass": "",
-      "dur": "Durability 85 / 100",
+      "dur": "Durability 100 / 100",
       "sell": 4131,
       "desc": ""
      }
@@ -1791,7 +1791,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 24 / 25",
+      "dur": "Durability 25 / 25",
       "sell": 462,
       "desc": ""
      }
@@ -1827,7 +1827,7 @@
       "spells": [],
       "req": "Requires Level 29",
       "reqClass": "",
-      "dur": "Durability 23 / 30",
+      "dur": "Durability 30 / 30",
       "sell": 1654,
       "desc": ""
      }
@@ -1865,7 +1865,7 @@
       ],
       "req": "Requires Level 28",
       "reqClass": "",
-      "dur": "Durability 29 / 35",
+      "dur": "Durability 35 / 35",
       "sell": 1732,
       "desc": ""
      }
@@ -1901,7 +1901,7 @@
       "spells": [],
       "req": "Requires Level 31",
       "reqClass": "",
-      "dur": "Durability 57 / 65",
+      "dur": "Durability 65 / 65",
       "sell": 3935,
       "desc": ""
      }
@@ -1937,7 +1937,7 @@
       "spells": [],
       "req": "Requires Level 31",
       "reqClass": "",
-      "dur": "Durability 42 / 45",
+      "dur": "Durability 45 / 45",
       "sell": 2839,
       "desc": ""
      }
@@ -2072,7 +2072,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 79 / 100",
+      "dur": "Durability 100 / 100",
       "sell": 12065,
       "desc": "",
       "weapon": {
@@ -2136,7 +2136,7 @@
      },
      {
       "name": "Herbalism",
-      "skill": 155,
+      "skill": 160,
       "max": 225,
       "recipes": 4
      }
