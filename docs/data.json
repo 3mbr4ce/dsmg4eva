@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795465495636,
+ "generatedAt": 1795475667038,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-18T07",
@@ -2178,11 +2178,11 @@
    "name": "Dala",
    "surname": "Huun",
    "fullName": "Dala Huun",
-   "level": 39,
-   "experience": 59487,
-   "xpToLevel": 85700,
-   "xpPct": 69.41,
-   "levelProgress": 39.69,
+   "level": 41,
+   "experience": 66280,
+   "xpToLevel": 95800,
+   "xpPct": 69.19,
+   "levelProgress": 41.69,
    "className": "Shaman",
    "classId": 7,
    "race": "Orc",
@@ -2191,8 +2191,8 @@
    "faction": "HORDE",
    "ruleset": "Normal",
    "achievementPoints": 0,
-   "lastLogin": 1795163163000,
-   "apiItemLevel": 31,
+   "lastLogin": 1795474697000,
+   "apiItemLevel": 33,
    "gear": [
     {
      "slot": "HEAD",
@@ -2225,7 +2225,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 50 / 50",
+      "dur": "Durability 29 / 50",
       "sell": 3218,
       "desc": ""
      }
@@ -2274,41 +2274,36 @@
     {
      "slot": "SHOULDER",
      "slotName": "Shoulders",
-     "itemId": 273047,
-     "name": "Unstable Crystalline Shoulderpads",
-     "quality": "RARE",
-     "ilvl": 33,
+     "itemId": 3765,
+     "name": "Brigand's Pauldrons",
+     "quality": "UNCOMMON",
+     "ilvl": 40,
      "inventoryType": "SHOULDER",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135038.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135034.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Shoulder",
-      "sub": "Leather",
-      "armor": "81 Armor",
+      "sub": "Mail",
+      "armor": "173 Armor",
       "stats": [
        {
-        "s": "+9 Agility",
+        "s": "+8 Strength",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+6 Stamina",
+        "s": "+8 Stamina",
         "neg": false,
         "eq": false
-       },
-       {
-        "s": "+2 Mana Regeneration per 5 sec",
-        "neg": false,
-        "eq": true
        }
       ],
       "spells": [],
-      "req": "Requires Level 28",
+      "req": "",
       "reqClass": "",
       "dur": "Durability 60 / 60",
-      "sell": 2715,
+      "sell": 4811,
       "desc": ""
      }
     },
@@ -2391,7 +2386,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 100 / 100",
+      "dur": "Durability 65 / 100",
       "sell": 3365,
       "desc": ""
      }
@@ -2399,10 +2394,10 @@
     {
      "slot": "WRIST",
      "slotName": "Wrist",
-     "itemId": 270032,
-     "name": "Cultist's Armguards",
-     "quality": "RARE",
-     "ilvl": 29,
+     "itemId": 270073,
+     "name": "Stromgarde Cuffs",
+     "quality": "UNCOMMON",
+     "ilvl": 40,
      "inventoryType": "WRIST",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132611.jpg",
@@ -2410,25 +2405,25 @@
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Wrist",
-      "sub": "Leather",
-      "armor": "44 Armor",
+      "sub": "Mail",
+      "armor": "101 Armor",
       "stats": [
        {
-        "s": "+7 Stamina",
+        "s": "+8 Strength",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+10 Attack Power",
+        "s": "+3 Stamina",
         "neg": false,
-        "eq": true
+        "eq": false
        }
       ],
       "spells": [],
       "req": "",
       "reqClass": "",
       "dur": "Durability 35 / 35",
-      "sell": 1191,
+      "sell": 3268,
       "desc": ""
      }
     },
@@ -2458,7 +2453,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 30 / 30",
+      "dur": "Durability 17 / 30",
       "sell": 1899,
       "desc": ""
      }
@@ -2496,7 +2491,7 @@
       ],
       "req": "Requires Level 28",
       "reqClass": "",
-      "dur": "Durability 35 / 35",
+      "dur": "Durability 24 / 35",
       "sell": 1732,
       "desc": ""
      }
@@ -2537,7 +2532,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 75 / 75",
+      "dur": "Durability 53 / 75",
       "sell": 5252,
       "desc": ""
      }
@@ -2573,7 +2568,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 40 / 40",
+      "dur": "Durability 22 / 40",
       "sell": 922,
       "desc": ""
      }
@@ -2581,13 +2576,13 @@
     {
      "slot": "FINGER_1",
      "slotName": "Ring 1",
-     "itemId": 281673,
-     "name": "Loop of Sacrifice",
-     "quality": "UNCOMMON",
-     "ilvl": 28,
+     "itemId": 270081,
+     "name": "Purified Ring",
+     "quality": "RARE",
+     "ilvl": 44,
      "inventoryType": "FINGER",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133368.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133343.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
@@ -2596,21 +2591,21 @@
       "armor": "",
       "stats": [
        {
-        "s": "+5 Intellect",
+        "s": "+12 Intellect",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+3 Strength",
+        "s": "+5 Spell Power",
         "neg": false,
-        "eq": false
+        "eq": true
        }
       ],
       "spells": [],
       "req": "",
       "reqClass": "",
       "dur": "",
-      "sell": 1413,
+      "sell": 7376,
       "desc": ""
      }
     },
@@ -2685,7 +2680,9 @@
      "quality": "RARE",
      "ilvl": 40,
      "inventoryType": "TWOHWEAPON",
-     "enchants": [],
+     "enchants": [
+      "Windfury 2"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133522.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -2710,7 +2707,7 @@
       ],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 100 / 100",
+      "dur": "Durability 73 / 100",
       "sell": 16235,
       "desc": "",
       "weapon": {
@@ -2748,7 +2745,7 @@
      }
     }
    ],
-   "itemLevel": 31.69,
+   "itemLevel": 33.81,
    "pvp": {
     "hk": 1,
     "rank": 0,
@@ -2758,14 +2755,14 @@
     "trees": [
      {
       "name": "Enhancement",
-      "points": 25
+      "points": 27
      },
      {
       "name": "Restoration",
       "points": 5
      }
     ],
-    "split": "25/5",
+    "split": "27/5",
     "main": "Enhancement"
    },
    "professions": {
@@ -2778,7 +2775,7 @@
      },
      {
       "name": "Skinning",
-      "skill": 259,
+      "skill": 264,
       "max": 300,
       "recipes": 2
      }
@@ -2798,7 +2795,7 @@
      },
      {
       "name": "First Aid",
-      "skill": 180,
+      "skill": 185,
       "max": 225,
       "recipes": 13
      }
@@ -2806,8 +2803,8 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/dala-huun",
    "weekly": {
-    "levels": 2.43,
-    "ilvl": 0.19,
+    "levels": 4.43,
+    "ilvl": 2.31,
     "hk": 0,
     "rank": 0
    },
