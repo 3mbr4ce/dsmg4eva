@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795537636923,
+ "generatedAt": 1795544197491,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-18T07",
@@ -1566,10 +1566,10 @@
    "surname": "Unbann",
    "fullName": "Ruler Unbann",
    "level": 35,
-   "experience": 2545,
+   "experience": 57852,
    "xpToLevel": 67100,
-   "xpPct": 3.79,
-   "levelProgress": 35.04,
+   "xpPct": 86.22,
+   "levelProgress": 35.86,
    "className": "Druid",
    "classId": 11,
    "race": "Night Elf",
@@ -1578,42 +1578,42 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795460453000,
-   "apiItemLevel": 31,
+   "lastLogin": 1795543464000,
+   "apiItemLevel": 32,
    "gear": [
     {
      "slot": "HEAD",
      "slotName": "Head",
-     "itemId": 3392,
-     "name": "Ringed Helm",
+     "itemId": 9889,
+     "name": "Huntsman's Cap of the Boar",
      "quality": "UNCOMMON",
-     "ilvl": 31,
+     "ilvl": 40,
      "inventoryType": "HEAD",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133077.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132514.jpg",
      "tt": {
       "bind": "Binds when equipped",
       "unique": "",
       "inv": "Head",
       "sub": "Leather",
-      "armor": "77 Armor",
+      "armor": "90 Armor",
       "stats": [
        {
-        "s": "+9 Stamina",
+        "s": "+11 Strength",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+8 Spirit",
+        "s": "+11 Spirit",
         "neg": false,
         "eq": true
        }
       ],
       "spells": [],
-      "req": "Requires Level 26",
+      "req": "Requires Level 35",
       "reqClass": "",
-      "dur": "Durability 32 / 50",
-      "sell": 1663,
+      "dur": "Durability 50 / 50",
+      "sell": 4240,
       "desc": ""
      }
     },
@@ -1689,7 +1689,7 @@
       "spells": [],
       "req": "Requires Level 30",
       "reqClass": "",
-      "dur": "Durability 28 / 50",
+      "dur": "Durability 50 / 50",
       "sell": 2609,
       "desc": ""
      }
@@ -1738,7 +1738,9 @@
      "quality": "RARE",
      "ilvl": 34,
      "inventoryType": "CHEST",
-     "enchants": [],
+     "enchants": [
+      "Enchanted: Attack Power +4 and Armor +16"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135013.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -1766,7 +1768,7 @@
       "spells": [],
       "req": "Requires Level 29",
       "reqClass": "",
-      "dur": "Durability 62 / 100",
+      "dur": "Durability 100 / 100",
       "sell": 4131,
       "desc": ""
      }
@@ -1827,7 +1829,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 16 / 25",
+      "dur": "Durability 25 / 25",
       "sell": 462,
       "desc": ""
      }
@@ -1840,7 +1842,9 @@
      "quality": "UNCOMMON",
      "ilvl": 38,
      "inventoryType": "HAND",
-     "enchants": [],
+     "enchants": [
+      "Enchanted: Attack Power +4 and Armor +16"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132948.jpg",
      "tt": {
       "bind": "Binds when equipped",
@@ -1901,7 +1905,7 @@
       ],
       "req": "Requires Level 28",
       "reqClass": "",
-      "dur": "Durability 23 / 35",
+      "dur": "Durability 35 / 35",
       "sell": 1732,
       "desc": ""
      }
@@ -1914,7 +1918,9 @@
      "quality": "UNCOMMON",
      "ilvl": 36,
      "inventoryType": "LEGS",
-     "enchants": [],
+     "enchants": [
+      "Enchanted: Attack Power +4 and Armor +16"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134586.jpg",
      "tt": {
       "bind": "Binds when equipped",
@@ -1937,7 +1943,7 @@
       "spells": [],
       "req": "Requires Level 31",
       "reqClass": "",
-      "dur": "Durability 42 / 65",
+      "dur": "Durability 65 / 65",
       "sell": 3935,
       "desc": ""
      }
@@ -1950,7 +1956,9 @@
      "quality": "UNCOMMON",
      "ilvl": 36,
      "inventoryType": "FEET",
-     "enchants": [],
+     "enchants": [
+      "Enchanted: Attack Power +4 and Armor +16"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132542.jpg",
      "tt": {
       "bind": "Binds when equipped",
@@ -1973,7 +1981,7 @@
       "spells": [],
       "req": "Requires Level 31",
       "reqClass": "",
-      "dur": "Durability 29 / 45",
+      "dur": "Durability 45 / 45",
       "sell": 2839,
       "desc": ""
      }
@@ -2108,7 +2116,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 61 / 100",
+      "dur": "Durability 100 / 100",
       "sell": 12065,
       "desc": "",
       "weapon": {
@@ -2146,7 +2154,7 @@
      }
     }
    ],
-   "itemLevel": 32.5,
+   "itemLevel": 33.06,
    "pvp": {
     "hk": 5,
     "rank": 0,
@@ -2172,7 +2180,7 @@
      },
      {
       "name": "Herbalism",
-      "skill": 165,
+      "skill": 172,
       "max": 225,
       "recipes": 4
      }
@@ -2194,8 +2202,8 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/ruler-unbann",
    "weekly": {
-    "levels": 6.86,
-    "ilvl": 5.64,
+    "levels": 7.68,
+    "ilvl": 6.2,
     "hk": 5,
     "rank": 0
    },
