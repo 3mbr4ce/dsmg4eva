@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795475667038,
+ "generatedAt": 1795492472822,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-18T07",
@@ -825,11 +825,11 @@
    "name": "Blue",
    "surname": "Embrace",
    "fullName": "Blue Embrace",
-   "level": 35,
-   "experience": 38474,
-   "xpToLevel": 67100,
-   "xpPct": 57.34,
-   "levelProgress": 35.57,
+   "level": 37,
+   "experience": 35,
+   "xpToLevel": 76100,
+   "xpPct": 0.05,
+   "levelProgress": 37,
    "className": "Rogue",
    "classId": 4,
    "race": "Undead",
@@ -838,8 +838,8 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795465217000,
-   "apiItemLevel": 27,
+   "lastLogin": 1795491813000,
+   "apiItemLevel": 31,
    "gear": [
     {
      "slot": "AMMO",
@@ -902,8 +902,44 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 41 / 50",
+      "dur": "Durability 40 / 50",
       "sell": 3218,
+      "desc": ""
+     }
+    },
+    {
+     "slot": "NECK",
+     "slotName": "Neck",
+     "itemId": 15690,
+     "name": "Kodobone Necklace",
+     "quality": "UNCOMMON",
+     "ilvl": 41,
+     "inventoryType": "NECK",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133296.jpg",
+     "tt": {
+      "bind": "Binds when picked up",
+      "unique": "",
+      "inv": "Neck",
+      "sub": "Miscellaneous",
+      "armor": "",
+      "stats": [
+       {
+        "s": "+7 Stamina",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+4 Spirit",
+        "neg": false,
+        "eq": true
+       }
+      ],
+      "spells": [],
+      "req": "",
+      "reqClass": "",
+      "dur": "",
+      "sell": 4912,
       "desc": ""
      }
     },
@@ -943,7 +979,7 @@
       "spells": [],
       "req": "Requires Level 30",
       "reqClass": "",
-      "dur": "Durability 39 / 50",
+      "dur": "Durability 42 / 50",
       "sell": 2609,
       "desc": ""
      }
@@ -1017,7 +1053,7 @@
       "spells": [],
       "req": "Requires Level 30",
       "reqClass": "",
-      "dur": "Durability 65 / 85",
+      "dur": "Durability 73 / 85",
       "sell": 3760,
       "desc": ""
      }
@@ -1078,7 +1114,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 28 / 35",
+      "dur": "Durability 30 / 35",
       "sell": 1191,
       "desc": ""
      }
@@ -1086,38 +1122,38 @@
     {
      "slot": "HANDS",
      "slotName": "Hands",
-     "itemId": 7285,
-     "name": "Nimble Leather Gloves",
+     "itemId": 6784,
+     "name": "Braced Handguards",
      "quality": "UNCOMMON",
-     "ilvl": 24,
+     "ilvl": 36,
      "inventoryType": "HAND",
      "enchants": [
-      "Enchanted: Stamina +2 and Armor +16"
+      "Enchanted: Stamina +3 and Armor +24"
      ],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132939.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132938.jpg",
      "tt": {
-      "bind": "Binds when equipped",
+      "bind": "Binds when picked up",
       "unique": "",
       "inv": "Hands",
       "sub": "Leather",
-      "armor": "52 Armor",
+      "armor": "64 Armor",
       "stats": [
        {
-        "s": "+4 Agility",
+        "s": "+7 Agility",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+4 Stamina",
+        "s": "+7 Stamina",
         "neg": false,
         "eq": false
        }
       ],
       "spells": [],
-      "req": "Requires Level 19",
+      "req": "",
       "reqClass": "",
-      "dur": "Durability 21 / 25",
-      "sell": 588,
+      "dur": "Durability 26 / 30",
+      "sell": 2031,
       "desc": ""
      }
     },
@@ -1162,7 +1198,7 @@
       "spells": [],
       "req": "Requires Level 30",
       "reqClass": "",
-      "dur": "Durability 31 / 35",
+      "dur": "Durability 32 / 35",
       "sell": 1063,
       "desc": ""
      }
@@ -1205,7 +1241,7 @@
       "spells": [],
       "req": "Requires Level 29",
       "reqClass": "",
-      "dur": "Durability 53 / 65",
+      "dur": "Durability 50 / 65",
       "sell": 3151,
       "desc": ""
      }
@@ -1248,7 +1284,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 42 / 45",
+      "dur": "Durability 34 / 45",
       "sell": 2991,
       "desc": ""
      }
@@ -1357,9 +1393,7 @@
      "quality": "RARE",
      "ilvl": 34,
      "inventoryType": "WEAPON",
-     "enchants": [
-      "Instant Poison II (62 |4Charge:Charges;)"
-     ],
+     "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135124.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -1373,7 +1407,7 @@
       ],
       "req": "Requires Level 29",
       "reqClass": "",
-      "dur": "Durability 56 / 65",
+      "dur": "Durability 61 / 65",
       "sell": 7892,
       "desc": "",
       "weapon": {
@@ -1391,9 +1425,7 @@
      "quality": "RARE",
      "ilvl": 34,
      "inventoryType": "WEAPON",
-     "enchants": [
-      "Crippling Poison"
-     ],
+     "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132945.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -1463,9 +1495,9 @@
      }
     }
    ],
-   "itemLevel": 31.81,
+   "itemLevel": 33.06,
    "pvp": {
-    "hk": 232,
+    "hk": 238,
     "rank": 0,
     "rankName": "Unranked"
    },
@@ -1473,19 +1505,19 @@
     "trees": [
      {
       "name": "Subtlety",
-      "points": 26
+      "points": 28
      }
     ],
-    "split": "26",
+    "split": "28",
     "main": "Subtlety"
    },
    "professions": {
     "primaries": [
      {
       "name": "Leatherworking",
-      "skill": 154,
+      "skill": 164,
       "max": 225,
-      "recipes": 56
+      "recipes": 59
      },
      {
       "name": "Skinning",
@@ -1517,9 +1549,9 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/blue-embrace",
    "weekly": {
-    "levels": 5.12,
-    "ilvl": 5.21,
-    "hk": 29,
+    "levels": 6.55,
+    "ilvl": 6.46,
+    "hk": 35,
     "rank": 0
    },
    "ding60At": null
