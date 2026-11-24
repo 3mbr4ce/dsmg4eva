@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795528440324,
+ "generatedAt": 1795534777398,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-18T07",
@@ -2215,10 +2215,10 @@
    "surname": "Huun",
    "fullName": "Dala Huun",
    "level": 41,
-   "experience": 66280,
+   "experience": 89119,
    "xpToLevel": 95800,
-   "xpPct": 69.19,
-   "levelProgress": 41.69,
+   "xpPct": 93.03,
+   "levelProgress": 41.93,
    "className": "Shaman",
    "classId": 7,
    "race": "Orc",
@@ -2227,7 +2227,7 @@
    "faction": "HORDE",
    "ruleset": "Normal",
    "achievementPoints": 0,
-   "lastLogin": 1795474697000,
+   "lastLogin": 1795534496000,
    "apiItemLevel": 33,
    "gear": [
     {
@@ -2261,7 +2261,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 29 / 50",
+      "dur": "Durability 50 / 50",
       "sell": 3218,
       "desc": ""
      }
@@ -2422,7 +2422,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 65 / 100",
+      "dur": "Durability 100 / 100",
       "sell": 3365,
       "desc": ""
      }
@@ -2466,20 +2466,25 @@
     {
      "slot": "HANDS",
      "slotName": "Hands",
-     "itemId": 9518,
-     "name": "Mud's Crushers",
+     "itemId": 4509,
+     "name": "Seawolf Gloves",
      "quality": "UNCOMMON",
-     "ilvl": 36,
+     "ilvl": 40,
      "inventoryType": "HAND",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132959.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132957.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Hands",
       "sub": "Leather",
-      "armor": "64 Armor",
+      "armor": "69 Armor",
       "stats": [
+       {
+        "s": "+3 Agility",
+        "neg": false,
+        "eq": false
+       },
        {
         "s": "+11 Strength",
         "neg": false,
@@ -2489,8 +2494,8 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 17 / 30",
-      "sell": 1899,
+      "dur": "Durability 30 / 30",
+      "sell": 2794,
       "desc": ""
      }
     },
@@ -2527,7 +2532,7 @@
       ],
       "req": "Requires Level 28",
       "reqClass": "",
-      "dur": "Durability 24 / 35",
+      "dur": "Durability 35 / 35",
       "sell": 1732,
       "desc": ""
      }
@@ -2568,7 +2573,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 53 / 75",
+      "dur": "Durability 75 / 75",
       "sell": 5252,
       "desc": ""
      }
@@ -2604,7 +2609,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 22 / 40",
+      "dur": "Durability 40 / 40",
       "sell": 922,
       "desc": ""
      }
@@ -2743,7 +2748,7 @@
       ],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 73 / 100",
+      "dur": "Durability 100 / 100",
       "sell": 16235,
       "desc": "",
       "weapon": {
@@ -2781,7 +2786,7 @@
      }
     }
    ],
-   "itemLevel": 33.81,
+   "itemLevel": 34.06,
    "pvp": {
     "hk": 1,
     "rank": 0,
@@ -2825,7 +2830,7 @@
      },
      {
       "name": "Fishing",
-      "skill": 200,
+      "skill": 203,
       "max": 225,
       "recipes": 2
      },
@@ -2839,8 +2844,8 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/dala-huun",
    "weekly": {
-    "levels": 4.43,
-    "ilvl": 2.31,
+    "levels": 4.67,
+    "ilvl": 2.56,
     "hk": 0,
     "rank": 0
    },
