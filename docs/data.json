@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795559922342,
+ "generatedAt": 1795562651900,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-18T07",
@@ -2231,7 +2231,7 @@
    "faction": "HORDE",
    "ruleset": "Normal",
    "achievementPoints": 0,
-   "lastLogin": 1795559564000,
+   "lastLogin": 1795562198000,
    "apiItemLevel": 36,
    "gear": [
     {
@@ -2854,9 +2854,9 @@
     "secondaries": [
      {
       "name": "Cooking",
-      "skill": 150,
+      "skill": 225,
       "max": 225,
-      "recipes": 22
+      "recipes": 33
      },
      {
       "name": "Fishing",
