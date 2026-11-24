@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795537009581,
+ "generatedAt": 1795537636923,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-18T07",
@@ -2210,11 +2210,11 @@
    "name": "Dala",
    "surname": "Huun",
    "fullName": "Dala Huun",
-   "level": 41,
-   "experience": 89119,
-   "xpToLevel": 95800,
-   "xpPct": 93.03,
-   "levelProgress": 41.93,
+   "level": 42,
+   "experience": 24761,
+   "xpToLevel": 101000,
+   "xpPct": 24.52,
+   "levelProgress": 42.25,
    "className": "Shaman",
    "classId": 7,
    "race": "Orc",
@@ -2223,7 +2223,7 @@
    "faction": "HORDE",
    "ruleset": "Normal",
    "achievementPoints": 0,
-   "lastLogin": 1795534496000,
+   "lastLogin": 1795537225000,
    "apiItemLevel": 33,
    "gear": [
     {
@@ -2605,7 +2605,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 40 / 40",
+      "dur": "Durability 39 / 40",
       "sell": 922,
       "desc": ""
      }
@@ -2718,6 +2718,7 @@
      "ilvl": 40,
      "inventoryType": "TWOHWEAPON",
      "enchants": [
+      "Weighted +8",
       "Windfury 2"
      ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133522.jpg",
@@ -2792,14 +2793,14 @@
     "trees": [
      {
       "name": "Enhancement",
-      "points": 27
+      "points": 28
      },
      {
       "name": "Restoration",
       "points": 5
      }
     ],
-    "split": "27/5",
+    "split": "28/5",
     "main": "Enhancement"
    },
    "professions": {
@@ -2840,7 +2841,7 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/dala-huun",
    "weekly": {
-    "levels": 4.67,
+    "levels": 4.99,
     "ilvl": 2.56,
     "hk": 0,
     "rank": 0
