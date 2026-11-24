@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795544197491,
+ "generatedAt": 1795550057931,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-18T07",
@@ -826,10 +826,10 @@
    "surname": "Embrace",
    "fullName": "Blue Embrace",
    "level": 37,
-   "experience": 35,
+   "experience": 9071,
    "xpToLevel": 76100,
-   "xpPct": 0.05,
-   "levelProgress": 37,
+   "xpPct": 11.92,
+   "levelProgress": 37.12,
    "className": "Rogue",
    "classId": 4,
    "race": "Undead",
@@ -838,7 +838,7 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795491813000,
+   "lastLogin": 1795549921000,
    "apiItemLevel": 31,
    "gear": [
     {
@@ -979,7 +979,7 @@
       "spells": [],
       "req": "Requires Level 30",
       "reqClass": "",
-      "dur": "Durability 42 / 50",
+      "dur": "Durability 41 / 50",
       "sell": 2609,
       "desc": ""
      }
@@ -1053,7 +1053,7 @@
       "spells": [],
       "req": "Requires Level 30",
       "reqClass": "",
-      "dur": "Durability 73 / 85",
+      "dur": "Durability 68 / 85",
       "sell": 3760,
       "desc": ""
      }
@@ -1241,7 +1241,7 @@
       "spells": [],
       "req": "Requires Level 29",
       "reqClass": "",
-      "dur": "Durability 50 / 65",
+      "dur": "Durability 48 / 65",
       "sell": 3151,
       "desc": ""
      }
@@ -1284,7 +1284,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 34 / 45",
+      "dur": "Durability 33 / 45",
       "sell": 2991,
       "desc": ""
      }
@@ -1407,7 +1407,7 @@
       ],
       "req": "Requires Level 29",
       "reqClass": "",
-      "dur": "Durability 61 / 65",
+      "dur": "Durability 56 / 65",
       "sell": 7892,
       "desc": "",
       "weapon": {
@@ -1448,7 +1448,7 @@
       "spells": [],
       "req": "Requires Level 29",
       "reqClass": "",
-      "dur": "Durability 52 / 65",
+      "dur": "Durability 50 / 65",
       "sell": 7892,
       "desc": "",
       "weapon": {
@@ -1549,7 +1549,7 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/blue-embrace",
    "weekly": {
-    "levels": 6.55,
+    "levels": 6.67,
     "ilvl": 6.46,
     "hk": 35,
     "rank": 0
