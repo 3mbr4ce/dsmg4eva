@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795558353504,
+ "generatedAt": 1795559922342,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-18T07",
@@ -2218,11 +2218,11 @@
    "name": "Dala",
    "surname": "Huun",
    "fullName": "Dala Huun",
-   "level": 42,
-   "experience": 24761,
-   "xpToLevel": 101000,
-   "xpPct": 24.52,
-   "levelProgress": 42.25,
+   "level": 44,
+   "experience": 28497,
+   "xpToLevel": 111800,
+   "xpPct": 25.49,
+   "levelProgress": 44.25,
    "className": "Shaman",
    "classId": 7,
    "race": "Orc",
@@ -2231,8 +2231,8 @@
    "faction": "HORDE",
    "ruleset": "Normal",
    "achievementPoints": 0,
-   "lastLogin": 1795537225000,
-   "apiItemLevel": 33,
+   "lastLogin": 1795559564000,
+   "apiItemLevel": 36,
    "gear": [
     {
      "slot": "HEAD",
@@ -2342,7 +2342,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 60 / 60",
+      "dur": "Durability 59 / 60",
       "sell": 4811,
       "desc": ""
      }
@@ -2544,32 +2544,27 @@
     {
      "slot": "LEGS",
      "slotName": "Legs",
-     "itemId": 9624,
-     "name": "Triprunner Dungarees",
-     "quality": "RARE",
-     "ilvl": 37,
+     "itemId": 274943,
+     "name": "Gnoll Crusher Leggings",
+     "quality": "UNCOMMON",
+     "ilvl": 40,
      "inventoryType": "LEGS",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134588.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134583.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Legs",
-      "sub": "Leather",
-      "armor": "101 Armor",
+      "sub": "Mail",
+      "armor": "202 Armor",
       "stats": [
        {
-        "s": "+18 Agility",
+        "s": "+11 Intellect",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+3 Strength",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+6 Stamina",
+        "s": "+11 Strength",
         "neg": false,
         "eq": false
        }
@@ -2578,7 +2573,7 @@
       "req": "",
       "reqClass": "",
       "dur": "Durability 75 / 75",
-      "sell": 5252,
+      "sell": 6538,
       "desc": ""
      }
     },
@@ -2613,7 +2608,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 39 / 40",
+      "dur": "Durability 40 / 40",
       "sell": 922,
       "desc": ""
      }
@@ -2718,6 +2713,33 @@
      }
     },
     {
+     "slot": "TRINKET_2",
+     "slotName": "Trinket 2",
+     "itemId": 2820,
+     "name": "Nifty Stopwatch",
+     "quality": "UNCOMMON",
+     "ilvl": 50,
+     "inventoryType": "TRINKET",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134376.jpg",
+     "tt": {
+      "bind": "Binds when picked up",
+      "unique": "",
+      "inv": "Trinket",
+      "sub": "Miscellaneous",
+      "armor": "",
+      "stats": [],
+      "spells": [
+       "Use: Increases run speed by 40% for 10 sec. (6 Min Cooldown)"
+      ],
+      "req": "",
+      "reqClass": "",
+      "dur": "",
+      "sell": 9347,
+      "desc": ""
+     }
+    },
+    {
      "slot": "MAIN_HAND",
      "slotName": "Main Hand",
      "itemId": 280604,
@@ -2726,7 +2748,6 @@
      "ilvl": 40,
      "inventoryType": "TWOHWEAPON",
      "enchants": [
-      "Weighted +8",
       "Windfury 2"
      ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133522.jpg",
@@ -2791,7 +2812,7 @@
      }
     }
    ],
-   "itemLevel": 34.06,
+   "itemLevel": 35.18,
    "pvp": {
     "hk": 1,
     "rank": 0,
@@ -2800,15 +2821,19 @@
    "spec": {
     "trees": [
      {
+      "name": "Elemental Combat",
+      "points": 1
+     },
+     {
       "name": "Enhancement",
-      "points": 28
+      "points": 29
      },
      {
       "name": "Restoration",
       "points": 5
      }
     ],
-    "split": "28/5",
+    "split": "1/29/5",
     "main": "Enhancement"
    },
    "professions": {
@@ -2817,11 +2842,11 @@
       "name": "Leatherworking",
       "skill": 201,
       "max": 300,
-      "recipes": 86
+      "recipes": 87
      },
      {
       "name": "Skinning",
-      "skill": 264,
+      "skill": 274,
       "max": 300,
       "recipes": 2
      }
@@ -2835,7 +2860,7 @@
      },
      {
       "name": "Fishing",
-      "skill": 203,
+      "skill": 213,
       "max": 225,
       "recipes": 2
      },
@@ -2849,8 +2874,8 @@
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/dala-huun",
    "weekly": {
-    "levels": 4.99,
-    "ilvl": 2.56,
+    "levels": 6.99,
+    "ilvl": 3.68,
     "hk": 0,
     "rank": 0
    },
