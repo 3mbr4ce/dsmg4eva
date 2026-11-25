@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795640048696,
+ "generatedAt": 1795641260559,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -7092,11 +7092,11 @@
    "name": "Xerxes",
    "surname": "Crownrend",
    "fullName": "Xerxes Crownrend",
-   "level": 55,
-   "experience": 154270,
-   "xpToLevel": 180800,
-   "xpPct": 85.33,
-   "levelProgress": 55.85,
+   "level": 56,
+   "experience": 63342,
+   "xpToLevel": 187900,
+   "xpPct": 33.71,
+   "levelProgress": 56.34,
    "className": "Warrior",
    "classId": 1,
    "race": "Night Elf",
@@ -7105,7 +7105,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795626171000,
+   "lastLogin": 1795640299000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -7179,7 +7179,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 80 / 80",
+      "dur": "Durability 58 / 80",
       "sell": 16666,
       "desc": ""
      }
@@ -7258,7 +7258,7 @@
       ],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 80 / 80",
+      "dur": "Durability 59 / 80",
       "sell": 16666,
       "desc": ""
      }
@@ -7337,7 +7337,7 @@
       "spells": [],
       "req": "Requires Level 40",
       "reqClass": "",
-      "dur": "Durability 115 / 115",
+      "dur": "Durability 84 / 115",
       "sell": 5197,
       "desc": ""
      }
@@ -7428,7 +7428,7 @@
       "spells": [],
       "req": "Requires Level 49",
       "reqClass": "",
-      "dur": "Durability 40 / 40",
+      "dur": "Durability 29 / 40",
       "sell": 10721,
       "desc": ""
      }
@@ -7469,7 +7469,7 @@
       "spells": [],
       "req": "Requires Level 48",
       "reqClass": "",
-      "dur": "Durability 40 / 40",
+      "dur": "Durability 29 / 40",
       "sell": 10114,
       "desc": ""
      }
@@ -7505,7 +7505,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 35 / 35",
+      "dur": "Durability 27 / 35",
       "sell": 5521,
       "desc": ""
      }
@@ -7513,36 +7513,36 @@
     {
      "slot": "LEGS",
      "slotName": "Legs",
-     "itemId": 11882,
-     "name": "Outrider Leggings",
+     "itemId": 21316,
+     "name": "Leggings of the Ursa",
      "quality": "UNCOMMON",
      "ilvl": 0,
      "inventoryType": "LEGS",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134583.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134662.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Legs",
-      "sub": "Mail",
-      "armor": "265 Armor",
+      "sub": "Plate",
+      "armor": "459 Armor",
       "stats": [
        {
-        "s": "+16 Strength",
+        "s": "+17 Strength",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+16 Stamina",
+        "s": "+14 Critical Strike",
         "neg": false,
-        "eq": false
+        "eq": true
        }
       ],
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 75 / 75",
-      "sell": 20520,
+      "dur": "Durability 85 / 85",
+      "sell": 12407,
       "desc": ""
      }
     },
@@ -7577,7 +7577,7 @@
       "spells": [],
       "req": "Requires Level 47",
       "reqClass": "",
-      "dur": "Durability 54 / 55",
+      "dur": "Durability 38 / 55",
       "sell": 7650,
       "desc": ""
      }
@@ -7699,13 +7699,13 @@
     {
      "slot": "TRINKET_2",
      "slotName": "Trinket 2",
-     "itemId": 11122,
-     "name": "Carrot on a Stick",
-     "quality": "UNCOMMON",
+     "itemId": 20130,
+     "name": "Diamond Flask",
+     "quality": "RARE",
      "ilvl": 0,
      "inventoryType": "TRINKET",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134010.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132788.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
@@ -7714,13 +7714,13 @@
       "armor": "",
       "stats": [],
       "spells": [
-       "Equip: Increases mount speed by 3%."
+       "Use: Restores 1,120 Health over 5 sec. This healing is strongest at first. If finished, gain 20 Strength for 1 min. (6 Min Cooldown)"
       ],
       "req": "",
-      "reqClass": "",
+      "reqClass": "Classes: Warrior",
       "dur": "",
-      "sell": 9347,
-      "desc": ""
+      "sell": 12722,
+      "desc": "Served on the rocks."
      }
     },
     {
@@ -7745,7 +7745,7 @@
       ],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 90 / 90",
+      "dur": "Durability 68 / 90",
       "sell": 33714,
       "desc": "",
       "weapon": {
@@ -7801,7 +7801,7 @@
       "spells": [],
       "req": "Requires Level 51",
       "reqClass": "",
-      "dur": "Durability 100 / 100",
+      "dur": "Durability 93 / 100",
       "sell": 25698,
       "desc": ""
      }
@@ -7837,7 +7837,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 65 / 65",
+      "dur": "Durability 53 / 65",
       "sell": 9937,
       "desc": "",
       "weapon": {
@@ -7850,12 +7850,16 @@
    ],
    "itemLevel": 0,
    "pvp": {
-    "hk": 51,
+    "hk": 53,
     "rank": 0,
     "rankName": "Unranked"
    },
    "spec": {
     "trees": [
+     {
+      "name": "Arms",
+      "points": 1
+     },
      {
       "name": "Fury",
       "points": 15
@@ -7865,14 +7869,14 @@
       "points": 31
      }
     ],
-    "split": "15/31",
+    "split": "1/15/31",
     "main": "Protection"
    },
    "professions": {
     "primaries": [
      {
       "name": "Mining",
-      "skill": 284,
+      "skill": 288,
       "max": 300,
       "recipes": 12
      },
@@ -7915,7 +7919,7 @@
     {
      "k": "health",
      "label": "Health",
-     "v": 2929
+     "v": 2851
     },
     {
      "k": "power",
@@ -7925,17 +7929,17 @@
     {
      "k": "strength",
      "label": "Strength",
-     "v": 208
+     "v": 211
     },
     {
      "k": "agility",
      "label": "Agility",
-     "v": 119
+     "v": 120
     },
     {
      "k": "stamina",
      "label": "Stamina",
-     "v": 175
+     "v": 161
     },
     {
      "k": "intellect",
@@ -7945,22 +7949,22 @@
     {
      "k": "spirit",
      "label": "Spirit",
-     "v": 54
+     "v": 55
     },
     {
      "k": "armor",
      "label": "Armor",
-     "v": 4504
+     "v": 4700
     },
     {
      "k": "attack_power",
      "label": "Attack power",
-     "v": 624
+     "v": 633
     },
     {
      "k": "ranged_attack_power",
      "label": "Ranged attack power",
-     "v": 336
+     "v": 339
     },
     {
      "k": "spell_power",
@@ -7970,37 +7974,37 @@
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 12.49,
+     "v": 13.48,
      "p": 1
     },
     {
      "k": "ranged_crit",
      "label": "Ranged crit",
-     "v": 1,
+     "v": 2,
      "p": 1
     },
     {
      "k": "spell_crit",
      "label": "Spell crit",
-     "v": 1,
+     "v": 2,
      "p": 1
     },
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 7.65,
+     "v": 7.6,
      "p": 1
     },
     {
      "k": "parry",
      "label": "Parry",
-     "v": 5.12,
+     "v": 6.08,
      "p": 1
     },
     {
      "k": "block",
      "label": "Block",
-     "v": 10.12,
+     "v": 10.08,
      "p": 1
     },
     {
@@ -8051,14 +8055,14 @@
      {
       "name": "Booty Bay",
       "standing": "Honored",
-      "v": 455,
+      "v": 605,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Gadgetzan",
       "standing": "Friendly",
-      "v": 5177,
+      "v": 5327,
       "max": 6000,
       "tier": 4
      }
@@ -8066,11 +8070,11 @@
    },
    "achievements": {
     "points": 0,
-    "count": 11,
+    "count": 12,
     "recent": [
+     "Explore Felwood",
      "Expert Engineer",
-     "Journeyman Engineer",
-     "Explore The Hinterlands"
+     "Journeyman Engineer"
     ]
    },
    "collections": {
@@ -8078,7 +8082,7 @@
     "pets": 4,
     "toys": 2
    },
-   "questsDone": 968
+   "questsDone": 981
   },
   {
    "friend": "Ash",
@@ -9018,16 +9022,16 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795550794000,
-   "apiItemLevel": 60,
+   "lastLogin": 1795640775000,
+   "apiItemLevel": 0,
    "gear": [
     {
      "slot": "HEAD",
      "slotName": "Head",
-     "itemId": 16667,
-     "name": "Coif of Elements",
-     "quality": "RARE",
-     "ilvl": 62,
+     "itemId": 227021,
+     "name": "Face of The Five Thunders",
+     "quality": "EPIC",
+     "ilvl": 0,
      "inventoryType": "HEAD",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133072.jpg",
@@ -9036,96 +9040,101 @@
       "unique": "",
       "inv": "Head",
       "sub": "Mail",
-      "armor": "297 Armor",
+      "armor": "314 Armor",
       "stats": [
        {
-        "s": "+23 Intellect",
+        "s": "+17 Intellect",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+7 Strength",
+        "s": "+16 Strength",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+13 Stamina",
+        "s": "+17 Stamina",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+12 Spell Power",
+        "s": "+14 Critical Strike",
         "neg": false,
         "eq": true
        },
        {
-        "s": "+12 Spirit",
+        "s": "+2 Mana Regeneration per 5 sec",
+        "neg": false,
+        "eq": true
+       },
+       {
+        "s": "+14 Spell Power",
         "neg": false,
         "eq": true
        }
       ],
       "spells": [],
-      "req": "Requires Level 57",
-      "reqClass": "",
-      "dur": "Durability 70 / 70",
-      "sell": 24788,
+      "req": "",
+      "reqClass": "Classes: Shaman",
+      "dur": "Durability 85 / 85",
+      "sell": 29417,
       "desc": "",
       "set": {
-       "name": "The Elements (1/8)",
+       "name": "The Five Thunders (7/8)",
        "items": [
         {
-         "n": "Cord of Elements",
-         "eq": false
-        },
-        {
-         "n": "Boots of Elements",
-         "eq": false
-        },
-        {
-         "n": "Bindings of Elements",
-         "eq": false
-        },
-        {
-         "n": "Coif of Elements",
+         "n": "Treads of The Five Thunders",
          "eq": true
         },
         {
-         "n": "Gauntlets of Elements",
+         "n": "Chain of The Five Thunders",
+         "eq": true
+        },
+        {
+         "n": "Fists of The Five Thunders",
+         "eq": true
+        },
+        {
+         "n": "Face of The Five Thunders",
+         "eq": true
+        },
+        {
+         "n": "Legs of The Five Thunders",
          "eq": false
         },
         {
-         "n": "Kilt of Elements",
-         "eq": false
+         "n": "Spaulders of The Five Thunders",
+         "eq": true
         },
         {
-         "n": "Pauldrons of Elements",
-         "eq": false
+         "n": "Girdle of The Five Thunders",
+         "eq": true
         },
         {
-         "n": "Vest of Elements",
-         "eq": false
+         "n": "Bands of The Five Thunders",
+         "eq": true
         }
        ],
        "effects": [
         {
-         "s": "(2) Set: +8 All Resistances.",
-         "on": false
+         "s": "Set: +8 All Resistances.",
+         "on": true
         },
         {
-         "s": "(3) Set: Increases damage and healing done by magical spells and effects by up to 18.",
-         "on": false
+         "s": "Set: Restores 8 mana per 5 sec.",
+         "on": true
         },
         {
-         "s": "(4) Set: When struck in melee combat, has a 5% chance of Disarming the attacker for 4 sec. Can only occur once every 60 sec.",
-         "on": false
+         "s": "Set: Chance on melee autoattack and spellcast to increase your damage and healing done by magical spells and effects by up to 65 for 10 sec.",
+         "on": true
         },
         {
-         "s": "(5) Set: Chance on melee autoattack and spellcast to increase your damage and healing done by magical spells and effects by up to 65 for 10 sec.",
-         "on": false
+         "s": "Set: When struck in melee combat, has a 5% chance of Disarming the attacker for 4 sec. Can only occur once every 60 sec.",
+         "on": true
         },
         {
-         "s": "(6) Set: Restores 8 mana per 5 sec.",
-         "on": false
+         "s": "Set: Increases damage and healing done by magical spells and effects by up to 23.",
+         "on": true
         }
        ]
       }
@@ -9137,7 +9146,7 @@
      "itemId": 11933,
      "name": "Imperial Jewel",
      "quality": "RARE",
-     "ilvl": 60,
+     "ilvl": 0,
      "inventoryType": "NECK",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134131.jpg",
@@ -9173,7 +9182,7 @@
      "itemId": 227019,
      "name": "Spaulders of The Five Thunders",
      "quality": "RARE",
-     "ilvl": 65,
+     "ilvl": 0,
      "inventoryType": "SHOULDER",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135060.jpg",
@@ -9217,23 +9226,23 @@
       "sell": 27948,
       "desc": "",
       "set": {
-       "name": "The Five Thunders (5/8)",
+       "name": "The Five Thunders (7/8)",
        "items": [
         {
          "n": "Treads of The Five Thunders",
          "eq": true
         },
         {
-         "n": "Chest of The Five Thunders",
-         "eq": false
+         "n": "Chain of The Five Thunders",
+         "eq": true
         },
         {
          "n": "Fists of The Five Thunders",
          "eq": true
         },
         {
-         "n": "Helm of The Five Thunders",
-         "eq": false
+         "n": "Face of The Five Thunders",
+         "eq": true
         },
         {
          "n": "Legs of The Five Thunders",
@@ -9270,8 +9279,8 @@
          "on": true
         },
         {
-         "s": "(6) Set: Increases damage and healing done by magical spells and effects by up to 23.",
-         "on": false
+         "s": "Set: Increases damage and healing done by magical spells and effects by up to 23.",
+         "on": true
         }
        ]
       }
@@ -9283,7 +9292,7 @@
      "itemId": 272411,
      "name": "Arcanoweave Cloak",
      "quality": "RARE",
-     "ilvl": 65,
+     "ilvl": 0,
      "inventoryType": "CLOAK",
      "enchants": [
       "Enchanted: Agility +3"
@@ -9323,42 +9332,113 @@
     {
      "slot": "CHEST",
      "slotName": "Chest",
-     "itemId": 12793,
-     "name": "Mixologist's Tunic",
-     "quality": "RARE",
-     "ilvl": 55,
+     "itemId": 227024,
+     "name": "Chain of The Five Thunders",
+     "quality": "EPIC",
+     "ilvl": 0,
      "inventoryType": "CHEST",
-     "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132716.jpg",
+     "enchants": [
+      "Enchanted: All Stats +3"
+     ],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132633.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Chest",
-      "sub": "Leather",
-      "armor": "158 Armor",
+      "sub": "Mail",
+      "armor": "387 Armor",
       "stats": [
        {
-        "s": "+10 Agility",
+        "s": "+17 Intellect",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+18 Strength",
+        "s": "+16 Strength",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+18 Stamina",
+        "s": "+17 Stamina",
         "neg": false,
         "eq": false
+       },
+       {
+        "s": "+14 Critical Strike",
+        "neg": false,
+        "eq": true
+       },
+       {
+        "s": "+18 Spell Power",
+        "neg": false,
+        "eq": true
        }
       ],
       "spells": [],
-      "req": "Requires Level 50",
-      "reqClass": "",
-      "dur": "Durability 100 / 100",
-      "sell": 18940,
-      "desc": ""
+      "req": "",
+      "reqClass": "Classes: Shaman",
+      "dur": "Durability 140 / 140",
+      "sell": 39487,
+      "desc": "",
+      "set": {
+       "name": "The Five Thunders (7/8)",
+       "items": [
+        {
+         "n": "Treads of The Five Thunders",
+         "eq": true
+        },
+        {
+         "n": "Chain of The Five Thunders",
+         "eq": true
+        },
+        {
+         "n": "Fists of The Five Thunders",
+         "eq": true
+        },
+        {
+         "n": "Face of The Five Thunders",
+         "eq": true
+        },
+        {
+         "n": "Legs of The Five Thunders",
+         "eq": false
+        },
+        {
+         "n": "Spaulders of The Five Thunders",
+         "eq": true
+        },
+        {
+         "n": "Girdle of The Five Thunders",
+         "eq": true
+        },
+        {
+         "n": "Bands of The Five Thunders",
+         "eq": true
+        }
+       ],
+       "effects": [
+        {
+         "s": "Set: +8 All Resistances.",
+         "on": true
+        },
+        {
+         "s": "Set: Restores 8 mana per 5 sec.",
+         "on": true
+        },
+        {
+         "s": "Set: Chance on melee autoattack and spellcast to increase your damage and healing done by magical spells and effects by up to 65 for 10 sec.",
+         "on": true
+        },
+        {
+         "s": "Set: When struck in melee combat, has a 5% chance of Disarming the attacker for 4 sec. Can only occur once every 60 sec.",
+         "on": true
+        },
+        {
+         "s": "Set: Increases damage and healing done by magical spells and effects by up to 23.",
+         "on": true
+        }
+       ]
+      }
      }
     },
     {
@@ -9367,7 +9447,7 @@
      "itemId": 227017,
      "name": "Bands of The Five Thunders",
      "quality": "RARE",
-     "ilvl": 65,
+     "ilvl": 0,
      "inventoryType": "WRIST",
      "enchants": [
       "Enchanted: Strength +7"
@@ -9408,23 +9488,23 @@
       "sell": 18409,
       "desc": "",
       "set": {
-       "name": "The Five Thunders (5/8)",
+       "name": "The Five Thunders (7/8)",
        "items": [
         {
          "n": "Treads of The Five Thunders",
          "eq": true
         },
         {
-         "n": "Chest of The Five Thunders",
-         "eq": false
+         "n": "Chain of The Five Thunders",
+         "eq": true
         },
         {
          "n": "Fists of The Five Thunders",
          "eq": true
         },
         {
-         "n": "Helm of The Five Thunders",
-         "eq": false
+         "n": "Face of The Five Thunders",
+         "eq": true
         },
         {
          "n": "Legs of The Five Thunders",
@@ -9461,8 +9541,8 @@
          "on": true
         },
         {
-         "s": "(6) Set: Increases damage and healing done by magical spells and effects by up to 23.",
-         "on": false
+         "s": "Set: Increases damage and healing done by magical spells and effects by up to 23.",
+         "on": true
         }
        ]
       }
@@ -9474,7 +9554,7 @@
      "itemId": 227022,
      "name": "Fists of The Five Thunders",
      "quality": "EPIC",
-     "ilvl": 55,
+     "ilvl": 0,
      "inventoryType": "HAND",
      "enchants": [
       "Enchanted: Strength +10"
@@ -9520,23 +9600,23 @@
       "sell": 14925,
       "desc": "",
       "set": {
-       "name": "The Five Thunders (5/8)",
+       "name": "The Five Thunders (7/8)",
        "items": [
         {
          "n": "Treads of The Five Thunders",
          "eq": true
         },
         {
-         "n": "Chest of The Five Thunders",
-         "eq": false
+         "n": "Chain of The Five Thunders",
+         "eq": true
         },
         {
          "n": "Fists of The Five Thunders",
          "eq": true
         },
         {
-         "n": "Helm of The Five Thunders",
-         "eq": false
+         "n": "Face of The Five Thunders",
+         "eq": true
         },
         {
          "n": "Legs of The Five Thunders",
@@ -9573,8 +9653,8 @@
          "on": true
         },
         {
-         "s": "(6) Set: Increases damage and healing done by magical spells and effects by up to 23.",
-         "on": false
+         "s": "Set: Increases damage and healing done by magical spells and effects by up to 23.",
+         "on": true
         }
        ]
       }
@@ -9586,7 +9666,7 @@
      "itemId": 227018,
      "name": "Girdle of The Five Thunders",
      "quality": "RARE",
-     "ilvl": 65,
+     "ilvl": 0,
      "inventoryType": "WAIST",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132505.jpg",
@@ -9630,23 +9710,23 @@
       "sell": 18479,
       "desc": "",
       "set": {
-       "name": "The Five Thunders (5/8)",
+       "name": "The Five Thunders (7/8)",
        "items": [
         {
          "n": "Treads of The Five Thunders",
          "eq": true
         },
         {
-         "n": "Chest of The Five Thunders",
-         "eq": false
+         "n": "Chain of The Five Thunders",
+         "eq": true
         },
         {
          "n": "Fists of The Five Thunders",
          "eq": true
         },
         {
-         "n": "Helm of The Five Thunders",
-         "eq": false
+         "n": "Face of The Five Thunders",
+         "eq": true
         },
         {
          "n": "Legs of The Five Thunders",
@@ -9683,8 +9763,8 @@
          "on": true
         },
         {
-         "s": "(6) Set: Increases damage and healing done by magical spells and effects by up to 23.",
-         "on": false
+         "s": "Set: Increases damage and healing done by magical spells and effects by up to 23.",
+         "on": true
         }
        ]
       }
@@ -9696,7 +9776,7 @@
      "itemId": 252606,
      "name": "Pristine Scorpid Leggings",
      "quality": "EPIC",
-     "ilvl": 61,
+     "ilvl": 0,
      "inventoryType": "LEGS",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/367075.jpg",
@@ -9737,7 +9817,7 @@
      "itemId": 227023,
      "name": "Treads of The Five Thunders",
      "quality": "EPIC",
-     "ilvl": 60,
+     "ilvl": 0,
      "inventoryType": "FEET",
      "enchants": [
       "Enchanted: Agility +7"
@@ -9783,23 +9863,23 @@
       "sell": 29639,
       "desc": "",
       "set": {
-       "name": "The Five Thunders (5/8)",
+       "name": "The Five Thunders (7/8)",
        "items": [
         {
          "n": "Treads of The Five Thunders",
          "eq": true
         },
         {
-         "n": "Chest of The Five Thunders",
-         "eq": false
+         "n": "Chain of The Five Thunders",
+         "eq": true
         },
         {
          "n": "Fists of The Five Thunders",
          "eq": true
         },
         {
-         "n": "Helm of The Five Thunders",
-         "eq": false
+         "n": "Face of The Five Thunders",
+         "eq": true
         },
         {
          "n": "Legs of The Five Thunders",
@@ -9836,8 +9916,8 @@
          "on": true
         },
         {
-         "s": "(6) Set: Increases damage and healing done by magical spells and effects by up to 23.",
-         "on": false
+         "s": "Set: Increases damage and healing done by magical spells and effects by up to 23.",
+         "on": true
         }
        ]
       }
@@ -9849,7 +9929,7 @@
      "itemId": 13345,
      "name": "Seal of Rivendare",
      "quality": "RARE",
-     "ilvl": 63,
+     "ilvl": 0,
      "inventoryType": "FINGER",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133358.jpg",
@@ -9885,7 +9965,7 @@
      "itemId": 13098,
      "name": "Painweaver Band",
      "quality": "RARE",
-     "ilvl": 63,
+     "ilvl": 0,
      "inventoryType": "FINGER",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133360.jpg",
@@ -9926,7 +10006,7 @@
      "itemId": 17774,
      "name": "Mark of the Chosen",
      "quality": "UNCOMMON",
-     "ilvl": 48,
+     "ilvl": 0,
      "inventoryType": "TRINKET",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133441.jpg",
@@ -9953,7 +10033,7 @@
      "itemId": 13965,
      "name": "Blackhand's Breadth",
      "quality": "RARE",
-     "ilvl": 63,
+     "ilvl": 0,
      "inventoryType": "TRINKET",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133604.jpg",
@@ -9981,7 +10061,7 @@
      "itemId": 280056,
      "name": "Flameslash Crescent",
      "quality": "RARE",
-     "ilvl": 59,
+     "ilvl": 0,
      "inventoryType": "TWOHWEAPON",
      "enchants": [
       "Enchanted: Crusader",
@@ -10036,7 +10116,7 @@
      "itemId": 22395,
      "name": "Totem of Rage",
      "quality": "RARE",
-     "ilvl": 57,
+     "ilvl": 0,
      "inventoryType": "RELIC",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134919.jpg",
@@ -10058,9 +10138,9 @@
      }
     }
    ],
-   "itemLevel": 60.29,
+   "itemLevel": 0,
    "pvp": {
-    "hk": 147,
+    "hk": 158,
     "rank": 0,
     "rankName": "Unranked"
    },
@@ -10129,47 +10209,47 @@
     {
      "k": "health",
      "label": "Health",
-     "v": 3110
+     "v": 3170
     },
     {
      "k": "power",
      "label": "Mana",
-     "v": 4330
+     "v": 4555
     },
     {
      "k": "strength",
      "label": "Strength",
-     "v": 219
+     "v": 229
     },
     {
      "k": "agility",
      "label": "Agility",
-     "v": 68
+     "v": 61
     },
     {
      "k": "stamina",
      "label": "Stamina",
-     "v": 201
+     "v": 207
     },
     {
      "k": "intellect",
      "label": "Intellect",
-     "v": 206
+     "v": 221
     },
     {
      "k": "spirit",
      "label": "Spirit",
-     "v": 111
+     "v": 102
     },
     {
      "k": "armor",
      "label": "Armor",
-     "v": 2137
+     "v": 2369
     },
     {
      "k": "attack_power",
      "label": "Attack power",
-     "v": 788
+     "v": 823
     },
     {
      "k": "ranged_attack_power",
@@ -10179,30 +10259,30 @@
     {
      "k": "spell_power",
      "label": "Spell power",
-     "v": 182
+     "v": 230
     },
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 15.15,
+     "v": 16.8,
      "p": 1
     },
     {
      "k": "ranged_crit",
      "label": "Ranged crit",
-     "v": 10,
+     "v": 12,
      "p": 1
     },
     {
      "k": "spell_crit",
      "label": "Spell crit",
-     "v": 14.78,
+     "v": 17.03,
      "p": 1
     },
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 5.11,
+     "v": 4.76,
      "p": 1
     },
     {
@@ -10280,11 +10360,11 @@
    },
    "achievements": {
     "points": 0,
-    "count": 20,
+    "count": 21,
     "recent": [
+     "Lord Valthalak Laid to Rest",
      "Explore Hillsbrad Foothills",
-     "Explore Alterac Mountains",
-     "Explore Mount Hyjal"
+     "Explore Alterac Mountains"
     ]
    },
    "collections": {
@@ -10292,7 +10372,7 @@
     "pets": 3,
     "toys": 1
    },
-   "questsDone": 1075
+   "questsDone": 1088
   },
   {
    "friend": "Panzer",
