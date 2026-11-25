@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795625675913,
+ "generatedAt": 1795626746848,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -7046,10 +7046,10 @@
    "surname": "Crownrend",
    "fullName": "Xerxes Crownrend",
    "level": 55,
-   "experience": 32439,
+   "experience": 154270,
    "xpToLevel": 180800,
-   "xpPct": 17.94,
-   "levelProgress": 55.18,
+   "xpPct": 85.33,
+   "levelProgress": 55.85,
    "className": "Warrior",
    "classId": 1,
    "race": "Night Elf",
@@ -7058,7 +7058,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795621584000,
+   "lastLogin": 1795626171000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -7132,7 +7132,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 68 / 80",
+      "dur": "Durability 80 / 80",
       "sell": 16666,
       "desc": ""
      }
@@ -7211,7 +7211,7 @@
       ],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 73 / 80",
+      "dur": "Durability 80 / 80",
       "sell": 16666,
       "desc": ""
      }
@@ -7290,7 +7290,7 @@
       "spells": [],
       "req": "Requires Level 40",
       "reqClass": "",
-      "dur": "Durability 77 / 115",
+      "dur": "Durability 115 / 115",
       "sell": 5197,
       "desc": ""
      }
@@ -7381,7 +7381,7 @@
       "spells": [],
       "req": "Requires Level 49",
       "reqClass": "",
-      "dur": "Durability 24 / 40",
+      "dur": "Durability 40 / 40",
       "sell": 10721,
       "desc": ""
      }
@@ -7422,7 +7422,7 @@
       "spells": [],
       "req": "Requires Level 48",
       "reqClass": "",
-      "dur": "Durability 24 / 40",
+      "dur": "Durability 40 / 40",
       "sell": 10114,
       "desc": ""
      }
@@ -7458,7 +7458,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 21 / 35",
+      "dur": "Durability 35 / 35",
       "sell": 5521,
       "desc": ""
      }
@@ -7494,7 +7494,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 68 / 75",
+      "dur": "Durability 75 / 75",
       "sell": 20520,
       "desc": ""
      }
@@ -7530,7 +7530,7 @@
       "spells": [],
       "req": "Requires Level 47",
       "reqClass": "",
-      "dur": "Durability 39 / 55",
+      "dur": "Durability 54 / 55",
       "sell": 7650,
       "desc": ""
      }
@@ -7625,6 +7625,33 @@
     {
      "slot": "TRINKET_1",
      "slotName": "Trinket 1",
+     "itemId": 17774,
+     "name": "Mark of the Chosen",
+     "quality": "UNCOMMON",
+     "ilvl": 0,
+     "inventoryType": "TRINKET",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133441.jpg",
+     "tt": {
+      "bind": "Binds when picked up",
+      "unique": "",
+      "inv": "Trinket",
+      "sub": "Miscellaneous",
+      "armor": "",
+      "stats": [],
+      "spells": [
+       "Equip: Has a 2% chance when struck in combat of increasing all stats by 21 for 1 min."
+      ],
+      "req": "",
+      "reqClass": "",
+      "dur": "",
+      "sell": 8164,
+      "desc": ""
+     }
+    },
+    {
+     "slot": "TRINKET_2",
+     "slotName": "Trinket 2",
      "itemId": 11122,
      "name": "Carrot on a Stick",
      "quality": "UNCOMMON",
@@ -7650,33 +7677,6 @@
      }
     },
     {
-     "slot": "TRINKET_2",
-     "slotName": "Trinket 2",
-     "itemId": 20130,
-     "name": "Diamond Flask",
-     "quality": "RARE",
-     "ilvl": 0,
-     "inventoryType": "TRINKET",
-     "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132788.jpg",
-     "tt": {
-      "bind": "Binds when picked up",
-      "unique": "",
-      "inv": "Trinket",
-      "sub": "Miscellaneous",
-      "armor": "",
-      "stats": [],
-      "spells": [
-       "Use: Restores 1,120 Health over 5 sec. This healing is strongest at first. If finished, gain 20 Strength for 1 min. (6 Min Cooldown)"
-      ],
-      "req": "",
-      "reqClass": "Classes: Warrior",
-      "dur": "",
-      "sell": 12722,
-      "desc": "Served on the rocks."
-     }
-    },
-    {
      "slot": "MAIN_HAND",
      "slotName": "Main Hand",
      "itemId": 17705,
@@ -7698,7 +7698,7 @@
       ],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 68 / 90",
+      "dur": "Durability 90 / 90",
       "sell": 33714,
       "desc": "",
       "weapon": {
@@ -7711,33 +7711,52 @@
     {
      "slot": "OFF_HAND",
      "slotName": "Off Hand",
-     "itemId": 6660,
-     "name": "Julie's Dagger",
+     "itemId": 10835,
+     "name": "Crest of Supremacy",
      "quality": "RARE",
      "ilvl": 0,
-     "inventoryType": "WEAPON",
+     "inventoryType": "SHIELD",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135643.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134950.jpg",
      "tt": {
-      "bind": "Binds when equipped",
+      "bind": "Binds when picked up",
       "unique": "",
-      "inv": "One-Hand",
-      "sub": "Dagger",
-      "armor": "",
-      "stats": [],
-      "spells": [
-       "Chance on hit: Heals wielder of 78 damage over 12 sec."
+      "inv": "Off Hand",
+      "sub": "Shield",
+      "armor": "1,930 Armor",
+      "stats": [
+       {
+        "s": "+7 Intellect",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+6 Agility",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+6 Strength",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+7 Stamina",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+5 Defense",
+        "neg": false,
+        "eq": true
+       }
       ],
-      "req": "Requires Level 50",
+      "spells": [],
+      "req": "Requires Level 51",
       "reqClass": "",
-      "dur": "Durability 52 / 65",
-      "sell": 36157,
-      "desc": "",
-      "weapon": {
-       "dmg": "33 - 62 Damage",
-       "speed": "Speed 1.30",
-       "dps": "(36.5 damage per second)"
-      }
+      "dur": "Durability 100 / 100",
+      "sell": 25698,
+      "desc": ""
      }
     },
     {
@@ -7791,28 +7810,28 @@
    "spec": {
     "trees": [
      {
-      "name": "Arms",
-      "points": 12
+      "name": "Fury",
+      "points": 15
      },
      {
-      "name": "Fury",
-      "points": 34
+      "name": "Protection",
+      "points": 31
      }
     ],
-    "split": "12/34",
-    "main": "Fury"
+    "split": "15/31",
+    "main": "Protection"
    },
    "professions": {
     "primaries": [
      {
       "name": "Mining",
-      "skill": 283,
+      "skill": 284,
       "max": 300,
       "recipes": 12
      },
      {
       "name": "Engineering",
-      "skill": 259,
+      "skill": 260,
       "max": 300,
       "recipes": 55
      }
@@ -7849,7 +7868,7 @@
     {
      "k": "health",
      "label": "Health",
-     "v": 2859
+     "v": 2929
     },
     {
      "k": "power",
@@ -7859,22 +7878,22 @@
     {
      "k": "strength",
      "label": "Strength",
-     "v": 202
+     "v": 208
     },
     {
      "k": "agility",
      "label": "Agility",
-     "v": 113
+     "v": 119
     },
     {
      "k": "stamina",
      "label": "Stamina",
-     "v": 168
+     "v": 175
     },
     {
      "k": "intellect",
      "label": "Intellect",
-     "v": 49
+     "v": 56
     },
     {
      "k": "spirit",
@@ -7884,17 +7903,17 @@
     {
      "k": "armor",
      "label": "Armor",
-     "v": 2562
+     "v": 4504
     },
     {
      "k": "attack_power",
      "label": "Attack power",
-     "v": 612
+     "v": 624
     },
     {
      "k": "ranged_attack_power",
      "label": "Ranged attack power",
-     "v": 324
+     "v": 336
     },
     {
      "k": "spell_power",
@@ -7904,7 +7923,7 @@
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 12.12,
+     "v": 12.49,
      "p": 1
     },
     {
@@ -7922,19 +7941,19 @@
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 7.12,
+     "v": 7.65,
      "p": 1
     },
     {
      "k": "parry",
      "label": "Parry",
-     "v": 4.92,
+     "v": 5.12,
      "p": 1
     },
     {
      "k": "block",
      "label": "Block",
-     "v": 4.92,
+     "v": 10.12,
      "p": 1
     },
     {
@@ -7957,42 +7976,42 @@
      {
       "name": "Darnassus",
       "standing": "Revered",
-      "v": 946,
+      "v": 1776,
       "max": 21000,
       "tier": 6
      },
      {
       "name": "Stormwind",
       "standing": "Honored",
-      "v": 11316,
+      "v": 11373,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Ironforge",
       "standing": "Honored",
-      "v": 8195,
+      "v": 8252,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Gnomeregan Exiles",
       "standing": "Honored",
-      "v": 4058,
+      "v": 4116,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Booty Bay",
       "standing": "Honored",
-      "v": 355,
+      "v": 455,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Gadgetzan",
       "standing": "Friendly",
-      "v": 5027,
+      "v": 5177,
       "max": 6000,
       "tier": 4
      }
@@ -8012,7 +8031,7 @@
     "pets": 4,
     "toys": 2
    },
-   "questsDone": 935
+   "questsDone": 968
   },
   {
    "friend": "Ash",
