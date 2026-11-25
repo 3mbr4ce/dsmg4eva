@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795630590187,
+ "generatedAt": 1795632850125,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -1940,10 +1940,10 @@
    "surname": "Unbann",
    "fullName": "Ruler Unbann",
    "level": 36,
-   "experience": 1695,
+   "experience": 16928,
    "xpToLevel": 71600,
-   "xpPct": 2.37,
-   "levelProgress": 36.02,
+   "xpPct": 23.64,
+   "levelProgress": 36.24,
    "className": "Druid",
    "classId": 11,
    "race": "Night Elf",
@@ -1952,7 +1952,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795627540000,
+   "lastLogin": 1795632364000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -1986,7 +1986,7 @@
       "spells": [],
       "req": "Requires Level 35",
       "reqClass": "",
-      "dur": "Durability 50 / 50",
+      "dur": "Durability 47 / 50",
       "sell": 4240,
       "desc": ""
      }
@@ -2063,7 +2063,7 @@
       "spells": [],
       "req": "Requires Level 30",
       "reqClass": "",
-      "dur": "Durability 50 / 50",
+      "dur": "Durability 48 / 50",
       "sell": 2609,
       "desc": ""
      }
@@ -2142,7 +2142,7 @@
       "spells": [],
       "req": "Requires Level 29",
       "reqClass": "",
-      "dur": "Durability 100 / 100",
+      "dur": "Durability 98 / 100",
       "sell": 4131,
       "desc": ""
      }
@@ -2241,7 +2241,7 @@
       "spells": [],
       "req": "Requires Level 33",
       "reqClass": "",
-      "dur": "Durability 30 / 30",
+      "dur": "Durability 29 / 30",
       "sell": 2299,
       "desc": ""
      }
@@ -2279,7 +2279,7 @@
       ],
       "req": "Requires Level 28",
       "reqClass": "",
-      "dur": "Durability 35 / 35",
+      "dur": "Durability 34 / 35",
       "sell": 1732,
       "desc": ""
      }
@@ -2317,7 +2317,7 @@
       "spells": [],
       "req": "Requires Level 31",
       "reqClass": "",
-      "dur": "Durability 65 / 65",
+      "dur": "Durability 61 / 65",
       "sell": 3935,
       "desc": ""
      }
@@ -2355,7 +2355,7 @@
       "spells": [],
       "req": "Requires Level 31",
       "reqClass": "",
-      "dur": "Durability 45 / 45",
+      "dur": "Durability 44 / 45",
       "sell": 2839,
       "desc": ""
      }
@@ -2490,7 +2490,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 100 / 100",
+      "dur": "Durability 93 / 100",
       "sell": 12065,
       "desc": "",
       "weapon": {
@@ -2658,7 +2658,7 @@
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 12.78,
+     "v": 12.86,
      "p": 1
     },
     {
@@ -2693,30 +2693,30 @@
      {
       "name": "Darnassus",
       "standing": "Honored",
-      "v": 8343,
+      "v": 8400,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Stormwind",
       "standing": "Honored",
-      "v": 4463,
+      "v": 4688,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Ironforge",
       "standing": "Honored",
-      "v": 2457,
+      "v": 2513,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Gnomeregan Exiles",
-      "standing": "Friendly",
-      "v": 5951,
-      "max": 6000,
-      "tier": 4
+      "standing": "Honored",
+      "v": 7,
+      "max": 12000,
+      "tier": 5
      },
      {
       "name": "Cenarion Circle",
@@ -2748,7 +2748,7 @@
     "pets": 0,
     "toys": 0
    },
-   "questsDone": 443,
+   "questsDone": 448,
    "history": [
     [
      1795570780222,
@@ -2767,10 +2767,16 @@
      36.02,
      0,
      5
+    ],
+    [
+     1795632850124,
+     36.24,
+     0,
+     5
     ]
    ],
    "weekly": {
-    "levels": 0.16,
+    "levels": 0.38,
     "ilvl": -33.06,
     "hk": 0,
     "rank": 0
