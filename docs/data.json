@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795570023979,
+ "generatedAt": 1795570780222,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-18T07",
@@ -808,6 +808,189 @@
     ]
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/sir-billythecrit",
+   "media": {
+    "avatar": "https://render.worldofwarcraft.com/forever-eu/character/32/10211104-avatar.jpg",
+    "avatarSd": "https://render.worldofwarcraft.com/forever-eu/character/32/10211104-avatar-sd.jpg",
+    "main": "https://render.worldofwarcraft.com/forever-eu/character/32/10211104-main-raw.png",
+    "mainSd": "https://render.worldofwarcraft.com/forever-eu/character/32/10211104-main-sd-raw.png"
+   },
+   "stats": [
+    {
+     "k": "health",
+     "label": "Health",
+     "v": 1820
+    },
+    {
+     "k": "power",
+     "label": "Energy",
+     "v": 100
+    },
+    {
+     "k": "strength",
+     "label": "Strength",
+     "v": 55
+    },
+    {
+     "k": "agility",
+     "label": "Agility",
+     "v": 133
+    },
+    {
+     "k": "stamina",
+     "label": "Stamina",
+     "v": 136
+    },
+    {
+     "k": "intellect",
+     "label": "Intellect",
+     "v": 41
+    },
+    {
+     "k": "spirit",
+     "label": "Spirit",
+     "v": 52
+    },
+    {
+     "k": "armor",
+     "label": "Armor",
+     "v": 844
+    },
+    {
+     "k": "attack_power",
+     "label": "Attack power",
+     "v": 272
+    },
+    {
+     "k": "ranged_attack_power",
+     "label": "Ranged attack power",
+     "v": 312
+    },
+    {
+     "k": "spell_power",
+     "label": "Spell power",
+     "v": 0
+    },
+    {
+     "k": "melee_crit",
+     "label": "Melee crit",
+     "v": 7.67,
+     "p": 1
+    },
+    {
+     "k": "ranged_crit",
+     "label": "Ranged crit",
+     "v": 4.67,
+     "p": 1
+    },
+    {
+     "k": "spell_crit",
+     "label": "Spell crit",
+     "v": 0,
+     "p": 1
+    },
+    {
+     "k": "dodge",
+     "label": "Dodge",
+     "v": 15.49,
+     "p": 1
+    },
+    {
+     "k": "parry",
+     "label": "Parry",
+     "v": 4.76,
+     "p": 1
+    },
+    {
+     "k": "block",
+     "label": "Block",
+     "v": 0,
+     "p": 1
+    },
+    {
+     "k": "melee_haste",
+     "label": "Melee haste",
+     "v": 0,
+     "p": 1
+    },
+    {
+     "k": "spell_haste",
+     "label": "Spell haste",
+     "v": 0,
+     "p": 1
+    }
+   ],
+   "title": "Scout Sir",
+   "titleCount": 1,
+   "reputations": {
+    "total": 15,
+    "top": [
+     {
+      "name": "Undercity",
+      "standing": "Honored",
+      "v": 6865,
+      "max": 12000,
+      "tier": 5
+     },
+     {
+      "name": "Orgrimmar",
+      "standing": "Honored",
+      "v": 365,
+      "max": 12000,
+      "tier": 5
+     },
+     {
+      "name": "Thunder Bluff",
+      "standing": "Friendly",
+      "v": 5082,
+      "max": 6000,
+      "tier": 4
+     },
+     {
+      "name": "Darkspear Trolls",
+      "standing": "Friendly",
+      "v": 3858,
+      "max": 6000,
+      "tier": 4
+     },
+     {
+      "name": "Ratchet",
+      "standing": "Neutral",
+      "v": 2748,
+      "max": 3000,
+      "tier": 3
+     },
+     {
+      "name": "Durotar Supply and Logistics",
+      "standing": "Neutral",
+      "v": 2000,
+      "max": 3000,
+      "tier": 3
+     }
+    ]
+   },
+   "achievements": {
+    "points": 0,
+    "count": 7,
+    "recent": [
+     "Expert Engineer",
+     "Novice Spelunker",
+     "Explore Thousand Needles"
+    ]
+   },
+   "collections": {
+    "mounts": 0,
+    "pets": 1,
+    "toys": 0
+   },
+   "questsDone": 403,
+   "history": [
+    [
+     1795570780222,
+     38.23,
+     30.78,
+     784
+    ]
+   ],
    "weekly": {
     "levels": 4.16,
     "ilvl": 0.66,
@@ -1548,6 +1731,188 @@
     ]
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/blue-embrace",
+   "media": {
+    "avatar": "https://render.worldofwarcraft.com/forever-eu/character/134/9043590-avatar.jpg",
+    "avatarSd": "https://render.worldofwarcraft.com/forever-eu/character/134/9043590-avatar-sd.jpg",
+    "main": "https://render.worldofwarcraft.com/forever-eu/character/134/9043590-main-raw.png",
+    "mainSd": "https://render.worldofwarcraft.com/forever-eu/character/134/9043590-main-sd-raw.png"
+   },
+   "stats": [
+    {
+     "k": "health",
+     "label": "Health",
+     "v": 1680
+    },
+    {
+     "k": "power",
+     "label": "Energy",
+     "v": 100
+    },
+    {
+     "k": "strength",
+     "label": "Strength",
+     "v": 63
+    },
+    {
+     "k": "agility",
+     "label": "Agility",
+     "v": 139
+    },
+    {
+     "k": "stamina",
+     "label": "Stamina",
+     "v": 125
+    },
+    {
+     "k": "intellect",
+     "label": "Intellect",
+     "v": 32
+    },
+    {
+     "k": "spirit",
+     "label": "Spirit",
+     "v": 63
+    },
+    {
+     "k": "armor",
+     "label": "Armor",
+     "v": 988
+    },
+    {
+     "k": "attack_power",
+     "label": "Attack power",
+     "v": 294
+    },
+    {
+     "k": "ranged_attack_power",
+     "label": "Ranged attack power",
+     "v": 333
+    },
+    {
+     "k": "spell_power",
+     "label": "Spell power",
+     "v": 0
+    },
+    {
+     "k": "melee_crit",
+     "label": "Melee crit",
+     "v": 8.4,
+     "p": 1
+    },
+    {
+     "k": "ranged_crit",
+     "label": "Ranged crit",
+     "v": 1.6,
+     "p": 1
+    },
+    {
+     "k": "spell_crit",
+     "label": "Spell crit",
+     "v": 0,
+     "p": 1
+    },
+    {
+     "k": "dodge",
+     "label": "Dodge",
+     "v": 16.76,
+     "p": 1
+    },
+    {
+     "k": "parry",
+     "label": "Parry",
+     "v": 4.8,
+     "p": 1
+    },
+    {
+     "k": "block",
+     "label": "Block",
+     "v": 0,
+     "p": 1
+    },
+    {
+     "k": "melee_haste",
+     "label": "Melee haste",
+     "v": 0,
+     "p": 1
+    },
+    {
+     "k": "spell_haste",
+     "label": "Spell haste",
+     "v": 0,
+     "p": 1
+    }
+   ],
+   "titleCount": 0,
+   "reputations": {
+    "total": 15,
+    "top": [
+     {
+      "name": "Undercity",
+      "standing": "Honored",
+      "v": 5970,
+      "max": 12000,
+      "tier": 5
+     },
+     {
+      "name": "Orgrimmar",
+      "standing": "Friendly",
+      "v": 5077,
+      "max": 6000,
+      "tier": 4
+     },
+     {
+      "name": "Thunder Bluff",
+      "standing": "Friendly",
+      "v": 2940,
+      "max": 6000,
+      "tier": 4
+     },
+     {
+      "name": "Darkspear Trolls",
+      "standing": "Friendly",
+      "v": 2908,
+      "max": 6000,
+      "tier": 4
+     },
+     {
+      "name": "Gelkis Clan Centaur",
+      "standing": "Friendly",
+      "v": 830,
+      "max": 6000,
+      "tier": 4
+     },
+     {
+      "name": "Ratchet",
+      "standing": "Neutral",
+      "v": 2740,
+      "max": 3000,
+      "tier": 3
+     }
+    ]
+   },
+   "achievements": {
+    "points": 0,
+    "count": 3,
+    "recent": [
+     "Explore Thousand Needles",
+     "Journeyman Leatherworker",
+     "Novice Rogue"
+    ]
+   },
+   "collections": {
+    "mounts": 0,
+    "pets": 0,
+    "toys": 0
+   },
+   "questsDone": 326,
+   "history": [
+    [
+     1795570780222,
+     37.12,
+     33.06,
+     238
+    ]
+   ],
    "weekly": {
     "levels": 6.67,
     "ilvl": 6.46,
@@ -2201,6 +2566,188 @@
     ]
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/ruler-unbann",
+   "media": {
+    "avatar": "https://render.worldofwarcraft.com/forever-eu/character/222/62111966-avatar.jpg",
+    "avatarSd": "https://render.worldofwarcraft.com/forever-eu/character/222/62111966-avatar-sd.jpg",
+    "main": "https://render.worldofwarcraft.com/forever-eu/character/222/62111966-main-raw.png",
+    "mainSd": "https://render.worldofwarcraft.com/forever-eu/character/222/62111966-main-sd-raw.png"
+   },
+   "stats": [
+    {
+     "k": "health",
+     "label": "Health",
+     "v": 1173
+    },
+    {
+     "k": "power",
+     "label": "Mana",
+     "v": 1684
+    },
+    {
+     "k": "strength",
+     "label": "Strength",
+     "v": 106
+    },
+    {
+     "k": "agility",
+     "label": "Agility",
+     "v": 89
+    },
+    {
+     "k": "stamina",
+     "label": "Stamina",
+     "v": 81
+    },
+    {
+     "k": "intellect",
+     "label": "Intellect",
+     "v": 82
+    },
+    {
+     "k": "spirit",
+     "label": "Spirit",
+     "v": 82
+    },
+    {
+     "k": "armor",
+     "label": "Armor",
+     "v": 864
+    },
+    {
+     "k": "attack_power",
+     "label": "Attack power",
+     "v": 208
+    },
+    {
+     "k": "ranged_attack_power",
+     "label": "Ranged attack power",
+     "v": 16
+    },
+    {
+     "k": "spell_power",
+     "label": "Spell power",
+     "v": 0
+    },
+    {
+     "k": "melee_crit",
+     "label": "Melee crit",
+     "v": 4.84,
+     "p": 1
+    },
+    {
+     "k": "ranged_crit",
+     "label": "Ranged crit",
+     "v": 1.24,
+     "p": 1
+    },
+    {
+     "k": "spell_crit",
+     "label": "Spell crit",
+     "v": 4.28,
+     "p": 1
+    },
+    {
+     "k": "dodge",
+     "label": "Dodge",
+     "v": 13,
+     "p": 1
+    },
+    {
+     "k": "parry",
+     "label": "Parry",
+     "v": 0,
+     "p": 1
+    },
+    {
+     "k": "block",
+     "label": "Block",
+     "v": 0,
+     "p": 1
+    },
+    {
+     "k": "melee_haste",
+     "label": "Melee haste",
+     "v": 0,
+     "p": 1
+    },
+    {
+     "k": "spell_haste",
+     "label": "Spell haste",
+     "v": 0,
+     "p": 1
+    }
+   ],
+   "titleCount": 0,
+   "reputations": {
+    "total": 11,
+    "top": [
+     {
+      "name": "Darnassus",
+      "standing": "Honored",
+      "v": 8343,
+      "max": 12000,
+      "tier": 5
+     },
+     {
+      "name": "Stormwind",
+      "standing": "Honored",
+      "v": 4463,
+      "max": 12000,
+      "tier": 5
+     },
+     {
+      "name": "Ironforge",
+      "standing": "Honored",
+      "v": 2457,
+      "max": 12000,
+      "tier": 5
+     },
+     {
+      "name": "Gnomeregan Exiles",
+      "standing": "Friendly",
+      "v": 5951,
+      "max": 6000,
+      "tier": 4
+     },
+     {
+      "name": "Cenarion Circle",
+      "standing": "Neutral",
+      "v": 2625,
+      "max": 3000,
+      "tier": 3
+     },
+     {
+      "name": "Kirin Tor",
+      "standing": "Neutral",
+      "v": 2197,
+      "max": 3000,
+      "tier": 3
+     }
+    ]
+   },
+   "achievements": {
+    "points": 0,
+    "count": 5,
+    "recent": [
+     "Explore Redridge Mountains",
+     "Journeyman Alchemist",
+     "Novice Druid"
+    ]
+   },
+   "collections": {
+    "mounts": 0,
+    "pets": 0,
+    "toys": 0
+   },
+   "questsDone": 438,
+   "history": [
+    [
+     1795570780222,
+     35.86,
+     33.06,
+     5
+    ]
+   ],
    "weekly": {
     "levels": 7.68,
     "ilvl": 6.2,
@@ -2873,6 +3420,188 @@
     ]
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/dala-huun",
+   "media": {
+    "avatar": "https://render.worldofwarcraft.com/forever-eu/character/7/24459527-avatar.jpg",
+    "avatarSd": "https://render.worldofwarcraft.com/forever-eu/character/7/24459527-avatar-sd.jpg",
+    "main": "https://render.worldofwarcraft.com/forever-eu/character/7/24459527-main-raw.png",
+    "mainSd": "https://render.worldofwarcraft.com/forever-eu/character/7/24459527-main-sd-raw.png"
+   },
+   "stats": [
+    {
+     "k": "health",
+     "label": "Health",
+     "v": 1774
+    },
+    {
+     "k": "power",
+     "label": "Mana",
+     "v": 2151
+    },
+    {
+     "k": "strength",
+     "label": "Strength",
+     "v": 136
+    },
+    {
+     "k": "agility",
+     "label": "Agility",
+     "v": 64
+    },
+    {
+     "k": "stamina",
+     "label": "Stamina",
+     "v": 127
+    },
+    {
+     "k": "intellect",
+     "label": "Intellect",
+     "v": 89
+    },
+    {
+     "k": "spirit",
+     "label": "Spirit",
+     "v": 102
+    },
+    {
+     "k": "armor",
+     "label": "Armor",
+     "v": 1029
+    },
+    {
+     "k": "attack_power",
+     "label": "Attack power",
+     "v": 455
+    },
+    {
+     "k": "ranged_attack_power",
+     "label": "Ranged attack power",
+     "v": 26
+    },
+    {
+     "k": "spell_power",
+     "label": "Spell power",
+     "v": 31
+    },
+    {
+     "k": "melee_crit",
+     "label": "Melee crit",
+     "v": 10.77,
+     "p": 1
+    },
+    {
+     "k": "ranged_crit",
+     "label": "Ranged crit",
+     "v": 5,
+     "p": 1
+    },
+    {
+     "k": "spell_crit",
+     "label": "Spell crit",
+     "v": 9.43,
+     "p": 1
+    },
+    {
+     "k": "dodge",
+     "label": "Dodge",
+     "v": 7.69,
+     "p": 1
+    },
+    {
+     "k": "parry",
+     "label": "Parry",
+     "v": 4.68,
+     "p": 1
+    },
+    {
+     "k": "block",
+     "label": "Block",
+     "v": 4.68,
+     "p": 1
+    },
+    {
+     "k": "melee_haste",
+     "label": "Melee haste",
+     "v": 0,
+     "p": 1
+    },
+    {
+     "k": "spell_haste",
+     "label": "Spell haste",
+     "v": 0,
+     "p": 1
+    }
+   ],
+   "titleCount": 0,
+   "reputations": {
+    "total": 13,
+    "top": [
+     {
+      "name": "Orgrimmar",
+      "standing": "Honored",
+      "v": 9971,
+      "max": 12000,
+      "tier": 5
+     },
+     {
+      "name": "Darkspear Trolls",
+      "standing": "Honored",
+      "v": 4542,
+      "max": 12000,
+      "tier": 5
+     },
+     {
+      "name": "Thunder Bluff",
+      "standing": "Honored",
+      "v": 3196,
+      "max": 12000,
+      "tier": 5
+     },
+     {
+      "name": "Undercity",
+      "standing": "Friendly",
+      "v": 5556,
+      "max": 6000,
+      "tier": 4
+     },
+     {
+      "name": "Ratchet",
+      "standing": "Friendly",
+      "v": 1917,
+      "max": 6000,
+      "tier": 4
+     },
+     {
+      "name": "Booty Bay",
+      "standing": "Friendly",
+      "v": 813,
+      "max": 6000,
+      "tier": 4
+     }
+    ]
+   },
+   "achievements": {
+    "points": 0,
+    "count": 5,
+    "recent": [
+     "Explore Arathi Highlands",
+     "Journeyman Leatherworker",
+     "Explore Thousand Needles"
+    ]
+   },
+   "collections": {
+    "mounts": 2,
+    "pets": 4,
+    "toys": 2
+   },
+   "questsDone": 554,
+   "history": [
+    [
+     1795570780222,
+     44.25,
+     35.18,
+     1
+    ]
+   ],
    "weekly": {
     "levels": 6.99,
     "ilvl": 3.68,
@@ -3521,6 +4250,188 @@
     ]
    },
    "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/sire-khingen",
+   "media": {
+    "avatar": "https://render.worldofwarcraft.com/forever-eu/character/154/9854874-avatar.jpg",
+    "avatarSd": "https://render.worldofwarcraft.com/forever-eu/character/154/9854874-avatar-sd.jpg",
+    "main": "https://render.worldofwarcraft.com/forever-eu/character/154/9854874-main-raw.png",
+    "mainSd": "https://render.worldofwarcraft.com/forever-eu/character/154/9854874-main-sd-raw.png"
+   },
+   "stats": [
+    {
+     "k": "health",
+     "label": "Health",
+     "v": 1691
+    },
+    {
+     "k": "power",
+     "label": "Mana",
+     "v": 1499
+    },
+    {
+     "k": "strength",
+     "label": "Strength",
+     "v": 139
+    },
+    {
+     "k": "agility",
+     "label": "Agility",
+     "v": 50
+    },
+    {
+     "k": "stamina",
+     "label": "Stamina",
+     "v": 136
+    },
+    {
+     "k": "intellect",
+     "label": "Intellect",
+     "v": 60
+    },
+    {
+     "k": "spirit",
+     "label": "Spirit",
+     "v": 65
+    },
+    {
+     "k": "armor",
+     "label": "Armor",
+     "v": 1543
+    },
+    {
+     "k": "attack_power",
+     "label": "Attack power",
+     "v": 372
+    },
+    {
+     "k": "ranged_attack_power",
+     "label": "Ranged attack power",
+     "v": 6
+    },
+    {
+     "k": "spell_power",
+     "label": "Spell power",
+     "v": 32
+    },
+    {
+     "k": "melee_crit",
+     "label": "Melee crit",
+     "v": 11.01,
+     "p": 1
+    },
+    {
+     "k": "ranged_crit",
+     "label": "Ranged crit",
+     "v": 1.62,
+     "p": 1
+    },
+    {
+     "k": "spell_crit",
+     "label": "Spell crit",
+     "v": 11.64,
+     "p": 1
+    },
+    {
+     "k": "dodge",
+     "label": "Dodge",
+     "v": 4.52,
+     "p": 1
+    },
+    {
+     "k": "parry",
+     "label": "Parry",
+     "v": 4.76,
+     "p": 1
+    },
+    {
+     "k": "block",
+     "label": "Block",
+     "v": 4.76,
+     "p": 1
+    },
+    {
+     "k": "melee_haste",
+     "label": "Melee haste",
+     "v": 0,
+     "p": 1
+    },
+    {
+     "k": "spell_haste",
+     "label": "Spell haste",
+     "v": 0,
+     "p": 1
+    }
+   ],
+   "titleCount": 0,
+   "reputations": {
+    "total": 14,
+    "top": [
+     {
+      "name": "Undercity",
+      "standing": "Honored",
+      "v": 6378,
+      "max": 12000,
+      "tier": 5
+     },
+     {
+      "name": "Orgrimmar",
+      "standing": "Friendly",
+      "v": 4256,
+      "max": 6000,
+      "tier": 4
+     },
+     {
+      "name": "Darkspear Trolls",
+      "standing": "Friendly",
+      "v": 2306,
+      "max": 6000,
+      "tier": 4
+     },
+     {
+      "name": "Thunder Bluff",
+      "standing": "Friendly",
+      "v": 2262,
+      "max": 6000,
+      "tier": 4
+     },
+     {
+      "name": "Gelkis Clan Centaur",
+      "standing": "Neutral",
+      "v": 2300,
+      "max": 3000,
+      "tier": 3
+     },
+     {
+      "name": "Durotar Supply and Logistics",
+      "standing": "Neutral",
+      "v": 2000,
+      "max": 3000,
+      "tier": 3
+     }
+    ]
+   },
+   "achievements": {
+    "points": 0,
+    "count": 6,
+    "recent": [
+     "Novice Spelunker",
+     "Explore Thousand Needles",
+     "Journeyman Blacksmith"
+    ]
+   },
+   "collections": {
+    "mounts": 0,
+    "pets": 1,
+    "toys": 0
+   },
+   "questsDone": 276,
+   "history": [
+    [
+     1795570780222,
+     36.09,
+     32.6,
+     141
+    ]
+   ],
    "weekly": {
     "levels": 3.27,
     "ilvl": 2.4,
@@ -3900,7 +4811,167 @@
     ],
     "secondaries": []
    },
-   "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/pip-jaeger"
+   "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/pip-jaeger",
+   "media": {
+    "avatar": "https://render.worldofwarcraft.com/forever-eu/character/162/6665634-avatar.jpg",
+    "avatarSd": "https://render.worldofwarcraft.com/forever-eu/character/162/6665634-avatar-sd.jpg",
+    "main": "https://render.worldofwarcraft.com/forever-eu/character/162/6665634-main-raw.png",
+    "mainSd": "https://render.worldofwarcraft.com/forever-eu/character/162/6665634-main-sd-raw.png"
+   },
+   "stats": [
+    {
+     "k": "health",
+     "label": "Health",
+     "v": 298
+    },
+    {
+     "k": "power",
+     "label": "Mana",
+     "v": 423
+    },
+    {
+     "k": "strength",
+     "label": "Strength",
+     "v": 28
+    },
+    {
+     "k": "agility",
+     "label": "Agility",
+     "v": 40
+    },
+    {
+     "k": "stamina",
+     "label": "Stamina",
+     "v": 34
+    },
+    {
+     "k": "intellect",
+     "label": "Intellect",
+     "v": 27
+    },
+    {
+     "k": "spirit",
+     "label": "Spirit",
+     "v": 31
+    },
+    {
+     "k": "armor",
+     "label": "Armor",
+     "v": 252
+    },
+    {
+     "k": "attack_power",
+     "label": "Attack power",
+     "v": 76
+    },
+    {
+     "k": "ranged_attack_power",
+     "label": "Ranged attack power",
+     "v": 88
+    },
+    {
+     "k": "spell_power",
+     "label": "Spell power",
+     "v": 0
+    },
+    {
+     "k": "melee_crit",
+     "label": "Melee crit",
+     "v": 4.12,
+     "p": 1
+    },
+    {
+     "k": "ranged_crit",
+     "label": "Ranged crit",
+     "v": 4.84,
+     "p": 1
+    },
+    {
+     "k": "spell_crit",
+     "label": "Spell crit",
+     "v": 5.95,
+     "p": 1
+    },
+    {
+     "k": "dodge",
+     "label": "Dodge",
+     "v": 7.68,
+     "p": 1
+    },
+    {
+     "k": "parry",
+     "label": "Parry",
+     "v": 4.68,
+     "p": 1
+    },
+    {
+     "k": "block",
+     "label": "Block",
+     "v": 0,
+     "p": 1
+    },
+    {
+     "k": "melee_haste",
+     "label": "Melee haste",
+     "v": 0,
+     "p": 1
+    },
+    {
+     "k": "spell_haste",
+     "label": "Spell haste",
+     "v": 0,
+     "p": 1
+    }
+   ],
+   "titleCount": 0,
+   "reputations": {
+    "total": 4,
+    "top": [
+     {
+      "name": "Stormwind",
+      "standing": "Friendly",
+      "v": 1325,
+      "max": 6000,
+      "tier": 4
+     },
+     {
+      "name": "Ironforge",
+      "standing": "Friendly",
+      "v": 100,
+      "max": 6000,
+      "tier": 4
+     },
+     {
+      "name": "Darnassus",
+      "standing": "Friendly",
+      "v": 100,
+      "max": 6000,
+      "tier": 4
+     },
+     {
+      "name": "Gnomeregan Exiles",
+      "standing": "Friendly",
+      "v": 100,
+      "max": 6000,
+      "tier": 4
+     }
+    ]
+   },
+   "achievements": {
+    "points": 0,
+    "count": 5,
+    "recent": [
+     "Explore Arathi Highlands",
+     "Explore Alterac Mountains",
+     "Journeyman Alchemist"
+    ]
+   },
+   "collections": {
+    "mounts": 3,
+    "pets": 4,
+    "toys": 1
+   },
+   "questsDone": 9
   },
   {
    "friend": "Pip",
@@ -4852,7 +5923,181 @@
      }
     ]
    },
-   "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/steppenwolf-one"
+   "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/steppenwolf-one",
+   "media": {
+    "avatar": "https://render.worldofwarcraft.com/forever-eu/character/110/585326-avatar.jpg",
+    "avatarSd": "https://render.worldofwarcraft.com/forever-eu/character/110/585326-avatar-sd.jpg",
+    "main": "https://render.worldofwarcraft.com/forever-eu/character/110/585326-main-raw.png",
+    "mainSd": "https://render.worldofwarcraft.com/forever-eu/character/110/585326-main-sd-raw.png"
+   },
+   "stats": [
+    {
+     "k": "health",
+     "label": "Health",
+     "v": 3285
+    },
+    {
+     "k": "power",
+     "label": "Rage",
+     "v": 100
+    },
+    {
+     "k": "strength",
+     "label": "Strength",
+     "v": 251
+    },
+    {
+     "k": "agility",
+     "label": "Agility",
+     "v": 127
+    },
+    {
+     "k": "stamina",
+     "label": "Stamina",
+     "v": 198
+    },
+    {
+     "k": "intellect",
+     "label": "Intellect",
+     "v": 29
+    },
+    {
+     "k": "spirit",
+     "label": "Spirit",
+     "v": 66
+    },
+    {
+     "k": "armor",
+     "label": "Armor",
+     "v": 3416
+    },
+    {
+     "k": "attack_power",
+     "label": "Attack power",
+     "v": 700
+    },
+    {
+     "k": "ranged_attack_power",
+     "label": "Ranged attack power",
+     "v": 338
+    },
+    {
+     "k": "spell_power",
+     "label": "Spell power",
+     "v": 0
+    },
+    {
+     "k": "melee_crit",
+     "label": "Melee crit",
+     "v": 13.72,
+     "p": 1
+    },
+    {
+     "k": "ranged_crit",
+     "label": "Ranged crit",
+     "v": 6.56,
+     "p": 1
+    },
+    {
+     "k": "spell_crit",
+     "label": "Spell crit",
+     "v": 2,
+     "p": 1
+    },
+    {
+     "k": "dodge",
+     "label": "Dodge",
+     "v": 8.28,
+     "p": 1
+    },
+    {
+     "k": "parry",
+     "label": "Parry",
+     "v": 8.52,
+     "p": 1
+    },
+    {
+     "k": "block",
+     "label": "Block",
+     "v": 5.52,
+     "p": 1
+    },
+    {
+     "k": "melee_haste",
+     "label": "Melee haste",
+     "v": 0,
+     "p": 1
+    },
+    {
+     "k": "spell_haste",
+     "label": "Spell haste",
+     "v": 0,
+     "p": 1
+    }
+   ],
+   "titleCount": 0,
+   "reputations": {
+    "total": 18,
+    "top": [
+     {
+      "name": "Stormwind",
+      "standing": "Revered",
+      "v": 2618,
+      "max": 21000,
+      "tier": 6
+     },
+     {
+      "name": "Darnassus",
+      "standing": "Honored",
+      "v": 11453,
+      "max": 12000,
+      "tier": 5
+     },
+     {
+      "name": "Ironforge",
+      "standing": "Honored",
+      "v": 9563,
+      "max": 12000,
+      "tier": 5
+     },
+     {
+      "name": "Gnomeregan Exiles",
+      "standing": "Honored",
+      "v": 4410,
+      "max": 12000,
+      "tier": 5
+     },
+     {
+      "name": "Gadgetzan",
+      "standing": "Friendly",
+      "v": 3756,
+      "max": 6000,
+      "tier": 4
+     },
+     {
+      "name": "Gelkis Clan Centaur",
+      "standing": "Friendly",
+      "v": 3649,
+      "max": 6000,
+      "tier": 4
+     }
+    ]
+   },
+   "achievements": {
+    "points": 0,
+    "count": 14,
+    "recent": [
+     "Journeyman Enchanter",
+     "Explore Searing Gorge",
+     "Explore Moonglade"
+    ]
+   },
+   "collections": {
+    "mounts": 3,
+    "pets": 5,
+    "toys": 3
+   },
+   "questsDone": 1060
   },
   {
    "friend": "Ash",
@@ -5595,7 +6840,181 @@
      }
     ]
    },
-   "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/ash-kai"
+   "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/ash-kai",
+   "media": {
+    "avatar": "https://render.worldofwarcraft.com/forever-eu/character/137/5732489-avatar.jpg",
+    "avatarSd": "https://render.worldofwarcraft.com/forever-eu/character/137/5732489-avatar-sd.jpg",
+    "main": "https://render.worldofwarcraft.com/forever-eu/character/137/5732489-main-raw.png",
+    "mainSd": "https://render.worldofwarcraft.com/forever-eu/character/137/5732489-main-sd-raw.png"
+   },
+   "stats": [
+    {
+     "k": "health",
+     "label": "Health",
+     "v": 1906
+    },
+    {
+     "k": "power",
+     "label": "Energy",
+     "v": 100
+    },
+    {
+     "k": "strength",
+     "label": "Strength",
+     "v": 68
+    },
+    {
+     "k": "agility",
+     "label": "Agility",
+     "v": 150
+    },
+    {
+     "k": "stamina",
+     "label": "Stamina",
+     "v": 135
+    },
+    {
+     "k": "intellect",
+     "label": "Intellect",
+     "v": 33
+    },
+    {
+     "k": "spirit",
+     "label": "Spirit",
+     "v": 72
+    },
+    {
+     "k": "armor",
+     "label": "Armor",
+     "v": 965
+    },
+    {
+     "k": "attack_power",
+     "label": "Attack power",
+     "v": 347
+    },
+    {
+     "k": "ranged_attack_power",
+     "label": "Ranged attack power",
+     "v": 388
+    },
+    {
+     "k": "spell_power",
+     "label": "Spell power",
+     "v": 0
+    },
+    {
+     "k": "melee_crit",
+     "label": "Melee crit",
+     "v": 9.07,
+     "p": 1
+    },
+    {
+     "k": "ranged_crit",
+     "label": "Ranged crit",
+     "v": 7.51,
+     "p": 1
+    },
+    {
+     "k": "spell_crit",
+     "label": "Spell crit",
+     "v": 1,
+     "p": 1
+    },
+    {
+     "k": "dodge",
+     "label": "Dodge",
+     "v": 15.97,
+     "p": 1
+    },
+    {
+     "k": "parry",
+     "label": "Parry",
+     "v": 10.76,
+     "p": 1
+    },
+    {
+     "k": "block",
+     "label": "Block",
+     "v": 0,
+     "p": 1
+    },
+    {
+     "k": "melee_haste",
+     "label": "Melee haste",
+     "v": 0,
+     "p": 1
+    },
+    {
+     "k": "spell_haste",
+     "label": "Spell haste",
+     "v": 0,
+     "p": 1
+    }
+   ],
+   "titleCount": 0,
+   "reputations": {
+    "total": 15,
+    "top": [
+     {
+      "name": "Stormwind",
+      "standing": "Revered",
+      "v": 1156,
+      "max": 21000,
+      "tier": 6
+     },
+     {
+      "name": "Ironforge",
+      "standing": "Honored",
+      "v": 4691,
+      "max": 12000,
+      "tier": 5
+     },
+     {
+      "name": "Darnassus",
+      "standing": "Honored",
+      "v": 2961,
+      "max": 12000,
+      "tier": 5
+     },
+     {
+      "name": "Gnomeregan Exiles",
+      "standing": "Honored",
+      "v": 1792,
+      "max": 12000,
+      "tier": 5
+     },
+     {
+      "name": "Gelkis Clan Centaur",
+      "standing": "Friendly",
+      "v": 390,
+      "max": 6000,
+      "tier": 4
+     },
+     {
+      "name": "Ravenholdt",
+      "standing": "Neutral",
+      "v": 2100,
+      "max": 3000,
+      "tier": 3
+     }
+    ]
+   },
+   "achievements": {
+    "points": 0,
+    "count": 16,
+    "recent": [
+     "Expert Engineer",
+     "Journeyman Engineer",
+     "Master Druid"
+    ]
+   },
+   "collections": {
+    "mounts": 3,
+    "pets": 6,
+    "toys": 2
+   },
+   "questsDone": 550
   },
   {
    "friend": "Ash",
@@ -6411,7 +7830,181 @@
      }
     ]
    },
-   "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/xerxes-crownrend"
+   "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/xerxes-crownrend",
+   "media": {
+    "avatar": "https://render.worldofwarcraft.com/forever-eu/character/89/5287769-avatar.jpg",
+    "avatarSd": "https://render.worldofwarcraft.com/forever-eu/character/89/5287769-avatar-sd.jpg",
+    "main": "https://render.worldofwarcraft.com/forever-eu/character/89/5287769-main-raw.png",
+    "mainSd": "https://render.worldofwarcraft.com/forever-eu/character/89/5287769-main-sd-raw.png"
+   },
+   "stats": [
+    {
+     "k": "health",
+     "label": "Health",
+     "v": 3029
+    },
+    {
+     "k": "power",
+     "label": "Rage",
+     "v": 100
+    },
+    {
+     "k": "strength",
+     "label": "Strength",
+     "v": 179
+    },
+    {
+     "k": "agility",
+     "label": "Agility",
+     "v": 112
+    },
+    {
+     "k": "stamina",
+     "label": "Stamina",
+     "v": 191
+    },
+    {
+     "k": "intellect",
+     "label": "Intellect",
+     "v": 57
+    },
+    {
+     "k": "spirit",
+     "label": "Spirit",
+     "v": 45
+    },
+    {
+     "k": "armor",
+     "label": "Armor",
+     "v": 4215
+    },
+    {
+     "k": "attack_power",
+     "label": "Attack power",
+     "v": 589
+    },
+    {
+     "k": "ranged_attack_power",
+     "label": "Ranged attack power",
+     "v": 347
+    },
+    {
+     "k": "spell_power",
+     "label": "Spell power",
+     "v": 4
+    },
+    {
+     "k": "melee_crit",
+     "label": "Melee crit",
+     "v": 11.29,
+     "p": 1
+    },
+    {
+     "k": "ranged_crit",
+     "label": "Ranged crit",
+     "v": 0,
+     "p": 1
+    },
+    {
+     "k": "spell_crit",
+     "label": "Spell crit",
+     "v": 0,
+     "p": 1
+    },
+    {
+     "k": "dodge",
+     "label": "Dodge",
+     "v": 7.61,
+     "p": 1
+    },
+    {
+     "k": "parry",
+     "label": "Parry",
+     "v": 5.32,
+     "p": 1
+    },
+    {
+     "k": "block",
+     "label": "Block",
+     "v": 10.32,
+     "p": 1
+    },
+    {
+     "k": "melee_haste",
+     "label": "Melee haste",
+     "v": 0,
+     "p": 1
+    },
+    {
+     "k": "spell_haste",
+     "label": "Spell haste",
+     "v": 0,
+     "p": 1
+    }
+   ],
+   "titleCount": 0,
+   "reputations": {
+    "total": 17,
+    "top": [
+     {
+      "name": "Darnassus",
+      "standing": "Revered",
+      "v": 936,
+      "max": 21000,
+      "tier": 6
+     },
+     {
+      "name": "Stormwind",
+      "standing": "Honored",
+      "v": 11313,
+      "max": 12000,
+      "tier": 5
+     },
+     {
+      "name": "Ironforge",
+      "standing": "Honored",
+      "v": 8192,
+      "max": 12000,
+      "tier": 5
+     },
+     {
+      "name": "Gnomeregan Exiles",
+      "standing": "Honored",
+      "v": 4056,
+      "max": 12000,
+      "tier": 5
+     },
+     {
+      "name": "Booty Bay",
+      "standing": "Friendly",
+      "v": 5992,
+      "max": 6000,
+      "tier": 4
+     },
+     {
+      "name": "Gadgetzan",
+      "standing": "Friendly",
+      "v": 4752,
+      "max": 6000,
+      "tier": 4
+     }
+    ]
+   },
+   "achievements": {
+    "points": 0,
+    "count": 11,
+    "recent": [
+     "Expert Engineer",
+     "Journeyman Engineer",
+     "Explore The Hinterlands"
+    ]
+   },
+   "collections": {
+    "mounts": 4,
+    "pets": 4,
+    "toys": 2
+   },
+   "questsDone": 924
   },
   {
    "friend": "Ash",
@@ -7157,7 +8750,182 @@
      }
     ]
    },
-   "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/peep-j%C3%B5ks"
+   "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/peep-j%C3%B5ks",
+   "media": {
+    "avatar": "https://render.worldofwarcraft.com/forever-eu/character/97/6591841-avatar.jpg",
+    "avatarSd": "https://render.worldofwarcraft.com/forever-eu/character/97/6591841-avatar-sd.jpg",
+    "main": "https://render.worldofwarcraft.com/forever-eu/character/97/6591841-main-raw.png",
+    "mainSd": "https://render.worldofwarcraft.com/forever-eu/character/97/6591841-main-sd-raw.png"
+   },
+   "stats": [
+    {
+     "k": "health",
+     "label": "Health",
+     "v": 2255
+    },
+    {
+     "k": "power",
+     "label": "Energy",
+     "v": 105
+    },
+    {
+     "k": "strength",
+     "label": "Strength",
+     "v": 89
+    },
+    {
+     "k": "agility",
+     "label": "Agility",
+     "v": 200
+    },
+    {
+     "k": "stamina",
+     "label": "Stamina",
+     "v": 148
+    },
+    {
+     "k": "intellect",
+     "label": "Intellect",
+     "v": 38
+    },
+    {
+     "k": "spirit",
+     "label": "Spirit",
+     "v": 51
+    },
+    {
+     "k": "armor",
+     "label": "Armor",
+     "v": 1227
+    },
+    {
+     "k": "attack_power",
+     "label": "Attack power",
+     "v": 388
+    },
+    {
+     "k": "ranged_attack_power",
+     "label": "Ranged attack power",
+     "v": 452
+    },
+    {
+     "k": "spell_power",
+     "label": "Spell power",
+     "v": 0
+    },
+    {
+     "k": "melee_crit",
+     "label": "Melee crit",
+     "v": 4.1,
+     "p": 1
+    },
+    {
+     "k": "ranged_crit",
+     "label": "Ranged crit",
+     "v": 2.7,
+     "p": 1
+    },
+    {
+     "k": "spell_crit",
+     "label": "Spell crit",
+     "v": 0,
+     "p": 1
+    },
+    {
+     "k": "dodge",
+     "label": "Dodge",
+     "v": 18.28,
+     "p": 1
+    },
+    {
+     "k": "parry",
+     "label": "Parry",
+     "v": 10.84,
+     "p": 1
+    },
+    {
+     "k": "block",
+     "label": "Block",
+     "v": 0,
+     "p": 1
+    },
+    {
+     "k": "melee_haste",
+     "label": "Melee haste",
+     "v": 0,
+     "p": 1
+    },
+    {
+     "k": "spell_haste",
+     "label": "Spell haste",
+     "v": 0,
+     "p": 1
+    }
+   ],
+   "title": "Private Peep",
+   "titleCount": 1,
+   "reputations": {
+    "total": 17,
+    "top": [
+     {
+      "name": "Stormwind",
+      "standing": "Honored",
+      "v": 8221,
+      "max": 12000,
+      "tier": 5
+     },
+     {
+      "name": "Ironforge",
+      "standing": "Honored",
+      "v": 6312,
+      "max": 12000,
+      "tier": 5
+     },
+     {
+      "name": "Gnomeregan Exiles",
+      "standing": "Honored",
+      "v": 4306,
+      "max": 12000,
+      "tier": 5
+     },
+     {
+      "name": "Darnassus",
+      "standing": "Honored",
+      "v": 113,
+      "max": 12000,
+      "tier": 5
+     },
+     {
+      "name": "Gelkis Clan Centaur",
+      "standing": "Friendly",
+      "v": 3800,
+      "max": 6000,
+      "tier": 4
+     },
+     {
+      "name": "Booty Bay",
+      "standing": "Friendly",
+      "v": 3210,
+      "max": 6000,
+      "tier": 4
+     }
+    ]
+   },
+   "achievements": {
+    "points": 0,
+    "count": 6,
+    "recent": [
+     "Explore Riverglades",
+     "Experienced Rogue",
+     "Journeyman Leatherworker"
+    ]
+   },
+   "collections": {
+    "mounts": 1,
+    "pets": 0,
+    "toys": 0
+   },
+   "questsDone": 635
   },
   {
    "friend": "Panzer",
@@ -8281,7 +10049,181 @@
      }
     ]
    },
-   "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/panzer-error"
+   "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/panzer-error",
+   "media": {
+    "avatar": "https://render.worldofwarcraft.com/forever-eu/character/226/6684642-avatar.jpg",
+    "avatarSd": "https://render.worldofwarcraft.com/forever-eu/character/226/6684642-avatar-sd.jpg",
+    "main": "https://render.worldofwarcraft.com/forever-eu/character/226/6684642-main-raw.png",
+    "mainSd": "https://render.worldofwarcraft.com/forever-eu/character/226/6684642-main-sd-raw.png"
+   },
+   "stats": [
+    {
+     "k": "health",
+     "label": "Health",
+     "v": 3110
+    },
+    {
+     "k": "power",
+     "label": "Mana",
+     "v": 4330
+    },
+    {
+     "k": "strength",
+     "label": "Strength",
+     "v": 219
+    },
+    {
+     "k": "agility",
+     "label": "Agility",
+     "v": 68
+    },
+    {
+     "k": "stamina",
+     "label": "Stamina",
+     "v": 201
+    },
+    {
+     "k": "intellect",
+     "label": "Intellect",
+     "v": 206
+    },
+    {
+     "k": "spirit",
+     "label": "Spirit",
+     "v": 111
+    },
+    {
+     "k": "armor",
+     "label": "Armor",
+     "v": 2137
+    },
+    {
+     "k": "attack_power",
+     "label": "Attack power",
+     "v": 788
+    },
+    {
+     "k": "ranged_attack_power",
+     "label": "Ranged attack power",
+     "v": 44
+    },
+    {
+     "k": "spell_power",
+     "label": "Spell power",
+     "v": 182
+    },
+    {
+     "k": "melee_crit",
+     "label": "Melee crit",
+     "v": 15.15,
+     "p": 1
+    },
+    {
+     "k": "ranged_crit",
+     "label": "Ranged crit",
+     "v": 10,
+     "p": 1
+    },
+    {
+     "k": "spell_crit",
+     "label": "Spell crit",
+     "v": 14.78,
+     "p": 1
+    },
+    {
+     "k": "dodge",
+     "label": "Dodge",
+     "v": 5.11,
+     "p": 1
+    },
+    {
+     "k": "parry",
+     "label": "Parry",
+     "v": 4.96,
+     "p": 1
+    },
+    {
+     "k": "block",
+     "label": "Block",
+     "v": 4.96,
+     "p": 1
+    },
+    {
+     "k": "melee_haste",
+     "label": "Melee haste",
+     "v": 0,
+     "p": 1
+    },
+    {
+     "k": "spell_haste",
+     "label": "Spell haste",
+     "v": 0,
+     "p": 1
+    }
+   ],
+   "titleCount": 0,
+   "reputations": {
+    "total": 19,
+    "top": [
+     {
+      "name": "Ironforge",
+      "standing": "Revered",
+      "v": 486,
+      "max": 21000,
+      "tier": 6
+     },
+     {
+      "name": "Stormwind",
+      "standing": "Honored",
+      "v": 8387,
+      "max": 12000,
+      "tier": 5
+     },
+     {
+      "name": "Gnomeregan Exiles",
+      "standing": "Honored",
+      "v": 5123,
+      "max": 12000,
+      "tier": 5
+     },
+     {
+      "name": "Argent Dawn",
+      "standing": "Honored",
+      "v": 4125,
+      "max": 12000,
+      "tier": 5
+     },
+     {
+      "name": "Darnassus",
+      "standing": "Honored",
+      "v": 3331,
+      "max": 12000,
+      "tier": 5
+     },
+     {
+      "name": "Gadgetzan",
+      "standing": "Friendly",
+      "v": 4042,
+      "max": 6000,
+      "tier": 4
+     }
+    ]
+   },
+   "achievements": {
+    "points": 0,
+    "count": 20,
+    "recent": [
+     "Explore Hillsbrad Foothills",
+     "Explore Alterac Mountains",
+     "Explore Mount Hyjal"
+    ]
+   },
+   "collections": {
+    "mounts": 1,
+    "pets": 3,
+    "toys": 1
+   },
+   "questsDone": 1075
   },
   {
    "friend": "Panzer",
@@ -8997,7 +10939,181 @@
      }
     ]
    },
-   "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/damp-fat"
+   "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/damp-fat",
+   "media": {
+    "avatar": "https://render.worldofwarcraft.com/forever-eu/character/132/6695812-avatar.jpg",
+    "avatarSd": "https://render.worldofwarcraft.com/forever-eu/character/132/6695812-avatar-sd.jpg",
+    "main": "https://render.worldofwarcraft.com/forever-eu/character/132/6695812-main-raw.png",
+    "mainSd": "https://render.worldofwarcraft.com/forever-eu/character/132/6695812-main-sd-raw.png"
+   },
+   "stats": [
+    {
+     "k": "health",
+     "label": "Health",
+     "v": 1534
+    },
+    {
+     "k": "power",
+     "label": "Mana",
+     "v": 3351
+    },
+    {
+     "k": "strength",
+     "label": "Strength",
+     "v": 81
+    },
+    {
+     "k": "agility",
+     "label": "Agility",
+     "v": 37
+    },
+    {
+     "k": "stamina",
+     "label": "Stamina",
+     "v": 103
+    },
+    {
+     "k": "intellect",
+     "label": "Intellect",
+     "v": 169
+    },
+    {
+     "k": "spirit",
+     "label": "Spirit",
+     "v": 109
+    },
+    {
+     "k": "armor",
+     "label": "Armor",
+     "v": 1642
+    },
+    {
+     "k": "attack_power",
+     "label": "Attack power",
+     "v": 230
+    },
+    {
+     "k": "ranged_attack_power",
+     "label": "Ranged attack power",
+     "v": 0
+    },
+    {
+     "k": "spell_power",
+     "label": "Spell power",
+     "v": 96
+    },
+    {
+     "k": "melee_crit",
+     "label": "Melee crit",
+     "v": 3.27,
+     "p": 1
+    },
+    {
+     "k": "ranged_crit",
+     "label": "Ranged crit",
+     "v": 0,
+     "p": 1
+    },
+    {
+     "k": "spell_crit",
+     "label": "Spell crit",
+     "v": 6.34,
+     "p": 1
+    },
+    {
+     "k": "dodge",
+     "label": "Dodge",
+     "v": 3.83,
+     "p": 1
+    },
+    {
+     "k": "parry",
+     "label": "Parry",
+     "v": 0,
+     "p": 1
+    },
+    {
+     "k": "block",
+     "label": "Block",
+     "v": 4.64,
+     "p": 1
+    },
+    {
+     "k": "melee_haste",
+     "label": "Melee haste",
+     "v": 0,
+     "p": 1
+    },
+    {
+     "k": "spell_haste",
+     "label": "Spell haste",
+     "v": 0,
+     "p": 1
+    }
+   ],
+   "titleCount": 0,
+   "reputations": {
+    "total": 13,
+    "top": [
+     {
+      "name": "Stormwind",
+      "standing": "Honored",
+      "v": 4325,
+      "max": 12000,
+      "tier": 5
+     },
+     {
+      "name": "Ironforge",
+      "standing": "Honored",
+      "v": 3002,
+      "max": 12000,
+      "tier": 5
+     },
+     {
+      "name": "Gnomeregan Exiles",
+      "standing": "Honored",
+      "v": 1135,
+      "max": 12000,
+      "tier": 5
+     },
+     {
+      "name": "Darnassus",
+      "standing": "Friendly",
+      "v": 5880,
+      "max": 6000,
+      "tier": 4
+     },
+     {
+      "name": "Brotherhood of the Horse",
+      "standing": "Friendly",
+      "v": 2091,
+      "max": 6000,
+      "tier": 4
+     },
+     {
+      "name": "Powderfuse",
+      "standing": "Friendly",
+      "v": 390,
+      "max": 6000,
+      "tier": 4
+     }
+    ]
+   },
+   "achievements": {
+    "points": 0,
+    "count": 3,
+    "recent": [
+     "Explore Arathi Highlands",
+     "Novice Shaman",
+     "Explore Darkshore"
+    ]
+   },
+   "collections": {
+    "mounts": 0,
+    "pets": 0,
+    "toys": 0
+   },
+   "questsDone": 454
   },
   {
    "friend": "Gareth",
@@ -10026,7 +12142,181 @@
      }
     ]
    },
-   "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/garethos-blackwood"
+   "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/garethos-blackwood",
+   "media": {
+    "avatar": "https://render.worldofwarcraft.com/forever-eu/character/143/1470351-avatar.jpg",
+    "avatarSd": "https://render.worldofwarcraft.com/forever-eu/character/143/1470351-avatar-sd.jpg",
+    "main": "https://render.worldofwarcraft.com/forever-eu/character/143/1470351-main-raw.png",
+    "mainSd": "https://render.worldofwarcraft.com/forever-eu/character/143/1470351-main-sd-raw.png"
+   },
+   "stats": [
+    {
+     "k": "health",
+     "label": "Health",
+     "v": 4629
+    },
+    {
+     "k": "power",
+     "label": "Rage",
+     "v": 100
+    },
+    {
+     "k": "strength",
+     "label": "Strength",
+     "v": 267
+    },
+    {
+     "k": "agility",
+     "label": "Agility",
+     "v": 143
+    },
+    {
+     "k": "stamina",
+     "label": "Stamina",
+     "v": 312
+    },
+    {
+     "k": "intellect",
+     "label": "Intellect",
+     "v": 30
+    },
+    {
+     "k": "spirit",
+     "label": "Spirit",
+     "v": 58
+    },
+    {
+     "k": "armor",
+     "label": "Armor",
+     "v": 6006
+    },
+    {
+     "k": "attack_power",
+     "label": "Attack power",
+     "v": 738
+    },
+    {
+     "k": "ranged_attack_power",
+     "label": "Ranged attack power",
+     "v": 370
+    },
+    {
+     "k": "spell_power",
+     "label": "Spell power",
+     "v": 0
+    },
+    {
+     "k": "melee_crit",
+     "label": "Melee crit",
+     "v": 16.07,
+     "p": 1
+    },
+    {
+     "k": "ranged_crit",
+     "label": "Ranged crit",
+     "v": 11.11,
+     "p": 1
+    },
+    {
+     "k": "spell_crit",
+     "label": "Spell crit",
+     "v": 4,
+     "p": 1
+    },
+    {
+     "k": "dodge",
+     "label": "Dodge",
+     "v": 8.6,
+     "p": 1
+    },
+    {
+     "k": "parry",
+     "label": "Parry",
+     "v": 9.52,
+     "p": 1
+    },
+    {
+     "k": "block",
+     "label": "Block",
+     "v": 11.72,
+     "p": 1
+    },
+    {
+     "k": "melee_haste",
+     "label": "Melee haste",
+     "v": 0,
+     "p": 1
+    },
+    {
+     "k": "spell_haste",
+     "label": "Spell haste",
+     "v": 0,
+     "p": 1
+    }
+   ],
+   "titleCount": 0,
+   "reputations": {
+    "total": 18,
+    "top": [
+     {
+      "name": "Stormwind",
+      "standing": "Revered",
+      "v": 7973,
+      "max": 21000,
+      "tier": 6
+     },
+     {
+      "name": "Ironforge",
+      "standing": "Revered",
+      "v": 182,
+      "max": 21000,
+      "tier": 6
+     },
+     {
+      "name": "Argent Dawn",
+      "standing": "Honored",
+      "v": 5975,
+      "max": 12000,
+      "tier": 5
+     },
+     {
+      "name": "Darnassus",
+      "standing": "Honored",
+      "v": 5137,
+      "max": 12000,
+      "tier": 5
+     },
+     {
+      "name": "Gnomeregan Exiles",
+      "standing": "Honored",
+      "v": 4990,
+      "max": 12000,
+      "tier": 5
+     },
+     {
+      "name": "Booty Bay",
+      "standing": "Friendly",
+      "v": 4562,
+      "max": 6000,
+      "tier": 4
+     }
+    ]
+   },
+   "achievements": {
+    "points": 0,
+    "count": 20,
+    "recent": [
+     "Novice Hunter",
+     "Novice Spelunker",
+     "Master Spelunker"
+    ]
+   },
+   "collections": {
+    "mounts": 3,
+    "pets": 4,
+    "toys": 4
+   },
+   "questsDone": 1141
   },
   {
    "friend": "Gareth",
@@ -10913,7 +13203,181 @@
      }
     ]
    },
-   "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/chasida-shieldsworn"
+   "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/chasida-shieldsworn",
+   "media": {
+    "avatar": "https://render.worldofwarcraft.com/forever-eu/character/182/5598390-avatar.jpg",
+    "avatarSd": "https://render.worldofwarcraft.com/forever-eu/character/182/5598390-avatar-sd.jpg",
+    "main": "https://render.worldofwarcraft.com/forever-eu/character/182/5598390-main-raw.png",
+    "mainSd": "https://render.worldofwarcraft.com/forever-eu/character/182/5598390-main-sd-raw.png"
+   },
+   "stats": [
+    {
+     "k": "health",
+     "label": "Health",
+     "v": 2806
+    },
+    {
+     "k": "power",
+     "label": "Mana",
+     "v": 1937
+    },
+    {
+     "k": "strength",
+     "label": "Strength",
+     "v": 170
+    },
+    {
+     "k": "agility",
+     "label": "Agility",
+     "v": 51
+    },
+    {
+     "k": "stamina",
+     "label": "Stamina",
+     "v": 202
+    },
+    {
+     "k": "intellect",
+     "label": "Intellect",
+     "v": 64
+    },
+    {
+     "k": "spirit",
+     "label": "Spirit",
+     "v": 83
+    },
+    {
+     "k": "armor",
+     "label": "Armor",
+     "v": 2872
+    },
+    {
+     "k": "attack_power",
+     "label": "Attack power",
+     "v": 502
+    },
+    {
+     "k": "ranged_attack_power",
+     "label": "Ranged attack power",
+     "v": 32
+    },
+    {
+     "k": "spell_power",
+     "label": "Spell power",
+     "v": 41
+    },
+    {
+     "k": "melee_crit",
+     "label": "Melee crit",
+     "v": 4.01,
+     "p": 1
+    },
+    {
+     "k": "ranged_crit",
+     "label": "Ranged crit",
+     "v": 0,
+     "p": 1
+    },
+    {
+     "k": "spell_crit",
+     "label": "Spell crit",
+     "v": 5.28,
+     "p": 1
+    },
+    {
+     "k": "dodge",
+     "label": "Dodge",
+     "v": 4.59,
+     "p": 1
+    },
+    {
+     "k": "parry",
+     "label": "Parry",
+     "v": 11.73,
+     "p": 1
+    },
+    {
+     "k": "block",
+     "label": "Block",
+     "v": 5.8,
+     "p": 1
+    },
+    {
+     "k": "melee_haste",
+     "label": "Melee haste",
+     "v": 0,
+     "p": 1
+    },
+    {
+     "k": "spell_haste",
+     "label": "Spell haste",
+     "v": 0,
+     "p": 1
+    }
+   ],
+   "titleCount": 0,
+   "reputations": {
+    "total": 14,
+    "top": [
+     {
+      "name": "Stormwind",
+      "standing": "Honored",
+      "v": 9991,
+      "max": 12000,
+      "tier": 5
+     },
+     {
+      "name": "Ironforge",
+      "standing": "Honored",
+      "v": 6752,
+      "max": 12000,
+      "tier": 5
+     },
+     {
+      "name": "Gnomeregan Exiles",
+      "standing": "Honored",
+      "v": 4616,
+      "max": 12000,
+      "tier": 5
+     },
+     {
+      "name": "Darnassus",
+      "standing": "Honored",
+      "v": 4293,
+      "max": 12000,
+      "tier": 5
+     },
+     {
+      "name": "Booty Bay",
+      "standing": "Friendly",
+      "v": 3175,
+      "max": 6000,
+      "tier": 4
+     },
+     {
+      "name": "Brotherhood of the Horse",
+      "standing": "Friendly",
+      "v": 2956,
+      "max": 6000,
+      "tier": 4
+     }
+    ]
+   },
+   "achievements": {
+    "points": 0,
+    "count": 5,
+    "recent": [
+     "Explore Moonglade",
+     "Experienced Paladin",
+     "Journeyman Blacksmith"
+    ]
+   },
+   "collections": {
+    "mounts": 3,
+    "pets": 4,
+    "toys": 2
+   },
+   "questsDone": 761
   },
   {
    "friend": "Gareth",
@@ -11659,7 +14123,181 @@
      }
     ]
    },
-   "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/ryan-angelos"
+   "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/ryan-angelos",
+   "media": {
+    "avatar": "https://render.worldofwarcraft.com/forever-eu/character/149/6727317-avatar.jpg",
+    "avatarSd": "https://render.worldofwarcraft.com/forever-eu/character/149/6727317-avatar-sd.jpg",
+    "main": "https://render.worldofwarcraft.com/forever-eu/character/149/6727317-main-raw.png",
+    "mainSd": "https://render.worldofwarcraft.com/forever-eu/character/149/6727317-main-sd-raw.png"
+   },
+   "stats": [
+    {
+     "k": "health",
+     "label": "Health",
+     "v": 2767
+    },
+    {
+     "k": "power",
+     "label": "Mana",
+     "v": 1946
+    },
+    {
+     "k": "strength",
+     "label": "Strength",
+     "v": 113
+    },
+    {
+     "k": "agility",
+     "label": "Agility",
+     "v": 53
+    },
+    {
+     "k": "stamina",
+     "label": "Stamina",
+     "v": 191
+    },
+    {
+     "k": "intellect",
+     "label": "Intellect",
+     "v": 61
+    },
+    {
+     "k": "spirit",
+     "label": "Spirit",
+     "v": 64
+    },
+    {
+     "k": "armor",
+     "label": "Armor",
+     "v": 4541
+    },
+    {
+     "k": "attack_power",
+     "label": "Attack power",
+     "v": 362
+    },
+    {
+     "k": "ranged_attack_power",
+     "label": "Ranged attack power",
+     "v": 0
+    },
+    {
+     "k": "spell_power",
+     "label": "Spell power",
+     "v": 219
+    },
+    {
+     "k": "melee_crit",
+     "label": "Melee crit",
+     "v": 9.5,
+     "p": 1
+    },
+    {
+     "k": "ranged_crit",
+     "label": "Ranged crit",
+     "v": 1.46,
+     "p": 1
+    },
+    {
+     "k": "spell_crit",
+     "label": "Spell crit",
+     "v": 11.69,
+     "p": 1
+    },
+    {
+     "k": "dodge",
+     "label": "Dodge",
+     "v": 6.18,
+     "p": 1
+    },
+    {
+     "k": "parry",
+     "label": "Parry",
+     "v": 7.36,
+     "p": 1
+    },
+    {
+     "k": "block",
+     "label": "Block",
+     "v": 7.36,
+     "p": 1
+    },
+    {
+     "k": "melee_haste",
+     "label": "Melee haste",
+     "v": 0,
+     "p": 1
+    },
+    {
+     "k": "spell_haste",
+     "label": "Spell haste",
+     "v": 0,
+     "p": 1
+    }
+   ],
+   "titleCount": 0,
+   "reputations": {
+    "total": 20,
+    "top": [
+     {
+      "name": "Magram Clan Centaur",
+      "standing": "Revered",
+      "v": 2755,
+      "max": 21000,
+      "tier": 6
+     },
+     {
+      "name": "Ironforge",
+      "standing": "Revered",
+      "v": 403,
+      "max": 21000,
+      "tier": 6
+     },
+     {
+      "name": "Stormwind",
+      "standing": "Honored",
+      "v": 11968,
+      "max": 12000,
+      "tier": 5
+     },
+     {
+      "name": "Gnomeregan Exiles",
+      "standing": "Honored",
+      "v": 6045,
+      "max": 12000,
+      "tier": 5
+     },
+     {
+      "name": "Darnassus",
+      "standing": "Honored",
+      "v": 2115,
+      "max": 12000,
+      "tier": 5
+     },
+     {
+      "name": "Azeroth Commerce Authority",
+      "standing": "Honored",
+      "v": 75,
+      "max": 12000,
+      "tier": 5
+     }
+    ]
+   },
+   "achievements": {
+    "points": 0,
+    "count": 18,
+    "recent": [
+     "Explore Tanaris",
+     "Explore Riverglades",
+     "Experienced Spelunker"
+    ]
+   },
+   "collections": {
+    "mounts": 3,
+    "pets": 8,
+    "toys": 2
+   },
+   "questsDone": 836
   },
   {
    "friend": "Zewazi",
@@ -12821,7 +15459,181 @@
      }
     ]
    },
-   "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/zewazi-softis"
+   "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/zewazi-softis",
+   "media": {
+    "avatar": "https://render.worldofwarcraft.com/forever-eu/character/62/6732350-avatar.jpg",
+    "avatarSd": "https://render.worldofwarcraft.com/forever-eu/character/62/6732350-avatar-sd.jpg",
+    "main": "https://render.worldofwarcraft.com/forever-eu/character/62/6732350-main-raw.png",
+    "mainSd": "https://render.worldofwarcraft.com/forever-eu/character/62/6732350-main-sd-raw.png"
+   },
+   "stats": [
+    {
+     "k": "health",
+     "label": "Health",
+     "v": 3267
+    },
+    {
+     "k": "power",
+     "label": "Mana",
+     "v": 3210
+    },
+    {
+     "k": "strength",
+     "label": "Strength",
+     "v": 66
+    },
+    {
+     "k": "agility",
+     "label": "Agility",
+     "v": 342
+    },
+    {
+     "k": "stamina",
+     "label": "Stamina",
+     "v": 198
+    },
+    {
+     "k": "intellect",
+     "label": "Intellect",
+     "v": 118
+    },
+    {
+     "k": "spirit",
+     "label": "Spirit",
+     "v": 120
+    },
+    {
+     "k": "armor",
+     "label": "Armor",
+     "v": 2792
+    },
+    {
+     "k": "attack_power",
+     "label": "Attack power",
+     "v": 584
+    },
+    {
+     "k": "ranged_attack_power",
+     "label": "Ranged attack power",
+     "v": 860
+    },
+    {
+     "k": "spell_power",
+     "label": "Spell power",
+     "v": 0
+    },
+    {
+     "k": "melee_crit",
+     "label": "Melee crit",
+     "v": 6.82,
+     "p": 1
+    },
+    {
+     "k": "ranged_crit",
+     "label": "Ranged crit",
+     "v": 8.46,
+     "p": 1
+    },
+    {
+     "k": "spell_crit",
+     "label": "Spell crit",
+     "v": 6.55,
+     "p": 1
+    },
+    {
+     "k": "dodge",
+     "label": "Dodge",
+     "v": 13.69,
+     "p": 1
+    },
+    {
+     "k": "parry",
+     "label": "Parry",
+     "v": 4.8,
+     "p": 1
+    },
+    {
+     "k": "block",
+     "label": "Block",
+     "v": 0,
+     "p": 1
+    },
+    {
+     "k": "melee_haste",
+     "label": "Melee haste",
+     "v": 0,
+     "p": 1
+    },
+    {
+     "k": "spell_haste",
+     "label": "Spell haste",
+     "v": 0,
+     "p": 1
+    }
+   ],
+   "titleCount": 0,
+   "reputations": {
+    "total": 17,
+    "top": [
+     {
+      "name": "Darnassus",
+      "standing": "Revered",
+      "v": 2553,
+      "max": 21000,
+      "tier": 6
+     },
+     {
+      "name": "Stormwind",
+      "standing": "Honored",
+      "v": 7971,
+      "max": 12000,
+      "tier": 5
+     },
+     {
+      "name": "Argent Dawn",
+      "standing": "Honored",
+      "v": 7319,
+      "max": 12000,
+      "tier": 5
+     },
+     {
+      "name": "Ironforge",
+      "standing": "Honored",
+      "v": 5467,
+      "max": 12000,
+      "tier": 5
+     },
+     {
+      "name": "Gnomeregan Exiles",
+      "standing": "Honored",
+      "v": 2277,
+      "max": 12000,
+      "tier": 5
+     },
+     {
+      "name": "Booty Bay",
+      "standing": "Honored",
+      "v": 307,
+      "max": 12000,
+      "tier": 5
+     }
+    ]
+   },
+   "achievements": {
+    "points": 0,
+    "count": 10,
+    "recent": [
+     "Explore Mount Hyjal",
+     "Explore Burning Steppes",
+     "Master Hunter"
+    ]
+   },
+   "collections": {
+    "mounts": 4,
+    "pets": 7,
+    "toys": 2
+   },
+   "questsDone": 959
   }
  ],
  "enemies": [
@@ -13639,7 +16451,181 @@
      }
     ]
    },
-   "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/atturom-mokoko"
+   "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/atturom-mokoko",
+   "media": {
+    "avatar": "https://render.worldofwarcraft.com/forever-eu/character/154/14256538-avatar.jpg",
+    "avatarSd": "https://render.worldofwarcraft.com/forever-eu/character/154/14256538-avatar-sd.jpg",
+    "main": "https://render.worldofwarcraft.com/forever-eu/character/154/14256538-main-raw.png",
+    "mainSd": "https://render.worldofwarcraft.com/forever-eu/character/154/14256538-main-sd-raw.png"
+   },
+   "stats": [
+    {
+     "k": "health",
+     "label": "Health",
+     "v": 1187
+    },
+    {
+     "k": "power",
+     "label": "Mana",
+     "v": 1875
+    },
+    {
+     "k": "strength",
+     "label": "Strength",
+     "v": 51
+    },
+    {
+     "k": "agility",
+     "label": "Agility",
+     "v": 166
+    },
+    {
+     "k": "stamina",
+     "label": "Stamina",
+     "v": 82
+    },
+    {
+     "k": "intellect",
+     "label": "Intellect",
+     "v": 79
+    },
+    {
+     "k": "spirit",
+     "label": "Spirit",
+     "v": 77
+    },
+    {
+     "k": "armor",
+     "label": "Armor",
+     "v": 912
+    },
+    {
+     "k": "attack_power",
+     "label": "Attack power",
+     "v": 269
+    },
+    {
+     "k": "ranged_attack_power",
+     "label": "Ranged attack power",
+     "v": 384
+    },
+    {
+     "k": "spell_power",
+     "label": "Spell power",
+     "v": 32
+    },
+    {
+     "k": "melee_crit",
+     "label": "Melee crit",
+     "v": 4.92,
+     "p": 1
+    },
+    {
+     "k": "ranged_crit",
+     "label": "Ranged crit",
+     "v": 5.64,
+     "p": 1
+    },
+    {
+     "k": "spell_crit",
+     "label": "Spell crit",
+     "v": 5.69,
+     "p": 1
+    },
+    {
+     "k": "dodge",
+     "label": "Dodge",
+     "v": 11.33,
+     "p": 1
+    },
+    {
+     "k": "parry",
+     "label": "Parry",
+     "v": 3.96,
+     "p": 1
+    },
+    {
+     "k": "block",
+     "label": "Block",
+     "v": 0,
+     "p": 1
+    },
+    {
+     "k": "melee_haste",
+     "label": "Melee haste",
+     "v": 0,
+     "p": 1
+    },
+    {
+     "k": "spell_haste",
+     "label": "Spell haste",
+     "v": 0,
+     "p": 1
+    }
+   ],
+   "titleCount": 0,
+   "reputations": {
+    "total": 10,
+    "top": [
+     {
+      "name": "Darnassus",
+      "standing": "Honored",
+      "v": 6441,
+      "max": 12000,
+      "tier": 5
+     },
+     {
+      "name": "Stormwind",
+      "standing": "Honored",
+      "v": 4357,
+      "max": 12000,
+      "tier": 5
+     },
+     {
+      "name": "Ironforge",
+      "standing": "Honored",
+      "v": 1412,
+      "max": 12000,
+      "tier": 5
+     },
+     {
+      "name": "Gnomeregan Exiles",
+      "standing": "Friendly",
+      "v": 5670,
+      "max": 6000,
+      "tier": 4
+     },
+     {
+      "name": "Kirin Tor",
+      "standing": "Neutral",
+      "v": 1280,
+      "max": 3000,
+      "tier": 3
+     },
+     {
+      "name": "Booty Bay",
+      "standing": "Neutral",
+      "v": 1206,
+      "max": 3000,
+      "tier": 3
+     }
+    ]
+   },
+   "achievements": {
+    "points": 0,
+    "count": 9,
+    "recent": [
+     "Explore Elwynn Forest",
+     "Novice Shaman",
+     "Explore Dun Morogh"
+    ]
+   },
+   "collections": {
+    "mounts": 0,
+    "pets": 1,
+    "toys": 0
+   },
+   "questsDone": 430
   },
   {
    "friend": "Kusou",
@@ -14418,7 +17404,181 @@
      }
     ]
    },
-   "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/kusou-mokoko"
+   "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/kusou-mokoko",
+   "media": {
+    "avatar": "https://render.worldofwarcraft.com/forever-eu/character/36/14256420-avatar.jpg",
+    "avatarSd": "https://render.worldofwarcraft.com/forever-eu/character/36/14256420-avatar-sd.jpg",
+    "main": "https://render.worldofwarcraft.com/forever-eu/character/36/14256420-main-raw.png",
+    "mainSd": "https://render.worldofwarcraft.com/forever-eu/character/36/14256420-main-sd-raw.png"
+   },
+   "stats": [
+    {
+     "k": "health",
+     "label": "Health",
+     "v": 1341
+    },
+    {
+     "k": "power",
+     "label": "Energy",
+     "v": 100
+    },
+    {
+     "k": "strength",
+     "label": "Strength",
+     "v": 83
+    },
+    {
+     "k": "agility",
+     "label": "Agility",
+     "v": 158
+    },
+    {
+     "k": "stamina",
+     "label": "Stamina",
+     "v": 94
+    },
+    {
+     "k": "intellect",
+     "label": "Intellect",
+     "v": 32
+    },
+    {
+     "k": "spirit",
+     "label": "Spirit",
+     "v": 53
+    },
+    {
+     "k": "armor",
+     "label": "Armor",
+     "v": 929
+    },
+    {
+     "k": "attack_power",
+     "label": "Attack power",
+     "v": 319
+    },
+    {
+     "k": "ranged_attack_power",
+     "label": "Ranged attack power",
+     "v": 358
+    },
+    {
+     "k": "spell_power",
+     "label": "Spell power",
+     "v": 0
+    },
+    {
+     "k": "melee_crit",
+     "label": "Melee crit",
+     "v": 9.88,
+     "p": 1
+    },
+    {
+     "k": "ranged_crit",
+     "label": "Ranged crit",
+     "v": 3.03,
+     "p": 1
+    },
+    {
+     "k": "spell_crit",
+     "label": "Spell crit",
+     "v": 0,
+     "p": 1
+    },
+    {
+     "k": "dodge",
+     "label": "Dodge",
+     "v": 20.59,
+     "p": 1
+    },
+    {
+     "k": "parry",
+     "label": "Parry",
+     "v": 10.84,
+     "p": 1
+    },
+    {
+     "k": "block",
+     "label": "Block",
+     "v": 0,
+     "p": 1
+    },
+    {
+     "k": "melee_haste",
+     "label": "Melee haste",
+     "v": 0,
+     "p": 1
+    },
+    {
+     "k": "spell_haste",
+     "label": "Spell haste",
+     "v": 0,
+     "p": 1
+    }
+   ],
+   "titleCount": 0,
+   "reputations": {
+    "total": 11,
+    "top": [
+     {
+      "name": "Darnassus",
+      "standing": "Honored",
+      "v": 5228,
+      "max": 12000,
+      "tier": 5
+     },
+     {
+      "name": "Stormwind",
+      "standing": "Honored",
+      "v": 3810,
+      "max": 12000,
+      "tier": 5
+     },
+     {
+      "name": "Ironforge",
+      "standing": "Honored",
+      "v": 1078,
+      "max": 12000,
+      "tier": 5
+     },
+     {
+      "name": "Gnomeregan Exiles",
+      "standing": "Friendly",
+      "v": 5505,
+      "max": 6000,
+      "tier": 4
+     },
+     {
+      "name": "Azeroth Commerce Authority",
+      "standing": "Neutral",
+      "v": 2075,
+      "max": 3000,
+      "tier": 3
+     },
+     {
+      "name": "Kirin Tor",
+      "standing": "Neutral",
+      "v": 1318,
+      "max": 3000,
+      "tier": 3
+     }
+    ]
+   },
+   "achievements": {
+    "points": 0,
+    "count": 6,
+    "recent": [
+     "Explore Westfall",
+     "Novice Mage",
+     "Journeyman Alchemist"
+    ]
+   },
+   "collections": {
+    "mounts": 0,
+    "pets": 0,
+    "toys": 0
+   },
+   "questsDone": 415
   },
   {
    "friend": "Tryi",
@@ -15154,7 +18314,181 @@
      }
     ]
    },
-   "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/tryi-mokoko"
+   "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/tryi-mokoko",
+   "media": {
+    "avatar": "https://render.worldofwarcraft.com/forever-eu/character/111/13766511-avatar.jpg",
+    "avatarSd": "https://render.worldofwarcraft.com/forever-eu/character/111/13766511-avatar-sd.jpg",
+    "main": "https://render.worldofwarcraft.com/forever-eu/character/111/13766511-main-raw.png",
+    "mainSd": "https://render.worldofwarcraft.com/forever-eu/character/111/13766511-main-sd-raw.png"
+   },
+   "stats": [
+    {
+     "k": "health",
+     "label": "Health",
+     "v": 1279
+    },
+    {
+     "k": "power",
+     "label": "Mana",
+     "v": 1459
+    },
+    {
+     "k": "strength",
+     "label": "Strength",
+     "v": 100
+    },
+    {
+     "k": "agility",
+     "label": "Agility",
+     "v": 123
+    },
+    {
+     "k": "stamina",
+     "label": "Stamina",
+     "v": 89
+    },
+    {
+     "k": "intellect",
+     "label": "Intellect",
+     "v": 66
+    },
+    {
+     "k": "spirit",
+     "label": "Spirit",
+     "v": 70
+    },
+    {
+     "k": "armor",
+     "label": "Armor",
+     "v": 854
+    },
+    {
+     "k": "attack_power",
+     "label": "Attack power",
+     "v": 190
+    },
+    {
+     "k": "ranged_attack_power",
+     "label": "Ranged attack power",
+     "v": 10
+    },
+    {
+     "k": "spell_power",
+     "label": "Spell power",
+     "v": 0
+    },
+    {
+     "k": "melee_crit",
+     "label": "Melee crit",
+     "v": 7.71,
+     "p": 1
+    },
+    {
+     "k": "ranged_crit",
+     "label": "Ranged crit",
+     "v": 3.63,
+     "p": 1
+    },
+    {
+     "k": "spell_crit",
+     "label": "Spell crit",
+     "v": 3.75,
+     "p": 1
+    },
+    {
+     "k": "dodge",
+     "label": "Dodge",
+     "v": 15.59,
+     "p": 1
+    },
+    {
+     "k": "parry",
+     "label": "Parry",
+     "v": 0,
+     "p": 1
+    },
+    {
+     "k": "block",
+     "label": "Block",
+     "v": 0,
+     "p": 1
+    },
+    {
+     "k": "melee_haste",
+     "label": "Melee haste",
+     "v": 0,
+     "p": 1
+    },
+    {
+     "k": "spell_haste",
+     "label": "Spell haste",
+     "v": 0,
+     "p": 1
+    }
+   ],
+   "titleCount": 0,
+   "reputations": {
+    "total": 11,
+    "top": [
+     {
+      "name": "Darnassus",
+      "standing": "Honored",
+      "v": 5428,
+      "max": 12000,
+      "tier": 5
+     },
+     {
+      "name": "Stormwind",
+      "standing": "Honored",
+      "v": 3972,
+      "max": 12000,
+      "tier": 5
+     },
+     {
+      "name": "Ironforge",
+      "standing": "Honored",
+      "v": 1241,
+      "max": 12000,
+      "tier": 5
+     },
+     {
+      "name": "Gnomeregan Exiles",
+      "standing": "Friendly",
+      "v": 5592,
+      "max": 6000,
+      "tier": 4
+     },
+     {
+      "name": "Cenarion Circle",
+      "standing": "Neutral",
+      "v": 2625,
+      "max": 3000,
+      "tier": 3
+     },
+     {
+      "name": "Kirin Tor",
+      "standing": "Neutral",
+      "v": 1243,
+      "max": 3000,
+      "tier": 3
+     }
+    ]
+   },
+   "achievements": {
+    "points": 0,
+    "count": 9,
+    "recent": [
+     "Explore Elwynn Forest",
+     "Novice Shaman",
+     "Explore Dun Morogh"
+    ]
+   },
+   "collections": {
+    "mounts": 0,
+    "pets": 1,
+    "toys": 0
+   },
+   "questsDone": 424
   },
   {
    "friend": "Daytona",
@@ -16228,7 +19562,181 @@
      }
     ]
    },
-   "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/daytona-gemini"
+   "armoryUrl": "https://worldofwarcraft.blizzard.com/en-gb/forever/eu/armory/character/daytona-gemini",
+   "media": {
+    "avatar": "https://render.worldofwarcraft.com/forever-eu/character/238/1559278-avatar.jpg",
+    "avatarSd": "https://render.worldofwarcraft.com/forever-eu/character/238/1559278-avatar-sd.jpg",
+    "main": "https://render.worldofwarcraft.com/forever-eu/character/238/1559278-main-raw.png",
+    "mainSd": "https://render.worldofwarcraft.com/forever-eu/character/238/1559278-main-sd-raw.png"
+   },
+   "stats": [
+    {
+     "k": "health",
+     "label": "Health",
+     "v": 3843
+    },
+    {
+     "k": "power",
+     "label": "Mana",
+     "v": 3064
+    },
+    {
+     "k": "strength",
+     "label": "Strength",
+     "v": 196
+    },
+    {
+     "k": "agility",
+     "label": "Agility",
+     "v": 183
+    },
+    {
+     "k": "stamina",
+     "label": "Stamina",
+     "v": 254
+    },
+    {
+     "k": "intellect",
+     "label": "Intellect",
+     "v": 140
+    },
+    {
+     "k": "spirit",
+     "label": "Spirit",
+     "v": 113
+    },
+    {
+     "k": "armor",
+     "label": "Armor",
+     "v": 1561
+    },
+    {
+     "k": "attack_power",
+     "label": "Attack power",
+     "v": 460
+    },
+    {
+     "k": "ranged_attack_power",
+     "label": "Ranged attack power",
+     "v": 88
+    },
+    {
+     "k": "spell_power",
+     "label": "Spell power",
+     "v": 0
+    },
+    {
+     "k": "melee_crit",
+     "label": "Melee crit",
+     "v": 8.13,
+     "p": 1
+    },
+    {
+     "k": "ranged_crit",
+     "label": "Ranged crit",
+     "v": 3,
+     "p": 1
+    },
+    {
+     "k": "spell_crit",
+     "label": "Spell crit",
+     "v": 7.14,
+     "p": 1
+    },
+    {
+     "k": "dodge",
+     "label": "Dodge",
+     "v": 15.01,
+     "p": 1
+    },
+    {
+     "k": "parry",
+     "label": "Parry",
+     "v": 0,
+     "p": 1
+    },
+    {
+     "k": "block",
+     "label": "Block",
+     "v": 0,
+     "p": 1
+    },
+    {
+     "k": "melee_haste",
+     "label": "Melee haste",
+     "v": 0,
+     "p": 1
+    },
+    {
+     "k": "spell_haste",
+     "label": "Spell haste",
+     "v": 0,
+     "p": 1
+    }
+   ],
+   "titleCount": 1,
+   "reputations": {
+    "total": 22,
+    "top": [
+     {
+      "name": "Stormpike Guard",
+      "standing": "Exalted",
+      "v": 377,
+      "max": 1000,
+      "tier": 7
+     },
+     {
+      "name": "Darnassus",
+      "standing": "Revered",
+      "v": 3953,
+      "max": 21000,
+      "tier": 6
+     },
+     {
+      "name": "Stormwind",
+      "standing": "Revered",
+      "v": 3118,
+      "max": 21000,
+      "tier": 6
+     },
+     {
+      "name": "Ironforge",
+      "standing": "Revered",
+      "v": 318,
+      "max": 21000,
+      "tier": 6
+     },
+     {
+      "name": "Gnomeregan Exiles",
+      "standing": "Honored",
+      "v": 6038,
+      "max": 12000,
+      "tier": 5
+     },
+     {
+      "name": "Booty Bay",
+      "standing": "Honored",
+      "v": 901,
+      "max": 12000,
+      "tier": 5
+     }
+    ]
+   },
+   "achievements": {
+    "points": 0,
+    "count": 11,
+    "recent": [
+     "Novice Spelunker",
+     "Rank 3",
+     "Explore Mount Hyjal"
+    ]
+   },
+   "collections": {
+    "mounts": 3,
+    "pets": 7,
+    "toys": 3
+   },
+   "questsDone": 1286
   }
  ]
 }
