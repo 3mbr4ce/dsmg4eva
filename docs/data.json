@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795644844349,
+ "generatedAt": 1795646330813,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -7099,10 +7099,10 @@
    "surname": "Crownrend",
    "fullName": "Xerxes Crownrend",
    "level": 56,
-   "experience": 63342,
+   "experience": 141611,
    "xpToLevel": 187900,
-   "xpPct": 33.71,
-   "levelProgress": 56.34,
+   "xpPct": 75.37,
+   "levelProgress": 56.75,
    "className": "Warrior",
    "classId": 1,
    "race": "Night Elf",
@@ -7111,7 +7111,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795640299000,
+   "lastLogin": 1795645900000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -7185,7 +7185,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 58 / 80",
+      "dur": "Durability 46 / 80",
       "sell": 16666,
       "desc": ""
      }
@@ -7264,7 +7264,7 @@
       ],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 59 / 80",
+      "dur": "Durability 44 / 80",
       "sell": 16666,
       "desc": ""
      }
@@ -7343,7 +7343,7 @@
       "spells": [],
       "req": "Requires Level 40",
       "reqClass": "",
-      "dur": "Durability 84 / 115",
+      "dur": "Durability 66 / 115",
       "sell": 5197,
       "desc": ""
      }
@@ -7434,7 +7434,7 @@
       "spells": [],
       "req": "Requires Level 49",
       "reqClass": "",
-      "dur": "Durability 29 / 40",
+      "dur": "Durability 23 / 40",
       "sell": 10721,
       "desc": ""
      }
@@ -7475,7 +7475,7 @@
       "spells": [],
       "req": "Requires Level 48",
       "reqClass": "",
-      "dur": "Durability 29 / 40",
+      "dur": "Durability 25 / 40",
       "sell": 10114,
       "desc": ""
      }
@@ -7483,8 +7483,8 @@
     {
      "slot": "WAIST",
      "slotName": "Waist",
-     "itemId": 10706,
-     "name": "Nightscale Girdle",
+     "itemId": 15709,
+     "name": "Gearforge Girdle",
      "quality": "UNCOMMON",
      "ilvl": 0,
      "inventoryType": "WAIST",
@@ -7494,16 +7494,21 @@
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Waist",
-      "sub": "Mail",
-      "armor": "145 Armor",
+      "sub": "Plate",
+      "armor": "310 Armor",
       "stats": [
        {
-        "s": "+14 Strength",
+        "s": "+4 Agility",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+2 Stamina",
+        "s": "+16 Strength",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+5 Stamina",
         "neg": false,
         "eq": false
        }
@@ -7511,8 +7516,8 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 27 / 35",
-      "sell": 5521,
+      "dur": "Durability 38 / 40",
+      "sell": 7270,
       "desc": ""
      }
     },
@@ -7547,7 +7552,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 85 / 85",
+      "dur": "Durability 70 / 85",
       "sell": 12407,
       "desc": ""
      }
@@ -7583,7 +7588,7 @@
       "spells": [],
       "req": "Requires Level 47",
       "reqClass": "",
-      "dur": "Durability 38 / 55",
+      "dur": "Durability 32 / 55",
       "sell": 7650,
       "desc": ""
      }
@@ -7678,13 +7683,13 @@
     {
      "slot": "TRINKET_1",
      "slotName": "Trinket 1",
-     "itemId": 17774,
-     "name": "Mark of the Chosen",
+     "itemId": 11122,
+     "name": "Carrot on a Stick",
      "quality": "UNCOMMON",
      "ilvl": 0,
      "inventoryType": "TRINKET",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133441.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134010.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
@@ -7693,12 +7698,12 @@
       "armor": "",
       "stats": [],
       "spells": [
-       "Equip: Has a 2% chance when struck in combat of increasing all stats by 21 for 1 min."
+       "Equip: Increases mount speed by 3%."
       ],
       "req": "",
       "reqClass": "",
       "dur": "",
-      "sell": 8164,
+      "sell": 9347,
       "desc": ""
      }
     },
@@ -7751,7 +7756,7 @@
       ],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 68 / 90",
+      "dur": "Durability 54 / 90",
       "sell": 33714,
       "desc": "",
       "weapon": {
@@ -7807,7 +7812,7 @@
       "spells": [],
       "req": "Requires Level 51",
       "reqClass": "",
-      "dur": "Durability 93 / 100",
+      "dur": "Durability 71 / 100",
       "sell": 25698,
       "desc": ""
      }
@@ -7843,7 +7848,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 53 / 65",
+      "dur": "Durability 47 / 65",
       "sell": 9937,
       "desc": "",
       "weapon": {
@@ -7882,7 +7887,7 @@
     "primaries": [
      {
       "name": "Mining",
-      "skill": 288,
+      "skill": 290,
       "max": 300,
       "recipes": 12
      },
@@ -7890,7 +7895,7 @@
       "name": "Engineering",
       "skill": 260,
       "max": 300,
-      "recipes": 55
+      "recipes": 57
      }
     ],
     "secondaries": [
@@ -7925,7 +7930,7 @@
     {
      "k": "health",
      "label": "Health",
-     "v": 2851
+     "v": 2881
     },
     {
      "k": "power",
@@ -7935,17 +7940,17 @@
     {
      "k": "strength",
      "label": "Strength",
-     "v": 211
+     "v": 213
     },
     {
      "k": "agility",
      "label": "Agility",
-     "v": 120
+     "v": 124
     },
     {
      "k": "stamina",
      "label": "Stamina",
-     "v": 161
+     "v": 164
     },
     {
      "k": "intellect",
@@ -7960,17 +7965,17 @@
     {
      "k": "armor",
      "label": "Armor",
-     "v": 4700
+     "v": 4873
     },
     {
      "k": "attack_power",
      "label": "Attack power",
-     "v": 633
+     "v": 637
     },
     {
      "k": "ranged_attack_power",
      "label": "Ranged attack power",
-     "v": 339
+     "v": 347
     },
     {
      "k": "spell_power",
@@ -7980,7 +7985,7 @@
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 13.48,
+     "v": 13.69,
      "p": 1
     },
     {
@@ -7998,19 +8003,19 @@
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 7.6,
+     "v": 7.89,
      "p": 1
     },
     {
      "k": "parry",
      "label": "Parry",
-     "v": 6.08,
+     "v": 6.16,
      "p": 1
     },
     {
      "k": "block",
      "label": "Block",
-     "v": 10.08,
+     "v": 10.16,
      "p": 1
     },
     {
@@ -8033,42 +8038,42 @@
      {
       "name": "Darnassus",
       "standing": "Revered",
-      "v": 1776,
+      "v": 1938,
       "max": 21000,
       "tier": 6
      },
      {
       "name": "Stormwind",
       "standing": "Honored",
-      "v": 11373,
+      "v": 11416,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Ironforge",
       "standing": "Honored",
-      "v": 8252,
+      "v": 8302,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Gnomeregan Exiles",
       "standing": "Honored",
-      "v": 4116,
+      "v": 4158,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Booty Bay",
       "standing": "Honored",
-      "v": 605,
+      "v": 655,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Gadgetzan",
       "standing": "Friendly",
-      "v": 5327,
+      "v": 5377,
       "max": 6000,
       "tier": 4
      }
@@ -8088,7 +8093,7 @@
     "pets": 4,
     "toys": 2
    },
-   "questsDone": 981
+   "questsDone": 996
   },
   {
    "friend": "Ash",
