@@ -371,6 +371,16 @@ footer em{color:var(--accent);font-style:normal}
 .dt-credit{margin-top:18px;padding:12px 0 0;border-top:1px solid rgba(140,22,22,.6);text-align:center;font-size:.68rem;letter-spacing:2px;color:var(--muted);text-transform:uppercase}
 .dt-err{padding:60px 16px;text-align:center;color:var(--muted)}
 .credit-line{font-size:.62rem;letter-spacing:1.5px;color:var(--muted);margin-top:6px}
+
+/* Race to 60 — character cards with level + XP */
+#levelRace{padding:8px;display:grid;gap:8px;overflow:visible}
+#levelRace .card{display:block;min-width:0;text-decoration:none;color:inherit}
+#levelRace .rsum{padding:10px}
+#levelRace .ctop .pos{flex:0 0 28px}
+#levelRace .rbars{margin-top:9px;display:grid;gap:6px}
+#levelRace .rbars .bar{height:16px}
+#levelRace .rbars .bar>b{font-size:.72rem;line-height:14px}
+#levelRace .card .val{font-size:1.15rem;align-self:center}
 </style>
 </head>
 <body>
@@ -400,7 +410,7 @@ footer em{color:var(--accent);font-style:normal}
   <div id="loading"><span class="dot"></span><span>LOADING CHARACTERS…</span></div>
   <main id="app" hidden>
     <div id="recentBar" class="recent-bar reveal" hidden></div>
-    <section class="reveal"><div class="sec-h"><h2>Race to 60</h2><span>tap a row for details</span></div><div class="panel" id="levelRace"></div></section>
+    <section class="reveal"><div class="sec-h"><h2>Race to 60</h2><span>tap a card to open the character page</span></div><div class="panel" id="levelRace"></div></section>
     <section class="reveal"><div class="sec-h"><h2>Flex Feed</h2><span>this week</span></div><div class="panel board"><ol class="rank" id="flexFeed"></ol></div></section>
     <section class="reveal"><div class="sec-h"><h2>Top 3</h2></div><div class="grid" id="topBoards"></div></section>
     <section class="reveal"><div class="sec-h"><h2>Weekly Race</h2><span id="weekSub"></span></div><div class="grid" id="weeklyRace"></div></section>
@@ -650,11 +660,17 @@ function renderRace(){
   const cap=DATA.levelCap||60, list=ok().slice().sort(raceSort);
   const first=list.filter(c=>c.ding60At).sort((a,b)=>a.ding60At-b.ding60At)[0];
   $('levelRace').innerHTML=list.map((c,i)=>{
-    const pct=(c.levelProgress-1)/(cap-1)*100;
+    const pct=(c.levelProgress-1)/(cap-1)*100, max=c.level>=cap, ri=raceIcon(c);
     const crown=first&&first.slug===c.slug?' <span class="crown" title="First to '+cap+'">👑</span>':'';
-    return '<div class="xrow" data-key="race|'+esc(c.slug)+'">'+rowBtn('race-row','<span class="pos p'+(i+1)+'">'+(i+1)+'</span>'+ico(c)+'<span class="who">'+nameHtml(c)+crown+'</span>'+
-      '<div class="bars">'+barHtml(pct,'Level '+c.level+' / '+cap)+(c.level<cap?barHtml(c.xpPct,'','xp'):'')+'</div>'+
-      '<span class="val">'+(c.level>=cap?'DING!':'L<span data-count="'+c.level+'">'+c.level+'</span> <small style="color:var(--muted)">'+fmt(c.xpPct)+'%</small>')+'</span>')+detail(c,'race')+'</div>';
+    return '<a class="card" style="--cc:'+cc(c)+'" href="#char/'+esc(c.slug)+'" data-page="'+esc(c.slug)+'">'+
+      '<div class="rsum">'+
+        '<div class="ctop"><span class="pos p'+(i+1)+'">'+(i+1)+'</span>'+
+        '<div class="avatar">'+avatarHtml(c,48)+(ri?'<img class="race" src="'+ri+'" alt="" onerror="this.remove()">':'')+'</div>'+
+        '<div style="min-width:0;flex:1"><div class="cname">'+esc(c.name)+' <span>'+esc(c.surname)+'</span>'+(c.isMain?'<span class="badge">MAIN</span>':'')+crown+'</div>'+
+        '<div class="csub">'+(akaOf(c.friend)?esc(c.friend)+akaHtml(c.friend)+' • ':'')+esc(c.race)+' '+esc(c.className)+(c.spec?' • '+esc(c.spec.main):'')+'</div></div>'+
+        '<span class="val">'+(max?'DING!':'L<span data-count="'+c.level+'">'+c.level+'</span>')+'</span></div>'+
+        '<div class="rbars">'+barHtml(pct,'Level '+c.level+' / '+cap)+(max?'':barHtml(c.xpPct,fmt(c.xpPct)+'% to '+(c.level+1),'xp'))+'</div>'+
+      '</div></a>';
   }).join('')||'<div class="empty">No characters</div>';
 }
 
