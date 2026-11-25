@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795570780222,
+ "generatedAt": 1795581560865,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-18T07",
@@ -8016,10 +8016,10 @@
    "surname": "Jõks",
    "fullName": "Peep Jõks",
    "level": 47,
-   "experience": 21160,
+   "experience": 95581,
    "xpToLevel": 129100,
-   "xpPct": 16.39,
-   "levelProgress": 47.16,
+   "xpPct": 74.04,
+   "levelProgress": 47.74,
    "className": "Rogue",
    "classId": 4,
    "race": "Gnome",
@@ -8028,42 +8028,52 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795568039000,
-   "apiItemLevel": 36,
+   "lastLogin": 1795581310000,
+   "apiItemLevel": 0,
    "gear": [
     {
      "slot": "HEAD",
      "slotName": "Head",
-     "itemId": 8176,
-     "name": "Nightscape Headband",
-     "quality": "UNCOMMON",
-     "ilvl": 41,
+     "itemId": 9479,
+     "name": "Embrace of the Lycan",
+     "quality": "RARE",
+     "ilvl": 0,
      "inventoryType": "HEAD",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132513.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132266.jpg",
      "tt": {
-      "bind": "Binds when equipped",
+      "bind": "Binds when picked up",
       "unique": "",
       "inv": "Head",
       "sub": "Leather",
-      "armor": "91 Armor",
+      "armor": "117 Armor",
       "stats": [
        {
-        "s": "+12 Agility",
+        "s": "+8 Strength",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+11 Stamina",
+        "s": "+16 Stamina",
         "neg": false,
         "eq": false
+       },
+       {
+        "s": "+32 Attack Power",
+        "neg": false,
+        "eq": true
+       },
+       {
+        "s": "+5 Spirit",
+        "neg": false,
+        "eq": true
        }
       ],
       "spells": [],
-      "req": "Requires Level 36",
+      "req": "Requires Level 44",
       "reqClass": "",
-      "dur": "Durability 48 / 50",
-      "sell": 2922,
+      "dur": "Durability 60 / 60",
+      "sell": 9854,
       "desc": ""
      }
     },
@@ -8073,7 +8083,7 @@
      "itemId": 12030,
      "name": "Jet Chain of the Bandit",
      "quality": "UNCOMMON",
-     "ilvl": 39,
+     "ilvl": 0,
      "inventoryType": "NECK",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133293.jpg",
@@ -8114,7 +8124,7 @@
      "itemId": 279879,
      "name": "Rune-Etched Epaulets",
      "quality": "RARE",
-     "ilvl": 41,
+     "ilvl": 0,
      "inventoryType": "SHOULDER",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135056.jpg",
@@ -8144,7 +8154,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 59 / 60",
+      "dur": "Durability 60 / 60",
       "sell": 5532,
       "desc": ""
      }
@@ -8155,7 +8165,7 @@
      "itemId": 9908,
      "name": "Royal Cape of the Bandit",
      "quality": "UNCOMMON",
-     "ilvl": 43,
+     "ilvl": 0,
      "inventoryType": "CLOAK",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133754.jpg",
@@ -8196,7 +8206,7 @@
      "itemId": 8175,
      "name": "Nightscape Tunic",
      "quality": "UNCOMMON",
-     "ilvl": 41,
+     "ilvl": 0,
      "inventoryType": "CHEST",
      "enchants": [
       "Enchanted: Stamina +4 and Armor +32"
@@ -8223,7 +8233,7 @@
       "spells": [],
       "req": "Requires Level 36",
       "reqClass": "",
-      "dur": "Durability 83 / 85",
+      "dur": "Durability 84 / 85",
       "sell": 3881,
       "desc": ""
      }
@@ -8234,7 +8244,7 @@
      "itemId": 49,
      "name": "Footpad's Shirt",
      "quality": "COMMON",
-     "ilvl": 1,
+     "ilvl": 0,
      "inventoryType": "BODY",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135009.jpg",
@@ -8259,7 +8269,7 @@
      "itemId": 275042,
      "name": "Farholde Keep Tabard",
      "quality": "COMMON",
-     "ilvl": 20,
+     "ilvl": 0,
      "inventoryType": "TABARD",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/7941422.jpg",
@@ -8284,7 +8294,7 @@
      "itemId": 270032,
      "name": "Cultist's Armguards",
      "quality": "RARE",
-     "ilvl": 29,
+     "ilvl": 0,
      "inventoryType": "WRIST",
      "enchants": [
       "Enchanted: Strength +5"
@@ -8311,7 +8321,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 31 / 35",
+      "dur": "Durability 35 / 35",
       "sell": 1191,
       "desc": ""
      }
@@ -8322,7 +8332,7 @@
      "itemId": 287010,
      "name": "Outrider's Gloves",
      "quality": "RARE",
-     "ilvl": 44,
+     "ilvl": 0,
      "inventoryType": "HAND",
      "enchants": [
       "Enchanted: Stamina +4 and Armor +32"
@@ -8362,7 +8372,7 @@
      "itemId": 279854,
      "name": "Twilight Initiate's Belt",
      "quality": "UNCOMMON",
-     "ilvl": 46,
+     "ilvl": 0,
      "inventoryType": "WAIST",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132515.jpg",
@@ -8398,7 +8408,7 @@
      "itemId": 9624,
      "name": "Triprunner Dungarees",
      "quality": "RARE",
-     "ilvl": 37,
+     "ilvl": 0,
      "inventoryType": "LEGS",
      "enchants": [
       "Enchanted: Stamina +4 and Armor +32"
@@ -8430,7 +8440,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 73 / 75",
+      "dur": "Durability 75 / 75",
       "sell": 5252,
       "desc": ""
      }
@@ -8441,7 +8451,7 @@
      "itemId": 4109,
      "name": "Excelsior Boots",
      "quality": "UNCOMMON",
-     "ilvl": 41,
+     "ilvl": 0,
      "inventoryType": "FEET",
      "enchants": [
       "Enchanted: Stamina +4 and Armor +32"
@@ -8468,7 +8478,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 43 / 45",
+      "dur": "Durability 45 / 45",
       "sell": 4393,
       "desc": ""
      }
@@ -8479,7 +8489,7 @@
      "itemId": 281320,
      "name": "Rune-Etched Ring",
      "quality": "RARE",
-     "ilvl": 32,
+     "ilvl": 0,
      "inventoryType": "FINGER",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133357.jpg",
@@ -8507,13 +8517,13 @@
     {
      "slot": "FINGER_2",
      "slotName": "Ring 2",
-     "itemId": 2933,
-     "name": "Seal of Wrynn",
+     "itemId": 9533,
+     "name": "Masons Fraternity Ring",
      "quality": "RARE",
-     "ilvl": 31,
+     "ilvl": 0,
      "inventoryType": "FINGER",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133347.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133345.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
@@ -8522,36 +8532,21 @@
       "armor": "",
       "stats": [
        {
-        "s": "+4 Intellect",
+        "s": "+14 Agility",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+3 Agility",
+        "s": "+5 Stamina",
         "neg": false,
         "eq": false
-       },
-       {
-        "s": "+3 Strength",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+4 Stamina",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+3 Spirit",
-        "neg": false,
-        "eq": true
        }
       ],
       "spells": [],
       "req": "",
       "reqClass": "",
       "dur": "",
-      "sell": 2371,
+      "sell": 10483,
       "desc": ""
      }
     },
@@ -8561,7 +8556,7 @@
      "itemId": 280766,
      "name": "Satchel of Potions",
      "quality": "UNCOMMON",
-     "ilvl": 33,
+     "ilvl": 0,
      "inventoryType": "TRINKET",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133633.jpg",
@@ -8588,7 +8583,7 @@
      "itemId": 279852,
      "name": "Rock on Stick",
      "quality": "RARE",
-     "ilvl": 47,
+     "ilvl": 0,
      "inventoryType": "WEAPON",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133046.jpg",
@@ -8626,7 +8621,7 @@
      "itemId": 6831,
      "name": "Black Menace",
      "quality": "RARE",
-     "ilvl": 44,
+     "ilvl": 0,
      "inventoryType": "WEAPON",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135311.jpg",
@@ -8642,7 +8637,7 @@
       ],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 62 / 65",
+      "dur": "Durability 65 / 65",
       "sell": 18003,
       "desc": "",
       "weapon": {
@@ -8655,13 +8650,13 @@
     {
      "slot": "RANGED",
      "slotName": "Ranged",
-     "itemId": 287072,
-     "name": "Bladewhisper's Namesake",
-     "quality": "UNCOMMON",
-     "ilvl": 42,
+     "itemId": 274643,
+     "name": "Gutcutter Hatchet",
+     "quality": "RARE",
+     "ilvl": 0,
      "inventoryType": "THROWN",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135650.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135422.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
@@ -8670,33 +8665,33 @@
       "armor": "",
       "stats": [
        {
-        "s": "+4 Stamina",
+        "s": "+6 Stamina",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+8 Attack Power Vs Humanoids",
+        "s": "+12 Attack Power",
         "neg": false,
         "eq": true
        }
       ],
       "spells": [],
-      "req": "",
+      "req": "Requires Level 43",
       "reqClass": "",
-      "dur": "Durability 196 / 200",
-      "sell": 9857,
+      "dur": "Durability 240 / 240",
+      "sell": 18370,
       "desc": "",
       "weapon": {
-       "dmg": "31 - 59 Damage",
-       "speed": "Speed 2.10",
-       "dps": "(21.4 damage per second)"
+       "dmg": "40 - 76 Damage",
+       "speed": "Speed 2.00",
+       "dps": "(29 damage per second)"
       }
      }
     }
    ],
-   "itemLevel": 39.44,
+   "itemLevel": 0,
    "pvp": {
-    "hk": 553,
+    "hk": 555,
     "rank": 1,
     "rankName": "Private"
    },
@@ -8724,7 +8719,7 @@
      },
      {
       "name": "Skinning",
-      "skill": 268,
+      "skill": 269,
       "max": 300,
       "recipes": 2
      }
@@ -8761,7 +8756,7 @@
     {
      "k": "health",
      "label": "Health",
-     "v": 2255
+     "v": 2335
     },
     {
      "k": "power",
@@ -8771,42 +8766,42 @@
     {
      "k": "strength",
      "label": "Strength",
-     "v": 89
+     "v": 94
     },
     {
      "k": "agility",
      "label": "Agility",
-     "v": 200
+     "v": 199
     },
     {
      "k": "stamina",
      "label": "Stamina",
-     "v": 148
+     "v": 156
     },
     {
      "k": "intellect",
      "label": "Intellect",
-     "v": 38
+     "v": 34
     },
     {
      "k": "spirit",
      "label": "Spirit",
-     "v": 51
+     "v": 53
     },
     {
      "k": "armor",
      "label": "Armor",
-     "v": 1227
+     "v": 1251
     },
     {
      "k": "attack_power",
      "label": "Attack power",
-     "v": 388
+     "v": 436
     },
     {
      "k": "ranged_attack_power",
      "label": "Ranged attack power",
-     "v": 452
+     "v": 494
     },
     {
      "k": "spell_power",
@@ -8816,13 +8811,13 @@
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 4.1,
+     "v": 4.17,
      "p": 1
     },
     {
      "k": "ranged_crit",
      "label": "Ranged crit",
-     "v": 2.7,
+     "v": 2.65,
      "p": 1
     },
     {
@@ -8834,13 +8829,13 @@
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 18.28,
+     "v": 18.23,
      "p": 1
     },
     {
      "k": "parry",
      "label": "Parry",
-     "v": 10.84,
+     "v": 10.88,
      "p": 1
     },
     {
@@ -8905,7 +8900,7 @@
      {
       "name": "Booty Bay",
       "standing": "Friendly",
-      "v": 3210,
+      "v": 3360,
       "max": 6000,
       "tier": 4
      }
@@ -8925,7 +8920,7 @@
     "pets": 0,
     "toys": 0
    },
-   "questsDone": 635
+   "questsDone": 641
   },
   {
    "friend": "Panzer",
