@@ -22,6 +22,8 @@ const API_HOST = 'https://' + REGION + '.api.blizzard.com';
 const LEVEL_CAP = CONFIG.levelCap || 60;
 const WEEKLY_RESET = { weekday: CONFIG.weeklyReset.weekday, hourUtc: CONFIG.weeklyReset.hourUtc };
 const FRIENDS = CONFIG.friends || [];
+const KNOWN = CONFIG.known || [];
+const ENEMIES = CONFIG.enemies || [];
 const CONCURRENCY = 8;
 
 /* ---------- HTTP ---------- */
@@ -65,8 +67,15 @@ function writeJson(file, obj) { fs.mkdirSync(path.dirname(file), { recursive: tr
 async function main() {
   const t0 = Date.now();
   const token = await getAccessToken();
-  const chars = await fetchAllCharacters(token);
+  const friendList = characterJobs(FRIENDS);
+  const knownList = characterJobs(KNOWN);
+  const enemyList = characterJobs(ENEMIES);
+  const all = await fetchCharacterList(token, friendList.concat(knownList, enemyList));
+  const chars = all.slice(0, friendList.length);
+  const knownChars = all.slice(friendList.length, friendList.length + knownList.length);
+  const enemyChars = all.slice(friendList.length + knownList.length);
   if (!chars.some(c => !c.error)) throw new Error('No character could be loaded - refusing to overwrite data.json');
+  await attachItemIcons(token, all);
 
   const state = readJson(STATE_FILE, {});
   const stateBefore = JSON.stringify(state);
@@ -89,8 +98,12 @@ async function main() {
   const bundle = {
     app: APP_NAME, generatedAt: Date.now(), region: REGION, levelCap: LEVEL_CAP, weekId,
     weekStartedAt: snap.takenAt, nextResetAt: nextResetMs(), weeklyReset: WEEKLY_RESET,
-    friends: FRIENDS.map(f => (f.aka ? { friend: f.friend, aka: String(f.aka) } : { friend: f.friend })),
-    characters: chars
+    friends: FRIENDS.map(metaOf),
+    characters: chars,
+    known: KNOWN.map(metaOf),
+    knownCharacters: knownChars,
+    enemies: ENEMIES.map(metaOf),
+    enemyCharacters: enemyChars
   };
   // Only rewrite data.json when content (ignoring generatedAt) changed -> fewer commits.
   const prev = readJson(OUT_FILE, null);
@@ -102,23 +115,43 @@ async function main() {
     console.log('Wrote docs/data.json');
   }
   const bad = chars.filter(c => c.error).map(c => c.input + ' (' + c.error + ')');
-  console.log(`${chars.length - bad.length}/${chars.length} characters OK, ${CALLS} API calls, ${Date.now() - t0} ms`);
+  const badKnown = knownChars.filter(c => c.error).map(c => c.input + ' (' + c.error + ')');
+  const badEnemies = enemyChars.filter(c => c.error).map(c => c.input + ' (' + c.error + ')');
+  console.log(`${chars.length - bad.length}/${chars.length} friends OK, ${knownChars.length - badKnown.length}/${knownChars.length} known OK, ${enemyChars.length - badEnemies.length}/${enemyChars.length} enemies OK, ${CALLS} API calls, ${Date.now() - t0} ms`);
   if (bad.length) console.log('::warning::Not found / failed: ' + bad.join(', ') + ' - check spelling in config.json');
+  if (badKnown.length) console.log('::warning::Known character not found / failed: ' + badKnown.join(', ') + ' - check spelling in config.json (known). This does not fail the run.');
+  if (badEnemies.length) console.log('::warning::Enemy character not found / failed: ' + badEnemies.join(', ') + ' - check spelling in config.json (enemies). This does not fail the run.');
 }
 
-async function fetchAllCharacters(token) {
+function metaOf(f) {
+  const o = { friend: f.friend };
+  if (f.aka) o.aka = String(f.aka);
+  if (f.note) o.note = String(f.note);
+  return o;
+}
+
+function characterJobs(people) {
   const list = [];
-  FRIENDS.forEach(f => [f.main].concat(f.alts || []).forEach((n, i) =>
-    list.push({ friend: f.friend, input: n, isMain: i === 0, slug: characterSlug(n) })));
+  (people || []).forEach(f => [f.main].concat(f.alts || []).forEach((n, i) => {
+    if (!n) return;
+    list.push({ friend: f.friend, input: n, isMain: i === 0, slug: characterSlug(n) });
+  }));
+  return list;
+}
+
+async function fetchCharacterList(token, list) {
+  if (!list.length) return [];
   const parts = ['', '/equipment', '/pvp-summary', '/specializations', '/professions'];
   const jobs = [];
   list.forEach(c => parts.forEach(p => jobs.push('/profile/wow/character/' + encodeURIComponent(c.slug) + p)));
   const res = await pool(jobs, p => apiGet(p, token));
-  const out = list.map((c, i) => {
+  return list.map((c, i) => {
     const r = res.slice(i * parts.length, (i + 1) * parts.length);
     return normalizeCharacter(c, r[0], r[1], r[2], r[3], r[4]);
   });
-  // item icons
+}
+
+async function attachItemIcons(token, out) {
   const ids = [...new Set(out.flatMap(c => (c.gear || []).map(g => g.itemId)).filter(Boolean))];
   const icons = {};
   await pool(ids, async id => {
@@ -127,7 +160,6 @@ async function fetchAllCharacters(token) {
     if (a) icons[id] = a.value;
   });
   out.forEach(c => (c.gear || []).forEach(g => { g.icon = icons[g.itemId] || null; }));
-  return out;
 }
 
 /* ---------- shared logic (identical to the Apps Script version) ---------- */

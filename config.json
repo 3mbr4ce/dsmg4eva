@@ -38,5 +38,90 @@
       "main": "Sire-Khingen",
       "alts": []
     }
+  ],
+  "known": [
+    {
+      "friend": "Pip",
+      "main": "Pip-Jaeger",
+      "alts": [
+        "Steppenwolf-One"
+      ],
+      "note": "met in Westfall"
+    },
+    {
+      "friend": "Ash",
+      "aka": "Sparks",
+      "main": "Ash-Kai",
+      "alts": [
+        "Xerxes-Crownrend",
+        "Peep-Jõks"
+      ],
+      "note": "duelled outside Goldshire"
+    },
+    {
+      "friend": "Panzer",
+      "main": "Panzer-Error",
+      "alts": [
+        "Damp-Fat"
+      ],
+      "note": "shared a camp in the Barrens"
+    },
+    {
+      "friend": "Gareth",
+      "aka": "Blackwood",
+      "main": "Garethos-Blackwood",
+      "alts": [
+        "Chasida-Shieldsworn",
+        "Ryan-Angelos"
+      ],
+      "note": "met in Stranglethorn"
+    },
+    {
+      "friend": "Zewazi",
+      "main": "Zewazi-Softis",
+      "alts": [],
+      "note": "sold us herbs in Orgrimmar"
+    }
+  ],
+  "enemies": [
+    {
+      "friend": "Ohq",
+      "aka": "The Mage",
+      "main": "Ohq-Forever",
+      "alts": [],
+      "note": "polymorphed us in Westfall"
+    },
+    {
+      "friend": "Sefica",
+      "aka": "Stormborn",
+      "main": "Sefica-Stormborn",
+      "alts": [
+        "Aenar-Stormbreaker"
+      ],
+      "note": "ganked us in Stranglethorn"
+    },
+    {
+      "friend": "Ellisara",
+      "main": "Ellisara-Duskfeather",
+      "alts": [
+        "Arwen-El"
+      ],
+      "note": "camped the Darkshire road"
+    },
+    {
+      "friend": "Peca",
+      "main": "Peca-Woodland",
+      "alts": [],
+      "note": "stole our herbs in Elwynn"
+    },
+    {
+      "friend": "Aluna",
+      "aka": "Feather",
+      "main": "Aluna-Featheryn",
+      "alts": [
+        "Mo-Rx"
+      ],
+      "note": "ambushed us in Redridge"
+    }
   ]
 }

@@ -212,6 +212,55 @@ ol.rank .ico{width:30px;height:30px}
 #loading{display:flex;gap:10px;align-items:center;justify-content:center;padding:40px 0;color:var(--muted);letter-spacing:2px}
 .dot{width:10px;height:10px;border-radius:50%;background:var(--accent);animation:pulse 1s infinite alternate}
 @keyframes pulse{from{opacity:.3;transform:scale(.7)}to{opacity:1;transform:scale(1.15)}}
+/* friends made on the way */
+.horde-break{margin:72px 0 28px;display:grid;justify-items:center;text-align:center}
+.horde-rule{width:100%;height:16px;position:relative;background:linear-gradient(90deg,transparent 0%,#5a0c0c 10%,#8C1616 50%,#5a0c0c 90%,transparent 100%);clip-path:polygon(0 50%,3.5% 0,96.5% 0,100% 50%,96.5% 100%,3.5% 100%);box-shadow:0 0 28px rgba(181,31,31,.7)}
+.horde-rule::before,.horde-rule::after{content:'';position:absolute;left:0;right:0}
+.horde-rule::before{top:0;bottom:0;background:linear-gradient(90deg,transparent 6%,rgba(242,193,78,.55) 50%,transparent 94%);clip-path:polygon(0 50%,3.5% 18%,96.5% 18%,100% 50%,96.5% 82%,3.5% 82%);mix-blend-mode:screen;opacity:.85}
+.horde-rule::after{left:6%;right:6%;top:6px;height:1px;background:linear-gradient(90deg,transparent,#ffe08a,transparent);opacity:.8}
+.horde-seal{margin:-18px 0 -10px;position:relative;z-index:1;width:124px;height:124px;filter:drop-shadow(0 0 16px rgba(217,82,4,.75))}
+.horde-seal svg{width:124px;height:124px;display:block}
+.horde-caption{margin:2px 0 0;font-size:.7rem;letter-spacing:7px;color:var(--gold);text-transform:uppercase;text-shadow:0 0 14px rgba(242,193,78,.55)}
+#knownSection{margin-top:4px}
+#knownSection .sec-h h2{font-size:1.18rem;letter-spacing:2.5px}
+@media(max-width:600px){#knownSection .sec-h{flex-direction:column;align-items:flex-start;gap:2px}}
+.met{display:inline-block;max-width:18em;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;vertical-align:middle;margin-left:8px;padding:0 8px;border-radius:9px;font-size:.62rem;line-height:1.5;letter-spacing:.6px;font-weight:500;font-style:italic;text-transform:none;color:var(--text);background:rgba(0,0,0,.3);border:1px solid rgba(217,82,4,.5)}
+.friend-h{flex-wrap:wrap;gap:6px 10px}
+
+/* last seen */
+.seen{display:inline-flex;align-items:center;gap:6px;font-size:.72rem;font-weight:500;letter-spacing:.3px;color:var(--muted);white-space:nowrap}
+.seen i{flex:0 0 8px;width:8px;height:8px;border-radius:50%;background:#555;box-shadow:0 0 0 2px rgba(0,0,0,.35)}
+.seen em{font-style:normal}
+.seen.on{color:#8dff8d}
+.seen.on i{background:#3dcc3d;box-shadow:0 0 8px #3dcc3d,0 0 0 2px rgba(61,204,61,.2)}
+.seen.recent{color:#f2c14e}
+.seen.recent i{background:#f2c14e;box-shadow:0 0 7px rgba(242,193,78,.7)}
+.seen.idle{color:#c4b08a}
+.seen.idle i{background:#a8977f}
+.seen.old,.seen.off{color:var(--muted)}
+.seen.off i{background:#4a4038}
+.recent-bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding:8px 12px;margin-top:14px;scroll-margin-top:72px;background:var(--panel);border:1px solid var(--line);border-radius:var(--radius)}
+.recent-bar[hidden]{display:none!important}
+.recent-bar .rh{font-size:.68rem;letter-spacing:2px;text-transform:uppercase;color:var(--accent);margin-right:2px}
+.recent-bar .chip{display:inline-flex;align-items:center;gap:6px;padding:4px 10px;border-radius:999px;background:rgba(0,0,0,.35);border:1px solid var(--line);font-size:.78rem;cursor:pointer;color:inherit}
+.recent-bar .chip:hover{border-color:var(--accent);background:rgba(217,82,4,.12)}
+.recent-bar .chip.wanted{border-color:rgba(140,22,22,.7);background:rgba(140,22,22,.18)}
+.recent-bar .chip .tag{font-size:.58rem;letter-spacing:1px;text-transform:uppercase;color:var(--muted)}
+/* enemies / alliance most wanted */
+.horde-break.wanted-break{margin-top:64px}
+.horde-break.wanted-break .horde-rule{background:linear-gradient(90deg,transparent 0%,#1a2744 10%,#2a4a8c 50%,#8C1616 78%,#5a0c0c 90%,transparent 100%);box-shadow:0 0 28px rgba(42,74,140,.55),0 0 16px rgba(181,31,31,.35)}
+.horde-break.wanted-break .horde-seal{filter:drop-shadow(0 0 16px rgba(180,40,40,.7)) drop-shadow(0 0 10px rgba(80,120,200,.45))}
+.horde-break.wanted-break .horde-caption{color:#c9d6f0;letter-spacing:4px;text-shadow:0 0 14px rgba(80,120,200,.55)}
+#enemySection{margin-top:4px}
+#enemySection .sec-h h2{font-size:1.18rem;letter-spacing:2.5px}
+#enemySection .sec-h h2::before{background:#8C1616;box-shadow:0 0 8px #4a6fb5}
+@media(max-width:600px){#enemySection .sec-h,#knownSection .sec-h{flex-direction:column;align-items:flex-start;gap:2px}}
+#enemyList .friend{border:1px solid rgba(140,22,22,.55);background:linear-gradient(180deg,rgba(48,22,18,.94),rgba(18,14,22,.96));box-shadow:0 8px 24px rgba(0,0,0,.4),inset 0 0 0 1px rgba(242,193,78,.08)}
+#enemyList .friend-h{background:linear-gradient(90deg,#6b1111,#1a2744,transparent)}
+#enemyList .friend-h>span::before{content:'WANTED';display:inline-block;margin-right:8px;padding:0 6px;border:1.5px solid #e05a4a;color:#ff8a7a;font-size:.58rem;letter-spacing:1.5px;font-weight:700;font-style:normal;text-transform:uppercase;transform:rotate(-8deg);vertical-align:middle;background:rgba(20,8,8,.6)}
+#enemyList .card{background:rgba(20,12,14,.5);border-color:rgba(140,22,22,.35)}
+#enemyList .met{border-color:rgba(200,60,50,.55);color:#f0cfc8}
+#enemyList .aka{background:linear-gradient(180deg,rgba(26,39,68,.7),rgba(80,16,16,.6));border-color:rgba(154,180,232,.45);color:#c9d6f0}
 /* footer */
 footer{margin-top:28px;padding:16px 4px 6px;border-top:1px solid rgba(140,22,22,.6);text-align:center;font-size:.7rem;letter-spacing:2px;color:var(--muted);display:grid;gap:8px}
 footer .fs{display:flex;align-items:center;justify-content:center;gap:8px}
@@ -246,12 +295,96 @@ footer em{color:var(--accent);font-style:normal}
 <div class="wrap">
   <div id="loading"><span class="dot"></span><span>LOADING CHARACTERS…</span></div>
   <main id="app" hidden>
+    <div id="recentBar" class="recent-bar reveal" hidden></div>
     <section class="reveal"><div class="sec-h"><h2>Race to 60</h2><span>tap a row for details</span></div><div class="panel" id="levelRace"></div></section>
     <section class="reveal"><div class="sec-h"><h2>Flex Feed</h2><span>this week</span></div><div class="panel board"><ol class="rank" id="flexFeed"></ol></div></section>
     <section class="reveal"><div class="sec-h"><h2>Top 3</h2></div><div class="grid" id="topBoards"></div></section>
     <section class="reveal"><div class="sec-h"><h2>Weekly Race</h2><span id="weekSub"></span></div><div class="grid" id="weeklyRace"></div></section>
     <section><div class="sec-h reveal"><h2>The Crew</h2><span>tap a card for details</span></div><div class="friends" id="friends"></div></section>
     <section class="reveal"><div class="sec-h"><h2>PvP Rank Ladder</h2></div><div class="panel board"><ol class="rank" id="pvpLadder"></ol></div></section>
+    <div class="horde-break" aria-hidden="true">
+      <div class="horde-rule"></div>
+      <div class="horde-seal">
+        <svg viewBox="0 0 120 120" role="img" focusable="false">
+          <defs>
+            <linearGradient id="hs-iron" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3a2a22"/><stop offset="1" stop-color="#1a100c"/></linearGradient>
+            <linearGradient id="hs-blood" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d92a1a"/><stop offset=".5" stop-color="#8C1616"/><stop offset="1" stop-color="#4a0a0a"/></linearGradient>
+            <linearGradient id="hs-gold" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffe08a"/><stop offset=".55" stop-color="#e0a526"/><stop offset="1" stop-color="#9a6410"/></linearGradient>
+            <radialGradient id="hs-glow" cx="50%" cy="45%" r="55%"><stop offset="0" stop-color="#ff5a2a" stop-opacity=".55"/><stop offset="1" stop-color="#8C1616" stop-opacity="0"/></radialGradient>
+          </defs>
+          <circle cx="60" cy="60" r="58" fill="url(#hs-glow)"/>
+          <circle cx="60" cy="60" r="46" fill="url(#hs-iron)" stroke="url(#hs-gold)" stroke-width="2.4"/>
+          <circle cx="60" cy="60" r="38" fill="url(#hs-blood)" stroke="#5a0c0c" stroke-width="1.2"/>
+          <!-- spikes -->
+          <g fill="url(#hs-gold)">
+            <polygon points="60,2 66,18 54,18"/>
+            <polygon points="60,118 66,102 54,102"/>
+            <polygon points="2,60 18,66 18,54"/>
+            <polygon points="118,60 102,66 102,54"/>
+            <polygon points="18,18 30,28 22,32"/>
+            <polygon points="102,18 90,28 98,32"/>
+            <polygon points="18,102 30,92 22,88"/>
+            <polygon points="102,102 90,92 98,88"/>
+          </g>
+          <!-- crossed axes -->
+          <g stroke="url(#hs-gold)" stroke-width="3.2" stroke-linecap="round" fill="none">
+            <path d="M28 32 L92 88"/>
+            <path d="M92 32 L28 88"/>
+          </g>
+          <g fill="url(#hs-gold)">
+            <polygon points="24,22 40,30 34,36 22,30"/>
+            <polygon points="96,22 80,30 86,36 98,30"/>
+            <polygon points="24,98 40,90 34,84 22,90"/>
+            <polygon points="96,98 80,90 86,84 98,90"/>
+            <rect x="56.5" y="52" width="7" height="16" rx="1"/>
+          </g>
+          <circle cx="60" cy="60" r="8" fill="#1a100c" stroke="url(#hs-gold)" stroke-width="1.8"/>
+          <circle cx="60" cy="60" r="3.2" fill="#ffe08a"/>
+        </svg>
+      </div>
+      <div class="horde-rule"></div>
+      <div class="horde-caption">Lok'tar Ogar</div>
+    </div>
+    <section id="knownSection">
+      <div class="sec-h reveal"><h2>Friends Made on the Way</h2><span>known characters we track</span></div>
+      <div class="friends" id="knownList"></div>
+    </section>
+
+    <div class="horde-break wanted-break" aria-hidden="true">
+      <div class="horde-rule"></div>
+      <div class="horde-seal">
+        <svg viewBox="0 0 120 120" role="img" focusable="false">
+          <defs>
+            <linearGradient id="ws-navy" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2a3b66"/><stop offset="1" stop-color="#121826"/></linearGradient>
+            <linearGradient id="ws-gold" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffe08a"/><stop offset=".55" stop-color="#e0a526"/><stop offset="1" stop-color="#9a6410"/></linearGradient>
+            <linearGradient id="ws-red" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d92a1a"/><stop offset="1" stop-color="#6b1111"/></linearGradient>
+            <radialGradient id="ws-glow" cx="50%" cy="45%" r="55%"><stop offset="0" stop-color="#6a8cff" stop-opacity=".4"/><stop offset="1" stop-color="#8C1616" stop-opacity="0"/></radialGradient>
+          </defs>
+          <circle cx="60" cy="60" r="58" fill="url(#ws-glow)"/>
+          <circle cx="60" cy="60" r="46" fill="url(#ws-navy)" stroke="url(#ws-gold)" stroke-width="2.6"/>
+          <circle cx="60" cy="60" r="38" fill="#1a2744" stroke="#0c1220" stroke-width="1"/>
+          <!-- soft points -->
+          <g fill="url(#ws-gold)">
+            <polygon points="60,3 65,16 55,16"/>
+            <polygon points="60,117 65,104 55,104"/>
+            <polygon points="3,60 16,65 16,55"/>
+            <polygon points="117,60 104,65 104,55"/>
+          </g>
+          <!-- original crest: crown + chevron (not the official Alliance lion) -->
+          <path d="M40 52 L48 44 L54 52 L60 42 L66 52 L72 44 L80 52 L76 70 L44 70 Z" fill="url(#ws-gold)" stroke="#9a6410" stroke-width=".8"/>
+          <path d="M46 74 L60 86 L74 74" fill="none" stroke="url(#ws-gold)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          <!-- wanted ribbon -->
+          <path d="M18 64 L102 64 L106 72 L102 80 L18 80 L14 72 Z" fill="url(#ws-red)" stroke="#ffe08a" stroke-width="1"/>
+          <text x="60" y="75.5" text-anchor="middle" font-family="Oswald,system-ui,sans-serif" font-size="11" font-weight="700" letter-spacing="2" fill="#ffe8c2">WANTED</text>
+        </svg>
+      </div>
+      <div class="horde-rule"></div>
+      <div class="horde-caption">Alliance Most Wanted</div>
+    </div>
+    <section id="enemySection">
+      <div class="sec-h reveal"><h2>Enemies Made on the Way</h2><span>Alliance Most Wanted</span></div>
+      <div class="friends" id="enemyList"></div>
+    </section>
   </main>
   <footer>
     <div id="updatedAt">–</div>
@@ -290,7 +423,42 @@ const signed=(n,d)=>{n=Number(n)||0;return (n>0?'+':'')+(d?n.toFixed(d):Math.rou
 const chars=()=>(DATA&&DATA.characters)||[];
 const ok=()=>chars().filter(c=>!c.error);
 const topBy=(l,f,n)=>l.slice().sort((a,b)=>f(b)-f(a)).slice(0,n||3);
-const akaOf=f=>{const x=DATA&&(DATA.friends||[]).find(y=>y.friend===f);return x&&x.aka?String(x.aka):'';};
+const people=()=>((DATA&&DATA.friends)||[]).concat((DATA&&DATA.known)||[],(DATA&&DATA.enemies)||[]);
+const personOf=f=>people().find(y=>y.friend===f)||null;
+const akaOf=f=>{const x=personOf(f);return x&&x.aka?String(x.aka):'';};
+const noteOf=f=>{const x=personOf(f);return x&&x.note?String(x.note):'';};
+const knownChars=()=>(DATA&&DATA.knownCharacters)||[];
+const enemyChars=()=>(DATA&&DATA.enemyCharacters)||[];
+const allChars=()=>chars().concat(knownChars(),enemyChars());
+const charPool=el=>{const root=el&&el.closest&&el.closest('#knownList, #friends, #enemyList');if(root&&root.id==='knownList')return knownChars();if(root&&root.id==='enemyList')return enemyChars();if(root&&root.id==='friends')return chars();return allChars();};
+const findChar=(slug,el)=>charPool(el).find(x=>x.slug===slug)||allChars().find(x=>x.slug===slug);
+function seenInfo(ts){
+  if(ts==null||ts==='')return {cls:'off',label:'Last seen unknown',ago:Infinity};
+  const n=Number(ts);if(!n)return {cls:'off',label:'Last seen unknown',ago:Infinity};
+  let ms=Date.now()-n;if(ms<0)ms=0;
+  const m=Math.floor(ms/60000);
+  if(m<15)return {cls:'on',label:'Active now',ago:ms};
+  if(m<60)return {cls:'recent',label:'Last seen '+m+'m ago',ago:ms};
+  const h=Math.floor(m/60);
+  if(h<24)return {cls:'idle',label:'Last seen '+h+'h ago',ago:ms};
+  const d=Math.floor(h/24);
+  return {cls:'old',label:'Last seen '+d+'d ago',ago:ms};
+}
+function statusHtml(c){
+  const s=seenInfo(c&&c.lastLogin);
+  const abs=c&&c.lastLogin?berlin(c.lastLogin):'';
+  return '<span class="seen '+s.cls+'" data-seen="'+(c&&c.lastLogin||'')+'" title="'+esc(abs||s.label)+'"><i></i><em>'+esc(s.label)+'</em></span>';
+}
+function refreshSeen(){
+  document.querySelectorAll('[data-seen]').forEach(el=>{
+    const s=seenInfo(el.dataset.seen);
+    el.className='seen '+s.cls;
+    const em=el.querySelector('em');if(em)em.textContent=s.label;
+    if(!el.title)el.title=s.label;
+  });
+  // keep the top bar labels honest between fetches too
+  if(DATA)renderRecent(true);
+}
 const akaHtml=f=>{const a=akaOf(f);return a?'<span class="aka" title="'+esc(f)+' aka '+esc(a)+'">“'+esc(a)+'”</span>':'';};
 const friendHtml=f=>esc(f)+akaHtml(f);
 const nameHtml=c=>'<span class="n" style="color:'+cc(c)+'">'+esc(c.name)+'</span><small>'+esc(c.surname||'')+' • '+friendHtml(c.friend)+'</small>';
@@ -304,21 +472,21 @@ const gearIcons=c=>(c.gear||[]).map((g,i)=>'<img class="q-'+esc(g.quality)+'" sr
 const kv=(k,v)=>'<div class="kv"><span>'+k+'</span><b>'+v+'</b></div>';
 // Expanded detail view for any character row; ctx picks the focus block.
 function detail(c,ctx){
-  const cap=DATA.levelCap||60,w=c.weekly||{},max=c.level>=cap,need=c.xpToLevel||0,cur=c.experience||0,total=Math.max(0,Math.min(100,(c.levelProgress-1)/(cap-1)*100));
+  const cap=DATA.levelCap||60,hasWeek=!!c.weekly,w=c.weekly||{},max=c.level>=cap,need=c.xpToLevel||0,cur=c.experience||0,total=Math.max(0,Math.min(100,(c.levelProgress-1)/(cap-1)*100));
   let f='';
   if(ctx==='ilvl'||ctx==='wilvl')f='<div class="xh">Item level '+fmt(c.itemLevel,1)+'</div><div class="gear-strip">'+(gearIcons(c)||'<span class="empty" style="padding:0">No gear</span>')+'</div>'+
-    '<div class="kvs">'+kv('This week',signed(w.ilvl,1)+' iLvl')+kv('Items equipped',(c.gear||[]).length)+kv('Level',c.level)+'</div>';
+    '<div class="kvs">'+(hasWeek?kv('This week',signed(w.ilvl,1)+' iLvl'):'')+kv('Items equipped',(c.gear||[]).length)+kv('Level',c.level)+'</div>';
   else if(ctx==='pvp'||ctx==='whk')f='<div class="xh">'+esc(c.pvp.rankName)+(c.pvp.rank?' • Rank '+c.pvp.rank:'')+'</div>'+barHtml(c.pvp.rank/14*100,'Rank '+c.pvp.rank+' / 14')+
-    '<div class="kvs">'+kv('Honorable kills',num(c.pvp.hk))+kv('HKs this week',signed(w.hk))+kv('Ranks this week',signed(w.rank))+'</div>';
+    '<div class="kvs">'+kv('Honorable kills',num(c.pvp.hk))+(hasWeek?kv('HKs this week',signed(w.hk))+kv('Ranks this week',signed(w.rank)):'')+'</div>';
   else f='<div class="xh">Level '+c.level+(max?' • MAX':' <small style="color:var(--muted);font-weight:400">'+fmt(c.xpPct,1)+'% to '+(c.level+1)+'</small>')+'</div>'+
     barHtml(max?100:c.xpPct,max?'MAX LEVEL':num(cur)+' / '+num(need)+' XP • '+fmt(c.xpPct,1)+'%','xp')+
     barHtml(total,'Progress to '+cap+': '+fmt(total,1)+'%')+
     '<div class="kvs">'+(max?'':kv('XP current',num(cur))+kv('XP needed',num(need))+kv('XP remaining',num(Math.max(0,need-cur))))+
-    kv('Levels this week',signed(w.levels,2))+kv('Ding '+cap,c.ding60At?berlin(c.ding60At):'not yet')+'</div>';
+    (hasWeek?kv('Levels this week',signed(w.levels,2))+kv('Ding '+cap,c.ding60At?berlin(c.ding60At):'not yet'):'')+'</div>';
   return '<div class="xd"><div><div class="xdb">'+f+'<div class="kvs">'+
-    kv('Player',friendHtml(c.friend))+kv('Class',esc(c.className)+(c.spec?' • '+esc(c.spec.main):''))+kv('Race',esc(c.race))+kv('Faction',esc(title(c.faction)))+kv('Ruleset',esc(c.ruleset))+
-    kv('Item level',fmt(c.itemLevel,1))+kv('Last login',berlin(c.lastLogin))+
-    kv('This week',signed(w.levels,2)+' lvl • '+signed(w.ilvl,1)+' iLvl • '+signed(w.hk)+' HK')+'</div>'+
+    kv('Player',friendHtml(c.friend)+(noteOf(c.friend)?'<div class="met" style="margin:4px 0 0;max-width:100%">'+esc(noteOf(c.friend))+'</div>':''))+kv('Class',esc(c.className)+(c.spec?' • '+esc(c.spec.main):''))+kv('Race',esc(c.race))+kv('Faction',esc(title(c.faction)))+kv('Ruleset',esc(c.ruleset))+
+    kv('Item level',fmt(c.itemLevel,1))+kv('Last seen',statusHtml(c)+(c.lastLogin?'<div style="font-size:.68rem;color:var(--muted);font-weight:400;margin-top:3px">'+berlin(c.lastLogin)+'</div>':''))+
+    (hasWeek?kv('This week',signed(w.levels,2)+' lvl • '+signed(w.ilvl,1)+' iLvl • '+signed(w.hk)+' HK'):'')+'</div>'+
     '<div class="btns"><button class="btn" type="button" data-gear="'+esc(c.slug)+'">Gear</button><a class="btn ghost" href="'+esc(c.armoryUrl)+'" target="_blank" rel="noopener">Armory ↗</a></div>'+
     '</div></div></div>';
 }
@@ -342,7 +510,7 @@ function render(){
   const prev=rendered?barKeys():null;
   const openRows=new Set([...document.querySelectorAll('.xrow.open')].map(e=>e.dataset.key));
   $('loading').hidden=true;$('app').hidden=false;
-  renderRace();renderBoards();renderWeekly();renderFriends();renderPvp();renderFeed();
+  renderRace();renderBoards();renderWeekly();renderFriends();renderPvp();renderFeed();renderKnown();renderEnemies();renderRecent();
   openRows.forEach(k=>{const el=document.querySelector('.xrow[data-key="'+CSS.escape(k)+'"]');if(!el)return;el.classList.add('instant','open');const b=el.firstElementChild;if(b)b.setAttribute('aria-expanded','true');
     requestAnimationFrame(()=>requestAnimationFrame(()=>el.classList.remove('instant')));});
   hideTT(true);
@@ -406,10 +574,10 @@ function card(c){
     '<div class="ctop"><div class="avatar"><img class="cls" src="'+clsIcon(c)+'" alt="">'+(ri?'<img class="race" src="'+ri+'" alt="" onerror="this.remove()">':'')+'</div>'+
     '<div style="min-width:0;flex:1"><div class="cname">'+esc(c.name)+' <span>'+esc(c.surname)+'</span>'+(c.isMain?'<span class="badge">MAIN</span>':'')+'</div>'+
     '<div class="csub">'+(akaOf(c.friend)?esc(c.friend)+akaHtml(c.friend)+' • ':'')+esc(c.race)+' '+esc(c.className)+(sp?' • '+esc(sp.main)+' '+esc(sp.split):'')+'</div>'+
-    '<div class="csub">'+esc(c.ruleset)+'</div></div><span class="chev">▼</span></div>'+
+    '<div class="csub">'+esc(c.ruleset)+'</div><div class="csub">'+statusHtml(c)+'</div></div><span class="chev">▼</span></div>'+
     '<div style="margin-top:9px">'+barHtml(c.level>=cap?100:c.xpPct,c.level>=cap?'MAX LEVEL':fmt(c.xpPct)+'% to '+(c.level+1),'xp')+'</div>'+
     '<div class="stats"><div class="stat"><b data-count="'+c.level+'">'+c.level+'</b><span>Level</span></div><div class="stat"><b data-count="'+c.itemLevel+'" data-dec="1">'+fmt(c.itemLevel,1)+'</b><span>iLvl</span></div><div class="stat"><b data-count="'+c.pvp.hk+'">'+c.pvp.hk+'</b><span>'+(c.pvp.rank?'R'+c.pvp.rank:'HKs')+'</span></div></div>'+
-    '<div class="wk"><span>week '+signed(w.levels,2)+' lvl</span><span>'+signed(w.ilvl,1)+' ilvl</span><span>'+signed(w.hk)+' HK</span></div>'+
+    (c.weekly?'<div class="wk"><span>week '+signed(w.levels,2)+' lvl</span><span>'+signed(w.ilvl,1)+' ilvl</span><span>'+signed(w.hk)+' HK</span></div>':'')+
    '</button>'+
    '<div class="details"><div><div class="dbody">'+
     '<div><div class="dh">Gear • iLvl '+fmt(c.itemLevel,1)+'</div><div class="gear-strip">'+(gearHtml||'<span class="empty" style="padding:0">No gear</span>')+'</div></div>'+
@@ -419,16 +587,72 @@ function card(c){
     '<div class="btns"><button class="btn" type="button" data-gear="'+esc(c.slug)+'">Full gear list</button><a class="btn ghost" href="'+esc(c.armoryUrl)+'" target="_blank" rel="noopener">Armory ↗</a></div>'+
    '</div></div></div></div>';
 }
-function renderFriends(){
-  const open=new Set([...document.querySelectorAll('.card.open')].map(e=>e.dataset.slug));
-  const openAlts=new Set([...document.querySelectorAll('.alts.open')].map(e=>e.dataset.friend));
-  $('friends').innerHTML=DATA.friends.map(f=>{
-    const mine=chars().filter(c=>c.friend===f.friend), main=mine.filter(c=>c.isMain), alts=mine.filter(c=>!c.isMain);
-    return '<div class="friend panel reveal"><div class="friend-h"><span>'+friendHtml(f.friend)+'</span>'+(alts.length?'<button type="button" data-alts="'+esc(f.friend)+'" aria-expanded="false">+'+alts.length+' ALT'+(alts.length>1?'S':'')+'</button>':'')+'</div>'+
-      '<div class="stack">'+main.map(card).join('')+(alts.length?'<div class="alts'+(openAlts.has(f.friend)?' open':'')+'" data-friend="'+esc(f.friend)+'"><div>'+alts.map(card).join('')+'</div></div>':'')+'</div></div>';
-  }).join('');
-  open.forEach(s=>{const el=document.querySelector('.card[data-slug="'+CSS.escape(s)+'"]');if(el)toggleCard(el,true);});
+function renderGroup(root,people,list){
+  if(!root)return;
+  const open=new Set([...root.querySelectorAll('.card.open')].map(e=>e.dataset.slug));
+  const openAlts=new Set([...root.querySelectorAll('.alts.open')].map(e=>e.dataset.friend));
+  root.innerHTML=(people||[]).map(f=>{
+    const mine=list.filter(c=>c.friend===f.friend), main=mine.filter(c=>c.isMain), alts=mine.filter(c=>!c.isMain);
+    const note=f.note?String(f.note):'';
+    const body=(main.length||alts.length)?main.map(card).join(''):'<div class="card err"><div class="card-sum"><div class="cname" style="color:#aaa">'+esc(f.friend)+'</div><div class="csub">Waiting for character data</div></div></div>';
+    return '<div class="friend panel reveal"><div class="friend-h"><span>'+friendHtml(f.friend)+(note?'<span class="met" title="'+esc(note)+'">'+esc(note)+'</span>':'')+'</span>'+(alts.length?'<button type="button" data-alts="'+esc(f.friend)+'" aria-expanded="'+(openAlts.has(f.friend)?'true':'false')+'">+'+alts.length+' ALT'+(alts.length>1?'S':'')+'</button>':'')+'</div>'+
+      '<div class="stack">'+body+(alts.length?'<div class="alts'+(openAlts.has(f.friend)?' open':'')+'" data-friend="'+esc(f.friend)+'"><div>'+alts.map(card).join('')+'</div></div>':'')+'</div></div>';
+  }).join('')||'<div class="empty">No one here yet</div>';
+  open.forEach(s=>{const el=root.querySelector('.card[data-slug="'+CSS.escape(s)+'"]');if(el)toggleCard(el,true);});
 }
+function renderFriends(){
+  renderGroup($('friends'),DATA.friends||[],chars());
+}
+function renderKnown(){
+  const root=$('knownList');if(!root)return;
+  if(!('known' in DATA)&&!('knownCharacters' in DATA)){
+    root.innerHTML='<div class="empty">Waiting for the next update — known characters will appear here.</div>';
+    return;
+  }
+  const people=DATA.known||[], list=DATA.knownCharacters||[];
+  if(!people.length&&!list.length){
+    root.innerHTML='<div class="empty">No known characters yet — add them under "known" in config.json.</div>';
+    return;
+  }
+  renderGroup(root,people,list);
+}
+function renderEnemies(){
+  const root=$('enemyList');if(!root)return;
+  if(!('enemies' in DATA)&&!('enemyCharacters' in DATA)){
+    root.innerHTML='<div class="empty">Waiting for the next update — enemies will appear here.</div>';
+    return;
+  }
+  const people=DATA.enemies||[], list=DATA.enemyCharacters||[];
+  if(!people.length&&!list.length){
+    root.innerHTML='<div class="empty">No enemies yet — add them under "enemies" in config.json.</div>';
+    return;
+  }
+  renderGroup(root,people,list);
+}
+function charBucket(c){
+  if((DATA.enemyCharacters||[]).some(x=>x===c||(x.slug===c.slug&&x.friend===c.friend)))return 'wanted';
+  if((DATA.knownCharacters||[]).some(x=>x===c||(x.slug===c.slug&&x.friend===c.friend)))return 'known';
+  return 'crew';
+}
+function renderRecent(soft){
+  const bar=$('recentBar');if(!bar)return;
+  const list=allChars().filter(c=>!c.error&&c.lastLogin);
+  const cutoff=6*3600e3;
+  const seen=new Set();
+  const fresh=list.filter(c=>{
+    const s=seenInfo(c.lastLogin);if(s.ago>cutoff)return false;
+    const k=c.slug+'|'+(c.friend||'');if(seen.has(k))return false;seen.add(k);return true;
+  }).sort((a,b)=>b.lastLogin-a.lastLogin).slice(0,8);
+  if(!fresh.length){bar.hidden=true;bar.innerHTML='';return;}
+  bar.hidden=false;
+  if(!soft)bar.classList.add('reveal');
+  const tag={crew:'Crew',known:'Known',wanted:'Wanted'};
+  bar.innerHTML='<span class="rh">Recently active</span>'+fresh.map(c=>{
+    const s=seenInfo(c.lastLogin),bkt=charBucket(c);
+    return '<button type="button" class="chip '+bkt+'" data-jump="'+bkt+'|'+esc(c.slug)+'">'+statusHtml(c)+'<span class="n" style="color:'+cc(c)+'">'+esc(c.name)+'</span><span class="tag">'+tag[bkt]+'</span></button>';
+  }).join('');
+}
+
 function renderPvp(){
   const l=ok().slice().sort((a,b)=>(b.pvp.rank-a.pvp.rank)||(b.pvp.hk-a.pvp.hk));
   $('pvpLadder').innerHTML=rows(l,c=>'<small style="font-weight:400;color:var(--muted)">'+esc(c.pvp.rankName)+'</small> '+c.pvp.hk,null,'ladder');
@@ -484,11 +708,17 @@ document.addEventListener('keydown',e=>{
   const r=e.target.closest&&e.target.closest('.xrow>[role=button]');if(r&&e.target===r){e.preventDefault();toggleRow(r.parentElement);}
 });
 document.addEventListener('click',e=>{
+  const jmp=e.target.closest&&e.target.closest('[data-jump]');
+  if(jmp){const [bkt,slug]=String(jmp.dataset.jump).split('|');
+    const root=bkt==='wanted'?$('enemyList'):(bkt==='known'?$('knownList'):$('friends'));
+    const el=(root||document).querySelector('.card[data-slug="'+CSS.escape(slug)+'"]');
+    if(el){el.scrollIntoView({behavior:reduced?'auto':'smooth',block:'center'});if(!el.classList.contains('err'))toggleCard(el,true);}
+    return;}
   if(e.target.closest('#tt')){if(e.target.closest('.tx'))hideTT(true);return;}
   const it=e.target.closest('[data-item]');if(it){e.preventDefault();e.stopPropagation();showTT(it,true);return;}
   if(TT.on)hideTT(true);
-  const g=e.target.closest('[data-gear]');if(g){openSheet(g.dataset.gear);return;}
-  const a=e.target.closest('[data-alts]');if(a){const box=document.querySelector('.alts[data-friend="'+CSS.escape(a.dataset.alts)+'"]');const o=box.classList.toggle('open');a.setAttribute('aria-expanded',o);if(o)setTimeout(()=>{box.querySelectorAll('.card').forEach(animateIn);},50);return;}
+  const g=e.target.closest('[data-gear]');if(g){openSheet(g.dataset.gear,g);return;}
+  const a=e.target.closest('[data-alts]');if(a){const scope=a.closest('.friends')||document;const box=scope.querySelector('.alts[data-friend="'+CSS.escape(a.dataset.alts)+'"]');if(!box)return;const o=box.classList.toggle('open');a.setAttribute('aria-expanded',o);if(o)setTimeout(()=>{box.querySelectorAll('.card').forEach(animateIn);},50);return;}
   if(e.target.closest('[data-close]')){closeSheet();return;}
   const s=e.target.closest('.card-sum');if(s){const c=s.closest('.card');if(!c.classList.contains('err'))toggleCard(c);return;}
   const r=e.target.closest('.xrow>[role=button]');if(r&&!e.target.closest('a,button'))toggleRow(r.parentElement);
@@ -523,7 +753,7 @@ function ttHtml(c,g){
   return L.join('');
 }
 function showTT(el,pin){
-  const [slug,idx]=String(el.dataset.item).split(':'),c=chars().find(x=>x.slug===slug),g=c&&c.gear&&c.gear[+idx];if(!g)return;
+  const [slug,idx]=String(el.dataset.item).split(':'),c=findChar(slug,el),g=c&&c.gear&&c.gear[+idx];if(!g)return;
   clearTimeout(TT.t);const tt=$('tt');
   if(TT.el!==el){tt.innerHTML=ttHtml(c,g);TT.el=el;}
   TT.on=true;TT.pin=TT.pin||!!pin;
@@ -541,8 +771,8 @@ if(canHover){
   document.addEventListener('mouseout',e=>{if(TT.pin)return;const it=e.target.closest&&(e.target.closest('[data-item]')||e.target.closest('#tt'));if(it){clearTimeout(TT.t);TT.t=setTimeout(()=>hideTT(false),180);}});
 }
 addEventListener('scroll',()=>{if(TT.on&&!$('tt').classList.contains('sheet'))hideTT(true);},{passive:true});
-function openSheet(slug){
-  const c=chars().find(x=>x.slug===slug);if(!c)return;
+function openSheet(slug,from){
+  const c=findChar(slug,from);if(!c)return;
   $('sheetTitle').innerHTML='<span style="color:'+cc(c)+'">'+esc(c.fullName)+'</span> <small style="font-weight:400;color:var(--muted);font-size:.8rem">'+friendHtml(c.friend)+'</small>';
   $('sheetMeta').textContent='iLvl '+fmt(c.itemLevel,1)+' (avg of equipped slots, shirt/tabard excluded) • '+c.gear.length+' items • tap an item for its tooltip';
   $('sheetList').innerHTML=c.gear.map((g,i)=>'<div class="gear-row" role="button" tabindex="0" data-item="'+esc(c.slug)+':'+i+'" style="animation-delay:'+(i*35)+'ms">'+
@@ -635,7 +865,7 @@ try{const v=localStorage.getItem('dsmg4eva_fs');if(v){fsI.value=v;applyFs(v);}}c
   addEventListener('resize',size);size();tick();
 })();
 
-load();setInterval(load,REFRESH_MS);
+load();setInterval(load,REFRESH_MS);setInterval(()=>{if(DATA)refreshSeen();},30*1000);
 document.addEventListener('visibilitychange',()=>{if(!document.hidden)load();});
 })();
 </script>
