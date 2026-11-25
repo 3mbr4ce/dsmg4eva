@@ -268,6 +268,109 @@ footer input{width:120px;accent-color:var(--accent)}
 footer em{color:var(--accent);font-style:normal}
 @media(min-width:900px){.wrap{padding:0 20px 30px}.hbar{padding:10px 20px}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-delay:0s!important;animation-iteration-count:1!important;transition-duration:.01ms!important;transition-delay:0s!important}#embers{display:none}.reveal{opacity:1;transform:none}.bar>i::after,.crown,.dot,#skipIntro::after{animation:none!important}#fw{display:none}}
+
+/* ---------- v2.6 avatars, character picker, character page ---------- */
+.av{position:relative;display:inline-block;flex:0 0 auto;border-radius:9px;border:2px solid var(--cc,#888);overflow:hidden;background:color-mix(in srgb,var(--cc,#888) 22%,#120b0a);vertical-align:middle;box-shadow:0 0 12px color-mix(in srgb,var(--cc,#888) 40%,transparent)}
+.av::before{content:attr(data-ini);position:absolute;inset:0;display:grid;place-items:center;font-weight:700;color:var(--cc,#fff);font-size:calc(var(--s,48px)*.5)}
+.av img{position:relative;display:block;width:100%;height:100%;object-fit:cover}
+.avatar .av{width:48px;height:48px}
+.chip .av{border-width:1px;border-radius:50%;box-shadow:none}
+.chip .av::before{font-size:.7rem}
+.btn.dtlink{background:transparent;border-color:var(--accent);color:var(--accent)}
+.xdb .btns .btn.dtlink,.dbody .btns .btn.dtlink{min-height:36px;font-size:.75rem}
+.hbtn{display:inline-flex;align-items:center;gap:6px;color:var(--text)}
+.hbtn svg{flex:0 0 auto}
+.hbtn .lbl{font-size:.72rem;letter-spacing:1.5px;text-transform:uppercase}
+@media(max-width:480px){.hbtn .lbl{display:none}}
+.picker{position:fixed;inset:0;z-index:170;visibility:hidden;transition:visibility 0s .4s}
+.picker.open{visibility:visible;transition:none}
+.picker .bd{position:absolute;inset:0;background:rgba(0,0,0,.72);opacity:0;transition:opacity .3s}
+.picker.open .bd{opacity:1}
+.pk-pn{position:absolute;left:0;right:0;bottom:0;max-height:92vh;display:flex;flex-direction:column;background:#1b1314;border-top:2px solid var(--primary-hi);border-radius:16px 16px 0 0;transform:translateY(100%);transition:transform .4s cubic-bezier(.2,.8,.2,1);padding-bottom:env(safe-area-inset-bottom)}
+.picker.open .pk-pn{transform:none}
+@media(max-width:600px){.pk-pn{top:0;max-height:none;border-radius:0}}
+@media(min-width:700px){.pk-pn{left:50%;right:auto;width:640px;bottom:auto;top:50%;max-height:86vh;border-radius:12px;border:1px solid var(--primary-hi);transform:translate(-50%,-40%) scale(.96);opacity:0;transition:transform .35s,opacity .3s}.picker.open .pk-pn{transform:translate(-50%,-50%);opacity:1}}
+.pk-search{padding:8px 14px 4px}
+.pk-search input{width:100%;box-sizing:border-box;height:40px;border-radius:8px;border:1px solid var(--line);background:rgba(0,0,0,.4);color:var(--text);padding:0 12px;font:inherit;font-size:.95rem}
+.pk-search input:focus{outline:none;border-color:var(--accent)}
+.pk-list{overflow:auto;padding:4px 14px 16px;-webkit-overflow-scrolling:touch}
+.pk-h{font-size:.68rem;letter-spacing:3px;text-transform:uppercase;color:var(--accent);padding:14px 2px 7px}
+.pk-h.known{color:#e8c98a}.pk-h.wanted{color:#ff8a7a}
+.pk-row{display:flex;align-items:center;gap:12px;width:100%;box-sizing:border-box;text-align:left;color:inherit;font:inherit;background:rgba(0,0,0,.28);border:1px solid var(--line);border-left:4px solid var(--cc,#888);border-radius:10px;padding:8px 10px;margin-bottom:8px;cursor:pointer;min-height:56px}
+.pk-row:hover,.pk-row:focus-visible{background:rgba(255,255,255,.06);outline:none;border-color:var(--accent);border-left-color:var(--cc,#888)}
+.pk-row .t{min-width:0;flex:1}
+.pk-row .t b{display:block;font-size:1.02rem;letter-spacing:.5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pk-row .t small{display:block;font-size:.72rem;color:var(--muted);letter-spacing:.5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pk-row .go{color:var(--muted);font-size:1.1rem}
+.pk-row .alts{font-size:.62rem;letter-spacing:1px;text-transform:uppercase;color:var(--accent);border:1px solid var(--accent);border-radius:9px;padding:1px 7px;white-space:nowrap}
+.pk-row[disabled]{opacity:.5;cursor:default}
+.pk-empty{padding:26px 8px;text-align:center;color:var(--muted)}
+.pk-back{padding:2px 14px 0}
+#detail{position:fixed;inset:0;z-index:150;overflow-y:auto;overflow-x:hidden;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;background:var(--bg) radial-gradient(ellipse at 50% -10%,rgba(140,22,22,.45),transparent 60%);opacity:0;transform:translateY(14px);transition:opacity .3s,transform .35s cubic-bezier(.2,.8,.2,1)}
+#detail[hidden]{display:none}
+#detail.show{opacity:1;transform:none}
+.dt-top{position:sticky;top:0;z-index:5;display:flex;align-items:center;gap:8px;padding:calc(8px + env(safe-area-inset-top)) 12px 8px;background:rgba(20,12,11,.88);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);border-bottom:1px solid rgba(140,22,22,.7)}
+.dt-top .sp{flex:1}
+.dt-top .ttl{font-size:.8rem;letter-spacing:2px;text-transform:uppercase;color:var(--muted);white-space:nowrap}
+.dt-wrap{max-width:1180px;margin:0 auto;padding:0 12px calc(28px + env(safe-area-inset-bottom))}
+.dt-hero{position:relative;margin-top:12px;border-radius:14px;overflow:hidden;border:1px solid var(--line);min-height:440px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);background-size:cover;background-position:center}
+.dt-fig{position:relative;display:flex;align-items:flex-end;justify-content:center;min-height:440px;--s:12rem}
+.dt-fig::before{content:attr(data-ini);position:absolute;inset:0;display:grid;place-items:center;font-size:var(--s);font-weight:700;color:var(--cc,#fff);opacity:.12}
+.dt-fig img.dt-render{position:relative;z-index:1;display:block;max-height:520px;width:auto;max-width:100%;object-fit:contain;filter:drop-shadow(0 12px 18px rgba(0,0,0,.7))}
+.dt-fig img.dt-render.sil{opacity:.55;filter:brightness(.8) drop-shadow(0 8px 14px rgba(0,0,0,.6));max-height:440px}
+.dt-fig{overflow:hidden}
+.dt-fig img.dt-render.crop{position:absolute;max-height:none;height:150%;width:auto;max-width:none;left:50%;top:-32%;transform:translateX(-50%)}
+.dt-fig .cap{position:absolute;z-index:2;left:0;right:0;bottom:8px;text-align:center;font-size:.64rem;letter-spacing:1.5px;text-transform:uppercase;color:rgba(255,255,255,.65)}
+.dt-id{position:relative;z-index:1;padding:22px 20px;display:flex;flex-direction:column;justify-content:center;gap:9px;background:linear-gradient(90deg,transparent,rgba(10,6,6,.72) 32%)}
+.dt-kick{font-size:.7rem;letter-spacing:3px;text-transform:uppercase;color:var(--accent)}
+.dt-kick.wanted{color:#ff8a7a}.dt-kick.known{color:#e8c98a}
+.dt-id h1{margin:0;font-size:2.4rem;line-height:1;letter-spacing:1px;text-shadow:0 2px 12px rgba(0,0,0,.7)}
+.dt-id h1 span{color:#fff;font-weight:400;font-size:.62em;letter-spacing:2px;display:block;margin-top:3px}
+.dt-title{font-size:1rem;color:var(--gold);font-style:italic;letter-spacing:1px}
+.dt-line{font-size:1.02rem;color:#fff;letter-spacing:.5px}
+.dt-line small{color:var(--muted);font-size:.8em}
+.dt-tags{display:flex;flex-wrap:wrap;gap:6px}
+.dt-tag{font-size:.66rem;letter-spacing:1.5px;text-transform:uppercase;border-radius:4px;padding:2px 8px;border:1px solid rgba(255,255,255,.3);background:rgba(0,0,0,.4)}
+.dt-tag.ALLIANCE{border-color:#4f78d6;color:#aac4ff;background:rgba(30,58,116,.55)}
+.dt-tag.HORDE{border-color:#c0392b;color:#ffb0a5;background:rgba(107,17,17,.6)}
+.dt-id .btns{display:flex;flex-wrap:wrap;gap:8px;margin-top:4px}
+.dt-alts{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.dt-alt{display:flex;align-items:center;gap:8px;padding:6px 12px 6px 6px;border-radius:10px;background:rgba(0,0,0,.34);border:1px solid var(--line);color:inherit;font:inherit;cursor:pointer;min-height:48px;text-align:left}
+.dt-alt small{display:block;font-size:.66rem;color:var(--muted);letter-spacing:.5px}
+.dt-alt b{display:block;font-size:.9rem;letter-spacing:.5px}
+.dt-alt.cur{border-color:var(--accent);background:rgba(217,82,4,.14);cursor:default}
+.dt-alt:not(.cur):hover{border-color:var(--accent)}
+.dt-cols{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:12px;margin-top:12px;align-items:start}
+.dt-col{display:grid;gap:12px;min-width:0}
+@media(max-width:900px){.dt-cols{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:760px){.dt-hero{grid-template-columns:minmax(0,1fr);min-height:0}.dt-fig{min-height:340px}.dt-fig img.dt-render{max-height:400px}.dt-id{background:linear-gradient(180deg,transparent,rgba(10,6,6,.85) 22%);padding:16px 14px}.dt-id h1{font-size:2rem}}
+.dt-panel{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:12px 14px;box-shadow:0 8px 24px rgba(0,0,0,.3);min-width:0}
+.dt-panel h3{margin:0 0 9px;font-size:.72rem;letter-spacing:3px;text-transform:uppercase;color:var(--accent);font-weight:600;display:flex;justify-content:space-between;gap:8px}
+.dt-panel h3 em{font-style:normal;color:var(--muted);letter-spacing:1px}
+.dt-panel .line{display:grid;grid-template-columns:minmax(0,38%) 1fr;gap:8px;align-items:center;margin-bottom:6px;font-size:.85rem}
+.dt-panel .line>span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.dt-panel .none{color:var(--muted);font-size:.85rem}
+.pd{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px}
+.pd .eq,.pd-w .eq{display:flex;align-items:center;gap:8px;min-width:0;background:rgba(0,0,0,.34);border:1px solid var(--line);border-radius:8px;padding:5px;cursor:pointer;color:inherit;text-align:left}
+.pd .eq:hover,.pd-w .eq:hover,.eq:focus-visible{border-color:var(--accent);outline:none}
+.eq img{width:40px;height:40px;flex:0 0 40px;border-radius:6px;border:2px solid #333;background:#000;object-fit:cover}
+.eq .tx2{min-width:0;flex:1}
+.eq .sl{display:block;font-size:.58rem;letter-spacing:1px;text-transform:uppercase;color:var(--muted)}
+.eq .nm{display:block;font-size:.8rem;line-height:1.15;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;border:0!important}
+.eq .il{font-size:.62rem;color:var(--muted)}
+.eq.empty{cursor:default;opacity:.45}
+.eq.empty .ph{width:40px;height:40px;flex:0 0 40px;border-radius:6px;border:2px dashed #3a2c2a}
+.pd-w{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:6px;margin-top:6px}
+.dt-stats{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,132px),1fr));gap:6px}
+.dt-sp{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+.dt-sp .sk{background:rgba(0,0,0,.3);border-radius:8px;padding:6px 8px}
+.dt-sp .sk b{display:block;font-size:.66rem;letter-spacing:1px;color:var(--muted);text-transform:uppercase}
+.dt-sp .sk svg{display:block;width:100%;height:46px;margin-top:3px}
+.dt-sp .sk i{font-style:normal;font-size:.9rem;color:#fff}
+.dt-sp .sk small{color:var(--muted);margin-left:5px;font-size:.7rem}
+.dt-credit{margin-top:18px;padding:12px 0 0;border-top:1px solid rgba(140,22,22,.6);text-align:center;font-size:.68rem;letter-spacing:2px;color:var(--muted);text-transform:uppercase}
+.dt-err{padding:60px 16px;text-align:center;color:var(--muted)}
+.credit-line{font-size:.62rem;letter-spacing:1.5px;color:var(--muted);margin-top:6px}
 </style>
 </head>
 <body>
@@ -288,6 +391,7 @@ footer em{color:var(--accent);font-style:normal}
     <img src="logo-256.jpg" alt="" width="40" height="40">
     <div class="brand"><b>DSMG<em>4EVA</em></b><small>DAMN SO MUCH GEAR 4 EVER<span class="wide-only"> • WOW FOREVER EU</span></small></div>
     <div class="sp"></div>
+    <button class="icon-btn hbtn" id="openPicker" type="button" title="Characters" aria-label="Characters — pick a character"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><circle cx="9" cy="8" r="3.4" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M2.8 20c.4-3.6 3-5.6 6.2-5.6s5.8 2 6.2 5.6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="17.5" cy="9" r="2.6" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M17.8 14.2c2.2.2 3.6 1.7 4 4.2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg><span class="lbl">Characters</span></button>
     <button class="icon-btn" id="replayIntro" type="button" title="Replay intro" aria-label="Replay intro"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><defs><linearGradient id="trg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffe08a"/><stop offset=".55" stop-color="#e0a526"/><stop offset="1" stop-color="#9a6410"/></linearGradient></defs><path fill="none" stroke="#e0a526" stroke-width="1.8" d="M7 5H4v2a4 4 0 0 0 4 4M17 5h3v2a4 4 0 0 1-4 4"/><path fill="url(#trg)" d="M7 3h10v5a5 5 0 0 1-10 0z"/><path fill="url(#trg)" d="M10.8 12.6h2.4l.5 4.4h-3.4z"/><rect x="7.5" y="17" width="9" height="2.2" rx=".6" fill="url(#trg)"/><rect x="6" y="19.4" width="12" height="1.8" rx=".6" fill="#9a6410"/></svg></button>
   </div>
 </header>
@@ -389,8 +493,20 @@ footer em{color:var(--accent);font-style:normal}
   <footer>
     <div id="updatedAt">–</div>
     <div class="fs"><label for="fontScale">Text size</label><input id="fontScale" type="range" min="85" max="125" step="5" value="100"><span id="fontScaleV">100%</span></div>
+    <div class="credit-line">Data and images © Blizzard Entertainment</div>
     <div>DSMG4EVA • CREATED AND MANAGED BY <em>3MBR4CE</em> • LOK'TAR OGAR!</div>
   </footer>
+</div>
+
+<div id="detail" hidden role="dialog" aria-modal="true" aria-label="Character page"></div>
+
+<div class="picker" id="picker" aria-hidden="true" role="dialog" aria-label="Choose a character">
+  <div class="bd" data-pclose></div>
+  <div class="pk-pn">
+    <div class="pn-h"><b id="pkTitle">Characters</b><button class="icon-btn" type="button" data-pclose aria-label="Close">✕</button></div>
+    <div class="pk-search" id="pkSearchWrap"><input id="pkSearch" type="search" placeholder="Search name, nickname or character…" autocomplete="off" aria-label="Search characters"></div>
+    <div class="pk-list" id="pkList"></div>
+  </div>
 </div>
 
 <div id="tt" role="dialog" aria-label="Item tooltip"></div>
@@ -430,7 +546,7 @@ const noteOf=f=>{const x=personOf(f);return x&&x.note?String(x.note):'';};
 const knownChars=()=>(DATA&&DATA.knownCharacters)||[];
 const enemyChars=()=>(DATA&&DATA.enemyCharacters)||[];
 const allChars=()=>chars().concat(knownChars(),enemyChars());
-const charPool=el=>{const root=el&&el.closest&&el.closest('#knownList, #friends, #enemyList');if(root&&root.id==='knownList')return knownChars();if(root&&root.id==='enemyList')return enemyChars();if(root&&root.id==='friends')return chars();return allChars();};
+const charPool=el=>{const root=el&&el.closest&&el.closest('#knownList, #friends, #enemyList, #detail');if(root&&root.id==='detail'){const d=allChars().find(x=>x.slug===DT.slug);return d?[d]:[];}if(root&&root.id==='knownList')return knownChars();if(root&&root.id==='enemyList')return enemyChars();if(root&&root.id==='friends')return chars();return allChars();};
 const findChar=(slug,el)=>charPool(el).find(x=>x.slug===slug)||allChars().find(x=>x.slug===slug);
 function seenInfo(ts){
   if(ts==null||ts==='')return {cls:'off',label:'Last seen unknown',ago:Infinity};
@@ -487,7 +603,7 @@ function detail(c,ctx){
     kv('Player',friendHtml(c.friend)+(noteOf(c.friend)?'<div class="met" style="margin:4px 0 0;max-width:100%">'+esc(noteOf(c.friend))+'</div>':''))+kv('Class',esc(c.className)+(c.spec?' • '+esc(c.spec.main):''))+kv('Race',esc(c.race))+kv('Faction',esc(title(c.faction)))+kv('Ruleset',esc(c.ruleset))+
     kv('Item level',fmt(c.itemLevel,1))+kv('Last seen',statusHtml(c)+(c.lastLogin?'<div style="font-size:.68rem;color:var(--muted);font-weight:400;margin-top:3px">'+berlin(c.lastLogin)+'</div>':''))+
     (hasWeek?kv('This week',signed(w.levels,2)+' lvl • '+signed(w.ilvl,1)+' iLvl • '+signed(w.hk)+' HK'):'')+'</div>'+
-    '<div class="btns"><button class="btn" type="button" data-gear="'+esc(c.slug)+'">Gear</button><a class="btn ghost" href="'+esc(c.armoryUrl)+'" target="_blank" rel="noopener">Armory ↗</a></div>'+
+    '<div class="btns"><button class="btn" type="button" data-gear="'+esc(c.slug)+'">Gear</button><a class="btn dtlink" href="#char/'+esc(c.slug)+'" data-page="'+esc(c.slug)+'">Character page ›</a><a class="btn ghost" href="'+esc(c.armoryUrl)+'" target="_blank" rel="noopener">Armory ↗</a></div>'+
     '</div></div></div>';
 }
 const rowBtn=(cls,inner,extra)=>'<div class="'+cls+'" role="button" tabindex="0" aria-expanded="false"'+(extra||'')+'>'+inner+'</div>';
@@ -499,7 +615,7 @@ async function load(){
     const r=await fetch('data.json?t='+Date.now(),{cache:'no-store'});
     if(!r.ok)throw new Error('HTTP '+r.status);
     const d=await r.json();
-    if(!DATA||d.generatedAt!==DATA.generatedAt){const first=!DATA;DATA=d;render();if(first)maybeIntro();}
+    if(!DATA||d.generatedAt!==DATA.generatedAt){const first=!DATA;DATA=d;render();if(first&&!HASH_RE.test(location.hash))maybeIntro();routeFromHash();if(PK.open)renderPicker();}
   }catch(e){ if(!DATA)$('loading').innerHTML='<span>No data yet ('+esc(e.message)+'). Run the “Update data” workflow on GitHub.</span>'; }
 }
 
@@ -571,7 +687,7 @@ function card(c){
   const gearHtml=gearIcons(c);
   return '<div class="card" style="--cc:'+cc(c)+'" data-slug="'+esc(c.slug)+'">'+
    '<button class="card-sum" type="button" aria-expanded="false">'+
-    '<div class="ctop"><div class="avatar"><img class="cls" src="'+clsIcon(c)+'" alt="">'+(ri?'<img class="race" src="'+ri+'" alt="" onerror="this.remove()">':'')+'</div>'+
+    '<div class="ctop"><div class="avatar">'+avatarHtml(c,48)+''+(ri?'<img class="race" src="'+ri+'" alt="" onerror="this.remove()">':'')+'</div>'+
     '<div style="min-width:0;flex:1"><div class="cname">'+esc(c.name)+' <span>'+esc(c.surname)+'</span>'+(c.isMain?'<span class="badge">MAIN</span>':'')+'</div>'+
     '<div class="csub">'+(akaOf(c.friend)?esc(c.friend)+akaHtml(c.friend)+' • ':'')+esc(c.race)+' '+esc(c.className)+(sp?' • '+esc(sp.main)+' '+esc(sp.split):'')+'</div>'+
     '<div class="csub">'+esc(c.ruleset)+'</div><div class="csub">'+statusHtml(c)+'</div></div><span class="chev">▼</span></div>'+
@@ -584,7 +700,7 @@ function card(c){
     '<div><div class="dh">Talents '+(sp?esc(sp.split):'')+'</div>'+specHtml+'</div>'+
     '<div><div class="dh">Professions</div>'+profHtml+'</div>'+
     '<div><div class="dh">PvP</div><div class="pvpline">'+esc(c.pvp.rankName)+' • '+c.pvp.hk+' honorable kills</div></div>'+
-    '<div class="btns"><button class="btn" type="button" data-gear="'+esc(c.slug)+'">Full gear list</button><a class="btn ghost" href="'+esc(c.armoryUrl)+'" target="_blank" rel="noopener">Armory ↗</a></div>'+
+    '<div class="btns"><button class="btn" type="button" data-gear="'+esc(c.slug)+'">Full gear list</button><a class="btn dtlink" href="#char/'+esc(c.slug)+'" data-page="'+esc(c.slug)+'">Character page ›</a><a class="btn ghost" href="'+esc(c.armoryUrl)+'" target="_blank" rel="noopener">Armory ↗</a></div>'+
    '</div></div></div></div>';
 }
 function renderGroup(root,people,list){
@@ -636,21 +752,22 @@ function charBucket(c){
 }
 function renderRecent(soft){
   const bar=$('recentBar');if(!bar)return;
-  const list=allChars().filter(c=>!c.error&&c.lastLogin);
+  // only the real friends (config friends: mains + alts), never the known / enemy lists
+  const list=chars().filter(c=>!c.error&&c.lastLogin);
   const cutoff=6*3600e3;
   const seen=new Set();
   const fresh=list.filter(c=>{
     const s=seenInfo(c.lastLogin);if(s.ago>cutoff)return false;
     const k=c.slug+'|'+(c.friend||'');if(seen.has(k))return false;seen.add(k);return true;
   }).sort((a,b)=>b.lastLogin-a.lastLogin).slice(0,8);
-  if(!fresh.length){bar.hidden=true;bar.innerHTML='';return;}
+  if(!fresh.length){bar.hidden=true;bar.innerHTML='';bar.dataset.sig='';return;}
+  const sig=fresh.map(c=>c.slug+'@'+(c.media&&c.media.avatar||'')).join(',');
   bar.hidden=false;
+  if(soft&&bar.dataset.sig===sig)return; // labels are kept fresh by refreshSeen(); don't rebuild (and re-load) the avatars
+  bar.dataset.sig=sig;
   if(!soft)bar.classList.add('reveal');
-  const tag={crew:'Crew',known:'Known',wanted:'Wanted'};
-  bar.innerHTML='<span class="rh">Recently active</span>'+fresh.map(c=>{
-    const s=seenInfo(c.lastLogin),bkt=charBucket(c);
-    return '<button type="button" class="chip '+bkt+'" data-jump="'+bkt+'|'+esc(c.slug)+'">'+statusHtml(c)+'<span class="n" style="color:'+cc(c)+'">'+esc(c.name)+'</span><span class="tag">'+tag[bkt]+'</span></button>';
-  }).join('');
+  bar.innerHTML='<span class="rh">Recently active</span>'+fresh.map(c=>
+    '<button type="button" class="chip" data-page="'+esc(c.slug)+'" title="Open character page">'+avatarHtml(c,22)+statusHtml(c)+'<span class="n" style="color:'+cc(c)+'">'+esc(c.name)+'</span></button>').join('');
 }
 
 function renderPvp(){
@@ -708,12 +825,14 @@ document.addEventListener('keydown',e=>{
   const r=e.target.closest&&e.target.closest('.xrow>[role=button]');if(r&&e.target===r){e.preventDefault();toggleRow(r.parentElement);}
 });
 document.addEventListener('click',e=>{
-  const jmp=e.target.closest&&e.target.closest('[data-jump]');
-  if(jmp){const [bkt,slug]=String(jmp.dataset.jump).split('|');
-    const root=bkt==='wanted'?$('enemyList'):(bkt==='known'?$('knownList'):$('friends'));
-    const el=(root||document).querySelector('.card[data-slug="'+CSS.escape(slug)+'"]');
-    if(el){el.scrollIntoView({behavior:reduced?'auto':'smooth',block:'center'});if(!el.classList.contains('err'))toggleCard(el,true);}
-    return;}
+  const pg=e.target.closest&&e.target.closest('[data-page]');
+  if(pg){if(e.button>0||e.metaKey||e.ctrlKey||e.shiftKey)return;e.preventDefault();hideTT(true);openChar(pg.dataset.page);return;}
+  if(e.target.closest('[data-dtclose]')){closeDetail();return;}
+  if(e.target.closest('#openPicker,[data-picker]')){openPicker();return;}
+  if(e.target.closest('[data-pclose]')){closePicker();return;}
+  if(e.target.closest('[data-pkback]')){PK.step='list';renderPicker();return;}
+  const pp=e.target.closest('[data-person]');
+  if(pp){const v=String(pp.dataset.person),k=v.indexOf('|');pickPerson(v.slice(0,k),v.slice(k+1));return;}
   if(e.target.closest('#tt')){if(e.target.closest('.tx'))hideTT(true);return;}
   const it=e.target.closest('[data-item]');if(it){e.preventDefault();e.stopPropagation();showTT(it,true);return;}
   if(TT.on)hideTT(true);
@@ -779,16 +898,240 @@ function openSheet(slug,from){
     '<img class="q-'+esc(g.quality)+'" src="'+esc(g.icon||ICON+'inv_misc_questionmark.jpg')+'" alt="" onerror="this.src=\''+ICON+'inv_misc_questionmark.jpg\'">'+
     '<div style="min-width:0"><div class="slot">'+esc(g.slotName)+'</div><div class="nm q-'+esc(g.quality)+'">'+esc(g.name)+'</div>'+(g.enchants.length?'<div style="font-size:.7rem;color:#1eff00">'+esc(g.enchants.join(', '))+'</div>':'')+'</div>'+
     '<b class="val">'+g.ilvl+'</b></div>').join('')||'<div class="empty">No gear data</div>';
-  $('sheet').classList.add('open');$('sheet').setAttribute('aria-hidden','false');document.body.style.overflow='hidden';
+  $('sheet').classList.add('open');$('sheet').setAttribute('aria-hidden','false');syncLock();
   history.pushState({sheet:1},'');
 }
 function closeSheet(fromPop){
   if(!$('sheet').classList.contains('open'))return;
-  hideTT(true);$('sheet').classList.remove('open');$('sheet').setAttribute('aria-hidden','true');document.body.style.overflow='';
+  hideTT(true);$('sheet').classList.remove('open');$('sheet').setAttribute('aria-hidden','true');syncLock();
   if(!fromPop&&history.state&&history.state.sheet)history.back();
 }
-addEventListener('popstate',()=>closeSheet(true));
+addEventListener('popstate',()=>{closeSheet(true);routeFromHash();});
 addEventListener('keydown',e=>{if(e.key==='Escape'){if(TT.on){hideTT(true);return;}closeSheet();}});
+
+/* ---------- avatars, character picker and character pages (v2.6) ---------- */
+const BLZ='https://render.worldofwarcraft.com/';
+const mediaOf=c=>(c&&c.media)||{};
+const avatarHtml=(c,size)=>{
+  const m=mediaOf(c),fb=[m.avatarSd,clsIcon(c)].filter(Boolean).join('|');
+  return '<span class="av" style="--cc:'+cc(c)+';--s:'+size+'px;width:'+size+'px;height:'+size+'px" data-ini="'+esc(String(c.name||'?').charAt(0).toUpperCase())+'"><img src="'+esc(m.avatar||m.avatarSd||clsIcon(c))+'" data-fb="'+esc(fb)+'" alt="" loading="lazy" decoding="async"></span>';
+};
+// Image fallback chain: data-fb="url|url" is tried in order; when it runs out the box keeps its coloured initial.
+document.addEventListener('error',e=>{
+  const im=e.target;if(!im||im.tagName!=='IMG'||!im.dataset||im.dataset.fb==null)return;
+  const list=im.dataset.fb.split('|').filter(Boolean);
+  let next;while((next=list.shift())&&next===im.getAttribute('src')){}
+  im.dataset.fb=list.join('|');
+  if(next){if(im.dataset.sil&&next===im.dataset.sil)im.classList.add('sil');if(!/-main(-sd)?-raw\./.test(next))im.classList.remove('crop');im.src=next;return;}
+  if(im.parentNode&&im.parentNode.classList.contains('av'))im.remove();else im.style.visibility='hidden';
+},true);
+const BUCKETS={
+  crew:{label:'The Crew',list:()=>(DATA&&DATA.friends)||[],chars:chars},
+  known:{label:'Friends Made on the Way',list:()=>(DATA&&DATA.known)||[],chars:knownChars},
+  wanted:{label:'Enemies Made on the Way',list:()=>(DATA&&DATA.enemies)||[],chars:enemyChars}
+};
+const personChars=(b,f)=>BUCKETS[b].chars().filter(x=>x.friend===f&&!x.error).sort((a,c)=>(c.isMain?1:0)-(a.isMain?1:0));
+const personName=f=>esc(f)+akaHtml(f);
+const lvlLine=c=>'Lv '+c.level+' '+esc(c.race)+' '+esc(c.className);
+
+/* picker */
+const PK={open:false,step:'list',bucket:null,friend:null,q:''};
+function renderPicker(){
+  const list=$('pkList'),wrap=$('pkSearchWrap');
+  if(!DATA){list.innerHTML='<div class="pk-empty">Loading…</div>';return;}
+  if(PK.step==='alts'){
+    const cs=personChars(PK.bucket,PK.friend);
+    $('pkTitle').innerHTML=personName(PK.friend);wrap.hidden=true;
+    list.innerHTML='<div class="pk-back"><button class="btn ghost" type="button" data-pkback>← All characters</button></div><div class="pk-h '+PK.bucket+'">Choose a character</div>'+
+      cs.map(c=>'<button type="button" class="pk-row" style="--cc:'+cc(c)+'" data-page="'+esc(c.slug)+'">'+avatarHtml(c,44)+'<span class="t"><b style="color:'+cc(c)+'">'+esc(c.name)+' <span style="color:#fff;font-weight:400;font-size:.8em">'+esc(c.surname)+'</span>'+(c.isMain?'<span class="badge">MAIN</span>':'<span class="badge" style="color:var(--muted);border-color:var(--muted)">ALT</span>')+'</b><small>'+lvlLine(c)+(c.spec?' • '+esc(c.spec.main):'')+'</small></span><span class="go">›</span></button>').join('');
+    return;
+  }
+  $('pkTitle').textContent='Characters';wrap.hidden=false;
+  const q=PK.q.trim().toLowerCase();let html='',n=0;
+  Object.keys(BUCKETS).forEach(b=>{
+    const rows=BUCKETS[b].list().map(p=>{
+      const cs=personChars(b,p.friend),m=cs[0];
+      const hay=[p.friend,p.aka,p.note].concat(cs.map(x=>x.fullName+' '+x.name+' '+x.surname)).join(' ').toLowerCase();
+      if(q&&hay.indexOf(q)<0)return '';
+      n++;
+      if(!m)return '<button type="button" class="pk-row" disabled><span class="av" style="--cc:#888;--s:44px;width:44px;height:44px" data-ini="?"></span><span class="t"><b>'+personName(p.friend)+'</b><small>Not found yet</small></span></button>';
+      return '<button type="button" class="pk-row" style="--cc:'+cc(m)+'" data-person="'+esc(b+'|'+p.friend)+'">'+avatarHtml(m,44)+'<span class="t"><b>'+personName(p.friend)+'</b><small><span style="color:'+cc(m)+'">'+esc(m.fullName||m.name)+'</span> • '+lvlLine(m)+'</small></span>'+(cs.length>1?'<span class="alts">+'+(cs.length-1)+' alt'+(cs.length>2?'s':'')+'</span>':'')+'<span class="go">›</span></button>';
+    }).join('');
+    if(rows)html+='<div class="pk-h '+b+'">'+BUCKETS[b].label+'</div>'+rows;
+  });
+  list.innerHTML=html||'<div class="pk-empty">'+(q?'Nobody matches “'+esc(PK.q)+'”.':'No characters yet.')+'</div>';
+}
+function openPicker(){
+  PK.open=true;PK.step='list';PK.q='';$('pkSearch').value='';renderPicker();
+  const p=$('picker');p.classList.add('open');p.setAttribute('aria-hidden','false');hideTT(true);syncLock();
+  if(canHover)setTimeout(()=>$('pkSearch').focus({preventScroll:true}),120);
+  $('pkList').scrollTop=0;
+}
+function closePicker(){
+  if(!PK.open)return;
+  PK.open=false;const p=$('picker');p.classList.remove('open');p.setAttribute('aria-hidden','true');syncLock();
+}
+function pickPerson(b,f){
+  const cs=personChars(b,f);if(!cs.length)return;
+  if(cs.length===1){openChar(cs[0].slug);return;}
+  PK.step='alts';PK.bucket=b;PK.friend=f;renderPicker();$('pkList').scrollTop=0;
+}
+
+/* character page */
+const DT={slug:null,json:'',opener:null};
+function syncLock(){
+  const intro=$('intro'),introOn=intro&&!intro.hidden&&!intro.classList.contains('hide');
+  document.body.style.overflow=(DT.slug||PK.open||$('sheet').classList.contains('open')||introOn)?'hidden':'';
+}
+function spark(pts,idx,color,label,dec){
+  const t0=pts[0][0],t1=pts[pts.length-1][0],span=t1-t0||1,v=pts.map(p=>p[idx]),mn=Math.min.apply(null,v),mx=Math.max.apply(null,v),rg=(mx-mn)||1,W=200,H=46;
+  const xy=pts.map((p,i)=>[(p[0]-t0)/span*(W-8)+4,H-5-(p[idx]-mn)/rg*(H-12)]);
+  const line=xy.map(a=>a[0].toFixed(1)+','+a[1].toFixed(1)).join(' ');
+  const last=xy[xy.length-1],d=v[v.length-1]-v[0];
+  return '<div class="sk"><b>'+label+'</b><i>'+fmt(v[v.length-1],dec)+'</i><small>'+signed(d,dec)+' / '+Math.max(1,Math.round(span/864e5))+'d</small>'+
+    '<svg viewBox="0 0 '+W+' '+H+'" preserveAspectRatio="none" aria-hidden="true"><polygon points="4,'+H+' '+line+' '+last[0].toFixed(1)+','+H+'" fill="'+color+'" fill-opacity=".14"/><polyline points="'+line+'" fill="none" stroke="'+color+'" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke"/><circle cx="'+last[0].toFixed(1)+'" cy="'+last[1].toFixed(1)+'" r="3" fill="'+color+'"/></svg></div>';
+}
+const EQ_PAIRS=[['HEAD','Head','HANDS','Hands'],['NECK','Neck','WAIST','Waist'],['SHOULDER','Shoulders','LEGS','Legs'],['BACK','Back','FEET','Feet'],['CHEST','Chest','FINGER_1','Ring'],['SHIRT','Shirt','FINGER_2','Ring'],['TABARD','Tabard','TRINKET_1','Trinket'],['WRIST','Wrists','TRINKET_2','Trinket']];
+const EQ_WEAPONS=[['MAIN_HAND','Main hand'],['OFF_HAND','Off hand'],['RANGED','Ranged']];
+function eqCell(c,by,slot,label){
+  const e=by[slot];
+  if(!e)return '<div class="eq empty"><span class="ph"></span><span class="tx2"><span class="sl">'+label+'</span><span class="il">Empty</span></span></div>';
+  const g=e[0],i=e[1];
+  return '<div class="eq" role="button" tabindex="0" data-item="'+esc(c.slug)+':'+i+'" aria-label="'+esc(g.slotName+': '+g.name)+'"><img class="q-'+esc(g.quality)+'" src="'+esc(g.icon||QIMG)+'" alt="" loading="lazy" onerror="this.src=\''+QIMG+'\'"><span class="tx2"><span class="sl">'+label+'</span><span class="nm q-'+esc(g.quality)+'">'+esc(g.name)+'</span><span class="il">iLvl '+esc(g.ilvl)+(g.enchants&&g.enchants.length?' • enchanted':'')+'</span></span></div>';
+}
+function equipHtml(c){
+  const by={},seen={};(c.gear||[]).forEach((g,i)=>{by[g.slot]=[g,i];});
+  if(!(c.gear||[]).length)return '<div class="none">No gear data yet</div>';
+  let h='<div class="pd">';
+  EQ_PAIRS.forEach(r=>{seen[r[0]]=seen[r[2]]=1;h+=eqCell(c,by,r[0],r[1])+eqCell(c,by,r[2],r[3]);});
+  h+='</div><div class="pd-w">';
+  EQ_WEAPONS.forEach(w=>{seen[w[0]]=1;if(by[w[0]]||w[0]!=='RANGED')h+=eqCell(c,by,w[0],w[1]);});
+  Object.keys(by).forEach(k=>{if(!seen[k])h+=eqCell(c,by,k,by[k][0].slotName||k);});
+  return h+'</div>';
+}
+function statsHtml(c){
+  if(!c.stats||!c.stats.length)return '<div class="none">Stats show up after the next data update.</div>';
+  return '<div class="dt-stats">'+c.stats.map(s=>kv(esc(s.label||s.k),s.p?fmt(s.v,2)+'%':num(s.v))).join('')+'</div>';
+}
+function detailHtml(c){
+  const b=charBucket(c),m=mediaOf(c),cap=DATA.levelCap||60,sp=c.spec,w=c.weekly||{},pr=c.professions||{primaries:[],secondaries:[]};
+  const race=String(c.race||'').toLowerCase().replace(/\s+/g,'-'),gender=String(c.gender).toUpperCase()==='FEMALE'?'female':'male';
+  const sil=BLZ+'shadow/profile-raw/'+race+'-'+gender+'.png';
+  const bgRace=BLZ+'profile-backgrounds/v2/armory_bg_race_'+race.replace(/-/g,'_')+'.jpg';
+  const fac=c.faction==='ALLIANCE'?'linear-gradient(135deg,#1c3470,#0b1430)':'linear-gradient(135deg,#6b1111,#240707)';
+  const hasRender=!!(m.main||m.mainSd);
+  const figSrc=m.main||m.mainSd||sil;
+  const fb=[m.main?m.mainSd:'',hasRender?sil:'',clsIcon(c)].filter(Boolean).join('|');
+  const peers=personChars(b,c.friend);
+  const maxPts=sp?Math.max(1,...sp.trees.map(t=>t.points)):1;
+  const maxed=c.level>=cap;
+  const kick=BUCKETS[b].label;
+  const alts=peers.length>1?'<div class="dt-alts" role="group" aria-label="Switch character">'+peers.map(x=>
+    '<button type="button" class="dt-alt'+(x.slug===c.slug?' cur':'')+'" style="--cc:'+cc(x)+'" '+(x.slug===c.slug?'aria-current="true" disabled':'data-page="'+esc(x.slug)+'"')+'>'+avatarHtml(x,36)+'<span><b style="color:'+cc(x)+'">'+esc(x.name)+(x.isMain?' <span class="badge">MAIN</span>':'')+'</b><small>Lv '+x.level+' '+esc(x.className)+'</small></span></button>').join('')+'</div>':'';
+  const hist=Array.isArray(c.history)?c.history.filter(p=>Array.isArray(p)&&p.length>=4):[];
+  const rep=c.reputations,ach=c.achievements,col=c.collections;
+  const repHtml=rep&&rep.top&&rep.top.length?rep.top.map(r=>'<div class="line"><span title="'+esc(r.name)+'">'+esc(r.name)+'</span>'+barHtml(r.tier>=7?100:(r.max?r.v/r.max*100:0),esc(r.standing)+(r.tier>=7||!r.max?'':' • '+num(r.v)+' / '+num(r.max)),'sec')+'</div>').join(''):'<div class="none">'+(rep?'No reputations yet.':'Reputations show up after the next data update.')+'</div>';
+  const profLines=pr.primaries.concat(pr.secondaries);
+  const profHtml=profLines.length?pr.primaries.map(p=>'<div class="line"><span>'+esc(p.name)+'</span>'+barHtml(p.max?p.skill/p.max*100:0,p.skill+' / '+p.max)+'</div>').join('')+pr.secondaries.map(p=>'<div class="line"><span>'+esc(p.name)+'</span>'+barHtml(p.max?p.skill/p.max*100:0,p.skill+' / '+p.max,'sec')+'</div>').join(''):'<div class="none">No professions yet</div>';
+  const specHtml=sp&&sp.trees.length?sp.trees.map(t=>'<div class="line"><span>'+esc(t.name)+'</span>'+barHtml(t.points/Math.max(maxPts,c.level-9||1)*100,t.points+' pts')+'</div>').join(''):'<div class="none">No talents yet</div>';
+  const collHtml=(ach||col||c.questsDone!=null||c.titleCount!=null)?
+    '<div class="dt-stats">'+(ach?kv('Achievement points',num(ach.points))+kv('Achievements',num(ach.count)):kv('Achievement points',num(c.achievementPoints)))+
+    (col?kv('Mounts',num(col.mounts))+kv('Pets',num(col.pets))+kv('Toys',num(col.toys)):'')+(c.questsDone!=null?kv('Quests completed',num(c.questsDone)):'')+(c.titleCount!=null?kv('Titles',num(c.titleCount)):'')+'</div>'+
+    (ach&&ach.recent&&ach.recent.length?'<div class="none" style="margin-top:8px">Latest: '+ach.recent.map(esc).join(' • ')+'</div>':''):
+    '<div class="dt-stats">'+kv('Achievement points',num(c.achievementPoints))+'</div><div class="none" style="margin-top:8px">More collections show up after the next data update.</div>';
+  return '<div class="dt-top"><button class="icon-btn hbtn" type="button" data-dtclose aria-label="Back to dashboard"><span aria-hidden="true">←</span><span class="lbl">Back</span></button><span class="ttl">Character</span><span class="sp"></span>'+
+      '<button class="icon-btn hbtn" type="button" data-picker aria-label="Choose another character">'+PERSON_SVG+'<span class="lbl">Characters</span></button></div>'+
+    '<div class="dt-wrap"><section class="dt-hero" style="--cc:'+cc(c)+';background-image:linear-gradient(180deg,rgba(0,0,0,.18),rgba(14,8,8,.82)),url(\''+bgRace+'\'),'+fac+'">'+
+      '<div class="dt-fig" data-ini="'+esc(String(c.name||'?').charAt(0).toUpperCase())+'"><img class="dt-render'+(hasRender?' crop':' sil')+'" src="'+esc(figSrc)+'" data-fb="'+esc(fb)+'" data-sil="'+esc(sil)+'" alt="'+esc(c.fullName)+'">'+(hasRender?'':'<div class="cap">Official render not available yet</div>')+'</div>'+
+      '<div class="dt-id"><div class="dt-kick '+b+'">'+esc(kick)+' • '+personName(c.friend)+'</div>'+
+        '<h1 style="color:'+cc(c)+'">'+esc(c.name)+'<span>'+esc(c.surname)+(c.isMain?'':' <small style="color:var(--muted)">(alt)</small>')+'</span></h1>'+
+        (c.title?'<div class="dt-title">'+esc(c.title)+'</div>':'')+
+        '<div class="dt-line">Level '+c.level+(maxed?' • MAX':' <small>'+fmt(c.xpPct,1)+'% to '+(c.level+1)+'</small>')+' • '+esc(c.race)+' '+esc(c.className)+(sp?' • '+esc(sp.main)+' <small>'+esc(sp.split)+'</small>':'')+'</div>'+
+        '<div>'+barHtml(maxed?100:c.xpPct,maxed?'MAX LEVEL':fmt(c.xpPct,1)+'% to '+(c.level+1),'xp')+'</div>'+
+        '<div class="dt-tags"><span class="dt-tag '+esc(c.faction)+'">'+esc(title(c.faction))+'</span><span class="dt-tag">'+esc(c.ruleset)+'</span><span class="dt-tag">iLvl '+fmt(c.itemLevel,1)+'</span>'+(c.pvp&&c.pvp.rank?'<span class="dt-tag">'+esc(c.pvp.rankName)+'</span>':'')+'</div>'+
+        '<div class="dt-line"><small>'+statusHtml(c)+(c.lastLogin?' • '+berlin(c.lastLogin):'')+'</small></div>'+
+        (noteOf(c.friend)?'<div class="met" style="max-width:100%">'+esc(noteOf(c.friend))+'</div>':'')+
+        '<div class="btns"><a class="btn" href="'+esc(c.armoryUrl)+'" target="_blank" rel="noopener">Armory ↗</a><button class="btn ghost" type="button" data-gear="'+esc(c.slug)+'">Full gear list</button></div>'+
+        alts+'</div></section>'+
+    '<div class="dt-cols"><div class="dt-col">'+
+      '<section class="dt-panel"><h3>Equipment <em>iLvl '+fmt(c.itemLevel,1)+'</em></h3>'+equipHtml(c)+'</section>'+
+      '<section class="dt-panel"><h3>Reputations'+(rep&&rep.total>(rep.top||[]).length?' <em>top '+rep.top.length+' of '+rep.total+'</em>':'')+'</h3>'+repHtml+'</section>'+
+      (hist.length>=2?'<section class="dt-panel"><h3>Progress <em>last '+Math.max(1,Math.round((hist[hist.length-1][0]-hist[0][0])/864e5))+' days</em></h3><div class="dt-sp">'+spark(hist,1,'#F2C14E','Level',2)+spark(hist,2,'#D95204','Item level',1)+spark(hist,3,'#e0584a','Honorable kills',0)+'</div></section>':'')+
+    '</div><div class="dt-col">'+
+      '<section class="dt-panel"><h3>Stats</h3>'+statsHtml(c)+'</section>'+
+      '<section class="dt-panel"><h3>Talents <em>'+(sp?esc(sp.split):'')+'</em></h3>'+specHtml+'</section>'+
+      '<section class="dt-panel"><h3>Professions</h3>'+profHtml+'</section>'+
+      '<section class="dt-panel"><h3>PvP</h3>'+barHtml((c.pvp.rank||0)/14*100,esc(c.pvp.rankName)+' • Rank '+(c.pvp.rank||0)+' / 14')+
+        '<div class="dt-stats" style="margin-top:8px">'+kv('Honorable kills',num(c.pvp.hk))+(c.weekly?kv('HKs this week',signed(w.hk))+kv('This week',signed(w.levels,2)+' lvl'):'')+'</div></section>'+
+      '<section class="dt-panel"><h3>Achievements &amp; collections</h3>'+collHtml+'</section>'+
+    '</div></div><div class="dt-credit">Data and images © Blizzard Entertainment</div></div>';
+}
+const PERSON_SVG='<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><circle cx="9" cy="8" r="3.4" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M2.8 20c.4-3.6 3-5.6 6.2-5.6s5.8 2 6.2 5.6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="17.5" cy="9" r="2.6" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M17.8 14.2c2.2.2 3.6 1.7 4 4.2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>';
+const BASE_TITLE=document.title;
+function showDetail(c){
+  const el=$('detail'),json=JSON.stringify(c),same=DT.slug===c.slug&&!el.hidden;
+  if(same&&DT.json===json)return;
+  const st=same?el.scrollTop:0;
+  if(!DT.slug)DT.opener=document.activeElement;
+  DT.slug=c.slug;DT.json=json;
+  el.innerHTML=detailHtml(c);el.hidden=false;
+  if(!same){el.classList.remove('show');void el.offsetWidth;requestAnimationFrame(()=>el.classList.add('show'));}
+  el.scrollTop=st;hideTT(true);
+  document.title=c.fullName+' • '+BASE_TITLE;
+  requestAnimationFrame(()=>{
+    if(same)el.querySelectorAll('.bar>i[data-w]').forEach(i=>{i.dataset.on=1;i.style.transition='none';i.style.width=i.dataset.w+'%';});
+    animateIn(el);
+    if(same)requestAnimationFrame(()=>el.querySelectorAll('.bar>i').forEach(i=>{i.style.transition='';}));
+  });
+  syncLock();
+  if(!same){const b=el.querySelector('[data-dtclose]');if(b)b.focus({preventScroll:true});}
+}
+function showMissing(slug){
+  const el=$('detail');DT.slug=slug;DT.json='';
+  el.innerHTML='<div class="dt-top"><button class="icon-btn hbtn" type="button" data-dtclose><span aria-hidden="true">←</span><span class="lbl">Back</span></button><span class="sp"></span><button class="icon-btn hbtn" type="button" data-picker>'+PERSON_SVG+'<span class="lbl">Characters</span></button></div><div class="dt-err">No character called “'+esc(slug)+'” in the data (yet).<br><br><button class="btn" type="button" data-picker>Choose a character</button></div>';
+  el.hidden=false;requestAnimationFrame(()=>el.classList.add('show'));syncLock();
+}
+function hideDetail(){
+  if(!DT.slug)return;
+  const el=$('detail');DT.slug=null;DT.json='';el.classList.remove('show');document.title=BASE_TITLE;syncLock();
+  setTimeout(()=>{if(!DT.slug){el.hidden=true;el.innerHTML='';}},320);
+  const o=DT.opener;DT.opener=null;if(o&&o.isConnected&&o.focus)try{o.focus({preventScroll:true});}catch(e){}
+}
+const HASH_RE=/^#char\/(.+)$/;
+function routeFromHash(){
+  if(!DATA)return;
+  const m=location.hash.match(HASH_RE);
+  if(!m){hideDetail();return;}
+  let slug;try{slug=decodeURIComponent(m[1]);}catch(e){slug=m[1];}
+  slug=slug.toLowerCase();
+  const all=allChars(),c=all.find(x=>x.slug===slug&&!x.error)||all.find(x=>x.slug===slug);
+  if(!c||c.error){if(DT.slug!==slug)showMissing(slug);return;}
+  showDetail(c);
+}
+function nav(slug,replace){
+  const url=location.pathname+location.search+(slug?'#char/'+encodeURIComponent(slug):'');
+  const prev=history.state&&history.state.dsmg;
+  if(replace)history.replaceState(slug?{dsmg:prev||'root'}:null,'',url);
+  else history.pushState({dsmg:'push'},'',url);
+  routeFromHash();
+}
+function openChar(slug){
+  closePicker();
+  nav(slug,!!DT.slug);
+}
+function closeDetail(){
+  if(!DT.slug)return;
+  if(history.state&&history.state.dsmg==='push')history.back();else nav(null,true);
+}
+addEventListener('hashchange',routeFromHash);
+// capture phase so Esc closes the topmost layer only: tooltip → gear sheet → picker → character page
+addEventListener('keydown',e=>{
+  if(e.key!=='Escape')return;
+  const intro=$('intro');if(TT.on||$('sheet').classList.contains('open')||(intro&&!intro.hidden&&!intro.classList.contains('hide')))return;
+  if(PK.open){e.stopPropagation();closePicker();return;}
+  if(DT.slug){e.stopPropagation();closeDetail();}
+},true);
+document.addEventListener('input',e=>{if(e.target&&e.target.id==='pkSearch'){PK.q=e.target.value;renderPicker();}});
 
 /* ---------- intro ---------- */
 let introT=[];
@@ -828,7 +1171,7 @@ function maybeIntro(force){
       '<div class="lv">Lvl '+c.level+(c.level<DATA.levelCap?' <small style="color:var(--muted);font-weight:400">'+fmt(c.xpPct)+'%</small>':' 👑')+'</div>'+
       '<div class="xpb">'+barHtml(c.level>=DATA.levelCap?100:c.xpPct,'','xp')+'</div></div>'+
       '<div class="blk">'+(i+1)+'</div></div>';}).join('');
-  const intro=$('intro');intro.hidden=false;intro.classList.remove('hide');document.body.style.overflow='hidden';
+  const intro=$('intro');intro.hidden=false;intro.classList.remove('hide');syncLock();
   clearIntroTimers();
   intro.querySelectorAll('.pod').forEach(pd=>{const k=+pd.className.match(/r(\d)/)[1]-1;
     introT.push(setTimeout(()=>pd.querySelectorAll('.bar>i[data-w]').forEach(i=>i.style.width=i.dataset.w+'%'),reduced?0:(delay[k]+.5)*1000));});
@@ -838,7 +1181,7 @@ function maybeIntro(force){
 }
 function endIntro(){
   const intro=$('intro');if(intro.hidden||intro.classList.contains('hide'))return;
-  clearIntroTimers();fireworks.stop();intro.classList.add('hide');document.body.style.overflow='';
+  clearIntroTimers();fireworks.stop();intro.classList.add('hide');syncLock();
   setTimeout(()=>{intro.hidden=true;},700);
 }
 $('skipIntro').onclick=endIntro;

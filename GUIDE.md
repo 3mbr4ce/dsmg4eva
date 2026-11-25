@@ -266,3 +266,13 @@ In your repo on GitHub, click **Add file → Upload files** and drag in only the
 - optional: `GUIDE.md`, `GUIDE.pdf`, `APK-INSTALL.md`
 
 **Don't** upload `docs/data.json` or `data/state.json`. Those hold the live levels, weekly baselines and ding times, and the workflow keeps them up to date. Committing to `main` starts the workflow automatically, which pulls fresh data (including the new friend) and redeploys within about 1–2 minutes.
+
+---
+
+# What's new in v2.6: character pages
+
+- New **Characters** button at the top: pick anyone (friends, friends made on the way, enemies) and see their own page with the full character render, gear, stats and more.
+- Avatars now show on every character card (class icon with the first letter if Blizzard has no picture yet).
+- "Recently active" only lists your real friends.
+- Nothing to configure: replace `docs/index.html` and `scripts/fetch.mjs` (and keep your `config.json`), then run **Update data** once. Extra data (stats, reputations, collections…) appears after that first run; until then the pages show a short "after the next update" note.
+- If Blizzard does not return some extra data, the site still works; the workflow log only shows a warning.

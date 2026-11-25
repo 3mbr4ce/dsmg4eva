@@ -39,18 +39,30 @@ async function getAccessToken() {
   return (await res.json()).access_token;
 }
 let CALLS = 0;
+// Cap simultaneous requests so the extra per-character endpoints never burst past Blizzard's per-second limit.
+const MAX_INFLIGHT = 10;
+let inflight = 0;
+const waiters = [];
+async function slot() {
+  if (inflight >= MAX_INFLIGHT) await new Promise(r => waiters.push(r));
+  inflight++;
+}
+function release() { inflight--; const w = waiters.shift(); if (w) w(); }
 async function apiGet(p, token, namespace) {
   const url = API_HOST + p + (p.includes('?') ? '&' : '?') + 'namespace=' + (namespace || NAMESPACE) + '&locale=' + LOCALE;
-  for (let attempt = 0; attempt < 3; attempt++) {
-    CALLS++;
-    try {
-      const res = await fetch(url, { headers: { Authorization: 'Bearer ' + token } });
-      if (res.status === 429 || res.status >= 500) { await sleep(800 * (attempt + 1)); continue; }
-      if (res.status !== 200) return { ok: false, status: res.status };
-      return { ok: true, status: 200, json: await res.json() };
-    } catch (e) { await sleep(800 * (attempt + 1)); }
-  }
-  return { ok: false, status: 'network' };
+  await slot();
+  try {
+    for (let attempt = 0; attempt < 3; attempt++) {
+      CALLS++;
+      try {
+        const res = await fetch(url, { headers: { Authorization: 'Bearer ' + token } });
+        if (res.status === 429 || res.status >= 500) { await sleep(800 * (attempt + 1)); continue; }
+        if (res.status !== 200) return { ok: false, status: res.status };
+        return { ok: true, status: 200, json: await res.json() };
+      } catch (e) { await sleep(800 * (attempt + 1)); }
+    }
+    return { ok: false, status: 'network' };
+  } finally { release(); }
 }
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 async function pool(items, fn) {
@@ -84,15 +96,24 @@ async function main() {
   // New snapshot once the weekly reset has passed since the last one.
   if (!snap || snap.weekId !== weekId) snap = { weekId, takenAt: Date.now(), baseline: {} };
   const dings = state.ding60 || {};
+  // Progress history (friends only) for the character page. Points older than 30 days are dropped (Blizzard API 30-day data rule).
+  const hist = state.history || {};
+  const HIST_TTL = 30 * 86400e3, now = Date.now(), liveSlugs = new Set(chars.map(c => c.slug));
+  Object.keys(hist).forEach(s => { if (!liveSlugs.has(s)) delete hist[s]; });
   chars.forEach(c => {
     if (c.error) return;
+    const arr = (hist[c.slug] || []).filter(pt => now - pt[0] < HIST_TTL);
+    const last = arr[arr.length - 1], pt = [now, c.levelProgress, c.itemLevel, c.pvp.hk];
+    if (!last || last[1] !== pt[1] || last[2] !== pt[2] || last[3] !== pt[3]) arr.push(pt);
+    hist[c.slug] = arr.slice(-240);
+    c.history = hist[c.slug];
     if (!snap.baseline[c.slug]) snap.baseline[c.slug] = baselineOf(c);
     const b = snap.baseline[c.slug];
     c.weekly = { levels: round2(c.levelProgress - b.levelProgress), ilvl: round2(c.itemLevel - b.ilvl), hk: c.pvp.hk - b.hk, rank: c.pvp.rank - b.rank };
     if (c.level >= LEVEL_CAP && !dings[c.slug]) dings[c.slug] = Date.now();
     c.ding60At = dings[c.slug] || null;
   });
-  const newState = { weeklySnapshot: snap, ding60: dings };
+  const newState = { weeklySnapshot: snap, ding60: dings, history: hist };
   if (JSON.stringify(newState) !== stateBefore) writeJson(STATE_FILE, newState);
 
   const bundle = {
@@ -120,6 +141,7 @@ async function main() {
   console.log(`${chars.length - bad.length}/${chars.length} friends OK, ${knownChars.length - badKnown.length}/${knownChars.length} known OK, ${enemyChars.length - badEnemies.length}/${enemyChars.length} enemies OK, ${CALLS} API calls, ${Date.now() - t0} ms`);
   if (bad.length) console.log('::warning::Not found / failed: ' + bad.join(', ') + ' - check spelling in config.json');
   if (badKnown.length) console.log('::warning::Known character not found / failed: ' + badKnown.join(', ') + ' - check spelling in config.json (known). This does not fail the run.');
+  if (OPTIONAL_FAILS.length) console.log('::warning::Optional character data unavailable (' + OPTIONAL_FAILS.length + '): ' + OPTIONAL_FAILS.slice(0, 12).join(', ') + (OPTIONAL_FAILS.length > 12 ? ', ...' : '') + ' - the page just hides those blocks. This does not fail the run.');
   if (badEnemies.length) console.log('::warning::Enemy character not found / failed: ' + badEnemies.join(', ') + ' - check spelling in config.json (enemies). This does not fail the run.');
 }
 
@@ -139,16 +161,31 @@ function characterJobs(people) {
   return list;
 }
 
+// Core endpoints feed the races/ladders; EXTRA endpoints only feed the character page and are fully optional.
+const CORE_PARTS = ['/equipment', '/pvp-summary', '/specializations', '/professions'];
+const EXTRA_PARTS = ['/character-media', '/statistics', '/titles', '/reputations', '/achievements',
+  '/collections/mounts', '/collections/pets', '/collections/toys', '/quests/completed'];
+const OPTIONAL_FAILS = [];
+
+async function loadCharacter(c, token) {
+  const base = '/profile/wow/character/' + encodeURIComponent(c.slug);
+  const profile = await apiGet(base, token);
+  const none = { ok: false, status: 'skipped' };
+  if (!profile.ok) return normalizeCharacter(c, profile, none, none, none, none, {});
+  const res = await Promise.all(CORE_PARTS.concat(EXTRA_PARTS).map(p => apiGet(base + p, token)));
+  const core = res.slice(0, CORE_PARTS.length), extra = {};
+  EXTRA_PARTS.forEach((p, i) => {
+    const r = res[CORE_PARTS.length + i];
+    extra[p] = r;
+    // 404 is normal (new character, no titles yet, media still rendering); anything else is worth a warning.
+    if (!r.ok && r.status !== 404) OPTIONAL_FAILS.push(c.input + p + ' [' + r.status + ']');
+  });
+  return normalizeCharacter(c, profile, core[0], core[1], core[2], core[3], extra);
+}
+
 async function fetchCharacterList(token, list) {
   if (!list.length) return [];
-  const parts = ['', '/equipment', '/pvp-summary', '/specializations', '/professions'];
-  const jobs = [];
-  list.forEach(c => parts.forEach(p => jobs.push('/profile/wow/character/' + encodeURIComponent(c.slug) + p)));
-  const res = await pool(jobs, p => apiGet(p, token));
-  return list.map((c, i) => {
-    const r = res.slice(i * parts.length, (i + 1) * parts.length);
-    return normalizeCharacter(c, r[0], r[1], r[2], r[3], r[4]);
-  });
+  return pool(list, c => loadCharacter(c, token));
 }
 
 async function attachItemIcons(token, out) {
@@ -163,7 +200,8 @@ async function attachItemIcons(token, out) {
 }
 
 /* ---------- shared logic (identical to the Apps Script version) ---------- */
-function normalizeCharacter(c, profile, equip, pvp, specs, profs) {
+function normalizeCharacter(c, profile, equip, pvp, specs, profs, extra) {
+  extra = extra || {};
   const base = { friend: c.friend, isMain: c.isMain, slug: c.slug, input: c.input };
   if (!profile.ok) {
     base.error = profile.status === 404 ? 'not_found' : ('http_' + profile.status);
@@ -201,7 +239,104 @@ function normalizeCharacter(c, profile, equip, pvp, specs, profs) {
   base.spec = specs.ok ? normalizeSpecs(specs.json) : null;
   base.professions = profs.ok ? normalizeProfessions(profs.json) : { primaries: [], secondaries: [] };
   base.armoryUrl = 'https://worldofwarcraft.blizzard.com/en-gb/forever/' + REGION + '/armory/character/' + encodeURIComponent(c.slug);
+  // Optional character-page blocks: each normalizer is guarded so a odd payload can never abort the run.
+  const opt = (k, v) => { if (v != null) base[k] = v; };
+  opt('media', safe(normalizeMedia, extra['/character-media']));
+  opt('stats', safe(normalizeStats, extra['/statistics']));
+  const ti = safe(normalizeTitles, extra['/titles'], base.name);
+  opt('title', ti && ti.active || null);
+  opt('titleCount', ti ? ti.count : null);
+  opt('reputations', safe(normalizeReps, extra['/reputations']));
+  opt('achievements', safe(normalizeAchievements, extra['/achievements']));
+  const col = {};
+  [['mounts', '/collections/mounts'], ['pets', '/collections/pets'], ['toys', '/collections/toys']].forEach(([k, p]) => {
+    const n = safe(countList, extra[p], k); if (n != null) col[k] = n;
+  });
+  if (Object.keys(col).length) base.collections = col;
+  opt('questsDone', safe(countList, extra['/quests/completed'], 'quests'));
   return base;
+}
+
+/* ---------- optional character-page blocks ---------- */
+function safe(fn, ...args) { try { return fn(...args); } catch { return null; } }
+
+/** character-media -> { avatar, avatarSd, main, mainSd } (render.worldofwarcraft.com URLs). */
+function normalizeMedia(r) {
+  if (!r || !r.ok) return null;
+  const by = {};
+  (r.json.assets || []).forEach(a => { if (a && a.key && a.value) by[a.key] = String(a.value); });
+  const m = {};
+  if (by.avatar) m.avatar = by.avatar;
+  if (by['avatar-sd']) m.avatarSd = by['avatar-sd'];
+  if (by['main-raw']) m.main = by['main-raw'];
+  if (by['main-sd-raw']) m.mainSd = by['main-sd-raw'];
+  return Object.keys(m).length ? m : null;
+}
+
+/** Number out of { effective | value | base } objects, or a plain number. */
+function statNum(x) {
+  if (typeof x === 'number') return x;
+  if (x && typeof x === 'object') {
+    for (const k of ['effective', 'value', 'base']) if (x[k] != null) { const n = statNum(x[k]); if (n != null) return n; }
+  }
+  return null;
+}
+const STAT_SPEC = [
+  ['health', 'Health', 'n'], ['power', 'Power', 'n'],
+  ['strength', 'Strength', 'n'], ['agility', 'Agility', 'n'], ['stamina', 'Stamina', 'n'],
+  ['intellect', 'Intellect', 'n'], ['spirit', 'Spirit', 'n'], ['armor', 'Armor', 'n'],
+  ['attack_power', 'Attack power', 'n'], ['ranged_attack_power', 'Ranged attack power', 'n'], ['spell_power', 'Spell power', 'n'],
+  ['melee_crit', 'Melee crit', 'p'], ['ranged_crit', 'Ranged crit', 'p'], ['spell_crit', 'Spell crit', 'p'],
+  ['dodge', 'Dodge', 'p'], ['parry', 'Parry', 'p'], ['block', 'Block', 'p'],
+  ['melee_haste', 'Melee haste', 'p'], ['spell_haste', 'Spell haste', 'p']
+];
+/** /statistics -> [{ k, label, v, p }]  (p = percentage). Unknown keys are ignored; missing ones simply do not appear. */
+function normalizeStats(r) {
+  if (!r || !r.ok) return null;
+  const j = r.json, out = [];
+  STAT_SPEC.forEach(([k, label, kind]) => {
+    const n = statNum(j[k]);
+    if (n == null) return;
+    const row = { k, label: k === 'power' && j.power_type && j.power_type.name ? j.power_type.name : label, v: kind === 'p' ? round2(n) : Math.round(n) };
+    if (kind === 'p') row.p = 1;
+    out.push(row);
+  });
+  return out.length ? out : null;
+}
+
+/** /titles -> { active, count }. The display string uses {name} (or %s) as the character-name placeholder. */
+function normalizeTitles(r, name) {
+  if (!r || !r.ok) return null;
+  const a = r.json.active_title;
+  const raw = a && (a.display_string || a.name) || '';
+  return { active: String(raw).replace(/\{name\}|%s/gi, name || '').trim(), count: (r.json.titles || []).length };
+}
+
+/** /reputations -> { total, top: [{ name, standing, v, max, tier }] } (best six). */
+function normalizeReps(r) {
+  if (!r || !r.ok) return null;
+  const list = (r.json.reputations || []).map(x => {
+    const s = x.standing || {};
+    return { name: x.faction && x.faction.name || '', standing: s.name || '', v: s.value || 0, max: s.max || 0, tier: s.tier || 0, raw: s.raw || 0 };
+  }).filter(x => x.name && (x.raw > 0 || x.tier > 0));
+  list.sort((a, b) => (b.tier - a.tier) || (b.raw - a.raw));
+  return { total: list.length, top: list.slice(0, 6).map(({ raw, ...rest }) => rest) };
+}
+
+/** /achievements -> { points, count, recent: [names] }. */
+function normalizeAchievements(r) {
+  if (!r || !r.ok) return null;
+  const j = r.json, list = j.achievements || [];
+  const recent = list.filter(a => a && a.completed_timestamp && a.achievement && a.achievement.name)
+    .sort((a, b) => b.completed_timestamp - a.completed_timestamp).slice(0, 3).map(a => a.achievement.name);
+  return { points: j.total_points || 0, count: j.total_quantity != null ? j.total_quantity : list.length, recent };
+}
+
+/** Collections / completed quests: only the count is kept. Empty sub-lists may be omitted by the API -> 0. */
+function countList(r, key) {
+  if (!r || !r.ok) return null;
+  const v = r.json[key];
+  return Array.isArray(v) ? v.length : 0;
 }
 
 /**
@@ -349,4 +484,8 @@ function baselineOf(c) {
 
 function round2(n) { return Math.round((Number(n) || 0) * 100) / 100; }
 
-main().catch(e => { console.error('ERROR: ' + e.message); process.exit(1); });
+export { normalizeMedia, normalizeStats, normalizeTitles, normalizeReps, normalizeAchievements, countList };
+// Run only when executed directly (lets the normalizers be unit-tested by importing this file).
+if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
+  main().catch(e => { console.error('ERROR: ' + e.message); process.exit(1); });
+}

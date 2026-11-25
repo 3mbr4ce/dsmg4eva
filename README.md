@@ -49,6 +49,15 @@ A misspelled enemy character only warns in the workflow log; it will not fail th
 ## Last seen
 Every character card shows a status from `last_login_timestamp`: **Active now** (seen in the last ~15 minutes — the API updates this on logout, so it is not a live "online" flag), then **Last seen Xm / Xh / Xd ago**. A **Recently active** strip at the top lists anyone seen in the last 6 hours. Times are computed in the browser so they stay fresh between data fetches.
 
+## Character pages (v2.6)
+
+- **Characters** button (top right) opens a picker: The Crew, then Friends Made on the Way, then Enemies Made on the Way. One character opens its page straight away; a person with alts gets a short choice of main + alts.
+- Each character page (`#char/<slug>`, shareable, Back button works) shows the full-body render over a race backdrop, title, gear grid with tooltips, stats, talents, professions, PvP, reputations, achievements/collections, quests and (friends only) a level / item level / HK history.
+- `fetch.mjs` stores per character: `media` (avatar + render URLs), `stats`, `title`, `titleCount`, `reputations`, `achievements`, `collections`, `questsDone`. All of these are optional: a failing call only produces a warning and never fails the run, and an older `data.json` without them still renders.
+- Friend history lives in `data/state.json` (`history`, pruned to 30 days).
+- "Recently active" shows real friends only.
+- Images are linked from Blizzard's render CDN. Data and images © Blizzard Entertainment.
+
 ## Rules
 - **Item level** = mean item level of the equipped slots, excluding shirt and tabard. A 2-hander with no off-hand counts twice. We calculate it ourselves because the API's value is wrong at low levels.
 - **Weekly race** = change since the first run after the weekly reset (`config.json → weeklyReset`, default Wed 07:00 UTC, *not officially confirmed*).
