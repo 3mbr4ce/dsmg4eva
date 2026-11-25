@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795624755922,
+ "generatedAt": 1795625675913,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -1952,8 +1952,8 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795543464000,
-   "apiItemLevel": 32,
+   "lastLogin": 1795625635000,
+   "apiItemLevel": 0,
    "gear": [
     {
      "slot": "HEAD",
@@ -1961,7 +1961,7 @@
      "itemId": 9889,
      "name": "Huntsman's Cap of the Boar",
      "quality": "UNCOMMON",
-     "ilvl": 40,
+     "ilvl": 0,
      "inventoryType": "HEAD",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132514.jpg",
@@ -1997,7 +1997,7 @@
      "itemId": 279870,
      "name": "Tarnished Locket",
      "quality": "UNCOMMON",
-     "ilvl": 24,
+     "ilvl": 0,
      "inventoryType": "NECK",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133295.jpg",
@@ -2033,7 +2033,7 @@
      "itemId": 5964,
      "name": "Barbaric Shoulders",
      "quality": "UNCOMMON",
-     "ilvl": 35,
+     "ilvl": 0,
      "inventoryType": "SHOULDER",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135039.jpg",
@@ -2074,7 +2074,7 @@
      "itemId": 2805,
      "name": "Yeti Fur Cloak",
      "quality": "UNCOMMON",
-     "ilvl": 34,
+     "ilvl": 0,
      "inventoryType": "CLOAK",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133756.jpg",
@@ -2110,7 +2110,7 @@
      "itemId": 273038,
      "name": "Garb of Fallen Felbark",
      "quality": "RARE",
-     "ilvl": 34,
+     "ilvl": 0,
      "inventoryType": "CHEST",
      "enchants": [
       "Enchanted: Attack Power +4 and Armor +16"
@@ -2153,7 +2153,7 @@
      "itemId": 859,
      "name": "Fine Cloth Shirt",
      "quality": "COMMON",
-     "ilvl": 17,
+     "ilvl": 0,
      "inventoryType": "BODY",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135006.jpg",
@@ -2178,7 +2178,7 @@
      "itemId": 270015,
      "name": "Bravo's Armbands",
      "quality": "UNCOMMON",
-     "ilvl": 22,
+     "ilvl": 0,
      "inventoryType": "WRIST",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132606.jpg",
@@ -2214,7 +2214,7 @@
      "itemId": 6419,
      "name": "Glyphed Mitts",
      "quality": "UNCOMMON",
-     "ilvl": 38,
+     "ilvl": 0,
      "inventoryType": "HAND",
      "enchants": [
       "Enchanted: Attack Power +4 and Armor +16"
@@ -2252,7 +2252,7 @@
      "itemId": 273041,
      "name": "Slitherwrap Girdle",
      "quality": "RARE",
-     "ilvl": 33,
+     "ilvl": 0,
      "inventoryType": "WAIST",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132504.jpg",
@@ -2290,7 +2290,7 @@
      "itemId": 282713,
      "name": "Bloodstained Pants",
      "quality": "UNCOMMON",
-     "ilvl": 36,
+     "ilvl": 0,
      "inventoryType": "LEGS",
      "enchants": [
       "Enchanted: Attack Power +4 and Armor +16"
@@ -2328,7 +2328,7 @@
      "itemId": 9856,
      "name": "Archer's Boots of the Boar",
      "quality": "UNCOMMON",
-     "ilvl": 36,
+     "ilvl": 0,
      "inventoryType": "FEET",
      "enchants": [
       "Enchanted: Attack Power +4 and Armor +16"
@@ -2366,7 +2366,7 @@
      "itemId": 270053,
      "name": "Ring of Ruin",
      "quality": "UNCOMMON",
-     "ilvl": 35,
+     "ilvl": 0,
      "inventoryType": "FINGER",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133350.jpg",
@@ -2402,7 +2402,7 @@
      "itemId": 11985,
      "name": "Cerulean Ring of Strength",
      "quality": "UNCOMMON",
-     "ilvl": 35,
+     "ilvl": 0,
      "inventoryType": "FINGER",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133350.jpg",
@@ -2433,7 +2433,7 @@
      "itemId": 260802,
      "name": "EZ-Thro Bronze Mortar",
      "quality": "COMMON",
-     "ilvl": 39,
+     "ilvl": 0,
      "inventoryType": "TRINKET",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134535.jpg",
@@ -2460,7 +2460,7 @@
      "itemId": 279841,
      "name": "Defender of Dalaran",
      "quality": "RARE",
-     "ilvl": 36,
+     "ilvl": 0,
      "inventoryType": "TWOHWEAPON",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133041.jpg",
@@ -2506,7 +2506,7 @@
      "itemId": 263411,
      "name": "Idol of Shifting Tides",
      "quality": "UNCOMMON",
-     "ilvl": 16,
+     "ilvl": 0,
      "inventoryType": "RELIC",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134914.jpg",
@@ -2528,7 +2528,7 @@
      }
     }
    ],
-   "itemLevel": 33.06,
+   "itemLevel": 0,
    "pvp": {
     "hk": 5,
     "rank": 0,
@@ -2755,11 +2755,17 @@
      35.86,
      33.06,
      5
+    ],
+    [
+     1795625675913,
+     35.86,
+     0,
+     5
     ]
    ],
    "weekly": {
     "levels": 0,
-    "ilvl": 0,
+    "ilvl": -33.06,
     "hk": 0,
     "rank": 0
    },
