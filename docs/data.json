@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795641260559,
+ "generatedAt": 1795642745938,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -3678,10 +3678,10 @@
    "surname": "Khingen",
    "fullName": "Sire Khingen",
    "level": 36,
-   "experience": 6653,
+   "experience": 54898,
    "xpToLevel": 71600,
-   "xpPct": 9.29,
-   "levelProgress": 36.09,
+   "xpPct": 76.67,
+   "levelProgress": 36.77,
    "className": "Paladin",
    "classId": 2,
    "race": "Undead",
@@ -3690,8 +3690,8 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795465290000,
-   "apiItemLevel": 30,
+   "lastLogin": 1795642013000,
+   "apiItemLevel": 0,
    "gear": [
     {
      "slot": "HEAD",
@@ -3699,7 +3699,7 @@
      "itemId": 250528,
      "name": "Veteran's Silvered Chain Helm",
      "quality": "RARE",
-     "ilvl": 25,
+     "ilvl": 0,
      "inventoryType": "HEAD",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133141.jpg",
@@ -3724,7 +3724,7 @@
       "spells": [],
       "req": "Requires Level 20",
       "reqClass": "",
-      "dur": "Durability 48 / 65",
+      "dur": "Durability 65 / 65",
       "sell": 1439,
       "desc": ""
      }
@@ -3735,7 +3735,7 @@
      "itemId": 6695,
      "name": "Stygian Bone Amulet",
      "quality": "RARE",
-     "ilvl": 34,
+     "ilvl": 0,
      "inventoryType": "NECK",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133291.jpg",
@@ -3776,7 +3776,7 @@
      "itemId": 279842,
      "name": "Battle Spaulders",
      "quality": "RARE",
-     "ilvl": 36,
+     "ilvl": 0,
      "inventoryType": "SHOULDER",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135054.jpg",
@@ -3806,7 +3806,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 58 / 70",
+      "dur": "Durability 70 / 70",
       "sell": 4378,
       "desc": ""
      }
@@ -3817,7 +3817,7 @@
      "itemId": 7492,
      "name": "Captain's Cloak of the Tiger",
      "quality": "UNCOMMON",
-     "ilvl": 39,
+     "ilvl": 0,
      "inventoryType": "CLOAK",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133753.jpg",
@@ -3853,7 +3853,7 @@
      "itemId": 2870,
      "name": "Shining Silver Breastplate",
      "quality": "RARE",
-     "ilvl": 29,
+     "ilvl": 0,
      "inventoryType": "CHEST",
      "enchants": [
       "Enchanted: Stamina +2 and Armor +16"
@@ -3880,7 +3880,7 @@
       "spells": [],
       "req": "Requires Level 24",
       "reqClass": "",
-      "dur": "Durability 100 / 120",
+      "dur": "Durability 120 / 120",
       "sell": 2935,
       "desc": ""
      }
@@ -3891,7 +3891,7 @@
      "itemId": 6125,
      "name": "Brawler's Harness",
      "quality": "COMMON",
-     "ilvl": 1,
+     "ilvl": 0,
      "inventoryType": "BODY",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132719.jpg",
@@ -3916,7 +3916,7 @@
      "itemId": 16794,
      "name": "Gripsteel Wristguards",
      "quality": "UNCOMMON",
-     "ilvl": 38,
+     "ilvl": 0,
      "inventoryType": "WRIST",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132606.jpg",
@@ -3957,7 +3957,7 @@
      "itemId": 286992,
      "name": "Construct's Grips",
      "quality": "RARE",
-     "ilvl": 33,
+     "ilvl": 0,
      "inventoryType": "HAND",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132938.jpg",
@@ -3982,7 +3982,7 @@
       "spells": [],
       "req": "Requires Level 28",
       "reqClass": "",
-      "dur": "Durability 30 / 40",
+      "dur": "Durability 40 / 40",
       "sell": 2225,
       "desc": ""
      }
@@ -3993,7 +3993,7 @@
      "itemId": 6742,
      "name": "Stonefist Girdle",
      "quality": "RARE",
-     "ilvl": 36,
+     "ilvl": 0,
      "inventoryType": "WAIST",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132524.jpg",
@@ -4023,7 +4023,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 33 / 40",
+      "dur": "Durability 40 / 40",
       "sell": 2864,
       "desc": ""
      }
@@ -4034,7 +4034,7 @@
      "itemId": 250527,
      "name": "Crusader's Silvered Chain Leggings",
      "quality": "RARE",
-     "ilvl": 30,
+     "ilvl": 0,
      "inventoryType": "LEGS",
      "enchants": [
       "Enchanted: Stamina +3 and Armor +24"
@@ -4066,7 +4066,7 @@
       "spells": [],
       "req": "Requires Level 25",
       "reqClass": "",
-      "dur": "Durability 78 / 90",
+      "dur": "Durability 90 / 90",
       "sell": 3149,
       "desc": ""
      }
@@ -4077,7 +4077,7 @@
      "itemId": 273042,
      "name": "Manascale Treads",
      "quality": "RARE",
-     "ilvl": 33,
+     "ilvl": 0,
      "inventoryType": "FEET",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132551.jpg",
@@ -4107,7 +4107,7 @@
       "spells": [],
       "req": "Requires Level 28",
       "reqClass": "",
-      "dur": "Durability 53 / 60",
+      "dur": "Durability 60 / 60",
       "sell": 3118,
       "desc": ""
      }
@@ -4118,7 +4118,7 @@
      "itemId": 6414,
      "name": "Seal of Sylvanas",
      "quality": "RARE",
-     "ilvl": 29,
+     "ilvl": 0,
      "inventoryType": "FINGER",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133357.jpg",
@@ -4154,7 +4154,7 @@
      "itemId": 6749,
      "name": "Tiger Band",
      "quality": "UNCOMMON",
-     "ilvl": 32,
+     "ilvl": 0,
      "inventoryType": "FINGER",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133355.jpg",
@@ -4190,7 +4190,7 @@
      "itemId": 280766,
      "name": "Satchel of Potions",
      "quality": "UNCOMMON",
-     "ilvl": 33,
+     "ilvl": 0,
      "inventoryType": "TRINKET",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133633.jpg",
@@ -4217,7 +4217,7 @@
      "itemId": 267369,
      "name": "Wolfsbane",
      "quality": "RARE",
-     "ilvl": 31,
+     "ilvl": 0,
      "inventoryType": "TWOHWEAPON",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135326.jpg",
@@ -4244,7 +4244,7 @@
       ],
       "req": "",
       "reqClass": "Classes: Paladin",
-      "dur": "Durability 88 / 100",
+      "dur": "Durability 100 / 100",
       "sell": 7459,
       "desc": "",
       "weapon": {
@@ -4255,9 +4255,9 @@
      }
     }
    ],
-   "itemLevel": 32.6,
+   "itemLevel": 0,
    "pvp": {
-    "hk": 141,
+    "hk": 145,
     "rank": 0,
     "rankName": "Unranked"
    },
@@ -4373,7 +4373,7 @@
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 11.01,
+     "v": 11.22,
      "p": 1
     },
     {
@@ -4391,19 +4391,19 @@
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 4.52,
+     "v": 4.64,
      "p": 1
     },
     {
      "k": "parry",
      "label": "Parry",
-     "v": 4.76,
+     "v": 4.88,
      "p": 1
     },
     {
      "k": "block",
      "label": "Block",
-     "v": 4.76,
+     "v": 4.88,
      "p": 1
     },
     {
@@ -4426,28 +4426,28 @@
      {
       "name": "Undercity",
       "standing": "Honored",
-      "v": 6378,
+      "v": 6585,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Orgrimmar",
       "standing": "Friendly",
-      "v": 4256,
+      "v": 4631,
       "max": 6000,
       "tier": 4
      },
      {
       "name": "Darkspear Trolls",
       "standing": "Friendly",
-      "v": 2306,
+      "v": 2812,
       "max": 6000,
       "tier": 4
      },
      {
       "name": "Thunder Bluff",
       "standing": "Friendly",
-      "v": 2262,
+      "v": 2618,
       "max": 6000,
       "tier": 4
      },
@@ -4469,11 +4469,11 @@
    },
    "achievements": {
     "points": 0,
-    "count": 6,
+    "count": 7,
     "recent": [
+     "Expert Engineer",
      "Novice Spelunker",
-     "Explore Thousand Needles",
-     "Journeyman Blacksmith"
+     "Explore Thousand Needles"
     ]
    },
    "collections": {
@@ -4481,19 +4481,25 @@
     "pets": 1,
     "toys": 0
    },
-   "questsDone": 276,
+   "questsDone": 281,
    "history": [
     [
      1795570780222,
      36.09,
      32.6,
      141
+    ],
+    [
+     1795642745938,
+     36.77,
+     0,
+     145
     ]
    ],
    "weekly": {
-    "levels": 0,
-    "ilvl": 0,
-    "hk": 0,
+    "levels": 0.68,
+    "ilvl": -32.6,
+    "hk": 4,
     "rank": 0
    },
    "ding60At": null
