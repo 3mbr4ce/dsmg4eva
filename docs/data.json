@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795636449146,
+ "generatedAt": 1795637725251,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -5034,11 +5034,11 @@
    "name": "Steppenwolf",
    "surname": "One",
    "fullName": "Steppenwolf One",
-   "level": 59,
-   "experience": 86560,
-   "xpToLevel": 209800,
-   "xpPct": 41.26,
-   "levelProgress": 59.41,
+   "level": 60,
+   "experience": 0,
+   "xpToLevel": 0,
+   "xpPct": 100,
+   "levelProgress": 60,
    "className": "Warrior",
    "classId": 1,
    "race": "Night Elf",
@@ -5047,7 +5047,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795620938000,
+   "lastLogin": 1795637260000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -5091,7 +5091,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 79 / 80",
+      "dur": "Durability 80 / 80",
       "sell": 16666,
       "desc": ""
      }
@@ -5180,7 +5180,7 @@
       ],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 73 / 80",
+      "dur": "Durability 80 / 80",
       "sell": 16666,
       "desc": ""
      }
@@ -5259,7 +5259,7 @@
       "spells": [],
       "req": "Requires Level 43",
       "reqClass": "",
-      "dur": "Durability 107 / 115",
+      "dur": "Durability 115 / 115",
       "sell": 8192,
       "desc": ""
      }
@@ -5337,7 +5337,7 @@
       "spells": [],
       "req": "Requires Level 52",
       "reqClass": "",
-      "dur": "Durability 44 / 45",
+      "dur": "Durability 45 / 45",
       "sell": 14982,
       "desc": "",
       "set": {
@@ -5654,7 +5654,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 83 / 85",
+      "dur": "Durability 85 / 85",
       "sell": 12407,
       "desc": ""
      }
@@ -5695,7 +5695,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 64 / 65",
+      "dur": "Durability 65 / 65",
       "sell": 18726,
       "desc": ""
      }
@@ -5785,13 +5785,13 @@
     {
      "slot": "TRINKET_1",
      "slotName": "Trinket 1",
-     "itemId": 10455,
-     "name": "Chained Essence of Eranikus",
+     "itemId": 11122,
+     "name": "Carrot on a Stick",
      "quality": "UNCOMMON",
      "ilvl": 0,
      "inventoryType": "TRINKET",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135229.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134010.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
@@ -5800,40 +5800,46 @@
       "armor": "",
       "stats": [],
       "spells": [
-       "Use: Creates a cloud of poison in a 6 yard radius around the caster. Enemies inside the cloud suffer 140 Nature damage every 2 sec.  Deals 2 times as much damage to Trolls.  Lasts for 20 sec. (10 Min Cooldown)"
+       "Equip: Increases mount speed by 3%."
       ],
       "req": "",
       "reqClass": "",
       "dur": "",
-      "sell": 16580,
+      "sell": 9347,
       "desc": ""
      }
     },
     {
      "slot": "TRINKET_2",
      "slotName": "Trinket 2",
-     "itemId": 20130,
-     "name": "Diamond Flask",
-     "quality": "RARE",
+     "itemId": 270275,
+     "name": "Cleansed Vilebranch Medallion",
+     "quality": "UNCOMMON",
      "ilvl": 0,
      "inventoryType": "TRINKET",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132788.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133792.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Trinket",
       "sub": "Miscellaneous",
       "armor": "",
-      "stats": [],
+      "stats": [
+       {
+        "s": "+7 Hit",
+        "neg": false,
+        "eq": true
+       }
+      ],
       "spells": [
-       "Use: Restores 1,120 Health over 5 sec. This healing is strongest at first. If finished, gain 20 Strength for 1 min. (6 Min Cooldown)"
+       "Equip: +14 Attack Power. This effect is tripled in Forest and Grassland areas."
       ],
       "req": "",
-      "reqClass": "Classes: Warrior",
+      "reqClass": "",
       "dur": "",
-      "sell": 12722,
-      "desc": "Served on the rocks."
+      "sell": 9540,
+      "desc": ""
      }
     },
     {
@@ -5928,15 +5934,19 @@
     "trees": [
      {
       "name": "Arms",
-      "points": 32
+      "points": 3
      },
      {
       "name": "Fury",
-      "points": 18
+      "points": 17
+     },
+     {
+      "name": "Protection",
+      "points": 31
      }
     ],
-    "split": "32/18",
-    "main": "Arms"
+    "split": "3/17/31",
+    "main": "Protection"
    },
    "professions": {
     "primaries": [
@@ -5948,7 +5958,7 @@
      },
      {
       "name": "Mining",
-      "skill": 295,
+      "skill": 300,
       "max": 300,
       "recipes": 14
      }
@@ -5958,7 +5968,7 @@
       "name": "Cooking",
       "skill": 230,
       "max": 300,
-      "recipes": 22
+      "recipes": 23
      },
      {
       "name": "Fishing",
@@ -5985,7 +5995,7 @@
     {
      "k": "health",
      "label": "Health",
-     "v": 3669
+     "v": 3759
     },
     {
      "k": "power",
@@ -5995,17 +6005,17 @@
     {
      "k": "strength",
      "label": "Strength",
-     "v": 265
+     "v": 267
     },
     {
      "k": "agility",
      "label": "Agility",
-     "v": 115
+     "v": 116
     },
     {
      "k": "stamina",
      "label": "Stamina",
-     "v": 223
+     "v": 225
     },
     {
      "k": "intellect",
@@ -6015,22 +6025,22 @@
     {
      "k": "spirit",
      "label": "Spirit",
-     "v": 76
+     "v": 77
     },
     {
      "k": "armor",
      "label": "Armor",
-     "v": 3428
+     "v": 3430
     },
     {
      "k": "attack_power",
      "label": "Attack power",
-     "v": 720
+     "v": 769
     },
     {
      "k": "ranged_attack_power",
      "label": "Ranged attack power",
-     "v": 302
+     "v": 347
     },
     {
      "k": "spell_power",
@@ -6040,13 +6050,13 @@
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 13.71,
+     "v": 13.6,
      "p": 1
     },
     {
      "k": "ranged_crit",
      "label": "Ranged crit",
-     "v": 6.94,
+     "v": 6.72,
      "p": 1
     },
     {
@@ -6058,19 +6068,19 @@
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 7.27,
+     "v": 7.12,
      "p": 1
     },
     {
      "k": "parry",
      "label": "Parry",
-     "v": 8.4,
+     "v": 8.32,
      "p": 1
     },
     {
      "k": "block",
      "label": "Block",
-     "v": 5.4,
+     "v": 10.32,
      "p": 1
     },
     {
@@ -6088,47 +6098,47 @@
    ],
    "titleCount": 0,
    "reputations": {
-    "total": 18,
+    "total": 19,
     "top": [
      {
       "name": "Stormwind",
       "standing": "Revered",
-      "v": 3486,
+      "v": 3511,
       "max": 21000,
       "tier": 6
      },
      {
       "name": "Darnassus",
       "standing": "Honored",
-      "v": 11766,
+      "v": 11791,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Ironforge",
       "standing": "Honored",
-      "v": 10138,
+      "v": 10238,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Gnomeregan Exiles",
       "standing": "Honored",
-      "v": 4790,
+      "v": 4815,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Gadgetzan",
       "standing": "Friendly",
-      "v": 3856,
+      "v": 3981,
       "max": 6000,
       "tier": 4
      },
      {
       "name": "Booty Bay",
       "standing": "Friendly",
-      "v": 3684,
+      "v": 3809,
       "max": 6000,
       "tier": 4
      }
@@ -6136,11 +6146,11 @@
    },
    "achievements": {
     "points": 0,
-    "count": 15,
+    "count": 16,
     "recent": [
+     "Master Warrior",
      "Journeyman Tailor",
-     "Journeyman Enchanter",
-     "Explore Searing Gorge"
+     "Journeyman Enchanter"
     ]
    },
    "collections": {
@@ -6148,7 +6158,7 @@
     "pets": 5,
     "toys": 3
    },
-   "questsDone": 1092
+   "questsDone": 1146
   },
   {
    "friend": "Ash",
@@ -14376,7 +14386,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795607397000,
+   "lastLogin": 1795637527000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -14737,7 +14747,7 @@
       "spells": [],
       "req": "Requires Level 58",
       "reqClass": "",
-      "dur": "Durability 116 / 120",
+      "dur": "Durability 120 / 120",
       "sell": 34549,
       "desc": "",
       "set": {
@@ -14867,7 +14877,7 @@
       "spells": [],
       "req": "Requires Level 55",
       "reqClass": "",
-      "dur": "Durability 39 / 40",
+      "dur": "Durability 40 / 40",
       "sell": 14922,
       "desc": ""
      }
@@ -15164,7 +15174,7 @@
       "spells": [],
       "req": "Requires Level 54",
       "reqClass": "",
-      "dur": "Durability 59 / 60",
+      "dur": "Durability 60 / 60",
       "sell": 21412,
       "desc": "",
       "set": {
@@ -15329,7 +15339,7 @@
        }
       ],
       "spells": [
-       "Equip: Melee and Ranged attacks have a chance to deal 112 to 168 Fire damage. Deals 3 times as much damage to Orcs."
+       "Equip: Melee and Ranged attacks have a chance to deal 134 to 202 Fire damage. Deals 3 times as much damage to Orcs."
       ],
       "req": "Requires Level 56",
       "reqClass": "",
@@ -15443,7 +15453,7 @@
       "spells": [],
       "req": "Requires Level 56",
       "reqClass": "",
-      "dur": "Durability 74 / 75",
+      "dur": "Durability 75 / 75",
       "sell": 39171,
       "desc": "",
       "weapon": {
@@ -15464,19 +15474,19 @@
     "trees": [
      {
       "name": "Beast Mastery",
-      "points": 32
-     },
-     {
-      "name": "Marksmanship",
       "points": 5
      },
      {
+      "name": "Marksmanship",
+      "points": 41
+     },
+     {
       "name": "Survival",
-      "points": 14
+      "points": 5
      }
     ],
-    "split": "32/5/14",
-    "main": "Beast Mastery"
+    "split": "5/41/5",
+    "main": "Marksmanship"
    },
    "professions": {
     "primaries": [
@@ -15565,12 +15575,12 @@
     {
      "k": "attack_power",
      "label": "Attack power",
-     "v": 584
+     "v": 702
     },
     {
      "k": "ranged_attack_power",
      "label": "Ranged attack power",
-     "v": 860
+     "v": 978
     },
     {
      "k": "spell_power",
@@ -15580,31 +15590,31 @@
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 6.82,
+     "v": 11.9,
      "p": 1
     },
     {
      "k": "ranged_crit",
      "label": "Ranged crit",
-     "v": 8.46,
+     "v": 13.46,
      "p": 1
     },
     {
      "k": "spell_crit",
      "label": "Spell crit",
-     "v": 6.55,
+     "v": 11.55,
      "p": 1
     },
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 13.69,
+     "v": 13.73,
      "p": 1
     },
     {
      "k": "parry",
      "label": "Parry",
-     "v": 4.8,
+     "v": 4.84,
      "p": 1
     },
     {
@@ -15688,7 +15698,7 @@
     "pets": 7,
     "toys": 2
    },
-   "questsDone": 955
+   "questsDone": 960
   }
  ],
  "enemies": [
