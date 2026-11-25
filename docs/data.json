@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795642745938,
+ "generatedAt": 1795643652756,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -10389,11 +10389,11 @@
    "name": "Damp",
    "surname": "Fat",
    "fullName": "Damp Fat",
-   "level": 44,
-   "experience": 66338,
-   "xpToLevel": 111800,
-   "xpPct": 59.34,
-   "levelProgress": 44.59,
+   "level": 45,
+   "experience": 17258,
+   "xpToLevel": 117500,
+   "xpPct": 14.69,
+   "levelProgress": 45.15,
    "className": "Shaman",
    "classId": 7,
    "race": "Dwarf",
@@ -10402,8 +10402,8 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795552216000,
-   "apiItemLevel": 36,
+   "lastLogin": 1795643035000,
+   "apiItemLevel": 0,
    "gear": [
     {
      "slot": "HEAD",
@@ -10411,7 +10411,7 @@
      "itemId": 270067,
      "name": "Wild Headdress",
      "quality": "UNCOMMON",
-     "ilvl": 39,
+     "ilvl": 0,
      "inventoryType": "HEAD",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132514.jpg",
@@ -10436,7 +10436,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 43 / 50",
+      "dur": "Durability 50 / 50",
       "sell": 4240,
       "desc": ""
      }
@@ -10447,7 +10447,7 @@
      "itemId": 279850,
      "name": "Curio-Adorned Necklace",
      "quality": "RARE",
-     "ilvl": 44,
+     "ilvl": 0,
      "inventoryType": "NECK",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133291.jpg",
@@ -10488,7 +10488,7 @@
      "itemId": 4197,
      "name": "Berylline Pads",
      "quality": "RARE",
-     "ilvl": 36,
+     "ilvl": 0,
      "inventoryType": "SHOULDER",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135036.jpg",
@@ -10518,7 +10518,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 43 / 50",
+      "dur": "Durability 50 / 50",
       "sell": 2864,
       "desc": ""
      }
@@ -10529,7 +10529,7 @@
      "itemId": 277206,
      "name": "Brilliant Cloak",
      "quality": "UNCOMMON",
-     "ilvl": 41,
+     "ilvl": 0,
      "inventoryType": "CLOAK",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133768.jpg",
@@ -10570,7 +10570,7 @@
      "itemId": 274941,
      "name": "Bristle Hills Mystic Robe",
      "quality": "UNCOMMON",
-     "ilvl": 40,
+     "ilvl": 0,
      "inventoryType": "ROBE",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132665.jpg",
@@ -10595,7 +10595,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 57 / 70",
+      "dur": "Durability 70 / 70",
       "sell": 4326,
       "desc": ""
      }
@@ -10606,7 +10606,7 @@
      "itemId": 154,
      "name": "Primitive Mantle",
      "quality": "COMMON",
-     "ilvl": 1,
+     "ilvl": 0,
      "inventoryType": "BODY",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133766.jpg",
@@ -10631,7 +10631,7 @@
      "itemId": 9886,
      "name": "Huntsman's Bands of the Elder",
      "quality": "UNCOMMON",
-     "ilvl": 39,
+     "ilvl": 0,
      "inventoryType": "WRIST",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132605.jpg",
@@ -10661,7 +10661,7 @@
       "spells": [],
       "req": "Requires Level 34",
       "reqClass": "",
-      "dur": "Durability 22 / 30",
+      "dur": "Durability 30 / 30",
       "sell": 2589,
       "desc": ""
      }
@@ -10672,7 +10672,7 @@
      "itemId": 10765,
      "name": "Bonefingers",
      "quality": "RARE",
-     "ilvl": 43,
+     "ilvl": 0,
      "inventoryType": "HAND",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132943.jpg",
@@ -10702,7 +10702,7 @@
       "spells": [],
       "req": "Requires Level 38",
       "reqClass": "",
-      "dur": "Durability 32 / 35",
+      "dur": "Durability 35 / 35",
       "sell": 4200,
       "desc": ""
      }
@@ -10713,7 +10713,7 @@
      "itemId": 286429,
      "name": "Big-Belly Belt",
      "quality": "RARE",
-     "ilvl": 45,
+     "ilvl": 0,
      "inventoryType": "WAIST",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132494.jpg",
@@ -10759,7 +10759,7 @@
      "itemId": 279878,
      "name": "Apprentice Sorcerer's Slacks",
      "quality": "RARE",
-     "ilvl": 41,
+     "ilvl": 0,
      "inventoryType": "LEGS",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134590.jpg",
@@ -10789,7 +10789,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 57 / 65",
+      "dur": "Durability 65 / 65",
       "sell": 5864,
       "desc": ""
      }
@@ -10800,7 +10800,7 @@
      "itemId": 9828,
      "name": "Scaled Leather Boots of the Gorilla",
      "quality": "UNCOMMON",
-     "ilvl": 31,
+     "ilvl": 0,
      "inventoryType": "FEET",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132537.jpg",
@@ -10825,7 +10825,7 @@
       "spells": [],
       "req": "Requires Level 26",
       "reqClass": "",
-      "dur": "Durability 38 / 45",
+      "dur": "Durability 45 / 45",
       "sell": 1845,
       "desc": ""
      }
@@ -10836,7 +10836,7 @@
      "itemId": 270081,
      "name": "Purified Ring",
      "quality": "RARE",
-     "ilvl": 44,
+     "ilvl": 0,
      "inventoryType": "FINGER",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133343.jpg",
@@ -10872,7 +10872,7 @@
      "itemId": 274961,
      "name": "Brute Slayer Band",
      "quality": "UNCOMMON",
-     "ilvl": 39,
+     "ilvl": 0,
      "inventoryType": "FINGER",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133347.jpg",
@@ -10908,7 +10908,7 @@
      "itemId": 280766,
      "name": "Satchel of Potions",
      "quality": "UNCOMMON",
-     "ilvl": 33,
+     "ilvl": 0,
      "inventoryType": "TRINKET",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133633.jpg",
@@ -10935,9 +10935,11 @@
      "itemId": 15243,
      "name": "Deadly Kris of the Sorcerer",
      "quality": "UNCOMMON",
-     "ilvl": 36,
+     "ilvl": 0,
      "inventoryType": "WEAPON",
-     "enchants": [],
+     "enchants": [
+      "Flametongue 4"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135637.jpg",
      "tt": {
       "bind": "Binds when equipped",
@@ -10965,7 +10967,7 @@
       "spells": [],
       "req": "Requires Level 31",
       "reqClass": "",
-      "dur": "Durability 49 / 55",
+      "dur": "Durability 55 / 55",
       "sell": 7871,
       "desc": "",
       "weapon": {
@@ -10981,7 +10983,7 @@
      "itemId": 280696,
      "name": "Elementalist's Guard",
      "quality": "RARE",
-     "ilvl": 40,
+     "ilvl": 0,
      "inventoryType": "SHIELD",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134955.jpg",
@@ -11011,7 +11013,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 90 / 100",
+      "dur": "Durability 100 / 100",
       "sell": 8281,
       "desc": ""
      }
@@ -11022,7 +11024,7 @@
      "itemId": 263412,
      "name": "Totem of Charged Flames",
      "quality": "UNCOMMON",
-     "ilvl": 10,
+     "ilvl": 0,
      "inventoryType": "RELIC",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134919.jpg",
@@ -11044,9 +11046,9 @@
      }
     }
    ],
-   "itemLevel": 37.56,
+   "itemLevel": 0,
    "pvp": {
-    "hk": 17,
+    "hk": 21,
     "rank": 0,
     "rankName": "Unranked"
    },
@@ -11058,10 +11060,10 @@
      },
      {
       "name": "Restoration",
-      "points": 4
+      "points": 5
      }
     ],
-    "split": "31/4",
+    "split": "31/5",
     "main": "Elemental Combat"
    },
    "professions": {
@@ -11069,13 +11071,13 @@
      {
       "name": "Alchemy",
       "skill": 147,
-      "max": 150,
+      "max": 225,
       "recipes": 21
      },
      {
       "name": "Herbalism",
-      "skill": 205,
-      "max": 225,
+      "skill": 222,
+      "max": 300,
       "recipes": 4
      }
     ],
@@ -11105,17 +11107,17 @@
     {
      "k": "health",
      "label": "Health",
-     "v": 1534
+     "v": 1580
     },
     {
      "k": "power",
      "label": "Mana",
-     "v": 3351
+     "v": 3385
     },
     {
      "k": "strength",
      "label": "Strength",
-     "v": 81
+     "v": 82
     },
     {
      "k": "agility",
@@ -11125,17 +11127,17 @@
     {
      "k": "stamina",
      "label": "Stamina",
-     "v": 103
+     "v": 105
     },
     {
      "k": "intellect",
      "label": "Intellect",
-     "v": 169
+     "v": 170
     },
     {
      "k": "spirit",
      "label": "Spirit",
-     "v": 109
+     "v": 110
     },
     {
      "k": "armor",
@@ -11145,7 +11147,7 @@
     {
      "k": "attack_power",
      "label": "Attack power",
-     "v": 230
+     "v": 234
     },
     {
      "k": "ranged_attack_power",
@@ -11160,7 +11162,7 @@
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 3.27,
+     "v": 3.58,
      "p": 1
     },
     {
@@ -11172,13 +11174,13 @@
     {
      "k": "spell_crit",
      "label": "Spell crit",
-     "v": 6.34,
+     "v": 6.26,
      "p": 1
     },
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 3.83,
+     "v": 3.82,
      "p": 1
     },
     {
@@ -11190,7 +11192,7 @@
     {
      "k": "block",
      "label": "Block",
-     "v": 4.64,
+     "v": 4.68,
      "p": 1
     },
     {
@@ -11213,35 +11215,35 @@
      {
       "name": "Stormwind",
       "standing": "Honored",
-      "v": 4325,
+      "v": 4606,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Ironforge",
       "standing": "Honored",
-      "v": 3002,
+      "v": 3752,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Gnomeregan Exiles",
       "standing": "Honored",
-      "v": 1135,
+      "v": 1341,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Darnassus",
-      "standing": "Friendly",
-      "v": 5880,
-      "max": 6000,
-      "tier": 4
+      "standing": "Honored",
+      "v": 86,
+      "max": 12000,
+      "tier": 5
      },
      {
       "name": "Brotherhood of the Horse",
       "standing": "Friendly",
-      "v": 2091,
+      "v": 2241,
       "max": 6000,
       "tier": 4
      },
@@ -11256,11 +11258,11 @@
    },
    "achievements": {
     "points": 0,
-    "count": 3,
+    "count": 4,
     "recent": [
+     "Experienced Shaman",
      "Explore Arathi Highlands",
-     "Novice Shaman",
-     "Explore Darkshore"
+     "Novice Shaman"
     ]
    },
    "collections": {
@@ -11268,7 +11270,7 @@
     "pets": 0,
     "toys": 0
    },
-   "questsDone": 454
+   "questsDone": 468
   },
   {
    "friend": "Gareth",
