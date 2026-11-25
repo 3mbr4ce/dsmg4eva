@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795637725251,
+ "generatedAt": 1795639167565,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -5047,7 +5047,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795637260000,
+   "lastLogin": 1795638962000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -5968,7 +5968,7 @@
       "name": "Cooking",
       "skill": 230,
       "max": 300,
-      "recipes": 23
+      "recipes": 24
      },
      {
       "name": "Fishing",
@@ -6035,12 +6035,12 @@
     {
      "k": "attack_power",
      "label": "Attack power",
-     "v": 769
+     "v": 741
     },
     {
      "k": "ranged_attack_power",
      "label": "Ranged attack power",
-     "v": 347
+     "v": 319
     },
     {
      "k": "spell_power",
@@ -6155,7 +6155,7 @@
    },
    "collections": {
     "mounts": 3,
-    "pets": 5,
+    "pets": 6,
     "toys": 3
    },
    "questsDone": 1146
