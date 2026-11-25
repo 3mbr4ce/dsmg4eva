@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795619702102,
+ "generatedAt": 1795621158168,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -4998,10 +4998,10 @@
    "surname": "One",
    "fullName": "Steppenwolf One",
    "level": 59,
-   "experience": 39892,
+   "experience": 86560,
    "xpToLevel": 209800,
-   "xpPct": 19.01,
-   "levelProgress": 59.19,
+   "xpPct": 41.26,
+   "levelProgress": 59.41,
    "className": "Warrior",
    "classId": 1,
    "race": "Night Elf",
@@ -5010,7 +5010,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795604595000,
+   "lastLogin": 1795620938000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -5054,7 +5054,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 80 / 80",
+      "dur": "Durability 79 / 80",
       "sell": 16666,
       "desc": ""
      }
@@ -5143,7 +5143,7 @@
       ],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 80 / 80",
+      "dur": "Durability 73 / 80",
       "sell": 16666,
       "desc": ""
      }
@@ -5222,7 +5222,7 @@
       "spells": [],
       "req": "Requires Level 43",
       "reqClass": "",
-      "dur": "Durability 115 / 115",
+      "dur": "Durability 107 / 115",
       "sell": 8192,
       "desc": ""
      }
@@ -5300,7 +5300,7 @@
       "spells": [],
       "req": "Requires Level 52",
       "reqClass": "",
-      "dur": "Durability 45 / 45",
+      "dur": "Durability 44 / 45",
       "sell": 14982,
       "desc": "",
       "set": {
@@ -5617,7 +5617,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 85 / 85",
+      "dur": "Durability 83 / 85",
       "sell": 12407,
       "desc": ""
      }
@@ -5658,7 +5658,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 65 / 65",
+      "dur": "Durability 64 / 65",
       "sell": 18726,
       "desc": ""
      }
@@ -5748,46 +5748,13 @@
     {
      "slot": "TRINKET_1",
      "slotName": "Trinket 1",
-     "itemId": 270275,
-     "name": "Cleansed Vilebranch Medallion",
+     "itemId": 10455,
+     "name": "Chained Essence of Eranikus",
      "quality": "UNCOMMON",
      "ilvl": 0,
      "inventoryType": "TRINKET",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133792.jpg",
-     "tt": {
-      "bind": "Binds when picked up",
-      "unique": "",
-      "inv": "Trinket",
-      "sub": "Miscellaneous",
-      "armor": "",
-      "stats": [
-       {
-        "s": "+7 Hit",
-        "neg": false,
-        "eq": true
-       }
-      ],
-      "spells": [
-       "Equip: +14 Attack Power. This effect is tripled in Forest and Grassland areas."
-      ],
-      "req": "",
-      "reqClass": "",
-      "dur": "",
-      "sell": 9540,
-      "desc": ""
-     }
-    },
-    {
-     "slot": "TRINKET_2",
-     "slotName": "Trinket 2",
-     "itemId": 17774,
-     "name": "Mark of the Chosen",
-     "quality": "UNCOMMON",
-     "ilvl": 0,
-     "inventoryType": "TRINKET",
-     "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133441.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135229.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
@@ -5796,13 +5763,40 @@
       "armor": "",
       "stats": [],
       "spells": [
-       "Equip: Has a 2% chance when struck in combat of increasing all stats by 21 for 1 min."
+       "Use: Creates a cloud of poison in a 6 yard radius around the caster. Enemies inside the cloud suffer 140 Nature damage every 2 sec.  Deals 2 times as much damage to Trolls.  Lasts for 20 sec. (10 Min Cooldown)"
       ],
       "req": "",
       "reqClass": "",
       "dur": "",
-      "sell": 8164,
+      "sell": 16580,
       "desc": ""
+     }
+    },
+    {
+     "slot": "TRINKET_2",
+     "slotName": "Trinket 2",
+     "itemId": 20130,
+     "name": "Diamond Flask",
+     "quality": "RARE",
+     "ilvl": 0,
+     "inventoryType": "TRINKET",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132788.jpg",
+     "tt": {
+      "bind": "Binds when picked up",
+      "unique": "",
+      "inv": "Trinket",
+      "sub": "Miscellaneous",
+      "armor": "",
+      "stats": [],
+      "spells": [
+       "Use: Restores 1,120 Health over 5 sec. This healing is strongest at first. If finished, gain 20 Strength for 1 min. (6 Min Cooldown)"
+      ],
+      "req": "",
+      "reqClass": "Classes: Warrior",
+      "dur": "",
+      "sell": 12722,
+      "desc": "Served on the rocks."
      }
     },
     {
@@ -5835,7 +5829,7 @@
       ],
       "req": "Requires Level 52",
       "reqClass": "",
-      "dur": "Durability 119 / 120",
+      "dur": "Durability 120 / 120",
       "sell": 70024,
       "desc": "To claim one's destiny requires the strength to reach out and grasp it.",
       "weapon": {
@@ -5889,7 +5883,7 @@
    ],
    "itemLevel": 0,
    "pvp": {
-    "hk": 91,
+    "hk": 92,
     "rank": 0,
     "rankName": "Unranked"
    },
@@ -5917,7 +5911,7 @@
      },
      {
       "name": "Mining",
-      "skill": 292,
+      "skill": 295,
       "max": 300,
       "recipes": 14
      }
@@ -5994,12 +5988,12 @@
     {
      "k": "attack_power",
      "label": "Attack power",
-     "v": 762
+     "v": 720
     },
     {
      "k": "ranged_attack_power",
      "label": "Ranged attack power",
-     "v": 344
+     "v": 302
     },
     {
      "k": "spell_power",
@@ -6009,7 +6003,7 @@
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 13.62,
+     "v": 13.71,
      "p": 1
     },
     {
@@ -6062,42 +6056,42 @@
      {
       "name": "Stormwind",
       "standing": "Revered",
-      "v": 3481,
+      "v": 3486,
       "max": 21000,
       "tier": 6
      },
      {
       "name": "Darnassus",
       "standing": "Honored",
-      "v": 11753,
+      "v": 11766,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Ironforge",
       "standing": "Honored",
-      "v": 10126,
+      "v": 10138,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Gnomeregan Exiles",
       "standing": "Honored",
-      "v": 4785,
+      "v": 4790,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Gadgetzan",
       "standing": "Friendly",
-      "v": 3756,
+      "v": 3856,
       "max": 6000,
       "tier": 4
      },
      {
-      "name": "Gelkis Clan Centaur",
+      "name": "Booty Bay",
       "standing": "Friendly",
-      "v": 3649,
+      "v": 3684,
       "max": 6000,
       "tier": 4
      }
@@ -6117,7 +6111,7 @@
     "pets": 5,
     "toys": 3
    },
-   "questsDone": 1083
+   "questsDone": 1092
   },
   {
    "friend": "Ash",
