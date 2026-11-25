@@ -160,6 +160,18 @@ You can also find it in **Settings → Pages** ("Your site is live at …"). The
 
 3. Optional changes:
    - `"weeklyReset"`: change it if Blizzard confirms a different reset time
+   - `"known"`: people you meet along the way, same shape as `"friends"`, plus an optional `"note"` (where you met them). They only appear in the **Friends Made on the Way** section at the bottom, not in the races or ladders.
+   - `"enemies"`: Alliance characters you want to track, same shape again. They only appear in **Enemies Made on the Way** (Alliance Most Wanted). A bad name here only warns in the log; it does not fail the update.
+
+```json
+"known": [
+  { "friend": "Pip", "main": "Pip-Jaeger", "alts": ["Steppenwolf-One"], "note": "met in Westfall" },
+  { "friend": "Ash", "aka": "Sparks", "main": "Ash-Kai", "alts": [] }
+]
+```
+
+A misspelled name in `"known"` only shows a warning in the Actions log. It does not fail the update.
+
 4. Click **Commit changes…** → **Commit changes**. The workflow runs automatically and the site updates in about 1–2 minutes.
 
 ⚠️ Keep the JSON valid: quotes around names, commas between entries, no comma after the last one. If unsure, paste it into https://jsonlint.com first.
