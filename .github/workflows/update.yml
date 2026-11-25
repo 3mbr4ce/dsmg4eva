@@ -14,15 +14,12 @@ permissions:
 
 concurrency:
   group: update-data
-  cancel-in-progress: false
+  cancel-in-progress: false   # runs queue up instead of overlapping
 
 jobs:
   update:
     runs-on: ubuntu-latest
     timeout-minutes: 10
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - name: Checkout
         uses: actions/checkout@v7
@@ -39,6 +36,7 @@ jobs:
         run: node scripts/fetch.mjs
 
       # Pushes made with GITHUB_TOKEN never start new workflow runs, so there is no loop.
+      # On a data.json clash with another run, the freshly fetched data wins.
       - name: Commit data if changed
         run: |
           git config user.name "github-actions[bot]"
@@ -48,17 +46,28 @@ jobs:
             echo "No data changes."
           else
             git commit -m "data: update $(date -u +'%Y-%m-%d %H:%M') UTC"
-            git pull --rebase origin "${GITHUB_REF_NAME}"
-            git push
+            for i in 1 2 3; do
+              git pull --rebase -X theirs origin "${GITHUB_REF_NAME}" && git push && break
+              echo "Push attempt $i failed, retrying..."; sleep 5
+            done
           fi
-
-      - name: Configure Pages
-        uses: actions/configure-pages@v6
 
       - name: Upload site
         uses: actions/upload-pages-artifact@v5
         with:
           path: docs
+
+  # Separate job: deploy-pages sometimes can't see an artifact uploaded in the same job.
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - name: Configure Pages
+        uses: actions/configure-pages@v6
 
       - name: Deploy to GitHub Pages
         id: deploy

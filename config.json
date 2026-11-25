@@ -85,43 +85,24 @@
   ],
   "enemies": [
     {
-      "friend": "Ohq",
-      "aka": "The Mage",
-      "main": "Ohq-Forever",
-      "alts": [],
-      "note": "polymorphed us in Westfall"
+      "friend": "Atturom",
+      "main": "Atturom-Mokoko",
+      "alts": []
     },
     {
-      "friend": "Sefica",
-      "aka": "Stormborn",
-      "main": "Sefica-Stormborn",
-      "alts": [
-        "Aenar-Stormbreaker"
-      ],
-      "note": "ganked us in Stranglethorn"
+      "friend": "Kusou",
+      "main": "Kusou-Mokoko",
+      "alts": []
     },
     {
-      "friend": "Ellisara",
-      "main": "Ellisara-Duskfeather",
-      "alts": [
-        "Arwen-El"
-      ],
-      "note": "camped the Darkshire road"
+      "friend": "Tryi",
+      "main": "Tryi-Mokoko",
+      "alts": []
     },
     {
-      "friend": "Peca",
-      "main": "Peca-Woodland",
-      "alts": [],
-      "note": "stole our herbs in Elwynn"
-    },
-    {
-      "friend": "Aluna",
-      "aka": "Feather",
-      "main": "Aluna-Featheryn",
-      "alts": [
-        "Mo-Rx"
-      ],
-      "note": "ambushed us in Redridge"
+      "friend": "Daytona",
+      "main": "Daytona-Gemini",
+      "alts": []
     }
   ]
 }
