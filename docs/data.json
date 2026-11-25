@@ -1,11 +1,11 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795581560865,
+ "generatedAt": 1795590987638,
  "region": "eu",
  "levelCap": 60,
- "weekId": "2026-11-18T07",
- "weekStartedAt": 1794986214337,
- "nextResetAt": 1795590000000,
+ "weekId": "2026-11-25T07",
+ "weekStartedAt": 1795590987638,
+ "nextResetAt": 1796194800000,
  "weeklyReset": {
   "weekday": 3,
   "hourUtc": 7
@@ -992,9 +992,9 @@
     ]
    ],
    "weekly": {
-    "levels": 4.16,
-    "ilvl": 0.66,
-    "hk": 295,
+    "levels": 0,
+    "ilvl": 0,
+    "hk": 0,
     "rank": 0
    },
    "ding60At": null
@@ -1914,9 +1914,9 @@
     ]
    ],
    "weekly": {
-    "levels": 6.67,
-    "ilvl": 6.46,
-    "hk": 35,
+    "levels": 0,
+    "ilvl": 0,
+    "hk": 0,
     "rank": 0
    },
    "ding60At": null
@@ -2749,9 +2749,9 @@
     ]
    ],
    "weekly": {
-    "levels": 7.68,
-    "ilvl": 6.2,
-    "hk": 5,
+    "levels": 0,
+    "ilvl": 0,
+    "hk": 0,
     "rank": 0
    },
    "ding60At": null
@@ -3603,8 +3603,8 @@
     ]
    ],
    "weekly": {
-    "levels": 6.99,
-    "ilvl": 3.68,
+    "levels": 0,
+    "ilvl": 0,
     "hk": 0,
     "rank": 0
    },
@@ -4433,9 +4433,9 @@
     ]
    ],
    "weekly": {
-    "levels": 3.27,
-    "ilvl": 2.4,
-    "hk": 42,
+    "levels": 0,
+    "ilvl": 0,
+    "hk": 0,
     "rank": 0
    },
    "ding60At": null
