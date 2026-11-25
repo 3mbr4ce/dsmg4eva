@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795633928351,
+ "generatedAt": 1795636449146,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -1940,10 +1940,10 @@
    "surname": "Unbann",
    "fullName": "Ruler Unbann",
    "level": 36,
-   "experience": 20933,
+   "experience": 31970,
    "xpToLevel": 71600,
-   "xpPct": 29.24,
-   "levelProgress": 36.29,
+   "xpPct": 44.65,
+   "levelProgress": 36.45,
    "className": "Druid",
    "classId": 11,
    "race": "Night Elf",
@@ -1952,7 +1952,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795633109000,
+   "lastLogin": 1795635923000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -1986,7 +1986,7 @@
       "spells": [],
       "req": "Requires Level 35",
       "reqClass": "",
-      "dur": "Durability 46 / 50",
+      "dur": "Durability 45 / 50",
       "sell": 4240,
       "desc": ""
      }
@@ -2063,7 +2063,7 @@
       "spells": [],
       "req": "Requires Level 30",
       "reqClass": "",
-      "dur": "Durability 47 / 50",
+      "dur": "Durability 46 / 50",
       "sell": 2609,
       "desc": ""
      }
@@ -2142,7 +2142,7 @@
       "spells": [],
       "req": "Requires Level 29",
       "reqClass": "",
-      "dur": "Durability 96 / 100",
+      "dur": "Durability 92 / 100",
       "sell": 4131,
       "desc": ""
      }
@@ -2203,7 +2203,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 25 / 25",
+      "dur": "Durability 22 / 25",
       "sell": 462,
       "desc": ""
      }
@@ -2317,7 +2317,7 @@
       "spells": [],
       "req": "Requires Level 31",
       "reqClass": "",
-      "dur": "Durability 60 / 65",
+      "dur": "Durability 55 / 65",
       "sell": 3935,
       "desc": ""
      }
@@ -2355,7 +2355,7 @@
       "spells": [],
       "req": "Requires Level 31",
       "reqClass": "",
-      "dur": "Durability 44 / 45",
+      "dur": "Durability 43 / 45",
       "sell": 2839,
       "desc": ""
      }
@@ -2490,7 +2490,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 89 / 100",
+      "dur": "Durability 85 / 100",
       "sell": 12065,
       "desc": "",
       "weapon": {
@@ -2554,7 +2554,7 @@
      },
      {
       "name": "Herbalism",
-      "skill": 173,
+      "skill": 176,
       "max": 225,
       "recipes": 4
      }
@@ -2640,7 +2640,7 @@
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 4.58,
+     "v": 4.62,
      "p": 1
     },
     {
@@ -2658,7 +2658,7 @@
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 12.9,
+     "v": 12.94,
      "p": 1
     },
     {
@@ -2748,7 +2748,7 @@
     "pets": 0,
     "toys": 0
    },
-   "questsDone": 448,
+   "questsDone": 449,
    "history": [
     [
      1795570780222,
@@ -2779,10 +2779,16 @@
      36.29,
      0,
      6
+    ],
+    [
+     1795636449146,
+     36.45,
+     0,
+     6
     ]
    ],
    "weekly": {
-    "levels": 0.43,
+    "levels": 0.59,
     "ilvl": -33.06,
     "hk": 1,
     "rank": 0
@@ -18561,7 +18567,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795621340000,
+   "lastLogin": 1795635571000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -18857,7 +18863,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 84 / 100",
+      "dur": "Durability 83 / 100",
       "sell": 15903,
       "desc": ""
      }
