@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795621158168,
+ "generatedAt": 1795622091576,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -7039,11 +7039,11 @@
    "name": "Xerxes",
    "surname": "Crownrend",
    "fullName": "Xerxes Crownrend",
-   "level": 54,
-   "experience": 160991,
-   "xpToLevel": 173900,
-   "xpPct": 92.58,
-   "levelProgress": 54.93,
+   "level": 55,
+   "experience": 32439,
+   "xpToLevel": 180800,
+   "xpPct": 17.94,
+   "levelProgress": 55.18,
    "className": "Warrior",
    "classId": 1,
    "race": "Night Elf",
@@ -7052,7 +7052,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795616483000,
+   "lastLogin": 1795621584000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -7126,7 +7126,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 73 / 80",
+      "dur": "Durability 68 / 80",
       "sell": 16666,
       "desc": ""
      }
@@ -7205,7 +7205,7 @@
       ],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 77 / 80",
+      "dur": "Durability 73 / 80",
       "sell": 16666,
       "desc": ""
      }
@@ -7284,7 +7284,7 @@
       "spells": [],
       "req": "Requires Level 40",
       "reqClass": "",
-      "dur": "Durability 86 / 115",
+      "dur": "Durability 77 / 115",
       "sell": 5197,
       "desc": ""
      }
@@ -7375,7 +7375,7 @@
       "spells": [],
       "req": "Requires Level 49",
       "reqClass": "",
-      "dur": "Durability 30 / 40",
+      "dur": "Durability 24 / 40",
       "sell": 10721,
       "desc": ""
      }
@@ -7416,7 +7416,7 @@
       "spells": [],
       "req": "Requires Level 48",
       "reqClass": "",
-      "dur": "Durability 26 / 40",
+      "dur": "Durability 24 / 40",
       "sell": 10114,
       "desc": ""
      }
@@ -7452,7 +7452,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 26 / 35",
+      "dur": "Durability 21 / 35",
       "sell": 5521,
       "desc": ""
      }
@@ -7460,41 +7460,36 @@
     {
      "slot": "LEGS",
      "slotName": "Legs",
-     "itemId": 19124,
-     "name": "Slagplate Leggings",
+     "itemId": 11882,
+     "name": "Outrider Leggings",
      "quality": "UNCOMMON",
      "ilvl": 0,
      "inventoryType": "LEGS",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134584.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134583.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Legs",
-      "sub": "Plate",
-      "armor": "405 Armor",
+      "sub": "Mail",
+      "armor": "265 Armor",
       "stats": [
        {
-        "s": "+12 Strength",
+        "s": "+16 Strength",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+12 Stamina",
+        "s": "+16 Stamina",
         "neg": false,
         "eq": false
-       },
-       {
-        "s": "+3 Defense",
-        "neg": false,
-        "eq": true
        }
       ],
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 69 / 85",
-      "sell": 8259,
+      "dur": "Durability 68 / 75",
+      "sell": 20520,
       "desc": ""
      }
     },
@@ -7529,7 +7524,7 @@
       "spells": [],
       "req": "Requires Level 47",
       "reqClass": "",
-      "dur": "Durability 44 / 55",
+      "dur": "Durability 39 / 55",
       "sell": 7650,
       "desc": ""
      }
@@ -7697,7 +7692,7 @@
       ],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 74 / 90",
+      "dur": "Durability 68 / 90",
       "sell": 33714,
       "desc": "",
       "weapon": {
@@ -7729,7 +7724,7 @@
       ],
       "req": "Requires Level 50",
       "reqClass": "",
-      "dur": "Durability 65 / 65",
+      "dur": "Durability 52 / 65",
       "sell": 36157,
       "desc": "",
       "weapon": {
@@ -7791,21 +7786,21 @@
     "trees": [
      {
       "name": "Arms",
-      "points": 11
+      "points": 12
      },
      {
       "name": "Fury",
       "points": 34
      }
     ],
-    "split": "11/34",
+    "split": "12/34",
     "main": "Fury"
    },
    "professions": {
     "primaries": [
      {
       "name": "Mining",
-      "skill": 277,
+      "skill": 283,
       "max": 300,
       "recipes": 12
      },
@@ -7848,7 +7843,7 @@
     {
      "k": "health",
      "label": "Health",
-     "v": 2739
+     "v": 2859
     },
     {
      "k": "power",
@@ -7858,17 +7853,17 @@
     {
      "k": "strength",
      "label": "Strength",
-     "v": 195
+     "v": 202
     },
     {
      "k": "agility",
      "label": "Agility",
-     "v": 112
+     "v": 113
     },
     {
      "k": "stamina",
      "label": "Stamina",
-     "v": 162
+     "v": 168
     },
     {
      "k": "intellect",
@@ -7883,17 +7878,17 @@
     {
      "k": "armor",
      "label": "Armor",
-     "v": 2700
+     "v": 2562
     },
     {
      "k": "attack_power",
      "label": "Attack power",
-     "v": 595
+     "v": 612
     },
     {
      "k": "ranged_attack_power",
      "label": "Ranged attack power",
-     "v": 321
+     "v": 324
     },
     {
      "k": "spell_power",
@@ -7903,7 +7898,7 @@
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 12.29,
+     "v": 12.12,
      "p": 1
     },
     {
@@ -7921,19 +7916,19 @@
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 7.41,
+     "v": 7.12,
      "p": 1
     },
     {
      "k": "parry",
      "label": "Parry",
-     "v": 5.12,
+     "v": 4.92,
      "p": 1
     },
     {
      "k": "block",
      "label": "Block",
-     "v": 5.12,
+     "v": 4.92,
      "p": 1
     },
     {
@@ -7956,42 +7951,42 @@
      {
       "name": "Darnassus",
       "standing": "Revered",
-      "v": 936,
+      "v": 946,
       "max": 21000,
       "tier": 6
      },
      {
       "name": "Stormwind",
       "standing": "Honored",
-      "v": 11313,
+      "v": 11316,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Ironforge",
       "standing": "Honored",
-      "v": 8192,
+      "v": 8195,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Gnomeregan Exiles",
       "standing": "Honored",
-      "v": 4056,
+      "v": 4058,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Booty Bay",
       "standing": "Honored",
-      "v": 292,
+      "v": 355,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Gadgetzan",
       "standing": "Friendly",
-      "v": 4902,
+      "v": 5027,
       "max": 6000,
       "tier": 4
      }
@@ -8011,7 +8006,7 @@
     "pets": 4,
     "toys": 2
    },
-   "questsDone": 928
+   "questsDone": 935
   },
   {
    "friend": "Ash",
@@ -18514,8 +18509,8 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795546028000,
-   "apiItemLevel": 55,
+   "lastLogin": 1795621340000,
+   "apiItemLevel": 0,
    "gear": [
     {
      "slot": "HEAD",
@@ -18523,7 +18518,7 @@
      "itemId": 272733,
      "name": "Premier Beasthide Shroud",
      "quality": "RARE",
-     "ilvl": 60,
+     "ilvl": 0,
      "inventoryType": "HEAD",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133143.jpg",
@@ -18558,7 +18553,7 @@
       "spells": [],
       "req": "Requires Level 55",
       "reqClass": "Classes: Druid",
-      "dur": "Durability 60 / 60",
+      "dur": "Durability 52 / 60",
       "sell": 0,
       "desc": "",
       "set": {
@@ -18612,7 +18607,7 @@
      "itemId": 13089,
      "name": "Skibi's Pendant",
      "quality": "RARE",
-     "ilvl": 49,
+     "ilvl": 0,
      "inventoryType": "NECK",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133282.jpg",
@@ -18653,7 +18648,7 @@
      "itemId": 272732,
      "name": "Premier Beasthide Epaulets",
      "quality": "RARE",
-     "ilvl": 60,
+     "ilvl": 0,
      "inventoryType": "SHOULDER",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135054.jpg",
@@ -18688,7 +18683,7 @@
       "spells": [],
       "req": "Requires Level 55",
       "reqClass": "Classes: Druid",
-      "dur": "Durability 60 / 60",
+      "dur": "Durability 48 / 60",
       "sell": 0,
       "desc": "",
       "set": {
@@ -18742,7 +18737,7 @@
      "itemId": 13340,
      "name": "Cape of the Black Baron",
      "quality": "RARE",
-     "ilvl": 63,
+     "ilvl": 0,
      "inventoryType": "CLOAK",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133772.jpg",
@@ -18778,7 +18773,7 @@
      "itemId": 22274,
      "name": "Grizzled Pelt",
      "quality": "RARE",
-     "ilvl": 52,
+     "ilvl": 0,
      "inventoryType": "CHEST",
      "enchants": [
       "Enchanted: Stamina +5 and Armor +40"
@@ -18810,7 +18805,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 100 / 100",
+      "dur": "Durability 84 / 100",
       "sell": 15903,
       "desc": ""
      }
@@ -18821,7 +18816,7 @@
      "itemId": 275042,
      "name": "Farholde Keep Tabard",
      "quality": "COMMON",
-     "ilvl": 20,
+     "ilvl": 0,
      "inventoryType": "TABARD",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/7941422.jpg",
@@ -18846,7 +18841,7 @@
      "itemId": 226788,
      "name": "Feralheart Bands",
      "quality": "RARE",
-     "ilvl": 65,
+     "ilvl": 0,
      "inventoryType": "WRIST",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132608.jpg",
@@ -18881,7 +18876,7 @@
       "spells": [],
       "req": "",
       "reqClass": "Classes: Druid",
-      "dur": "Durability 35 / 35",
+      "dur": "Durability 33 / 35",
       "sell": 15287,
       "desc": "",
       "set": {
@@ -18955,7 +18950,7 @@
      "itemId": 272709,
      "name": "Premier Beasthide Gloves",
      "quality": "RARE",
-     "ilvl": 60,
+     "ilvl": 0,
      "inventoryType": "HAND",
      "enchants": [
       "Enchanted: Stamina +5 and Armor +40"
@@ -18989,7 +18984,7 @@
       ],
       "req": "Requires Level 55",
       "reqClass": "Classes: Druid",
-      "dur": "Durability 35 / 35",
+      "dur": "Durability 31 / 35",
       "sell": 0,
       "desc": "",
       "set": {
@@ -19043,7 +19038,7 @@
      "itemId": 226789,
      "name": "Feralheart Girdle",
      "quality": "RARE",
-     "ilvl": 65,
+     "ilvl": 0,
      "inventoryType": "WAIST",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132504.jpg",
@@ -19083,7 +19078,7 @@
       "spells": [],
       "req": "",
       "reqClass": "Classes: Druid",
-      "dur": "Durability 35 / 35",
+      "dur": "Durability 29 / 35",
       "sell": 15346,
       "desc": "",
       "set": {
@@ -19157,7 +19152,7 @@
      "itemId": 15065,
      "name": "Warbear Woolies",
      "quality": "RARE",
-     "ilvl": 57,
+     "ilvl": 0,
      "inventoryType": "LEGS",
      "enchants": [
       "Enchanted: Stamina +5 and Armor +40"
@@ -19189,7 +19184,7 @@
       "spells": [],
       "req": "Requires Level 52",
       "reqClass": "",
-      "dur": "Durability 75 / 75",
+      "dur": "Durability 56 / 75",
       "sell": 22233,
       "desc": ""
      }
@@ -19200,7 +19195,7 @@
      "itemId": 272705,
      "name": "Premier Beasthide Footwraps",
      "quality": "RARE",
-     "ilvl": 60,
+     "ilvl": 0,
      "inventoryType": "FEET",
      "enchants": [
       "Enchanted: Stamina +5 and Armor +40"
@@ -19237,7 +19232,7 @@
       "spells": [],
       "req": "Requires Level 55",
       "reqClass": "Classes: Druid",
-      "dur": "Durability 50 / 50",
+      "dur": "Durability 41 / 50",
       "sell": 0,
       "desc": "",
       "set": {
@@ -19291,7 +19286,7 @@
      "itemId": 19325,
      "name": "Don Julio's Band",
      "quality": "EPIC",
-     "ilvl": 60,
+     "ilvl": 0,
      "inventoryType": "FINGER",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133377.jpg",
@@ -19337,7 +19332,7 @@
      "itemId": 272408,
      "name": "Cutthroat's Signet",
      "quality": "RARE",
-     "ilvl": 65,
+     "ilvl": 0,
      "inventoryType": "FINGER",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133343.jpg",
@@ -19378,7 +19373,7 @@
      "itemId": 270275,
      "name": "Cleansed Vilebranch Medallion",
      "quality": "UNCOMMON",
-     "ilvl": 51,
+     "ilvl": 0,
      "inventoryType": "TRINKET",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133792.jpg",
@@ -19411,7 +19406,7 @@
      "itemId": 274445,
      "name": "Greater Insignia of the Alliance",
      "quality": "RARE",
-     "ilvl": 1,
+     "ilvl": 0,
      "inventoryType": "TRINKET",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133452.jpg",
@@ -19438,7 +19433,7 @@
      "itemId": 19323,
      "name": "The Unstoppable Force",
      "quality": "EPIC",
-     "ilvl": 60,
+     "ilvl": 0,
      "inventoryType": "TWOHWEAPON",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133050.jpg",
@@ -19470,7 +19465,7 @@
       ],
       "req": "Requires Level 55",
       "reqClass": "",
-      "dur": "Durability 120 / 120",
+      "dur": "Durability 113 / 120",
       "sell": 312980,
       "desc": "",
       "weapon": {
@@ -19486,7 +19481,7 @@
      "itemId": 22397,
      "name": "Idol of Ferocity",
      "quality": "RARE",
-     "ilvl": 57,
+     "ilvl": 0,
      "inventoryType": "RELIC",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134912.jpg",
@@ -19508,11 +19503,11 @@
      }
     }
    ],
-   "itemLevel": 55.59,
+   "itemLevel": 0,
    "pvp": {
-    "hk": 5444,
-    "rank": 4,
-    "rankName": "Master Sergeant"
+    "hk": 5629,
+    "rank": 5,
+    "rankName": "Sergeant Major"
    },
    "spec": {
     "trees": [
@@ -19718,7 +19713,7 @@
      {
       "name": "Booty Bay",
       "standing": "Honored",
-      "v": 901,
+      "v": 1054,
       "max": 12000,
       "tier": 5
      }
@@ -19726,11 +19721,11 @@
    },
    "achievements": {
     "points": 0,
-    "count": 11,
+    "count": 13,
     "recent": [
-     "Novice Spelunker",
-     "Rank 3",
-     "Explore Mount Hyjal"
+     "Field of Honor: Week 4",
+     "Master of Alterac Valley",
+     "Novice Spelunker"
     ]
    },
    "collections": {
@@ -19738,7 +19733,7 @@
     "pets": 7,
     "toys": 3
    },
-   "questsDone": 1286
+   "questsDone": 1292
   }
  ]
 }
