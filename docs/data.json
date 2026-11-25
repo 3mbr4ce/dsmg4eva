@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795628325794,
+ "generatedAt": 1795630590187,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -2787,10 +2787,10 @@
    "surname": "Huun",
    "fullName": "Dala Huun",
    "level": 44,
-   "experience": 28497,
+   "experience": 37565,
    "xpToLevel": 111800,
-   "xpPct": 25.49,
-   "levelProgress": 44.25,
+   "xpPct": 33.6,
+   "levelProgress": 44.34,
    "className": "Shaman",
    "classId": 7,
    "race": "Orc",
@@ -2799,7 +2799,7 @@
    "faction": "HORDE",
    "ruleset": "Normal",
    "achievementPoints": 0,
-   "lastLogin": 1795619117000,
+   "lastLogin": 1795630270000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -2910,7 +2910,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 59 / 60",
+      "dur": "Durability 60 / 60",
       "sell": 4811,
       "desc": ""
      }
@@ -3184,13 +3184,13 @@
     {
      "slot": "FINGER_1",
      "slotName": "Ring 1",
-     "itemId": 270081,
-     "name": "Purified Ring",
+     "itemId": 1156,
+     "name": "Lavishly Jeweled Ring",
      "quality": "RARE",
      "ilvl": 0,
      "inventoryType": "FINGER",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133343.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133351.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
@@ -3199,21 +3199,21 @@
       "armor": "",
       "stats": [
        {
-        "s": "+12 Intellect",
+        "s": "+6 Intellect",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+5 Spell Power",
+        "s": "+2 Agility",
         "neg": false,
-        "eq": true
+        "eq": false
        }
       ],
       "spells": [],
-      "req": "",
+      "req": "Requires Level 17",
       "reqClass": "",
       "dur": "",
-      "sell": 7376,
+      "sell": 903,
       "desc": ""
      }
     },
@@ -3316,6 +3316,7 @@
      "ilvl": 0,
      "inventoryType": "TWOHWEAPON",
      "enchants": [
+      "Weighted +8",
       "Windfury 2"
      ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133522.jpg",
@@ -3408,13 +3409,13 @@
     "primaries": [
      {
       "name": "Leatherworking",
-      "skill": 201,
+      "skill": 225,
       "max": 300,
-      "recipes": 87
+      "recipes": 90
      },
      {
       "name": "Skinning",
-      "skill": 274,
+      "skill": 275,
       "max": 300,
       "recipes": 2
      }
@@ -3428,7 +3429,7 @@
      },
      {
       "name": "Fishing",
-      "skill": 213,
+      "skill": 219,
       "max": 225,
       "recipes": 2
      },
@@ -3456,7 +3457,7 @@
     {
      "k": "power",
      "label": "Mana",
-     "v": 2151
+     "v": 2046
     },
     {
      "k": "strength",
@@ -3466,7 +3467,7 @@
     {
      "k": "agility",
      "label": "Agility",
-     "v": 64
+     "v": 66
     },
     {
      "k": "stamina",
@@ -3476,7 +3477,7 @@
     {
      "k": "intellect",
      "label": "Intellect",
-     "v": 89
+     "v": 82
     },
     {
      "k": "spirit",
@@ -3486,12 +3487,12 @@
     {
      "k": "armor",
      "label": "Armor",
-     "v": 1029
+     "v": 1033
     },
     {
      "k": "attack_power",
      "label": "Attack power",
-     "v": 455
+     "v": 448
     },
     {
      "k": "ranged_attack_power",
@@ -3501,12 +3502,12 @@
     {
      "k": "spell_power",
      "label": "Spell power",
-     "v": 31
+     "v": 24
     },
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 10.77,
+     "v": 10.94,
      "p": 1
     },
     {
@@ -3518,13 +3519,13 @@
     {
      "k": "spell_crit",
      "label": "Spell crit",
-     "v": 9.43,
+     "v": 9.26,
      "p": 1
     },
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 7.69,
+     "v": 7.82,
      "p": 1
     },
     {
@@ -3559,42 +3560,42 @@
      {
       "name": "Orgrimmar",
       "standing": "Honored",
-      "v": 9971,
+      "v": 10021,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Darkspear Trolls",
       "standing": "Honored",
-      "v": 4542,
+      "v": 4742,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Thunder Bluff",
       "standing": "Honored",
-      "v": 3196,
+      "v": 3246,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Undercity",
       "standing": "Friendly",
-      "v": 5556,
+      "v": 5606,
       "max": 6000,
       "tier": 4
      },
      {
       "name": "Ratchet",
       "standing": "Friendly",
-      "v": 1917,
+      "v": 2020,
       "max": 6000,
       "tier": 4
      },
      {
       "name": "Booty Bay",
       "standing": "Friendly",
-      "v": 813,
+      "v": 865,
       "max": 6000,
       "tier": 4
      }
@@ -3602,11 +3603,11 @@
    },
    "achievements": {
     "points": 0,
-    "count": 5,
+    "count": 7,
     "recent": [
-     "Explore Arathi Highlands",
-     "Journeyman Leatherworker",
-     "Explore Thousand Needles"
+     "Novice Spelunker",
+     "Expert Leatherworker",
+     "Explore Arathi Highlands"
     ]
    },
    "collections": {
@@ -3614,7 +3615,7 @@
     "pets": 4,
     "toys": 2
    },
-   "questsDone": 554,
+   "questsDone": 557,
    "history": [
     [
      1795570780222,
@@ -3627,10 +3628,16 @@
      44.25,
      0,
      1
+    ],
+    [
+     1795630590187,
+     44.34,
+     0,
+     1
     ]
    ],
    "weekly": {
-    "levels": 0,
+    "levels": 0.09,
     "ilvl": -35.18,
     "hk": 0,
     "rank": 0
