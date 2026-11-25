@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795590987638,
+ "generatedAt": 1795596017164,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -13384,10 +13384,10 @@
    "surname": "Angelos",
    "fullName": "Ryan Angelos",
    "level": 52,
-   "experience": 49013,
+   "experience": 95609,
    "xpToLevel": 160400,
-   "xpPct": 30.56,
-   "levelProgress": 52.31,
+   "xpPct": 59.61,
+   "levelProgress": 52.6,
    "className": "Paladin",
    "classId": 2,
    "race": "Dwarf",
@@ -13396,8 +13396,8 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795567546000,
-   "apiItemLevel": 42,
+   "lastLogin": 1795595392000,
+   "apiItemLevel": 0,
    "gear": [
     {
      "slot": "HEAD",
@@ -13405,7 +13405,7 @@
      "itemId": 250532,
      "name": "Crusader's Silvered Chain Helm",
      "quality": "RARE",
-     "ilvl": 25,
+     "ilvl": 0,
      "inventoryType": "HEAD",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133139.jpg",
@@ -13430,7 +13430,7 @@
       "spells": [],
       "req": "Requires Level 20",
       "reqClass": "",
-      "dur": "Durability 64 / 65",
+      "dur": "Durability 62 / 65",
       "sell": 1460,
       "desc": ""
      }
@@ -13441,7 +13441,7 @@
      "itemId": 7673,
      "name": "Talvash's Enhancing Necklace",
      "quality": "RARE",
-     "ilvl": 46,
+     "ilvl": 0,
      "inventoryType": "NECK",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133289.jpg",
@@ -13482,7 +13482,7 @@
      "itemId": 250578,
      "name": "Warder's Pauldrons",
      "quality": "RARE",
-     "ilvl": 47,
+     "ilvl": 0,
      "inventoryType": "SHOULDER",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135034.jpg",
@@ -13512,7 +13512,7 @@
       "spells": [],
       "req": "Requires Level 42",
       "reqClass": "",
-      "dur": "Durability 75 / 80",
+      "dur": "Durability 71 / 80",
       "sell": 12364,
       "desc": ""
      }
@@ -13523,7 +13523,7 @@
      "itemId": 279835,
      "name": "Vine Pruner's Cloak",
      "quality": "UNCOMMON",
-     "ilvl": 36,
+     "ilvl": 0,
      "inventoryType": "CLOAK",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133765.jpg",
@@ -13564,7 +13564,7 @@
      "itemId": 250540,
      "name": "Shining Mithril Breastplate",
      "quality": "UNCOMMON",
-     "ilvl": 45,
+     "ilvl": 0,
      "inventoryType": "CHEST",
      "enchants": [
       "Enchanted: Spell Power +5 and Armor +32"
@@ -13591,7 +13591,7 @@
       "spells": [],
       "req": "Requires Level 40",
       "reqClass": "",
-      "dur": "Durability 111 / 115",
+      "dur": "Durability 110 / 115",
       "sell": 11586,
       "desc": ""
      }
@@ -13602,7 +13602,7 @@
      "itemId": 859,
      "name": "Fine Cloth Shirt",
      "quality": "COMMON",
-     "ilvl": 17,
+     "ilvl": 0,
      "inventoryType": "BODY",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135006.jpg",
@@ -13627,7 +13627,7 @@
      "itemId": 5976,
      "name": "Guild Tabard",
      "quality": "COMMON",
-     "ilvl": 1,
+     "ilvl": 0,
      "inventoryType": "TABARD",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135026.jpg",
@@ -13652,7 +13652,7 @@
      "itemId": 250583,
      "name": "Warder's Wristguards",
      "quality": "RARE",
-     "ilvl": 50,
+     "ilvl": 0,
      "inventoryType": "WRIST",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132613.jpg",
@@ -13682,7 +13682,7 @@
       "spells": [],
       "req": "Requires Level 45",
       "reqClass": "",
-      "dur": "Durability 45 / 45",
+      "dur": "Durability 43 / 45",
       "sell": 9462,
       "desc": ""
      }
@@ -13693,7 +13693,7 @@
      "itemId": 250568,
      "name": "Warder's Gauntlet",
      "quality": "RARE",
-     "ilvl": 40,
+     "ilvl": 0,
      "inventoryType": "HAND",
      "enchants": [
       "Enchanted: Spell Power +5 and Armor +32"
@@ -13736,7 +13736,7 @@
      "itemId": 250573,
      "name": "Warder's Waistguard",
      "quality": "RARE",
-     "ilvl": 55,
+     "ilvl": 0,
      "inventoryType": "WAIST",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132518.jpg",
@@ -13766,7 +13766,7 @@
       "spells": [],
       "req": "Requires Level 50",
       "reqClass": "",
-      "dur": "Durability 44 / 45",
+      "dur": "Durability 42 / 45",
       "sell": 13274,
       "desc": ""
      }
@@ -13777,7 +13777,7 @@
      "itemId": 250527,
      "name": "Crusader's Silvered Chain Leggings",
      "quality": "RARE",
-     "ilvl": 30,
+     "ilvl": 0,
      "inventoryType": "LEGS",
      "enchants": [
       "Enchanted: Spell Power +5 and Armor +32"
@@ -13809,7 +13809,7 @@
       "spells": [],
       "req": "Requires Level 25",
       "reqClass": "",
-      "dur": "Durability 89 / 90",
+      "dur": "Durability 88 / 90",
       "sell": 3149,
       "desc": ""
      }
@@ -13820,7 +13820,7 @@
      "itemId": 250563,
      "name": "Warder's Sabatons",
      "quality": "RARE",
-     "ilvl": 52,
+     "ilvl": 0,
      "inventoryType": "FEET",
      "enchants": [
       "Enchanted: Spell Power +5 and Armor +32"
@@ -13863,7 +13863,7 @@
      "itemId": 2043,
      "name": "Ring of Forlorn Spirits",
      "quality": "UNCOMMON",
-     "ilvl": 35,
+     "ilvl": 0,
      "inventoryType": "FINGER",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133343.jpg",
@@ -13899,7 +13899,7 @@
      "itemId": 273806,
      "name": "Dark Horde Band",
      "quality": "RARE",
-     "ilvl": 26,
+     "ilvl": 0,
      "inventoryType": "FINGER",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133357.jpg",
@@ -13935,7 +13935,7 @@
      "itemId": 274641,
      "name": "Theka's Last Breath",
      "quality": "RARE",
-     "ilvl": 47,
+     "ilvl": 0,
      "inventoryType": "TRINKET",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134457.jpg",
@@ -13968,7 +13968,7 @@
      "itemId": 10418,
      "name": "Glimmering Mithril Insignia",
      "quality": "UNCOMMON",
-     "ilvl": 50,
+     "ilvl": 0,
      "inventoryType": "TRINKET",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133435.jpg",
@@ -14001,7 +14001,7 @@
      "itemId": 17719,
      "name": "Inventor's Focal Sword",
      "quality": "RARE",
-     "ilvl": 53,
+     "ilvl": 0,
      "inventoryType": "WEAPONMAINHAND",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135312.jpg",
@@ -14037,7 +14037,7 @@
      "itemId": 274652,
      "name": "Wall of Water",
      "quality": "RARE",
-     "ilvl": 48,
+     "ilvl": 0,
      "inventoryType": "SHIELD",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134962.jpg",
@@ -14068,7 +14068,7 @@
      }
     }
    ],
-   "itemLevel": 42.81,
+   "itemLevel": 0,
    "pvp": {
     "hk": 311,
     "rank": 0,
@@ -14184,7 +14184,7 @@
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 9.5,
+     "v": 9.7,
      "p": 1
     },
     {
@@ -14202,19 +14202,19 @@
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 6.18,
+     "v": 6.22,
      "p": 1
     },
     {
      "k": "parry",
      "label": "Parry",
-     "v": 7.36,
+     "v": 7.4,
      "p": 1
     },
     {
      "k": "block",
      "label": "Block",
-     "v": 7.36,
+     "v": 7.4,
      "p": 1
     },
     {
@@ -14244,28 +14244,28 @@
      {
       "name": "Ironforge",
       "standing": "Revered",
-      "v": 403,
+      "v": 666,
       "max": 21000,
       "tier": 6
      },
      {
       "name": "Stormwind",
-      "standing": "Honored",
-      "v": 11968,
-      "max": 12000,
-      "tier": 5
+      "standing": "Revered",
+      "v": 362,
+      "max": 21000,
+      "tier": 6
      },
      {
       "name": "Gnomeregan Exiles",
       "standing": "Honored",
-      "v": 6045,
+      "v": 6176,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Darnassus",
       "standing": "Honored",
-      "v": 2115,
+      "v": 2246,
       "max": 12000,
       "tier": 5
      },
@@ -14280,11 +14280,11 @@
    },
    "achievements": {
     "points": 0,
-    "count": 18,
+    "count": 20,
     "recent": [
-     "Explore Tanaris",
-     "Explore Riverglades",
-     "Experienced Spelunker"
+     "Explore Thousand Needles",
+     "Explore Moonglade",
+     "Explore Tanaris"
     ]
    },
    "collections": {
@@ -14292,7 +14292,7 @@
     "pets": 8,
     "toys": 2
    },
-   "questsDone": 836
+   "questsDone": 849
   },
   {
    "friend": "Zewazi",
