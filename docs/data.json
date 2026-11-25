@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795616155205,
+ "generatedAt": 1795616799688,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -7040,10 +7040,10 @@
    "surname": "Crownrend",
    "fullName": "Xerxes Crownrend",
    "level": 54,
-   "experience": 92647,
+   "experience": 160991,
    "xpToLevel": 173900,
-   "xpPct": 53.28,
-   "levelProgress": 54.53,
+   "xpPct": 92.58,
+   "levelProgress": 54.93,
    "className": "Warrior",
    "classId": 1,
    "race": "Night Elf",
@@ -7052,7 +7052,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795606320000,
+   "lastLogin": 1795616483000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -7088,46 +7088,46 @@
     {
      "slot": "HEAD",
      "slotName": "Head",
-     "itemId": 274644,
-     "name": "Undying Headdress",
+     "itemId": 20521,
+     "name": "Fury Visor",
      "quality": "RARE",
      "ilvl": 0,
      "inventoryType": "HEAD",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133119.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133069.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Head",
-      "sub": "Mail",
-      "armor": "235 Armor",
+      "sub": "Plate",
+      "armor": "445 Armor",
       "stats": [
        {
-        "s": "+8 Intellect",
+        "s": "+18 Strength",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+17 Stamina",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+26 Attack Power",
+        "s": "+10 Hit",
         "neg": false,
         "eq": true
        },
        {
-        "s": "+8 Health Per 5 Sec.",
+        "s": "+14 Critical Strike",
+        "neg": false,
+        "eq": true
+       },
+       {
+        "s": "+9 Spirit",
         "neg": false,
         "eq": true
        }
       ],
       "spells": [],
-      "req": "Requires Level 43",
+      "req": "",
       "reqClass": "",
-      "dur": "Durability 70 / 70",
-      "sell": 10937,
+      "dur": "Durability 73 / 80",
+      "sell": 16666,
       "desc": ""
      }
     },
@@ -7170,41 +7170,43 @@
     {
      "slot": "SHOULDER",
      "slotName": "Shoulders",
-     "itemId": 9476,
-     "name": "Big Bad Pauldrons",
+     "itemId": 20517,
+     "name": "Razorsteel Shoulders",
      "quality": "RARE",
      "ilvl": 0,
      "inventoryType": "SHOULDER",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135032.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135047.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Shoulder",
       "sub": "Plate",
-      "armor": "396 Armor",
+      "armor": "410 Armor",
       "stats": [
        {
-        "s": "+12 Strength",
+        "s": "+10 Strength",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+12 Stamina",
+        "s": "+10 Stamina",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+12 Health Per 5 Sec.",
+        "s": "+10 Hit",
         "neg": false,
         "eq": true
        }
       ],
-      "spells": [],
-      "req": "Requires Level 45",
+      "spells": [
+       "Equip: When struck in combat, inflicts 3 Physical damage to the attacker."
+      ],
+      "req": "",
       "reqClass": "",
-      "dur": "Durability 80 / 80",
-      "sell": 14694,
+      "dur": "Durability 77 / 80",
+      "sell": 16666,
       "desc": ""
      }
     },
@@ -7282,7 +7284,7 @@
       "spells": [],
       "req": "Requires Level 40",
       "reqClass": "",
-      "dur": "Durability 115 / 115",
+      "dur": "Durability 86 / 115",
       "sell": 5197,
       "desc": ""
      }
@@ -7373,7 +7375,7 @@
       "spells": [],
       "req": "Requires Level 49",
       "reqClass": "",
-      "dur": "Durability 40 / 40",
+      "dur": "Durability 30 / 40",
       "sell": 10721,
       "desc": ""
      }
@@ -7414,7 +7416,7 @@
       "spells": [],
       "req": "Requires Level 48",
       "reqClass": "",
-      "dur": "Durability 40 / 40",
+      "dur": "Durability 26 / 40",
       "sell": 10114,
       "desc": ""
      }
@@ -7450,7 +7452,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 35 / 35",
+      "dur": "Durability 26 / 35",
       "sell": 5521,
       "desc": ""
      }
@@ -7491,7 +7493,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 85 / 85",
+      "dur": "Durability 69 / 85",
       "sell": 8259,
       "desc": ""
      }
@@ -7527,7 +7529,7 @@
       "spells": [],
       "req": "Requires Level 47",
       "reqClass": "",
-      "dur": "Durability 55 / 55",
+      "dur": "Durability 44 / 55",
       "sell": 7650,
       "desc": ""
      }
@@ -7622,13 +7624,13 @@
     {
      "slot": "TRINKET_1",
      "slotName": "Trinket 1",
-     "itemId": 17774,
-     "name": "Mark of the Chosen",
+     "itemId": 11122,
+     "name": "Carrot on a Stick",
      "quality": "UNCOMMON",
      "ilvl": 0,
      "inventoryType": "TRINKET",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133441.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134010.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
@@ -7637,25 +7639,25 @@
       "armor": "",
       "stats": [],
       "spells": [
-       "Equip: Has a 2% chance when struck in combat of increasing all stats by 21 for 1 min."
+       "Equip: Increases mount speed by 3%."
       ],
       "req": "",
       "reqClass": "",
       "dur": "",
-      "sell": 8164,
+      "sell": 9347,
       "desc": ""
      }
     },
     {
      "slot": "TRINKET_2",
      "slotName": "Trinket 2",
-     "itemId": 270226,
-     "name": "Golden Banana",
-     "quality": "UNCOMMON",
+     "itemId": 20130,
+     "name": "Diamond Flask",
+     "quality": "RARE",
      "ilvl": 0,
      "inventoryType": "TRINKET",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133980.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132788.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
@@ -7664,13 +7666,13 @@
       "armor": "",
       "stats": [],
       "spells": [
-       "Use: Increases all attributes by 16 for 15 sec. Effect and duration are doubled in Forest and Grassland areas. (5 Min Cooldown)"
+       "Use: Restores 1,120 Health over 5 sec. This healing is strongest at first. If finished, gain 20 Strength for 1 min. (6 Min Cooldown)"
       ],
       "req": "",
-      "reqClass": "",
+      "reqClass": "Classes: Warrior",
       "dur": "",
-      "sell": 9297,
-      "desc": ""
+      "sell": 12722,
+      "desc": "Served on the rocks."
      }
     },
     {
@@ -7695,7 +7697,7 @@
       ],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 90 / 90",
+      "dur": "Durability 74 / 90",
       "sell": 33714,
       "desc": "",
       "weapon": {
@@ -7708,42 +7710,33 @@
     {
      "slot": "OFF_HAND",
      "slotName": "Off Hand",
-     "itemId": 275864,
-     "name": "Putridus Wall",
+     "itemId": 6660,
+     "name": "Julie's Dagger",
      "quality": "RARE",
      "ilvl": 0,
-     "inventoryType": "SHIELD",
+     "inventoryType": "WEAPON",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134959.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135643.jpg",
      "tt": {
-      "bind": "Binds when picked up",
+      "bind": "Binds when equipped",
       "unique": "",
-      "inv": "Off Hand",
-      "sub": "Shield",
-      "armor": "1,739 Armor",
-      "stats": [
-       {
-        "s": "+10 Stamina",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+5 Defense",
-        "neg": false,
-        "eq": true
-       },
-       {
-        "s": "+8 Nature Resistance",
-        "neg": false,
-        "eq": false
-       }
+      "inv": "One-Hand",
+      "sub": "Dagger",
+      "armor": "",
+      "stats": [],
+      "spells": [
+       "Chance on hit: Heals wielder of 78 damage over 12 sec."
       ],
-      "spells": [],
-      "req": "Requires Level 45",
+      "req": "Requires Level 50",
       "reqClass": "",
-      "dur": "Durability 100 / 100",
-      "sell": 17534,
-      "desc": ""
+      "dur": "Durability 65 / 65",
+      "sell": 36157,
+      "desc": "",
+      "weapon": {
+       "dmg": "33 - 62 Damage",
+       "speed": "Speed 1.30",
+       "dps": "(36.5 damage per second)"
+      }
      }
     },
     {
@@ -7797,22 +7790,22 @@
    "spec": {
     "trees": [
      {
-      "name": "Fury",
-      "points": 14
+      "name": "Arms",
+      "points": 11
      },
      {
-      "name": "Protection",
-      "points": 31
+      "name": "Fury",
+      "points": 34
      }
     ],
-    "split": "14/31",
-    "main": "Protection"
+    "split": "11/34",
+    "main": "Fury"
    },
    "professions": {
     "primaries": [
      {
       "name": "Mining",
-      "skill": 276,
+      "skill": 277,
       "max": 300,
       "recipes": 12
      },
@@ -7838,7 +7831,7 @@
      },
      {
       "name": "First Aid",
-      "skill": 290,
+      "skill": 297,
       "max": 300,
       "recipes": 13
      }
@@ -7855,7 +7848,7 @@
     {
      "k": "health",
      "label": "Health",
-     "v": 3029
+     "v": 2739
     },
     {
      "k": "power",
@@ -7865,7 +7858,7 @@
     {
      "k": "strength",
      "label": "Strength",
-     "v": 179
+     "v": 195
     },
     {
      "k": "agility",
@@ -7875,32 +7868,32 @@
     {
      "k": "stamina",
      "label": "Stamina",
-     "v": 191
+     "v": 162
     },
     {
      "k": "intellect",
      "label": "Intellect",
-     "v": 57
+     "v": 49
     },
     {
      "k": "spirit",
      "label": "Spirit",
-     "v": 45
+     "v": 54
     },
     {
      "k": "armor",
      "label": "Armor",
-     "v": 4215
+     "v": 2700
     },
     {
      "k": "attack_power",
      "label": "Attack power",
-     "v": 589
+     "v": 595
     },
     {
      "k": "ranged_attack_power",
      "label": "Ranged attack power",
-     "v": 347
+     "v": 321
     },
     {
      "k": "spell_power",
@@ -7910,37 +7903,37 @@
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 11.29,
+     "v": 12.29,
      "p": 1
     },
     {
      "k": "ranged_crit",
      "label": "Ranged crit",
-     "v": 0,
+     "v": 1,
      "p": 1
     },
     {
      "k": "spell_crit",
      "label": "Spell crit",
-     "v": 0,
+     "v": 1,
      "p": 1
     },
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 7.61,
+     "v": 7.41,
      "p": 1
     },
     {
      "k": "parry",
      "label": "Parry",
-     "v": 5.32,
+     "v": 5.12,
      "p": 1
     },
     {
      "k": "block",
      "label": "Block",
-     "v": 10.32,
+     "v": 5.12,
      "p": 1
     },
     {
@@ -7990,15 +7983,15 @@
      },
      {
       "name": "Booty Bay",
-      "standing": "Friendly",
-      "v": 5992,
-      "max": 6000,
-      "tier": 4
+      "standing": "Honored",
+      "v": 292,
+      "max": 12000,
+      "tier": 5
      },
      {
       "name": "Gadgetzan",
       "standing": "Friendly",
-      "v": 4752,
+      "v": 4902,
       "max": 6000,
       "tier": 4
      }
@@ -8018,7 +8011,7 @@
     "pets": 4,
     "toys": 2
    },
-   "questsDone": 924
+   "questsDone": 928
   },
   {
    "friend": "Ash",
