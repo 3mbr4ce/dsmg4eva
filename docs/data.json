@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795626746848,
+ "generatedAt": 1795628325794,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -1939,11 +1939,11 @@
    "name": "Ruler",
    "surname": "Unbann",
    "fullName": "Ruler Unbann",
-   "level": 35,
-   "experience": 57852,
-   "xpToLevel": 67100,
-   "xpPct": 86.22,
-   "levelProgress": 35.86,
+   "level": 36,
+   "experience": 1695,
+   "xpToLevel": 71600,
+   "xpPct": 2.37,
+   "levelProgress": 36.02,
    "className": "Druid",
    "classId": 11,
    "race": "Night Elf",
@@ -1952,7 +1952,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795625635000,
+   "lastLogin": 1795627540000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -2538,10 +2538,10 @@
     "trees": [
      {
       "name": "Feral Combat",
-      "points": 26
+      "points": 27
      }
     ],
-    "split": "26",
+    "split": "27",
     "main": "Feral Combat"
    },
    "professions": {
@@ -2554,7 +2554,7 @@
      },
      {
       "name": "Herbalism",
-      "skill": 172,
+      "skill": 173,
       "max": 225,
       "recipes": 4
      }
@@ -2585,47 +2585,47 @@
     {
      "k": "health",
      "label": "Health",
-     "v": 1173
+     "v": 1209
     },
     {
      "k": "power",
      "label": "Mana",
-     "v": 1684
+     "v": 1714
     },
     {
      "k": "strength",
      "label": "Strength",
-     "v": 106
+     "v": 107
     },
     {
      "k": "agility",
      "label": "Agility",
-     "v": 89
+     "v": 90
     },
     {
      "k": "stamina",
      "label": "Stamina",
-     "v": 81
+     "v": 82
     },
     {
      "k": "intellect",
      "label": "Intellect",
-     "v": 82
+     "v": 83
     },
     {
      "k": "spirit",
      "label": "Spirit",
-     "v": 82
+     "v": 84
     },
     {
      "k": "armor",
      "label": "Armor",
-     "v": 864
+     "v": 866
     },
     {
      "k": "attack_power",
      "label": "Attack power",
-     "v": 208
+     "v": 210
     },
     {
      "k": "ranged_attack_power",
@@ -2640,25 +2640,25 @@
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 4.84,
+     "v": 4.58,
      "p": 1
     },
     {
      "k": "ranged_crit",
      "label": "Ranged crit",
-     "v": 1.24,
+     "v": 0.98,
      "p": 1
     },
     {
      "k": "spell_crit",
      "label": "Spell crit",
-     "v": 4.28,
+     "v": 4.26,
      "p": 1
     },
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 13,
+     "v": 12.78,
      "p": 1
     },
     {
@@ -2748,7 +2748,7 @@
     "pets": 0,
     "toys": 0
    },
-   "questsDone": 438,
+   "questsDone": 443,
    "history": [
     [
      1795570780222,
@@ -2761,10 +2761,16 @@
      35.86,
      0,
      5
+    ],
+    [
+     1795628325794,
+     36.02,
+     0,
+     5
     ]
    ],
    "weekly": {
-    "levels": 0,
+    "levels": 0.16,
     "ilvl": -33.06,
     "hk": 0,
     "rank": 0
