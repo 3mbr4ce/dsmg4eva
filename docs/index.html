@@ -279,7 +279,7 @@ footer em{color:var(--accent);font-style:normal}
 .btn.dtlink{background:transparent;border-color:var(--accent);color:var(--accent)}
 .xdb .btns .btn.dtlink,.dbody .btns .btn.dtlink{min-height:36px;font-size:.75rem}
 .hbtn{display:inline-flex;align-items:center;gap:6px;color:var(--text)}
-.hbtn svg{flex:0 0 auto}
+.hbtn svg{flex:0 0 auto;display:block}
 .hbtn .lbl{font-size:.72rem;letter-spacing:1.5px;text-transform:uppercase}
 @media(max-width:480px){.hbtn .lbl{display:none}}
 .picker{position:fixed;inset:0;z-index:170;visibility:hidden;transition:visibility 0s .4s}
@@ -1055,7 +1055,7 @@ function detailHtml(c){
     (col?kv('Mounts',num(col.mounts))+kv('Pets',num(col.pets))+kv('Toys',num(col.toys)):'')+(c.questsDone!=null?kv('Quests completed',num(c.questsDone)):'')+(c.titleCount!=null?kv('Titles',num(c.titleCount)):'')+'</div>'+
     (ach&&ach.recent&&ach.recent.length?'<div class="none" style="margin-top:8px">Latest: '+ach.recent.map(esc).join(' • ')+'</div>':''):
     '<div class="dt-stats">'+kv('Achievement points',num(c.achievementPoints))+'</div><div class="none" style="margin-top:8px">More collections show up after the next data update.</div>';
-  return '<div class="dt-top"><button class="icon-btn hbtn" type="button" data-dtclose aria-label="Back to dashboard"><span aria-hidden="true">←</span><span class="lbl">Back</span></button><span class="ttl">Character</span><span class="sp"></span>'+
+  return '<div class="dt-top"><button class="icon-btn hbtn" type="button" data-dtclose aria-label="Back to dashboard">'+BACK_SVG+'<span class="lbl">Back</span></button><span class="ttl">Character</span><span class="sp"></span>'+
       '<button class="icon-btn hbtn" type="button" data-picker aria-label="Choose another character">'+PERSON_SVG+'<span class="lbl">Characters</span></button></div>'+
     '<div class="dt-wrap"><section class="dt-hero" style="--cc:'+cc(c)+';background-image:linear-gradient(180deg,rgba(0,0,0,.18),rgba(14,8,8,.82)),url(\''+bgRace+'\'),'+fac+'">'+
       '<div class="dt-fig" data-ini="'+esc(String(c.name||'?').charAt(0).toUpperCase())+'"><img class="dt-render'+(hasRender?' crop':' sil')+'" src="'+esc(figSrc)+'" data-fb="'+esc(fb)+'" data-sil="'+esc(sil)+'" alt="'+esc(c.fullName)+'">'+(hasRender?'':'<div class="cap">Official render not available yet</div>')+'</div>'+
@@ -1083,6 +1083,7 @@ function detailHtml(c){
     '</div></div><div class="dt-credit">Data and images © Blizzard Entertainment</div></div>';
 }
 const PERSON_SVG='<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><circle cx="9" cy="8" r="3.4" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M2.8 20c.4-3.6 3-5.6 6.2-5.6s5.8 2 6.2 5.6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="17.5" cy="9" r="2.6" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M17.8 14.2c2.2.2 3.6 1.7 4 4.2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>';
+const BACK_SVG='<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path d="M19 12H6m6-7-7 7 7 7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>';
 const BASE_TITLE=document.title;
 function showDetail(c){
   const el=$('detail'),json=JSON.stringify(c),same=DT.slug===c.slug&&!el.hidden;
@@ -1104,7 +1105,7 @@ function showDetail(c){
 }
 function showMissing(slug){
   const el=$('detail');DT.slug=slug;DT.json='';
-  el.innerHTML='<div class="dt-top"><button class="icon-btn hbtn" type="button" data-dtclose><span aria-hidden="true">←</span><span class="lbl">Back</span></button><span class="sp"></span><button class="icon-btn hbtn" type="button" data-picker>'+PERSON_SVG+'<span class="lbl">Characters</span></button></div><div class="dt-err">No character called “'+esc(slug)+'” in the data (yet).<br><br><button class="btn" type="button" data-picker>Choose a character</button></div>';
+  el.innerHTML='<div class="dt-top"><button class="icon-btn hbtn" type="button" data-dtclose>'+BACK_SVG+'<span class="lbl">Back</span></button><span class="sp"></span><button class="icon-btn hbtn" type="button" data-picker>'+PERSON_SVG+'<span class="lbl">Characters</span></button></div><div class="dt-err">No character called “'+esc(slug)+'” in the data (yet).<br><br><button class="btn" type="button" data-picker>Choose a character</button></div>';
   el.hidden=false;requestAnimationFrame(()=>el.classList.add('show'));syncLock();
 }
 function hideDetail(){
