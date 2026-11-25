@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795622091576,
+ "generatedAt": 1795624755922,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -13385,11 +13385,11 @@
    "name": "Ryan",
    "surname": "Angelos",
    "fullName": "Ryan Angelos",
-   "level": 52,
-   "experience": 95609,
-   "xpToLevel": 160400,
-   "xpPct": 59.61,
-   "levelProgress": 52.6,
+   "level": 53,
+   "experience": 8323,
+   "xpToLevel": 167100,
+   "xpPct": 4.98,
+   "levelProgress": 53.05,
    "className": "Paladin",
    "classId": 2,
    "race": "Dwarf",
@@ -13398,7 +13398,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795595392000,
+   "lastLogin": 1795624587000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -13432,7 +13432,7 @@
       "spells": [],
       "req": "Requires Level 20",
       "reqClass": "",
-      "dur": "Durability 62 / 65",
+      "dur": "Durability 38 / 65",
       "sell": 1460,
       "desc": ""
      }
@@ -13514,7 +13514,7 @@
       "spells": [],
       "req": "Requires Level 42",
       "reqClass": "",
-      "dur": "Durability 71 / 80",
+      "dur": "Durability 54 / 80",
       "sell": 12364,
       "desc": ""
      }
@@ -13593,7 +13593,7 @@
       "spells": [],
       "req": "Requires Level 40",
       "reqClass": "",
-      "dur": "Durability 110 / 115",
+      "dur": "Durability 71 / 115",
       "sell": 11586,
       "desc": ""
      }
@@ -13684,7 +13684,7 @@
       "spells": [],
       "req": "Requires Level 45",
       "reqClass": "",
-      "dur": "Durability 43 / 45",
+      "dur": "Durability 29 / 45",
       "sell": 9462,
       "desc": ""
      }
@@ -13727,7 +13727,7 @@
       "spells": [],
       "req": "Requires Level 35",
       "reqClass": "",
-      "dur": "Durability 38 / 40",
+      "dur": "Durability 24 / 40",
       "sell": 3878,
       "desc": ""
      }
@@ -13768,7 +13768,7 @@
       "spells": [],
       "req": "Requires Level 50",
       "reqClass": "",
-      "dur": "Durability 42 / 45",
+      "dur": "Durability 27 / 45",
       "sell": 13274,
       "desc": ""
      }
@@ -13811,7 +13811,7 @@
       "spells": [],
       "req": "Requires Level 25",
       "reqClass": "",
-      "dur": "Durability 88 / 90",
+      "dur": "Durability 51 / 90",
       "sell": 3149,
       "desc": ""
      }
@@ -13854,7 +13854,7 @@
       "spells": [],
       "req": "Requires Level 47",
       "reqClass": "",
-      "dur": "Durability 65 / 65",
+      "dur": "Durability 41 / 65",
       "sell": 15979,
       "desc": ""
      }
@@ -13967,13 +13967,13 @@
     {
      "slot": "TRINKET_2",
      "slotName": "Trinket 2",
-     "itemId": 10418,
-     "name": "Glimmering Mithril Insignia",
+     "itemId": 270276,
+     "name": "Cleansed Vilebranch Icon",
      "quality": "UNCOMMON",
      "ilvl": 0,
      "inventoryType": "TRINKET",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133435.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133791.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
@@ -13982,19 +13982,19 @@
       "armor": "",
       "stats": [
        {
-        "s": "+100 Bonus Armor",
+        "s": "+7 Critical Strike",
         "neg": false,
         "eq": true
        }
       ],
       "spells": [
-       "Use: Increases all Resistances by 10 and grants Immunity to Fear for 30 sec. (10 Min Cooldown)"
+       "Equip: Increases damage and healing done by magical spells and effects by up to 8. This effect is tripled in Forest and Grassland areas."
       ],
       "req": "",
       "reqClass": "",
       "dur": "",
-      "sell": 9347,
-      "desc": "Courage, Honor, and above all, Patience"
+      "sell": 9576,
+      "desc": ""
      }
     },
     {
@@ -14023,7 +14023,7 @@
       "spells": [],
       "req": "Requires Level 48",
       "reqClass": "",
-      "dur": "Durability 89 / 90",
+      "dur": "Durability 56 / 90",
       "sell": 33714,
       "desc": "",
       "weapon": {
@@ -14041,7 +14041,9 @@
      "quality": "RARE",
      "ilvl": 0,
      "inventoryType": "SHIELD",
-     "enchants": [],
+     "enchants": [
+      "Enchanted: Mithril Spike (16-20)"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134962.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -14064,7 +14066,7 @@
       "spells": [],
       "req": "Requires Level 43",
       "reqClass": "",
-      "dur": "Durability 95 / 100",
+      "dur": "Durability 60 / 100",
       "sell": 16362,
       "desc": ""
      }
@@ -14072,7 +14074,7 @@
    ],
    "itemLevel": 0,
    "pvp": {
-    "hk": 311,
+    "hk": 313,
     "rank": 0,
     "rankName": "Unranked"
    },
@@ -14080,29 +14082,29 @@
     "trees": [
      {
       "name": "Protection",
-      "points": 27
+      "points": 28
      },
      {
       "name": "Retribution",
       "points": 16
      }
     ],
-    "split": "27/16",
+    "split": "28/16",
     "main": "Protection"
    },
    "professions": {
     "primaries": [
      {
       "name": "Mining",
-      "skill": 289,
+      "skill": 293,
       "max": 300,
-      "recipes": 13
+      "recipes": 15
      },
      {
       "name": "Blacksmithing",
       "skill": 253,
       "max": 300,
-      "recipes": 162
+      "recipes": 163
      }
     ],
     "secondaries": [
@@ -14114,7 +14116,7 @@
      },
      {
       "name": "Fishing",
-      "skill": 239,
+      "skill": 240,
       "max": 300,
       "recipes": 2
      }
@@ -14131,47 +14133,47 @@
     {
      "k": "health",
      "label": "Health",
-     "v": 2767
+     "v": 2824
     },
     {
      "k": "power",
      "label": "Mana",
-     "v": 1946
+     "v": 1988
     },
     {
      "k": "strength",
      "label": "Strength",
-     "v": 113
+     "v": 115
     },
     {
      "k": "agility",
      "label": "Agility",
-     "v": 53
+     "v": 54
     },
     {
      "k": "stamina",
      "label": "Stamina",
-     "v": 191
+     "v": 192
     },
     {
      "k": "intellect",
      "label": "Intellect",
-     "v": 61
+     "v": 62
     },
     {
      "k": "spirit",
      "label": "Spirit",
-     "v": 64
+     "v": 65
     },
     {
      "k": "armor",
      "label": "Armor",
-     "v": 4541
+     "v": 4437
     },
     {
      "k": "attack_power",
      "label": "Attack power",
-     "v": 362
+     "v": 369
     },
     {
      "k": "ranged_attack_power",
@@ -14181,42 +14183,42 @@
     {
      "k": "spell_power",
      "label": "Spell power",
-     "v": 219
+     "v": 243
     },
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 9.7,
+     "v": 10.73,
      "p": 1
     },
     {
      "k": "ranged_crit",
      "label": "Ranged crit",
-     "v": 1.46,
+     "v": 1.73,
      "p": 1
     },
     {
      "k": "spell_crit",
      "label": "Spell crit",
-     "v": 11.69,
+     "v": 12.18,
      "p": 1
     },
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 6.22,
+     "v": 6.07,
      "p": 1
     },
     {
      "k": "parry",
      "label": "Parry",
-     "v": 7.4,
+     "v": 7.28,
      "p": 1
     },
     {
      "k": "block",
      "label": "Block",
-     "v": 7.4,
+     "v": 7.28,
      "p": 1
     },
     {
@@ -14246,28 +14248,28 @@
      {
       "name": "Ironforge",
       "standing": "Revered",
-      "v": 666,
+      "v": 881,
       "max": 21000,
       "tier": 6
      },
      {
       "name": "Stormwind",
       "standing": "Revered",
-      "v": 362,
+      "v": 438,
       "max": 21000,
       "tier": 6
      },
      {
       "name": "Gnomeregan Exiles",
       "standing": "Honored",
-      "v": 6176,
+      "v": 6252,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Darnassus",
       "standing": "Honored",
-      "v": 2246,
+      "v": 2412,
       "max": 12000,
       "tier": 5
      },
@@ -14294,7 +14296,7 @@
     "pets": 8,
     "toys": 2
    },
-   "questsDone": 849
+   "questsDone": 863
   },
   {
    "friend": "Zewazi",
