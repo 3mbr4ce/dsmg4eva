@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795607641264,
+ "generatedAt": 1795616155205,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -1008,11 +1008,11 @@
    "name": "Blue",
    "surname": "Embrace",
    "fullName": "Blue Embrace",
-   "level": 37,
-   "experience": 9071,
-   "xpToLevel": 76100,
-   "xpPct": 11.92,
-   "levelProgress": 37.12,
+   "level": 38,
+   "experience": 11865,
+   "xpToLevel": 80900,
+   "xpPct": 14.67,
+   "levelProgress": 38.15,
    "className": "Rogue",
    "classId": 4,
    "race": "Undead",
@@ -1021,8 +1021,8 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795549921000,
-   "apiItemLevel": 31,
+   "lastLogin": 1795615787000,
+   "apiItemLevel": 0,
    "gear": [
     {
      "slot": "AMMO",
@@ -1030,7 +1030,7 @@
      "itemId": 3033,
      "name": "Solid Shot",
      "quality": "COMMON",
-     "ilvl": 30,
+     "ilvl": 0,
      "inventoryType": "AMMO",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132384.jpg",
@@ -1060,7 +1060,7 @@
      "itemId": 6720,
      "name": "Spirit Hunter Headdress",
      "quality": "UNCOMMON",
-     "ilvl": 37,
+     "ilvl": 0,
      "inventoryType": "HEAD",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133119.jpg",
@@ -1085,7 +1085,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 40 / 50",
+      "dur": "Durability 28 / 50",
       "sell": 3218,
       "desc": ""
      }
@@ -1096,7 +1096,7 @@
      "itemId": 15690,
      "name": "Kodobone Necklace",
      "quality": "UNCOMMON",
-     "ilvl": 41,
+     "ilvl": 0,
      "inventoryType": "NECK",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133296.jpg",
@@ -1132,7 +1132,7 @@
      "itemId": 5964,
      "name": "Barbaric Shoulders",
      "quality": "UNCOMMON",
-     "ilvl": 35,
+     "ilvl": 0,
      "inventoryType": "SHOULDER",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135039.jpg",
@@ -1162,7 +1162,7 @@
       "spells": [],
       "req": "Requires Level 30",
       "reqClass": "",
-      "dur": "Durability 41 / 50",
+      "dur": "Durability 27 / 50",
       "sell": 2609,
       "desc": ""
      }
@@ -1173,7 +1173,7 @@
      "itemId": 6314,
      "name": "Wolfmaster Cape",
      "quality": "RARE",
-     "ilvl": 27,
+     "ilvl": 0,
      "inventoryType": "CLOAK",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133762.jpg",
@@ -1214,7 +1214,7 @@
      "itemId": 7374,
      "name": "Dusky Leather Armor",
      "quality": "UNCOMMON",
-     "ilvl": 35,
+     "ilvl": 0,
      "inventoryType": "CHEST",
      "enchants": [
       "Enchanted: Stamina +3 and Armor +24"
@@ -1236,7 +1236,7 @@
       "spells": [],
       "req": "Requires Level 30",
       "reqClass": "",
-      "dur": "Durability 68 / 85",
+      "dur": "Durability 48 / 85",
       "sell": 3760,
       "desc": ""
      }
@@ -1247,7 +1247,7 @@
      "itemId": 2105,
      "name": "Thug Shirt",
      "quality": "COMMON",
-     "ilvl": 1,
+     "ilvl": 0,
      "inventoryType": "BODY",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135018.jpg",
@@ -1272,7 +1272,7 @@
      "itemId": 270032,
      "name": "Cultist's Armguards",
      "quality": "RARE",
-     "ilvl": 29,
+     "ilvl": 0,
      "inventoryType": "WRIST",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132611.jpg",
@@ -1297,7 +1297,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 30 / 35",
+      "dur": "Durability 21 / 35",
       "sell": 1191,
       "desc": ""
      }
@@ -1308,7 +1308,7 @@
      "itemId": 6784,
      "name": "Braced Handguards",
      "quality": "UNCOMMON",
-     "ilvl": 36,
+     "ilvl": 0,
      "inventoryType": "HAND",
      "enchants": [
       "Enchanted: Stamina +3 and Armor +24"
@@ -1335,7 +1335,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 26 / 30",
+      "dur": "Durability 18 / 30",
       "sell": 2031,
       "desc": ""
      }
@@ -1346,7 +1346,7 @@
      "itemId": 252521,
      "name": "Stalker's Leather Belt",
      "quality": "RARE",
-     "ilvl": 35,
+     "ilvl": 0,
      "inventoryType": "WAIST",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132514.jpg",
@@ -1381,7 +1381,7 @@
       "spells": [],
       "req": "Requires Level 30",
       "reqClass": "",
-      "dur": "Durability 32 / 35",
+      "dur": "Durability 22 / 35",
       "sell": 1063,
       "desc": ""
      }
@@ -1392,7 +1392,7 @@
      "itemId": 5963,
      "name": "Barbaric Leggings",
      "quality": "UNCOMMON",
-     "ilvl": 34,
+     "ilvl": 0,
      "inventoryType": "LEGS",
      "enchants": [
       "Enchanted: Stamina +3 and Armor +24"
@@ -1424,7 +1424,7 @@
       "spells": [],
       "req": "Requires Level 29",
       "reqClass": "",
-      "dur": "Durability 48 / 65",
+      "dur": "Durability 34 / 65",
       "sell": 3151,
       "desc": ""
      }
@@ -1435,7 +1435,7 @@
      "itemId": 251963,
      "name": "Gravewalker Boots",
      "quality": "UNCOMMON",
-     "ilvl": 36,
+     "ilvl": 0,
      "inventoryType": "FEET",
      "enchants": [
       "Enchanted: Stamina +3 and Armor +24"
@@ -1467,7 +1467,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 33 / 45",
+      "dur": "Durability 23 / 45",
       "sell": 2991,
       "desc": ""
      }
@@ -1478,7 +1478,7 @@
      "itemId": 6414,
      "name": "Seal of Sylvanas",
      "quality": "RARE",
-     "ilvl": 29,
+     "ilvl": 0,
      "inventoryType": "FINGER",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133357.jpg",
@@ -1511,13 +1511,13 @@
     {
      "slot": "FINGER_2",
      "slotName": "Ring 2",
-     "itemId": 273839,
-     "name": "Spiked Shell Band",
-     "quality": "RARE",
-     "ilvl": 27,
+     "itemId": 4135,
+     "name": "Bloodbone Band",
+     "quality": "UNCOMMON",
+     "ilvl": 0,
      "inventoryType": "FINGER",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133344.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133722.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
@@ -1526,18 +1526,21 @@
       "armor": "",
       "stats": [
        {
-        "s": "+5 Stamina",
+        "s": "+7 Stamina",
         "neg": false,
         "eq": false
+       },
+       {
+        "s": "+2 Spirit",
+        "neg": false,
+        "eq": true
        }
       ],
-      "spells": [
-       "Equip: When struck in combat, inflicts 2 Nature damage to the attacker."
-      ],
-      "req": "Requires Level 22",
+      "spells": [],
+      "req": "",
       "reqClass": "",
       "dur": "",
-      "sell": 1636,
+      "sell": 1130,
       "desc": ""
      }
     },
@@ -1547,7 +1550,7 @@
      "itemId": 276895,
      "name": "Transformative Cocoon",
      "quality": "UNCOMMON",
-     "ilvl": 30,
+     "ilvl": 0,
      "inventoryType": "TRINKET",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/237431.jpg",
@@ -1574,7 +1577,7 @@
      "itemId": 7682,
      "name": "Torturing Poker",
      "quality": "RARE",
-     "ilvl": 34,
+     "ilvl": 0,
      "inventoryType": "WEAPON",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135124.jpg",
@@ -1590,7 +1593,7 @@
       ],
       "req": "Requires Level 29",
       "reqClass": "",
-      "dur": "Durability 56 / 65",
+      "dur": "Durability 36 / 65",
       "sell": 7892,
       "desc": "",
       "weapon": {
@@ -1606,7 +1609,7 @@
      "itemId": 7683,
      "name": "Bloody Brass Knuckles",
      "quality": "RARE",
-     "ilvl": 34,
+     "ilvl": 0,
      "inventoryType": "WEAPON",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132945.jpg",
@@ -1631,7 +1634,7 @@
       "spells": [],
       "req": "Requires Level 29",
       "reqClass": "",
-      "dur": "Durability 50 / 65",
+      "dur": "Durability 40 / 65",
       "sell": 7892,
       "desc": "",
       "weapon": {
@@ -1647,7 +1650,7 @@
      "itemId": 273029,
      "name": "Golemsight Long Gun",
      "quality": "RARE",
-     "ilvl": 33,
+     "ilvl": 0,
      "inventoryType": "RANGEDRIGHT",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134536.jpg",
@@ -1667,7 +1670,7 @@
       "spells": [],
       "req": "Requires Level 28",
       "reqClass": "",
-      "dur": "Durability 75 / 75",
+      "dur": "Durability 50 / 75",
       "sell": 5456,
       "desc": "",
       "weapon": {
@@ -1678,7 +1681,7 @@
      }
     }
    ],
-   "itemLevel": 33.06,
+   "itemLevel": 0,
    "pvp": {
     "hk": 238,
     "rank": 0,
@@ -1688,10 +1691,10 @@
     "trees": [
      {
       "name": "Subtlety",
-      "points": 28
+      "points": 29
      }
     ],
-    "split": "28",
+    "split": "29",
     "main": "Subtlety"
    },
    "professions": {
@@ -1741,7 +1744,7 @@
     {
      "k": "health",
      "label": "Health",
-     "v": 1680
+     "v": 1740
     },
     {
      "k": "power",
@@ -1751,17 +1754,17 @@
     {
      "k": "strength",
      "label": "Strength",
-     "v": 63
+     "v": 64
     },
     {
      "k": "agility",
      "label": "Agility",
-     "v": 139
+     "v": 141
     },
     {
      "k": "stamina",
      "label": "Stamina",
-     "v": 125
+     "v": 128
     },
     {
      "k": "intellect",
@@ -1771,22 +1774,22 @@
     {
      "k": "spirit",
      "label": "Spirit",
-     "v": 63
+     "v": 65
     },
     {
      "k": "armor",
      "label": "Armor",
-     "v": 988
+     "v": 992
     },
     {
      "k": "attack_power",
      "label": "Attack power",
-     "v": 294
+     "v": 299
     },
     {
      "k": "ranged_attack_power",
      "label": "Ranged attack power",
-     "v": 333
+     "v": 338
     },
     {
      "k": "spell_power",
@@ -1796,13 +1799,13 @@
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 8.4,
+     "v": 8.23,
      "p": 1
     },
     {
      "k": "ranged_crit",
      "label": "Ranged crit",
-     "v": 1.6,
+     "v": 1.43,
      "p": 1
     },
     {
@@ -1814,13 +1817,13 @@
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 16.76,
+     "v": 16.44,
      "p": 1
     },
     {
      "k": "parry",
      "label": "Parry",
-     "v": 4.8,
+     "v": 4.76,
      "p": 1
     },
     {
@@ -1849,28 +1852,28 @@
      {
       "name": "Undercity",
       "standing": "Honored",
-      "v": 5970,
+      "v": 6045,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Orgrimmar",
       "standing": "Friendly",
-      "v": 5077,
-      "max": 6000,
-      "tier": 4
-     },
-     {
-      "name": "Thunder Bluff",
-      "standing": "Friendly",
-      "v": 2940,
+      "v": 5152,
       "max": 6000,
       "tier": 4
      },
      {
       "name": "Darkspear Trolls",
       "standing": "Friendly",
-      "v": 2908,
+      "v": 3208,
+      "max": 6000,
+      "tier": 4
+     },
+     {
+      "name": "Thunder Bluff",
+      "standing": "Friendly",
+      "v": 3015,
       "max": 6000,
       "tier": 4
      },
@@ -1884,7 +1887,7 @@
      {
       "name": "Ratchet",
       "standing": "Neutral",
-      "v": 2740,
+      "v": 2947,
       "max": 3000,
       "tier": 3
      }
@@ -1904,18 +1907,24 @@
     "pets": 0,
     "toys": 0
    },
-   "questsDone": 326,
+   "questsDone": 346,
    "history": [
     [
      1795570780222,
      37.12,
      33.06,
      238
+    ],
+    [
+     1795616155205,
+     38.15,
+     0,
+     238
     ]
    ],
    "weekly": {
-    "levels": 0,
-    "ilvl": 0,
+    "levels": 1.03,
+    "ilvl": -33.06,
     "hk": 0,
     "rank": 0
    },
