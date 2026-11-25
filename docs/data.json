@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795596017164,
+ "generatedAt": 1795605247715,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -4982,11 +4982,11 @@
    "name": "Steppenwolf",
    "surname": "One",
    "fullName": "Steppenwolf One",
-   "level": 57,
-   "experience": 163989,
-   "xpToLevel": 195000,
-   "xpPct": 84.1,
-   "levelProgress": 57.84,
+   "level": 59,
+   "experience": 39892,
+   "xpToLevel": 209800,
+   "xpPct": 19.01,
+   "levelProgress": 59.19,
    "className": "Warrior",
    "classId": 1,
    "race": "Night Elf",
@@ -4995,8 +4995,8 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795554692000,
-   "apiItemLevel": 52,
+   "lastLogin": 1795604595000,
+   "apiItemLevel": 0,
    "gear": [
     {
      "slot": "HEAD",
@@ -5004,7 +5004,7 @@
      "itemId": 20521,
      "name": "Fury Visor",
      "quality": "RARE",
-     "ilvl": 52,
+     "ilvl": 0,
      "inventoryType": "HEAD",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133069.jpg",
@@ -5039,7 +5039,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 61 / 80",
+      "dur": "Durability 80 / 80",
       "sell": 16666,
       "desc": ""
      }
@@ -5050,7 +5050,7 @@
      "itemId": 274385,
      "name": "Abomination Chain",
      "quality": "RARE",
-     "ilvl": 42,
+     "ilvl": 0,
      "inventoryType": "NECK",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132507.jpg",
@@ -5096,7 +5096,7 @@
      "itemId": 20517,
      "name": "Razorsteel Shoulders",
      "quality": "RARE",
-     "ilvl": 52,
+     "ilvl": 0,
      "inventoryType": "SHOULDER",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135047.jpg",
@@ -5128,7 +5128,7 @@
       ],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 63 / 80",
+      "dur": "Durability 80 / 80",
       "sell": 16666,
       "desc": ""
      }
@@ -5136,41 +5136,36 @@
     {
      "slot": "BACK",
      "slotName": "Back",
-     "itemId": 276737,
-     "name": "Cloak of the Tidemistress",
+     "itemId": 11930,
+     "name": "The Emperor's New Cape",
      "quality": "RARE",
-     "ilvl": 52,
+     "ilvl": 0,
      "inventoryType": "CLOAK",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133757.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133772.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Back",
       "sub": "Cloth",
-      "armor": "37 Armor",
+      "armor": "43 Armor",
       "stats": [
        {
-        "s": "+13 Stamina",
+        "s": "+8 Agility",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+5 Hit",
+        "s": "+16 Stamina",
         "neg": false,
-        "eq": true
-       },
-       {
-        "s": "+60 Bonus Armor",
-        "neg": false,
-        "eq": true
+        "eq": false
        }
       ],
       "spells": [],
-      "req": "Requires Level 47",
+      "req": "Requires Level 55",
       "reqClass": "",
       "dur": "",
-      "sell": 9641,
+      "sell": 14588,
       "desc": ""
      }
     },
@@ -5180,7 +5175,7 @@
      "itemId": 14835,
      "name": "Tyrant's Chestpiece",
      "quality": "UNCOMMON",
-     "ilvl": 48,
+     "ilvl": 0,
      "inventoryType": "CHEST",
      "enchants": [
       "Enchanted: Stamina +8"
@@ -5212,7 +5207,7 @@
       "spells": [],
       "req": "Requires Level 43",
       "reqClass": "",
-      "dur": "Durability 91 / 115",
+      "dur": "Durability 115 / 115",
       "sell": 8192,
       "desc": ""
      }
@@ -5223,7 +5218,7 @@
      "itemId": 275042,
      "name": "Farholde Keep Tabard",
      "quality": "COMMON",
-     "ilvl": 20,
+     "ilvl": 0,
      "inventoryType": "TABARD",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/7941422.jpg",
@@ -5248,7 +5243,7 @@
      "itemId": 16735,
      "name": "Bracers of Valor",
      "quality": "RARE",
-     "ilvl": 57,
+     "ilvl": 0,
      "inventoryType": "WRIST",
      "enchants": [
       "Enchanted: Strength +7"
@@ -5290,7 +5285,7 @@
       "spells": [],
       "req": "Requires Level 52",
       "reqClass": "",
-      "dur": "Durability 36 / 45",
+      "dur": "Durability 45 / 45",
       "sell": 14982,
       "desc": "",
       "set": {
@@ -5360,7 +5355,7 @@
      "itemId": 16737,
      "name": "Gauntlets of Valor",
      "quality": "RARE",
-     "ilvl": 59,
+     "ilvl": 0,
      "inventoryType": "HAND",
      "enchants": [
       "Enchanted: Agility +7"
@@ -5402,7 +5397,7 @@
       "spells": [],
       "req": "Requires Level 54",
       "reqClass": "",
-      "dur": "Durability 37 / 45",
+      "dur": "Durability 45 / 45",
       "sell": 16675,
       "desc": "",
       "set": {
@@ -5472,7 +5467,7 @@
      "itemId": 16736,
      "name": "Belt of Valor",
      "quality": "RARE",
-     "ilvl": 58,
+     "ilvl": 0,
      "inventoryType": "WAIST",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132523.jpg",
@@ -5512,7 +5507,7 @@
       "spells": [],
       "req": "Requires Level 53",
       "reqClass": "",
-      "dur": "Durability 36 / 45",
+      "dur": "Durability 45 / 45",
       "sell": 15881,
       "desc": "",
       "set": {
@@ -5582,7 +5577,7 @@
      "itemId": 21316,
      "name": "Leggings of the Ursa",
      "quality": "UNCOMMON",
-     "ilvl": 55,
+     "ilvl": 0,
      "inventoryType": "LEGS",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134662.jpg",
@@ -5607,7 +5602,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 68 / 85",
+      "dur": "Durability 85 / 85",
       "sell": 12407,
       "desc": ""
      }
@@ -5615,36 +5610,41 @@
     {
      "slot": "FEET",
      "slotName": "Feet",
-     "itemId": 9637,
-     "name": "Shinkicker Boots",
-     "quality": "UNCOMMON",
-     "ilvl": 45,
+     "itemId": 12021,
+     "name": "Shieldplate Sabatons",
+     "quality": "RARE",
+     "ilvl": 0,
      "inventoryType": "FEET",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132588.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132582.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Feet",
       "sub": "Plate",
-      "armor": "300 Armor",
+      "armor": "390 Armor",
       "stats": [
        {
-        "s": "+9 Agility",
+        "s": "+12 Strength",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+10 Strength",
+        "s": "+15 Stamina",
         "neg": false,
         "eq": false
+       },
+       {
+        "s": "+9 Spirit",
+        "neg": false,
+        "eq": true
        }
       ],
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 45 / 55",
-      "sell": 4749,
+      "dur": "Durability 65 / 65",
+      "sell": 18726,
       "desc": ""
      }
     },
@@ -5654,7 +5654,7 @@
      "itemId": 17713,
      "name": "Blackstone Ring",
      "quality": "RARE",
-     "ilvl": 54,
+     "ilvl": 0,
      "inventoryType": "FINGER",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133359.jpg",
@@ -5692,13 +5692,13 @@
     {
      "slot": "FINGER_2",
      "slotName": "Ring 2",
-     "itemId": 9533,
-     "name": "Masons Fraternity Ring",
+     "itemId": 12548,
+     "name": "Magni's Will",
      "quality": "RARE",
-     "ilvl": 49,
+     "ilvl": 0,
      "inventoryType": "FINGER",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133345.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133347.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
@@ -5707,21 +5707,26 @@
       "armor": "",
       "stats": [
        {
-        "s": "+14 Agility",
+        "s": "+7 Strength",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+5 Stamina",
+        "s": "+8 Stamina",
         "neg": false,
         "eq": false
+       },
+       {
+        "s": "+14 Critical Strike",
+        "neg": false,
+        "eq": true
        }
       ],
       "spells": [],
       "req": "",
       "reqClass": "",
       "dur": "",
-      "sell": 10483,
+      "sell": 19896,
       "desc": ""
      }
     },
@@ -5731,7 +5736,7 @@
      "itemId": 270275,
      "name": "Cleansed Vilebranch Medallion",
      "quality": "UNCOMMON",
-     "ilvl": 51,
+     "ilvl": 0,
      "inventoryType": "TRINKET",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133792.jpg",
@@ -5764,7 +5769,7 @@
      "itemId": 17774,
      "name": "Mark of the Chosen",
      "quality": "UNCOMMON",
-     "ilvl": 48,
+     "ilvl": 0,
      "inventoryType": "TRINKET",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133441.jpg",
@@ -5791,7 +5796,7 @@
      "itemId": 647,
      "name": "Destiny",
      "quality": "EPIC",
-     "ilvl": 57,
+     "ilvl": 0,
      "inventoryType": "TWOHWEAPON",
      "enchants": [
       "Enchanted: Crusader"
@@ -5815,7 +5820,7 @@
       ],
       "req": "Requires Level 52",
       "reqClass": "",
-      "dur": "Durability 92 / 120",
+      "dur": "Durability 119 / 120",
       "sell": 70024,
       "desc": "To claim one's destiny requires the strength to reach out and grasp it.",
       "weapon": {
@@ -5831,7 +5836,7 @@
      "itemId": 287069,
      "name": "Yeti Skinner",
      "quality": "UNCOMMON",
-     "ilvl": 34,
+     "ilvl": 0,
      "inventoryType": "THROWN",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135425.jpg",
@@ -5856,7 +5861,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 159 / 200",
+      "dur": "Durability 200 / 200",
       "sell": 4932,
       "desc": "Serves as a Skinning Knife.",
       "weapon": {
@@ -5867,7 +5872,7 @@
      }
     }
    ],
-   "itemLevel": 51.18,
+   "itemLevel": 0,
    "pvp": {
     "hk": 91,
     "rank": 0,
@@ -5881,10 +5886,10 @@
      },
      {
       "name": "Fury",
-      "points": 16
+      "points": 18
      }
     ],
-    "split": "32/16",
+    "split": "32/18",
     "main": "Arms"
    },
    "professions": {
@@ -5897,9 +5902,9 @@
      },
      {
       "name": "Mining",
-      "skill": 290,
+      "skill": 292,
       "max": 300,
-      "recipes": 13
+      "recipes": 14
      }
     ],
     "secondaries": [
@@ -5934,7 +5939,7 @@
     {
      "k": "health",
      "label": "Health",
-     "v": 3285
+     "v": 3669
     },
     {
      "k": "power",
@@ -5944,42 +5949,42 @@
     {
      "k": "strength",
      "label": "Strength",
-     "v": 251
+     "v": 265
     },
     {
      "k": "agility",
      "label": "Agility",
-     "v": 127
+     "v": 115
     },
     {
      "k": "stamina",
      "label": "Stamina",
-     "v": 198
+     "v": 223
     },
     {
      "k": "intellect",
      "label": "Intellect",
-     "v": 29
+     "v": 30
     },
     {
      "k": "spirit",
      "label": "Spirit",
-     "v": 66
+     "v": 76
     },
     {
      "k": "armor",
      "label": "Armor",
-     "v": 3416
+     "v": 3428
     },
     {
      "k": "attack_power",
      "label": "Attack power",
-     "v": 700
+     "v": 762
     },
     {
      "k": "ranged_attack_power",
      "label": "Ranged attack power",
-     "v": 338
+     "v": 344
     },
     {
      "k": "spell_power",
@@ -5989,37 +5994,37 @@
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 13.72,
+     "v": 13.62,
      "p": 1
     },
     {
      "k": "ranged_crit",
      "label": "Ranged crit",
-     "v": 6.56,
+     "v": 6.94,
      "p": 1
     },
     {
      "k": "spell_crit",
      "label": "Spell crit",
-     "v": 2,
+     "v": 3,
      "p": 1
     },
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 8.28,
+     "v": 7.27,
      "p": 1
     },
     {
      "k": "parry",
      "label": "Parry",
-     "v": 8.52,
+     "v": 8.4,
      "p": 1
     },
     {
      "k": "block",
      "label": "Block",
-     "v": 5.52,
+     "v": 5.4,
      "p": 1
     },
     {
@@ -6042,28 +6047,28 @@
      {
       "name": "Stormwind",
       "standing": "Revered",
-      "v": 2618,
+      "v": 3481,
       "max": 21000,
       "tier": 6
      },
      {
       "name": "Darnassus",
       "standing": "Honored",
-      "v": 11453,
+      "v": 11753,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Ironforge",
       "standing": "Honored",
-      "v": 9563,
+      "v": 10126,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Gnomeregan Exiles",
       "standing": "Honored",
-      "v": 4410,
+      "v": 4785,
       "max": 12000,
       "tier": 5
      },
@@ -6085,11 +6090,11 @@
    },
    "achievements": {
     "points": 0,
-    "count": 14,
+    "count": 15,
     "recent": [
+     "Journeyman Tailor",
      "Journeyman Enchanter",
-     "Explore Searing Gorge",
-     "Explore Moonglade"
+     "Explore Searing Gorge"
     ]
    },
    "collections": {
@@ -6097,7 +6102,7 @@
     "pets": 5,
     "toys": 3
    },
-   "questsDone": 1060
+   "questsDone": 1083
   },
   {
    "friend": "Ash",
