@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795643652756,
+ "generatedAt": 1795644844349,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -8099,11 +8099,11 @@
    "name": "Peep",
    "surname": "Jõks",
    "fullName": "Peep Jõks",
-   "level": 47,
-   "experience": 95581,
-   "xpToLevel": 129100,
-   "xpPct": 74.04,
-   "levelProgress": 47.74,
+   "level": 48,
+   "experience": 9849,
+   "xpToLevel": 135100,
+   "xpPct": 7.29,
+   "levelProgress": 48.07,
    "className": "Rogue",
    "classId": 4,
    "race": "Gnome",
@@ -8112,7 +8112,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795581310000,
+   "lastLogin": 1795644736000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -8156,7 +8156,7 @@
       "spells": [],
       "req": "Requires Level 44",
       "reqClass": "",
-      "dur": "Durability 60 / 60",
+      "dur": "Durability 59 / 60",
       "sell": 9854,
       "desc": ""
      }
@@ -8238,7 +8238,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 60 / 60",
+      "dur": "Durability 54 / 60",
       "sell": 5532,
       "desc": ""
      }
@@ -8317,7 +8317,7 @@
       "spells": [],
       "req": "Requires Level 36",
       "reqClass": "",
-      "dur": "Durability 84 / 85",
+      "dur": "Durability 79 / 85",
       "sell": 3881,
       "desc": ""
      }
@@ -8405,7 +8405,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 35 / 35",
+      "dur": "Durability 34 / 35",
       "sell": 1191,
       "desc": ""
      }
@@ -8445,7 +8445,7 @@
       ],
       "req": "Requires Level 39",
       "reqClass": "",
-      "dur": "Durability 35 / 35",
+      "dur": "Durability 34 / 35",
       "sell": 4657,
       "desc": ""
      }
@@ -8481,7 +8481,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 30 / 30",
+      "dur": "Durability 28 / 30",
       "sell": 4343,
       "desc": ""
      }
@@ -8524,7 +8524,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 75 / 75",
+      "dur": "Durability 67 / 75",
       "sell": 5252,
       "desc": ""
      }
@@ -8562,7 +8562,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 45 / 45",
+      "dur": "Durability 41 / 45",
       "sell": 4393,
       "desc": ""
      }
@@ -8664,38 +8664,32 @@
     {
      "slot": "MAIN_HAND",
      "slotName": "Main Hand",
-     "itemId": 279852,
-     "name": "Rock on Stick",
+     "itemId": 12531,
+     "name": "Searing Needle",
      "quality": "RARE",
      "ilvl": 0,
      "inventoryType": "WEAPON",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133046.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135639.jpg",
      "tt": {
-      "bind": "Binds when picked up",
+      "bind": "Binds when equipped",
       "unique": "",
       "inv": "One-Hand",
-      "sub": "Mace",
+      "sub": "Dagger",
       "armor": "",
-      "stats": [
-       {
-        "s": "+4 Strength",
-        "neg": false,
-        "eq": false
-       }
-      ],
+      "stats": [],
       "spells": [
-       "Chance on hit: Bash the target in the face, causing 7 Physical damage every 2 sec for 20 sec."
+       "Chance on hit: Blasts a target for 56 Fire damage and increases Fire damage done to target by 10 for 30 sec."
       ],
-      "req": "",
+      "req": "Requires Level 46",
       "reqClass": "",
-      "dur": "Durability 90 / 90",
-      "sell": 22168,
-      "desc": "Need bigger rock. Maybe bigger stick too?",
+      "dur": "Durability 65 / 65",
+      "sell": 30005,
+      "desc": "",
       "weapon": {
-       "dmg": "57 - 107 Damage",
-       "speed": "Speed 2.60",
-       "dps": "(31.5 damage per second)"
+       "dmg": "42 - 80 Damage",
+       "speed": "Speed 1.80",
+       "dps": "(33.9 damage per second)"
       }
      }
     },
@@ -8721,7 +8715,7 @@
       ],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 65 / 65",
+      "dur": "Durability 60 / 65",
       "sell": 18003,
       "desc": "",
       "weapon": {
@@ -8762,7 +8756,7 @@
       "spells": [],
       "req": "Requires Level 43",
       "reqClass": "",
-      "dur": "Durability 240 / 240",
+      "dur": "Durability 227 / 240",
       "sell": 18370,
       "desc": "",
       "weapon": {
@@ -8775,23 +8769,23 @@
    ],
    "itemLevel": 0,
    "pvp": {
-    "hk": 555,
+    "hk": 617,
     "rank": 1,
     "rankName": "Private"
    },
    "spec": {
     "trees": [
      {
-      "name": "Assassination",
-      "points": 2
+      "name": "Combat",
+      "points": 12
      },
      {
-      "name": "Combat",
-      "points": 36
+      "name": "Subtlety",
+      "points": 27
      }
     ],
-    "split": "2/36",
-    "main": "Combat"
+    "split": "12/27",
+    "main": "Subtlety"
    },
    "professions": {
     "primaries": [
@@ -8840,7 +8834,7 @@
     {
      "k": "health",
      "label": "Health",
-     "v": 2335
+     "v": 2385
     },
     {
      "k": "power",
@@ -8850,17 +8844,17 @@
     {
      "k": "strength",
      "label": "Strength",
-     "v": 94
+     "v": 91
     },
     {
      "k": "agility",
      "label": "Agility",
-     "v": 199
+     "v": 201
     },
     {
      "k": "stamina",
      "label": "Stamina",
-     "v": 156
+     "v": 157
     },
     {
      "k": "intellect",
@@ -8870,22 +8864,22 @@
     {
      "k": "spirit",
      "label": "Spirit",
-     "v": 53
+     "v": 54
     },
     {
      "k": "armor",
      "label": "Armor",
-     "v": 1251
+     "v": 1255
     },
     {
      "k": "attack_power",
      "label": "Attack power",
-     "v": 436
+     "v": 437
     },
     {
      "k": "ranged_attack_power",
      "label": "Ranged attack power",
-     "v": 494
+     "v": 499
     },
     {
      "k": "spell_power",
@@ -8895,13 +8889,13 @@
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 4.17,
+     "v": 8.8,
      "p": 1
     },
     {
      "k": "ranged_crit",
      "label": "Ranged crit",
-     "v": 2.65,
+     "v": 7.53,
      "p": 1
     },
     {
@@ -8913,13 +8907,13 @@
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 18.23,
+     "v": 17.87,
      "p": 1
     },
     {
      "k": "parry",
      "label": "Parry",
-     "v": 10.88,
+     "v": 4.76,
      "p": 1
     },
     {
@@ -8975,16 +8969,16 @@
       "tier": 5
      },
      {
-      "name": "Gelkis Clan Centaur",
+      "name": "Booty Bay",
       "standing": "Friendly",
-      "v": 3800,
+      "v": 4110,
       "max": 6000,
       "tier": 4
      },
      {
-      "name": "Booty Bay",
+      "name": "Gelkis Clan Centaur",
       "standing": "Friendly",
-      "v": 3360,
+      "v": 3800,
       "max": 6000,
       "tier": 4
      }
@@ -9004,7 +8998,7 @@
     "pets": 0,
     "toys": 0
    },
-   "questsDone": 641
+   "questsDone": 647
   },
   {
    "friend": "Panzer",
