@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795700349406,
+ "generatedAt": 1795702567165,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -13592,10 +13592,10 @@
    "surname": "Angelos",
    "fullName": "Ryan Angelos",
    "level": 53,
-   "experience": 39965,
+   "experience": 140586,
    "xpToLevel": 167100,
-   "xpPct": 23.92,
-   "levelProgress": 53.24,
+   "xpPct": 84.13,
+   "levelProgress": 53.84,
    "className": "Paladin",
    "classId": 2,
    "race": "Dwarf",
@@ -13604,7 +13604,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795648177000,
+   "lastLogin": 1795701829000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -13638,7 +13638,7 @@
       "spells": [],
       "req": "Requires Level 20",
       "reqClass": "",
-      "dur": "Durability 22 / 65",
+      "dur": "Durability 37 / 65",
       "sell": 1460,
       "desc": ""
      }
@@ -13720,7 +13720,7 @@
       "spells": [],
       "req": "Requires Level 42",
       "reqClass": "",
-      "dur": "Durability 43 / 80",
+      "dur": "Durability 46 / 80",
       "sell": 12364,
       "desc": ""
      }
@@ -13799,7 +13799,7 @@
       "spells": [],
       "req": "Requires Level 40",
       "reqClass": "",
-      "dur": "Durability 45 / 115",
+      "dur": "Durability 51 / 115",
       "sell": 11586,
       "desc": ""
      }
@@ -13890,7 +13890,7 @@
       "spells": [],
       "req": "Requires Level 45",
       "reqClass": "",
-      "dur": "Durability 20 / 45",
+      "dur": "Durability 28 / 45",
       "sell": 9462,
       "desc": ""
      }
@@ -13933,7 +13933,7 @@
       "spells": [],
       "req": "Requires Level 35",
       "reqClass": "",
-      "dur": "Durability 17 / 40",
+      "dur": "Durability 24 / 40",
       "sell": 3878,
       "desc": ""
      }
@@ -13974,7 +13974,7 @@
       "spells": [],
       "req": "Requires Level 50",
       "reqClass": "",
-      "dur": "Durability 17 / 45",
+      "dur": "Durability 25 / 45",
       "sell": 13274,
       "desc": ""
      }
@@ -14017,7 +14017,7 @@
       "spells": [],
       "req": "Requires Level 25",
       "reqClass": "",
-      "dur": "Durability 33 / 90",
+      "dur": "Durability 41 / 90",
       "sell": 3149,
       "desc": ""
      }
@@ -14060,7 +14060,7 @@
       "spells": [],
       "req": "Requires Level 47",
       "reqClass": "",
-      "dur": "Durability 28 / 65",
+      "dur": "Durability 38 / 65",
       "sell": 15979,
       "desc": ""
      }
@@ -14229,7 +14229,7 @@
       "spells": [],
       "req": "Requires Level 48",
       "reqClass": "",
-      "dur": "Durability 37 / 90",
+      "dur": "Durability 44 / 90",
       "sell": 33714,
       "desc": "",
       "weapon": {
@@ -14272,7 +14272,7 @@
       "spells": [],
       "req": "Requires Level 43",
       "reqClass": "",
-      "dur": "Durability 39 / 100",
+      "dur": "Durability 53 / 100",
       "sell": 16362,
       "desc": ""
      }
@@ -14280,7 +14280,7 @@
    ],
    "itemLevel": 0,
    "pvp": {
-    "hk": 315,
+    "hk": 317,
     "rank": 0,
     "rankName": "Unranked"
    },
@@ -14302,7 +14302,7 @@
     "primaries": [
      {
       "name": "Mining",
-      "skill": 299,
+      "skill": 300,
       "max": 300,
       "recipes": 15
      },
@@ -14394,7 +14394,7 @@
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 11.01,
+     "v": 11.25,
      "p": 1
     },
     {
@@ -14412,19 +14412,19 @@
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 6.19,
+     "v": 6.27,
      "p": 1
     },
     {
      "k": "parry",
      "label": "Parry",
-     "v": 7.4,
+     "v": 7.48,
      "p": 1
     },
     {
      "k": "block",
      "label": "Block",
-     "v": 7.4,
+     "v": 7.48,
      "p": 1
     },
     {
@@ -14454,28 +14454,28 @@
      {
       "name": "Ironforge",
       "standing": "Revered",
-      "v": 881,
+      "v": 893,
       "max": 21000,
       "tier": 6
      },
      {
       "name": "Stormwind",
       "standing": "Revered",
-      "v": 438,
+      "v": 443,
       "max": 21000,
       "tier": 6
      },
      {
       "name": "Gnomeregan Exiles",
       "standing": "Honored",
-      "v": 6252,
+      "v": 6257,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Darnassus",
       "standing": "Honored",
-      "v": 2412,
+      "v": 2425,
       "max": 12000,
       "tier": 5
      },
@@ -14502,7 +14502,7 @@
     "pets": 8,
     "toys": 2
    },
-   "questsDone": 865
+   "questsDone": 880
   },
   {
    "friend": "Zewazi",
