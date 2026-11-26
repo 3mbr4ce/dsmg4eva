@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795726467714,
+ "generatedAt": 1795727603833,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -2875,11 +2875,11 @@
    "name": "Dala",
    "surname": "Huun",
    "fullName": "Dala Huun",
-   "level": 44,
-   "experience": 70013,
-   "xpToLevel": 111800,
-   "xpPct": 62.62,
-   "levelProgress": 44.63,
+   "level": 45,
+   "experience": 77786,
+   "xpToLevel": 117500,
+   "xpPct": 66.2,
+   "levelProgress": 45.66,
    "className": "Shaman",
    "classId": 7,
    "race": "Orc",
@@ -2888,7 +2888,7 @@
    "faction": "HORDE",
    "ruleset": "Normal",
    "achievementPoints": 0,
-   "lastLogin": 1795709322000,
+   "lastLogin": 1795726773000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -3048,43 +3048,36 @@
     {
      "slot": "CHEST",
      "slotName": "Chest",
-     "itemId": 270043,
-     "name": "Dreamer's Chestguard",
-     "quality": "RARE",
+     "itemId": 281303,
+     "name": "Bleached Scale Vest",
+     "quality": "UNCOMMON",
      "ilvl": 0,
      "inventoryType": "CHEST",
-     "enchants": [
-      "Enchanted: Stamina +3 and Armor +24"
-     ],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132716.jpg",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132634.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Chest",
-      "sub": "Leather",
-      "armor": "106 Armor",
+      "sub": "Mail",
+      "armor": "245 Armor",
       "stats": [
        {
-        "s": "+10 Strength",
+        "s": "+15 Intellect",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+5 Stamina",
+        "s": "+6 Strength",
         "neg": false,
         "eq": false
-       },
-       {
-        "s": "+11 Spirit",
-        "neg": false,
-        "eq": true
        }
       ],
       "spells": [],
       "req": "",
       "reqClass": "",
       "dur": "Durability 100 / 100",
-      "sell": 3365,
+      "sell": 8866,
       "desc": ""
      }
     },
@@ -3163,38 +3156,36 @@
     {
      "slot": "WAIST",
      "slotName": "Waist",
-     "itemId": 273041,
-     "name": "Slitherwrap Girdle",
-     "quality": "RARE",
+     "itemId": 270087,
+     "name": "Thick Ogre's Belt",
+     "quality": "UNCOMMON",
      "ilvl": 0,
      "inventoryType": "WAIST",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132504.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132500.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Waist",
-      "sub": "Leather",
-      "armor": "61 Armor",
+      "sub": "Mail",
+      "armor": "136 Armor",
       "stats": [
        {
-        "s": "+9 Agility",
+        "s": "+7 Agility",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+6 Stamina",
+        "s": "+10 Strength",
         "neg": false,
         "eq": false
        }
       ],
-      "spells": [
-       "Equip: When struck in combat, drain 2 mana from the attacker."
-      ],
-      "req": "Requires Level 28",
+      "spells": [],
+      "req": "",
       "reqClass": "",
       "dur": "Durability 35 / 35",
-      "sell": 1732,
+      "sell": 4303,
       "desc": ""
      }
     },
@@ -3206,7 +3197,9 @@
      "quality": "UNCOMMON",
      "ilvl": 0,
      "inventoryType": "LEGS",
-     "enchants": [],
+     "enchants": [
+      "Enchanted: Spell Power +4 and Armor +24"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134583.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -3237,36 +3230,36 @@
     {
      "slot": "FEET",
      "slotName": "Feet",
-     "itemId": 3741,
-     "name": "Stomping Boots",
+     "itemId": 4136,
+     "name": "Darkspear Boots",
      "quality": "UNCOMMON",
      "ilvl": 0,
      "inventoryType": "FEET",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132542.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132535.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Feet",
-      "sub": "Leather",
-      "armor": "58 Armor",
+      "sub": "Mail",
+      "armor": "164 Armor",
       "stats": [
        {
-        "s": "+4 Agility",
+        "s": "+9 Strength",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+4 Strength",
+        "s": "+8 Spirit",
         "neg": false,
-        "eq": false
+        "eq": true
        }
       ],
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 40 / 40",
-      "sell": 922,
+      "dur": "Durability 50 / 50",
+      "sell": 6021,
       "desc": ""
      }
     },
@@ -3404,10 +3397,7 @@
      "quality": "RARE",
      "ilvl": 0,
      "inventoryType": "TWOHWEAPON",
-     "enchants": [
-      "Weighted +8",
-      "Windfury 2"
-     ],
+     "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133522.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -3480,7 +3470,7 @@
     "trees": [
      {
       "name": "Elemental Combat",
-      "points": 1
+      "points": 2
      },
      {
       "name": "Enhancement",
@@ -3491,7 +3481,7 @@
       "points": 5
      }
     ],
-    "split": "1/29/5",
+    "split": "2/29/5",
     "main": "Enhancement"
    },
    "professions": {
@@ -3500,11 +3490,11 @@
       "name": "Leatherworking",
       "skill": 225,
       "max": 300,
-      "recipes": 90
+      "recipes": 91
      },
      {
       "name": "Skinning",
-      "skill": 279,
+      "skill": 287,
       "max": 300,
       "recipes": 2
      }
@@ -3514,7 +3504,7 @@
       "name": "Cooking",
       "skill": 225,
       "max": 225,
-      "recipes": 33
+      "recipes": 37
      },
      {
       "name": "Fishing",
@@ -3526,7 +3516,7 @@
       "name": "First Aid",
       "skill": 185,
       "max": 225,
-      "recipes": 13
+      "recipes": 14
      }
     ]
    },
@@ -3541,47 +3531,47 @@
     {
      "k": "health",
      "label": "Health",
-     "v": 1774
+     "v": 1680
     },
     {
      "k": "power",
      "label": "Mana",
-     "v": 2046
+     "v": 2320
     },
     {
      "k": "strength",
      "label": "Strength",
-     "v": 136
+     "v": 148
     },
     {
      "k": "agility",
      "label": "Agility",
-     "v": 66
+     "v": 60
     },
     {
      "k": "stamina",
      "label": "Stamina",
-     "v": 127
+     "v": 115
     },
     {
      "k": "intellect",
      "label": "Intellect",
-     "v": 82
+     "v": 99
     },
     {
      "k": "spirit",
      "label": "Spirit",
-     "v": 102
+     "v": 100
     },
     {
      "k": "armor",
      "label": "Armor",
-     "v": 1033
+     "v": 1341
     },
     {
      "k": "attack_power",
      "label": "Attack power",
-     "v": 448
+     "v": 491
     },
     {
      "k": "ranged_attack_power",
@@ -3591,12 +3581,12 @@
     {
      "k": "spell_power",
      "label": "Spell power",
-     "v": 24
+     "v": 33
     },
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 10.98,
+     "v": 10.54,
      "p": 1
     },
     {
@@ -3608,13 +3598,13 @@
     {
      "k": "spell_crit",
      "label": "Spell crit",
-     "v": 9.26,
+     "v": 9.61,
      "p": 1
     },
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 7.9,
+     "v": 7.42,
      "p": 1
     },
     {
@@ -3649,42 +3639,42 @@
      {
       "name": "Orgrimmar",
       "standing": "Honored",
-      "v": 10121,
+      "v": 10277,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Darkspear Trolls",
       "standing": "Honored",
-      "v": 4767,
+      "v": 4980,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Thunder Bluff",
       "standing": "Honored",
-      "v": 3271,
+      "v": 3352,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Undercity",
       "standing": "Friendly",
-      "v": 5631,
+      "v": 5750,
       "max": 6000,
       "tier": 4
      },
      {
       "name": "Ratchet",
       "standing": "Friendly",
-      "v": 2077,
+      "v": 2745,
       "max": 6000,
       "tier": 4
      },
      {
       "name": "Booty Bay",
       "standing": "Friendly",
-      "v": 980,
+      "v": 1797,
       "max": 6000,
       "tier": 4
      }
@@ -3692,11 +3682,11 @@
    },
    "achievements": {
     "points": 0,
-    "count": 7,
+    "count": 8,
     "recent": [
+     "Experienced Shaman",
      "Novice Spelunker",
-     "Expert Leatherworker",
-     "Explore Arathi Highlands"
+     "Expert Leatherworker"
     ]
    },
    "collections": {
@@ -3704,7 +3694,7 @@
     "pets": 4,
     "toys": 2
    },
-   "questsDone": 558,
+   "questsDone": 586,
    "history": [
     [
      1795570780222,
@@ -3729,10 +3719,16 @@
      44.63,
      0,
      3
+    ],
+    [
+     1795727603832,
+     45.66,
+     0,
+     3
     ]
    ],
    "weekly": {
-    "levels": 0.38,
+    "levels": 1.41,
     "ilvl": -35.18,
     "hk": 2,
     "rank": 0
@@ -3748,11 +3744,11 @@
    "name": "Sire",
    "surname": "Khingen",
    "fullName": "Sire Khingen",
-   "level": 36,
-   "experience": 62432,
-   "xpToLevel": 71600,
-   "xpPct": 87.2,
-   "levelProgress": 36.87,
+   "level": 37,
+   "experience": 25172,
+   "xpToLevel": 76100,
+   "xpPct": 33.08,
+   "levelProgress": 37.33,
    "className": "Paladin",
    "classId": 2,
    "race": "Undead",
@@ -3761,7 +3757,7 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795718027000,
+   "lastLogin": 1795726689000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -3795,7 +3791,7 @@
       "spells": [],
       "req": "Requires Level 20",
       "reqClass": "",
-      "dur": "Durability 63 / 65",
+      "dur": "Durability 57 / 65",
       "sell": 1439,
       "desc": ""
      }
@@ -3877,7 +3873,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 69 / 70",
+      "dur": "Durability 61 / 70",
       "sell": 4378,
       "desc": ""
      }
@@ -3951,7 +3947,7 @@
       "spells": [],
       "req": "Requires Level 24",
       "reqClass": "",
-      "dur": "Durability 119 / 120",
+      "dur": "Durability 113 / 120",
       "sell": 2935,
       "desc": ""
      }
@@ -4017,7 +4013,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 35 / 35",
+      "dur": "Durability 30 / 35",
       "sell": 2705,
       "desc": ""
      }
@@ -4053,7 +4049,7 @@
       "spells": [],
       "req": "Requires Level 28",
       "reqClass": "",
-      "dur": "Durability 38 / 40",
+      "dur": "Durability 37 / 40",
       "sell": 2225,
       "desc": ""
      }
@@ -4094,7 +4090,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 40 / 40",
+      "dur": "Durability 31 / 40",
       "sell": 2864,
       "desc": ""
      }
@@ -4137,7 +4133,7 @@
       "spells": [],
       "req": "Requires Level 25",
       "reqClass": "",
-      "dur": "Durability 90 / 90",
+      "dur": "Durability 80 / 90",
       "sell": 3149,
       "desc": ""
      }
@@ -4178,7 +4174,7 @@
       "spells": [],
       "req": "Requires Level 28",
       "reqClass": "",
-      "dur": "Durability 60 / 60",
+      "dur": "Durability 57 / 60",
       "sell": 3118,
       "desc": ""
      }
@@ -4315,7 +4311,7 @@
       ],
       "req": "",
       "reqClass": "Classes: Paladin",
-      "dur": "Durability 100 / 100",
+      "dur": "Durability 93 / 100",
       "sell": 7459,
       "desc": "",
       "weapon": {
@@ -4328,7 +4324,7 @@
    ],
    "itemLevel": 0,
    "pvp": {
-    "hk": 145,
+    "hk": 149,
     "rank": 0,
     "rankName": "Unranked"
    },
@@ -4336,10 +4332,10 @@
     "trees": [
      {
       "name": "Retribution",
-      "points": 27
+      "points": 28
      }
     ],
-    "split": "27",
+    "split": "28",
     "main": "Retribution"
    },
    "professions": {
@@ -4389,17 +4385,17 @@
     {
      "k": "health",
      "label": "Health",
-     "v": 1691
+     "v": 1732
     },
     {
      "k": "power",
      "label": "Mana",
-     "v": 1499
+     "v": 1541
     },
     {
      "k": "strength",
      "label": "Strength",
-     "v": 139
+     "v": 140
     },
     {
      "k": "agility",
@@ -4409,17 +4405,17 @@
     {
      "k": "stamina",
      "label": "Stamina",
-     "v": 136
+     "v": 137
     },
     {
      "k": "intellect",
      "label": "Intellect",
-     "v": 60
+     "v": 61
     },
     {
      "k": "spirit",
      "label": "Spirit",
-     "v": 65
+     "v": 66
     },
     {
      "k": "armor",
@@ -4429,7 +4425,7 @@
     {
      "k": "attack_power",
      "label": "Attack power",
-     "v": 372
+     "v": 377
     },
     {
      "k": "ranged_attack_power",
@@ -4439,7 +4435,7 @@
     {
      "k": "spell_power",
      "label": "Spell power",
-     "v": 32
+     "v": 39
     },
     {
      "k": "melee_crit",
@@ -4450,31 +4446,31 @@
     {
      "k": "ranged_crit",
      "label": "Ranged crit",
-     "v": 1.62,
+     "v": 1.5,
      "p": 1
     },
     {
      "k": "spell_crit",
      "label": "Spell crit",
-     "v": 11.64,
+     "v": 11.63,
      "p": 1
     },
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 4.64,
+     "v": 4.68,
      "p": 1
     },
     {
      "k": "parry",
      "label": "Parry",
-     "v": 4.88,
+     "v": 4.92,
      "p": 1
     },
     {
      "k": "block",
      "label": "Block",
-     "v": 4.88,
+     "v": 4.92,
      "p": 1
     },
     {
@@ -4552,7 +4548,7 @@
     "pets": 1,
     "toys": 0
    },
-   "questsDone": 282,
+   "questsDone": 290,
    "history": [
     [
      1795570780222,
@@ -4571,12 +4567,18 @@
      36.87,
      0,
      145
+    ],
+    [
+     1795727603832,
+     37.33,
+     0,
+     149
     ]
    ],
    "weekly": {
-    "levels": 0.78,
+    "levels": 1.24,
     "ilvl": -32.6,
-    "hk": 4,
+    "hk": 8,
     "rank": 0
    },
    "ding60At": null
