@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795696944619,
+ "generatedAt": 1795697656203,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -11340,7 +11340,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795696725000,
+   "lastLogin": 1795697339000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -12507,11 +12507,11 @@
    },
    "achievements": {
     "points": 0,
-    "count": 23,
+    "count": 24,
     "recent": [
+     "Artisan Alchemist",
      "Expert Alchemist",
-     "Journeyman Alchemist",
-     "Expert Leatherworker"
+     "Journeyman Alchemist"
     ]
    },
    "collections": {
