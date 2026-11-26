@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795659577737,
+ "generatedAt": 1795663039214,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -1046,11 +1046,11 @@
    "name": "Blue",
    "surname": "Embrace",
    "fullName": "Blue Embrace",
-   "level": 38,
-   "experience": 11865,
-   "xpToLevel": 80900,
-   "xpPct": 14.67,
-   "levelProgress": 38.15,
+   "level": 39,
+   "experience": 52231,
+   "xpToLevel": 85700,
+   "xpPct": 60.95,
+   "levelProgress": 39.61,
    "className": "Rogue",
    "classId": 4,
    "race": "Undead",
@@ -1059,7 +1059,7 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795615787000,
+   "lastLogin": 1795662641000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -1123,7 +1123,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 28 / 50",
+      "dur": "Durability 42 / 50",
       "sell": 3218,
       "desc": ""
      }
@@ -1200,7 +1200,7 @@
       "spells": [],
       "req": "Requires Level 30",
       "reqClass": "",
-      "dur": "Durability 27 / 50",
+      "dur": "Durability 48 / 50",
       "sell": 2609,
       "desc": ""
      }
@@ -1208,41 +1208,36 @@
     {
      "slot": "BACK",
      "slotName": "Back",
-     "itemId": 6314,
-     "name": "Wolfmaster Cape",
-     "quality": "RARE",
+     "itemId": 4643,
+     "name": "Grimsteel Cape",
+     "quality": "UNCOMMON",
      "ilvl": 0,
      "inventoryType": "CLOAK",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133762.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133754.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Back",
       "sub": "Cloth",
-      "armor": "22 Armor",
+      "armor": "23 Armor",
       "stats": [
        {
-        "s": "+3 Stamina",
+        "s": "+2 Agility",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+10 Attack Power",
+        "s": "+7 Stamina",
         "neg": false,
-        "eq": true
-       },
-       {
-        "s": "+9 Attack Power Vs Beasts",
-        "neg": false,
-        "eq": true
+        "eq": false
        }
       ],
       "spells": [],
-      "req": "Requires Level 22",
+      "req": "",
       "reqClass": "",
       "dur": "",
-      "sell": 1215,
+      "sell": 2170,
       "desc": ""
      }
     },
@@ -1274,7 +1269,7 @@
       "spells": [],
       "req": "Requires Level 30",
       "reqClass": "",
-      "dur": "Durability 48 / 85",
+      "dur": "Durability 71 / 85",
       "sell": 3760,
       "desc": ""
      }
@@ -1335,7 +1330,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 21 / 35",
+      "dur": "Durability 34 / 35",
       "sell": 1191,
       "desc": ""
      }
@@ -1373,7 +1368,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 18 / 30",
+      "dur": "Durability 28 / 30",
       "sell": 2031,
       "desc": ""
      }
@@ -1419,7 +1414,7 @@
       "spells": [],
       "req": "Requires Level 30",
       "reqClass": "",
-      "dur": "Durability 22 / 35",
+      "dur": "Durability 31 / 35",
       "sell": 1063,
       "desc": ""
      }
@@ -1462,7 +1457,7 @@
       "spells": [],
       "req": "Requires Level 29",
       "reqClass": "",
-      "dur": "Durability 34 / 65",
+      "dur": "Durability 61 / 65",
       "sell": 3151,
       "desc": ""
      }
@@ -1505,7 +1500,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 23 / 45",
+      "dur": "Durability 38 / 45",
       "sell": 2991,
       "desc": ""
      }
@@ -1617,7 +1612,9 @@
      "quality": "RARE",
      "ilvl": 0,
      "inventoryType": "WEAPON",
-     "enchants": [],
+     "enchants": [
+      "Instant Poison III (86 |4Charge:Charges;)"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135124.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -1631,7 +1628,7 @@
       ],
       "req": "Requires Level 29",
       "reqClass": "",
-      "dur": "Durability 36 / 65",
+      "dur": "Durability 61 / 65",
       "sell": 7892,
       "desc": "",
       "weapon": {
@@ -1649,7 +1646,9 @@
      "quality": "RARE",
      "ilvl": 0,
      "inventoryType": "WEAPON",
-     "enchants": [],
+     "enchants": [
+      "Crippling Poison"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132945.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -1672,7 +1671,7 @@
       "spells": [],
       "req": "Requires Level 29",
       "reqClass": "",
-      "dur": "Durability 40 / 65",
+      "dur": "Durability 63 / 65",
       "sell": 7892,
       "desc": "",
       "weapon": {
@@ -1708,7 +1707,7 @@
       "spells": [],
       "req": "Requires Level 28",
       "reqClass": "",
-      "dur": "Durability 50 / 75",
+      "dur": "Durability 75 / 75",
       "sell": 5456,
       "desc": "",
       "weapon": {
@@ -1721,7 +1720,7 @@
    ],
    "itemLevel": 0,
    "pvp": {
-    "hk": 238,
+    "hk": 473,
     "rank": 0,
     "rankName": "Unranked"
    },
@@ -1729,10 +1728,10 @@
     "trees": [
      {
       "name": "Subtlety",
-      "points": 29
+      "points": 30
      }
     ],
-    "split": "29",
+    "split": "30",
     "main": "Subtlety"
    },
    "professions": {
@@ -1782,7 +1781,7 @@
     {
      "k": "health",
      "label": "Health",
-     "v": 1740
+     "v": 1821
     },
     {
      "k": "power",
@@ -1792,17 +1791,17 @@
     {
      "k": "strength",
      "label": "Strength",
-     "v": 64
+     "v": 65
     },
     {
      "k": "agility",
      "label": "Agility",
-     "v": 141
+     "v": 145
     },
     {
      "k": "stamina",
      "label": "Stamina",
-     "v": 128
+     "v": 133
     },
     {
      "k": "intellect",
@@ -1812,22 +1811,22 @@
     {
      "k": "spirit",
      "label": "Spirit",
-     "v": 65
+     "v": 66
     },
     {
      "k": "armor",
      "label": "Armor",
-     "v": 992
+     "v": 1001
     },
     {
      "k": "attack_power",
      "label": "Attack power",
-     "v": 299
+     "v": 296
     },
     {
      "k": "ranged_attack_power",
      "label": "Ranged attack power",
-     "v": 338
+     "v": 337
     },
     {
      "k": "spell_power",
@@ -1837,13 +1836,13 @@
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 8.23,
+     "v": 8.3,
      "p": 1
     },
     {
      "k": "ranged_crit",
      "label": "Ranged crit",
-     "v": 1.43,
+     "v": 1.58,
      "p": 1
     },
     {
@@ -1855,13 +1854,13 @@
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 16.44,
+     "v": 16.58,
      "p": 1
     },
     {
      "k": "parry",
      "label": "Parry",
-     "v": 4.76,
+     "v": 4.92,
      "p": 1
     },
     {
@@ -1885,33 +1884,33 @@
    ],
    "titleCount": 0,
    "reputations": {
-    "total": 15,
+    "total": 18,
     "top": [
      {
       "name": "Undercity",
       "standing": "Honored",
-      "v": 6045,
+      "v": 6527,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Orgrimmar",
       "standing": "Friendly",
-      "v": 5152,
+      "v": 5845,
       "max": 6000,
       "tier": 4
      },
      {
       "name": "Darkspear Trolls",
       "standing": "Friendly",
-      "v": 3208,
+      "v": 3713,
       "max": 6000,
       "tier": 4
      },
      {
       "name": "Thunder Bluff",
       "standing": "Friendly",
-      "v": 3015,
+      "v": 3295,
       "max": 6000,
       "tier": 4
      },
@@ -1945,7 +1944,7 @@
     "pets": 0,
     "toys": 0
    },
-   "questsDone": 346,
+   "questsDone": 370,
    "history": [
     [
      1795570780222,
@@ -1958,12 +1957,18 @@
      38.15,
      0,
      238
+    ],
+    [
+     1795663039214,
+     39.61,
+     0,
+     473
     ]
    ],
    "weekly": {
-    "levels": 1.03,
+    "levels": 2.49,
     "ilvl": -33.06,
-    "hk": 0,
+    "hk": 235,
     "rank": 0
    },
    "ding60At": null
@@ -11335,8 +11340,8 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795548556000,
-   "apiItemLevel": 57,
+   "lastLogin": 1795662021000,
+   "apiItemLevel": 0,
    "gear": [
     {
      "slot": "HEAD",
@@ -11344,7 +11349,7 @@
      "itemId": 22411,
      "name": "Helm of the Executioner",
      "quality": "RARE",
-     "ilvl": 63,
+     "ilvl": 0,
      "inventoryType": "HEAD",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133069.jpg",
@@ -11385,7 +11390,7 @@
      "itemId": 11755,
      "name": "Verek's Collar",
      "quality": "RARE",
-     "ilvl": 56,
+     "ilvl": 0,
      "inventoryType": "NECK",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133684.jpg",
@@ -11431,7 +11436,7 @@
      "itemId": 16733,
      "name": "Spaulders of Valor",
      "quality": "RARE",
-     "ilvl": 60,
+     "ilvl": 0,
      "inventoryType": "SHOULDER",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135061.jpg",
@@ -11536,7 +11541,7 @@
      "itemId": 271810,
      "name": "Corpsefeeder's Shedding",
      "quality": "RARE",
-     "ilvl": 43,
+     "ilvl": 0,
      "inventoryType": "CLOAK",
      "enchants": [
       "Enchanted: Agility +3"
@@ -11579,7 +11584,7 @@
      "itemId": 10775,
      "name": "Carapace of Tuten'kash",
      "quality": "RARE",
-     "ilvl": 42,
+     "ilvl": 0,
      "inventoryType": "CHEST",
      "enchants": [
       "Enchanted: Attack Power +8 and Armor +32"
@@ -11622,7 +11627,7 @@
      "itemId": 38,
      "name": "Recruit's Shirt",
      "quality": "COMMON",
-     "ilvl": 1,
+     "ilvl": 0,
      "inventoryType": "BODY",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135009.jpg",
@@ -11647,7 +11652,7 @@
      "itemId": 275042,
      "name": "Farholde Keep Tabard",
      "quality": "COMMON",
-     "ilvl": 20,
+     "ilvl": 0,
      "inventoryType": "TABARD",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/7941422.jpg",
@@ -11672,7 +11677,7 @@
      "itemId": 13951,
      "name": "Vigorsteel Vambraces",
      "quality": "RARE",
-     "ilvl": 62,
+     "ilvl": 0,
      "inventoryType": "WRIST",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132617.jpg",
@@ -11713,7 +11718,7 @@
      "itemId": 16737,
      "name": "Gauntlets of Valor",
      "quality": "RARE",
-     "ilvl": 59,
+     "ilvl": 0,
      "inventoryType": "HAND",
      "enchants": [
       "Enchanted: Stamina +5 and Armor +40"
@@ -11825,7 +11830,7 @@
      "itemId": 272403,
      "name": "Valiant's Waistguard",
      "quality": "EPIC",
-     "ilvl": 60,
+     "ilvl": 0,
      "inventoryType": "WAIST",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132522.jpg",
@@ -11866,7 +11871,7 @@
      "itemId": 280024,
      "name": "Legplates of Reinforced Crystal",
      "quality": "RARE",
-     "ilvl": 63,
+     "ilvl": 0,
      "inventoryType": "LEGS",
      "enchants": [
       "Enchanted: Stamina +5 and Armor +40"
@@ -11909,7 +11914,7 @@
      "itemId": 16734,
      "name": "Boots of Valor",
      "quality": "RARE",
-     "ilvl": 59,
+     "ilvl": 0,
      "inventoryType": "FEET",
      "enchants": [
       "Enchanted: Stamina +5 and Armor +40"
@@ -12016,7 +12021,7 @@
      "itemId": 12548,
      "name": "Magni's Will",
      "quality": "RARE",
-     "ilvl": 60,
+     "ilvl": 0,
      "inventoryType": "FINGER",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133347.jpg",
@@ -12057,7 +12062,7 @@
      "itemId": 13098,
      "name": "Painweaver Band",
      "quality": "RARE",
-     "ilvl": 63,
+     "ilvl": 0,
      "inventoryType": "FINGER",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133360.jpg",
@@ -12098,7 +12103,7 @@
      "itemId": 17774,
      "name": "Mark of the Chosen",
      "quality": "UNCOMMON",
-     "ilvl": 48,
+     "ilvl": 0,
      "inventoryType": "TRINKET",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133441.jpg",
@@ -12125,7 +12130,7 @@
      "itemId": 11815,
      "name": "Hand of Justice",
      "quality": "RARE",
-     "ilvl": 58,
+     "ilvl": 0,
      "inventoryType": "TRINKET",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133434.jpg",
@@ -12158,7 +12163,7 @@
      "itemId": 18376,
      "name": "Timeworn Mace",
      "quality": "RARE",
-     "ilvl": 62,
+     "ilvl": 0,
      "inventoryType": "WEAPON",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133482.jpg",
@@ -12204,7 +12209,7 @@
      "itemId": 13375,
      "name": "Crest of Retribution",
      "quality": "RARE",
-     "ilvl": 60,
+     "ilvl": 0,
      "inventoryType": "SHIELD",
      "enchants": [
       "Enchanted: Thorium Spike (20-30)"
@@ -12244,7 +12249,7 @@
      "itemId": 274643,
      "name": "Gutcutter Hatchet",
      "quality": "RARE",
-     "ilvl": 48,
+     "ilvl": 0,
      "inventoryType": "THROWN",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135422.jpg",
@@ -12280,7 +12285,7 @@
      }
     }
    ],
-   "itemLevel": 56.82,
+   "itemLevel": 0,
    "pvp": {
     "hk": 115,
     "rank": 0,
@@ -12314,7 +12319,7 @@
      },
      {
       "name": "Engineering",
-      "skill": 271,
+      "skill": 272,
       "max": 300,
       "recipes": 72
      }
@@ -12502,11 +12507,11 @@
    },
    "achievements": {
     "points": 0,
-    "count": 20,
+    "count": 21,
     "recent": [
+     "Expert Leatherworker",
      "Novice Hunter",
-     "Novice Spelunker",
-     "Master Spelunker"
+     "Novice Spelunker"
     ]
    },
    "collections": {
@@ -12514,7 +12519,7 @@
     "pets": 4,
     "toys": 4
    },
-   "questsDone": 1141
+   "questsDone": 1137
   },
   {
    "friend": "Gareth",
