@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795727603833,
+ "generatedAt": 1795730015178,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -7163,11 +7163,11 @@
    "name": "Xerxes",
    "surname": "Crownrend",
    "fullName": "Xerxes Crownrend",
-   "level": 58,
-   "experience": 134631,
-   "xpToLevel": 202300,
-   "xpPct": 66.55,
-   "levelProgress": 58.67,
+   "level": 59,
+   "experience": 8040,
+   "xpToLevel": 209800,
+   "xpPct": 3.83,
+   "levelProgress": 59.04,
    "className": "Warrior",
    "classId": 1,
    "race": "Night Elf",
@@ -7176,7 +7176,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795725178000,
+   "lastLogin": 1795729801000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -7250,7 +7250,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 28 / 80",
+      "dur": "Durability 79 / 80",
       "sell": 16666,
       "desc": ""
      }
@@ -7339,7 +7339,7 @@
       ],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 36 / 80",
+      "dur": "Durability 80 / 80",
       "sell": 16666,
       "desc": ""
      }
@@ -7418,7 +7418,7 @@
       "spells": [],
       "req": "Requires Level 40",
       "reqClass": "",
-      "dur": "Durability 33 / 115",
+      "dur": "Durability 114 / 115",
       "sell": 5197,
       "desc": ""
      }
@@ -7514,7 +7514,7 @@
       "spells": [],
       "req": "Requires Level 52",
       "reqClass": "",
-      "dur": "Durability 44 / 45",
+      "dur": "Durability 43 / 45",
       "sell": 14982,
       "desc": ""
      }
@@ -7550,7 +7550,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 18 / 35",
+      "dur": "Durability 35 / 35",
       "sell": 8769,
       "desc": ""
      }
@@ -7591,7 +7591,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 14 / 40",
+      "dur": "Durability 39 / 40",
       "sell": 7270,
       "desc": ""
      }
@@ -7637,7 +7637,7 @@
       "spells": [],
       "req": "Requires Level 52",
       "reqClass": "",
-      "dur": "Durability 62 / 90",
+      "dur": "Durability 87 / 90",
       "sell": 25538,
       "desc": "",
       "set": {
@@ -7720,7 +7720,7 @@
       "spells": [],
       "req": "Requires Level 47",
       "reqClass": "",
-      "dur": "Durability 18 / 55",
+      "dur": "Durability 54 / 55",
       "sell": 7650,
       "desc": ""
      }
@@ -7883,7 +7883,7 @@
       ],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 33 / 90",
+      "dur": "Durability 89 / 90",
       "sell": 33714,
       "desc": "",
       "weapon": {
@@ -7939,7 +7939,7 @@
       "spells": [],
       "req": "Requires Level 51",
       "reqClass": "",
-      "dur": "Durability 28 / 100",
+      "dur": "Durability 97 / 100",
       "sell": 25698,
       "desc": ""
      }
@@ -7975,7 +7975,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 47 / 65",
+      "dur": "Durability 65 / 65",
       "sell": 9937,
       "desc": "",
       "weapon": {
@@ -8000,17 +8000,17 @@
      },
      {
       "name": "Protection",
-      "points": 18
+      "points": 19
      }
     ],
-    "split": "31/18",
+    "split": "31/19",
     "main": "Fury"
    },
    "professions": {
     "primaries": [
      {
       "name": "Mining",
-      "skill": 297,
+      "skill": 299,
       "max": 300,
       "recipes": 14
      },
@@ -8053,7 +8053,7 @@
     {
      "k": "health",
      "label": "Health",
-     "v": 3241
+     "v": 3329
     },
     {
      "k": "power",
@@ -8063,17 +8063,17 @@
     {
      "k": "strength",
      "label": "Strength",
-     "v": 239
+     "v": 242
     },
     {
      "k": "agility",
      "label": "Agility",
-     "v": 145
+     "v": 147
     },
     {
      "k": "stamina",
      "label": "Stamina",
-     "v": 187
+     "v": 189
     },
     {
      "k": "intellect",
@@ -8088,17 +8088,17 @@
     {
      "k": "armor",
      "label": "Armor",
-     "v": 4854
+     "v": 4858
     },
     {
      "k": "attack_power",
      "label": "Attack power",
-     "v": 639
+     "v": 598
     },
     {
      "k": "ranged_attack_power",
      "label": "Ranged attack power",
-     "v": 335
+     "v": 290
     },
     {
      "k": "spell_power",
@@ -8108,7 +8108,7 @@
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 14.47,
+     "v": 14.3,
      "p": 1
     },
     {
@@ -8126,19 +8126,19 @@
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 10.17,
+     "v": 9.99,
      "p": 1
     },
     {
      "k": "parry",
      "label": "Parry",
-     "v": 5.68,
+     "v": 5.56,
      "p": 1
     },
     {
      "k": "block",
      "label": "Block",
-     "v": 10.68,
+     "v": 10.56,
      "p": 1
     },
     {
@@ -8156,47 +8156,47 @@
    ],
    "titleCount": 0,
    "reputations": {
-    "total": 17,
+    "total": 18,
     "top": [
      {
       "name": "Darnassus",
       "standing": "Revered",
-      "v": 2747,
+      "v": 2860,
       "max": 21000,
       "tier": 6
      },
      {
       "name": "Stormwind",
       "standing": "Revered",
-      "v": 862,
+      "v": 1237,
       "max": 21000,
       "tier": 6
      },
      {
       "name": "Ironforge",
       "standing": "Honored",
-      "v": 9737,
+      "v": 9925,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Gnomeregan Exiles",
       "standing": "Honored",
-      "v": 4948,
+      "v": 5061,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Booty Bay",
       "standing": "Honored",
-      "v": 805,
+      "v": 830,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Gadgetzan",
       "standing": "Friendly",
-      "v": 5527,
+      "v": 5552,
       "max": 6000,
       "tier": 4
      }
@@ -8216,7 +8216,7 @@
     "pets": 4,
     "toys": 2
    },
-   "questsDone": 1045
+   "questsDone": 1058
   },
   {
    "friend": "Ash",
