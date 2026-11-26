@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795717741248,
+ "generatedAt": 1795718334738,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -3737,10 +3737,10 @@
    "surname": "Khingen",
    "fullName": "Sire Khingen",
    "level": 36,
-   "experience": 54898,
+   "experience": 62432,
    "xpToLevel": 71600,
-   "xpPct": 76.67,
-   "levelProgress": 36.77,
+   "xpPct": 87.2,
+   "levelProgress": 36.87,
    "className": "Paladin",
    "classId": 2,
    "race": "Undead",
@@ -3749,7 +3749,7 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795717194000,
+   "lastLogin": 1795718027000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -3783,7 +3783,7 @@
       "spells": [],
       "req": "Requires Level 20",
       "reqClass": "",
-      "dur": "Durability 65 / 65",
+      "dur": "Durability 63 / 65",
       "sell": 1439,
       "desc": ""
      }
@@ -3865,7 +3865,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 70 / 70",
+      "dur": "Durability 69 / 70",
       "sell": 4378,
       "desc": ""
      }
@@ -3939,7 +3939,7 @@
       "spells": [],
       "req": "Requires Level 24",
       "reqClass": "",
-      "dur": "Durability 120 / 120",
+      "dur": "Durability 119 / 120",
       "sell": 2935,
       "desc": ""
      }
@@ -4041,7 +4041,7 @@
       "spells": [],
       "req": "Requires Level 28",
       "reqClass": "",
-      "dur": "Durability 40 / 40",
+      "dur": "Durability 38 / 40",
       "sell": 2225,
       "desc": ""
      }
@@ -4438,7 +4438,7 @@
     {
      "k": "ranged_crit",
      "label": "Ranged crit",
-     "v": 7.62,
+     "v": 1.62,
      "p": 1
     },
     {
@@ -4540,7 +4540,7 @@
     "pets": 1,
     "toys": 0
    },
-   "questsDone": 281,
+   "questsDone": 282,
    "history": [
     [
      1795570780222,
@@ -4553,10 +4553,16 @@
      36.77,
      0,
      145
+    ],
+    [
+     1795718334738,
+     36.87,
+     0,
+     145
     ]
    ],
    "weekly": {
-    "levels": 0.68,
+    "levels": 0.78,
     "ilvl": -32.6,
     "hk": 4,
     "rank": 0
