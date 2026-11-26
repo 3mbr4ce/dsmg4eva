@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795718334738,
+ "generatedAt": 1795719255364,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -11412,7 +11412,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795697339000,
+   "lastLogin": 1795718707000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -11653,44 +11653,113 @@
     {
      "slot": "CHEST",
      "slotName": "Chest",
-     "itemId": 10775,
-     "name": "Carapace of Tuten'kash",
+     "itemId": 16726,
+     "name": "Lightforge Breastplate",
      "quality": "RARE",
      "ilvl": 0,
      "inventoryType": "CHEST",
      "enchants": [
-      "Enchanted: Attack Power +8 and Armor +32"
+      "Enchanted: Stamina +5 and Armor +40"
      ],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132743.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132738.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Chest",
       "sub": "Plate",
-      "armor": "373 Armor",
+      "armor": "657 Armor",
       "stats": [
        {
-        "s": "+8 Agility",
+        "s": "+16 Intellect",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+10 Strength",
+        "s": "+13 Strength",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+15 Stamina",
+        "s": "+21 Stamina",
         "neg": false,
         "eq": false
+       },
+       {
+        "s": "+7 Critical Strike",
+        "neg": false,
+        "eq": true
+       },
+       {
+        "s": "+8 Spirit",
+        "neg": false,
+        "eq": true
        }
       ],
       "spells": [],
-      "req": "Requires Level 40",
+      "req": "Requires Level 58",
       "reqClass": "",
       "dur": "Durability 135 / 135",
-      "sell": 10804,
-      "desc": ""
+      "sell": 40307,
+      "desc": "",
+      "set": {
+       "name": "Lightforge Armor (1/8)",
+       "items": [
+        {
+         "n": "Lightforge Belt",
+         "eq": false
+        },
+        {
+         "n": "Lightforge Boots",
+         "eq": false
+        },
+        {
+         "n": "Lightforge Bracers",
+         "eq": false
+        },
+        {
+         "n": "Lightforge Breastplate",
+         "eq": true
+        },
+        {
+         "n": "Lightforge Gauntlets",
+         "eq": false
+        },
+        {
+         "n": "Lightforge Legplates",
+         "eq": false
+        },
+        {
+         "n": "Lightforge Spaulders",
+         "eq": false
+        },
+        {
+         "n": "Lightforge Helm",
+         "eq": false
+        }
+       ],
+       "effects": [
+        {
+         "s": "(2) Set: +8 All Resistances.",
+         "on": false
+        },
+        {
+         "s": "(3) Set: Increases damage and healing done by magical spells and effects by up to 18.",
+         "on": false
+        },
+        {
+         "s": "(4) Set: When struck by a harmful spell, has a 7% chance of Silencing the caster for 3 sec. Can only occur once every 60 sec.",
+         "on": false
+        },
+        {
+         "s": "(5) Set: Chance on melee autoattack and spellcast to increase your damage and healing done by magical spells and effects by up to 65 for 10 sec.",
+         "on": false
+        },
+        {
+         "s": "(6) Set: Restores 8 mana per 5 sec.",
+         "on": false
+        }
+       ]
+      }
      }
     },
     {
@@ -12428,7 +12497,7 @@
     {
      "k": "health",
      "label": "Health",
-     "v": 4629
+     "v": 4739
     },
     {
      "k": "power",
@@ -12438,42 +12507,42 @@
     {
      "k": "strength",
      "label": "Strength",
-     "v": 267
+     "v": 270
     },
     {
      "k": "agility",
      "label": "Agility",
-     "v": 143
+     "v": 135
     },
     {
      "k": "stamina",
      "label": "Stamina",
-     "v": 312
+     "v": 323
     },
     {
      "k": "intellect",
      "label": "Intellect",
-     "v": 30
+     "v": 46
     },
     {
      "k": "spirit",
      "label": "Spirit",
-     "v": 58
+     "v": 67
     },
     {
      "k": "armor",
      "label": "Armor",
-     "v": 6006
+     "v": 6282
     },
     {
      "k": "attack_power",
      "label": "Attack power",
-     "v": 738
+     "v": 736
     },
     {
      "k": "ranged_attack_power",
      "label": "Ranged attack power",
-     "v": 370
+     "v": 346
     },
     {
      "k": "spell_power",
@@ -12483,25 +12552,25 @@
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 16.07,
+     "v": 16.21,
      "p": 1
     },
     {
      "k": "ranged_crit",
      "label": "Ranged crit",
-     "v": 11.11,
+     "v": 11.21,
      "p": 1
     },
     {
      "k": "spell_crit",
      "label": "Spell crit",
-     "v": 4,
+     "v": 4.5,
      "p": 1
     },
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 8.6,
+     "v": 8.2,
      "p": 1
     },
     {
