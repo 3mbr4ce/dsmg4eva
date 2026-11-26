@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795703174232,
+ "generatedAt": 1795704847473,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -12543,8 +12543,8 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795362802000,
-   "apiItemLevel": 43,
+   "lastLogin": 1795704606000,
+   "apiItemLevel": 0,
    "gear": [
     {
      "slot": "HEAD",
@@ -12552,7 +12552,7 @@
      "itemId": 275006,
      "name": "Krol'dok Warplate Helmet",
      "quality": "RARE",
-     "ilvl": 46,
+     "ilvl": 0,
      "inventoryType": "HEAD",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133122.jpg",
@@ -12636,7 +12636,7 @@
      "itemId": 7722,
      "name": "Triune Amulet",
      "quality": "RARE",
-     "ilvl": 44,
+     "ilvl": 0,
      "inventoryType": "NECK",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133276.jpg",
@@ -12677,7 +12677,7 @@
      "itemId": 287014,
      "name": "Krol'dok Warplate Pauldrons",
      "quality": "RARE",
-     "ilvl": 46,
+     "ilvl": 0,
      "inventoryType": "SHOULDER",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135053.jpg",
@@ -12761,7 +12761,7 @@
      "itemId": 277205,
      "name": "Cloak of the Divine Storm",
      "quality": "RARE",
-     "ilvl": 35,
+     "ilvl": 0,
      "inventoryType": "CLOAK",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133756.jpg",
@@ -12799,43 +12799,43 @@
     {
      "slot": "CHEST",
      "slotName": "Chest",
-     "itemId": 10086,
-     "name": "Gothic Plate Armor of the Knight",
+     "itemId": 10240,
+     "name": "Heavy Lamellar Chestpiece of the Knight",
      "quality": "UNCOMMON",
-     "ilvl": 49,
+     "ilvl": 0,
      "inventoryType": "CHEST",
      "enchants": [
-      "Enchanted: Spell Power +4 and Armor +24"
+      "Enchanted: Stamina +8"
      ],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132722.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132723.jpg",
      "tt": {
       "bind": "Binds when equipped",
       "unique": "",
       "inv": "Chest",
       "sub": "Plate",
-      "armor": "471 Armor",
+      "armor": "524 Armor",
       "stats": [
        {
-        "s": "+9 Strength",
+        "s": "+10 Strength",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+15 Stamina",
+        "s": "+18 Stamina",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+8 Spell Power",
+        "s": "+9 Spell Power",
         "neg": false,
         "eq": true
        }
       ],
       "spells": [],
-      "req": "Requires Level 44",
+      "req": "Requires Level 50",
       "reqClass": "",
       "dur": "Durability 115 / 115",
-      "sell": 8438,
+      "sell": 12576,
       "desc": ""
      }
     },
@@ -12845,7 +12845,7 @@
      "itemId": 6117,
      "name": "Squire's Shirt",
      "quality": "COMMON",
-     "ilvl": 1,
+     "ilvl": 0,
      "inventoryType": "BODY",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135005.jpg",
@@ -12870,7 +12870,7 @@
      "itemId": 14834,
      "name": "Tyrant's Armguards",
      "quality": "UNCOMMON",
-     "ilvl": 43,
+     "ilvl": 0,
      "inventoryType": "WRIST",
      "enchants": [
       "Enchanted: Strength +7"
@@ -12913,7 +12913,7 @@
      "itemId": 287012,
      "name": "Krol'dok Warplate Gauntlets",
      "quality": "RARE",
-     "ilvl": 45,
+     "ilvl": 0,
      "inventoryType": "HAND",
      "enchants": [
       "Enchanted: Mining +5"
@@ -12994,7 +12994,7 @@
      "itemId": 250558,
      "name": "Warder's Belt",
      "quality": "RARE",
-     "ilvl": 35,
+     "ilvl": 0,
      "inventoryType": "WAIST",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132518.jpg",
@@ -13035,7 +13035,7 @@
      "itemId": 287013,
      "name": "Krol'dok Warplate Legplates",
      "quality": "RARE",
-     "ilvl": 46,
+     "ilvl": 0,
      "inventoryType": "LEGS",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134584.jpg",
@@ -13119,7 +13119,7 @@
      "itemId": 273025,
      "name": "Raptorclaw Greaves",
      "quality": "RARE",
-     "ilvl": 31,
+     "ilvl": 0,
      "inventoryType": "FEET",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132551.jpg",
@@ -13160,7 +13160,7 @@
      "itemId": 17713,
      "name": "Blackstone Ring",
      "quality": "RARE",
-     "ilvl": 54,
+     "ilvl": 0,
      "inventoryType": "FINGER",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133359.jpg",
@@ -13201,7 +13201,7 @@
      "itemId": 276899,
      "name": "Knucklebound Thimble",
      "quality": "RARE",
-     "ilvl": 38,
+     "ilvl": 0,
      "inventoryType": "FINGER",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133343.jpg",
@@ -13242,7 +13242,7 @@
      "itemId": 280766,
      "name": "Satchel of Potions",
      "quality": "UNCOMMON",
-     "ilvl": 33,
+     "ilvl": 0,
      "inventoryType": "TRINKET",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133633.jpg",
@@ -13269,7 +13269,7 @@
      "itemId": 286646,
      "name": "Gill's Gills",
      "quality": "RARE",
-     "ilvl": 40,
+     "ilvl": 0,
      "inventoryType": "TRINKET",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133966.jpg",
@@ -13307,7 +13307,7 @@
      "itemId": 221518,
      "name": "Whisper",
      "quality": "RARE",
-     "ilvl": 53,
+     "ilvl": 0,
      "inventoryType": "TWOHWEAPON",
      "enchants": [
       "Enchanted: Fiery Weapon"
@@ -13350,7 +13350,7 @@
      }
     }
    ],
-   "itemLevel": 43.19,
+   "itemLevel": 0,
    "pvp": {
     "hk": 8,
     "rank": 0,
@@ -13417,7 +13417,7 @@
     {
      "k": "health",
      "label": "Health",
-     "v": 2806
+     "v": 2916
     },
     {
      "k": "power",
@@ -13427,7 +13427,7 @@
     {
      "k": "strength",
      "label": "Strength",
-     "v": 170
+     "v": 171
     },
     {
      "k": "agility",
@@ -13437,7 +13437,7 @@
     {
      "k": "stamina",
      "label": "Stamina",
-     "v": 202
+     "v": 213
     },
     {
      "k": "intellect",
@@ -13452,12 +13452,12 @@
     {
      "k": "armor",
      "label": "Armor",
-     "v": 2872
+     "v": 2902
     },
     {
      "k": "attack_power",
      "label": "Attack power",
-     "v": 502
+     "v": 504
     },
     {
      "k": "ranged_attack_power",
@@ -13467,7 +13467,7 @@
     {
      "k": "spell_power",
      "label": "Spell power",
-     "v": 41
+     "v": 38
     },
     {
      "k": "melee_crit",
@@ -13478,7 +13478,7 @@
     {
      "k": "ranged_crit",
      "label": "Ranged crit",
-     "v": 0,
+     "v": 0.5,
      "p": 1
     },
     {
