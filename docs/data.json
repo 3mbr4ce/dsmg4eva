@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795648391344,
+ "generatedAt": 1795656364034,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -18708,7 +18708,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795635571000,
+   "lastLogin": 1795655737000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -18752,7 +18752,7 @@
       "spells": [],
       "req": "Requires Level 55",
       "reqClass": "Classes: Druid",
-      "dur": "Durability 52 / 60",
+      "dur": "Durability 41 / 60",
       "sell": 0,
       "desc": "",
       "set": {
@@ -18882,7 +18882,7 @@
       "spells": [],
       "req": "Requires Level 55",
       "reqClass": "Classes: Druid",
-      "dur": "Durability 48 / 60",
+      "dur": "Durability 34 / 60",
       "sell": 0,
       "desc": "",
       "set": {
@@ -19004,7 +19004,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 83 / 100",
+      "dur": "Durability 71 / 100",
       "sell": 15903,
       "desc": ""
      }
@@ -19075,7 +19075,7 @@
       "spells": [],
       "req": "",
       "reqClass": "Classes: Druid",
-      "dur": "Durability 33 / 35",
+      "dur": "Durability 31 / 35",
       "sell": 15287,
       "desc": "",
       "set": {
@@ -19277,7 +19277,7 @@
       "spells": [],
       "req": "",
       "reqClass": "Classes: Druid",
-      "dur": "Durability 29 / 35",
+      "dur": "Durability 24 / 35",
       "sell": 15346,
       "desc": "",
       "set": {
@@ -19383,7 +19383,7 @@
       "spells": [],
       "req": "Requires Level 52",
       "reqClass": "",
-      "dur": "Durability 56 / 75",
+      "dur": "Durability 45 / 75",
       "sell": 22233,
       "desc": ""
      }
@@ -19431,7 +19431,7 @@
       "spells": [],
       "req": "Requires Level 55",
       "reqClass": "Classes: Druid",
-      "dur": "Durability 41 / 50",
+      "dur": "Durability 37 / 50",
       "sell": 0,
       "desc": "",
       "set": {
@@ -19664,7 +19664,7 @@
       ],
       "req": "Requires Level 55",
       "reqClass": "",
-      "dur": "Durability 113 / 120",
+      "dur": "Durability 105 / 120",
       "sell": 312980,
       "desc": "",
       "weapon": {
@@ -19704,7 +19704,7 @@
    ],
    "itemLevel": 0,
    "pvp": {
-    "hk": 5629,
+    "hk": 5840,
     "rank": 5,
     "rankName": "Sergeant Major"
    },
