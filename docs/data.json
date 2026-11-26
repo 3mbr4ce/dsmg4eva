@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795704847473,
+ "generatedAt": 1795708428441,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -7141,11 +7141,11 @@
    "name": "Xerxes",
    "surname": "Crownrend",
    "fullName": "Xerxes Crownrend",
-   "level": 56,
-   "experience": 141611,
-   "xpToLevel": 187900,
-   "xpPct": 75.37,
-   "levelProgress": 56.75,
+   "level": 57,
+   "experience": 86997,
+   "xpToLevel": 195000,
+   "xpPct": 44.61,
+   "levelProgress": 57.45,
    "className": "Warrior",
    "classId": 1,
    "race": "Night Elf",
@@ -7154,7 +7154,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795645900000,
+   "lastLogin": 1795707753000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -7228,7 +7228,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 46 / 80",
+      "dur": "Durability 74 / 80",
       "sell": 16666,
       "desc": ""
      }
@@ -7307,7 +7307,7 @@
       ],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 44 / 80",
+      "dur": "Durability 80 / 80",
       "sell": 16666,
       "desc": ""
      }
@@ -7386,7 +7386,7 @@
       "spells": [],
       "req": "Requires Level 40",
       "reqClass": "",
-      "dur": "Durability 66 / 115",
+      "dur": "Durability 107 / 115",
       "sell": 5197,
       "desc": ""
      }
@@ -7477,7 +7477,7 @@
       "spells": [],
       "req": "Requires Level 49",
       "reqClass": "",
-      "dur": "Durability 23 / 40",
+      "dur": "Durability 40 / 40",
       "sell": 10721,
       "desc": ""
      }
@@ -7485,41 +7485,36 @@
     {
      "slot": "HANDS",
      "slotName": "Hands",
-     "itemId": 17736,
-     "name": "Rockgrip Gauntlets",
-     "quality": "RARE",
+     "itemId": 11867,
+     "name": "Maddening Gauntlets",
+     "quality": "UNCOMMON",
      "ilvl": 0,
      "inventoryType": "HAND",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132962.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132960.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Hands",
       "sub": "Mail",
-      "armor": "198 Armor",
+      "armor": "180 Armor",
       "stats": [
        {
-        "s": "+11 Intellect",
+        "s": "+5 Agility",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+10 Stamina",
+        "s": "+15 Strength",
         "neg": false,
         "eq": false
-       },
-       {
-        "s": "+28 Attack Power",
-        "neg": false,
-        "eq": true
        }
       ],
       "spells": [],
-      "req": "Requires Level 48",
+      "req": "",
       "reqClass": "",
-      "dur": "Durability 25 / 40",
-      "sell": 10114,
+      "dur": "Durability 34 / 35",
+      "sell": 8769,
       "desc": ""
      }
     },
@@ -7559,7 +7554,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 38 / 40",
+      "dur": "Durability 37 / 40",
       "sell": 7270,
       "desc": ""
      }
@@ -7595,7 +7590,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 70 / 85",
+      "dur": "Durability 82 / 85",
       "sell": 12407,
       "desc": ""
      }
@@ -7631,7 +7626,7 @@
       "spells": [],
       "req": "Requires Level 47",
       "reqClass": "",
-      "dur": "Durability 32 / 55",
+      "dur": "Durability 51 / 55",
       "sell": 7650,
       "desc": ""
      }
@@ -7799,7 +7794,7 @@
       ],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 54 / 90",
+      "dur": "Durability 81 / 90",
       "sell": 33714,
       "desc": "",
       "weapon": {
@@ -7812,52 +7807,33 @@
     {
      "slot": "OFF_HAND",
      "slotName": "Off Hand",
-     "itemId": 10835,
-     "name": "Crest of Supremacy",
+     "itemId": 6660,
+     "name": "Julie's Dagger",
      "quality": "RARE",
      "ilvl": 0,
-     "inventoryType": "SHIELD",
+     "inventoryType": "WEAPON",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134950.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135643.jpg",
      "tt": {
-      "bind": "Binds when picked up",
+      "bind": "Binds when equipped",
       "unique": "",
-      "inv": "Off Hand",
-      "sub": "Shield",
-      "armor": "1,930 Armor",
-      "stats": [
-       {
-        "s": "+7 Intellect",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+6 Agility",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+6 Strength",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+7 Stamina",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+5 Defense",
-        "neg": false,
-        "eq": true
-       }
+      "inv": "One-Hand",
+      "sub": "Dagger",
+      "armor": "",
+      "stats": [],
+      "spells": [
+       "Chance on hit: Heals wielder of 78 damage over 12 sec."
       ],
-      "spells": [],
-      "req": "Requires Level 51",
+      "req": "Requires Level 50",
       "reqClass": "",
-      "dur": "Durability 71 / 100",
-      "sell": 25698,
-      "desc": ""
+      "dur": "Durability 65 / 65",
+      "sell": 36157,
+      "desc": "",
+      "weapon": {
+       "dmg": "33 - 62 Damage",
+       "speed": "Speed 1.30",
+       "dps": "(36.5 damage per second)"
+      }
      }
     },
     {
@@ -7891,7 +7867,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 47 / 65",
+      "dur": "Durability 65 / 65",
       "sell": 9937,
       "desc": "",
       "weapon": {
@@ -7904,7 +7880,7 @@
    ],
    "itemLevel": 0,
    "pvp": {
-    "hk": 53,
+    "hk": 54,
     "rank": 0,
     "rankName": "Unranked"
    },
@@ -7912,25 +7888,21 @@
     "trees": [
      {
       "name": "Arms",
-      "points": 1
+      "points": 14
      },
      {
       "name": "Fury",
-      "points": 15
-     },
-     {
-      "name": "Protection",
-      "points": 31
+      "points": 34
      }
     ],
-    "split": "1/15/31",
-    "main": "Protection"
+    "split": "14/34",
+    "main": "Fury"
    },
    "professions": {
     "primaries": [
      {
       "name": "Mining",
-      "skill": 290,
+      "skill": 295,
       "max": 300,
       "recipes": 12
      },
@@ -7938,7 +7910,7 @@
       "name": "Engineering",
       "skill": 260,
       "max": 300,
-      "recipes": 57
+      "recipes": 61
      }
     ],
     "secondaries": [
@@ -7956,7 +7928,7 @@
      },
      {
       "name": "First Aid",
-      "skill": 297,
+      "skill": 300,
       "max": 300,
       "recipes": 13
      }
@@ -7973,7 +7945,7 @@
     {
      "k": "health",
      "label": "Health",
-     "v": 2881
+     "v": 2795
     },
     {
      "k": "power",
@@ -7983,22 +7955,22 @@
     {
      "k": "strength",
      "label": "Strength",
-     "v": 213
+     "v": 224
     },
     {
      "k": "agility",
      "label": "Agility",
-     "v": 124
+     "v": 125
     },
     {
      "k": "stamina",
      "label": "Stamina",
-     "v": 164
+     "v": 149
     },
     {
      "k": "intellect",
      "label": "Intellect",
-     "v": 56
+     "v": 38
     },
     {
      "k": "spirit",
@@ -8008,17 +7980,17 @@
     {
      "k": "armor",
      "label": "Armor",
-     "v": 4873
+     "v": 2927
     },
     {
      "k": "attack_power",
      "label": "Attack power",
-     "v": 637
+     "v": 634
     },
     {
      "k": "ranged_attack_power",
      "label": "Ranged attack power",
-     "v": 347
+     "v": 322
     },
     {
      "k": "spell_power",
@@ -8028,7 +8000,7 @@
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 13.69,
+     "v": 13.57,
      "p": 1
     },
     {
@@ -8046,19 +8018,19 @@
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 7.89,
+     "v": 7.49,
      "p": 1
     },
     {
      "k": "parry",
      "label": "Parry",
-     "v": 6.16,
+     "v": 4.84,
      "p": 1
     },
     {
      "k": "block",
      "label": "Block",
-     "v": 10.16,
+     "v": 4.84,
      "p": 1
     },
     {
@@ -8081,42 +8053,42 @@
      {
       "name": "Darnassus",
       "standing": "Revered",
-      "v": 1938,
+      "v": 2422,
       "max": 21000,
       "tier": 6
      },
      {
       "name": "Stormwind",
       "standing": "Honored",
-      "v": 11416,
+      "v": 11975,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Ironforge",
       "standing": "Honored",
-      "v": 8302,
+      "v": 9150,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Gnomeregan Exiles",
       "standing": "Honored",
-      "v": 4158,
+      "v": 4473,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Booty Bay",
       "standing": "Honored",
-      "v": 655,
+      "v": 805,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Gadgetzan",
       "standing": "Friendly",
-      "v": 5377,
+      "v": 5527,
       "max": 6000,
       "tier": 4
      }
@@ -8124,11 +8096,11 @@
    },
    "achievements": {
     "points": 0,
-    "count": 12,
+    "count": 13,
     "recent": [
+     "Explore Moonglade",
      "Explore Felwood",
-     "Expert Engineer",
-     "Journeyman Engineer"
+     "Expert Engineer"
     ]
    },
    "collections": {
@@ -8136,7 +8108,7 @@
     "pets": 4,
     "toys": 2
    },
-   "questsDone": 996
+   "questsDone": 1024
   },
   {
    "friend": "Ash",
@@ -9074,7 +9046,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795640775000,
+   "lastLogin": 1795708354000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -9128,7 +9100,7 @@
       "spells": [],
       "req": "",
       "reqClass": "Classes: Shaman",
-      "dur": "Durability 85 / 85",
+      "dur": "Durability 61 / 85",
       "sell": 29417,
       "desc": "",
       "set": {
@@ -9274,7 +9246,7 @@
       "spells": [],
       "req": "",
       "reqClass": "Classes: Shaman",
-      "dur": "Durability 70 / 70",
+      "dur": "Durability 52 / 70",
       "sell": 27948,
       "desc": "",
       "set": {
@@ -9429,7 +9401,7 @@
       "spells": [],
       "req": "",
       "reqClass": "Classes: Shaman",
-      "dur": "Durability 140 / 140",
+      "dur": "Durability 108 / 140",
       "sell": 39487,
       "desc": "",
       "set": {
@@ -9536,7 +9508,7 @@
       "spells": [],
       "req": "",
       "reqClass": "Classes: Shaman",
-      "dur": "Durability 40 / 40",
+      "dur": "Durability 31 / 40",
       "sell": 18409,
       "desc": "",
       "set": {
@@ -9648,7 +9620,7 @@
       "spells": [],
       "req": "",
       "reqClass": "Classes: Shaman",
-      "dur": "Durability 50 / 50",
+      "dur": "Durability 38 / 50",
       "sell": 14925,
       "desc": "",
       "set": {
@@ -9758,7 +9730,7 @@
       "spells": [],
       "req": "",
       "reqClass": "Classes: Shaman",
-      "dur": "Durability 40 / 40",
+      "dur": "Durability 27 / 40",
       "sell": 18479,
       "desc": "",
       "set": {
@@ -9858,7 +9830,7 @@
       "spells": [],
       "req": "Requires Level 56",
       "reqClass": "",
-      "dur": "Durability 105 / 105",
+      "dur": "Durability 82 / 105",
       "sell": 42548,
       "desc": ""
      }
@@ -9911,7 +9883,7 @@
       "spells": [],
       "req": "",
       "reqClass": "Classes: Shaman",
-      "dur": "Durability 70 / 70",
+      "dur": "Durability 54 / 70",
       "sell": 29639,
       "desc": "",
       "set": {
@@ -10117,7 +10089,6 @@
      "inventoryType": "TWOHWEAPON",
      "enchants": [
       "Enchanted: Crusader",
-      "Sharpened +8",
       "Windfury 4"
      ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135580.jpg",
@@ -10152,7 +10123,7 @@
       "spells": [],
       "req": "Requires Level 54",
       "reqClass": "",
-      "dur": "Durability 100 / 100",
+      "dur": "Durability 80 / 100",
       "sell": 57457,
       "desc": "",
       "weapon": {
@@ -10192,7 +10163,7 @@
    ],
    "itemLevel": 0,
    "pvp": {
-    "hk": 158,
+    "hk": 171,
     "rank": 0,
     "rankName": "Unranked"
    },
@@ -10390,7 +10361,7 @@
      {
       "name": "Argent Dawn",
       "standing": "Honored",
-      "v": 4125,
+      "v": 4375,
       "max": 12000,
       "tier": 5
      },
@@ -10412,11 +10383,11 @@
    },
    "achievements": {
     "points": 0,
-    "count": 21,
+    "count": 22,
     "recent": [
+     "Explore Blasted Lands",
      "Lord Valthalak Laid to Rest",
-     "Explore Hillsbrad Foothills",
-     "Explore Alterac Mountains"
+     "Explore Hillsbrad Foothills"
     ]
    },
    "collections": {
@@ -10424,7 +10395,7 @@
     "pets": 3,
     "toys": 1
    },
-   "questsDone": 1088
+   "questsDone": 1098
   },
   {
    "friend": "Panzer",
