@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795717062064,
+ "generatedAt": 1795717741248,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -3749,7 +3749,7 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795642013000,
+   "lastLogin": 1795717194000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -4438,7 +4438,7 @@
     {
      "k": "ranged_crit",
      "label": "Ranged crit",
-     "v": 1.62,
+     "v": 7.62,
      "p": 1
     },
     {
