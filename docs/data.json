@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795656364034,
+ "generatedAt": 1795659577737,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -8143,10 +8143,10 @@
    "surname": "Jõks",
    "fullName": "Peep Jõks",
    "level": 48,
-   "experience": 9849,
+   "experience": 12199,
    "xpToLevel": 135100,
-   "xpPct": 7.29,
-   "levelProgress": 48.07,
+   "xpPct": 9.03,
+   "levelProgress": 48.09,
    "className": "Rogue",
    "classId": 4,
    "race": "Gnome",
@@ -8155,7 +8155,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795644736000,
+   "lastLogin": 1795659335000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -8281,7 +8281,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 54 / 60",
+      "dur": "Durability 50 / 60",
       "sell": 5532,
       "desc": ""
      }
@@ -8360,7 +8360,7 @@
       "spells": [],
       "req": "Requires Level 36",
       "reqClass": "",
-      "dur": "Durability 79 / 85",
+      "dur": "Durability 76 / 85",
       "sell": 3881,
       "desc": ""
      }
@@ -8524,7 +8524,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 28 / 30",
+      "dur": "Durability 27 / 30",
       "sell": 4343,
       "desc": ""
      }
@@ -8567,7 +8567,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 67 / 75",
+      "dur": "Durability 66 / 75",
       "sell": 5252,
       "desc": ""
      }
@@ -8605,7 +8605,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 41 / 45",
+      "dur": "Durability 38 / 45",
       "sell": 4393,
       "desc": ""
      }
@@ -8712,7 +8712,9 @@
      "quality": "RARE",
      "ilvl": 0,
      "inventoryType": "WEAPON",
-     "enchants": [],
+     "enchants": [
+      "Crippling Poison"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135639.jpg",
      "tt": {
       "bind": "Binds when equipped",
@@ -8726,7 +8728,7 @@
       ],
       "req": "Requires Level 46",
       "reqClass": "",
-      "dur": "Durability 65 / 65",
+      "dur": "Durability 63 / 65",
       "sell": 30005,
       "desc": "",
       "weapon": {
@@ -8744,7 +8746,9 @@
      "quality": "RARE",
      "ilvl": 0,
      "inventoryType": "WEAPON",
-     "enchants": [],
+     "enchants": [
+      "Wound Poison (74 |4Charge:Charges;)"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135311.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -8758,7 +8762,7 @@
       ],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 60 / 65",
+      "dur": "Durability 59 / 65",
       "sell": 18003,
       "desc": "",
       "weapon": {
@@ -8799,7 +8803,7 @@
       "spells": [],
       "req": "Requires Level 43",
       "reqClass": "",
-      "dur": "Durability 227 / 240",
+      "dur": "Durability 224 / 240",
       "sell": 18370,
       "desc": "",
       "weapon": {
@@ -8812,7 +8816,7 @@
    ],
    "itemLevel": 0,
    "pvp": {
-    "hk": 617,
+    "hk": 695,
     "rank": 1,
     "rankName": "Private"
    },
@@ -8986,28 +8990,28 @@
      {
       "name": "Stormwind",
       "standing": "Honored",
-      "v": 8221,
+      "v": 8421,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Ironforge",
       "standing": "Honored",
-      "v": 6312,
+      "v": 6362,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Gnomeregan Exiles",
       "standing": "Honored",
-      "v": 4306,
+      "v": 4356,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Darnassus",
       "standing": "Honored",
-      "v": 113,
+      "v": 163,
       "max": 12000,
       "tier": 5
      },
@@ -9041,7 +9045,7 @@
     "pets": 0,
     "toys": 0
    },
-   "questsDone": 647
+   "questsDone": 648
   },
   {
    "friend": "Panzer",
