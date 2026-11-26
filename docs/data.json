@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795731229759,
+ "generatedAt": 1795732724716,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -43,10 +43,10 @@
    "surname": "Billythecrit",
    "fullName": "Sir Billythecrit",
    "level": 39,
-   "experience": 3349,
+   "experience": 23711,
    "xpToLevel": 85700,
-   "xpPct": 3.91,
-   "levelProgress": 39.04,
+   "xpPct": 27.67,
+   "levelProgress": 39.28,
    "className": "Rogue",
    "classId": 4,
    "race": "Undead",
@@ -55,7 +55,7 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795692128000,
+   "lastLogin": 1795732054000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -203,7 +203,7 @@
       "spells": [],
       "req": "Requires Level 39",
       "reqClass": "",
-      "dur": "Durability 48 / 50",
+      "dur": "Durability 50 / 50",
       "sell": 5542,
       "desc": ""
      }
@@ -272,7 +272,7 @@
       "spells": [],
       "req": "Requires Level 36",
       "reqClass": "",
-      "dur": "Durability 84 / 85",
+      "dur": "Durability 85 / 85",
       "sell": 3881,
       "desc": ""
      }
@@ -439,7 +439,7 @@
       "spells": [],
       "req": "Requires Level 34",
       "reqClass": "",
-      "dur": "Durability 29 / 30",
+      "dur": "Durability 30 / 30",
       "sell": 2636,
       "desc": ""
      }
@@ -482,7 +482,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 73 / 75",
+      "dur": "Durability 75 / 75",
       "sell": 5252,
       "desc": ""
      }
@@ -525,7 +525,7 @@
       "spells": [],
       "req": "Requires Level 39",
       "reqClass": "",
-      "dur": "Durability 44 / 45",
+      "dur": "Durability 45 / 45",
       "sell": 5439,
       "desc": ""
      }
@@ -687,7 +687,7 @@
       "spells": [],
       "req": "Requires Level 39",
       "reqClass": "",
-      "dur": "Durability 54 / 55",
+      "dur": "Durability 55 / 55",
       "sell": 14870,
       "desc": "",
       "weapon": {
@@ -728,7 +728,7 @@
       "spells": [],
       "req": "",
       "reqClass": "Classes: Rogue",
-      "dur": "Durability 87 / 90",
+      "dur": "Durability 90 / 90",
       "sell": 9792,
       "desc": "",
       "weapon": {
@@ -774,7 +774,7 @@
       "spells": [],
       "req": "Requires Level 31",
       "reqClass": "",
-      "dur": "Durability 235 / 240",
+      "dur": "Durability 240 / 240",
       "sell": 6870,
       "desc": "",
       "weapon": {
@@ -787,7 +787,7 @@
    ],
    "itemLevel": 0,
    "pvp": {
-    "hk": 788,
+    "hk": 818,
     "rank": 1,
     "rankName": "Scout"
    },
@@ -805,7 +805,7 @@
     "primaries": [
      {
       "name": "Mining",
-      "skill": 243,
+      "skill": 253,
       "max": 300,
       "recipes": 12
      },
@@ -821,7 +821,7 @@
       "name": "Cooking",
       "skill": 225,
       "max": 300,
-      "recipes": 25
+      "recipes": 26
      },
      {
       "name": "Fishing",
@@ -831,7 +831,7 @@
      },
      {
       "name": "First Aid",
-      "skill": 225,
+      "skill": 236,
       "max": 300,
       "recipes": 12
      }
@@ -903,7 +903,7 @@
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 8.58,
+     "v": 8.7,
      "p": 1
     },
     {
@@ -921,13 +921,13 @@
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 17.14,
+     "v": 17.26,
      "p": 1
     },
     {
      "k": "parry",
      "label": "Parry",
-     "v": 4.68,
+     "v": 4.8,
      "p": 1
     },
     {
@@ -1031,12 +1031,18 @@
      39.04,
      0,
      788
+    ],
+    [
+     1795732724716,
+     39.28,
+     0,
+     818
     ]
    ],
    "weekly": {
-    "levels": 0.81,
+    "levels": 1.05,
     "ilvl": -30.78,
-    "hk": 4,
+    "hk": 34,
     "rank": 0
    },
    "ding60At": null
