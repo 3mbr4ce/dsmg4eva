@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795732724716,
+ "generatedAt": 1795734793841,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -2881,11 +2881,11 @@
    "name": "Dala",
    "surname": "Huun",
    "fullName": "Dala Huun",
-   "level": 45,
-   "experience": 77786,
-   "xpToLevel": 117500,
-   "xpPct": 66.2,
-   "levelProgress": 45.66,
+   "level": 46,
+   "experience": 28567,
+   "xpToLevel": 123200,
+   "xpPct": 23.19,
+   "levelProgress": 46.23,
    "className": "Shaman",
    "classId": 7,
    "race": "Orc",
@@ -2894,7 +2894,7 @@
    "faction": "HORDE",
    "ruleset": "Normal",
    "achievementPoints": 0,
-   "lastLogin": 1795726773000,
+   "lastLogin": 1795734569000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -2928,7 +2928,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 50 / 50",
+      "dur": "Durability 28 / 50",
       "sell": 3218,
       "desc": ""
      }
@@ -3005,7 +3005,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 60 / 60",
+      "dur": "Durability 44 / 60",
       "sell": 4811,
       "desc": ""
      }
@@ -3082,7 +3082,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 100 / 100",
+      "dur": "Durability 68 / 100",
       "sell": 8866,
       "desc": ""
      }
@@ -3118,7 +3118,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 35 / 35",
+      "dur": "Durability 26 / 35",
       "sell": 3268,
       "desc": ""
      }
@@ -3131,7 +3131,9 @@
      "quality": "UNCOMMON",
      "ilvl": 0,
      "inventoryType": "HAND",
-     "enchants": [],
+     "enchants": [
+      "Enchanted: Stamina +2 and Armor +16"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132957.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -3154,7 +3156,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 30 / 30",
+      "dur": "Durability 17 / 30",
       "sell": 2794,
       "desc": ""
      }
@@ -3190,7 +3192,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 35 / 35",
+      "dur": "Durability 25 / 35",
       "sell": 4303,
       "desc": ""
      }
@@ -3228,7 +3230,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 75 / 75",
+      "dur": "Durability 47 / 75",
       "sell": 6538,
       "desc": ""
      }
@@ -3241,7 +3243,9 @@
      "quality": "UNCOMMON",
      "ilvl": 0,
      "inventoryType": "FEET",
-     "enchants": [],
+     "enchants": [
+      "Enchanted: Stamina +2 and Armor +16"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132535.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -3264,7 +3268,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 50 / 50",
+      "dur": "Durability 33 / 50",
       "sell": 6021,
       "desc": ""
      }
@@ -3428,7 +3432,7 @@
       ],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 100 / 100",
+      "dur": "Durability 72 / 100",
       "sell": 16235,
       "desc": "",
       "weapon": {
@@ -3476,7 +3480,7 @@
     "trees": [
      {
       "name": "Elemental Combat",
-      "points": 2
+      "points": 3
      },
      {
       "name": "Enhancement",
@@ -3487,7 +3491,7 @@
       "points": 5
      }
     ],
-    "split": "2/29/5",
+    "split": "3/29/5",
     "main": "Enhancement"
    },
    "professions": {
@@ -3510,7 +3514,7 @@
       "name": "Cooking",
       "skill": 225,
       "max": 225,
-      "recipes": 37
+      "recipes": 38
      },
      {
       "name": "Fishing",
@@ -3537,47 +3541,47 @@
     {
      "k": "health",
      "label": "Health",
-     "v": 1680
+     "v": 1767
     },
     {
      "k": "power",
      "label": "Mana",
-     "v": 2320
+     "v": 2384
     },
     {
      "k": "strength",
      "label": "Strength",
-     "v": 148
+     "v": 149
     },
     {
      "k": "agility",
      "label": "Agility",
-     "v": 60
+     "v": 61
     },
     {
      "k": "stamina",
      "label": "Stamina",
-     "v": 115
+     "v": 120
     },
     {
      "k": "intellect",
      "label": "Intellect",
-     "v": 99
+     "v": 101
     },
     {
      "k": "spirit",
      "label": "Spirit",
-     "v": 100
+     "v": 102
     },
     {
      "k": "armor",
      "label": "Armor",
-     "v": 1341
+     "v": 1375
     },
     {
      "k": "attack_power",
      "label": "Attack power",
-     "v": 491
+     "v": 497
     },
     {
      "k": "ranged_attack_power",
@@ -3587,12 +3591,12 @@
     {
      "k": "spell_power",
      "label": "Spell power",
-     "v": 33
+     "v": 34
     },
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 10.54,
+     "v": 10.53,
      "p": 1
     },
     {
@@ -3604,25 +3608,25 @@
     {
      "k": "spell_crit",
      "label": "Spell crit",
-     "v": 9.61,
+     "v": 9.59,
      "p": 1
     },
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 7.42,
+     "v": 7.29,
      "p": 1
     },
     {
      "k": "parry",
      "label": "Parry",
-     "v": 4.76,
+     "v": 4.64,
      "p": 1
     },
     {
      "k": "block",
      "label": "Block",
-     "v": 4.76,
+     "v": 4.64,
      "p": 1
     },
     {
@@ -3673,14 +3677,14 @@
      {
       "name": "Ratchet",
       "standing": "Friendly",
-      "v": 2745,
+      "v": 2750,
       "max": 6000,
       "tier": 4
      },
      {
       "name": "Booty Bay",
       "standing": "Friendly",
-      "v": 1797,
+      "v": 1802,
       "max": 6000,
       "tier": 4
      }
@@ -3700,7 +3704,7 @@
     "pets": 4,
     "toys": 2
    },
-   "questsDone": 586,
+   "questsDone": 599,
    "history": [
     [
      1795570780222,
@@ -3731,10 +3735,16 @@
      45.66,
      0,
      3
+    ],
+    [
+     1795734793841,
+     46.23,
+     0,
+     3
     ]
    ],
    "weekly": {
-    "levels": 1.41,
+    "levels": 1.98,
     "ilvl": -35.18,
     "hk": 2,
     "rank": 0
