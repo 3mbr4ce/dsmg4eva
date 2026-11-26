@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795688106849,
+ "generatedAt": 1795692281559,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -43,10 +43,10 @@
    "surname": "Billythecrit",
    "fullName": "Sir Billythecrit",
    "level": 39,
-   "experience": 141,
+   "experience": 3349,
    "xpToLevel": 85700,
-   "xpPct": 0.16,
-   "levelProgress": 39,
+   "xpPct": 3.91,
+   "levelProgress": 39.04,
    "className": "Rogue",
    "classId": 4,
    "race": "Undead",
@@ -55,7 +55,7 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795648320000,
+   "lastLogin": 1795692128000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -203,7 +203,7 @@
       "spells": [],
       "req": "Requires Level 39",
       "reqClass": "",
-      "dur": "Durability 50 / 50",
+      "dur": "Durability 48 / 50",
       "sell": 5542,
       "desc": ""
      }
@@ -272,7 +272,7 @@
       "spells": [],
       "req": "Requires Level 36",
       "reqClass": "",
-      "dur": "Durability 85 / 85",
+      "dur": "Durability 84 / 85",
       "sell": 3881,
       "desc": ""
      }
@@ -439,7 +439,7 @@
       "spells": [],
       "req": "Requires Level 34",
       "reqClass": "",
-      "dur": "Durability 30 / 30",
+      "dur": "Durability 29 / 30",
       "sell": 2636,
       "desc": ""
      }
@@ -482,7 +482,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 75 / 75",
+      "dur": "Durability 73 / 75",
       "sell": 5252,
       "desc": ""
      }
@@ -525,7 +525,7 @@
       "spells": [],
       "req": "Requires Level 39",
       "reqClass": "",
-      "dur": "Durability 45 / 45",
+      "dur": "Durability 44 / 45",
       "sell": 5439,
       "desc": ""
      }
@@ -627,13 +627,13 @@
     {
      "slot": "TRINKET_2",
      "slotName": "Trinket 2",
-     "itemId": 276895,
-     "name": "Transformative Cocoon",
-     "quality": "UNCOMMON",
+     "itemId": 10645,
+     "name": "Gnomish Death Ray",
+     "quality": "COMMON",
      "ilvl": 0,
      "inventoryType": "TRINKET",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/237431.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133002.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
@@ -642,13 +642,13 @@
       "armor": "",
       "stats": [],
       "spells": [
-       "Use: Absorb up to 260 to 300 damage and Stun yourself for 5 sec. When the Stun expires, gain 60% increased movement speed for 8 sec. (5 Min Cooldown)"
+       "Use: The devices charges over time using your life force and then directs a burst of energy at your opponent. Deals 2 times as much damage to Gnomes. (5 Min Cooldown)"
       ],
       "req": "",
       "reqClass": "",
       "dur": "",
-      "sell": 1715,
-      "desc": ""
+      "sell": 750,
+      "desc": "Death or Serious Injury may result from use of this device."
      }
     },
     {
@@ -687,7 +687,7 @@
       "spells": [],
       "req": "Requires Level 39",
       "reqClass": "",
-      "dur": "Durability 55 / 55",
+      "dur": "Durability 54 / 55",
       "sell": 14870,
       "desc": "",
       "weapon": {
@@ -705,9 +705,7 @@
      "quality": "RARE",
      "ilvl": 0,
      "inventoryType": "WEAPON",
-     "enchants": [
-      "Instant Poison II (76 |4Charge:Charges;)"
-     ],
+     "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135277.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -730,7 +728,7 @@
       "spells": [],
       "req": "",
       "reqClass": "Classes: Rogue",
-      "dur": "Durability 90 / 90",
+      "dur": "Durability 87 / 90",
       "sell": 9792,
       "desc": "",
       "weapon": {
@@ -776,7 +774,7 @@
       "spells": [],
       "req": "Requires Level 31",
       "reqClass": "",
-      "dur": "Durability 240 / 240",
+      "dur": "Durability 235 / 240",
       "sell": 6870,
       "desc": "",
       "weapon": {
@@ -789,7 +787,7 @@
    ],
    "itemLevel": 0,
    "pvp": {
-    "hk": 784,
+    "hk": 788,
     "rank": 1,
     "rankName": "Scout"
    },
@@ -807,15 +805,15 @@
     "primaries": [
      {
       "name": "Mining",
-      "skill": 240,
+      "skill": 243,
       "max": 300,
       "recipes": 12
      },
      {
       "name": "Engineering",
-      "skill": 225,
+      "skill": 241,
       "max": 300,
-      "recipes": 58
+      "recipes": 60
      }
     ],
     "secondaries": [
@@ -905,13 +903,13 @@
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 8.5,
+     "v": 8.58,
      "p": 1
     },
     {
      "k": "ranged_crit",
      "label": "Ranged crit",
-     "v": 8.26,
+     "v": 8.3,
      "p": 1
     },
     {
@@ -1027,12 +1025,18 @@
      39,
      0,
      784
+    ],
+    [
+     1795692281559,
+     39.04,
+     0,
+     788
     ]
    ],
    "weekly": {
-    "levels": 0.77,
+    "levels": 0.81,
     "ilvl": -30.78,
-    "hk": 0,
+    "hk": 4,
     "rank": 0
    },
    "ding60At": null
