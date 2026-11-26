@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795685183177,
+ "generatedAt": 1795688106849,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -5102,7 +5102,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795638962000,
+   "lastLogin": 1795687818000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -5146,7 +5146,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 80 / 80",
+      "dur": "Durability 73 / 80",
       "sell": 16666,
       "desc": ""
      }
@@ -5235,7 +5235,7 @@
       ],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 80 / 80",
+      "dur": "Durability 71 / 80",
       "sell": 16666,
       "desc": ""
      }
@@ -5314,7 +5314,7 @@
       "spells": [],
       "req": "Requires Level 43",
       "reqClass": "",
-      "dur": "Durability 115 / 115",
+      "dur": "Durability 98 / 115",
       "sell": 8192,
       "desc": ""
      }
@@ -5392,7 +5392,7 @@
       "spells": [],
       "req": "Requires Level 52",
       "reqClass": "",
-      "dur": "Durability 45 / 45",
+      "dur": "Durability 40 / 45",
       "sell": 14982,
       "desc": "",
       "set": {
@@ -5504,7 +5504,7 @@
       "spells": [],
       "req": "Requires Level 54",
       "reqClass": "",
-      "dur": "Durability 45 / 45",
+      "dur": "Durability 38 / 45",
       "sell": 16675,
       "desc": "",
       "set": {
@@ -5614,7 +5614,7 @@
       "spells": [],
       "req": "Requires Level 53",
       "reqClass": "",
-      "dur": "Durability 45 / 45",
+      "dur": "Durability 44 / 45",
       "sell": 15881,
       "desc": "",
       "set": {
@@ -5709,7 +5709,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 85 / 85",
+      "dur": "Durability 74 / 85",
       "sell": 12407,
       "desc": ""
      }
@@ -5750,7 +5750,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 65 / 65",
+      "dur": "Durability 57 / 65",
       "sell": 18726,
       "desc": ""
      }
@@ -5840,13 +5840,13 @@
     {
      "slot": "TRINKET_1",
      "slotName": "Trinket 1",
-     "itemId": 11122,
-     "name": "Carrot on a Stick",
+     "itemId": 17774,
+     "name": "Mark of the Chosen",
      "quality": "UNCOMMON",
      "ilvl": 0,
      "inventoryType": "TRINKET",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134010.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133441.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
@@ -5855,12 +5855,12 @@
       "armor": "",
       "stats": [],
       "spells": [
-       "Equip: Increases mount speed by 3%."
+       "Equip: Has a 2% chance when struck in combat of increasing all stats by 21 for 1 min."
       ],
       "req": "",
       "reqClass": "",
       "dur": "",
-      "sell": 9347,
+      "sell": 8164,
       "desc": ""
      }
     },
@@ -5927,7 +5927,7 @@
       ],
       "req": "Requires Level 52",
       "reqClass": "",
-      "dur": "Durability 120 / 120",
+      "dur": "Durability 114 / 120",
       "sell": 70024,
       "desc": "To claim one's destiny requires the strength to reach out and grasp it.",
       "weapon": {
@@ -5968,7 +5968,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 200 / 200",
+      "dur": "Durability 196 / 200",
       "sell": 4932,
       "desc": "Serves as a Skinning Knife.",
       "weapon": {
@@ -5989,19 +5989,15 @@
     "trees": [
      {
       "name": "Arms",
-      "points": 3
+      "points": 32
      },
      {
       "name": "Fury",
-      "points": 17
-     },
-     {
-      "name": "Protection",
-      "points": 31
+      "points": 19
      }
     ],
-    "split": "3/17/31",
-    "main": "Protection"
+    "split": "32/19",
+    "main": "Arms"
    },
    "professions": {
     "primaries": [
@@ -6090,12 +6086,12 @@
     {
      "k": "attack_power",
      "label": "Attack power",
-     "v": 741
+     "v": 769
     },
     {
      "k": "ranged_attack_power",
      "label": "Ranged attack power",
-     "v": 319
+     "v": 347
     },
     {
      "k": "spell_power",
@@ -6105,13 +6101,13 @@
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 13.6,
+     "v": 13.76,
      "p": 1
     },
     {
      "k": "ranged_crit",
      "label": "Ranged crit",
-     "v": 6.72,
+     "v": 6.76,
      "p": 1
     },
     {
@@ -6123,19 +6119,19 @@
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 7.12,
+     "v": 7.24,
      "p": 1
     },
     {
      "k": "parry",
      "label": "Parry",
-     "v": 8.32,
+     "v": 8.44,
      "p": 1
     },
     {
      "k": "block",
      "label": "Block",
-     "v": 10.32,
+     "v": 5.44,
      "p": 1
     },
     {
@@ -6158,42 +6154,42 @@
      {
       "name": "Stormwind",
       "standing": "Revered",
-      "v": 3511,
+      "v": 3756,
       "max": 21000,
       "tier": 6
      },
      {
       "name": "Darnassus",
       "standing": "Honored",
-      "v": 11791,
+      "v": 11946,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Ironforge",
       "standing": "Honored",
-      "v": 10238,
+      "v": 10318,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Gnomeregan Exiles",
       "standing": "Honored",
-      "v": 4815,
+      "v": 4895,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Gadgetzan",
       "standing": "Friendly",
-      "v": 3981,
+      "v": 4031,
       "max": 6000,
       "tier": 4
      },
      {
       "name": "Booty Bay",
       "standing": "Friendly",
-      "v": 3809,
+      "v": 3859,
       "max": 6000,
       "tier": 4
      }
@@ -6213,7 +6209,7 @@
     "pets": 6,
     "toys": 3
    },
-   "questsDone": 1146
+   "questsDone": 1180
   },
   {
    "friend": "Ash",
