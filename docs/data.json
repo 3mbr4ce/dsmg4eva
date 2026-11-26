@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795724733374,
+ "generatedAt": 1795725547256,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -7184,7 +7184,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795722678000,
+   "lastLogin": 1795725178000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -18873,7 +18873,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795700254000,
+   "lastLogin": 1795724965000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -18917,7 +18917,7 @@
       "spells": [],
       "req": "Requires Level 55",
       "reqClass": "Classes: Druid",
-      "dur": "Durability 41 / 60",
+      "dur": "Durability 19 / 60",
       "sell": 0,
       "desc": "",
       "set": {
@@ -19047,7 +19047,7 @@
       "spells": [],
       "req": "Requires Level 55",
       "reqClass": "Classes: Druid",
-      "dur": "Durability 34 / 60",
+      "dur": "Durability 7 / 60",
       "sell": 0,
       "desc": "",
       "set": {
@@ -19169,7 +19169,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 68 / 100",
+      "dur": "Durability 28 / 100",
       "sell": 15903,
       "desc": ""
      }
@@ -19240,7 +19240,7 @@
       "spells": [],
       "req": "",
       "reqClass": "Classes: Druid",
-      "dur": "Durability 31 / 35",
+      "dur": "Durability 22 / 35",
       "sell": 15287,
       "desc": "",
       "set": {
@@ -19348,7 +19348,7 @@
       ],
       "req": "Requires Level 55",
       "reqClass": "Classes: Druid",
-      "dur": "Durability 29 / 35",
+      "dur": "Durability 21 / 35",
       "sell": 0,
       "desc": "",
       "set": {
@@ -19442,7 +19442,7 @@
       "spells": [],
       "req": "",
       "reqClass": "Classes: Druid",
-      "dur": "Durability 24 / 35",
+      "dur": "Durability 15 / 35",
       "sell": 15346,
       "desc": "",
       "set": {
@@ -19548,7 +19548,7 @@
       "spells": [],
       "req": "Requires Level 52",
       "reqClass": "",
-      "dur": "Durability 44 / 75",
+      "dur": "Durability 18 / 75",
       "sell": 22233,
       "desc": ""
      }
@@ -19596,7 +19596,7 @@
       "spells": [],
       "req": "Requires Level 55",
       "reqClass": "Classes: Druid",
-      "dur": "Durability 37 / 50",
+      "dur": "Durability 16 / 50",
       "sell": 0,
       "desc": "",
       "set": {
@@ -19834,7 +19834,7 @@
       ],
       "req": "Requires Level 55",
       "reqClass": "",
-      "dur": "Durability 104 / 120",
+      "dur": "Durability 68 / 120",
       "sell": 312980,
       "desc": "",
       "weapon": {
@@ -19874,7 +19874,7 @@
    ],
    "itemLevel": 0,
    "pvp": {
-    "hk": 5875,
+    "hk": 5955,
     "rank": 5,
     "rankName": "Sergeant Major"
    },
@@ -19994,7 +19994,7 @@
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 8.13,
+     "v": 8.17,
      "p": 1
     },
     {
@@ -20012,7 +20012,7 @@
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 15.01,
+     "v": 15.05,
      "p": 1
     },
     {
@@ -20090,11 +20090,11 @@
    },
    "achievements": {
     "points": 0,
-    "count": 13,
+    "count": 14,
     "recent": [
+     "Explore Western Plaguelands",
      "Field of Honor: Week 4",
-     "Master of Alterac Valley",
-     "Novice Spelunker"
+     "Master of Alterac Valley"
     ]
    },
    "collections": {
