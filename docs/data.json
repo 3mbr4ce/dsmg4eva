@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795708428441,
+ "generatedAt": 1795709781285,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -1999,7 +1999,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795639801000,
+   "lastLogin": 1795709060000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -2858,10 +2858,10 @@
    "surname": "Huun",
    "fullName": "Dala Huun",
    "level": 44,
-   "experience": 37565,
+   "experience": 70013,
    "xpToLevel": 111800,
-   "xpPct": 33.6,
-   "levelProgress": 44.34,
+   "xpPct": 62.62,
+   "levelProgress": 44.63,
    "className": "Shaman",
    "classId": 7,
    "race": "Orc",
@@ -2870,7 +2870,7 @@
    "faction": "HORDE",
    "ruleset": "Normal",
    "achievementPoints": 0,
-   "lastLogin": 1795630270000,
+   "lastLogin": 1795709322000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -3454,7 +3454,7 @@
    ],
    "itemLevel": 0,
    "pvp": {
-    "hk": 1,
+    "hk": 3,
     "rank": 0,
     "rankName": "Unranked"
    },
@@ -3486,7 +3486,7 @@
      },
      {
       "name": "Skinning",
-      "skill": 275,
+      "skill": 279,
       "max": 300,
       "recipes": 2
      }
@@ -3578,7 +3578,7 @@
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 10.94,
+     "v": 10.98,
      "p": 1
     },
     {
@@ -3596,19 +3596,19 @@
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 7.82,
+     "v": 7.9,
      "p": 1
     },
     {
      "k": "parry",
      "label": "Parry",
-     "v": 4.68,
+     "v": 4.76,
      "p": 1
     },
     {
      "k": "block",
      "label": "Block",
-     "v": 4.68,
+     "v": 4.76,
      "p": 1
     },
     {
@@ -3631,42 +3631,42 @@
      {
       "name": "Orgrimmar",
       "standing": "Honored",
-      "v": 10021,
+      "v": 10121,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Darkspear Trolls",
       "standing": "Honored",
-      "v": 4742,
+      "v": 4767,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Thunder Bluff",
       "standing": "Honored",
-      "v": 3246,
+      "v": 3271,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Undercity",
       "standing": "Friendly",
-      "v": 5606,
+      "v": 5631,
       "max": 6000,
       "tier": 4
      },
      {
       "name": "Ratchet",
       "standing": "Friendly",
-      "v": 2020,
+      "v": 2077,
       "max": 6000,
       "tier": 4
      },
      {
       "name": "Booty Bay",
       "standing": "Friendly",
-      "v": 865,
+      "v": 980,
       "max": 6000,
       "tier": 4
      }
@@ -3686,7 +3686,7 @@
     "pets": 4,
     "toys": 2
    },
-   "questsDone": 557,
+   "questsDone": 558,
    "history": [
     [
      1795570780222,
@@ -3705,12 +3705,18 @@
      44.34,
      0,
      1
+    ],
+    [
+     1795709781284,
+     44.63,
+     0,
+     3
     ]
    ],
    "weekly": {
-    "levels": 0.09,
+    "levels": 0.38,
     "ilvl": -35.18,
-    "hk": 0,
+    "hk": 2,
     "rank": 0
    },
    "ding60At": null
