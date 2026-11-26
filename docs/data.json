@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795730015178,
+ "generatedAt": 1795731229759,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -9154,7 +9154,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795708354000,
+   "lastLogin": 1795731139000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -9208,7 +9208,7 @@
       "spells": [],
       "req": "",
       "reqClass": "Classes: Shaman",
-      "dur": "Durability 61 / 85",
+      "dur": "Durability 85 / 85",
       "sell": 29417,
       "desc": "",
       "set": {
@@ -9275,13 +9275,15 @@
     {
      "slot": "NECK",
      "slotName": "Neck",
-     "itemId": 11933,
-     "name": "Imperial Jewel",
+     "itemId": 15411,
+     "name": "Mark of Fordring",
      "quality": "RARE",
      "ilvl": 0,
      "inventoryType": "NECK",
-     "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134131.jpg",
+     "enchants": [
+      "Enchanted: Strength +5"
+     ],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133440.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
@@ -9290,21 +9292,21 @@
       "armor": "",
       "stats": [
        {
-        "s": "+8 Stamina",
+        "s": "+14 Critical Strike",
         "neg": false,
-        "eq": false
+        "eq": true
        },
        {
-        "s": "+32 Attack Power",
+        "s": "+26 Attack Power",
         "neg": false,
         "eq": true
        }
       ],
       "spells": [],
-      "req": "Requires Level 55",
+      "req": "",
       "reqClass": "",
       "dur": "",
-      "sell": 19896,
+      "sell": 23033,
       "desc": ""
      }
     },
@@ -9354,7 +9356,7 @@
       "spells": [],
       "req": "",
       "reqClass": "Classes: Shaman",
-      "dur": "Durability 52 / 70",
+      "dur": "Durability 70 / 70",
       "sell": 27948,
       "desc": "",
       "set": {
@@ -9509,7 +9511,7 @@
       "spells": [],
       "req": "",
       "reqClass": "Classes: Shaman",
-      "dur": "Durability 108 / 140",
+      "dur": "Durability 140 / 140",
       "sell": 39487,
       "desc": "",
       "set": {
@@ -9616,7 +9618,7 @@
       "spells": [],
       "req": "",
       "reqClass": "Classes: Shaman",
-      "dur": "Durability 31 / 40",
+      "dur": "Durability 40 / 40",
       "sell": 18409,
       "desc": "",
       "set": {
@@ -9728,7 +9730,7 @@
       "spells": [],
       "req": "",
       "reqClass": "Classes: Shaman",
-      "dur": "Durability 38 / 50",
+      "dur": "Durability 50 / 50",
       "sell": 14925,
       "desc": "",
       "set": {
@@ -9838,7 +9840,7 @@
       "spells": [],
       "req": "",
       "reqClass": "Classes: Shaman",
-      "dur": "Durability 27 / 40",
+      "dur": "Durability 40 / 40",
       "sell": 18479,
       "desc": "",
       "set": {
@@ -9938,7 +9940,7 @@
       "spells": [],
       "req": "Requires Level 56",
       "reqClass": "",
-      "dur": "Durability 82 / 105",
+      "dur": "Durability 105 / 105",
       "sell": 42548,
       "desc": ""
      }
@@ -9991,7 +9993,7 @@
       "spells": [],
       "req": "",
       "reqClass": "Classes: Shaman",
-      "dur": "Durability 54 / 70",
+      "dur": "Durability 70 / 70",
       "sell": 29639,
       "desc": "",
       "set": {
@@ -10231,7 +10233,7 @@
       "spells": [],
       "req": "Requires Level 54",
       "reqClass": "",
-      "dur": "Durability 80 / 100",
+      "dur": "Durability 100 / 100",
       "sell": 57457,
       "desc": "",
       "weapon": {
@@ -10271,7 +10273,7 @@
    ],
    "itemLevel": 0,
    "pvp": {
-    "hk": 171,
+    "hk": 181,
     "rank": 0,
     "rankName": "Unranked"
    },
@@ -10340,7 +10342,7 @@
     {
      "k": "health",
      "label": "Health",
-     "v": 3170
+     "v": 3090
     },
     {
      "k": "power",
@@ -10350,7 +10352,7 @@
     {
      "k": "strength",
      "label": "Strength",
-     "v": 229
+     "v": 234
     },
     {
      "k": "agility",
@@ -10360,7 +10362,7 @@
     {
      "k": "stamina",
      "label": "Stamina",
-     "v": 207
+     "v": 199
     },
     {
      "k": "intellect",
@@ -10380,12 +10382,12 @@
     {
      "k": "attack_power",
      "label": "Attack power",
-     "v": 823
+     "v": 827
     },
     {
      "k": "ranged_attack_power",
      "label": "Ranged attack power",
-     "v": 44
+     "v": 38
     },
     {
      "k": "spell_power",
@@ -10395,19 +10397,19 @@
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 16.8,
+     "v": 17.8,
      "p": 1
     },
     {
      "k": "ranged_crit",
      "label": "Ranged crit",
-     "v": 12,
+     "v": 13,
      "p": 1
     },
     {
      "k": "spell_crit",
      "label": "Spell crit",
-     "v": 17.03,
+     "v": 18.03,
      "p": 1
     },
     {
@@ -10460,16 +10462,16 @@
       "tier": 5
      },
      {
-      "name": "Gnomeregan Exiles",
+      "name": "Argent Dawn",
       "standing": "Honored",
-      "v": 5123,
+      "v": 5300,
       "max": 12000,
       "tier": 5
      },
      {
-      "name": "Argent Dawn",
+      "name": "Gnomeregan Exiles",
       "standing": "Honored",
-      "v": 4375,
+      "v": 5123,
       "max": 12000,
       "tier": 5
      },
@@ -10500,10 +10502,10 @@
    },
    "collections": {
     "mounts": 1,
-    "pets": 3,
+    "pets": 4,
     "toys": 1
    },
-   "questsDone": 1098
+   "questsDone": 1107
   },
   {
    "friend": "Panzer",
