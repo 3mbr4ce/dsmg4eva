@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795722859432,
+ "generatedAt": 1795724733374,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -1987,10 +1987,10 @@
    "surname": "Unbann",
    "fullName": "Ruler Unbann",
    "level": 37,
-   "experience": 601,
+   "experience": 4079,
    "xpToLevel": 76100,
-   "xpPct": 0.79,
-   "levelProgress": 37.01,
+   "xpPct": 5.36,
+   "levelProgress": 37.05,
    "className": "Druid",
    "classId": 11,
    "race": "Night Elf",
@@ -1999,7 +1999,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795720606000,
+   "lastLogin": 1795724273000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -2189,7 +2189,7 @@
       "spells": [],
       "req": "Requires Level 29",
       "reqClass": "",
-      "dur": "Durability 99 / 100",
+      "dur": "Durability 98 / 100",
       "sell": 4131,
       "desc": ""
      }
@@ -2577,7 +2577,7 @@
    ],
    "itemLevel": 0,
    "pvp": {
-    "hk": 6,
+    "hk": 7,
     "rank": 0,
     "rankName": "Unranked"
    },
@@ -2740,28 +2740,28 @@
      {
       "name": "Darnassus",
       "standing": "Honored",
-      "v": 8450,
+      "v": 8475,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Stormwind",
       "standing": "Honored",
-      "v": 4738,
+      "v": 4763,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Ironforge",
       "standing": "Honored",
-      "v": 2713,
+      "v": 2813,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Gnomeregan Exiles",
       "standing": "Honored",
-      "v": 57,
+      "v": 82,
       "max": 12000,
       "tier": 5
      },
@@ -2795,7 +2795,7 @@
     "pets": 0,
     "toys": 0
    },
-   "questsDone": 466,
+   "questsDone": 467,
    "history": [
     [
      1795570780222,
@@ -2850,12 +2850,18 @@
      37.01,
      0,
      6
+    ],
+    [
+     1795724733373,
+     37.05,
+     0,
+     7
     ]
    ],
    "weekly": {
-    "levels": 1.15,
+    "levels": 1.19,
     "ilvl": -33.06,
-    "hk": 1,
+    "hk": 2,
     "rank": 0
    },
    "ding60At": null
@@ -10517,10 +10523,10 @@
    "surname": "Fat",
    "fullName": "Damp Fat",
    "level": 45,
-   "experience": 17258,
+   "experience": 113000,
    "xpToLevel": 117500,
-   "xpPct": 14.69,
-   "levelProgress": 45.15,
+   "xpPct": 96.17,
+   "levelProgress": 45.96,
    "className": "Shaman",
    "classId": 7,
    "race": "Dwarf",
@@ -10529,7 +10535,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795643035000,
+   "lastLogin": 1795724520000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -10612,41 +10618,46 @@
     {
      "slot": "SHOULDER",
      "slotName": "Shoulders",
-     "itemId": 4197,
-     "name": "Berylline Pads",
+     "itemId": 9411,
+     "name": "Rockshard Pauldrons",
      "quality": "RARE",
      "ilvl": 0,
      "inventoryType": "SHOULDER",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135036.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135033.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Shoulder",
-      "sub": "Cloth",
-      "armor": "39 Armor",
+      "sub": "Mail",
+      "armor": "209 Armor",
       "stats": [
        {
-        "s": "+10 Intellect",
+        "s": "+13 Intellect",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+5 Stamina",
+        "s": "+3 Strength",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+7 Spell Power",
+        "s": "+12 Spell Power",
+        "neg": false,
+        "eq": true
+       },
+       {
+        "s": "+6 Spirit",
         "neg": false,
         "eq": true
        }
       ],
       "spells": [],
-      "req": "",
+      "req": "Requires Level 41",
       "reqClass": "",
-      "dur": "Durability 50 / 50",
-      "sell": 2864,
+      "dur": "Durability 70 / 70",
+      "sell": 9491,
       "desc": ""
      }
     },
@@ -10796,41 +10807,36 @@
     {
      "slot": "HANDS",
      "slotName": "Hands",
-     "itemId": 10765,
-     "name": "Bonefingers",
-     "quality": "RARE",
+     "itemId": 4980,
+     "name": "Prospector Gloves",
+     "quality": "UNCOMMON",
      "ilvl": 0,
      "inventoryType": "HAND",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132943.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132938.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Hands",
       "sub": "Leather",
-      "armor": "81 Armor",
+      "armor": "69 Armor",
       "stats": [
        {
-        "s": "+9 Intellect",
+        "s": "+8 Intellect",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+9 Stamina",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+4 Mana Regeneration per 5 sec",
+        "s": "+9 Spell Power",
         "neg": false,
         "eq": true
        }
       ],
       "spells": [],
-      "req": "Requires Level 38",
+      "req": "",
       "reqClass": "",
-      "dur": "Durability 35 / 35",
-      "sell": 4200,
+      "dur": "Durability 30 / 30",
+      "sell": 2778,
       "desc": ""
      }
     },
@@ -11175,7 +11181,7 @@
    ],
    "itemLevel": 0,
    "pvp": {
-    "hk": 21,
+    "hk": 22,
     "rank": 0,
     "rankName": "Unranked"
    },
@@ -11234,17 +11240,17 @@
     {
      "k": "health",
      "label": "Health",
-     "v": 1580
+     "v": 1440
     },
     {
      "k": "power",
      "label": "Mana",
-     "v": 3385
+     "v": 3415
     },
     {
      "k": "strength",
      "label": "Strength",
-     "v": 82
+     "v": 85
     },
     {
      "k": "agility",
@@ -11254,27 +11260,27 @@
     {
      "k": "stamina",
      "label": "Stamina",
-     "v": 105
+     "v": 91
     },
     {
      "k": "intellect",
      "label": "Intellect",
-     "v": 170
+     "v": 172
     },
     {
      "k": "spirit",
      "label": "Spirit",
-     "v": 110
+     "v": 116
     },
     {
      "k": "armor",
      "label": "Armor",
-     "v": 1642
+     "v": 1800
     },
     {
      "k": "attack_power",
      "label": "Attack power",
-     "v": 234
+     "v": 240
     },
     {
      "k": "ranged_attack_power",
@@ -11284,12 +11290,12 @@
     {
      "k": "spell_power",
      "label": "Spell power",
-     "v": 96
+     "v": 110
     },
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 3.58,
+     "v": 3.7,
      "p": 1
     },
     {
@@ -11301,13 +11307,13 @@
     {
      "k": "spell_crit",
      "label": "Spell crit",
-     "v": 6.26,
+     "v": 6.31,
      "p": 1
     },
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 3.82,
+     "v": 3.86,
      "p": 1
     },
     {
@@ -11319,7 +11325,7 @@
     {
      "k": "block",
      "label": "Block",
-     "v": 4.68,
+     "v": 4.72,
      "p": 1
     },
     {
@@ -11342,28 +11348,28 @@
      {
       "name": "Stormwind",
       "standing": "Honored",
-      "v": 4606,
+      "v": 4875,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Ironforge",
       "standing": "Honored",
-      "v": 3752,
+      "v": 4771,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Gnomeregan Exiles",
       "standing": "Honored",
-      "v": 1341,
+      "v": 1666,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Darnassus",
       "standing": "Honored",
-      "v": 86,
+      "v": 355,
       "max": 12000,
       "tier": 5
      },
@@ -11397,7 +11403,7 @@
     "pets": 0,
     "toys": 0
    },
-   "questsDone": 468
+   "questsDone": 488
   },
   {
    "friend": "Gareth",
@@ -14676,7 +14682,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795637527000,
+   "lastLogin": 1795724419000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -14750,7 +14756,7 @@
       "spells": [],
       "req": "Requires Level 57",
       "reqClass": "",
-      "dur": "Durability 70 / 70",
+      "dur": "Durability 68 / 70",
       "sell": 24788,
       "desc": "",
       "set": {
@@ -15037,7 +15043,7 @@
       "spells": [],
       "req": "Requires Level 58",
       "reqClass": "",
-      "dur": "Durability 120 / 120",
+      "dur": "Durability 116 / 120",
       "sell": 34549,
       "desc": "",
       "set": {
@@ -15313,7 +15319,7 @@
       "spells": [],
       "req": "Requires Level 56",
       "reqClass": "",
-      "dur": "Durability 40 / 40",
+      "dur": "Durability 39 / 40",
       "sell": 15668,
       "desc": ""
      }
@@ -15629,7 +15635,7 @@
        }
       ],
       "spells": [
-       "Equip: Melee and Ranged attacks have a chance to deal 134 to 202 Fire damage. Deals 3 times as much damage to Orcs."
+       "Equip: Melee and Ranged attacks have a chance to deal 112 to 168 Fire damage. Deals 3 times as much damage to Orcs."
       ],
       "req": "Requires Level 56",
       "reqClass": "",
@@ -15743,7 +15749,7 @@
       "spells": [],
       "req": "Requires Level 56",
       "reqClass": "",
-      "dur": "Durability 75 / 75",
+      "dur": "Durability 74 / 75",
       "sell": 39171,
       "desc": "",
       "weapon": {
@@ -15756,7 +15762,7 @@
    ],
    "itemLevel": 0,
    "pvp": {
-    "hk": 38,
+    "hk": 39,
     "rank": 0,
     "rankName": "Unranked"
    },
@@ -15764,19 +15770,19 @@
     "trees": [
      {
       "name": "Beast Mastery",
-      "points": 5
+      "points": 32
      },
      {
       "name": "Marksmanship",
-      "points": 41
+      "points": 5
      },
      {
       "name": "Survival",
-      "points": 5
+      "points": 14
      }
     ],
-    "split": "5/41/5",
-    "main": "Marksmanship"
+    "split": "32/5/14",
+    "main": "Beast Mastery"
    },
    "professions": {
     "primaries": [
@@ -15798,7 +15804,7 @@
       "name": "Cooking",
       "skill": 300,
       "max": 300,
-      "recipes": 22
+      "recipes": 23
      },
      {
       "name": "Fishing",
@@ -15865,12 +15871,12 @@
     {
      "k": "attack_power",
      "label": "Attack power",
-     "v": 702
+     "v": 584
     },
     {
      "k": "ranged_attack_power",
      "label": "Ranged attack power",
-     "v": 978
+     "v": 860
     },
     {
      "k": "spell_power",
@@ -15880,31 +15886,31 @@
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 11.9,
+     "v": 7.1,
      "p": 1
     },
     {
      "k": "ranged_crit",
      "label": "Ranged crit",
-     "v": 13.46,
+     "v": 8.46,
      "p": 1
     },
     {
      "k": "spell_crit",
      "label": "Spell crit",
-     "v": 11.55,
+     "v": 6.55,
      "p": 1
     },
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 13.73,
+     "v": 13.77,
      "p": 1
     },
     {
      "k": "parry",
      "label": "Parry",
-     "v": 4.84,
+     "v": 4.88,
      "p": 1
     },
     {
@@ -15928,7 +15934,7 @@
    ],
    "titleCount": 0,
    "reputations": {
-    "total": 16,
+    "total": 17,
     "top": [
      {
       "name": "Darnassus",
@@ -15988,7 +15994,7 @@
     "pets": 7,
     "toys": 2
    },
-   "questsDone": 960
+   "questsDone": 1003
   }
  ],
  "enemies": [
