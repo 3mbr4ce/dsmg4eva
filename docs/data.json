@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795715649777,
+ "generatedAt": 1795717062064,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -1987,10 +1987,10 @@
    "surname": "Unbann",
    "fullName": "Ruler Unbann",
    "level": 36,
-   "experience": 33162,
+   "experience": 70189,
    "xpToLevel": 71600,
-   "xpPct": 46.32,
-   "levelProgress": 36.46,
+   "xpPct": 98.03,
+   "levelProgress": 36.98,
    "className": "Druid",
    "classId": 11,
    "race": "Night Elf",
@@ -1999,7 +1999,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795709060000,
+   "lastLogin": 1795716412000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -2033,7 +2033,7 @@
       "spells": [],
       "req": "Requires Level 35",
       "reqClass": "",
-      "dur": "Durability 44 / 50",
+      "dur": "Durability 50 / 50",
       "sell": 4240,
       "desc": ""
      }
@@ -2110,7 +2110,7 @@
       "spells": [],
       "req": "Requires Level 30",
       "reqClass": "",
-      "dur": "Durability 45 / 50",
+      "dur": "Durability 49 / 50",
       "sell": 2609,
       "desc": ""
      }
@@ -2189,7 +2189,7 @@
       "spells": [],
       "req": "Requires Level 29",
       "reqClass": "",
-      "dur": "Durability 90 / 100",
+      "dur": "Durability 100 / 100",
       "sell": 4131,
       "desc": ""
      }
@@ -2250,7 +2250,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 22 / 25",
+      "dur": "Durability 24 / 25",
       "sell": 462,
       "desc": ""
      }
@@ -2288,7 +2288,7 @@
       "spells": [],
       "req": "Requires Level 33",
       "reqClass": "",
-      "dur": "Durability 29 / 30",
+      "dur": "Durability 30 / 30",
       "sell": 2299,
       "desc": ""
      }
@@ -2326,7 +2326,7 @@
       ],
       "req": "Requires Level 28",
       "reqClass": "",
-      "dur": "Durability 33 / 35",
+      "dur": "Durability 34 / 35",
       "sell": 1732,
       "desc": ""
      }
@@ -2364,7 +2364,7 @@
       "spells": [],
       "req": "Requires Level 31",
       "reqClass": "",
-      "dur": "Durability 54 / 65",
+      "dur": "Durability 65 / 65",
       "sell": 3935,
       "desc": ""
      }
@@ -2402,7 +2402,7 @@
       "spells": [],
       "req": "Requires Level 31",
       "reqClass": "",
-      "dur": "Durability 43 / 45",
+      "dur": "Durability 42 / 45",
       "sell": 2839,
       "desc": ""
      }
@@ -2537,7 +2537,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 85 / 100",
+      "dur": "Durability 98 / 100",
       "sell": 12065,
       "desc": "",
       "weapon": {
@@ -2597,11 +2597,11 @@
       "name": "Alchemy",
       "skill": 150,
       "max": 150,
-      "recipes": 22
+      "recipes": 23
      },
      {
       "name": "Herbalism",
-      "skill": 176,
+      "skill": 179,
       "max": 225,
       "recipes": 4
      }
@@ -2687,7 +2687,7 @@
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 4.62,
+     "v": 4.7,
      "p": 1
     },
     {
@@ -2705,7 +2705,7 @@
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 12.98,
+     "v": 13.02,
      "p": 1
     },
     {
@@ -2740,28 +2740,28 @@
      {
       "name": "Darnassus",
       "standing": "Honored",
-      "v": 8400,
+      "v": 8450,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Stormwind",
       "standing": "Honored",
-      "v": 4688,
+      "v": 4738,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Ironforge",
       "standing": "Honored",
-      "v": 2513,
+      "v": 2713,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Gnomeregan Exiles",
       "standing": "Honored",
-      "v": 7,
+      "v": 57,
       "max": 12000,
       "tier": 5
      },
@@ -2795,7 +2795,7 @@
     "pets": 0,
     "toys": 0
    },
-   "questsDone": 449,
+   "questsDone": 466,
    "history": [
     [
      1795570780222,
@@ -2838,10 +2838,16 @@
      36.46,
      0,
      6
+    ],
+    [
+     1795717062063,
+     36.98,
+     0,
+     6
     ]
    ],
    "weekly": {
-    "levels": 0.6,
+    "levels": 1.12,
     "ilvl": -33.06,
     "hk": 1,
     "rank": 0
