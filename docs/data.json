@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795697656203,
+ "generatedAt": 1795700349406,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -18717,7 +18717,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795655737000,
+   "lastLogin": 1795700254000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -19013,7 +19013,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 71 / 100",
+      "dur": "Durability 68 / 100",
       "sell": 15903,
       "desc": ""
      }
@@ -19192,7 +19192,7 @@
       ],
       "req": "Requires Level 55",
       "reqClass": "Classes: Druid",
-      "dur": "Durability 31 / 35",
+      "dur": "Durability 29 / 35",
       "sell": 0,
       "desc": "",
       "set": {
@@ -19392,7 +19392,7 @@
       "spells": [],
       "req": "Requires Level 52",
       "reqClass": "",
-      "dur": "Durability 45 / 75",
+      "dur": "Durability 44 / 75",
       "sell": 22233,
       "desc": ""
      }
@@ -19578,13 +19578,13 @@
     {
      "slot": "TRINKET_1",
      "slotName": "Trinket 1",
-     "itemId": 270275,
-     "name": "Cleansed Vilebranch Medallion",
-     "quality": "UNCOMMON",
+     "itemId": 280060,
+     "name": "Lucky Shovelnose Tuft",
+     "quality": "RARE",
      "ilvl": 0,
      "inventoryType": "TRINKET",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133792.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132184.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
@@ -19593,18 +19593,23 @@
       "armor": "",
       "stats": [
        {
-        "s": "+7 Hit",
+        "s": "+11 Strength",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+11 Spirit",
         "neg": false,
         "eq": true
        }
       ],
       "spells": [
-       "Equip: +14 Attack Power. This effect is tripled in Forest and Grassland areas."
+       "Use: Increases your chance to Dodge by 5% for 15 sec. (5 Min Cooldown)"
       ],
-      "req": "",
+      "req": "Requires Level 55",
       "reqClass": "",
       "dur": "",
-      "sell": 9540,
+      "sell": 19598,
       "desc": ""
      }
     },
@@ -19673,7 +19678,7 @@
       ],
       "req": "Requires Level 55",
       "reqClass": "",
-      "dur": "Durability 105 / 120",
+      "dur": "Durability 104 / 120",
       "sell": 312980,
       "desc": "",
       "weapon": {
@@ -19713,7 +19718,7 @@
    ],
    "itemLevel": 0,
    "pvp": {
-    "hk": 5840,
+    "hk": 5875,
     "rank": 5,
     "rankName": "Sergeant Major"
    },
@@ -19788,7 +19793,7 @@
     {
      "k": "strength",
      "label": "Strength",
-     "v": 196
+     "v": 207
     },
     {
      "k": "agility",
@@ -19808,7 +19813,7 @@
     {
      "k": "spirit",
      "label": "Spirit",
-     "v": 113
+     "v": 124
     },
     {
      "k": "armor",
@@ -19818,12 +19823,12 @@
     {
      "k": "attack_power",
      "label": "Attack power",
-     "v": 460
+     "v": 468
     },
     {
      "k": "ranged_attack_power",
      "label": "Ranged attack power",
-     "v": 88
+     "v": 74
     },
     {
      "k": "spell_power",
@@ -19886,7 +19891,7 @@
      {
       "name": "Stormpike Guard",
       "standing": "Exalted",
-      "v": 377,
+      "v": 479,
       "max": 1000,
       "tier": 7
      },
@@ -19941,7 +19946,7 @@
     "pets": 7,
     "toys": 3
    },
-   "questsDone": 1292
+   "questsDone": 1297
   }
  ]
 }
