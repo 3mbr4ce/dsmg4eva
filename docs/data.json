@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795721116132,
+ "generatedAt": 1795722859432,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -7165,11 +7165,11 @@
    "name": "Xerxes",
    "surname": "Crownrend",
    "fullName": "Xerxes Crownrend",
-   "level": 57,
-   "experience": 185924,
-   "xpToLevel": 195000,
-   "xpPct": 95.35,
-   "levelProgress": 57.95,
+   "level": 58,
+   "experience": 134631,
+   "xpToLevel": 202300,
+   "xpPct": 66.55,
+   "levelProgress": 58.67,
    "className": "Warrior",
    "classId": 1,
    "race": "Night Elf",
@@ -7178,7 +7178,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795715173000,
+   "lastLogin": 1795722678000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -7252,7 +7252,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 39 / 80",
+      "dur": "Durability 28 / 80",
       "sell": 16666,
       "desc": ""
      }
@@ -7260,36 +7260,46 @@
     {
      "slot": "NECK",
      "slotName": "Neck",
-     "itemId": 12028,
-     "name": "Basalt Necklace of the Bear",
-     "quality": "UNCOMMON",
+     "itemId": 11755,
+     "name": "Verek's Collar",
+     "quality": "RARE",
      "ilvl": 0,
      "inventoryType": "NECK",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133295.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133684.jpg",
      "tt": {
-      "bind": "Binds when equipped",
+      "bind": "Binds when picked up",
       "unique": "",
       "inv": "Neck",
       "sub": "Miscellaneous",
       "armor": "",
       "stats": [
        {
-        "s": "+5 Strength",
+        "s": "+6 Strength",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+5 Stamina",
+        "s": "+7 Stamina",
         "neg": false,
         "eq": false
+       },
+       {
+        "s": "+3 Defense",
+        "neg": false,
+        "eq": true
+       },
+       {
+        "s": "+12 Dodge",
+        "neg": false,
+        "eq": true
        }
       ],
       "spells": [],
-      "req": "Requires Level 27",
+      "req": "Requires Level 51",
       "reqClass": "",
       "dur": "",
-      "sell": 4007,
+      "sell": 16061,
       "desc": ""
      }
     },
@@ -7331,7 +7341,7 @@
       ],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 45 / 80",
+      "dur": "Durability 36 / 80",
       "sell": 16666,
       "desc": ""
      }
@@ -7410,7 +7420,7 @@
       "spells": [],
       "req": "Requires Level 40",
       "reqClass": "",
-      "dur": "Durability 56 / 115",
+      "dur": "Durability 33 / 115",
       "sell": 5197,
       "desc": ""
      }
@@ -7468,41 +7478,46 @@
     {
      "slot": "WRIST",
      "slotName": "Wrist",
-     "itemId": 17714,
-     "name": "Bracers of the Stone Princess",
+     "itemId": 11767,
+     "name": "Emberplate Armguards of the Defender",
      "quality": "RARE",
      "ilvl": 0,
      "inventoryType": "WRIST",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132613.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132617.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Wrist",
-      "sub": "Mail",
-      "armor": "141 Armor",
+      "sub": "Plate",
+      "armor": "261 Armor",
       "stats": [
        {
-        "s": "+5 Intellect",
+        "s": "+8 Stamina",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+6 Stamina",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+28 Attack Power",
+        "s": "+3 Defense",
         "neg": false,
         "eq": true
+       },
+       {
+        "s": "+4 Spell Power",
+        "neg": false,
+        "eq": true
+       },
+       {
+        "s": "+10 Fire Resistance",
+        "neg": false,
+        "eq": false
        }
       ],
       "spells": [],
-      "req": "Requires Level 49",
+      "req": "Requires Level 52",
       "reqClass": "",
-      "dur": "Durability 20 / 40",
-      "sell": 10721,
+      "dur": "Durability 44 / 45",
+      "sell": 14982,
       "desc": ""
      }
     },
@@ -7537,7 +7552,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 24 / 35",
+      "dur": "Durability 18 / 35",
       "sell": 8769,
       "desc": ""
      }
@@ -7578,7 +7593,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 17 / 40",
+      "dur": "Durability 14 / 40",
       "sell": 7270,
       "desc": ""
      }
@@ -7624,7 +7639,7 @@
       "spells": [],
       "req": "Requires Level 52",
       "reqClass": "",
-      "dur": "Durability 71 / 90",
+      "dur": "Durability 62 / 90",
       "sell": 25538,
       "desc": "",
       "set": {
@@ -7707,7 +7722,7 @@
       "spells": [],
       "req": "Requires Level 47",
       "reqClass": "",
-      "dur": "Durability 25 / 55",
+      "dur": "Durability 18 / 55",
       "sell": 7650,
       "desc": ""
      }
@@ -7715,8 +7730,49 @@
     {
      "slot": "FINGER_1",
      "slotName": "Ring 1",
-     "itemId": 2933,
-     "name": "Seal of Wrynn",
+     "itemId": 22255,
+     "name": "Magma Forged Band",
+     "quality": "RARE",
+     "ilvl": 0,
+     "inventoryType": "FINGER",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133346.jpg",
+     "tt": {
+      "bind": "Binds when picked up",
+      "unique": "",
+      "inv": "Finger",
+      "sub": "Miscellaneous",
+      "armor": "",
+      "stats": [
+       {
+        "s": "+12 Agility",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+7 Strength",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+7 Stamina",
+        "neg": false,
+        "eq": false
+       }
+      ],
+      "spells": [],
+      "req": "Requires Level 52",
+      "reqClass": "",
+      "dur": "",
+      "sell": 17025,
+      "desc": ""
+     }
+    },
+    {
+     "slot": "FINGER_2",
+     "slotName": "Ring 2",
+     "itemId": 12548,
+     "name": "Magni's Will",
      "quality": "RARE",
      "ilvl": 0,
      "inventoryType": "FINGER",
@@ -7730,27 +7786,17 @@
       "armor": "",
       "stats": [
        {
-        "s": "+4 Intellect",
+        "s": "+7 Strength",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+3 Agility",
+        "s": "+8 Stamina",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+3 Strength",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+4 Stamina",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+3 Spirit",
+        "s": "+14 Critical Strike",
         "neg": false,
         "eq": true
        }
@@ -7759,50 +7805,7 @@
       "req": "",
       "reqClass": "",
       "dur": "",
-      "sell": 2371,
-      "desc": ""
-     }
-    },
-    {
-     "slot": "FINGER_2",
-     "slotName": "Ring 2",
-     "itemId": 11669,
-     "name": "Naglering",
-     "quality": "RARE",
-     "ilvl": 0,
-     "inventoryType": "FINGER",
-     "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133347.jpg",
-     "tt": {
-      "bind": "Binds when picked up",
-      "unique": "",
-      "inv": "Finger",
-      "sub": "Miscellaneous",
-      "armor": "",
-      "stats": [
-       {
-        "s": "+10 Stamina",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+5 Defense",
-        "neg": false,
-        "eq": true
-       },
-       {
-        "s": "+60 Bonus Armor",
-        "neg": false,
-        "eq": true
-       }
-      ],
-      "spells": [
-       "Equip: When struck in combat inflicts 3 Arcane damage to the attacker."
-      ],
-      "req": "Requires Level 54",
-      "reqClass": "",
-      "dur": "",
-      "sell": 18949,
+      "sell": 19896,
       "desc": ""
      }
     },
@@ -7882,7 +7885,7 @@
       ],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 39 / 90",
+      "dur": "Durability 33 / 90",
       "sell": 33714,
       "desc": "",
       "weapon": {
@@ -7938,7 +7941,7 @@
       "spells": [],
       "req": "Requires Level 51",
       "reqClass": "",
-      "dur": "Durability 45 / 100",
+      "dur": "Durability 28 / 100",
       "sell": 25698,
       "desc": ""
      }
@@ -7999,10 +8002,10 @@
      },
      {
       "name": "Protection",
-      "points": 17
+      "points": 18
      }
     ],
-    "split": "31/17",
+    "split": "31/18",
     "main": "Fury"
    },
    "professions": {
@@ -8011,11 +8014,11 @@
       "name": "Mining",
       "skill": 297,
       "max": 300,
-      "recipes": 12
+      "recipes": 14
      },
      {
       "name": "Engineering",
-      "skill": 260,
+      "skill": 261,
       "max": 300,
       "recipes": 61
      }
@@ -8052,7 +8055,7 @@
     {
      "k": "health",
      "label": "Health",
-     "v": 3105
+     "v": 3241
     },
     {
      "k": "power",
@@ -8062,70 +8065,70 @@
     {
      "k": "strength",
      "label": "Strength",
-     "v": 225
+     "v": 239
     },
     {
      "k": "agility",
      "label": "Agility",
-     "v": 135
+     "v": 145
     },
     {
      "k": "stamina",
      "label": "Stamina",
-     "v": 180
+     "v": 187
     },
     {
      "k": "intellect",
      "label": "Intellect",
-     "v": 45
+     "v": 37
     },
     {
      "k": "spirit",
      "label": "Spirit",
-     "v": 55
+     "v": 53
     },
     {
      "k": "armor",
      "label": "Armor",
-     "v": 4774
+     "v": 4854
     },
     {
      "k": "attack_power",
      "label": "Attack power",
-     "v": 636
+     "v": 639
     },
     {
      "k": "ranged_attack_power",
      "label": "Ranged attack power",
-     "v": 342
+     "v": 335
     },
     {
      "k": "spell_power",
      "label": "Spell power",
-     "v": 4
+     "v": 8
     },
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 13.14,
+     "v": 14.47,
      "p": 1
     },
     {
      "k": "ranged_crit",
      "label": "Ranged crit",
-     "v": 1,
+     "v": 2,
      "p": 1
     },
     {
      "k": "spell_crit",
      "label": "Spell crit",
-     "v": 1,
+     "v": 2,
      "p": 1
     },
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 8.86,
+     "v": 10.17,
      "p": 1
     },
     {
@@ -8160,28 +8163,28 @@
      {
       "name": "Darnassus",
       "standing": "Revered",
-      "v": 2572,
+      "v": 2747,
       "max": 21000,
       "tier": 6
      },
      {
       "name": "Stormwind",
       "standing": "Revered",
-      "v": 425,
+      "v": 862,
       "max": 21000,
       "tier": 6
      },
      {
       "name": "Ironforge",
       "standing": "Honored",
-      "v": 9375,
+      "v": 9737,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Gnomeregan Exiles",
       "standing": "Honored",
-      "v": 4698,
+      "v": 4948,
       "max": 12000,
       "tier": 5
      },
@@ -8215,7 +8218,7 @@
     "pets": 4,
     "toys": 2
    },
-   "questsDone": 1033
+   "questsDone": 1045
   },
   {
    "friend": "Ash",
