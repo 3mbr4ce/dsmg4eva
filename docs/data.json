@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795725547256,
+ "generatedAt": 1795726467714,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -5136,7 +5136,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795687818000,
+   "lastLogin": 1795726158000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -5180,7 +5180,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 73 / 80",
+      "dur": "Durability 80 / 80",
       "sell": 16666,
       "desc": ""
      }
@@ -5188,13 +5188,13 @@
     {
      "slot": "NECK",
      "slotName": "Neck",
-     "itemId": 274385,
-     "name": "Abomination Chain",
+     "itemId": 15411,
+     "name": "Mark of Fordring",
      "quality": "RARE",
      "ilvl": 0,
      "inventoryType": "NECK",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132507.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133440.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
@@ -5203,31 +5203,21 @@
       "armor": "",
       "stats": [
        {
-        "s": "+10 Stamina",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+3 Defense",
+        "s": "+14 Critical Strike",
         "neg": false,
         "eq": true
        },
        {
-        "s": "+6 Attack Power",
-        "neg": false,
-        "eq": true
-       },
-       {
-        "s": "+6 Attack Power Vs Humanoids",
+        "s": "+26 Attack Power",
         "neg": false,
         "eq": true
        }
       ],
       "spells": [],
-      "req": "Requires Level 37",
+      "req": "",
       "reqClass": "",
       "dur": "",
-      "sell": 6259,
+      "sell": 23033,
       "desc": ""
      }
     },
@@ -5269,7 +5259,7 @@
       ],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 71 / 80",
+      "dur": "Durability 80 / 80",
       "sell": 16666,
       "desc": ""
      }
@@ -5313,43 +5303,46 @@
     {
      "slot": "CHEST",
      "slotName": "Chest",
-     "itemId": 14835,
-     "name": "Tyrant's Chestpiece",
-     "quality": "UNCOMMON",
+     "itemId": 10845,
+     "name": "Warrior's Embrace",
+     "quality": "RARE",
      "ilvl": 0,
      "inventoryType": "CHEST",
-     "enchants": [
-      "Enchanted: Stamina +8"
-     ],
+     "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132743.jpg",
      "tt": {
-      "bind": "Binds when equipped",
+      "bind": "Binds when picked up",
       "unique": "",
       "inv": "Chest",
       "sub": "Plate",
-      "armor": "463 Armor",
+      "armor": "567 Armor",
       "stats": [
        {
-        "s": "+3 Agility",
+        "s": "+6 Agility",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+16 Strength",
+        "s": "+14 Stamina",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+7 Stamina",
+        "s": "+8 Defense",
         "neg": false,
-        "eq": false
+        "eq": true
+       },
+       {
+        "s": "+18 Dodge",
+        "neg": false,
+        "eq": true
        }
       ],
       "spells": [],
-      "req": "Requires Level 43",
+      "req": "Requires Level 49",
       "reqClass": "",
-      "dur": "Durability 98 / 115",
-      "sell": 8192,
+      "dur": "Durability 135 / 135",
+      "sell": 25016,
       "desc": ""
      }
     },
@@ -5426,7 +5419,7 @@
       "spells": [],
       "req": "Requires Level 52",
       "reqClass": "",
-      "dur": "Durability 40 / 45",
+      "dur": "Durability 45 / 45",
       "sell": 14982,
       "desc": "",
       "set": {
@@ -5538,7 +5531,7 @@
       "spells": [],
       "req": "Requires Level 54",
       "reqClass": "",
-      "dur": "Durability 38 / 45",
+      "dur": "Durability 45 / 45",
       "sell": 16675,
       "desc": "",
       "set": {
@@ -5648,7 +5641,7 @@
       "spells": [],
       "req": "Requires Level 53",
       "reqClass": "",
-      "dur": "Durability 44 / 45",
+      "dur": "Durability 45 / 45",
       "sell": 15881,
       "desc": "",
       "set": {
@@ -5715,36 +5708,41 @@
     {
      "slot": "LEGS",
      "slotName": "Legs",
-     "itemId": 21316,
-     "name": "Leggings of the Ursa",
-     "quality": "UNCOMMON",
+     "itemId": 11927,
+     "name": "Legplates of the Eternal Guardian",
+     "quality": "RARE",
      "ilvl": 0,
      "inventoryType": "LEGS",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134662.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134584.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Legs",
       "sub": "Plate",
-      "armor": "459 Armor",
+      "armor": "522 Armor",
       "stats": [
        {
-        "s": "+17 Strength",
+        "s": "+15 Defense",
         "neg": false,
-        "eq": false
+        "eq": true
        },
        {
-        "s": "+14 Critical Strike",
+        "s": "+10 Block",
+        "neg": false,
+        "eq": true
+       },
+       {
+        "s": "+160 Bonus Armor",
         "neg": false,
         "eq": true
        }
       ],
       "spells": [],
-      "req": "",
+      "req": "Requires Level 52",
       "reqClass": "",
-      "dur": "Durability 74 / 85",
-      "sell": 12407,
+      "dur": "Durability 100 / 100",
+      "sell": 29794,
       "desc": ""
      }
     },
@@ -5784,7 +5782,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 57 / 65",
+      "dur": "Durability 65 / 65",
       "sell": 18726,
       "desc": ""
      }
@@ -5901,34 +5899,26 @@
     {
      "slot": "TRINKET_2",
      "slotName": "Trinket 2",
-     "itemId": 270275,
-     "name": "Cleansed Vilebranch Medallion",
-     "quality": "UNCOMMON",
+     "itemId": 12846,
+     "name": "Argent Dawn Commission",
+     "quality": "COMMON",
      "ilvl": 0,
      "inventoryType": "TRINKET",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133792.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133440.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Trinket",
       "sub": "Miscellaneous",
       "armor": "",
-      "stats": [
-       {
-        "s": "+7 Hit",
-        "neg": false,
-        "eq": true
-       }
-      ],
-      "spells": [
-       "Equip: +14 Attack Power. This effect is tripled in Forest and Grassland areas."
-      ],
+      "stats": [],
+      "spells": [],
       "req": "",
       "reqClass": "",
       "dur": "",
-      "sell": 9540,
-      "desc": ""
+      "sell": 0,
+      "desc": "Equipping this badge is an indication of service to the Argent Dawn."
      }
     },
     {
@@ -5961,7 +5951,7 @@
       ],
       "req": "Requires Level 52",
       "reqClass": "",
-      "dur": "Durability 114 / 120",
+      "dur": "Durability 120 / 120",
       "sell": 70024,
       "desc": "To claim one's destiny requires the strength to reach out and grasp it.",
       "weapon": {
@@ -6002,7 +5992,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 196 / 200",
+      "dur": "Durability 200 / 200",
       "sell": 4932,
       "desc": "Serves as a Skinning Knife.",
       "weapon": {
@@ -6015,7 +6005,7 @@
    ],
    "itemLevel": 0,
    "pvp": {
-    "hk": 92,
+    "hk": 94,
     "rank": 0,
     "rankName": "Unranked"
    },
@@ -6080,7 +6070,7 @@
     {
      "k": "health",
      "label": "Health",
-     "v": 3759
+     "v": 3649
     },
     {
      "k": "power",
@@ -6090,17 +6080,17 @@
     {
      "k": "strength",
      "label": "Strength",
-     "v": 267
+     "v": 234
     },
     {
      "k": "agility",
      "label": "Agility",
-     "v": 116
+     "v": 119
     },
     {
      "k": "stamina",
      "label": "Stamina",
-     "v": 225
+     "v": 214
     },
     {
      "k": "intellect",
@@ -6115,17 +6105,17 @@
     {
      "k": "armor",
      "label": "Armor",
-     "v": 3430
+     "v": 3763
     },
     {
      "k": "attack_power",
      "label": "Attack power",
-     "v": 769
+     "v": 681
     },
     {
      "k": "ranged_attack_power",
      "label": "Ranged attack power",
-     "v": 347
+     "v": 331
     },
     {
      "k": "spell_power",
@@ -6135,13 +6125,13 @@
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 13.76,
+     "v": 13.95,
      "p": 1
     },
     {
      "k": "ranged_crit",
      "label": "Ranged crit",
-     "v": 6.76,
+     "v": 7.11,
      "p": 1
     },
     {
@@ -6153,19 +6143,19 @@
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 7.24,
+     "v": 9.7,
      "p": 1
     },
     {
      "k": "parry",
      "label": "Parry",
-     "v": 8.44,
+     "v": 9.36,
      "p": 1
     },
     {
      "k": "block",
      "label": "Block",
-     "v": 5.44,
+     "v": 8.36,
      "p": 1
     },
     {
@@ -6183,33 +6173,33 @@
    ],
    "titleCount": 0,
    "reputations": {
-    "total": 19,
+    "total": 20,
     "top": [
      {
       "name": "Stormwind",
       "standing": "Revered",
-      "v": 3756,
+      "v": 4131,
       "max": 21000,
       "tier": 6
      },
      {
       "name": "Darnassus",
-      "standing": "Honored",
-      "v": 11946,
-      "max": 12000,
-      "tier": 5
+      "standing": "Revered",
+      "v": 171,
+      "max": 21000,
+      "tier": 6
      },
      {
       "name": "Ironforge",
       "standing": "Honored",
-      "v": 10318,
+      "v": 10543,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Gnomeregan Exiles",
       "standing": "Honored",
-      "v": 4895,
+      "v": 5120,
       "max": 12000,
       "tier": 5
      },
@@ -6243,7 +6233,7 @@
     "pets": 6,
     "toys": 3
    },
-   "questsDone": 1180
+   "questsDone": 1210
   },
   {
    "friend": "Ash",
