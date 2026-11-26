@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795702567165,
+ "generatedAt": 1795703174232,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -8160,7 +8160,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795659335000,
+   "lastLogin": 1795703161000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -8752,7 +8752,7 @@
      "ilvl": 0,
      "inventoryType": "WEAPON",
      "enchants": [
-      "Wound Poison (74 |4Charge:Charges;)"
+      "Wound Poison (90 |4Charge:Charges;)"
      ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135311.jpg",
      "tt": {
@@ -8828,16 +8828,16 @@
    "spec": {
     "trees": [
      {
-      "name": "Combat",
-      "points": 12
+      "name": "Assassination",
+      "points": 3
      },
      {
-      "name": "Subtlety",
-      "points": 27
+      "name": "Combat",
+      "points": 36
      }
     ],
-    "split": "12/27",
-    "main": "Subtlety"
+    "split": "3/36",
+    "main": "Combat"
    },
    "professions": {
     "primaries": [
@@ -8941,19 +8941,19 @@
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 8.8,
+     "v": 9.8,
      "p": 1
     },
     {
      "k": "ranged_crit",
      "label": "Ranged crit",
-     "v": 7.53,
+     "v": 3.53,
      "p": 1
     },
     {
      "k": "spell_crit",
      "label": "Spell crit",
-     "v": 0,
+     "v": 1,
      "p": 1
     },
     {
@@ -8965,7 +8965,7 @@
     {
      "k": "parry",
      "label": "Parry",
-     "v": 4.76,
+     "v": 10.76,
      "p": 1
     },
     {
