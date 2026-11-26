@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795719255364,
+ "generatedAt": 1795721116132,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -1986,11 +1986,11 @@
    "name": "Ruler",
    "surname": "Unbann",
    "fullName": "Ruler Unbann",
-   "level": 36,
-   "experience": 70189,
-   "xpToLevel": 71600,
-   "xpPct": 98.03,
-   "levelProgress": 36.98,
+   "level": 37,
+   "experience": 601,
+   "xpToLevel": 76100,
+   "xpPct": 0.79,
+   "levelProgress": 37.01,
    "className": "Druid",
    "classId": 11,
    "race": "Night Elf",
@@ -1999,7 +1999,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795716412000,
+   "lastLogin": 1795720606000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -2110,7 +2110,7 @@
       "spells": [],
       "req": "Requires Level 30",
       "reqClass": "",
-      "dur": "Durability 49 / 50",
+      "dur": "Durability 48 / 50",
       "sell": 2609,
       "desc": ""
      }
@@ -2189,7 +2189,7 @@
       "spells": [],
       "req": "Requires Level 29",
       "reqClass": "",
-      "dur": "Durability 100 / 100",
+      "dur": "Durability 99 / 100",
       "sell": 4131,
       "desc": ""
      }
@@ -2250,7 +2250,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 24 / 25",
+      "dur": "Durability 23 / 25",
       "sell": 462,
       "desc": ""
      }
@@ -2537,7 +2537,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 98 / 100",
+      "dur": "Durability 96 / 100",
       "sell": 12065,
       "desc": "",
       "weapon": {
@@ -2585,10 +2585,10 @@
     "trees": [
      {
       "name": "Feral Combat",
-      "points": 27
+      "points": 28
      }
     ],
-    "split": "27",
+    "split": "28",
     "main": "Feral Combat"
    },
    "professions": {
@@ -2632,47 +2632,47 @@
     {
      "k": "health",
      "label": "Health",
-     "v": 1209
+     "v": 1246
     },
     {
      "k": "power",
      "label": "Mana",
-     "v": 1714
+     "v": 1759
     },
     {
      "k": "strength",
      "label": "Strength",
-     "v": 107
+     "v": 108
     },
     {
      "k": "agility",
      "label": "Agility",
-     "v": 90
+     "v": 91
     },
     {
      "k": "stamina",
      "label": "Stamina",
-     "v": 82
+     "v": 83
     },
     {
      "k": "intellect",
      "label": "Intellect",
-     "v": 83
+     "v": 84
     },
     {
      "k": "spirit",
      "label": "Spirit",
-     "v": 84
+     "v": 86
     },
     {
      "k": "armor",
      "label": "Armor",
-     "v": 866
+     "v": 868
     },
     {
      "k": "attack_power",
      "label": "Attack power",
-     "v": 210
+     "v": 212
     },
     {
      "k": "ranged_attack_power",
@@ -2687,25 +2687,25 @@
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 4.7,
+     "v": 4.43,
      "p": 1
     },
     {
      "k": "ranged_crit",
      "label": "Ranged crit",
-     "v": 0.98,
+     "v": 0.71,
      "p": 1
     },
     {
      "k": "spell_crit",
      "label": "Spell crit",
-     "v": 4.26,
+     "v": 4.22,
      "p": 1
     },
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 13.02,
+     "v": 12.75,
      "p": 1
     },
     {
@@ -2844,10 +2844,16 @@
      36.98,
      0,
      6
+    ],
+    [
+     1795721116131,
+     37.01,
+     0,
+     6
     ]
    ],
    "weekly": {
-    "levels": 1.12,
+    "levels": 1.15,
     "ilvl": -33.06,
     "hk": 1,
     "rank": 0
