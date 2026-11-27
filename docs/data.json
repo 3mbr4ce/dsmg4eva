@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795816430272,
+ "generatedAt": 1795820029883,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -2850,10 +2850,10 @@
    "surname": "Huun",
    "fullName": "Dala Huun",
    "level": 46,
-   "experience": 90486,
+   "experience": 119200,
    "xpToLevel": 123200,
-   "xpPct": 73.45,
-   "levelProgress": 46.73,
+   "xpPct": 96.75,
+   "levelProgress": 46.97,
    "className": "Shaman",
    "classId": 7,
    "race": "Orc",
@@ -2862,7 +2862,7 @@
    "faction": "HORDE",
    "ruleset": "Normal",
    "achievementPoints": 0,
-   "lastLogin": 1795815516000,
+   "lastLogin": 1795819642000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -3380,9 +3380,7 @@
      "quality": "RARE",
      "ilvl": 0,
      "inventoryType": "TWOHWEAPON",
-     "enchants": [
-      "Windfury 2"
-     ],
+     "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133522.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -3475,7 +3473,7 @@
       "name": "Leatherworking",
       "skill": 225,
       "max": 300,
-      "recipes": 91
+      "recipes": 94
      },
      {
       "name": "Skinning",
@@ -3489,7 +3487,7 @@
       "name": "Cooking",
       "skill": 225,
       "max": 225,
-      "recipes": 38
+      "recipes": 39
      },
      {
       "name": "Fishing",
@@ -3589,19 +3587,19 @@
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 7.24,
+     "v": 7.32,
      "p": 1
     },
     {
      "k": "parry",
      "label": "Parry",
-     "v": 4.72,
+     "v": 4.8,
      "p": 1
     },
     {
      "k": "block",
      "label": "Block",
-     "v": 4.72,
+     "v": 4.8,
      "p": 1
     },
     {
@@ -3652,14 +3650,14 @@
      {
       "name": "Ratchet",
       "standing": "Friendly",
-      "v": 3297,
+      "v": 3667,
       "max": 6000,
       "tier": 4
      },
      {
       "name": "Booty Bay",
       "standing": "Friendly",
-      "v": 2350,
+      "v": 2720,
       "max": 6000,
       "tier": 4
      }
@@ -3679,7 +3677,7 @@
     "pets": 4,
     "toys": 2
    },
-   "questsDone": 616,
+   "questsDone": 622,
    "history": [
     [
      1795570780222,
@@ -3722,10 +3720,16 @@
      46.73,
      0,
      3
+    ],
+    [
+     1795820029883,
+     46.97,
+     0,
+     3
     ]
    ],
    "weekly": {
-    "levels": 2.48,
+    "levels": 2.72,
     "ilvl": -35.18,
     "hk": 2,
     "rank": 0
