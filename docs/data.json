@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795792446066,
+ "generatedAt": 1795793095882,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -43,9 +43,9 @@
    "surname": "Billythecrit",
    "fullName": "Sir Billythecrit",
    "level": 39,
-   "experience": 23711,
+   "experience": 24151,
    "xpToLevel": 85700,
-   "xpPct": 27.67,
+   "xpPct": 28.18,
    "levelProgress": 39.28,
    "className": "Rogue",
    "classId": 4,
@@ -55,7 +55,7 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795732054000,
+   "lastLogin": 1795792467000,
    "apiItemLevel": 0,
    "gear": [
     {
