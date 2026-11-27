@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795820029883,
+ "generatedAt": 1795821186134,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -18877,7 +18877,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795791729000,
+   "lastLogin": 1795820214000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -18921,7 +18921,7 @@
       "spells": [],
       "req": "Requires Level 55",
       "reqClass": "Classes: Druid",
-      "dur": "Durability 19 / 60",
+      "dur": "Durability 27 / 60",
       "sell": 0,
       "desc": "",
       "set": {
@@ -19051,7 +19051,7 @@
       "spells": [],
       "req": "Requires Level 55",
       "reqClass": "Classes: Druid",
-      "dur": "Durability 7 / 60",
+      "dur": "Durability 35 / 60",
       "sell": 0,
       "desc": "",
       "set": {
@@ -19173,7 +19173,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 28 / 100",
+      "dur": "Durability 59 / 100",
       "sell": 15903,
       "desc": ""
      }
@@ -19244,7 +19244,7 @@
       "spells": [],
       "req": "",
       "reqClass": "Classes: Druid",
-      "dur": "Durability 22 / 35",
+      "dur": "Durability 23 / 35",
       "sell": 15287,
       "desc": "",
       "set": {
@@ -19352,7 +19352,7 @@
       ],
       "req": "Requires Level 55",
       "reqClass": "Classes: Druid",
-      "dur": "Durability 21 / 35",
+      "dur": "Durability 27 / 35",
       "sell": 0,
       "desc": "",
       "set": {
@@ -19446,7 +19446,7 @@
       "spells": [],
       "req": "",
       "reqClass": "Classes: Druid",
-      "dur": "Durability 15 / 35",
+      "dur": "Durability 19 / 35",
       "sell": 15346,
       "desc": "",
       "set": {
@@ -19552,7 +19552,7 @@
       "spells": [],
       "req": "Requires Level 52",
       "reqClass": "",
-      "dur": "Durability 18 / 75",
+      "dur": "Durability 51 / 75",
       "sell": 22233,
       "desc": ""
      }
@@ -19600,7 +19600,7 @@
       "spells": [],
       "req": "Requires Level 55",
       "reqClass": "Classes: Druid",
-      "dur": "Durability 16 / 50",
+      "dur": "Durability 29 / 50",
       "sell": 0,
       "desc": "",
       "set": {
@@ -19838,7 +19838,7 @@
       ],
       "req": "Requires Level 55",
       "reqClass": "",
-      "dur": "Durability 68 / 120",
+      "dur": "Durability 66 / 120",
       "sell": 312980,
       "desc": "",
       "weapon": {
@@ -19878,7 +19878,7 @@
    ],
    "itemLevel": 0,
    "pvp": {
-    "hk": 5955,
+    "hk": 6131,
     "rank": 5,
     "rankName": "Sergeant Major"
    },
@@ -19998,7 +19998,7 @@
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 8.17,
+     "v": 8.21,
      "p": 1
     },
     {
@@ -20058,28 +20058,28 @@
      {
       "name": "Darnassus",
       "standing": "Revered",
-      "v": 3953,
+      "v": 3993,
       "max": 21000,
       "tier": 6
      },
      {
       "name": "Stormwind",
       "standing": "Revered",
-      "v": 3118,
+      "v": 3199,
       "max": 21000,
       "tier": 6
      },
      {
       "name": "Ironforge",
       "standing": "Revered",
-      "v": 318,
+      "v": 440,
       "max": 21000,
       "tier": 6
      },
      {
       "name": "Gnomeregan Exiles",
       "standing": "Honored",
-      "v": 6038,
+      "v": 6078,
       "max": 12000,
       "tier": 5
      },
@@ -20106,7 +20106,7 @@
     "pets": 7,
     "toys": 3
    },
-   "questsDone": 1297
+   "questsDone": 1303
   }
  ]
 }
