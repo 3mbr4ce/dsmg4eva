@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795771578973,
+ "generatedAt": 1795782057606,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -10532,11 +10532,11 @@
    "name": "Damp",
    "surname": "Fat",
    "fullName": "Damp Fat",
-   "level": 45,
-   "experience": 113000,
-   "xpToLevel": 117500,
-   "xpPct": 96.17,
-   "levelProgress": 45.96,
+   "level": 46,
+   "experience": 14845,
+   "xpToLevel": 123200,
+   "xpPct": 12.05,
+   "levelProgress": 46.12,
    "className": "Shaman",
    "classId": 7,
    "race": "Dwarf",
@@ -10545,7 +10545,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795724520000,
+   "lastLogin": 1795781207000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -10579,7 +10579,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 50 / 50",
+      "dur": "Durability 49 / 50",
       "sell": 4240,
       "desc": ""
      }
@@ -10666,7 +10666,7 @@
       "spells": [],
       "req": "Requires Level 41",
       "reqClass": "",
-      "dur": "Durability 70 / 70",
+      "dur": "Durability 67 / 70",
       "sell": 9491,
       "desc": ""
      }
@@ -10743,7 +10743,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 70 / 70",
+      "dur": "Durability 67 / 70",
       "sell": 4326,
       "desc": ""
      }
@@ -10932,7 +10932,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 65 / 65",
+      "dur": "Durability 64 / 65",
       "sell": 5864,
       "desc": ""
      }
@@ -10968,7 +10968,7 @@
       "spells": [],
       "req": "Requires Level 26",
       "reqClass": "",
-      "dur": "Durability 45 / 45",
+      "dur": "Durability 44 / 45",
       "sell": 1845,
       "desc": ""
      }
@@ -11110,7 +11110,7 @@
       "spells": [],
       "req": "Requires Level 31",
       "reqClass": "",
-      "dur": "Durability 55 / 55",
+      "dur": "Durability 54 / 55",
       "sell": 7871,
       "desc": "",
       "weapon": {
@@ -11203,10 +11203,10 @@
      },
      {
       "name": "Restoration",
-      "points": 5
+      "points": 6
      }
     ],
-    "split": "31/5",
+    "split": "31/6",
     "main": "Elemental Combat"
    },
    "professions": {
@@ -11250,47 +11250,47 @@
     {
      "k": "health",
      "label": "Health",
-     "v": 1440
+     "v": 1487
     },
     {
      "k": "power",
      "label": "Mana",
-     "v": 3415
+     "v": 3479
     },
     {
      "k": "strength",
      "label": "Strength",
-     "v": 85
+     "v": 86
     },
     {
      "k": "agility",
      "label": "Agility",
-     "v": 37
+     "v": 38
     },
     {
      "k": "stamina",
      "label": "Stamina",
-     "v": 91
+     "v": 92
     },
     {
      "k": "intellect",
      "label": "Intellect",
-     "v": 172
+     "v": 174
     },
     {
      "k": "spirit",
      "label": "Spirit",
-     "v": 116
+     "v": 118
     },
     {
      "k": "armor",
      "label": "Armor",
-     "v": 1800
+     "v": 1802
     },
     {
      "k": "attack_power",
      "label": "Attack power",
-     "v": 240
+     "v": 244
     },
     {
      "k": "ranged_attack_power",
@@ -11305,7 +11305,7 @@
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 3.7,
+     "v": 3.56,
      "p": 1
     },
     {
@@ -11317,13 +11317,13 @@
     {
      "k": "spell_crit",
      "label": "Spell crit",
-     "v": 6.31,
+     "v": 6.25,
      "p": 1
     },
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 3.86,
+     "v": 3.72,
      "p": 1
     },
     {
@@ -11335,7 +11335,7 @@
     {
      "k": "block",
      "label": "Block",
-     "v": 4.72,
+     "v": 4.56,
      "p": 1
     },
     {
@@ -11413,7 +11413,7 @@
     "pets": 0,
     "toys": 0
    },
-   "questsDone": 488
+   "questsDone": 492
   },
   {
    "friend": "Gareth",
