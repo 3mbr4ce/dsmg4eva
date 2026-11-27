@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795822729557,
+ "generatedAt": 1795823670029,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -14705,7 +14705,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795783189000,
+   "lastLogin": 1795823310000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -14779,7 +14779,7 @@
       "spells": [],
       "req": "Requires Level 57",
       "reqClass": "",
-      "dur": "Durability 70 / 70",
+      "dur": "Durability 64 / 70",
       "sell": 24788,
       "desc": "",
       "set": {
@@ -14920,7 +14920,7 @@
       "spells": [],
       "req": "Requires Level 55",
       "reqClass": "",
-      "dur": "Durability 70 / 70",
+      "dur": "Durability 59 / 70",
       "sell": 22483,
       "desc": "",
       "set": {
@@ -15066,7 +15066,7 @@
       "spells": [],
       "req": "Requires Level 58",
       "reqClass": "",
-      "dur": "Durability 120 / 120",
+      "dur": "Durability 110 / 120",
       "sell": 34549,
       "desc": "",
       "set": {
@@ -15196,7 +15196,7 @@
       "spells": [],
       "req": "Requires Level 55",
       "reqClass": "",
-      "dur": "Durability 40 / 40",
+      "dur": "Durability 32 / 40",
       "sell": 14922,
       "desc": ""
      }
@@ -15242,7 +15242,7 @@
       "spells": [],
       "req": "Requires Level 54",
       "reqClass": "",
-      "dur": "Durability 39 / 40",
+      "dur": "Durability 38 / 40",
       "sell": 14211,
       "desc": "",
       "set": {
@@ -15342,7 +15342,7 @@
       "spells": [],
       "req": "Requires Level 56",
       "reqClass": "",
-      "dur": "Durability 40 / 40",
+      "dur": "Durability 37 / 40",
       "sell": 15668,
       "desc": ""
      }
@@ -15393,7 +15393,7 @@
       "spells": [],
       "req": "Requires Level 56",
       "reqClass": "",
-      "dur": "Durability 90 / 90",
+      "dur": "Durability 84 / 90",
       "sell": 31337,
       "desc": "",
       "set": {
@@ -15493,7 +15493,7 @@
       "spells": [],
       "req": "Requires Level 54",
       "reqClass": "",
-      "dur": "Durability 60 / 60",
+      "dur": "Durability 53 / 60",
       "sell": 21412,
       "desc": "",
       "set": {
@@ -15560,13 +15560,13 @@
     {
      "slot": "FINGER_1",
      "slotName": "Ring 1",
-     "itemId": 9533,
-     "name": "Masons Fraternity Ring",
+     "itemId": 17713,
+     "name": "Blackstone Ring",
      "quality": "RARE",
      "ilvl": 0,
      "inventoryType": "FINGER",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133345.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133359.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
@@ -15575,21 +15575,26 @@
       "armor": "",
       "stats": [
        {
-        "s": "+14 Agility",
+        "s": "+6 Stamina",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+5 Stamina",
+        "s": "+10 Hit",
         "neg": false,
-        "eq": false
+        "eq": true
+       },
+       {
+        "s": "+20 Attack Power",
+        "neg": false,
+        "eq": true
        }
       ],
       "spells": [],
-      "req": "",
+      "req": "Requires Level 49",
       "reqClass": "",
       "dur": "",
-      "sell": 10483,
+      "sell": 14295,
       "desc": ""
      }
     },
@@ -15637,33 +15642,27 @@
     {
      "slot": "TRINKET_1",
      "slotName": "Trinket 1",
-     "itemId": 22321,
-     "name": "Heart of Wyrmthalak",
-     "quality": "RARE",
+     "itemId": 11122,
+     "name": "Carrot on a Stick",
+     "quality": "UNCOMMON",
      "ilvl": 0,
      "inventoryType": "TRINKET",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134084.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134010.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Trinket",
       "sub": "Miscellaneous",
       "armor": "",
-      "stats": [
-       {
-        "s": "+13 Fire Resistance",
-        "neg": false,
-        "eq": false
-       }
-      ],
+      "stats": [],
       "spells": [
-       "Equip: Melee and Ranged attacks have a chance to deal 112 to 168 Fire damage. Deals 3 times as much damage to Orcs."
+       "Equip: Increases mount speed by 3%."
       ],
-      "req": "Requires Level 56",
+      "req": "",
       "reqClass": "",
       "dur": "",
-      "sell": 20891,
+      "sell": 9347,
       "desc": ""
      }
     },
@@ -15731,7 +15730,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 100 / 100",
+      "dur": "Durability 99 / 100",
       "sell": 68297,
       "desc": "",
       "weapon": {
@@ -15772,7 +15771,7 @@
       "spells": [],
       "req": "Requires Level 56",
       "reqClass": "",
-      "dur": "Durability 75 / 75",
+      "dur": "Durability 68 / 75",
       "sell": 39171,
       "desc": "",
       "weapon": {
@@ -15854,7 +15853,7 @@
     {
      "k": "health",
      "label": "Health",
-     "v": 3267
+     "v": 3277
     },
     {
      "k": "power",
@@ -15869,12 +15868,12 @@
     {
      "k": "agility",
      "label": "Agility",
-     "v": 342
+     "v": 328
     },
     {
      "k": "stamina",
      "label": "Stamina",
-     "v": 198
+     "v": 199
     },
     {
      "k": "intellect",
@@ -15889,17 +15888,17 @@
     {
      "k": "armor",
      "label": "Armor",
-     "v": 2792
+     "v": 2764
     },
     {
      "k": "attack_power",
      "label": "Attack power",
-     "v": 584
+     "v": 590
     },
     {
      "k": "ranged_attack_power",
      "label": "Ranged attack power",
-     "v": 860
+     "v": 852
     },
     {
      "k": "spell_power",
@@ -15909,13 +15908,13 @@
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 7.14,
+     "v": 7.2,
      "p": 1
     },
     {
      "k": "ranged_crit",
      "label": "Ranged crit",
-     "v": 8.46,
+     "v": 8.2,
      "p": 1
     },
     {
@@ -15927,13 +15926,13 @@
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 13.77,
+     "v": 13.29,
      "p": 1
     },
     {
      "k": "parry",
      "label": "Parry",
-     "v": 4.88,
+     "v": 4.92,
      "p": 1
     },
     {
@@ -15957,40 +15956,40 @@
    ],
    "titleCount": 0,
    "reputations": {
-    "total": 18,
+    "total": 17,
     "top": [
      {
       "name": "Darnassus",
       "standing": "Revered",
-      "v": 2572,
+      "v": 2697,
       "max": 21000,
       "tier": 6
      },
      {
       "name": "Stormwind",
       "standing": "Honored",
-      "v": 8046,
+      "v": 8433,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Argent Dawn",
       "standing": "Honored",
-      "v": 7349,
+      "v": 7599,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Ironforge",
       "standing": "Honored",
-      "v": 5486,
+      "v": 5723,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Gnomeregan Exiles",
       "standing": "Honored",
-      "v": 2296,
+      "v": 2421,
       "max": 12000,
       "tier": 5
      },
@@ -16017,7 +16016,7 @@
     "pets": 7,
     "toys": 2
    },
-   "questsDone": 1016
+   "questsDone": 1047
   }
  ],
  "enemies": [
