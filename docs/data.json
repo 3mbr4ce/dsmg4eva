@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795740691252,
+ "generatedAt": 1795742156838,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -16026,11 +16026,11 @@
    "name": "Atturom",
    "surname": "Mokoko",
    "fullName": "Atturom Mokoko",
-   "level": 36,
-   "experience": 55525,
-   "xpToLevel": 71600,
-   "xpPct": 77.55,
-   "levelProgress": 36.78,
+   "level": 37,
+   "experience": 16752,
+   "xpToLevel": 76100,
+   "xpPct": 22.01,
+   "levelProgress": 37.22,
    "className": "Hunter",
    "classId": 3,
    "race": "Night Elf",
@@ -16039,8 +16039,8 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795486815000,
-   "apiItemLevel": 30,
+   "lastLogin": 1795741402000,
+   "apiItemLevel": 0,
    "gear": [
     {
      "slot": "AMMO",
@@ -16048,7 +16048,7 @@
      "itemId": 3033,
      "name": "Solid Shot",
      "quality": "COMMON",
-     "ilvl": 30,
+     "ilvl": 0,
      "inventoryType": "AMMO",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132384.jpg",
@@ -16078,7 +16078,7 @@
      "itemId": 4048,
      "name": "Emblazoned Hat",
      "quality": "UNCOMMON",
-     "ilvl": 31,
+     "ilvl": 0,
      "inventoryType": "HEAD",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133117.jpg",
@@ -16108,7 +16108,7 @@
       "spells": [],
       "req": "Requires Level 26",
       "reqClass": "",
-      "dur": "Durability 39 / 50",
+      "dur": "Durability 50 / 50",
       "sell": 1767,
       "desc": ""
      }
@@ -16119,7 +16119,7 @@
      "itemId": 12029,
      "name": "Greenstone Talisman of the Falcon",
      "quality": "UNCOMMON",
-     "ilvl": 35,
+     "ilvl": 0,
      "inventoryType": "NECK",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133288.jpg",
@@ -16155,7 +16155,7 @@
      "itemId": 7408,
      "name": "Infiltrator Shoulders of Agility",
      "quality": "UNCOMMON",
-     "ilvl": 33,
+     "ilvl": 0,
      "inventoryType": "SHOULDER",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135039.jpg",
@@ -16175,7 +16175,7 @@
       "spells": [],
       "req": "Requires Level 28",
       "reqClass": "",
-      "dur": "Durability 42 / 50",
+      "dur": "Durability 50 / 50",
       "sell": 2281,
       "desc": ""
      }
@@ -16186,7 +16186,7 @@
      "itemId": 271716,
      "name": "Explorer's League Dustcover",
      "quality": "RARE",
-     "ilvl": 33,
+     "ilvl": 0,
      "inventoryType": "CLOAK",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133773.jpg",
@@ -16227,7 +16227,7 @@
      "itemId": 273026,
      "name": "Garb of Florid Feathers",
      "quality": "RARE",
-     "ilvl": 31,
+     "ilvl": 0,
      "inventoryType": "CHEST",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133684.jpg",
@@ -16252,7 +16252,7 @@
       "spells": [],
       "req": "Requires Level 26",
       "reqClass": "",
-      "dur": "Durability 76 / 100",
+      "dur": "Durability 100 / 100",
       "sell": 2894,
       "desc": ""
      }
@@ -16263,7 +16263,7 @@
      "itemId": 2576,
      "name": "White Linen Shirt",
      "quality": "COMMON",
-     "ilvl": 7,
+     "ilvl": 0,
      "inventoryType": "BODY",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135030.jpg",
@@ -16288,7 +16288,7 @@
      "itemId": 5976,
      "name": "Guild Tabard",
      "quality": "COMMON",
-     "ilvl": 1,
+     "ilvl": 0,
      "inventoryType": "TABARD",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135026.jpg",
@@ -16313,7 +16313,7 @@
      "itemId": 270015,
      "name": "Bravo's Armbands",
      "quality": "UNCOMMON",
-     "ilvl": 22,
+     "ilvl": 0,
      "inventoryType": "WRIST",
      "enchants": [
       "Enchanted: Agility +3"
@@ -16340,7 +16340,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 21 / 25",
+      "dur": "Durability 25 / 25",
       "sell": 462,
       "desc": ""
      }
@@ -16351,7 +16351,7 @@
      "itemId": 3754,
      "name": "Shepherd's Gloves",
      "quality": "UNCOMMON",
-     "ilvl": 33,
+     "ilvl": 0,
      "inventoryType": "HAND",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132955.jpg",
@@ -16376,7 +16376,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 24 / 30",
+      "dur": "Durability 30 / 30",
       "sell": 1492,
       "desc": ""
      }
@@ -16387,7 +16387,7 @@
      "itemId": 279897,
      "name": "Dusty Belt",
      "quality": "UNCOMMON",
-     "ilvl": 17,
+     "ilvl": 0,
      "inventoryType": "WAIST",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132492.jpg",
@@ -16412,7 +16412,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 12 / 20",
+      "dur": "Durability 20 / 20",
       "sell": 240,
       "desc": ""
      }
@@ -16423,7 +16423,7 @@
      "itemId": 9624,
      "name": "Triprunner Dungarees",
      "quality": "RARE",
-     "ilvl": 37,
+     "ilvl": 0,
      "inventoryType": "LEGS",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134588.jpg",
@@ -16453,7 +16453,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 64 / 75",
+      "dur": "Durability 74 / 75",
       "sell": 5252,
       "desc": ""
      }
@@ -16464,7 +16464,7 @@
      "itemId": 10411,
      "name": "Footpads of the Fang",
      "quality": "RARE",
-     "ilvl": 22,
+     "ilvl": 0,
      "inventoryType": "FEET",
      "enchants": [
       "Enchanted: Stamina +3"
@@ -16491,7 +16491,7 @@
       "spells": [],
       "req": "Requires Level 17",
       "reqClass": "",
-      "dur": "Durability 30 / 40",
+      "dur": "Durability 39 / 40",
       "sell": 849,
       "desc": "",
       "set": {
@@ -16545,7 +16545,7 @@
      "itemId": 2933,
      "name": "Seal of Wrynn",
      "quality": "RARE",
-     "ilvl": 31,
+     "ilvl": 0,
      "inventoryType": "FINGER",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133347.jpg",
@@ -16596,7 +16596,7 @@
      "itemId": 11970,
      "name": "Spinel Ring of the Wolf",
      "quality": "UNCOMMON",
-     "ilvl": 34,
+     "ilvl": 0,
      "inventoryType": "FINGER",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133353.jpg",
@@ -16632,7 +16632,7 @@
      "itemId": 280766,
      "name": "Satchel of Potions",
      "quality": "UNCOMMON",
-     "ilvl": 33,
+     "ilvl": 0,
      "inventoryType": "TRINKET",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133633.jpg",
@@ -16659,7 +16659,7 @@
      "itemId": 274152,
      "name": "Roogug's Severed Head",
      "quality": "RARE",
-     "ilvl": 30,
+     "ilvl": 0,
      "inventoryType": "TRINKET",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134172.jpg",
@@ -16692,7 +16692,7 @@
      "itemId": 2280,
      "name": "Kam's Walking Stick",
      "quality": "RARE",
-     "ilvl": 29,
+     "ilvl": 0,
      "inventoryType": "TWOHWEAPON",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135143.jpg",
@@ -16719,7 +16719,7 @@
       ],
       "req": "Requires Level 24",
       "reqClass": "",
-      "dur": "Durability 89 / 100",
+      "dur": "Durability 100 / 100",
       "sell": 6125,
       "desc": "",
       "weapon": {
@@ -16735,7 +16735,7 @@
      "itemId": 274084,
      "name": "Quilboar Blaster",
      "quality": "RARE",
-     "ilvl": 36,
+     "ilvl": 0,
      "inventoryType": "RANGEDRIGHT",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135614.jpg",
@@ -16760,7 +16760,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 62 / 75",
+      "dur": "Durability 75 / 75",
       "sell": 7207,
       "desc": "",
       "weapon": {
@@ -16771,9 +16771,9 @@
      }
     }
    ],
-   "itemLevel": 30.33,
+   "itemLevel": 0,
    "pvp": {
-    "hk": 257,
+    "hk": 258,
     "rank": 0,
     "rankName": "Unranked"
    },
@@ -16781,10 +16781,10 @@
     "trees": [
      {
       "name": "Beast Mastery",
-      "points": 27
+      "points": 28
      }
     ],
-    "split": "27",
+    "split": "28",
     "main": "Beast Mastery"
    },
    "professions": {
@@ -16811,7 +16811,7 @@
      },
      {
       "name": "First Aid",
-      "skill": 182,
+      "skill": 194,
       "max": 225,
       "recipes": 13
      }
@@ -16828,12 +16828,12 @@
     {
      "k": "health",
      "label": "Health",
-     "v": 1187
+     "v": 1228
     },
     {
      "k": "power",
      "label": "Mana",
-     "v": 1875
+     "v": 1935
     },
     {
      "k": "strength",
@@ -16843,17 +16843,17 @@
     {
      "k": "agility",
      "label": "Agility",
-     "v": 166
+     "v": 167
     },
     {
      "k": "stamina",
      "label": "Stamina",
-     "v": 82
+     "v": 83
     },
     {
      "k": "intellect",
      "label": "Intellect",
-     "v": 79
+     "v": 80
     },
     {
      "k": "spirit",
@@ -16863,17 +16863,17 @@
     {
      "k": "armor",
      "label": "Armor",
-     "v": 912
+     "v": 914
     },
     {
      "k": "attack_power",
      "label": "Attack power",
-     "v": 269
+     "v": 272
     },
     {
      "k": "ranged_attack_power",
      "label": "Ranged attack power",
-     "v": 384
+     "v": 388
     },
     {
      "k": "spell_power",
@@ -16883,31 +16883,31 @@
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 4.92,
+     "v": 4.57,
      "p": 1
     },
     {
      "k": "ranged_crit",
      "label": "Ranged crit",
-     "v": 5.64,
+     "v": 5.29,
      "p": 1
     },
     {
      "k": "spell_crit",
      "label": "Spell crit",
-     "v": 5.69,
+     "v": 5.71,
      "p": 1
     },
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 11.33,
+     "v": 10.82,
      "p": 1
     },
     {
      "k": "parry",
      "label": "Parry",
-     "v": 3.96,
+     "v": 3.76,
      "p": 1
     },
     {
@@ -16936,42 +16936,42 @@
      {
       "name": "Darnassus",
       "standing": "Honored",
-      "v": 6441,
+      "v": 6491,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Stormwind",
       "standing": "Honored",
-      "v": 4357,
+      "v": 4482,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Ironforge",
       "standing": "Honored",
-      "v": 1412,
+      "v": 1537,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Gnomeregan Exiles",
       "standing": "Friendly",
-      "v": 5670,
+      "v": 5820,
       "max": 6000,
       "tier": 4
      },
      {
-      "name": "Kirin Tor",
+      "name": "Booty Bay",
       "standing": "Neutral",
-      "v": 1280,
+      "v": 1881,
       "max": 3000,
       "tier": 3
      },
      {
-      "name": "Booty Bay",
+      "name": "Ratchet",
       "standing": "Neutral",
-      "v": 1206,
+      "v": 1492,
       "max": 3000,
       "tier": 3
      }
@@ -16979,11 +16979,11 @@
    },
    "achievements": {
     "points": 0,
-    "count": 9,
+    "count": 10,
     "recent": [
+     "Novice Paladin",
      "Explore Elwynn Forest",
-     "Novice Shaman",
-     "Explore Dun Morogh"
+     "Novice Shaman"
     ]
    },
    "collections": {
@@ -16991,7 +16991,7 @@
     "pets": 1,
     "toys": 0
    },
-   "questsDone": 430
+   "questsDone": 445
   },
   {
    "friend": "Kusou",
@@ -17003,10 +17003,10 @@
    "surname": "Mokoko",
    "fullName": "Kusou Mokoko",
    "level": 36,
-   "experience": 35852,
+   "experience": 70577,
    "xpToLevel": 71600,
-   "xpPct": 50.07,
-   "levelProgress": 36.5,
+   "xpPct": 98.57,
+   "levelProgress": 36.99,
    "className": "Rogue",
    "classId": 4,
    "race": "Night Elf",
@@ -17015,8 +17015,8 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795568213000,
-   "apiItemLevel": 30,
+   "lastLogin": 1795741374000,
+   "apiItemLevel": 0,
    "gear": [
     {
      "slot": "AMMO",
@@ -17024,7 +17024,7 @@
      "itemId": 3033,
      "name": "Solid Shot",
      "quality": "COMMON",
-     "ilvl": 30,
+     "ilvl": 0,
      "inventoryType": "AMMO",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132384.jpg",
@@ -17051,36 +17051,36 @@
     {
      "slot": "HEAD",
      "slotName": "Head",
-     "itemId": 7441,
-     "name": "Sentinel Cap of Arcane Protection",
+     "itemId": 8176,
+     "name": "Nightscape Headband",
      "quality": "UNCOMMON",
-     "ilvl": 38,
+     "ilvl": 0,
      "inventoryType": "HEAD",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133117.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132513.jpg",
      "tt": {
       "bind": "Binds when equipped",
       "unique": "",
       "inv": "Head",
       "sub": "Leather",
-      "armor": "86 Armor",
+      "armor": "91 Armor",
       "stats": [
        {
-        "s": "+10 Stamina",
+        "s": "+12 Agility",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+10 Arcane Resistance",
+        "s": "+11 Stamina",
         "neg": false,
         "eq": false
        }
       ],
       "spells": [],
-      "req": "Requires Level 33",
+      "req": "Requires Level 36",
       "reqClass": "",
-      "dur": "Durability 31 / 50",
-      "sell": 3514,
+      "dur": "Durability 49 / 50",
+      "sell": 2922,
       "desc": ""
      }
     },
@@ -17090,7 +17090,7 @@
      "itemId": 12019,
      "name": "Cerulean Talisman of the Boar",
      "quality": "UNCOMMON",
-     "ilvl": 32,
+     "ilvl": 0,
      "inventoryType": "NECK",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133288.jpg",
@@ -17126,7 +17126,7 @@
      "itemId": 5964,
      "name": "Barbaric Shoulders",
      "quality": "UNCOMMON",
-     "ilvl": 35,
+     "ilvl": 0,
      "inventoryType": "SHOULDER",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135039.jpg",
@@ -17156,7 +17156,7 @@
       "spells": [],
       "req": "Requires Level 30",
       "reqClass": "",
-      "dur": "Durability 34 / 50",
+      "dur": "Durability 33 / 50",
       "sell": 2609,
       "desc": ""
      }
@@ -17167,7 +17167,7 @@
      "itemId": 5193,
      "name": "Cape of the Brotherhood",
      "quality": "RARE",
-     "ilvl": 24,
+     "ilvl": 0,
      "inventoryType": "CLOAK",
      "enchants": [
       "Enchanted: Agility +3"
@@ -17205,7 +17205,7 @@
      "itemId": 2041,
      "name": "Tunic of Westfall",
      "quality": "RARE",
-     "ilvl": 24,
+     "ilvl": 0,
      "inventoryType": "CHEST",
      "enchants": [
       "Enchanted: Stamina +4"
@@ -17243,7 +17243,7 @@
      "itemId": 2576,
      "name": "White Linen Shirt",
      "quality": "COMMON",
-     "ilvl": 7,
+     "ilvl": 0,
      "inventoryType": "BODY",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135030.jpg",
@@ -17268,7 +17268,7 @@
      "itemId": 5976,
      "name": "Guild Tabard",
      "quality": "COMMON",
-     "ilvl": 1,
+     "ilvl": 0,
      "inventoryType": "TABARD",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135026.jpg",
@@ -17293,7 +17293,7 @@
      "itemId": 7378,
      "name": "Dusky Bracers",
      "quality": "UNCOMMON",
-     "ilvl": 37,
+     "ilvl": 0,
      "inventoryType": "WRIST",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132606.jpg",
@@ -17313,7 +17313,7 @@
       "spells": [],
       "req": "Requires Level 32",
       "reqClass": "",
-      "dur": "Durability 23 / 30",
+      "dur": "Durability 20 / 30",
       "sell": 2146,
       "desc": ""
      }
@@ -17324,7 +17324,7 @@
      "itemId": 274159,
      "name": "Thorncursed Grips",
      "quality": "RARE",
-     "ilvl": 33,
+     "ilvl": 0,
      "inventoryType": "HAND",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132939.jpg",
@@ -17346,7 +17346,7 @@
       ],
       "req": "Requires Level 27",
       "reqClass": "",
-      "dur": "Durability 32 / 35",
+      "dur": "Durability 31 / 35",
       "sell": 1833,
       "desc": ""
      }
@@ -17357,7 +17357,7 @@
      "itemId": 6421,
      "name": "Glyphed Belt",
      "quality": "UNCOMMON",
-     "ilvl": 38,
+     "ilvl": 0,
      "inventoryType": "WAIST",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132504.jpg",
@@ -17398,7 +17398,7 @@
      "itemId": 9624,
      "name": "Triprunner Dungarees",
      "quality": "RARE",
-     "ilvl": 37,
+     "ilvl": 0,
      "inventoryType": "LEGS",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134588.jpg",
@@ -17428,7 +17428,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 54 / 75",
+      "dur": "Durability 53 / 75",
       "sell": 5252,
       "desc": ""
      }
@@ -17439,7 +17439,7 @@
      "itemId": 1121,
      "name": "Feet of the Lynx",
      "quality": "RARE",
-     "ilvl": 24,
+     "ilvl": 0,
      "inventoryType": "FEET",
      "enchants": [
       "Enchanted: Stamina +3"
@@ -17466,7 +17466,7 @@
       "spells": [],
       "req": "Requires Level 19",
       "reqClass": "",
-      "dur": "Durability 33 / 45",
+      "dur": "Durability 32 / 45",
       "sell": 1075,
       "desc": ""
      }
@@ -17477,7 +17477,7 @@
      "itemId": 2933,
      "name": "Seal of Wrynn",
      "quality": "RARE",
-     "ilvl": 31,
+     "ilvl": 0,
      "inventoryType": "FINGER",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133347.jpg",
@@ -17528,7 +17528,7 @@
      "itemId": 270053,
      "name": "Ring of Ruin",
      "quality": "UNCOMMON",
-     "ilvl": 35,
+     "ilvl": 0,
      "inventoryType": "FINGER",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133350.jpg",
@@ -17564,7 +17564,7 @@
      "itemId": 280766,
      "name": "Satchel of Potions",
      "quality": "UNCOMMON",
-     "ilvl": 33,
+     "ilvl": 0,
      "inventoryType": "TRINKET",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133633.jpg",
@@ -17591,11 +17591,9 @@
      "itemId": 273809,
      "name": "Hamhock's Cleaver",
      "quality": "RARE",
-     "ilvl": 30,
+     "ilvl": 0,
      "inventoryType": "WEAPONMAINHAND",
-     "enchants": [
-      "Sharpened +8"
-     ],
+     "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132392.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -17639,11 +17637,9 @@
      "itemId": 6692,
      "name": "Pronged Reaver",
      "quality": "RARE",
-     "ilvl": 35,
+     "ilvl": 0,
      "inventoryType": "WEAPON",
-     "enchants": [
-      "Sharpened +8"
-     ],
+     "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132409.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -17682,7 +17678,7 @@
      "itemId": 2098,
      "name": "Double-barreled Shotgun",
      "quality": "RARE",
-     "ilvl": 27,
+     "ilvl": 0,
      "inventoryType": "RANGEDRIGHT",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135617.jpg",
@@ -17718,7 +17714,7 @@
      }
     }
    ],
-   "itemLevel": 31.94,
+   "itemLevel": 0,
    "pvp": {
     "hk": 255,
     "rank": 0,
@@ -17781,7 +17777,7 @@
     {
      "k": "health",
      "label": "Health",
-     "v": 1341
+     "v": 1351
     },
     {
      "k": "power",
@@ -17796,12 +17792,12 @@
     {
      "k": "agility",
      "label": "Agility",
-     "v": 158
+     "v": 170
     },
     {
      "k": "stamina",
      "label": "Stamina",
-     "v": 94
+     "v": 95
     },
     {
      "k": "intellect",
@@ -17816,17 +17812,17 @@
     {
      "k": "armor",
      "label": "Armor",
-     "v": 929
+     "v": 958
     },
     {
      "k": "attack_power",
      "label": "Attack power",
-     "v": 319
+     "v": 331
     },
     {
      "k": "ranged_attack_power",
      "label": "Ranged attack power",
-     "v": 358
+     "v": 382
     },
     {
      "k": "spell_power",
@@ -17836,13 +17832,13 @@
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 9.88,
+     "v": 10.63,
      "p": 1
     },
     {
      "k": "ranged_crit",
      "label": "Ranged crit",
-     "v": 3.03,
+     "v": 3.78,
      "p": 1
     },
     {
@@ -17854,7 +17850,7 @@
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 20.59,
+     "v": 22.09,
      "p": 1
     },
     {
@@ -17889,28 +17885,28 @@
      {
       "name": "Darnassus",
       "standing": "Honored",
-      "v": 5228,
+      "v": 5303,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Stormwind",
       "standing": "Honored",
-      "v": 3810,
+      "v": 3960,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Ironforge",
       "standing": "Honored",
-      "v": 1078,
+      "v": 1303,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Gnomeregan Exiles",
       "standing": "Friendly",
-      "v": 5505,
+      "v": 5680,
       "max": 6000,
       "tier": 4
      },
@@ -17922,9 +17918,9 @@
       "tier": 3
      },
      {
-      "name": "Kirin Tor",
+      "name": "Booty Bay",
       "standing": "Neutral",
-      "v": 1318,
+      "v": 1880,
       "max": 3000,
       "tier": 3
      }
@@ -17944,7 +17940,7 @@
     "pets": 0,
     "toys": 0
    },
-   "questsDone": 415
+   "questsDone": 430
   },
   {
    "friend": "Tryi",
@@ -17955,11 +17951,11 @@
    "name": "Tryi",
    "surname": "Mokoko",
    "fullName": "Tryi Mokoko",
-   "level": 36,
-   "experience": 32055,
-   "xpToLevel": 71600,
-   "xpPct": 44.77,
-   "levelProgress": 36.45,
+   "level": 37,
+   "experience": 9257,
+   "xpToLevel": 76100,
+   "xpPct": 12.16,
+   "levelProgress": 37.12,
    "className": "Druid",
    "classId": 11,
    "race": "Night Elf",
@@ -17968,8 +17964,8 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795568070000,
-   "apiItemLevel": 29,
+   "lastLogin": 1795741381000,
+   "apiItemLevel": 0,
    "gear": [
     {
      "slot": "HEAD",
@@ -17977,7 +17973,7 @@
      "itemId": 8176,
      "name": "Nightscape Headband",
      "quality": "UNCOMMON",
-     "ilvl": 41,
+     "ilvl": 0,
      "inventoryType": "HEAD",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132513.jpg",
@@ -18002,7 +17998,7 @@
       "spells": [],
       "req": "Requires Level 36",
       "reqClass": "",
-      "dur": "Durability 39 / 50",
+      "dur": "Durability 37 / 50",
       "sell": 2922,
       "desc": ""
      }
@@ -18013,7 +18009,7 @@
      "itemId": 273088,
      "name": "Snake Eye Kaleidoscope",
      "quality": "RARE",
-     "ilvl": 22,
+     "ilvl": 0,
      "inventoryType": "NECK",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133884.jpg",
@@ -18094,7 +18090,7 @@
      "itemId": 5964,
      "name": "Barbaric Shoulders",
      "quality": "UNCOMMON",
-     "ilvl": 35,
+     "ilvl": 0,
      "inventoryType": "SHOULDER",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135039.jpg",
@@ -18124,7 +18120,7 @@
       "spells": [],
       "req": "Requires Level 30",
       "reqClass": "",
-      "dur": "Durability 36 / 50",
+      "dur": "Durability 31 / 50",
       "sell": 2609,
       "desc": ""
      }
@@ -18135,7 +18131,7 @@
      "itemId": 6314,
      "name": "Wolfmaster Cape",
      "quality": "RARE",
-     "ilvl": 27,
+     "ilvl": 0,
      "inventoryType": "CLOAK",
      "enchants": [
       "Enchanted: Agility +3"
@@ -18178,7 +18174,7 @@
      "itemId": 5739,
      "name": "Barbaric Harness",
      "quality": "UNCOMMON",
-     "ilvl": 38,
+     "ilvl": 0,
      "inventoryType": "CHEST",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132719.jpg",
@@ -18208,7 +18204,7 @@
       "spells": [],
       "req": "Requires Level 33",
       "reqClass": "",
-      "dur": "Durability 70 / 85",
+      "dur": "Durability 69 / 85",
       "sell": 2738,
       "desc": ""
      }
@@ -18219,7 +18215,7 @@
      "itemId": 2576,
      "name": "White Linen Shirt",
      "quality": "COMMON",
-     "ilvl": 7,
+     "ilvl": 0,
      "inventoryType": "BODY",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135030.jpg",
@@ -18244,7 +18240,7 @@
      "itemId": 5976,
      "name": "Guild Tabard",
      "quality": "COMMON",
-     "ilvl": 1,
+     "ilvl": 0,
      "inventoryType": "TABARD",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135026.jpg",
@@ -18269,7 +18265,7 @@
      "itemId": 270015,
      "name": "Bravo's Armbands",
      "quality": "UNCOMMON",
-     "ilvl": 22,
+     "ilvl": 0,
      "inventoryType": "WRIST",
      "enchants": [
       "Enchanted: Agility +3"
@@ -18296,7 +18292,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 21 / 25",
+      "dur": "Durability 20 / 25",
       "sell": 462,
       "desc": ""
      }
@@ -18307,7 +18303,7 @@
      "itemId": 4253,
      "name": "Toughened Leather Gloves",
      "quality": "RARE",
-     "ilvl": 27,
+     "ilvl": 0,
      "inventoryType": "HAND",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132958.jpg",
@@ -18337,7 +18333,7 @@
       "spells": [],
       "req": "Requires Level 22",
       "reqClass": "",
-      "dur": "Durability 33 / 35",
+      "dur": "Durability 31 / 35",
       "sell": 962,
       "desc": ""
      }
@@ -18348,7 +18344,7 @@
      "itemId": 6398,
      "name": "Emblazoned Belt",
      "quality": "UNCOMMON",
-     "ilvl": 29,
+     "ilvl": 0,
      "inventoryType": "WAIST",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132500.jpg",
@@ -18373,7 +18369,7 @@
       "spells": [],
       "req": "Requires Level 24",
       "reqClass": "",
-      "dur": "Durability 27 / 30",
+      "dur": "Durability 26 / 30",
       "sell": 989,
       "desc": ""
      }
@@ -18384,7 +18380,7 @@
      "itemId": 9624,
      "name": "Triprunner Dungarees",
      "quality": "RARE",
-     "ilvl": 37,
+     "ilvl": 0,
      "inventoryType": "LEGS",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134588.jpg",
@@ -18425,7 +18421,7 @@
      "itemId": 15341,
      "name": "Pathfinder Footpads of the Tiger",
      "quality": "UNCOMMON",
-     "ilvl": 30,
+     "ilvl": 0,
      "inventoryType": "FEET",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132539.jpg",
@@ -18450,7 +18446,7 @@
       "spells": [],
       "req": "Requires Level 25",
       "reqClass": "",
-      "dur": "Durability 37 / 45",
+      "dur": "Durability 36 / 45",
       "sell": 1697,
       "desc": ""
      }
@@ -18461,7 +18457,7 @@
      "itemId": 2933,
      "name": "Seal of Wrynn",
      "quality": "RARE",
-     "ilvl": 31,
+     "ilvl": 0,
      "inventoryType": "FINGER",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133347.jpg",
@@ -18512,7 +18508,7 @@
      "itemId": 270053,
      "name": "Ring of Ruin",
      "quality": "UNCOMMON",
-     "ilvl": 35,
+     "ilvl": 0,
      "inventoryType": "FINGER",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133350.jpg",
@@ -18548,7 +18544,7 @@
      "itemId": 280766,
      "name": "Satchel of Potions",
      "quality": "UNCOMMON",
-     "ilvl": 33,
+     "ilvl": 0,
      "inventoryType": "TRINKET",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133633.jpg",
@@ -18575,7 +18571,7 @@
      "itemId": 9449,
      "name": "Manual Crowd Pummeler",
      "quality": "RARE",
-     "ilvl": 34,
+     "ilvl": 0,
      "inventoryType": "TWOHWEAPON",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133489.jpg",
@@ -18602,7 +18598,7 @@
       ],
       "req": "Requires Level 29",
       "reqClass": "",
-      "dur": "Durability 82 / 100",
+      "dur": "Durability 80 / 100",
       "sell": 9865,
       "desc": "",
       "weapon": {
@@ -18618,7 +18614,7 @@
      "itemId": 263411,
      "name": "Idol of Shifting Tides",
      "quality": "UNCOMMON",
-     "ilvl": 16,
+     "ilvl": 0,
      "inventoryType": "RELIC",
      "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134914.jpg",
@@ -18640,9 +18636,9 @@
      }
     }
    ],
-   "itemLevel": 30.69,
+   "itemLevel": 0,
    "pvp": {
-    "hk": 288,
+    "hk": 290,
     "rank": 0,
     "rankName": "Unranked"
    },
@@ -18650,10 +18646,10 @@
     "trees": [
      {
       "name": "Feral Combat",
-      "points": 27
+      "points": 28
      }
     ],
-    "split": "27",
+    "split": "28",
     "main": "Feral Combat"
    },
    "professions": {
@@ -18691,47 +18687,47 @@
     {
      "k": "health",
      "label": "Health",
-     "v": 1279
+     "v": 1316
     },
     {
      "k": "power",
      "label": "Mana",
-     "v": 1459
+     "v": 1504
     },
     {
      "k": "strength",
      "label": "Strength",
-     "v": 100
+     "v": 101
     },
     {
      "k": "agility",
      "label": "Agility",
-     "v": 123
+     "v": 124
     },
     {
      "k": "stamina",
      "label": "Stamina",
-     "v": 89
+     "v": 90
     },
     {
      "k": "intellect",
      "label": "Intellect",
-     "v": 66
+     "v": 67
     },
     {
      "k": "spirit",
      "label": "Spirit",
-     "v": 70
+     "v": 72
     },
     {
      "k": "armor",
      "label": "Armor",
-     "v": 854
+     "v": 856
     },
     {
      "k": "attack_power",
      "label": "Attack power",
-     "v": 190
+     "v": 192
     },
     {
      "k": "ranged_attack_power",
@@ -18746,25 +18742,25 @@
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 7.71,
+     "v": 7.39,
      "p": 1
     },
     {
      "k": "ranged_crit",
      "label": "Ranged crit",
-     "v": 3.63,
+     "v": 3.31,
      "p": 1
     },
     {
      "k": "spell_crit",
      "label": "Spell crit",
-     "v": 3.75,
+     "v": 3.73,
      "p": 1
     },
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 15.59,
+     "v": 15.31,
      "p": 1
     },
     {
@@ -18799,28 +18795,28 @@
      {
       "name": "Darnassus",
       "standing": "Honored",
-      "v": 5428,
+      "v": 5491,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Stormwind",
       "standing": "Honored",
-      "v": 3972,
+      "v": 4110,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Ironforge",
       "standing": "Honored",
-      "v": 1241,
+      "v": 1416,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Gnomeregan Exiles",
       "standing": "Friendly",
-      "v": 5592,
+      "v": 5755,
       "max": 6000,
       "tier": 4
      },
@@ -18832,9 +18828,9 @@
       "tier": 3
      },
      {
-      "name": "Kirin Tor",
+      "name": "Booty Bay",
       "standing": "Neutral",
-      "v": 1243,
+      "v": 1890,
       "max": 3000,
       "tier": 3
      }
@@ -18842,11 +18838,11 @@
    },
    "achievements": {
     "points": 0,
-    "count": 9,
+    "count": 10,
     "recent": [
+     "Novice Paladin",
      "Explore Elwynn Forest",
-     "Novice Shaman",
-     "Explore Dun Morogh"
+     "Novice Shaman"
     ]
    },
    "collections": {
@@ -18854,7 +18850,7 @@
     "pets": 1,
     "toys": 0
    },
-   "questsDone": 424
+   "questsDone": 440
   },
   {
    "friend": "Daytona",
