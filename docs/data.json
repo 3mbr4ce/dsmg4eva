@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795821186134,
+ "generatedAt": 1795821852650,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -43,10 +43,10 @@
    "surname": "Billythecrit",
    "fullName": "Sir Billythecrit",
    "level": 39,
-   "experience": 24151,
+   "experience": 40551,
    "xpToLevel": 85700,
-   "xpPct": 28.18,
-   "levelProgress": 39.28,
+   "xpPct": 47.32,
+   "levelProgress": 39.47,
    "className": "Rogue",
    "classId": 4,
    "race": "Undead",
@@ -55,7 +55,7 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795792467000,
+   "lastLogin": 1795821514000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -132,8 +132,8 @@
     {
      "slot": "NECK",
      "slotName": "Neck",
-     "itemId": 273457,
-     "name": "Sorcerer Collar",
+     "itemId": 10824,
+     "name": "Amberglow Talisman",
      "quality": "RARE",
      "ilvl": 0,
      "inventoryType": "NECK",
@@ -147,23 +147,26 @@
       "armor": "",
       "stats": [
        {
-        "s": "+2 Intellect",
+        "s": "+1 Agility",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+2 Spirit",
+        "s": "+7 Stamina",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+10 Spirit",
         "neg": false,
         "eq": true
        }
       ],
-      "spells": [
-       "Equip: Reduces the hit chance of Silence effects against you by 4%."
-      ],
-      "req": "Requires Level 17",
+      "spells": [],
+      "req": "",
       "reqClass": "",
       "dur": "",
-      "sell": 878,
+      "sell": 7201,
       "desc": ""
      }
     },
@@ -700,13 +703,13 @@
     {
      "slot": "OFF_HAND",
      "slotName": "Off Hand",
-     "itemId": 277246,
-     "name": "Ruby-Adorned Blade",
+     "itemId": 10823,
+     "name": "Vanquisher's Sword",
      "quality": "RARE",
      "ilvl": 0,
      "inventoryType": "WEAPON",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135277.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135345.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
@@ -715,26 +718,21 @@
       "armor": "",
       "stats": [
        {
-        "s": "+3 Agility",
+        "s": "+22 Attack Power",
         "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+8 Stamina",
-        "neg": false,
-        "eq": false
+        "eq": true
        }
       ],
       "spells": [],
       "req": "",
-      "reqClass": "Classes: Rogue",
+      "reqClass": "",
       "dur": "Durability 90 / 90",
-      "sell": 9792,
+      "sell": 18003,
       "desc": "",
       "weapon": {
-       "dmg": "38 - 72 Damage",
-       "speed": "Speed 2.30",
-       "dps": "(23.9 damage per second)"
+       "dmg": "46 - 86 Damage",
+       "speed": "Speed 2.20",
+       "dps": "(30 damage per second)"
       }
      }
     },
@@ -787,9 +785,9 @@
    ],
    "itemLevel": 0,
    "pvp": {
-    "hk": 818,
-    "rank": 1,
-    "rankName": "Scout"
+    "hk": 1184,
+    "rank": 2,
+    "rankName": "Grunt"
    },
    "spec": {
     "trees": [
@@ -825,7 +823,7 @@
      },
      {
       "name": "Fishing",
-      "skill": 161,
+      "skill": 174,
       "max": 225,
       "recipes": 2
      },
@@ -848,7 +846,7 @@
     {
      "k": "health",
      "label": "Health",
-     "v": 2311
+     "v": 2301
     },
     {
      "k": "power",
@@ -863,37 +861,37 @@
     {
      "k": "agility",
      "label": "Agility",
-     "v": 152
+     "v": 150
     },
     {
      "k": "stamina",
      "label": "Stamina",
-     "v": 182
+     "v": 181
     },
     {
      "k": "intellect",
      "label": "Intellect",
-     "v": 28
+     "v": 26
     },
     {
      "k": "spirit",
      "label": "Spirit",
-     "v": 53
+     "v": 61
     },
     {
      "k": "armor",
      "label": "Armor",
-     "v": 1072
+     "v": 1068
     },
     {
      "k": "attack_power",
      "label": "Attack power",
-     "v": 312
+     "v": 332
     },
     {
      "k": "ranged_attack_power",
      "label": "Ranged attack power",
-     "v": 361
+     "v": 379
     },
     {
      "k": "spell_power",
@@ -903,13 +901,13 @@
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 8.7,
+     "v": 8.59,
      "p": 1
     },
     {
      "k": "ranged_crit",
      "label": "Ranged crit",
-     "v": 8.3,
+     "v": 8.19,
      "p": 1
     },
     {
@@ -921,7 +919,7 @@
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 17.26,
+     "v": 17.04,
      "p": 1
     },
     {
@@ -949,7 +947,7 @@
      "p": 1
     }
    ],
-   "title": "Scout Sir",
+   "title": "Grunt Sir",
    "titleCount": 1,
    "reputations": {
     "total": 15,
@@ -957,28 +955,28 @@
      {
       "name": "Undercity",
       "standing": "Honored",
-      "v": 7440,
+      "v": 7590,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Orgrimmar",
       "standing": "Honored",
-      "v": 996,
+      "v": 1033,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Thunder Bluff",
       "standing": "Friendly",
-      "v": 5488,
+      "v": 5526,
       "max": 6000,
       "tier": 4
      },
      {
       "name": "Darkspear Trolls",
       "standing": "Friendly",
-      "v": 4490,
+      "v": 4527,
       "max": 6000,
       "tier": 4
      },
@@ -1012,7 +1010,7 @@
     "pets": 1,
     "toys": 0
    },
-   "questsDone": 419,
+   "questsDone": 421,
    "history": [
     [
      1795570780222,
@@ -1037,13 +1035,19 @@
      39.28,
      0,
      818
+    ],
+    [
+     1795821852650,
+     39.47,
+     0,
+     1184
     ]
    ],
    "weekly": {
-    "levels": 1.05,
+    "levels": 1.24,
     "ilvl": -30.78,
-    "hk": 34,
-    "rank": 0
+    "hk": 400,
+    "rank": 1
    },
    "ding60At": null
   },
@@ -3745,11 +3749,11 @@
    "name": "Sire",
    "surname": "Khingen",
    "fullName": "Sire Khingen",
-   "level": 37,
-   "experience": 25172,
-   "xpToLevel": 76100,
-   "xpPct": 33.08,
-   "levelProgress": 37.33,
+   "level": 38,
+   "experience": 12380,
+   "xpToLevel": 80900,
+   "xpPct": 15.3,
+   "levelProgress": 38.15,
    "className": "Paladin",
    "classId": 2,
    "race": "Undead",
@@ -3758,42 +3762,47 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795789907000,
+   "lastLogin": 1795821301000,
    "apiItemLevel": 0,
    "gear": [
     {
      "slot": "HEAD",
      "slotName": "Head",
-     "itemId": 250528,
-     "name": "Veteran's Silvered Chain Helm",
+     "itemId": 7719,
+     "name": "Raging Berserker's Helm",
      "quality": "RARE",
      "ilvl": 0,
      "inventoryType": "HEAD",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133141.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133127.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Head",
       "sub": "Mail",
-      "armor": "163 Armor",
+      "armor": "213 Armor",
       "stats": [
        {
-        "s": "+10 Strength",
+        "s": "+13 Strength",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+9 Stamina",
+        "s": "+8 Stamina",
         "neg": false,
         "eq": false
+       },
+       {
+        "s": "+14 Critical Strike",
+        "neg": false,
+        "eq": true
        }
       ],
       "spells": [],
-      "req": "Requires Level 20",
+      "req": "Requires Level 37",
       "reqClass": "",
-      "dur": "Durability 57 / 65",
-      "sell": 1439,
+      "dur": "Durability 70 / 70",
+      "sell": 6976,
       "desc": ""
      }
     },
@@ -3874,7 +3883,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 61 / 70",
+      "dur": "Durability 55 / 70",
       "sell": 4378,
       "desc": ""
      }
@@ -3948,7 +3957,7 @@
       "spells": [],
       "req": "Requires Level 24",
       "reqClass": "",
-      "dur": "Durability 113 / 120",
+      "dur": "Durability 102 / 120",
       "sell": 2935,
       "desc": ""
      }
@@ -4014,7 +4023,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 30 / 35",
+      "dur": "Durability 26 / 35",
       "sell": 2705,
       "desc": ""
      }
@@ -4050,7 +4059,7 @@
       "spells": [],
       "req": "Requires Level 28",
       "reqClass": "",
-      "dur": "Durability 37 / 40",
+      "dur": "Durability 34 / 40",
       "sell": 2225,
       "desc": ""
      }
@@ -4091,7 +4100,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 31 / 40",
+      "dur": "Durability 21 / 40",
       "sell": 2864,
       "desc": ""
      }
@@ -4134,7 +4143,7 @@
       "spells": [],
       "req": "Requires Level 25",
       "reqClass": "",
-      "dur": "Durability 80 / 90",
+      "dur": "Durability 73 / 90",
       "sell": 3149,
       "desc": ""
      }
@@ -4175,7 +4184,7 @@
       "spells": [],
       "req": "Requires Level 28",
       "reqClass": "",
-      "dur": "Durability 57 / 60",
+      "dur": "Durability 48 / 60",
       "sell": 3118,
       "desc": ""
      }
@@ -4183,42 +4192,6 @@
     {
      "slot": "FINGER_1",
      "slotName": "Ring 1",
-     "itemId": 6414,
-     "name": "Seal of Sylvanas",
-     "quality": "RARE",
-     "ilvl": 0,
-     "inventoryType": "FINGER",
-     "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133357.jpg",
-     "tt": {
-      "bind": "Binds when picked up",
-      "unique": "",
-      "inv": "Finger",
-      "sub": "Miscellaneous",
-      "armor": "",
-      "stats": [
-       {
-        "s": "+8 Stamina",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+6 Attack Power",
-        "neg": false,
-        "eq": true
-       }
-      ],
-      "spells": [],
-      "req": "",
-      "reqClass": "",
-      "dur": "",
-      "sell": 1960,
-      "desc": ""
-     }
-    },
-    {
-     "slot": "FINGER_2",
-     "slotName": "Ring 2",
      "itemId": 6749,
      "name": "Tiger Band",
      "quality": "UNCOMMON",
@@ -4249,6 +4222,42 @@
       "reqClass": "",
       "dur": "",
       "sell": 2174,
+      "desc": ""
+     }
+    },
+    {
+     "slot": "FINGER_2",
+     "slotName": "Ring 2",
+     "itemId": 6414,
+     "name": "Seal of Sylvanas",
+     "quality": "RARE",
+     "ilvl": 0,
+     "inventoryType": "FINGER",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133357.jpg",
+     "tt": {
+      "bind": "Binds when picked up",
+      "unique": "",
+      "inv": "Finger",
+      "sub": "Miscellaneous",
+      "armor": "",
+      "stats": [
+       {
+        "s": "+8 Stamina",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+6 Attack Power",
+        "neg": false,
+        "eq": true
+       }
+      ],
+      "spells": [],
+      "req": "",
+      "reqClass": "",
+      "dur": "",
+      "sell": 1960,
       "desc": ""
      }
     },
@@ -4312,7 +4321,7 @@
       ],
       "req": "",
       "reqClass": "Classes: Paladin",
-      "dur": "Durability 93 / 100",
+      "dur": "Durability 86 / 100",
       "sell": 7459,
       "desc": "",
       "weapon": {
@@ -4333,10 +4342,10 @@
     "trees": [
      {
       "name": "Retribution",
-      "points": 28
+      "points": 29
      }
     ],
-    "split": "28",
+    "split": "29",
     "main": "Retribution"
    },
    "professions": {
@@ -4386,47 +4395,47 @@
     {
      "k": "health",
      "label": "Health",
-     "v": 1732
+     "v": 1764
     },
     {
      "k": "power",
      "label": "Mana",
-     "v": 1541
+     "v": 1583
     },
     {
      "k": "strength",
      "label": "Strength",
-     "v": 140
+     "v": 145
     },
     {
      "k": "agility",
      "label": "Agility",
-     "v": 50
+     "v": 51
     },
     {
      "k": "stamina",
      "label": "Stamina",
-     "v": 137
+     "v": 138
     },
     {
      "k": "intellect",
      "label": "Intellect",
-     "v": 61
+     "v": 62
     },
     {
      "k": "spirit",
      "label": "Spirit",
-     "v": 66
+     "v": 67
     },
     {
      "k": "armor",
      "label": "Armor",
-     "v": 1543
+     "v": 1595
     },
     {
      "k": "attack_power",
      "label": "Attack power",
-     "v": 377
+     "v": 390
     },
     {
      "k": "ranged_attack_power",
@@ -4436,42 +4445,42 @@
     {
      "k": "spell_power",
      "label": "Spell power",
-     "v": 39
+     "v": 47
     },
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 11.22,
+     "v": 12.07,
      "p": 1
     },
     {
      "k": "ranged_crit",
      "label": "Ranged crit",
-     "v": 7.49,
+     "v": 2.23,
      "p": 1
     },
     {
      "k": "spell_crit",
      "label": "Spell crit",
-     "v": 11.63,
+     "v": 12.61,
      "p": 1
     },
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 4.68,
+     "v": 4.49,
      "p": 1
     },
     {
      "k": "parry",
      "label": "Parry",
-     "v": 4.92,
+     "v": 4.8,
      "p": 1
     },
     {
      "k": "block",
      "label": "Block",
-     "v": 4.92,
+     "v": 4.8,
      "p": 1
     },
     {
@@ -4494,28 +4503,28 @@
      {
       "name": "Undercity",
       "standing": "Honored",
-      "v": 6585,
+      "v": 6735,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Orgrimmar",
       "standing": "Friendly",
-      "v": 4631,
+      "v": 5006,
       "max": 6000,
       "tier": 4
      },
      {
       "name": "Darkspear Trolls",
       "standing": "Friendly",
-      "v": 2812,
+      "v": 3187,
       "max": 6000,
       "tier": 4
      },
      {
       "name": "Thunder Bluff",
       "standing": "Friendly",
-      "v": 2618,
+      "v": 2768,
       "max": 6000,
       "tier": 4
      },
@@ -4549,7 +4558,7 @@
     "pets": 1,
     "toys": 0
    },
-   "questsDone": 290,
+   "questsDone": 302,
    "history": [
     [
      1795570780222,
@@ -4574,10 +4583,16 @@
      37.33,
      0,
      149
+    ],
+    [
+     1795821852650,
+     38.15,
+     0,
+     149
     ]
    ],
    "weekly": {
-    "levels": 1.24,
+    "levels": 2.06,
     "ilvl": -32.6,
     "hk": 8,
     "rank": 0
