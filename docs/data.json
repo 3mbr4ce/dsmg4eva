@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795793095882,
+ "generatedAt": 1795793953567,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -1069,7 +1069,7 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795662641000,
+   "lastLogin": 1795793900000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -1623,7 +1623,7 @@
      "ilvl": 0,
      "inventoryType": "WEAPON",
      "enchants": [
-      "Instant Poison III (86 |4Charge:Charges;)"
+      "Instant Poison III (92 |4Charge:Charges;)"
      ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135124.jpg",
      "tt": {
@@ -1894,7 +1894,7 @@
    ],
    "titleCount": 0,
    "reputations": {
-    "total": 18,
+    "total": 16,
     "top": [
      {
       "name": "Undercity",
@@ -13757,11 +13757,11 @@
    "name": "Ryan",
    "surname": "Angelos",
    "fullName": "Ryan Angelos",
-   "level": 55,
-   "experience": 158700,
-   "xpToLevel": 180800,
-   "xpPct": 87.78,
-   "levelProgress": 55.88,
+   "level": 56,
+   "experience": 92325,
+   "xpToLevel": 187900,
+   "xpPct": 49.14,
+   "levelProgress": 56.49,
    "className": "Paladin",
    "classId": 2,
    "race": "Dwarf",
@@ -13770,7 +13770,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795771402000,
+   "lastLogin": 1795793586000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -13804,7 +13804,7 @@
       "spells": [],
       "req": "Requires Level 20",
       "reqClass": "",
-      "dur": "Durability 60 / 65",
+      "dur": "Durability 61 / 65",
       "sell": 1460,
       "desc": ""
      }
@@ -13886,7 +13886,7 @@
       "spells": [],
       "req": "Requires Level 42",
       "reqClass": "",
-      "dur": "Durability 75 / 80",
+      "dur": "Durability 77 / 80",
       "sell": 12364,
       "desc": ""
      }
@@ -13960,7 +13960,7 @@
       "spells": [],
       "req": "Requires Level 40",
       "reqClass": "",
-      "dur": "Durability 108 / 115",
+      "dur": "Durability 114 / 115",
       "sell": 11586,
       "desc": ""
      }
@@ -14051,7 +14051,7 @@
       "spells": [],
       "req": "Requires Level 45",
       "reqClass": "",
-      "dur": "Durability 43 / 45",
+      "dur": "Durability 45 / 45",
       "sell": 9462,
       "desc": ""
      }
@@ -14094,7 +14094,7 @@
       "spells": [],
       "req": "Requires Level 35",
       "reqClass": "",
-      "dur": "Durability 40 / 40",
+      "dur": "Durability 39 / 40",
       "sell": 3878,
       "desc": ""
      }
@@ -14135,7 +14135,7 @@
       "spells": [],
       "req": "Requires Level 50",
       "reqClass": "",
-      "dur": "Durability 41 / 45",
+      "dur": "Durability 45 / 45",
       "sell": 13274,
       "desc": ""
      }
@@ -14178,7 +14178,7 @@
       "spells": [],
       "req": "Requires Level 25",
       "reqClass": "",
-      "dur": "Durability 84 / 90",
+      "dur": "Durability 89 / 90",
       "sell": 3149,
       "desc": ""
      }
@@ -14221,7 +14221,7 @@
       "spells": [],
       "req": "Requires Level 47",
       "reqClass": "",
-      "dur": "Durability 60 / 65",
+      "dur": "Durability 65 / 65",
       "sell": 15979,
       "desc": ""
      }
@@ -14440,7 +14440,7 @@
       "spells": [],
       "req": "Requires Level 43",
       "reqClass": "",
-      "dur": "Durability 94 / 100",
+      "dur": "Durability 100 / 100",
       "sell": 16362,
       "desc": ""
      }
@@ -14456,14 +14456,14 @@
     "trees": [
      {
       "name": "Protection",
-      "points": 30
+      "points": 31
      },
      {
       "name": "Retribution",
       "points": 16
      }
     ],
-    "split": "30/16",
+    "split": "31/16",
     "main": "Protection"
    },
    "professions": {
@@ -14507,47 +14507,47 @@
     {
      "k": "health",
      "label": "Health",
-     "v": 3031
+     "v": 3091
     },
     {
      "k": "power",
      "label": "Mana",
-     "v": 2177
+     "v": 2219
     },
     {
      "k": "strength",
      "label": "Strength",
-     "v": 125
+     "v": 127
     },
     {
      "k": "agility",
      "label": "Agility",
-     "v": 56
+     "v": 57
     },
     {
      "k": "stamina",
      "label": "Stamina",
-     "v": 205
+     "v": 207
     },
     {
      "k": "intellect",
      "label": "Intellect",
-     "v": 71
+     "v": 72
     },
     {
      "k": "spirit",
      "label": "Spirit",
-     "v": 68
+     "v": 69
     },
     {
      "k": "armor",
      "label": "Armor",
-     "v": 4456
+     "v": 4458
     },
     {
      "k": "attack_power",
      "label": "Attack power",
-     "v": 395
+     "v": 402
     },
     {
      "k": "ranged_attack_power",
@@ -14562,7 +14562,7 @@
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 10.71,
+     "v": 10.64,
      "p": 1
     },
     {
@@ -14580,19 +14580,19 @@
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 6.23,
+     "v": 6.2,
      "p": 1
     },
     {
      "k": "parry",
      "label": "Parry",
-     "v": 7.44,
+     "v": 7.4,
      "p": 1
     },
     {
      "k": "block",
      "label": "Block",
-     "v": 7.44,
+     "v": 7.4,
      "p": 1
     },
     {
@@ -14622,28 +14622,28 @@
      {
       "name": "Stormwind",
       "standing": "Revered",
-      "v": 1806,
+      "v": 2106,
       "max": 21000,
       "tier": 6
      },
      {
       "name": "Ironforge",
       "standing": "Revered",
-      "v": 1660,
+      "v": 1735,
       "max": 21000,
       "tier": 6
      },
      {
       "name": "Gnomeregan Exiles",
       "standing": "Honored",
-      "v": 6911,
+      "v": 6986,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Darnassus",
       "standing": "Honored",
-      "v": 2981,
+      "v": 3056,
       "max": 12000,
       "tier": 5
      },
@@ -14670,7 +14670,7 @@
     "pets": 8,
     "toys": 2
    },
-   "questsDone": 940
+   "questsDone": 957
   },
   {
    "friend": "Zewazi",
