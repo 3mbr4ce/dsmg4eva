@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795809221216,
+ "generatedAt": 1795815564951,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -1069,7 +1069,7 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795808493000,
+   "lastLogin": 1795815358000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -1133,7 +1133,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 41 / 50",
+      "dur": "Durability 38 / 50",
       "sell": 3218,
       "desc": ""
      }
@@ -1210,7 +1210,7 @@
       "spells": [],
       "req": "Requires Level 30",
       "reqClass": "",
-      "dur": "Durability 46 / 50",
+      "dur": "Durability 42 / 50",
       "sell": 2609,
       "desc": ""
      }
@@ -1279,7 +1279,7 @@
       "spells": [],
       "req": "Requires Level 30",
       "reqClass": "",
-      "dur": "Durability 68 / 85",
+      "dur": "Durability 61 / 85",
       "sell": 3760,
       "desc": ""
      }
@@ -1340,7 +1340,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 33 / 35",
+      "dur": "Durability 31 / 35",
       "sell": 1191,
       "desc": ""
      }
@@ -1378,7 +1378,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 28 / 30",
+      "dur": "Durability 26 / 30",
       "sell": 2031,
       "desc": ""
      }
@@ -1424,7 +1424,7 @@
       "spells": [],
       "req": "Requires Level 30",
       "reqClass": "",
-      "dur": "Durability 31 / 35",
+      "dur": "Durability 24 / 35",
       "sell": 1063,
       "desc": ""
      }
@@ -1467,7 +1467,7 @@
       "spells": [],
       "req": "Requires Level 29",
       "reqClass": "",
-      "dur": "Durability 60 / 65",
+      "dur": "Durability 57 / 65",
       "sell": 3151,
       "desc": ""
      }
@@ -1510,7 +1510,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 38 / 45",
+      "dur": "Durability 34 / 45",
       "sell": 2991,
       "desc": ""
      }
@@ -1617,77 +1617,32 @@
     {
      "slot": "MAIN_HAND",
      "slotName": "Main Hand",
-     "itemId": 7682,
-     "name": "Torturing Poker",
-     "quality": "RARE",
+     "itemId": 6256,
+     "name": "Fishing Pole",
+     "quality": "COMMON",
      "ilvl": 0,
-     "inventoryType": "WEAPON",
+     "inventoryType": "TWOHWEAPON",
      "enchants": [
-      "Instant Poison III (68 |4Charge:Charges;)"
+      "Fishing Lure +25"
      ],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135124.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132932.jpg",
      "tt": {
-      "bind": "Binds when picked up",
+      "bind": "",
       "unique": "",
-      "inv": "One-Hand",
-      "sub": "Dagger",
+      "inv": "Two-Hand",
+      "sub": "Fishing Pole",
       "armor": "",
       "stats": [],
-      "spells": [
-       "Equip: Melee attacks with this weapon torture the target, dealing 1 Fire damage and increasing your damage dealt to that target with this effect by 1, stacking up to 10 times."
-      ],
-      "req": "Requires Level 29",
-      "reqClass": "",
-      "dur": "Durability 60 / 65",
-      "sell": 7892,
-      "desc": "",
-      "weapon": {
-       "dmg": "21 - 45 Damage",
-       "speed": "Speed 1.70",
-       "dps": "(19.6 damage per second)"
-      }
-     }
-    },
-    {
-     "slot": "OFF_HAND",
-     "slotName": "Off Hand",
-     "itemId": 7683,
-     "name": "Bloody Brass Knuckles",
-     "quality": "RARE",
-     "ilvl": 0,
-     "inventoryType": "WEAPON",
-     "enchants": [
-      "Crippling Poison"
-     ],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132945.jpg",
-     "tt": {
-      "bind": "Binds when picked up",
-      "unique": "",
-      "inv": "One-Hand",
-      "sub": "Fist Weapon",
-      "armor": "",
-      "stats": [
-       {
-        "s": "+12 Attack Power",
-        "neg": false,
-        "eq": true
-       },
-       {
-        "s": "+15 Attack Power Vs Humanoids",
-        "neg": false,
-        "eq": true
-       }
-      ],
       "spells": [],
-      "req": "Requires Level 29",
+      "req": "",
       "reqClass": "",
-      "dur": "Durability 63 / 65",
-      "sell": 7892,
+      "dur": "Durability 16 / 16",
+      "sell": 4,
       "desc": "",
       "weapon": {
-       "dmg": "24 - 46 Damage",
-       "speed": "Speed 1.60",
-       "dps": "(21.9 damage per second)"
+       "dmg": "2 - 4 Damage",
+       "speed": "Speed 3.00",
+       "dps": "(1.0 damage per second)"
       }
      }
     },
@@ -1730,7 +1685,7 @@
    ],
    "itemLevel": 0,
    "pvp": {
-    "hk": 524,
+    "hk": 682,
     "rank": 1,
     "rankName": "Scout"
    },
@@ -1768,7 +1723,7 @@
      },
      {
       "name": "Fishing",
-      "skill": 20,
+      "skill": 21,
       "max": 75,
       "recipes": 2
      },
@@ -1831,12 +1786,12 @@
     {
      "k": "attack_power",
      "label": "Attack power",
-     "v": 296
+     "v": 284
     },
     {
      "k": "ranged_attack_power",
      "label": "Ranged attack power",
-     "v": 337
+     "v": 325
     },
     {
      "k": "spell_power",
@@ -1846,7 +1801,7 @@
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 8.3,
+     "v": 2.38,
      "p": 1
     },
     {
@@ -1980,12 +1935,18 @@
      39.61,
      0,
      524
+    ],
+    [
+     1795815564951,
+     39.61,
+     0,
+     682
     ]
    ],
    "weekly": {
     "levels": 2.49,
     "ilvl": -33.06,
-    "hk": 286,
+    "hk": 444,
     "rank": 1
    },
    "ding60At": null
@@ -2889,10 +2850,10 @@
    "surname": "Huun",
    "fullName": "Dala Huun",
    "level": 46,
-   "experience": 28567,
+   "experience": 90486,
    "xpToLevel": 123200,
-   "xpPct": 23.19,
-   "levelProgress": 46.23,
+   "xpPct": 73.45,
+   "levelProgress": 46.73,
    "className": "Shaman",
    "classId": 7,
    "race": "Orc",
@@ -2901,7 +2862,7 @@
    "faction": "HORDE",
    "ruleset": "Normal",
    "achievementPoints": 0,
-   "lastLogin": 1795734569000,
+   "lastLogin": 1795815516000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -2935,7 +2896,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 28 / 50",
+      "dur": "Durability 50 / 50",
       "sell": 3218,
       "desc": ""
      }
@@ -3012,7 +2973,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 44 / 60",
+      "dur": "Durability 60 / 60",
       "sell": 4811,
       "desc": ""
      }
@@ -3089,7 +3050,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 68 / 100",
+      "dur": "Durability 100 / 100",
       "sell": 8866,
       "desc": ""
      }
@@ -3125,7 +3086,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 26 / 35",
+      "dur": "Durability 35 / 35",
       "sell": 3268,
       "desc": ""
      }
@@ -3163,7 +3124,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 17 / 30",
+      "dur": "Durability 30 / 30",
       "sell": 2794,
       "desc": ""
      }
@@ -3199,7 +3160,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 25 / 35",
+      "dur": "Durability 35 / 35",
       "sell": 4303,
       "desc": ""
      }
@@ -3237,7 +3198,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 47 / 75",
+      "dur": "Durability 75 / 75",
       "sell": 6538,
       "desc": ""
      }
@@ -3275,7 +3236,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 33 / 50",
+      "dur": "Durability 50 / 50",
       "sell": 6021,
       "desc": ""
      }
@@ -3283,13 +3244,13 @@
     {
      "slot": "FINGER_1",
      "slotName": "Ring 1",
-     "itemId": 1156,
-     "name": "Lavishly Jeweled Ring",
+     "itemId": 275044,
+     "name": "Bloodsport Band",
      "quality": "RARE",
      "ilvl": 0,
      "inventoryType": "FINGER",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133351.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133346.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
@@ -3298,21 +3259,26 @@
       "armor": "",
       "stats": [
        {
-        "s": "+6 Intellect",
+        "s": "+6 Stamina",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+2 Agility",
+        "s": "+22 Attack Power",
         "neg": false,
-        "eq": false
+        "eq": true
+       },
+       {
+        "s": "+5 Health Per 5 Sec.",
+        "neg": false,
+        "eq": true
        }
       ],
       "spells": [],
-      "req": "Requires Level 17",
+      "req": "",
       "reqClass": "",
       "dur": "",
-      "sell": 903,
+      "sell": 7915,
       "desc": ""
      }
     },
@@ -3414,7 +3380,9 @@
      "quality": "RARE",
      "ilvl": 0,
      "inventoryType": "TWOHWEAPON",
-     "enchants": [],
+     "enchants": [
+      "Windfury 2"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133522.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -3439,7 +3407,7 @@
       ],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 72 / 100",
+      "dur": "Durability 100 / 100",
       "sell": 16235,
       "desc": "",
       "weapon": {
@@ -3525,7 +3493,7 @@
      },
      {
       "name": "Fishing",
-      "skill": 219,
+      "skill": 225,
       "max": 225,
       "recipes": 2
      },
@@ -3548,12 +3516,12 @@
     {
      "k": "health",
      "label": "Health",
-     "v": 1767
+     "v": 1827
     },
     {
      "k": "power",
      "label": "Mana",
-     "v": 2384
+     "v": 2294
     },
     {
      "k": "strength",
@@ -3563,17 +3531,17 @@
     {
      "k": "agility",
      "label": "Agility",
-     "v": 61
+     "v": 59
     },
     {
      "k": "stamina",
      "label": "Stamina",
-     "v": 120
+     "v": 126
     },
     {
      "k": "intellect",
      "label": "Intellect",
-     "v": 101
+     "v": 95
     },
     {
      "k": "spirit",
@@ -3583,27 +3551,27 @@
     {
      "k": "armor",
      "label": "Armor",
-     "v": 1375
+     "v": 1371
     },
     {
      "k": "attack_power",
      "label": "Attack power",
-     "v": 497
+     "v": 513
     },
     {
      "k": "ranged_attack_power",
      "label": "Ranged attack power",
-     "v": 26
+     "v": 48
     },
     {
      "k": "spell_power",
      "label": "Spell power",
-     "v": 34
+     "v": 32
     },
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 10.53,
+     "v": 10.44,
      "p": 1
     },
     {
@@ -3615,25 +3583,25 @@
     {
      "k": "spell_crit",
      "label": "Spell crit",
-     "v": 9.59,
+     "v": 9.46,
      "p": 1
     },
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 7.29,
+     "v": 7.24,
      "p": 1
     },
     {
      "k": "parry",
      "label": "Parry",
-     "v": 4.64,
+     "v": 4.72,
      "p": 1
     },
     {
      "k": "block",
      "label": "Block",
-     "v": 4.64,
+     "v": 4.72,
      "p": 1
     },
     {
@@ -3656,42 +3624,42 @@
      {
       "name": "Orgrimmar",
       "standing": "Honored",
-      "v": 10277,
+      "v": 10296,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Darkspear Trolls",
       "standing": "Honored",
-      "v": 4980,
+      "v": 4998,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Thunder Bluff",
       "standing": "Honored",
-      "v": 3352,
+      "v": 3371,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Undercity",
       "standing": "Friendly",
-      "v": 5750,
+      "v": 5825,
       "max": 6000,
       "tier": 4
      },
      {
       "name": "Ratchet",
       "standing": "Friendly",
-      "v": 2750,
+      "v": 3297,
       "max": 6000,
       "tier": 4
      },
      {
       "name": "Booty Bay",
       "standing": "Friendly",
-      "v": 1802,
+      "v": 2350,
       "max": 6000,
       "tier": 4
      }
@@ -3711,7 +3679,7 @@
     "pets": 4,
     "toys": 2
    },
-   "questsDone": 599,
+   "questsDone": 616,
    "history": [
     [
      1795570780222,
@@ -3748,10 +3716,16 @@
      46.23,
      0,
      3
+    ],
+    [
+     1795815564951,
+     46.73,
+     0,
+     3
     ]
    ],
    "weekly": {
-    "levels": 1.98,
+    "levels": 2.48,
     "ilvl": -35.18,
     "hk": 2,
     "rank": 0
