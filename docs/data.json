@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795793953567,
+ "generatedAt": 1795796748391,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -13758,10 +13758,10 @@
    "surname": "Angelos",
    "fullName": "Ryan Angelos",
    "level": 56,
-   "experience": 92325,
+   "experience": 102711,
    "xpToLevel": 187900,
-   "xpPct": 49.14,
-   "levelProgress": 56.49,
+   "xpPct": 54.66,
+   "levelProgress": 56.55,
    "className": "Paladin",
    "classId": 2,
    "race": "Dwarf",
@@ -13770,7 +13770,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795793586000,
+   "lastLogin": 1795796642000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -13960,7 +13960,7 @@
       "spells": [],
       "req": "Requires Level 40",
       "reqClass": "",
-      "dur": "Durability 114 / 115",
+      "dur": "Durability 111 / 115",
       "sell": 11586,
       "desc": ""
      }
@@ -14221,7 +14221,7 @@
       "spells": [],
       "req": "Requires Level 47",
       "reqClass": "",
-      "dur": "Durability 65 / 65",
+      "dur": "Durability 64 / 65",
       "sell": 15979,
       "desc": ""
      }
@@ -14397,7 +14397,7 @@
       "spells": [],
       "req": "Requires Level 48",
       "reqClass": "",
-      "dur": "Durability 84 / 90",
+      "dur": "Durability 83 / 90",
       "sell": 33714,
       "desc": "",
       "weapon": {
@@ -14440,7 +14440,7 @@
       "spells": [],
       "req": "Requires Level 43",
       "reqClass": "",
-      "dur": "Durability 100 / 100",
+      "dur": "Durability 97 / 100",
       "sell": 16362,
       "desc": ""
      }
@@ -14562,7 +14562,7 @@
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 10.64,
+     "v": 10.68,
      "p": 1
     },
     {
@@ -14580,19 +14580,19 @@
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 6.2,
+     "v": 6.24,
      "p": 1
     },
     {
      "k": "parry",
      "label": "Parry",
-     "v": 7.4,
+     "v": 7.44,
      "p": 1
     },
     {
      "k": "block",
      "label": "Block",
-     "v": 7.4,
+     "v": 7.44,
      "p": 1
     },
     {
@@ -14670,7 +14670,7 @@
     "pets": 8,
     "toys": 2
    },
-   "questsDone": 957
+   "questsDone": 958
   },
   {
    "friend": "Zewazi",
