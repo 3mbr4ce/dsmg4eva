@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795782791117,
+ "generatedAt": 1795783350795,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -14694,7 +14694,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795724419000,
+   "lastLogin": 1795783189000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -14768,7 +14768,7 @@
       "spells": [],
       "req": "Requires Level 57",
       "reqClass": "",
-      "dur": "Durability 68 / 70",
+      "dur": "Durability 70 / 70",
       "sell": 24788,
       "desc": "",
       "set": {
@@ -15055,7 +15055,7 @@
       "spells": [],
       "req": "Requires Level 58",
       "reqClass": "",
-      "dur": "Durability 116 / 120",
+      "dur": "Durability 120 / 120",
       "sell": 34549,
       "desc": "",
       "set": {
@@ -15231,7 +15231,7 @@
       "spells": [],
       "req": "Requires Level 54",
       "reqClass": "",
-      "dur": "Durability 40 / 40",
+      "dur": "Durability 39 / 40",
       "sell": 14211,
       "desc": "",
       "set": {
@@ -15331,7 +15331,7 @@
       "spells": [],
       "req": "Requires Level 56",
       "reqClass": "",
-      "dur": "Durability 39 / 40",
+      "dur": "Durability 40 / 40",
       "sell": 15668,
       "desc": ""
      }
@@ -15761,7 +15761,7 @@
       "spells": [],
       "req": "Requires Level 56",
       "reqClass": "",
-      "dur": "Durability 74 / 75",
+      "dur": "Durability 75 / 75",
       "sell": 39171,
       "desc": "",
       "weapon": {
@@ -15898,7 +15898,7 @@
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 7.1,
+     "v": 7.14,
      "p": 1
     },
     {
@@ -15946,40 +15946,40 @@
    ],
    "titleCount": 0,
    "reputations": {
-    "total": 17,
+    "total": 18,
     "top": [
      {
       "name": "Darnassus",
       "standing": "Revered",
-      "v": 2553,
+      "v": 2572,
       "max": 21000,
       "tier": 6
      },
      {
       "name": "Stormwind",
       "standing": "Honored",
-      "v": 7971,
+      "v": 8046,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Argent Dawn",
       "standing": "Honored",
-      "v": 7319,
+      "v": 7349,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Ironforge",
       "standing": "Honored",
-      "v": 5467,
+      "v": 5486,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Gnomeregan Exiles",
       "standing": "Honored",
-      "v": 2277,
+      "v": 2296,
       "max": 12000,
       "tier": 5
      },
@@ -16006,7 +16006,7 @@
     "pets": 7,
     "toys": 2
    },
-   "questsDone": 1003
+   "questsDone": 1016
   }
  ],
  "enemies": [
