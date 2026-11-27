@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795734793841,
+ "generatedAt": 1795740691252,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -13757,11 +13757,11 @@
    "name": "Ryan",
    "surname": "Angelos",
    "fullName": "Ryan Angelos",
-   "level": 54,
-   "experience": 68737,
-   "xpToLevel": 173900,
-   "xpPct": 39.53,
-   "levelProgress": 54.4,
+   "level": 55,
+   "experience": 27710,
+   "xpToLevel": 180800,
+   "xpPct": 15.33,
+   "levelProgress": 55.15,
    "className": "Paladin",
    "classId": 2,
    "race": "Dwarf",
@@ -13770,7 +13770,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795714107000,
+   "lastLogin": 1795740192000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -13804,7 +13804,7 @@
       "spells": [],
       "req": "Requires Level 20",
       "reqClass": "",
-      "dur": "Durability 65 / 65",
+      "dur": "Durability 46 / 65",
       "sell": 1460,
       "desc": ""
      }
@@ -13886,7 +13886,7 @@
       "spells": [],
       "req": "Requires Level 42",
       "reqClass": "",
-      "dur": "Durability 80 / 80",
+      "dur": "Durability 63 / 80",
       "sell": 12364,
       "desc": ""
      }
@@ -13894,41 +13894,36 @@
     {
      "slot": "BACK",
      "slotName": "Back",
-     "itemId": 279835,
-     "name": "Vine Pruner's Cloak",
-     "quality": "UNCOMMON",
+     "itemId": 12465,
+     "name": "Nightfall Drape",
+     "quality": "RARE",
      "ilvl": 0,
      "inventoryType": "CLOAK",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133765.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133757.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Back",
       "sub": "Cloth",
-      "armor": "24 Armor",
+      "armor": "38 Armor",
       "stats": [
        {
-        "s": "+6 Stamina",
+        "s": "+14 Stamina",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+5 Spell Power",
-        "neg": false,
-        "eq": true
-       },
-       {
-        "s": "+5 Spell Damage Vs Elementals",
+        "s": "+9 Spell Power",
         "neg": false,
         "eq": true
        }
       ],
       "spells": [],
-      "req": "",
+      "req": "Requires Level 48",
       "reqClass": "",
       "dur": "",
-      "sell": 2360,
+      "sell": 10114,
       "desc": ""
      }
     },
@@ -13965,7 +13960,7 @@
       "spells": [],
       "req": "Requires Level 40",
       "reqClass": "",
-      "dur": "Durability 115 / 115",
+      "dur": "Durability 77 / 115",
       "sell": 11586,
       "desc": ""
      }
@@ -14056,7 +14051,7 @@
       "spells": [],
       "req": "Requires Level 45",
       "reqClass": "",
-      "dur": "Durability 45 / 45",
+      "dur": "Durability 33 / 45",
       "sell": 9462,
       "desc": ""
      }
@@ -14099,7 +14094,7 @@
       "spells": [],
       "req": "Requires Level 35",
       "reqClass": "",
-      "dur": "Durability 40 / 40",
+      "dur": "Durability 31 / 40",
       "sell": 3878,
       "desc": ""
      }
@@ -14140,7 +14135,7 @@
       "spells": [],
       "req": "Requires Level 50",
       "reqClass": "",
-      "dur": "Durability 45 / 45",
+      "dur": "Durability 34 / 45",
       "sell": 13274,
       "desc": ""
      }
@@ -14183,7 +14178,7 @@
       "spells": [],
       "req": "Requires Level 25",
       "reqClass": "",
-      "dur": "Durability 90 / 90",
+      "dur": "Durability 71 / 90",
       "sell": 3149,
       "desc": ""
      }
@@ -14226,7 +14221,7 @@
       "spells": [],
       "req": "Requires Level 47",
       "reqClass": "",
-      "dur": "Durability 65 / 65",
+      "dur": "Durability 46 / 65",
       "sell": 15979,
       "desc": ""
      }
@@ -14395,7 +14390,7 @@
       "spells": [],
       "req": "Requires Level 48",
       "reqClass": "",
-      "dur": "Durability 90 / 90",
+      "dur": "Durability 67 / 90",
       "sell": 33714,
       "desc": "",
       "weapon": {
@@ -14438,7 +14433,7 @@
       "spells": [],
       "req": "Requires Level 43",
       "reqClass": "",
-      "dur": "Durability 100 / 100",
+      "dur": "Durability 55 / 100",
       "sell": 16362,
       "desc": ""
      }
@@ -14454,14 +14449,14 @@
     "trees": [
      {
       "name": "Protection",
-      "points": 29
+      "points": 30
      },
      {
       "name": "Retribution",
       "points": 16
      }
     ],
-    "split": "29/16",
+    "split": "30/16",
     "main": "Protection"
    },
    "professions": {
@@ -14505,47 +14500,47 @@
     {
      "k": "health",
      "label": "Health",
-     "v": 2882
+     "v": 3021
     },
     {
      "k": "power",
      "label": "Mana",
-     "v": 2030
+     "v": 2072
     },
     {
      "k": "strength",
      "label": "Strength",
-     "v": 116
+     "v": 118
     },
     {
      "k": "agility",
      "label": "Agility",
-     "v": 55
+     "v": 56
     },
     {
      "k": "stamina",
      "label": "Stamina",
-     "v": 194
+     "v": 204
     },
     {
      "k": "intellect",
      "label": "Intellect",
-     "v": 63
+     "v": 64
     },
     {
      "k": "spirit",
      "label": "Spirit",
-     "v": 66
+     "v": 68
     },
     {
      "k": "armor",
      "label": "Armor",
-     "v": 4439
+     "v": 4456
     },
     {
      "k": "attack_power",
      "label": "Attack power",
-     "v": 374
+     "v": 381
     },
     {
      "k": "ranged_attack_power",
@@ -14555,42 +14550,42 @@
     {
      "k": "spell_power",
      "label": "Spell power",
-     "v": 227
+     "v": 247
     },
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 11.19,
+     "v": 11.09,
      "p": 1
     },
     {
      "k": "ranged_crit",
      "label": "Ranged crit",
-     "v": 1.55,
+     "v": 1.5,
      "p": 1
     },
     {
      "k": "spell_crit",
      "label": "Spell crit",
-     "v": 12.18,
+     "v": 12.17,
      "p": 1
     },
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 6.25,
+     "v": 6.15,
      "p": 1
     },
     {
      "k": "parry",
      "label": "Parry",
-     "v": 7.44,
+     "v": 7.36,
      "p": 1
     },
     {
      "k": "block",
      "label": "Block",
-     "v": 7.44,
+     "v": 7.36,
      "p": 1
     },
     {
@@ -14620,28 +14615,28 @@
      {
       "name": "Ironforge",
       "standing": "Revered",
-      "v": 1112,
+      "v": 1185,
       "max": 21000,
       "tier": 6
      },
      {
       "name": "Stormwind",
       "standing": "Revered",
-      "v": 831,
+      "v": 1106,
       "max": 21000,
       "tier": 6
      },
      {
       "name": "Gnomeregan Exiles",
       "standing": "Honored",
-      "v": 6513,
+      "v": 6586,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Darnassus",
       "standing": "Honored",
-      "v": 2568,
+      "v": 2656,
       "max": 12000,
       "tier": 5
      },
@@ -14656,11 +14651,11 @@
    },
    "achievements": {
     "points": 0,
-    "count": 20,
+    "count": 22,
     "recent": [
-     "Explore Thousand Needles",
-     "Explore Moonglade",
-     "Explore Tanaris"
+     "Explore Alterac Mountains",
+     "Explore Felwood",
+     "Explore Thousand Needles"
     ]
    },
    "collections": {
@@ -14668,7 +14663,7 @@
     "pets": 8,
     "toys": 2
    },
-   "questsDone": 892
+   "questsDone": 921
   },
   {
    "friend": "Zewazi",
