@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795763798646,
+ "generatedAt": 1795771578973,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -13758,10 +13758,10 @@
    "surname": "Angelos",
    "fullName": "Ryan Angelos",
    "level": 55,
-   "experience": 27710,
+   "experience": 158700,
    "xpToLevel": 180800,
-   "xpPct": 15.33,
-   "levelProgress": 55.15,
+   "xpPct": 87.78,
+   "levelProgress": 55.88,
    "className": "Paladin",
    "classId": 2,
    "race": "Dwarf",
@@ -13770,7 +13770,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795740192000,
+   "lastLogin": 1795771402000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -13804,7 +13804,7 @@
       "spells": [],
       "req": "Requires Level 20",
       "reqClass": "",
-      "dur": "Durability 46 / 65",
+      "dur": "Durability 60 / 65",
       "sell": 1460,
       "desc": ""
      }
@@ -13886,7 +13886,7 @@
       "spells": [],
       "req": "Requires Level 42",
       "reqClass": "",
-      "dur": "Durability 63 / 80",
+      "dur": "Durability 75 / 80",
       "sell": 12364,
       "desc": ""
      }
@@ -13960,7 +13960,7 @@
       "spells": [],
       "req": "Requires Level 40",
       "reqClass": "",
-      "dur": "Durability 77 / 115",
+      "dur": "Durability 108 / 115",
       "sell": 11586,
       "desc": ""
      }
@@ -14051,7 +14051,7 @@
       "spells": [],
       "req": "Requires Level 45",
       "reqClass": "",
-      "dur": "Durability 33 / 45",
+      "dur": "Durability 43 / 45",
       "sell": 9462,
       "desc": ""
      }
@@ -14094,7 +14094,7 @@
       "spells": [],
       "req": "Requires Level 35",
       "reqClass": "",
-      "dur": "Durability 31 / 40",
+      "dur": "Durability 40 / 40",
       "sell": 3878,
       "desc": ""
      }
@@ -14135,7 +14135,7 @@
       "spells": [],
       "req": "Requires Level 50",
       "reqClass": "",
-      "dur": "Durability 34 / 45",
+      "dur": "Durability 41 / 45",
       "sell": 13274,
       "desc": ""
      }
@@ -14178,7 +14178,7 @@
       "spells": [],
       "req": "Requires Level 25",
       "reqClass": "",
-      "dur": "Durability 71 / 90",
+      "dur": "Durability 84 / 90",
       "sell": 3149,
       "desc": ""
      }
@@ -14221,7 +14221,7 @@
       "spells": [],
       "req": "Requires Level 47",
       "reqClass": "",
-      "dur": "Durability 46 / 65",
+      "dur": "Durability 60 / 65",
       "sell": 15979,
       "desc": ""
      }
@@ -14265,13 +14265,13 @@
     {
      "slot": "FINGER_2",
      "slotName": "Ring 2",
-     "itemId": 273806,
-     "name": "Dark Horde Band",
+     "itemId": 20505,
+     "name": "Chivalrous Signet",
      "quality": "RARE",
      "ilvl": 0,
      "inventoryType": "FINGER",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133357.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133385.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
@@ -14280,34 +14280,49 @@
       "armor": "",
       "stats": [
        {
-        "s": "+6 Stamina",
+        "s": "+7 Intellect",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+6 Spell Power",
+        "s": "+7 Strength",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+7 Stamina",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+6 Spell Damage",
+        "neg": false,
+        "eq": true
+       },
+       {
+        "s": "+18 Spell Healing",
         "neg": false,
         "eq": true
        }
       ],
       "spells": [],
-      "req": "Requires Level 21",
+      "req": "",
       "reqClass": "",
       "dur": "",
-      "sell": 1525,
+      "sell": 12722,
       "desc": ""
      }
     },
     {
      "slot": "TRINKET_1",
      "slotName": "Trinket 1",
-     "itemId": 274641,
-     "name": "Theka's Last Breath",
+     "itemId": 20512,
+     "name": "Sanctified Orb",
      "quality": "RARE",
      "ilvl": 0,
      "inventoryType": "TRINKET",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134457.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134123.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
@@ -14316,52 +14331,44 @@
       "armor": "",
       "stats": [
        {
-        "s": "+6 Mana Regeneration per 5 sec",
+        "s": "+15 Spell Power",
         "neg": false,
         "eq": true
        }
       ],
       "spells": [
-       "Use: Transform all enemies within 10 yds into scarabs, slowing movement speed by 45% for 10 sec. Qiraji and Silithid targets are stunned for 5 sec. (7 Min Cooldown)"
+       "Use: Restores 319 to 361 Mana. This effect is doubled in Wasteland and Haunted areas. (5 Min Cooldown)"
       ],
-      "req": "Requires Level 42",
-      "reqClass": "",
+      "req": "",
+      "reqClass": "Classes: Paladin",
       "dur": "",
-      "sell": 8862,
+      "sell": 12722,
       "desc": ""
      }
     },
     {
      "slot": "TRINKET_2",
      "slotName": "Trinket 2",
-     "itemId": 270276,
-     "name": "Cleansed Vilebranch Icon",
-     "quality": "UNCOMMON",
+     "itemId": 12846,
+     "name": "Argent Dawn Commission",
+     "quality": "COMMON",
      "ilvl": 0,
      "inventoryType": "TRINKET",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133791.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133440.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Trinket",
       "sub": "Miscellaneous",
       "armor": "",
-      "stats": [
-       {
-        "s": "+7 Critical Strike",
-        "neg": false,
-        "eq": true
-       }
-      ],
-      "spells": [
-       "Equip: Increases damage and healing done by magical spells and effects by up to 8. This effect is tripled in Forest and Grassland areas."
-      ],
+      "stats": [],
+      "spells": [],
       "req": "",
       "reqClass": "",
       "dur": "",
-      "sell": 9576,
-      "desc": ""
+      "sell": 0,
+      "desc": "Equipping this badge is an indication of service to the Argent Dawn."
      }
     },
     {
@@ -14390,7 +14397,7 @@
       "spells": [],
       "req": "Requires Level 48",
       "reqClass": "",
-      "dur": "Durability 67 / 90",
+      "dur": "Durability 84 / 90",
       "sell": 33714,
       "desc": "",
       "weapon": {
@@ -14433,7 +14440,7 @@
       "spells": [],
       "req": "Requires Level 43",
       "reqClass": "",
-      "dur": "Durability 55 / 100",
+      "dur": "Durability 94 / 100",
       "sell": 16362,
       "desc": ""
      }
@@ -14500,17 +14507,17 @@
     {
      "k": "health",
      "label": "Health",
-     "v": 3021
+     "v": 3031
     },
     {
      "k": "power",
      "label": "Mana",
-     "v": 2072
+     "v": 2177
     },
     {
      "k": "strength",
      "label": "Strength",
-     "v": 118
+     "v": 125
     },
     {
      "k": "agility",
@@ -14520,12 +14527,12 @@
     {
      "k": "stamina",
      "label": "Stamina",
-     "v": 204
+     "v": 205
     },
     {
      "k": "intellect",
      "label": "Intellect",
-     "v": 64
+     "v": 71
     },
     {
      "k": "spirit",
@@ -14540,7 +14547,7 @@
     {
      "k": "attack_power",
      "label": "Attack power",
-     "v": 381
+     "v": 395
     },
     {
      "k": "ranged_attack_power",
@@ -14550,42 +14557,42 @@
     {
      "k": "spell_power",
      "label": "Spell power",
-     "v": 247
+     "v": 238
     },
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 11.09,
+     "v": 10.71,
      "p": 1
     },
     {
      "k": "ranged_crit",
      "label": "Ranged crit",
-     "v": 1.5,
+     "v": 1,
      "p": 1
     },
     {
      "k": "spell_crit",
      "label": "Spell crit",
-     "v": 12.17,
+     "v": 11.8,
      "p": 1
     },
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 6.15,
+     "v": 6.23,
      "p": 1
     },
     {
      "k": "parry",
      "label": "Parry",
-     "v": 7.36,
+     "v": 7.44,
      "p": 1
     },
     {
      "k": "block",
      "label": "Block",
-     "v": 7.36,
+     "v": 7.44,
      "p": 1
     },
     {
@@ -14613,30 +14620,30 @@
       "tier": 6
      },
      {
-      "name": "Ironforge",
+      "name": "Stormwind",
       "standing": "Revered",
-      "v": 1185,
+      "v": 1806,
       "max": 21000,
       "tier": 6
      },
      {
-      "name": "Stormwind",
+      "name": "Ironforge",
       "standing": "Revered",
-      "v": 1106,
+      "v": 1660,
       "max": 21000,
       "tier": 6
      },
      {
       "name": "Gnomeregan Exiles",
       "standing": "Honored",
-      "v": 6586,
+      "v": 6911,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Darnassus",
       "standing": "Honored",
-      "v": 2656,
+      "v": 2981,
       "max": 12000,
       "tier": 5
      },
@@ -14663,7 +14670,7 @@
     "pets": 8,
     "toys": 2
    },
-   "questsDone": 921
+   "questsDone": 940
   },
   {
    "friend": "Zewazi",
