@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795815564951,
+ "generatedAt": 1795816430272,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -1069,7 +1069,7 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795815358000,
+   "lastLogin": 1795815595000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -1723,7 +1723,7 @@
      },
      {
       "name": "Fishing",
-      "skill": 21,
+      "skill": 22,
       "max": 75,
       "recipes": 2
      },
@@ -1801,7 +1801,7 @@
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 2.38,
+     "v": 2.42,
      "p": 1
     },
     {
