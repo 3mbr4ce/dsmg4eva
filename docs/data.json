@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795796748391,
+ "generatedAt": 1795806680856,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -9170,7 +9170,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795731139000,
+   "lastLogin": 1795806429000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -10153,55 +10153,66 @@
     {
      "slot": "TRINKET_1",
      "slotName": "Trinket 1",
-     "itemId": 17774,
-     "name": "Mark of the Chosen",
-     "quality": "UNCOMMON",
+     "itemId": 272437,
+     "name": "Adaptive Combat Assistant",
+     "quality": "RARE",
      "ilvl": 0,
      "inventoryType": "TRINKET",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133441.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/3610508.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Trinket",
       "sub": "Miscellaneous",
       "armor": "",
-      "stats": [],
-      "spells": [
-       "Equip: Has a 2% chance when struck in combat of increasing all stats by 21 for 1 min."
+      "stats": [
+       {
+        "s": "+11 Expertise",
+        "neg": false,
+        "eq": true
+       }
       ],
-      "req": "",
+      "spells": [
+       "Use: Absorbs 450 damage for 15 sec. If this shield expires before 15 sec, 90 to 110 Nature damage will be dealt to all enemies in melee range. (5 Min Cooldown)"
+      ],
+      "req": "Requires Level 60",
       "reqClass": "",
       "dur": "",
-      "sell": 8164,
+      "sell": 16250,
       "desc": ""
      }
     },
     {
      "slot": "TRINKET_2",
      "slotName": "Trinket 2",
-     "itemId": 13965,
-     "name": "Blackhand's Breadth",
+     "itemId": 22321,
+     "name": "Heart of Wyrmthalak",
      "quality": "RARE",
      "ilvl": 0,
      "inventoryType": "TRINKET",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133604.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134084.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Trinket",
       "sub": "Miscellaneous",
       "armor": "",
-      "stats": [],
-      "spells": [
-       "Equip: Improves your chance to get a Critical Strike with Melee and Ranged attacks by 1.0%.",
-       "Use: Marks your target, increasing your Critical Strike chance against them by 5% for 20 sec. This effect is doubled against Orcs and Ogres. (5 Min Cooldown)"
+      "stats": [
+       {
+        "s": "+13 Fire Resistance",
+        "neg": false,
+        "eq": false
+       }
       ],
-      "req": "",
+      "spells": [
+       "Equip: Melee and Ranged attacks have a chance to deal 112 to 168 Fire damage. Deals 3 times as much damage to Orcs."
+      ],
+      "req": "Requires Level 56",
       "reqClass": "",
       "dur": "",
-      "sell": 23033,
+      "sell": 20891,
       "desc": ""
      }
     },
@@ -10289,7 +10300,7 @@
    ],
    "itemLevel": 0,
    "pvp": {
-    "hk": 181,
+    "hk": 214,
     "rank": 0,
     "rankName": "Unranked"
    },
@@ -10413,13 +10424,13 @@
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 17.8,
+     "v": 16.8,
      "p": 1
     },
     {
      "k": "ranged_crit",
      "label": "Ranged crit",
-     "v": 13,
+     "v": 12,
      "p": 1
     },
     {
@@ -10431,19 +10442,19 @@
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 4.76,
+     "v": 4.8,
      "p": 1
     },
     {
      "k": "parry",
      "label": "Parry",
-     "v": 4.96,
+     "v": 5,
      "p": 1
     },
     {
      "k": "block",
      "label": "Block",
-     "v": 4.96,
+     "v": 5,
      "p": 1
     },
     {
@@ -10471,16 +10482,16 @@
       "tier": 6
      },
      {
-      "name": "Stormwind",
+      "name": "Argent Dawn",
       "standing": "Honored",
-      "v": 8387,
+      "v": 8460,
       "max": 12000,
       "tier": 5
      },
      {
-      "name": "Argent Dawn",
+      "name": "Stormwind",
       "standing": "Honored",
-      "v": 5300,
+      "v": 8387,
       "max": 12000,
       "tier": 5
      },
@@ -10509,11 +10520,11 @@
    },
    "achievements": {
     "points": 0,
-    "count": 22,
+    "count": 23,
     "recent": [
+     "Explore Winterspring",
      "Explore Blasted Lands",
-     "Lord Valthalak Laid to Rest",
-     "Explore Hillsbrad Foothills"
+     "Lord Valthalak Laid to Rest"
     ]
    },
    "collections": {
@@ -10521,7 +10532,7 @@
     "pets": 4,
     "toys": 1
    },
-   "questsDone": 1107
+   "questsDone": 1121
   },
   {
    "friend": "Panzer",
