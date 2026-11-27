@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795821852650,
+ "generatedAt": 1795822729557,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -11448,7 +11448,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795718707000,
+   "lastLogin": 1795822482000,
    "apiItemLevel": 0,
    "gear": [
     {
