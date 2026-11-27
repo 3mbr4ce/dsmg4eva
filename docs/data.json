@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795807442669,
+ "generatedAt": 1795809221216,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -1069,7 +1069,7 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795807014000,
+   "lastLogin": 1795808493000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -1133,7 +1133,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 42 / 50",
+      "dur": "Durability 41 / 50",
       "sell": 3218,
       "desc": ""
      }
@@ -1210,7 +1210,7 @@
       "spells": [],
       "req": "Requires Level 30",
       "reqClass": "",
-      "dur": "Durability 48 / 50",
+      "dur": "Durability 46 / 50",
       "sell": 2609,
       "desc": ""
      }
@@ -1279,7 +1279,7 @@
       "spells": [],
       "req": "Requires Level 30",
       "reqClass": "",
-      "dur": "Durability 71 / 85",
+      "dur": "Durability 68 / 85",
       "sell": 3760,
       "desc": ""
      }
@@ -1340,7 +1340,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 34 / 35",
+      "dur": "Durability 33 / 35",
       "sell": 1191,
       "desc": ""
      }
@@ -1467,7 +1467,7 @@
       "spells": [],
       "req": "Requires Level 29",
       "reqClass": "",
-      "dur": "Durability 61 / 65",
+      "dur": "Durability 60 / 65",
       "sell": 3151,
       "desc": ""
      }
@@ -1623,7 +1623,7 @@
      "ilvl": 0,
      "inventoryType": "WEAPON",
      "enchants": [
-      "Instant Poison III (92 |4Charge:Charges;)"
+      "Instant Poison III (68 |4Charge:Charges;)"
      ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135124.jpg",
      "tt": {
@@ -1638,7 +1638,7 @@
       ],
       "req": "Requires Level 29",
       "reqClass": "",
-      "dur": "Durability 61 / 65",
+      "dur": "Durability 60 / 65",
       "sell": 7892,
       "desc": "",
       "weapon": {
@@ -1730,9 +1730,9 @@
    ],
    "itemLevel": 0,
    "pvp": {
-    "hk": 473,
-    "rank": 0,
-    "rankName": "Unranked"
+    "hk": 524,
+    "rank": 1,
+    "rankName": "Scout"
    },
    "spec": {
     "trees": [
@@ -1892,7 +1892,8 @@
      "p": 1
     }
    ],
-   "titleCount": 0,
+   "title": "Scout Blue",
+   "titleCount": 1,
    "reputations": {
     "total": 16,
     "top": [
@@ -1973,13 +1974,19 @@
      39.61,
      0,
      473
+    ],
+    [
+     1795809221215,
+     39.61,
+     0,
+     524
     ]
    ],
    "weekly": {
     "levels": 2.49,
     "ilvl": -33.06,
-    "hk": 235,
-    "rank": 0
+    "hk": 286,
+    "rank": 1
    },
    "ding60At": null
   },
