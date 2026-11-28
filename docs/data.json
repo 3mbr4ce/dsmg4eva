@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795825985369,
+ "generatedAt": 1795828510837,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -17074,11 +17074,11 @@
    "name": "Kusou",
    "surname": "Mokoko",
    "fullName": "Kusou Mokoko",
-   "level": 36,
-   "experience": 70577,
-   "xpToLevel": 71600,
-   "xpPct": 98.57,
-   "levelProgress": 36.99,
+   "level": 37,
+   "experience": 277,
+   "xpToLevel": 76100,
+   "xpPct": 0.36,
+   "levelProgress": 37,
    "className": "Rogue",
    "classId": 4,
    "race": "Night Elf",
@@ -17087,7 +17087,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795741374000,
+   "lastLogin": 1795828123000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -17151,7 +17151,7 @@
       "spells": [],
       "req": "Requires Level 36",
       "reqClass": "",
-      "dur": "Durability 49 / 50",
+      "dur": "Durability 48 / 50",
       "sell": 2922,
       "desc": ""
      }
@@ -17304,7 +17304,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 64 / 90",
+      "dur": "Durability 63 / 90",
       "sell": 1441,
       "desc": ""
      }
@@ -17500,7 +17500,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 53 / 75",
+      "dur": "Durability 52 / 75",
       "sell": 5252,
       "desc": ""
      }
@@ -17665,7 +17665,9 @@
      "quality": "RARE",
      "ilvl": 0,
      "inventoryType": "WEAPONMAINHAND",
-     "enchants": [],
+     "enchants": [
+      "Instant Poison III (96 |4Charge:Charges;)"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132392.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -17711,7 +17713,9 @@
      "quality": "RARE",
      "ilvl": 0,
      "inventoryType": "WEAPON",
-     "enchants": [],
+     "enchants": [
+      "Instant Poison III (102 |4Charge:Charges;)"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132409.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -17734,7 +17738,7 @@
       "spells": [],
       "req": "Requires Level 30",
       "reqClass": "",
-      "dur": "Durability 85 / 90",
+      "dur": "Durability 84 / 90",
       "sell": 8681,
       "desc": "",
       "weapon": {
@@ -17796,10 +17800,10 @@
     "trees": [
      {
       "name": "Combat",
-      "points": 27
+      "points": 28
      }
     ],
-    "split": "27",
+    "split": "28",
     "main": "Combat"
    },
    "professions": {
@@ -17849,7 +17853,7 @@
     {
      "k": "health",
      "label": "Health",
-     "v": 1351
+     "v": 1390
     },
     {
      "k": "power",
@@ -17859,17 +17863,17 @@
     {
      "k": "strength",
      "label": "Strength",
-     "v": 83
+     "v": 84
     },
     {
      "k": "agility",
      "label": "Agility",
-     "v": 170
+     "v": 171
     },
     {
      "k": "stamina",
      "label": "Stamina",
-     "v": 95
+     "v": 96
     },
     {
      "k": "intellect",
@@ -17879,22 +17883,22 @@
     {
      "k": "spirit",
      "label": "Spirit",
-     "v": 53
+     "v": 54
     },
     {
      "k": "armor",
      "label": "Armor",
-     "v": 958
+     "v": 960
     },
     {
      "k": "attack_power",
      "label": "Attack power",
-     "v": 331
+     "v": 335
     },
     {
      "k": "ranged_attack_power",
      "label": "Ranged attack power",
-     "v": 382
+     "v": 385
     },
     {
      "k": "spell_power",
@@ -17904,13 +17908,13 @@
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 10.63,
+     "v": 10.23,
      "p": 1
     },
     {
      "k": "ranged_crit",
      "label": "Ranged crit",
-     "v": 3.78,
+     "v": 3.39,
      "p": 1
     },
     {
@@ -17922,13 +17926,13 @@
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 22.09,
+     "v": 21.5,
      "p": 1
     },
     {
      "k": "parry",
      "label": "Parry",
-     "v": 10.84,
+     "v": 10.64,
      "p": 1
     },
     {
@@ -17957,28 +17961,28 @@
      {
       "name": "Darnassus",
       "standing": "Honored",
-      "v": 5303,
+      "v": 5316,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Stormwind",
       "standing": "Honored",
-      "v": 3960,
+      "v": 3972,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Ironforge",
       "standing": "Honored",
-      "v": 1303,
+      "v": 1353,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Gnomeregan Exiles",
       "standing": "Friendly",
-      "v": 5680,
+      "v": 5692,
       "max": 6000,
       "tier": 4
      },
@@ -18012,7 +18016,7 @@
     "pets": 0,
     "toys": 0
    },
-   "questsDone": 430
+   "questsDone": 431
   },
   {
    "friend": "Tryi",
