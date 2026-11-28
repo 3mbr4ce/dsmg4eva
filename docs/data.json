@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795828510837,
+ "generatedAt": 1795829083373,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -1073,7 +1073,7 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795825332000,
+   "lastLogin": 1795828812000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -1137,7 +1137,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 35 / 50",
+      "dur": "Durability 50 / 50",
       "sell": 3218,
       "desc": ""
      }
@@ -1214,7 +1214,7 @@
       "spells": [],
       "req": "Requires Level 30",
       "reqClass": "",
-      "dur": "Durability 38 / 50",
+      "dur": "Durability 50 / 50",
       "sell": 2609,
       "desc": ""
      }
@@ -1283,7 +1283,7 @@
       "spells": [],
       "req": "Requires Level 30",
       "reqClass": "",
-      "dur": "Durability 56 / 85",
+      "dur": "Durability 85 / 85",
       "sell": 3760,
       "desc": ""
      }
@@ -1344,7 +1344,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 28 / 35",
+      "dur": "Durability 35 / 35",
       "sell": 1191,
       "desc": ""
      }
@@ -1382,7 +1382,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 26 / 30",
+      "dur": "Durability 30 / 30",
       "sell": 2031,
       "desc": ""
      }
@@ -1428,7 +1428,7 @@
       "spells": [],
       "req": "Requires Level 30",
       "reqClass": "",
-      "dur": "Durability 21 / 35",
+      "dur": "Durability 35 / 35",
       "sell": 1063,
       "desc": ""
      }
@@ -1471,7 +1471,7 @@
       "spells": [],
       "req": "Requires Level 29",
       "reqClass": "",
-      "dur": "Durability 52 / 65",
+      "dur": "Durability 65 / 65",
       "sell": 3151,
       "desc": ""
      }
@@ -1514,7 +1514,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 33 / 45",
+      "dur": "Durability 45 / 45",
       "sell": 2991,
       "desc": ""
      }
@@ -1640,7 +1640,7 @@
       ],
       "req": "Requires Level 29",
       "reqClass": "",
-      "dur": "Durability 58 / 65",
+      "dur": "Durability 65 / 65",
       "sell": 7892,
       "desc": "",
       "weapon": {
@@ -1681,7 +1681,7 @@
       "spells": [],
       "req": "Requires Level 29",
       "reqClass": "",
-      "dur": "Durability 60 / 65",
+      "dur": "Durability 65 / 65",
       "sell": 7892,
       "desc": "",
       "weapon": {
@@ -1754,7 +1754,7 @@
      },
      {
       "name": "Enchanting",
-      "skill": 12,
+      "skill": 60,
       "max": 75,
       "recipes": 6
      }
