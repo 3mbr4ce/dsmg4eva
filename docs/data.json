@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795865957603,
+ "generatedAt": 1795870421862,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -1073,7 +1073,7 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795830748000,
+   "lastLogin": 1795869973000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -1227,7 +1227,9 @@
      "quality": "UNCOMMON",
      "ilvl": 0,
      "inventoryType": "CLOAK",
-     "enchants": [],
+     "enchants": [
+      "Enchanted: Armor +10"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133754.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -1321,7 +1323,9 @@
      "quality": "RARE",
      "ilvl": 0,
      "inventoryType": "WRIST",
-     "enchants": [],
+     "enchants": [
+      "Enchanted: Defense +3"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132611.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -1754,9 +1758,9 @@
      },
      {
       "name": "Enchanting",
-      "skill": 60,
-      "max": 75,
-      "recipes": 6
+      "skill": 119,
+      "max": 150,
+      "recipes": 7
      }
     ],
     "secondaries": [
@@ -1826,7 +1830,7 @@
     {
      "k": "armor",
      "label": "Armor",
-     "v": 1001
+     "v": 1011
     },
     {
      "k": "attack_power",
@@ -1864,13 +1868,13 @@
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 16.58,
+     "v": 16.7,
      "p": 1
     },
     {
      "k": "parry",
      "label": "Parry",
-     "v": 4.92,
+     "v": 5.04,
      "p": 1
     },
     {
