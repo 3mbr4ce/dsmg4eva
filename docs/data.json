@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795897467725,
+ "generatedAt": 1795898333108,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -9294,7 +9294,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795806429000,
+   "lastLogin": 1795897682000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -11572,7 +11572,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795896077000,
+   "lastLogin": 1795898125000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -11611,7 +11611,7 @@
       "spells": [],
       "req": "Requires Level 58",
       "reqClass": "",
-      "dur": "Durability 75 / 80",
+      "dur": "Durability 74 / 80",
       "sell": 30173,
       "desc": ""
      }
@@ -11703,7 +11703,7 @@
       "spells": [],
       "req": "Requires Level 55",
       "reqClass": "",
-      "dur": "Durability 77 / 80",
+      "dur": "Durability 75 / 80",
       "sell": 26064,
       "desc": "",
       "set": {
@@ -11856,7 +11856,7 @@
       "spells": [],
       "req": "Requires Level 58",
       "reqClass": "",
-      "dur": "Durability 123 / 135",
+      "dur": "Durability 121 / 135",
       "sell": 40307,
       "desc": "",
       "set": {
@@ -12006,7 +12006,7 @@
       "spells": [],
       "req": "Requires Level 57",
       "reqClass": "",
-      "dur": "Durability 43 / 45",
+      "dur": "Durability 42 / 45",
       "sell": 19303,
       "desc": ""
      }
@@ -12202,7 +12202,7 @@
       "spells": [],
       "req": "Requires Level 58",
       "reqClass": "",
-      "dur": "Durability 95 / 100",
+      "dur": "Durability 92 / 100",
       "sell": 40307,
       "desc": ""
      }
@@ -12250,7 +12250,7 @@
       "spells": [],
       "req": "Requires Level 54",
       "reqClass": "",
-      "dur": "Durability 64 / 65",
+      "dur": "Durability 62 / 65",
       "sell": 24823,
       "desc": "",
       "set": {
@@ -12459,87 +12459,71 @@
     {
      "slot": "MAIN_HAND",
      "slotName": "Main Hand",
-     "itemId": 18737,
-     "name": "Bone Slicing Hatchet",
+     "itemId": 14024,
+     "name": "Frightalon",
      "quality": "RARE",
      "ilvl": 0,
      "inventoryType": "WEAPON",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132402.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135652.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "One-Hand",
-      "sub": "Axe",
+      "sub": "Dagger",
       "armor": "",
       "stats": [
        {
-        "s": "+13 Agility",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+5 Stamina",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+9 Attack Power Vs Undead",
+        "s": "+20 Attack Power",
         "neg": false,
         "eq": true
        }
       ],
-      "spells": [],
-      "req": "Requires Level 57",
+      "spells": [
+       "Chance on hit: Increase the duration of Fear effects applied to the target by 25% for 1 min."
+      ],
+      "req": "Requires Level 56",
       "reqClass": "",
-      "dur": "Durability 85 / 90",
-      "sell": 54840,
+      "dur": "Durability 63 / 65",
+      "sell": 52229,
       "desc": "",
       "weapon": {
-       "dmg": "48 - 90 Damage",
-       "speed": "Speed 1.70",
-       "dps": "(40.6 damage per second)"
+       "dmg": "39 - 73 Damage",
+       "speed": "Speed 1.40",
+       "dps": "(40.0 damage per second)"
       }
      }
     },
     {
      "slot": "OFF_HAND",
      "slotName": "Off Hand",
-     "itemId": 13375,
-     "name": "Crest of Retribution",
+     "itemId": 13399,
+     "name": "Gargoyle Shredder Talons",
      "quality": "RARE",
      "ilvl": 0,
-     "inventoryType": "SHIELD",
-     "enchants": [
-      "Enchanted: Thorium Spike (20-30)"
-     ],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134965.jpg",
+     "inventoryType": "WEAPONOFFHAND",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132945.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Off Hand",
-      "sub": "Shield",
-      "armor": "2,057 Armor",
-      "stats": [
-       {
-        "s": "+14 Strength",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+6 Block",
-        "neg": false,
-        "eq": true
-       }
-      ],
+      "sub": "Fist Weapon",
+      "armor": "",
+      "stats": [],
       "spells": [
-       "Equip: Deals 6 to 43 Physical damage every time you block."
+       "Chance on hit: Wounds the target, causing them to bleed for 140 damage over 14 sec."
       ],
-      "req": "Requires Level 55",
+      "req": "Requires Level 57",
       "reqClass": "",
-      "dur": "Durability 95 / 100",
-      "sell": 31835,
-      "desc": ""
+      "dur": "Durability 62 / 65",
+      "sell": 54840,
+      "desc": "",
+      "weapon": {
+       "dmg": "51 - 96 Damage",
+       "speed": "Speed 1.80",
+       "dps": "(40.8 damage per second)"
+      }
      }
     },
     {
@@ -12573,7 +12557,7 @@
       "spells": [],
       "req": "Requires Level 43",
       "reqClass": "",
-      "dur": "Durability 223 / 240",
+      "dur": "Durability 220 / 240",
       "sell": 18370,
       "desc": "",
       "weapon": {
@@ -12594,19 +12578,15 @@
     "trees": [
      {
       "name": "Arms",
-      "points": 4
+      "points": 17
      },
      {
       "name": "Fury",
-      "points": 16
-     },
-     {
-      "name": "Protection",
-      "points": 31
+      "points": 34
      }
     ],
-    "split": "4/16/31",
-    "main": "Protection"
+    "split": "17/34",
+    "main": "Fury"
    },
    "professions": {
     "primaries": [
@@ -12655,7 +12635,7 @@
     {
      "k": "health",
      "label": "Health",
-     "v": 4649
+     "v": 4599
     },
     {
      "k": "power",
@@ -12665,17 +12645,17 @@
     {
      "k": "strength",
      "label": "Strength",
-     "v": 259
+     "v": 245
     },
     {
      "k": "agility",
      "label": "Agility",
-     "v": 141
+     "v": 128
     },
     {
      "k": "stamina",
      "label": "Stamina",
-     "v": 314
+     "v": 309
     },
     {
      "k": "intellect",
@@ -12690,17 +12670,17 @@
     {
      "k": "armor",
      "label": "Armor",
-     "v": 6259
+     "v": 4176
     },
     {
      "k": "attack_power",
      "label": "Attack power",
-     "v": 742
+     "v": 734
     },
     {
      "k": "ranged_attack_power",
      "label": "Ranged attack power",
-     "v": 386
+     "v": 380
     },
     {
      "k": "spell_power",
@@ -12710,13 +12690,13 @@
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 16.51,
+     "v": 10.9,
      "p": 1
     },
     {
      "k": "ranged_crit",
      "label": "Ranged crit",
-     "v": 11.51,
+     "v": 10.86,
      "p": 1
     },
     {
@@ -12728,19 +12708,19 @@
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 8.5,
+     "v": 7.85,
      "p": 1
     },
     {
      "k": "parry",
      "label": "Parry",
-     "v": 9.52,
+     "v": 7.52,
      "p": 1
     },
     {
      "k": "block",
      "label": "Block",
-     "v": 11.72,
+     "v": 5.52,
      "p": 1
     },
     {
@@ -12829,11 +12809,11 @@
    "name": "Chasida",
    "surname": "Shieldsworn",
    "fullName": "Chasida Shieldsworn",
-   "level": 50,
-   "experience": 67103,
-   "xpToLevel": 147500,
-   "xpPct": 45.49,
-   "levelProgress": 50.45,
+   "level": 51,
+   "experience": 8993,
+   "xpToLevel": 153900,
+   "xpPct": 5.84,
+   "levelProgress": 51.06,
    "className": "Paladin",
    "classId": 2,
    "race": "Dwarf",
@@ -12842,7 +12822,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795855704000,
+   "lastLogin": 1795898046000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -13290,41 +13270,41 @@
     {
      "slot": "WAIST",
      "slotName": "Waist",
-     "itemId": 250558,
-     "name": "Warder's Belt",
-     "quality": "RARE",
+     "itemId": 9968,
+     "name": "Embossed Plate Girdle of the Knight",
+     "quality": "UNCOMMON",
      "ilvl": 0,
      "inventoryType": "WAIST",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132518.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132500.jpg",
      "tt": {
-      "bind": "Binds when picked up",
+      "bind": "Binds when equipped",
       "unique": "",
       "inv": "Waist",
-      "sub": "Mail",
-      "armor": "132 Armor",
+      "sub": "Plate",
+      "armor": "191 Armor",
       "stats": [
+       {
+        "s": "+5 Strength",
+        "neg": false,
+        "eq": false
+       },
        {
         "s": "+10 Stamina",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+7 Defense",
-        "neg": false,
-        "eq": true
-       },
-       {
-        "s": "+7 Spell Power",
+        "s": "+5 Spell Power",
         "neg": false,
         "eq": true
        }
       ],
       "spells": [],
-      "req": "Requires Level 30",
+      "req": "Requires Level 40",
       "reqClass": "",
       "dur": "Durability 40 / 40",
-      "sell": 1378,
+      "sell": 2695,
       "desc": ""
      }
     },
@@ -13415,41 +13395,36 @@
     {
      "slot": "FEET",
      "slotName": "Feet",
-     "itemId": 273025,
-     "name": "Raptorclaw Greaves",
-     "quality": "RARE",
+     "itemId": 9637,
+     "name": "Shinkicker Boots",
+     "quality": "UNCOMMON",
      "ilvl": 0,
      "inventoryType": "FEET",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132551.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132588.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Feet",
-      "sub": "Mail",
-      "armor": "152 Armor",
+      "sub": "Plate",
+      "armor": "300 Armor",
       "stats": [
        {
-        "s": "+6 Intellect",
+        "s": "+9 Agility",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+7 Strength",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+7 Stamina",
+        "s": "+10 Strength",
         "neg": false,
         "eq": false
        }
       ],
       "spells": [],
-      "req": "Requires Level 26",
+      "req": "",
       "reqClass": "",
-      "dur": "Durability 60 / 60",
-      "sell": 2606,
+      "dur": "Durability 55 / 55",
+      "sell": 4749,
       "desc": ""
      }
     },
@@ -13603,98 +13578,77 @@
     {
      "slot": "MAIN_HAND",
      "slotName": "Main Hand",
-     "itemId": 17705,
-     "name": "Thrash Blade",
+     "itemId": 221518,
+     "name": "Whisper",
      "quality": "RARE",
      "ilvl": 0,
-     "inventoryType": "WEAPON",
+     "inventoryType": "TWOHWEAPON",
      "enchants": [
       "Enchanted: Fiery Weapon"
      ],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135346.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133042.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
-      "inv": "One-Hand",
-      "sub": "Sword",
+      "inv": "Two-Hand",
+      "sub": "Mace",
       "armor": "",
-      "stats": [],
-      "spells": [
-       "Chance on hit: Grants an extra attack on your next swing."
-      ],
-      "req": "",
-      "reqClass": "",
-      "dur": "Durability 90 / 90",
-      "sell": 33714,
-      "desc": "",
-      "weapon": {
-       "dmg": "66 - 124 Damage",
-       "speed": "Speed 2.70",
-       "dps": "(35.2 damage per second)"
-      }
-     }
-    },
-    {
-     "slot": "OFF_HAND",
-     "slotName": "Off Hand",
-     "itemId": 9458,
-     "name": "Thermaplugg's Central Core",
-     "quality": "RARE",
-     "ilvl": 0,
-     "inventoryType": "SHIELD",
-     "enchants": [
-      "Enchanted: Iron Spike (8-12)"
-     ],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134956.jpg",
-     "tt": {
-      "bind": "Binds when picked up",
-      "unique": "",
-      "inv": "Off Hand",
-      "sub": "Shield",
-      "armor": "776 Armor",
       "stats": [
        {
-        "s": "+3 Spirit",
+        "s": "+23 Strength",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+7 Critical Strike",
+        "neg": false,
+        "eq": true
+       },
+       {
+        "s": "+14 Spell Power",
         "neg": false,
         "eq": true
        }
       ],
-      "spells": [
-       "Equip: When struck in combat has a 5% chance of inflicting 65 to 121 Nature damage to the attacker."
-      ],
-      "req": "Requires Level 31",
+      "spells": [],
+      "req": "",
       "reqClass": "",
       "dur": "Durability 100 / 100",
-      "sell": 6111,
-      "desc": ""
+      "sell": 44863,
+      "desc": "",
+      "weapon": {
+       "dmg": "124 - 187 Damage",
+       "speed": "Speed 3.40",
+       "dps": "(45.7 damage per second)"
+      }
      }
     }
    ],
    "itemLevel": 0,
    "pvp": {
-    "hk": 8,
+    "hk": 9,
     "rank": 0,
     "rankName": "Unranked"
    },
    "spec": {
     "trees": [
      {
-      "name": "Protection",
-      "points": 31
+      "name": "Holy",
+      "points": 11
      },
      {
       "name": "Retribution",
-      "points": 10
+      "points": 31
      }
     ],
-    "split": "31/10",
-    "main": "Protection"
+    "split": "11/31",
+    "main": "Retribution"
    },
    "professions": {
     "primaries": [
      {
       "name": "Mining",
-      "skill": 217,
+      "skill": 220,
       "max": 300,
       "recipes": 11
      },
@@ -13720,7 +13674,7 @@
      },
      {
       "name": "First Aid",
-      "skill": 288,
+      "skill": 289,
       "max": 300,
       "recipes": 19
      }
@@ -13737,47 +13691,47 @@
     {
      "k": "health",
      "label": "Health",
-     "v": 2916
+     "v": 2901
     },
     {
      "k": "power",
      "label": "Mana",
-     "v": 1937
+     "v": 1889
     },
     {
      "k": "strength",
      "label": "Strength",
-     "v": 148
+     "v": 199
     },
     {
      "k": "agility",
      "label": "Agility",
-     "v": 51
+     "v": 61
     },
     {
      "k": "stamina",
      "label": "Stamina",
-     "v": 213
+     "v": 208
     },
     {
      "k": "intellect",
      "label": "Intellect",
-     "v": 64
+     "v": 59
     },
     {
      "k": "spirit",
      "label": "Spirit",
-     "v": 86
+     "v": 84
     },
     {
      "k": "armor",
      "label": "Armor",
-     "v": 3709
+     "v": 3025
     },
     {
      "k": "attack_power",
      "label": "Attack power",
-     "v": 458
+     "v": 563
     },
     {
      "k": "ranged_attack_power",
@@ -13787,42 +13741,42 @@
     {
      "k": "spell_power",
      "label": "Spell power",
-     "v": 24
+     "v": 71
     },
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 3.47,
+     "v": 10.48,
      "p": 1
     },
     {
      "k": "ranged_crit",
      "label": "Ranged crit",
-     "v": 0,
+     "v": 0.5,
      "p": 1
     },
     {
      "k": "spell_crit",
      "label": "Spell crit",
-     "v": 4.78,
+     "v": 11.16,
      "p": 1
     },
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 4.75,
+     "v": 4.58,
      "p": 1
     },
     {
      "k": "parry",
      "label": "Parry",
-     "v": 11.89,
+     "v": 6.17,
      "p": 1
     },
     {
      "k": "block",
      "label": "Block",
-     "v": 5.96,
+     "v": 5.24,
      "p": 1
     },
     {
@@ -13873,14 +13827,14 @@
      {
       "name": "Booty Bay",
       "standing": "Friendly",
-      "v": 3645,
+      "v": 4095,
       "max": 6000,
       "tier": 4
      },
      {
-      "name": "Brotherhood of the Horse",
+      "name": "Gadgetzan",
       "standing": "Friendly",
-      "v": 2956,
+      "v": 3152,
       "max": 6000,
       "tier": 4
      }
@@ -13900,7 +13854,7 @@
     "pets": 4,
     "toys": 2
    },
-   "questsDone": 769
+   "questsDone": 783
   },
   {
    "friend": "Gareth",
