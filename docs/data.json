@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795893871424,
+ "generatedAt": 1795894742715,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -2880,7 +2880,7 @@
    "faction": "HORDE",
    "ruleset": "Normal",
    "achievementPoints": 0,
-   "lastLogin": 1795893540000,
+   "lastLogin": 1795894192000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -3496,7 +3496,7 @@
     "primaries": [
      {
       "name": "Leatherworking",
-      "skill": 229,
+      "skill": 231,
       "max": 300,
       "recipes": 104
      },
