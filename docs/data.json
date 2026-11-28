@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795894742715,
+ "generatedAt": 1795896817674,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -11566,7 +11566,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795865225000,
+   "lastLogin": 1795896077000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -11605,7 +11605,7 @@
       "spells": [],
       "req": "Requires Level 58",
       "reqClass": "",
-      "dur": "Durability 80 / 80",
+      "dur": "Durability 75 / 80",
       "sell": 30173,
       "desc": ""
      }
@@ -11697,7 +11697,7 @@
       "spells": [],
       "req": "Requires Level 55",
       "reqClass": "",
-      "dur": "Durability 80 / 80",
+      "dur": "Durability 77 / 80",
       "sell": 26064,
       "desc": "",
       "set": {
@@ -11764,43 +11764,41 @@
     {
      "slot": "BACK",
      "slotName": "Back",
-     "itemId": 271810,
-     "name": "Corpsefeeder's Shedding",
+     "itemId": 272414,
+     "name": "Howler's Furs",
      "quality": "RARE",
      "ilvl": 0,
      "inventoryType": "CLOAK",
-     "enchants": [
-      "Enchanted: Agility +3"
-     ],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133763.jpg",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133762.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Back",
       "sub": "Cloth",
-      "armor": "31 Armor",
+      "armor": "46 Armor",
       "stats": [
        {
-        "s": "+4 Agility",
+        "s": "+8 Stamina",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+4 Strength",
+        "s": "+10 Hit",
         "neg": false,
-        "eq": false
+        "eq": true
        },
        {
-        "s": "+11 Stamina",
+        "s": "+28 Attack Power",
         "neg": false,
-        "eq": false
+        "eq": true
        }
       ],
       "spells": [],
-      "req": "",
+      "req": "Requires Level 60",
       "reqClass": "",
       "dur": "",
-      "sell": 5143,
+      "sell": 19513,
       "desc": ""
      }
     },
@@ -11852,7 +11850,7 @@
       "spells": [],
       "req": "Requires Level 58",
       "reqClass": "",
-      "dur": "Durability 135 / 135",
+      "dur": "Durability 123 / 135",
       "sell": 40307,
       "desc": "",
       "set": {
@@ -12002,7 +12000,7 @@
       "spells": [],
       "req": "Requires Level 57",
       "reqClass": "",
-      "dur": "Durability 45 / 45",
+      "dur": "Durability 43 / 45",
       "sell": 19303,
       "desc": ""
      }
@@ -12055,7 +12053,7 @@
       "spells": [],
       "req": "Requires Level 54",
       "reqClass": "",
-      "dur": "Durability 45 / 45",
+      "dur": "Durability 44 / 45",
       "sell": 16675,
       "desc": "",
       "set": {
@@ -12155,7 +12153,7 @@
       "spells": [],
       "req": "Requires Level 60",
       "reqClass": "Classes: Warrior",
-      "dur": "Durability 55 / 55",
+      "dur": "Durability 54 / 55",
       "sell": 50000,
       "desc": ""
      }
@@ -12198,7 +12196,7 @@
       "spells": [],
       "req": "Requires Level 58",
       "reqClass": "",
-      "dur": "Durability 100 / 100",
+      "dur": "Durability 95 / 100",
       "sell": 40307,
       "desc": ""
      }
@@ -12246,7 +12244,7 @@
       "spells": [],
       "req": "Requires Level 54",
       "reqClass": "",
-      "dur": "Durability 65 / 65",
+      "dur": "Durability 64 / 65",
       "sell": 24823,
       "desc": "",
       "set": {
@@ -12455,32 +12453,32 @@
     {
      "slot": "MAIN_HAND",
      "slotName": "Main Hand",
-     "itemId": 18376,
-     "name": "Timeworn Mace",
+     "itemId": 18737,
+     "name": "Bone Slicing Hatchet",
      "quality": "RARE",
      "ilvl": 0,
      "inventoryType": "WEAPON",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133482.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132402.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "One-Hand",
-      "sub": "Mace",
+      "sub": "Axe",
       "armor": "",
       "stats": [
        {
-        "s": "+7 Strength",
+        "s": "+13 Agility",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+11 Stamina",
+        "s": "+5 Stamina",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+50 Bonus Armor",
+        "s": "+9 Attack Power Vs Undead",
         "neg": false,
         "eq": true
        }
@@ -12488,13 +12486,13 @@
       "spells": [],
       "req": "Requires Level 57",
       "reqClass": "",
-      "dur": "Durability 90 / 90",
+      "dur": "Durability 85 / 90",
       "sell": 54840,
       "desc": "",
       "weapon": {
-       "dmg": "62 - 117 Damage",
-       "speed": "Speed 2.20",
-       "dps": "(40.7 damage per second)"
+       "dmg": "48 - 90 Damage",
+       "speed": "Speed 1.70",
+       "dps": "(40.6 damage per second)"
       }
      }
     },
@@ -12533,7 +12531,7 @@
       ],
       "req": "Requires Level 55",
       "reqClass": "",
-      "dur": "Durability 100 / 100",
+      "dur": "Durability 95 / 100",
       "sell": 31835,
       "desc": ""
      }
@@ -12569,7 +12567,7 @@
       "spells": [],
       "req": "Requires Level 43",
       "reqClass": "",
-      "dur": "Durability 240 / 240",
+      "dur": "Durability 223 / 240",
       "sell": 18370,
       "desc": "",
       "weapon": {
@@ -12651,7 +12649,7 @@
     {
      "k": "health",
      "label": "Health",
-     "v": 4739
+     "v": 4649
     },
     {
      "k": "power",
@@ -12661,17 +12659,17 @@
     {
      "k": "strength",
      "label": "Strength",
-     "v": 270
+     "v": 259
     },
     {
      "k": "agility",
      "label": "Agility",
-     "v": 135
+     "v": 141
     },
     {
      "k": "stamina",
      "label": "Stamina",
-     "v": 323
+     "v": 314
     },
     {
      "k": "intellect",
@@ -12686,17 +12684,17 @@
     {
      "k": "armor",
      "label": "Armor",
-     "v": 6282
+     "v": 6259
     },
     {
      "k": "attack_power",
      "label": "Attack power",
-     "v": 736
+     "v": 742
     },
     {
      "k": "ranged_attack_power",
      "label": "Ranged attack power",
-     "v": 346
+     "v": 386
     },
     {
      "k": "spell_power",
@@ -12706,13 +12704,13 @@
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 16.21,
+     "v": 16.51,
      "p": 1
     },
     {
      "k": "ranged_crit",
      "label": "Ranged crit",
-     "v": 11.21,
+     "v": 11.51,
      "p": 1
     },
     {
@@ -12724,7 +12722,7 @@
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 8.2,
+     "v": 8.5,
      "p": 1
     },
     {
@@ -12773,7 +12771,7 @@
      {
       "name": "Argent Dawn",
       "standing": "Honored",
-      "v": 5975,
+      "v": 7921,
       "max": 12000,
       "tier": 5
      },
@@ -18126,7 +18124,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795833434000,
+   "lastLogin": 1795896340000,
    "apiItemLevel": 0,
    "gear": [
     {
