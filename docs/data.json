@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795893090825,
+ "generatedAt": 1795893871424,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -2880,7 +2880,7 @@
    "faction": "HORDE",
    "ruleset": "Normal",
    "achievementPoints": 0,
-   "lastLogin": 1795892410000,
+   "lastLogin": 1795893540000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -3122,7 +3122,9 @@
      "quality": "UNCOMMON",
      "ilvl": 0,
      "inventoryType": "HAND",
-     "enchants": [],
+     "enchants": [
+      "Enchanted: Stamina +5 and Armor +40"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132957.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -3494,7 +3496,7 @@
     "primaries": [
      {
       "name": "Leatherworking",
-      "skill": 225,
+      "skill": 229,
       "max": 300,
       "recipes": 104
      },
@@ -3537,7 +3539,7 @@
     {
      "k": "health",
      "label": "Health",
-     "v": 2005
+     "v": 2055
     },
     {
      "k": "power",
@@ -3557,7 +3559,7 @@
     {
      "k": "stamina",
      "label": "Stamina",
-     "v": 141
+     "v": 146
     },
     {
      "k": "intellect",
@@ -3572,7 +3574,7 @@
     {
      "k": "armor",
      "label": "Armor",
-     "v": 1274
+     "v": 1314
     },
     {
      "k": "attack_power",
