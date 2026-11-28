@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795833555282,
+ "generatedAt": 1795856034456,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -12765,10 +12765,10 @@
    "surname": "Shieldsworn",
    "fullName": "Chasida Shieldsworn",
    "level": 50,
-   "experience": 3153,
+   "experience": 67103,
    "xpToLevel": 147500,
-   "xpPct": 2.14,
-   "levelProgress": 50.02,
+   "xpPct": 45.49,
+   "levelProgress": 50.45,
    "className": "Paladin",
    "classId": 2,
    "race": "Dwarf",
@@ -12777,7 +12777,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795789504000,
+   "lastLogin": 1795855704000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -13538,49 +13538,70 @@
     {
      "slot": "MAIN_HAND",
      "slotName": "Main Hand",
-     "itemId": 221518,
-     "name": "Whisper",
+     "itemId": 17705,
+     "name": "Thrash Blade",
      "quality": "RARE",
      "ilvl": 0,
-     "inventoryType": "TWOHWEAPON",
+     "inventoryType": "WEAPON",
      "enchants": [
       "Enchanted: Fiery Weapon"
      ],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133042.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135346.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
-      "inv": "Two-Hand",
-      "sub": "Mace",
+      "inv": "One-Hand",
+      "sub": "Sword",
       "armor": "",
+      "stats": [],
+      "spells": [
+       "Chance on hit: Grants an extra attack on your next swing."
+      ],
+      "req": "",
+      "reqClass": "",
+      "dur": "Durability 90 / 90",
+      "sell": 33714,
+      "desc": "",
+      "weapon": {
+       "dmg": "66 - 124 Damage",
+       "speed": "Speed 2.70",
+       "dps": "(35.2 damage per second)"
+      }
+     }
+    },
+    {
+     "slot": "OFF_HAND",
+     "slotName": "Off Hand",
+     "itemId": 9458,
+     "name": "Thermaplugg's Central Core",
+     "quality": "RARE",
+     "ilvl": 0,
+     "inventoryType": "SHIELD",
+     "enchants": [
+      "Enchanted: Iron Spike (8-12)"
+     ],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134956.jpg",
+     "tt": {
+      "bind": "Binds when picked up",
+      "unique": "",
+      "inv": "Off Hand",
+      "sub": "Shield",
+      "armor": "776 Armor",
       "stats": [
        {
-        "s": "+23 Strength",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+7 Critical Strike",
-        "neg": false,
-        "eq": true
-       },
-       {
-        "s": "+14 Spell Power",
+        "s": "+3 Spirit",
         "neg": false,
         "eq": true
        }
       ],
-      "spells": [],
-      "req": "",
+      "spells": [
+       "Equip: When struck in combat has a 5% chance of inflicting 65 to 121 Nature damage to the attacker."
+      ],
+      "req": "Requires Level 31",
       "reqClass": "",
       "dur": "Durability 100 / 100",
-      "sell": 44863,
-      "desc": "",
-      "weapon": {
-       "dmg": "124 - 187 Damage",
-       "speed": "Speed 3.40",
-       "dps": "(45.7 damage per second)"
-      }
+      "sell": 6111,
+      "desc": ""
      }
     }
    ],
@@ -13608,7 +13629,7 @@
     "primaries": [
      {
       "name": "Mining",
-      "skill": 215,
+      "skill": 217,
       "max": 300,
       "recipes": 11
      },
@@ -13634,7 +13655,7 @@
      },
      {
       "name": "First Aid",
-      "skill": 285,
+      "skill": 288,
       "max": 300,
       "recipes": 19
      }
@@ -13661,7 +13682,7 @@
     {
      "k": "strength",
      "label": "Strength",
-     "v": 171
+     "v": 148
     },
     {
      "k": "agility",
@@ -13681,17 +13702,17 @@
     {
      "k": "spirit",
      "label": "Spirit",
-     "v": 83
+     "v": 86
     },
     {
      "k": "armor",
      "label": "Armor",
-     "v": 2902
+     "v": 3709
     },
     {
      "k": "attack_power",
      "label": "Attack power",
-     "v": 504
+     "v": 458
     },
     {
      "k": "ranged_attack_power",
@@ -13701,42 +13722,42 @@
     {
      "k": "spell_power",
      "label": "Spell power",
-     "v": 38
+     "v": 24
     },
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 4.01,
+     "v": 3.47,
      "p": 1
     },
     {
      "k": "ranged_crit",
      "label": "Ranged crit",
-     "v": 0.5,
+     "v": 0,
      "p": 1
     },
     {
      "k": "spell_crit",
      "label": "Spell crit",
-     "v": 5.28,
+     "v": 4.78,
      "p": 1
     },
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 4.59,
+     "v": 4.75,
      "p": 1
     },
     {
      "k": "parry",
      "label": "Parry",
-     "v": 11.73,
+     "v": 11.89,
      "p": 1
     },
     {
      "k": "block",
      "label": "Block",
-     "v": 5.8,
+     "v": 5.96,
      "p": 1
     },
     {
@@ -13787,7 +13808,7 @@
      {
       "name": "Booty Bay",
       "standing": "Friendly",
-      "v": 3175,
+      "v": 3645,
       "max": 6000,
       "tier": 4
      },
@@ -13814,7 +13835,7 @@
     "pets": 4,
     "toys": 2
    },
-   "questsDone": 761
+   "questsDone": 769
   },
   {
    "friend": "Gareth",
