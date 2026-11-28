@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795865068923,
+ "generatedAt": 1795865957603,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -5209,9 +5209,39 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795726158000,
+   "lastLogin": 1795865848000,
    "apiItemLevel": 0,
    "gear": [
+    {
+     "slot": "AMMO",
+     "slotName": "Ammo",
+     "itemId": 11285,
+     "name": "Jagged Arrow",
+     "quality": "COMMON",
+     "ilvl": 0,
+     "inventoryType": "AMMO",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135661.jpg",
+     "tt": {
+      "bind": "",
+      "unique": "",
+      "inv": "Ammo",
+      "sub": "Arrow",
+      "armor": "",
+      "stats": [],
+      "spells": [],
+      "req": "Requires Level 40",
+      "reqClass": "",
+      "dur": "",
+      "sell": 2,
+      "desc": "",
+      "weapon": {
+       "dmg": "Adds 13 damage per second",
+       "speed": "",
+       "dps": ""
+      }
+     }
+    },
     {
      "slot": "HEAD",
      "slotName": "Head",
@@ -5381,7 +5411,9 @@
      "quality": "RARE",
      "ilvl": 0,
      "inventoryType": "CHEST",
-     "enchants": [],
+     "enchants": [
+      "Enchanted: Stamina +4 and Armor +32"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132743.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -5786,7 +5818,9 @@
      "quality": "RARE",
      "ilvl": 0,
      "inventoryType": "LEGS",
-     "enchants": [],
+     "enchants": [
+      "Enchanted: Stamina +4 and Armor +32"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134584.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -5822,54 +5856,56 @@
     {
      "slot": "FEET",
      "slotName": "Feet",
-     "itemId": 12021,
-     "name": "Shieldplate Sabatons",
+     "itemId": 13259,
+     "name": "Ribsteel Footguards",
      "quality": "RARE",
      "ilvl": 0,
      "inventoryType": "FEET",
-     "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132582.jpg",
+     "enchants": [
+      "Enchanted: Stamina +4 and Armor +32"
+     ],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132589.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Feet",
       "sub": "Plate",
-      "armor": "390 Armor",
+      "armor": "438 Armor",
       "stats": [
        {
-        "s": "+12 Strength",
+        "s": "+10 Agility",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+15 Stamina",
+        "s": "+10 Strength",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+9 Spirit",
+        "s": "+19 Stamina",
         "neg": false,
-        "eq": true
+        "eq": false
        }
       ],
       "spells": [],
-      "req": "",
+      "req": "Requires Level 56",
       "reqClass": "",
       "dur": "Durability 65 / 65",
-      "sell": 18726,
+      "sell": 27368,
       "desc": ""
      }
     },
     {
      "slot": "FINGER_1",
      "slotName": "Ring 1",
-     "itemId": 17713,
-     "name": "Blackstone Ring",
+     "itemId": 13373,
+     "name": "Band of Flesh",
      "quality": "RARE",
      "ilvl": 0,
      "inventoryType": "FINGER",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133359.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133721.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
@@ -5878,39 +5914,44 @@
       "armor": "",
       "stats": [
        {
-        "s": "+6 Stamina",
+        "s": "+3 Agility",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+10 Hit",
+        "s": "+6 Strength",
         "neg": false,
-        "eq": true
+        "eq": false
        },
        {
-        "s": "+20 Attack Power",
+        "s": "+16 Stamina",
+        "neg": false,
+        "eq": false
+       },
+       {
+        "s": "+40 Bonus Armor",
         "neg": false,
         "eq": true
        }
       ],
       "spells": [],
-      "req": "Requires Level 49",
+      "req": "Requires Level 55",
       "reqClass": "",
       "dur": "",
-      "sell": 14295,
+      "sell": 19896,
       "desc": ""
      }
     },
     {
      "slot": "FINGER_2",
      "slotName": "Ring 2",
-     "itemId": 12548,
-     "name": "Magni's Will",
+     "itemId": 276396,
+     "name": "Ezra's Seal of Authenticity",
      "quality": "RARE",
      "ilvl": 0,
      "inventoryType": "FINGER",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133347.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133363.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
@@ -5919,26 +5960,31 @@
       "armor": "",
       "stats": [
        {
-        "s": "+7 Strength",
+        "s": "+9 Strength",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+8 Stamina",
+        "s": "+12 Stamina",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+14 Critical Strike",
+        "s": "+3 Defense",
+        "neg": false,
+        "eq": true
+       },
+       {
+        "s": "+6 Dodge",
         "neg": false,
         "eq": true
        }
       ],
       "spells": [],
-      "req": "",
+      "req": "Requires Level 54",
       "reqClass": "",
       "dur": "",
-      "sell": 19896,
+      "sell": 19006,
       "desc": ""
      }
     },
@@ -5972,106 +6018,144 @@
     {
      "slot": "TRINKET_2",
      "slotName": "Trinket 2",
-     "itemId": 12846,
-     "name": "Argent Dawn Commission",
-     "quality": "COMMON",
+     "itemId": 270275,
+     "name": "Cleansed Vilebranch Medallion",
+     "quality": "UNCOMMON",
      "ilvl": 0,
      "inventoryType": "TRINKET",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133440.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133792.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Trinket",
       "sub": "Miscellaneous",
       "armor": "",
-      "stats": [],
-      "spells": [],
+      "stats": [
+       {
+        "s": "+7 Hit",
+        "neg": false,
+        "eq": true
+       }
+      ],
+      "spells": [
+       "Equip: +14 Attack Power. This effect is tripled in Forest and Grassland areas."
+      ],
       "req": "",
       "reqClass": "",
       "dur": "",
-      "sell": 0,
-      "desc": "Equipping this badge is an indication of service to the Argent Dawn."
+      "sell": 9540,
+      "desc": ""
      }
     },
     {
      "slot": "MAIN_HAND",
      "slotName": "Main Hand",
-     "itemId": 647,
-     "name": "Destiny",
-     "quality": "EPIC",
+     "itemId": 17705,
+     "name": "Thrash Blade",
+     "quality": "RARE",
      "ilvl": 0,
-     "inventoryType": "TWOHWEAPON",
+     "inventoryType": "WEAPON",
      "enchants": [
-      "Enchanted: Crusader"
+      "Enchanted: Recovery",
+      "Sharpened +8"
      ],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135317.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135346.jpg",
      "tt": {
-      "bind": "Binds when equipped",
+      "bind": "Binds when picked up",
       "unique": "",
-      "inv": "Two-Hand",
+      "inv": "One-Hand",
       "sub": "Sword",
       "armor": "",
+      "stats": [],
+      "spells": [
+       "Chance on hit: Grants an extra attack on your next swing."
+      ],
+      "req": "",
+      "reqClass": "",
+      "dur": "Durability 90 / 90",
+      "sell": 33714,
+      "desc": "",
+      "weapon": {
+       "dmg": "66 - 124 Damage",
+       "speed": "Speed 2.70",
+       "dps": "(35.2 damage per second)"
+      }
+     }
+    },
+    {
+     "slot": "OFF_HAND",
+     "slotName": "Off Hand",
+     "itemId": 13243,
+     "name": "Argent Defender",
+     "quality": "RARE",
+     "ilvl": 0,
+     "inventoryType": "SHIELD",
+     "enchants": [
+      "Enchanted: Mithril Spike (16-20)"
+     ],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134951.jpg",
+     "tt": {
+      "bind": "Binds when picked up",
+      "unique": "",
+      "inv": "Off Hand",
+      "sub": "Shield",
+      "armor": "2,121 Armor",
       "stats": [
        {
-        "s": "+10 Strength",
+        "s": "+11 Stamina",
         "neg": false,
         "eq": false
        }
       ],
       "spells": [
-       "Chance on hit: Increases Strength by 200 for 12 sec."
+       "Equip: Has a chance when struck in combat to increase your chance to block by 18% for 10 sec. Undead that strike you are 2 times as likely to activate this effect."
       ],
-      "req": "Requires Level 52",
+      "req": "",
       "reqClass": "",
-      "dur": "Durability 120 / 120",
-      "sell": 70024,
-      "desc": "To claim one's destiny requires the strength to reach out and grasp it.",
-      "weapon": {
-       "dmg": "155 - 233 Damage",
-       "speed": "Speed 3.60",
-       "dps": "(53.9 damage per second)"
-      }
+      "dur": "Durability 100 / 100",
+      "sell": 35098,
+      "desc": ""
      }
     },
     {
      "slot": "RANGED",
      "slotName": "Ranged",
-     "itemId": 287069,
-     "name": "Yeti Skinner",
-     "quality": "UNCOMMON",
+     "itemId": 18738,
+     "name": "Carapace Spine Crossbow",
+     "quality": "RARE",
      "ilvl": 0,
-     "inventoryType": "THROWN",
+     "inventoryType": "RANGEDRIGHT",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135425.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135533.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
-      "inv": "Thrown",
-      "sub": "Thrown",
+      "inv": "Ranged",
+      "sub": "Crossbow",
       "armor": "",
       "stats": [
        {
-        "s": "+7 Attack Power",
+        "s": "+5 Agility",
         "neg": false,
-        "eq": true
+        "eq": false
        },
        {
-        "s": "+2 Skinning Skill",
+        "s": "+9 Stamina",
         "neg": false,
-        "eq": true
+        "eq": false
        }
       ],
       "spells": [],
-      "req": "",
+      "req": "Requires Level 56",
       "reqClass": "",
-      "dur": "Durability 200 / 200",
-      "sell": 4932,
-      "desc": "Serves as a Skinning Knife.",
+      "dur": "Durability 75 / 75",
+      "sell": 39171,
+      "desc": "",
       "weapon": {
-       "dmg": "21 - 39 Damage",
-       "speed": "Speed 1.90",
-       "dps": "(15.8 damage per second)"
+       "dmg": "82 - 124 Damage",
+       "speed": "Speed 3.30",
+       "dps": "(31.2 damage per second)"
       }
      }
     }
@@ -6086,15 +6170,19 @@
     "trees": [
      {
       "name": "Arms",
-      "points": 32
+      "points": 3
      },
      {
       "name": "Fury",
-      "points": 19
+      "points": 17
+     },
+     {
+      "name": "Protection",
+      "points": 31
      }
     ],
-    "split": "32/19",
-    "main": "Arms"
+    "split": "3/17/31",
+    "main": "Protection"
    },
    "professions": {
     "primaries": [
@@ -6143,7 +6231,7 @@
     {
      "k": "health",
      "label": "Health",
-     "v": 3649
+     "v": 4149
     },
     {
      "k": "power",
@@ -6153,17 +6241,17 @@
     {
      "k": "strength",
      "label": "Strength",
-     "v": 234
+     "v": 230
     },
     {
      "k": "agility",
      "label": "Agility",
-     "v": 119
+     "v": 137
     },
     {
      "k": "stamina",
      "label": "Stamina",
-     "v": 214
+     "v": 264
     },
     {
      "k": "intellect",
@@ -6173,22 +6261,22 @@
     {
      "k": "spirit",
      "label": "Spirit",
-     "v": 77
+     "v": 68
     },
     {
      "k": "armor",
      "label": "Armor",
-     "v": 3763
+     "v": 6104
     },
     {
      "k": "attack_power",
      "label": "Attack power",
-     "v": 681
+     "v": 660
     },
     {
      "k": "ranged_attack_power",
      "label": "Ranged attack power",
-     "v": 331
+     "v": 354
     },
     {
      "k": "spell_power",
@@ -6198,37 +6286,37 @@
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 13.95,
+     "v": 13.81,
      "p": 1
     },
     {
      "k": "ranged_crit",
      "label": "Ranged crit",
-     "v": 7.11,
+     "v": 2,
      "p": 1
     },
     {
      "k": "spell_crit",
      "label": "Spell crit",
-     "v": 3,
+     "v": 2,
      "p": 1
     },
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 9.7,
+     "v": 11.18,
      "p": 1
     },
     {
      "k": "parry",
      "label": "Parry",
-     "v": 9.36,
+     "v": 9.48,
      "p": 1
     },
     {
      "k": "block",
      "label": "Block",
-     "v": 8.36,
+     "v": 13.48,
      "p": 1
     },
     {
@@ -6246,33 +6334,33 @@
    ],
    "titleCount": 0,
    "reputations": {
-    "total": 20,
+    "total": 19,
     "top": [
      {
       "name": "Stormwind",
       "standing": "Revered",
-      "v": 4131,
+      "v": 4141,
       "max": 21000,
       "tier": 6
      },
      {
       "name": "Darnassus",
       "standing": "Revered",
-      "v": 171,
+      "v": 173,
       "max": 21000,
       "tier": 6
      },
      {
       "name": "Ironforge",
       "standing": "Honored",
-      "v": 10543,
+      "v": 10546,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Gnomeregan Exiles",
       "standing": "Honored",
-      "v": 5120,
+      "v": 5122,
       "max": 12000,
       "tier": 5
      },
@@ -6306,7 +6394,7 @@
     "pets": 6,
     "toys": 3
    },
-   "questsDone": 1210
+   "questsDone": 1223
   },
   {
    "friend": "Ash",
@@ -11505,7 +11593,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795864771000,
+   "lastLogin": 1795865225000,
    "apiItemLevel": 0,
    "gear": [
     {
