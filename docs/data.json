@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795830838938,
+ "generatedAt": 1795832341870,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -8299,10 +8299,10 @@
    "surname": "Jõks",
    "fullName": "Peep Jõks",
    "level": 48,
-   "experience": 12199,
+   "experience": 91041,
    "xpToLevel": 135100,
-   "xpPct": 9.03,
-   "levelProgress": 48.09,
+   "xpPct": 67.39,
+   "levelProgress": 48.67,
    "className": "Rogue",
    "classId": 4,
    "race": "Gnome",
@@ -8311,7 +8311,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795703161000,
+   "lastLogin": 1795831127000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -8355,7 +8355,7 @@
       "spells": [],
       "req": "Requires Level 44",
       "reqClass": "",
-      "dur": "Durability 59 / 60",
+      "dur": "Durability 55 / 60",
       "sell": 9854,
       "desc": ""
      }
@@ -8437,7 +8437,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 50 / 60",
+      "dur": "Durability 41 / 60",
       "sell": 5532,
       "desc": ""
      }
@@ -8516,7 +8516,7 @@
       "spells": [],
       "req": "Requires Level 36",
       "reqClass": "",
-      "dur": "Durability 76 / 85",
+      "dur": "Durability 69 / 85",
       "sell": 3881,
       "desc": ""
      }
@@ -8604,7 +8604,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 34 / 35",
+      "dur": "Durability 31 / 35",
       "sell": 1191,
       "desc": ""
      }
@@ -8680,7 +8680,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 27 / 30",
+      "dur": "Durability 26 / 30",
       "sell": 4343,
       "desc": ""
      }
@@ -8723,7 +8723,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 66 / 75",
+      "dur": "Durability 57 / 75",
       "sell": 5252,
       "desc": ""
      }
@@ -8761,7 +8761,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 38 / 45",
+      "dur": "Durability 35 / 45",
       "sell": 4393,
       "desc": ""
      }
@@ -8863,14 +8863,50 @@
     {
      "slot": "MAIN_HAND",
      "slotName": "Main Hand",
+     "itemId": 279852,
+     "name": "Rock on Stick",
+     "quality": "RARE",
+     "ilvl": 0,
+     "inventoryType": "WEAPON",
+     "enchants": [],
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/133046.jpg",
+     "tt": {
+      "bind": "Binds when picked up",
+      "unique": "",
+      "inv": "One-Hand",
+      "sub": "Mace",
+      "armor": "",
+      "stats": [
+       {
+        "s": "+4 Strength",
+        "neg": false,
+        "eq": false
+       }
+      ],
+      "spells": [
+       "Chance on hit: Bash the target in the face, causing 7 Physical damage every 2 sec for 20 sec."
+      ],
+      "req": "",
+      "reqClass": "",
+      "dur": "Durability 83 / 90",
+      "sell": 22168,
+      "desc": "Need bigger rock. Maybe bigger stick too?",
+      "weapon": {
+       "dmg": "57 - 107 Damage",
+       "speed": "Speed 2.60",
+       "dps": "(31.5 damage per second)"
+      }
+     }
+    },
+    {
+     "slot": "OFF_HAND",
+     "slotName": "Off Hand",
      "itemId": 12531,
      "name": "Searing Needle",
      "quality": "RARE",
      "ilvl": 0,
      "inventoryType": "WEAPON",
-     "enchants": [
-      "Crippling Poison"
-     ],
+     "enchants": [],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135639.jpg",
      "tt": {
       "bind": "Binds when equipped",
@@ -8884,47 +8920,13 @@
       ],
       "req": "Requires Level 46",
       "reqClass": "",
-      "dur": "Durability 63 / 65",
+      "dur": "Durability 54 / 65",
       "sell": 30005,
       "desc": "",
       "weapon": {
        "dmg": "42 - 80 Damage",
        "speed": "Speed 1.80",
        "dps": "(33.9 damage per second)"
-      }
-     }
-    },
-    {
-     "slot": "OFF_HAND",
-     "slotName": "Off Hand",
-     "itemId": 6831,
-     "name": "Black Menace",
-     "quality": "RARE",
-     "ilvl": 0,
-     "inventoryType": "WEAPON",
-     "enchants": [
-      "Wound Poison (90 |4Charge:Charges;)"
-     ],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135311.jpg",
-     "tt": {
-      "bind": "Binds when picked up",
-      "unique": "",
-      "inv": "One-Hand",
-      "sub": "Dagger",
-      "armor": "",
-      "stats": [],
-      "spells": [
-       "Chance on hit: Sends a shadowy bolt at the enemy causing 77 Shadow damage."
-      ],
-      "req": "",
-      "reqClass": "",
-      "dur": "Durability 59 / 65",
-      "sell": 18003,
-      "desc": "",
-      "weapon": {
-       "dmg": "31 - 58 Damage",
-       "speed": "Speed 1.50",
-       "dps": "(29.7 damage per second)"
       }
      }
     },
@@ -8959,7 +8961,7 @@
       "spells": [],
       "req": "Requires Level 43",
       "reqClass": "",
-      "dur": "Durability 224 / 240",
+      "dur": "Durability 218 / 240",
       "sell": 18370,
       "desc": "",
       "weapon": {
@@ -8972,7 +8974,7 @@
    ],
    "itemLevel": 0,
    "pvp": {
-    "hk": 695,
+    "hk": 696,
     "rank": 1,
     "rankName": "Private"
    },
@@ -9000,7 +9002,7 @@
      },
      {
       "name": "Skinning",
-      "skill": 269,
+      "skill": 272,
       "max": 300,
       "recipes": 2
      }
@@ -9020,9 +9022,9 @@
      },
      {
       "name": "First Aid",
-      "skill": 260,
+      "skill": 262,
       "max": 300,
-      "recipes": 12
+      "recipes": 13
      }
     ]
    },
@@ -9047,7 +9049,7 @@
     {
      "k": "strength",
      "label": "Strength",
-     "v": 91
+     "v": 95
     },
     {
      "k": "agility",
@@ -9077,7 +9079,7 @@
     {
      "k": "attack_power",
      "label": "Attack power",
-     "v": 437
+     "v": 441
     },
     {
      "k": "ranged_attack_power",
@@ -9092,13 +9094,13 @@
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 9.8,
+     "v": 5,
      "p": 1
     },
     {
      "k": "ranged_crit",
      "label": "Ranged crit",
-     "v": 3.53,
+     "v": 3.61,
      "p": 1
     },
     {
@@ -9110,13 +9112,13 @@
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 17.87,
+     "v": 18.03,
      "p": 1
     },
     {
      "k": "parry",
      "label": "Parry",
-     "v": 10.76,
+     "v": 10.92,
      "p": 1
     },
     {
@@ -9174,14 +9176,14 @@
      {
       "name": "Booty Bay",
       "standing": "Friendly",
-      "v": 4110,
+      "v": 4457,
       "max": 6000,
       "tier": 4
      },
      {
-      "name": "Gelkis Clan Centaur",
+      "name": "Gadgetzan",
       "standing": "Friendly",
-      "v": 3800,
+      "v": 4187,
       "max": 6000,
       "tier": 4
      }
@@ -9201,7 +9203,7 @@
     "pets": 0,
     "toys": 0
    },
-   "questsDone": 648
+   "questsDone": 657
   },
   {
    "friend": "Panzer",
