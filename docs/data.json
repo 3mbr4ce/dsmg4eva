@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795896817674,
+ "generatedAt": 1795897467725,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -3795,10 +3795,10 @@
    "surname": "Khingen",
    "fullName": "Sire Khingen",
    "level": 38,
-   "experience": 12380,
+   "experience": 32712,
    "xpToLevel": 80900,
-   "xpPct": 15.3,
-   "levelProgress": 38.15,
+   "xpPct": 40.44,
+   "levelProgress": 38.4,
    "className": "Paladin",
    "classId": 2,
    "race": "Undead",
@@ -3807,7 +3807,7 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795821301000,
+   "lastLogin": 1795896862000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -3846,7 +3846,7 @@
       "spells": [],
       "req": "Requires Level 37",
       "reqClass": "",
-      "dur": "Durability 70 / 70",
+      "dur": "Durability 67 / 70",
       "sell": 6976,
       "desc": ""
      }
@@ -3928,7 +3928,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 55 / 70",
+      "dur": "Durability 48 / 70",
       "sell": 4378,
       "desc": ""
      }
@@ -4002,7 +4002,7 @@
       "spells": [],
       "req": "Requires Level 24",
       "reqClass": "",
-      "dur": "Durability 102 / 120",
+      "dur": "Durability 97 / 120",
       "sell": 2935,
       "desc": ""
      }
@@ -4068,7 +4068,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 26 / 35",
+      "dur": "Durability 23 / 35",
       "sell": 2705,
       "desc": ""
      }
@@ -4145,7 +4145,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 21 / 40",
+      "dur": "Durability 19 / 40",
       "sell": 2864,
       "desc": ""
      }
@@ -4188,7 +4188,7 @@
       "spells": [],
       "req": "Requires Level 25",
       "reqClass": "",
-      "dur": "Durability 73 / 90",
+      "dur": "Durability 63 / 90",
       "sell": 3149,
       "desc": ""
      }
@@ -4229,7 +4229,7 @@
       "spells": [],
       "req": "Requires Level 28",
       "reqClass": "",
-      "dur": "Durability 48 / 60",
+      "dur": "Durability 42 / 60",
       "sell": 3118,
       "desc": ""
      }
@@ -4366,7 +4366,7 @@
       ],
       "req": "",
       "reqClass": "Classes: Paladin",
-      "dur": "Durability 86 / 100",
+      "dur": "Durability 79 / 100",
       "sell": 7459,
       "desc": "",
       "weapon": {
@@ -4405,7 +4405,7 @@
       "name": "Blacksmithing",
       "skill": 200,
       "max": 225,
-      "recipes": 71
+      "recipes": 72
      }
     ],
     "secondaries": [
@@ -4495,13 +4495,13 @@
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 12.07,
+     "v": 12.15,
      "p": 1
     },
     {
      "k": "ranged_crit",
      "label": "Ranged crit",
-     "v": 2.23,
+     "v": 2.63,
      "p": 1
     },
     {
@@ -4513,19 +4513,19 @@
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 4.49,
+     "v": 4.53,
      "p": 1
     },
     {
      "k": "parry",
      "label": "Parry",
-     "v": 4.8,
+     "v": 4.84,
      "p": 1
     },
     {
      "k": "block",
      "label": "Block",
-     "v": 4.8,
+     "v": 4.84,
      "p": 1
     },
     {
@@ -4634,10 +4634,16 @@
      38.15,
      0,
      149
+    ],
+    [
+     1795897467725,
+     38.4,
+     0,
+     149
     ]
    ],
    "weekly": {
-    "levels": 2.06,
+    "levels": 2.31,
     "ilvl": -32.6,
     "hk": 8,
     "rank": 0
