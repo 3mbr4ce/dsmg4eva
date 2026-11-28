@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795878784995,
+ "generatedAt": 1795880332116,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -1073,7 +1073,7 @@
    "faction": "HORDE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795869973000,
+   "lastLogin": 1795879608000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -1625,73 +1625,30 @@
     {
      "slot": "MAIN_HAND",
      "slotName": "Main Hand",
-     "itemId": 7682,
-     "name": "Torturing Poker",
-     "quality": "RARE",
+     "itemId": 6256,
+     "name": "Fishing Pole",
+     "quality": "COMMON",
      "ilvl": 0,
-     "inventoryType": "WEAPON",
+     "inventoryType": "TWOHWEAPON",
      "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135124.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132932.jpg",
      "tt": {
-      "bind": "Binds when picked up",
+      "bind": "",
       "unique": "",
-      "inv": "One-Hand",
-      "sub": "Dagger",
+      "inv": "Two-Hand",
+      "sub": "Fishing Pole",
       "armor": "",
       "stats": [],
-      "spells": [
-       "Equip: Melee attacks with this weapon torture the target, dealing 1 Fire damage and increasing your damage dealt to that target with this effect by 1, stacking up to 10 times."
-      ],
-      "req": "Requires Level 29",
-      "reqClass": "",
-      "dur": "Durability 65 / 65",
-      "sell": 7892,
-      "desc": "",
-      "weapon": {
-       "dmg": "21 - 45 Damage",
-       "speed": "Speed 1.70",
-       "dps": "(19.6 damage per second)"
-      }
-     }
-    },
-    {
-     "slot": "OFF_HAND",
-     "slotName": "Off Hand",
-     "itemId": 7683,
-     "name": "Bloody Brass Knuckles",
-     "quality": "RARE",
-     "ilvl": 0,
-     "inventoryType": "WEAPON",
-     "enchants": [],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132945.jpg",
-     "tt": {
-      "bind": "Binds when picked up",
-      "unique": "",
-      "inv": "One-Hand",
-      "sub": "Fist Weapon",
-      "armor": "",
-      "stats": [
-       {
-        "s": "+12 Attack Power",
-        "neg": false,
-        "eq": true
-       },
-       {
-        "s": "+15 Attack Power Vs Humanoids",
-        "neg": false,
-        "eq": true
-       }
-      ],
       "spells": [],
-      "req": "Requires Level 29",
+      "req": "",
       "reqClass": "",
-      "dur": "Durability 65 / 65",
-      "sell": 7892,
+      "dur": "Durability 16 / 16",
+      "sell": 4,
       "desc": "",
       "weapon": {
-       "dmg": "24 - 46 Damage",
-       "speed": "Speed 1.60",
-       "dps": "(21.9 damage per second)"
+       "dmg": "2 - 4 Damage",
+       "speed": "Speed 3.00",
+       "dps": "(1.0 damage per second)"
       }
      }
     },
@@ -1772,8 +1729,8 @@
      },
      {
       "name": "Fishing",
-      "skill": 28,
-      "max": 75,
+      "skill": 122,
+      "max": 150,
       "recipes": 2
      },
      {
@@ -1835,12 +1792,12 @@
     {
      "k": "attack_power",
      "label": "Attack power",
-     "v": 296
+     "v": 284
     },
     {
      "k": "ranged_attack_power",
      "label": "Ranged attack power",
-     "v": 337
+     "v": 325
     },
     {
      "k": "spell_power",
@@ -1850,7 +1807,7 @@
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 8.3,
+     "v": 5.42,
      "p": 1
     },
     {
@@ -2905,10 +2862,10 @@
    "surname": "Huun",
    "fullName": "Dala Huun",
    "level": 47,
-   "experience": 41722,
+   "experience": 43188,
    "xpToLevel": 129100,
-   "xpPct": 32.32,
-   "levelProgress": 47.32,
+   "xpPct": 33.45,
+   "levelProgress": 47.33,
    "className": "Shaman",
    "classId": 7,
    "race": "Orc",
@@ -2917,7 +2874,7 @@
    "faction": "HORDE",
    "ruleset": "Normal",
    "achievementPoints": 0,
-   "lastLogin": 1795864382000,
+   "lastLogin": 1795879853000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -3105,7 +3062,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 91 / 100",
+      "dur": "Durability 90 / 100",
       "sell": 8866,
       "desc": ""
      }
@@ -3291,7 +3248,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 47 / 50",
+      "dur": "Durability 46 / 50",
       "sell": 6021,
       "desc": ""
      }
@@ -3626,7 +3583,7 @@
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 10.31,
+     "v": 10.35,
      "p": 1
     },
     {
@@ -3789,10 +3746,16 @@
      47.32,
      0,
      3
+    ],
+    [
+     1795880332116,
+     47.33,
+     0,
+     3
     ]
    ],
    "weekly": {
-    "levels": 3.07,
+    "levels": 3.08,
     "ilvl": -35.18,
     "hk": 2,
     "rank": 0
