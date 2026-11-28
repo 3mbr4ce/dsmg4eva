@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795832341870,
+ "generatedAt": 1795833555282,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -16101,10 +16101,10 @@
    "surname": "Mokoko",
    "fullName": "Atturom Mokoko",
    "level": 37,
-   "experience": 16752,
+   "experience": 67302,
    "xpToLevel": 76100,
-   "xpPct": 22.01,
-   "levelProgress": 37.22,
+   "xpPct": 88.44,
+   "levelProgress": 37.88,
    "className": "Hunter",
    "classId": 3,
    "race": "Night Elf",
@@ -16113,7 +16113,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795741402000,
+   "lastLogin": 1795833353000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -16182,7 +16182,7 @@
       "spells": [],
       "req": "Requires Level 26",
       "reqClass": "",
-      "dur": "Durability 50 / 50",
+      "dur": "Durability 44 / 50",
       "sell": 1767,
       "desc": ""
      }
@@ -16249,7 +16249,7 @@
       "spells": [],
       "req": "Requires Level 28",
       "reqClass": "",
-      "dur": "Durability 50 / 50",
+      "dur": "Durability 41 / 50",
       "sell": 2281,
       "desc": ""
      }
@@ -16326,7 +16326,7 @@
       "spells": [],
       "req": "Requires Level 26",
       "reqClass": "",
-      "dur": "Durability 100 / 100",
+      "dur": "Durability 90 / 100",
       "sell": 2894,
       "desc": ""
      }
@@ -16414,7 +16414,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 25 / 25",
+      "dur": "Durability 23 / 25",
       "sell": 462,
       "desc": ""
      }
@@ -16450,7 +16450,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 30 / 30",
+      "dur": "Durability 28 / 30",
       "sell": 1492,
       "desc": ""
      }
@@ -16486,7 +16486,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 20 / 20",
+      "dur": "Durability 18 / 20",
       "sell": 240,
       "desc": ""
      }
@@ -16527,7 +16527,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 74 / 75",
+      "dur": "Durability 68 / 75",
       "sell": 5252,
       "desc": ""
      }
@@ -16565,7 +16565,7 @@
       "spells": [],
       "req": "Requires Level 17",
       "reqClass": "",
-      "dur": "Durability 39 / 40",
+      "dur": "Durability 35 / 40",
       "sell": 849,
       "desc": "",
       "set": {
@@ -16811,7 +16811,9 @@
      "quality": "RARE",
      "ilvl": 0,
      "inventoryType": "RANGEDRIGHT",
-     "enchants": [],
+     "enchants": [
+      "Enchanted: Scope (+1 Damage)"
+     ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135614.jpg",
      "tt": {
       "bind": "Binds when picked up",
@@ -16834,7 +16836,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 75 / 75",
+      "dur": "Durability 69 / 75",
       "sell": 7207,
       "desc": "",
       "weapon": {
@@ -16847,7 +16849,7 @@
    ],
    "itemLevel": 0,
    "pvp": {
-    "hk": 258,
+    "hk": 263,
     "rank": 0,
     "rankName": "Unranked"
    },
@@ -16957,13 +16959,13 @@
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 4.57,
+     "v": 4.73,
      "p": 1
     },
     {
      "k": "ranged_crit",
      "label": "Ranged crit",
-     "v": 5.29,
+     "v": 5.49,
      "p": 1
     },
     {
@@ -16975,13 +16977,13 @@
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 10.82,
+     "v": 10.98,
      "p": 1
     },
     {
      "k": "parry",
      "label": "Parry",
-     "v": 3.76,
+     "v": 3.92,
      "p": 1
     },
     {
@@ -17005,33 +17007,40 @@
    ],
    "titleCount": 0,
    "reputations": {
-    "total": 10,
+    "total": 12,
     "top": [
      {
       "name": "Darnassus",
       "standing": "Honored",
-      "v": 6491,
+      "v": 6741,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Stormwind",
       "standing": "Honored",
-      "v": 4482,
+      "v": 4732,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Ironforge",
       "standing": "Honored",
-      "v": 1537,
+      "v": 1862,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Gnomeregan Exiles",
       "standing": "Friendly",
-      "v": 5820,
+      "v": 5957,
+      "max": 6000,
+      "tier": 4
+     },
+     {
+      "name": "Gelkis Clan Centaur",
+      "standing": "Friendly",
+      "v": 1915,
       "max": 6000,
       "tier": 4
      },
@@ -17041,23 +17050,16 @@
       "v": 1881,
       "max": 3000,
       "tier": 3
-     },
-     {
-      "name": "Ratchet",
-      "standing": "Neutral",
-      "v": 1492,
-      "max": 3000,
-      "tier": 3
      }
     ]
    },
    "achievements": {
     "points": 0,
-    "count": 10,
+    "count": 11,
     "recent": [
+     "Explore Redridge Mountains",
      "Novice Paladin",
-     "Explore Elwynn Forest",
-     "Novice Shaman"
+     "Explore Elwynn Forest"
     ]
    },
    "collections": {
@@ -17065,7 +17067,7 @@
     "pets": 1,
     "toys": 0
    },
-   "questsDone": 445
+   "questsDone": 453
   },
   {
    "friend": "Kusou",
@@ -17077,10 +17079,10 @@
    "surname": "Mokoko",
    "fullName": "Kusou Mokoko",
    "level": 37,
-   "experience": 277,
+   "experience": 50885,
    "xpToLevel": 76100,
-   "xpPct": 0.36,
-   "levelProgress": 37,
+   "xpPct": 66.87,
+   "levelProgress": 37.67,
    "className": "Rogue",
    "classId": 4,
    "race": "Night Elf",
@@ -17089,7 +17091,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795828123000,
+   "lastLogin": 1795833395000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -17153,7 +17155,7 @@
       "spells": [],
       "req": "Requires Level 36",
       "reqClass": "",
-      "dur": "Durability 48 / 50",
+      "dur": "Durability 33 / 50",
       "sell": 2922,
       "desc": ""
      }
@@ -17230,7 +17232,7 @@
       "spells": [],
       "req": "Requires Level 30",
       "reqClass": "",
-      "dur": "Durability 33 / 50",
+      "dur": "Durability 16 / 50",
       "sell": 2609,
       "desc": ""
      }
@@ -17306,7 +17308,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 63 / 90",
+      "dur": "Durability 26 / 90",
       "sell": 1441,
       "desc": ""
      }
@@ -17387,7 +17389,7 @@
       "spells": [],
       "req": "Requires Level 32",
       "reqClass": "",
-      "dur": "Durability 20 / 30",
+      "dur": "Durability 8 / 30",
       "sell": 2146,
       "desc": ""
      }
@@ -17420,7 +17422,7 @@
       ],
       "req": "Requires Level 27",
       "reqClass": "",
-      "dur": "Durability 31 / 35",
+      "dur": "Durability 16 / 35",
       "sell": 1833,
       "desc": ""
      }
@@ -17461,7 +17463,7 @@
       "spells": [],
       "req": "Requires Level 33",
       "reqClass": "",
-      "dur": "Durability 19 / 30",
+      "dur": "Durability 3 / 30",
       "sell": 2317,
       "desc": ""
      }
@@ -17502,7 +17504,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 52 / 75",
+      "dur": "Durability 28 / 75",
       "sell": 5252,
       "desc": ""
      }
@@ -17540,7 +17542,7 @@
       "spells": [],
       "req": "Requires Level 19",
       "reqClass": "",
-      "dur": "Durability 32 / 45",
+      "dur": "Durability 15 / 45",
       "sell": 1075,
       "desc": ""
      }
@@ -17668,7 +17670,7 @@
      "ilvl": 0,
      "inventoryType": "WEAPONMAINHAND",
      "enchants": [
-      "Instant Poison III (96 |4Charge:Charges;)"
+      "Instant Poison III (98 |4Charge:Charges;)"
      ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132392.jpg",
      "tt": {
@@ -17697,7 +17699,7 @@
       "spells": [],
       "req": "Requires Level 25",
       "reqClass": "",
-      "dur": "Durability 86 / 90",
+      "dur": "Durability 66 / 90",
       "sell": 5644,
       "desc": "",
       "weapon": {
@@ -17716,7 +17718,7 @@
      "ilvl": 0,
      "inventoryType": "WEAPON",
      "enchants": [
-      "Instant Poison III (102 |4Charge:Charges;)"
+      "Instant Poison III (100 |4Charge:Charges;)"
      ],
      "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132409.jpg",
      "tt": {
@@ -17740,7 +17742,7 @@
       "spells": [],
       "req": "Requires Level 30",
       "reqClass": "",
-      "dur": "Durability 84 / 90",
+      "dur": "Durability 69 / 90",
       "sell": 8681,
       "desc": "",
       "weapon": {
@@ -17781,7 +17783,7 @@
       "spells": [],
       "req": "Requires Level 22",
       "reqClass": "",
-      "dur": "Durability 67 / 70",
+      "dur": "Durability 60 / 70",
       "sell": 3020,
       "desc": "",
       "weapon": {
@@ -17794,7 +17796,7 @@
    ],
    "itemLevel": 0,
    "pvp": {
-    "hk": 255,
+    "hk": 261,
     "rank": 0,
     "rankName": "Unranked"
    },
@@ -17818,7 +17820,7 @@
      },
      {
       "name": "Herbalism",
-      "skill": 202,
+      "skill": 204,
       "max": 225,
       "recipes": 4
      }
@@ -17910,7 +17912,7 @@
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 10.23,
+     "v": 10.43,
      "p": 1
     },
     {
@@ -17928,13 +17930,13 @@
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 21.5,
+     "v": 21.74,
      "p": 1
     },
     {
      "k": "parry",
      "label": "Parry",
-     "v": 10.64,
+     "v": 10.88,
      "p": 1
     },
     {
@@ -17958,33 +17960,40 @@
    ],
    "titleCount": 0,
    "reputations": {
-    "total": 11,
+    "total": 13,
     "top": [
      {
       "name": "Darnassus",
       "standing": "Honored",
-      "v": 5316,
+      "v": 5566,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Stormwind",
       "standing": "Honored",
-      "v": 3972,
+      "v": 4222,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Ironforge",
       "standing": "Honored",
-      "v": 1353,
+      "v": 1678,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Gnomeregan Exiles",
       "standing": "Friendly",
-      "v": 5692,
+      "v": 5830,
+      "max": 6000,
+      "tier": 4
+     },
+     {
+      "name": "Gelkis Clan Centaur",
+      "standing": "Friendly",
+      "v": 1955,
       "max": 6000,
       "tier": 4
      },
@@ -17992,13 +18001,6 @@
       "name": "Azeroth Commerce Authority",
       "standing": "Neutral",
       "v": 2075,
-      "max": 3000,
-      "tier": 3
-     },
-     {
-      "name": "Booty Bay",
-      "standing": "Neutral",
-      "v": 1880,
       "max": 3000,
       "tier": 3
      }
@@ -18018,7 +18020,7 @@
     "pets": 0,
     "toys": 0
    },
-   "questsDone": 431
+   "questsDone": 439
   },
   {
    "friend": "Tryi",
@@ -18030,10 +18032,10 @@
    "surname": "Mokoko",
    "fullName": "Tryi Mokoko",
    "level": 37,
-   "experience": 9257,
+   "experience": 58108,
    "xpToLevel": 76100,
-   "xpPct": 12.16,
-   "levelProgress": 37.12,
+   "xpPct": 76.36,
+   "levelProgress": 37.76,
    "className": "Druid",
    "classId": 11,
    "race": "Night Elf",
@@ -18042,7 +18044,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795741381000,
+   "lastLogin": 1795833434000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -18076,7 +18078,7 @@
       "spells": [],
       "req": "Requires Level 36",
       "reqClass": "",
-      "dur": "Durability 37 / 50",
+      "dur": "Durability 28 / 50",
       "sell": 2922,
       "desc": ""
      }
@@ -18198,7 +18200,7 @@
       "spells": [],
       "req": "Requires Level 30",
       "reqClass": "",
-      "dur": "Durability 31 / 50",
+      "dur": "Durability 27 / 50",
       "sell": 2609,
       "desc": ""
      }
@@ -18282,7 +18284,7 @@
       "spells": [],
       "req": "Requires Level 33",
       "reqClass": "",
-      "dur": "Durability 69 / 85",
+      "dur": "Durability 58 / 85",
       "sell": 2738,
       "desc": ""
      }
@@ -18370,7 +18372,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 20 / 25",
+      "dur": "Durability 15 / 25",
       "sell": 462,
       "desc": ""
      }
@@ -18411,7 +18413,7 @@
       "spells": [],
       "req": "Requires Level 22",
       "reqClass": "",
-      "dur": "Durability 31 / 35",
+      "dur": "Durability 29 / 35",
       "sell": 962,
       "desc": ""
      }
@@ -18447,7 +18449,7 @@
       "spells": [],
       "req": "Requires Level 24",
       "reqClass": "",
-      "dur": "Durability 26 / 30",
+      "dur": "Durability 23 / 30",
       "sell": 989,
       "desc": ""
      }
@@ -18488,7 +18490,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 67 / 75",
+      "dur": "Durability 56 / 75",
       "sell": 5252,
       "desc": ""
      }
@@ -18524,7 +18526,7 @@
       "spells": [],
       "req": "Requires Level 25",
       "reqClass": "",
-      "dur": "Durability 36 / 45",
+      "dur": "Durability 33 / 45",
       "sell": 1697,
       "desc": ""
      }
@@ -18676,7 +18678,7 @@
       ],
       "req": "Requires Level 29",
       "reqClass": "",
-      "dur": "Durability 80 / 100",
+      "dur": "Durability 67 / 100",
       "sell": 9865,
       "desc": "",
       "weapon": {
@@ -18716,7 +18718,7 @@
    ],
    "itemLevel": 0,
    "pvp": {
-    "hk": 290,
+    "hk": 296,
     "rank": 0,
     "rankName": "Unranked"
    },
@@ -18734,7 +18736,7 @@
     "primaries": [
      {
       "name": "Mining",
-      "skill": 66,
+      "skill": 68,
       "max": 75,
       "recipes": 3
      },
@@ -18838,7 +18840,7 @@
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 15.31,
+     "v": 15.43,
      "p": 1
     },
     {
@@ -18868,33 +18870,40 @@
    ],
    "titleCount": 0,
    "reputations": {
-    "total": 11,
+    "total": 12,
     "top": [
      {
       "name": "Darnassus",
       "standing": "Honored",
-      "v": 5491,
+      "v": 5741,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Stormwind",
       "standing": "Honored",
-      "v": 4110,
+      "v": 4360,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Ironforge",
       "standing": "Honored",
-      "v": 1416,
+      "v": 1741,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Gnomeregan Exiles",
       "standing": "Friendly",
-      "v": 5755,
+      "v": 5892,
+      "max": 6000,
+      "tier": 4
+     },
+     {
+      "name": "Gelkis Clan Centaur",
+      "standing": "Friendly",
+      "v": 2255,
       "max": 6000,
       "tier": 4
      },
@@ -18904,23 +18913,16 @@
       "v": 2625,
       "max": 3000,
       "tier": 3
-     },
-     {
-      "name": "Booty Bay",
-      "standing": "Neutral",
-      "v": 1890,
-      "max": 3000,
-      "tier": 3
      }
     ]
    },
    "achievements": {
     "points": 0,
-    "count": 10,
+    "count": 11,
     "recent": [
+     "Explore Redridge Mountains",
      "Novice Paladin",
-     "Explore Elwynn Forest",
-     "Novice Shaman"
+     "Explore Elwynn Forest"
     ]
    },
    "collections": {
@@ -18928,7 +18930,7 @@
     "pets": 1,
     "toys": 0
    },
-   "questsDone": 440
+   "questsDone": 448
   },
   {
    "friend": "Daytona",
