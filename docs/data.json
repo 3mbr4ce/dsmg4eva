@@ -1,6 +1,6 @@
 {
  "app": "DSMG4EVA",
- "generatedAt": 1795870421862,
+ "generatedAt": 1795878784995,
  "region": "eu",
  "levelCap": 60,
  "weekId": "2026-11-25T07",
@@ -5213,7 +5213,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795865848000,
+   "lastLogin": 1795877915000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -5532,7 +5532,7 @@
       "sell": 14982,
       "desc": "",
       "set": {
-       "name": "Battlegear of Valor (3/8)",
+       "name": "Battlegear of Valor (2/8)",
        "items": [
         {
          "n": "Belt of Valor",
@@ -5552,7 +5552,7 @@
         },
         {
          "n": "Gauntlets of Valor",
-         "eq": true
+         "eq": false
         },
         {
          "n": "Helm of Valor",
@@ -5573,8 +5573,8 @@
          "on": true
         },
         {
-         "s": "Set: +15 Strength.",
-         "on": true
+         "s": "(3) Set: +15 Strength.",
+         "on": false
         },
         {
          "s": "(4) Set: When struck in combat, has a 10% chance to remove a Disarm effect from yourself. Can only occur once every 60 sec.",
@@ -5595,113 +5595,41 @@
     {
      "slot": "HANDS",
      "slotName": "Hands",
-     "itemId": 16737,
-     "name": "Gauntlets of Valor",
+     "itemId": 18722,
+     "name": "Death Grips",
      "quality": "RARE",
      "ilvl": 0,
      "inventoryType": "HAND",
      "enchants": [
-      "Enchanted: Agility +7"
+      "Enchanted: Agility +10"
      ],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132960.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/132947.jpg",
      "tt": {
-      "bind": "Binds when equipped",
+      "bind": "Binds when picked up",
       "unique": "",
       "inv": "Hands",
       "sub": "Plate",
-      "armor": "386 Armor",
+      "armor": "404 Armor",
       "stats": [
        {
-        "s": "+3 Agility",
+        "s": "+22 Strength",
         "neg": false,
         "eq": false
        },
        {
-        "s": "+17 Strength",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+10 Stamina",
-        "neg": false,
-        "eq": false
-       },
-       {
-        "s": "+4 Defense",
-        "neg": false,
-        "eq": true
-       },
-       {
-        "s": "+8 Spirit",
+        "s": "+5 Hit",
         "neg": false,
         "eq": true
        }
       ],
-      "spells": [],
-      "req": "Requires Level 54",
+      "spells": [
+       "Equip: Immune to Disarm."
+      ],
+      "req": "Requires Level 57",
       "reqClass": "",
       "dur": "Durability 45 / 45",
-      "sell": 16675,
-      "desc": "",
-      "set": {
-       "name": "Battlegear of Valor (3/8)",
-       "items": [
-        {
-         "n": "Belt of Valor",
-         "eq": true
-        },
-        {
-         "n": "Boots of Valor",
-         "eq": false
-        },
-        {
-         "n": "Bracers of Valor",
-         "eq": true
-        },
-        {
-         "n": "Breastplate of Valor",
-         "eq": false
-        },
-        {
-         "n": "Gauntlets of Valor",
-         "eq": true
-        },
-        {
-         "n": "Helm of Valor",
-         "eq": false
-        },
-        {
-         "n": "Legplates of Valor",
-         "eq": false
-        },
-        {
-         "n": "Spaulders of Valor",
-         "eq": false
-        }
-       ],
-       "effects": [
-        {
-         "s": "Set: +8 All Resistances.",
-         "on": true
-        },
-        {
-         "s": "Set: +15 Strength.",
-         "on": true
-        },
-        {
-         "s": "(4) Set: When struck in combat, has a 10% chance to remove a Disarm effect from yourself. Can only occur once every 60 sec.",
-         "on": false
-        },
-        {
-         "s": "(5) Set: Chance on melee attack to heal for 88 to 132 and generate 10 Rage",
-         "on": false
-        },
-        {
-         "s": "(6) Set: Restores 15 health per 5 sec.",
-         "on": false
-        }
-       ]
-      }
+      "sell": 19303,
+      "desc": ""
      }
     },
     {
@@ -5754,7 +5682,7 @@
       "sell": 15881,
       "desc": "",
       "set": {
-       "name": "Battlegear of Valor (3/8)",
+       "name": "Battlegear of Valor (2/8)",
        "items": [
         {
          "n": "Belt of Valor",
@@ -5774,7 +5702,7 @@
         },
         {
          "n": "Gauntlets of Valor",
-         "eq": true
+         "eq": false
         },
         {
          "n": "Helm of Valor",
@@ -5795,8 +5723,8 @@
          "on": true
         },
         {
-         "s": "Set: +15 Strength.",
-         "on": true
+         "s": "(3) Set: +15 Strength.",
+         "on": false
         },
         {
          "s": "(4) Set: When struck in combat, has a 10% chance to remove a Disarm effect from yourself. Can only occur once every 60 sec.",
@@ -5817,43 +5745,38 @@
     {
      "slot": "LEGS",
      "slotName": "Legs",
-     "itemId": 11927,
-     "name": "Legplates of the Eternal Guardian",
-     "quality": "RARE",
+     "itemId": 21316,
+     "name": "Leggings of the Ursa",
+     "quality": "UNCOMMON",
      "ilvl": 0,
      "inventoryType": "LEGS",
      "enchants": [
       "Enchanted: Stamina +4 and Armor +32"
      ],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134584.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134662.jpg",
      "tt": {
       "bind": "Binds when picked up",
       "unique": "",
       "inv": "Legs",
       "sub": "Plate",
-      "armor": "522 Armor",
+      "armor": "459 Armor",
       "stats": [
        {
-        "s": "+15 Defense",
+        "s": "+17 Strength",
         "neg": false,
-        "eq": true
+        "eq": false
        },
        {
-        "s": "+10 Block",
-        "neg": false,
-        "eq": true
-       },
-       {
-        "s": "+160 Bonus Armor",
+        "s": "+14 Critical Strike",
         "neg": false,
         "eq": true
        }
       ],
       "spells": [],
-      "req": "Requires Level 52",
+      "req": "",
       "reqClass": "",
-      "dur": "Durability 100 / 100",
-      "sell": 29794,
+      "dur": "Durability 85 / 85",
+      "sell": 12407,
       "desc": ""
      }
     },
@@ -6055,71 +5978,41 @@
     {
      "slot": "MAIN_HAND",
      "slotName": "Main Hand",
-     "itemId": 17705,
-     "name": "Thrash Blade",
-     "quality": "RARE",
+     "itemId": 647,
+     "name": "Destiny",
+     "quality": "EPIC",
      "ilvl": 0,
-     "inventoryType": "WEAPON",
+     "inventoryType": "TWOHWEAPON",
      "enchants": [
-      "Enchanted: Recovery",
-      "Sharpened +8"
+      "Enchanted: Crusader"
      ],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135346.jpg",
+     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/135317.jpg",
      "tt": {
-      "bind": "Binds when picked up",
+      "bind": "Binds when equipped",
       "unique": "",
-      "inv": "One-Hand",
+      "inv": "Two-Hand",
       "sub": "Sword",
       "armor": "",
-      "stats": [],
-      "spells": [
-       "Chance on hit: Grants an extra attack on your next swing."
-      ],
-      "req": "",
-      "reqClass": "",
-      "dur": "Durability 90 / 90",
-      "sell": 33714,
-      "desc": "",
-      "weapon": {
-       "dmg": "66 - 124 Damage",
-       "speed": "Speed 2.70",
-       "dps": "(35.2 damage per second)"
-      }
-     }
-    },
-    {
-     "slot": "OFF_HAND",
-     "slotName": "Off Hand",
-     "itemId": 13243,
-     "name": "Argent Defender",
-     "quality": "RARE",
-     "ilvl": 0,
-     "inventoryType": "SHIELD",
-     "enchants": [
-      "Enchanted: Mithril Spike (16-20)"
-     ],
-     "icon": "https://render.worldofwarcraft.com/forever-eu/icons/56/134951.jpg",
-     "tt": {
-      "bind": "Binds when picked up",
-      "unique": "",
-      "inv": "Off Hand",
-      "sub": "Shield",
-      "armor": "2,121 Armor",
       "stats": [
        {
-        "s": "+11 Stamina",
+        "s": "+10 Strength",
         "neg": false,
         "eq": false
        }
       ],
       "spells": [
-       "Equip: Has a chance when struck in combat to increase your chance to block by 18% for 10 sec. Undead that strike you are 2 times as likely to activate this effect."
+       "Chance on hit: Increases Strength by 200 for 12 sec."
       ],
-      "req": "",
+      "req": "Requires Level 52",
       "reqClass": "",
-      "dur": "Durability 100 / 100",
-      "sell": 35098,
-      "desc": ""
+      "dur": "Durability 120 / 120",
+      "sell": 70024,
+      "desc": "To claim one's destiny requires the strength to reach out and grasp it.",
+      "weapon": {
+       "dmg": "155 - 233 Damage",
+       "speed": "Speed 3.60",
+       "dps": "(53.9 damage per second)"
+      }
      }
     },
     {
@@ -6174,19 +6067,15 @@
     "trees": [
      {
       "name": "Arms",
-      "points": 3
+      "points": 32
      },
      {
       "name": "Fury",
-      "points": 17
-     },
-     {
-      "name": "Protection",
-      "points": 31
+      "points": 19
      }
     ],
-    "split": "3/17/31",
-    "main": "Protection"
+    "split": "32/19",
+    "main": "Arms"
    },
    "professions": {
     "primaries": [
@@ -6206,9 +6095,9 @@
     "secondaries": [
      {
       "name": "Cooking",
-      "skill": 230,
+      "skill": 300,
       "max": 300,
-      "recipes": 24
+      "recipes": 25
      },
      {
       "name": "Fishing",
@@ -6235,7 +6124,7 @@
     {
      "k": "health",
      "label": "Health",
-     "v": 4149
+     "v": 3939
     },
     {
      "k": "power",
@@ -6245,7 +6134,7 @@
     {
      "k": "strength",
      "label": "Strength",
-     "v": 230
+     "v": 247
     },
     {
      "k": "agility",
@@ -6255,7 +6144,7 @@
     {
      "k": "stamina",
      "label": "Stamina",
-     "v": 264
+     "v": 243
     },
     {
      "k": "intellect",
@@ -6265,22 +6154,22 @@
     {
      "k": "spirit",
      "label": "Spirit",
-     "v": 68
+     "v": 60
     },
     {
      "k": "armor",
      "label": "Armor",
-     "v": 6104
+     "v": 3778
     },
     {
      "k": "attack_power",
      "label": "Attack power",
-     "v": 660
+     "v": 722
     },
     {
      "k": "ranged_attack_power",
      "label": "Ranged attack power",
-     "v": 354
+     "v": 382
     },
     {
      "k": "spell_power",
@@ -6290,37 +6179,37 @@
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 13.81,
+     "v": 14.85,
      "p": 1
     },
     {
      "k": "ranged_crit",
      "label": "Ranged crit",
-     "v": 2,
+     "v": 3,
      "p": 1
     },
     {
      "k": "spell_crit",
      "label": "Spell crit",
-     "v": 2,
+     "v": 3,
      "p": 1
     },
     {
      "k": "dodge",
      "label": "Dodge",
-     "v": 11.18,
+     "v": 10.46,
      "p": 1
     },
     {
      "k": "parry",
      "label": "Parry",
-     "v": 9.48,
+     "v": 8.76,
      "p": 1
     },
     {
      "k": "block",
      "label": "Block",
-     "v": 13.48,
+     "v": 5.76,
      "p": 1
     },
     {
@@ -6343,28 +6232,28 @@
      {
       "name": "Stormwind",
       "standing": "Revered",
-      "v": 4141,
+      "v": 4516,
       "max": 21000,
       "tier": 6
      },
      {
       "name": "Darnassus",
       "standing": "Revered",
-      "v": 173,
+      "v": 361,
       "max": 21000,
       "tier": 6
      },
      {
       "name": "Ironforge",
       "standing": "Honored",
-      "v": 10546,
+      "v": 10658,
       "max": 12000,
       "tier": 5
      },
      {
       "name": "Gnomeregan Exiles",
       "standing": "Honored",
-      "v": 5122,
+      "v": 5235,
       "max": 12000,
       "tier": 5
      },
@@ -6398,7 +6287,7 @@
     "pets": 6,
     "toys": 3
    },
-   "questsDone": 1223
+   "questsDone": 1230
   },
   {
    "friend": "Ash",
@@ -7327,10 +7216,10 @@
    "surname": "Crownrend",
    "fullName": "Xerxes Crownrend",
    "level": 59,
-   "experience": 8040,
+   "experience": 15846,
    "xpToLevel": 209800,
-   "xpPct": 3.83,
-   "levelProgress": 59.04,
+   "xpPct": 7.55,
+   "levelProgress": 59.08,
    "className": "Warrior",
    "classId": 1,
    "race": "Night Elf",
@@ -7339,7 +7228,7 @@
    "faction": "ALLIANCE",
    "ruleset": "PvP",
    "achievementPoints": 0,
-   "lastLogin": 1795729801000,
+   "lastLogin": 1795878208000,
    "apiItemLevel": 0,
    "gear": [
     {
@@ -7413,7 +7302,7 @@
       "spells": [],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 79 / 80",
+      "dur": "Durability 78 / 80",
       "sell": 16666,
       "desc": ""
      }
@@ -7502,7 +7391,7 @@
       ],
       "req": "",
       "reqClass": "",
-      "dur": "Durability 80 / 80",
+      "dur": "Durability 79 / 80",
       "sell": 16666,
       "desc": ""
      }
@@ -7581,7 +7470,7 @@
       "spells": [],
       "req": "Requires Level 40",
       "reqClass": "",
-      "dur": "Durability 114 / 115",
+      "dur": "Durability 113 / 115",
       "sell": 5197,
       "desc": ""
      }
@@ -8102,7 +7991,7 @@
       "spells": [],
       "req": "Requires Level 51",
       "reqClass": "",
-      "dur": "Durability 97 / 100",
+      "dur": "Durability 95 / 100",
       "sell": 25698,
       "desc": ""
      }
@@ -8256,12 +8145,12 @@
     {
      "k": "attack_power",
      "label": "Attack power",
-     "v": 598
+     "v": 648
     },
     {
      "k": "ranged_attack_power",
      "label": "Ranged attack power",
-     "v": 290
+     "v": 340
     },
     {
      "k": "spell_power",
@@ -8271,7 +8160,7 @@
     {
      "k": "melee_crit",
      "label": "Melee crit",
-     "v": 14.3,
+     "v": 14.34,
      "p": 1
     },
     {
@@ -8367,11 +8256,11 @@
    },
    "achievements": {
     "points": 0,
-    "count": 13,
+    "count": 14,
     "recent": [
+     "Journeyman Alchemist",
      "Explore Moonglade",
-     "Explore Felwood",
-     "Expert Engineer"
+     "Explore Felwood"
     ]
    },
    "collections": {
@@ -8379,7 +8268,7 @@
     "pets": 4,
     "toys": 2
    },
-   "questsDone": 1058
+   "questsDone": 1061
   },
   {
    "friend": "Ash",
